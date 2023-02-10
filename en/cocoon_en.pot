@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-02-10T17:17:51+00:00\n"
-"PO-Revision-Date: 2023-02-10 17:25\n"
+"PO-Revision-Date: 2023-02-10 17:30\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: cocoon-test\n"
@@ -34,7 +34,7 @@ msgstr ""
 
 #. Author of the theme
 msgid "わいひら"
-msgstr ""
+msgstr "yhira"
 
 #. Author URI of the theme
 msgid "https://nelog.jp/"
@@ -42,7 +42,7 @@ msgstr ""
 
 #: blocks/src/init.php:279
 msgid "Cocoonブロック"
-msgstr ""
+msgstr "Cocoon Blocks"
 
 #: blocks/src/init.php:284
 msgid "Cocoon汎用ブロック"
