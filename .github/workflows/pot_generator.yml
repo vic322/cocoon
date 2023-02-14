@@ -19,7 +19,7 @@ jobs:
         BASE_BRANCH="crowdin-source"
 
         git checkout -b $BASE_BRANCH || git branch $BASE_BRANCH
-        git pull ${{ github.ref_name }} -f
+        git pull $GITHUB_REF -f
 
         # Download WP CLI
         curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
