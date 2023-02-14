@@ -36,9 +36,6 @@ jobs:
           git commit -m "POT File Regenerated"
           git push "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY"
         fi
-
-        # Create Pull Request
-        gh pr create --base $BASE_BRANCH --head ${{ github.ref_name }} --title "POT File Regenerated" --body ""
       env:
         SAVE_DIR: 'languages'
         DOMAIN: 'cocoon'
