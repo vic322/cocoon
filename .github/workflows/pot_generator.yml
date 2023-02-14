@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - develop
 
 jobs:
   WP_POT_Generator:
@@ -15,6 +16,9 @@ jobs:
       run: |
         THEME_ROOT="/home/runner/work/cocoon/cocoon"
         SAVE_FULL_PATH="$THEME_ROOT/$SAVE_DIR/$DOMAIN.pot"
+        BASE_BRANCH="crowdin-source"
+
+        git checkout -b $BASE_BRANCH
 
         # Download WP CLI
         curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
@@ -24,7 +28,7 @@ jobs:
         # Regenerate POT file
         wp i18n make-pot "$THEME_ROOT" "$SAVE_FULL_PATH" --domain="$DOMAIN" --exclude="languages/*,plugins/*,blocks/dist/*,node_modules/*" --skip-audit --ignore-domain
 
-        # Commit regenerated POT file to a master branch
+        # Commit regenerated POT file to a BASE_BRANCH
         git config --global user.name "Github Runner"
         git config --global user.email "githubactionsbot@noreply"
         if [ "$(git status --porcelain)" != "" ]; then
@@ -32,6 +36,9 @@ jobs:
           git commit -m "POT File Regenerated"
           git push "https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY"
         fi
+
+        # Create Pull Request
+        gh pr create --base $BASE_BRANCH --head ${{ github.ref_name }} --title "POT File Regenerated" --body ""
       env:
         SAVE_DIR: 'languages'
         DOMAIN: 'cocoon'
