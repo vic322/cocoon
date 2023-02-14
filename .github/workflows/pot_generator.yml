@@ -8,8 +8,8 @@ jobs:
   WP_POT_Generator:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
     - name: Wordpress POT Generation
+      uses: actions/checkout@v3
       shell: bash
       run: |
         THEME_ROOT="/home/runner/work/cocoon/cocoon"
@@ -26,8 +26,8 @@ jobs:
         SAVE_DIR: 'languages'
         DOMAIN: 'cocoon'
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - uses: peter-evans/create-pull-request@v4
     - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v4
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         base: master
