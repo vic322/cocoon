@@ -18,7 +18,8 @@ jobs:
         SAVE_FULL_PATH="$THEME_ROOT/$SAVE_DIR/$DOMAIN.pot"
         BASE_BRANCH="crowdin-source"
 
-        git checkout -b $BASE_BRANCH
+        git checkout -b $BASE_BRANCH || git branch $BASE_BRANCH
+        git pull ${{ github.ref_name }} -f
 
         # Download WP CLI
         curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
