@@ -8,8 +8,8 @@ jobs:
   WP_POT_Generator:
     runs-on: ubuntu-latest
     steps:
-    - name: Wordpress POT Generation
     - uses: actions/checkout@v3
+    - name: Wordpress POT Generation
       shell: bash
       run: |
         THEME_ROOT="/home/runner/work/cocoon/cocoon"
