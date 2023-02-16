@@ -4,9 +4,9 @@ on:
   push:
     branches: [develop]
     paths-ignore:
-      - 'languages/*'
-      - '.github/*'
-      - '.vscode/*'
+      - 'languages/**'
+      - '.github/**'
+      - '.vscode/**'
 
 jobs:
   WP_POT_Generator:
