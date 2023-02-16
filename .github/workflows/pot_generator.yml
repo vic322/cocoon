@@ -3,6 +3,8 @@ on:
   workflow_dispatch:
   push:
     branches: [master, develop]
+    paths-ignore:
+      - 'languages/*'
 
 jobs:
   WP_POT_Generator:
