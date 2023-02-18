@@ -24,7 +24,7 @@ jobs:
         THEME_ROOT="/home/runner/work/cocoon/cocoon"
         LANGUAGES_PATH="$THEME_ROOT/languages"
         cd $LANGUAGES_PATH
-        ls cocoon-*.pot | sed -r 's/cocoon-//g' | sed -r 's/.pot//g' | xargs -I LOCALE ../node_modules/po2json/bin/po2json -f jed1.x ${LANGUAGES_PATH}/cocoon-LOCALE.pot ${LANGUAGES_PATH}/cocoon-LOCALE-cocoon-blocks-js.json
+        ls cocoon-*.pot | sed -r 's/cocoon-//g' | sed -r 's/.pot//g' | xargs -I LOCALE po2json -f jed1.x ${LANGUAGES_PATH}/cocoon-LOCALE.pot ${LANGUAGES_PATH}/cocoon-LOCALE-cocoon-blocks-js.json
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Create Pull Request
