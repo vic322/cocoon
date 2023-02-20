@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-02-18T14:35:51+00:00\n"
-"PO-Revision-Date: 2023-02-20 15:28\n"
+"PO-Revision-Date: 2023-02-20 15:50\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4787,7 +4787,7 @@ msgstr "Enter a Google Analytics 4 tracking ID. If a tag manager tracking ID has
 
 #: lib/page-settings/analytics-forms.php:101
 msgid "GA4はAMP対応していません。"
-msgstr ""
+msgstr "GA4 does not support AMP"
 
 #: lib/page-settings/analytics-forms.php:101
 msgid "よってGoogle非推奨の方法でAMPページの計測を行なっておりますが動作を保証するものではありません。。"
