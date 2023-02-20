@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-02-16T14:18:46+00:00\n"
-"PO-Revision-Date: 2023-02-18 14:52\n"
+"PO-Revision-Date: 2023-02-20 11:13\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2260,7 +2260,7 @@ msgstr "JAVA"
 
 #: lib/gutenberg.php:282
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: lib/gutenberg.php:286
 msgid "Less"
