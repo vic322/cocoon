@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-02-19T13:37:47+00:00\n"
-"PO-Revision-Date: 2023-02-21 13:25\n"
+"PO-Revision-Date: 2023-03-28 13:14\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -6550,8 +6550,8 @@ msgid "タグ選択をチェックリスト形式にする"
 msgstr "Make tag selection into checklist format"
 
 #: lib/page-settings/editor-forms.php:73
-msgid "エディターでチェックリストを選択する形でタグを選択する用に変更します。"
-msgstr "Change it for selecting tags by selecting the checklist in the editor."
+msgid "エディターでチェックリストを選択する形でタグを選択する様に変更します。"
+msgstr ""
 
 #: lib/page-settings/editor-forms.php:87
 msgid "ブロックエディター設定"
