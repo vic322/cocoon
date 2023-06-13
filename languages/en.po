@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-02-19T13:37:47+00:00\n"
-"PO-Revision-Date: 2023-06-13 13:41\n"
+"PO-Revision-Date: 2023-06-13 14:08\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -22,11 +22,11 @@ msgstr ""
 
 #. Theme Name of the theme
 msgid "Cocoon"
-msgstr ""
+msgstr "Cocoon"
 
 #. Theme URI of the theme
 msgid "https://wp-cocoon.com/"
-msgstr ""
+msgstr "https://wp-cocoon.com/"
 
 #. Description of the theme
 msgid "SEO・高速化・モバイルファースト最適化済みの無料テーマ。"
@@ -34,11 +34,11 @@ msgstr ""
 
 #. Author of the theme
 msgid "わいひら"
-msgstr ""
+msgstr "yhira"
 
 #. Author URI of the theme
 msgid "https://nelog.jp/"
-msgstr ""
+msgstr "https://nelog.jp/"
 
 #: blocks/src/init.php:280
 msgid "Cocoonブロック"
@@ -12294,7 +12294,7 @@ msgstr "Person"
 
 #: blocks/src/block/balloon/edit.js:211
 msgid "吹き出し色設定"
-msgstr ""
+msgstr "Speech balloon color setting"
 
 #: blocks/src/block/balloon/index.js:23
 #: blocks/src/old/balloon-ex-fix1/block.js:62
