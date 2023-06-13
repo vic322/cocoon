@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-02-19T13:37:47+00:00\n"
-"PO-Revision-Date: 2023-06-13 13:20\n"
+"PO-Revision-Date: 2023-06-13 13:41\n"
 "X-Generator: WP-CLI 2.7.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -11963,7 +11963,7 @@ msgstr "Home"
 
 #: tmp/button-go-to-top.php:19
 msgid "トップへ戻る"
-msgstr ""
+msgstr "Back to top"
 
 #: tmp/content.php:97
 msgid "この記事は<span class=\"bold\">約%s分</span>で読めます。"
