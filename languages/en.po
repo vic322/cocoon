@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-06-13T15:45:20+00:00\n"
-"PO-Revision-Date: 2023-06-13 15:46\n"
+"PO-Revision-Date: 2023-06-13 15:49\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -810,17 +810,17 @@ msgstr "Button"
 #: lib/admin-tinymce-qtag.php:966
 #: lib/admin-tinymce-qtag.php:1277
 msgid "ブラック（小）"
-msgstr ""
+msgstr "Black (small)"
 
 #: lib/admin-tinymce-qtag.php:971
 #: lib/admin-tinymce-qtag.php:1283
 msgid "ブラック（中）"
-msgstr ""
+msgstr "Black (medium)"
 
 #: lib/admin-tinymce-qtag.php:976
 #: lib/admin-tinymce-qtag.php:1289
 msgid "ブラック（大）"
-msgstr ""
+msgstr "Black (large)"
 
 #: lib/admin-tinymce-qtag.php:982
 #: lib/admin-tinymce-qtag.php:1295
@@ -1842,7 +1842,7 @@ msgstr "Refresh your page"
 
 #: lib/custom-fields/page-field.php:48
 msgid "1カラム（フルワイド）"
-msgstr ""
+msgstr "Single column (full wide)"
 
 #: lib/custom-fields/page-field.php:49
 msgid "1カラム（広い）"
@@ -1854,7 +1854,7 @@ msgstr "One column (narrow)"
 
 #: lib/custom-fields/page-field.php:51
 msgid "本文のみ（フルワイド）"
-msgstr ""
+msgstr "Body only (full wide)"
 
 #: lib/custom-fields/page-field.php:52
 msgid "本文のみ（広い）"
@@ -4639,7 +4639,7 @@ msgstr "Enable the AMP feature"
 #: lib/page-settings/amp-forms.php:27
 #: lib/page-settings/pwa-forms.php:36
 msgid "（非推奨）"
-msgstr ""
+msgstr "(not recommended)"
 
 #: lib/page-settings/amp-forms.php:28
 msgid "有効化することで、AMP機能が有効化され高速表示されます。※AMP対応するページは投稿・固定ページのみです。"
@@ -5262,7 +5262,7 @@ msgstr "Enter your Yahoo! Shopping ID for the Moshimo affiliate."
 
 #: lib/page-settings/apis-forms.php:267
 msgid "楽天キャッシュの保存期間"
-msgstr ""
+msgstr "Rakuten cache retention period"
 
 #: lib/page-settings/apis-forms.php:273
 msgid "APIキャッシュのリフレッシュ間隔を設定します。1～3650日の間隔を選べます。間隔が短いほどAPIのリクエスト制限にかかる可能性が高くなりますのでご注意ください。アクセス数の多いサイトは長めに設定しておくことをおすすめします。"
@@ -5270,7 +5270,7 @@ msgstr "Set the API cache refresh interval. You can choose an interval of 1 to 3
 
 #: lib/page-settings/apis-forms.php:273
 msgid "Amazon APIのキャッシュは利用規約により24時間で更新されます。"
-msgstr ""
+msgstr "The Amazon API cache is updated every 24 hours according to the terms of service."
 
 #: lib/page-settings/apis-forms.php:282
 msgid "https://affiliate.amazon.co.jp/help/operating/paapilicenseagreement"
@@ -6437,7 +6437,7 @@ msgstr "Contributor name display"
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿・固定ページの「投稿日・更新日・投稿者名」を表示するかどうか。"
-msgstr ""
+msgstr "Display posted date, update date, and author name of a post/fixed page or not."
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿日・更新日が同じ日付の場合は投稿日のみが表示されます。"
@@ -7510,7 +7510,7 @@ msgstr "Comment count display"
 
 #: lib/page-settings/index-forms.php:234
 msgid "インデックスページのエントリーカードに投稿関連情報を表示するかどうか。"
-msgstr ""
+msgstr "Display post related information in entry cards of index pages or not."
 
 #: lib/page-settings/index-forms.php:242
 #: lib/page-settings/single-forms.php:366
@@ -8322,7 +8322,7 @@ msgstr "Display updated date only"
 
 #: lib/page-settings/seo-forms.php:115
 msgid "表示する日付形式を選択してください。表示する日付によって検索エンジンへの伝わり方が変わる可能性があります。"
-msgstr ""
+msgstr "Select the date format to display. The way it transmitted to search engines may change by the date displayed."
 
 #: lib/page-settings/single-forms.php:13
 msgid "カテゴリー・タグ表示設定"
@@ -8512,7 +8512,7 @@ msgstr "Sets the maximum number of characters when displaying \"Auto-generated f
 
 #: lib/page-settings/single-forms.php:267
 msgid "投稿の関連記事のエントリーカードに投稿関連情報を表示するかどうか。"
-msgstr ""
+msgstr "Display post related information in entry cards of related post pages or not."
 
 #: lib/page-settings/single-forms.php:280
 msgid "ページ送りナビ設定"
@@ -8830,7 +8830,7 @@ msgstr "Front page"
 #: lib/page-settings/sns-share-forms-bottom.php:112
 #: lib/page-settings/sns-share-forms-top.php:99
 msgid "（インデックスページ）"
-msgstr ""
+msgstr "(Index page)"
 
 #: lib/page-settings/sns-follow-forms.php:119
 msgid "フォローボタンを表示するページを選択してください。"
@@ -9589,7 +9589,7 @@ msgstr "When there are more than ... heading?"
 
 #: lib/page-settings/toc-forms.php:127
 msgid "設定した数以上の見出し数がある時のみ表示されます。"
-msgstr ""
+msgstr "The table of contents is displayed only when the number of heading items is equal to or more than the set number."
 
 #: lib/page-settings/toc-forms.php:135
 #: lib/widgets/toc.php:90
@@ -10442,7 +10442,7 @@ msgstr "Separator line"
 
 #: lib/settings.php:550
 msgid "（縦型表示時のみ）"
-msgstr ""
+msgstr "(only for vertical display)"
 
 #: lib/settings.php:552
 msgid "カード自体を罫線で囲みます。"
@@ -11359,7 +11359,7 @@ msgstr "CTA button color"
 
 #: lib/widgets/cta-box.php:164
 msgid "黒色"
-msgstr ""
+msgstr "Black"
 
 #: lib/widgets/cta-box.php:168
 msgid "深紫"
@@ -12186,189 +12186,189 @@ msgstr "Copy"
 
 #: blocks/src/block-extension/style-extension/block.js:50
 msgid "薄背景"
-msgstr ""
+msgstr "Light gray background"
 
 #: blocks/src/block-extension/style-extension/block.js:54
 msgid "ストライプ"
-msgstr ""
+msgstr "Stripe"
 
 #: blocks/src/block-extension/style-extension/block.js:58
 msgid "方眼紙"
-msgstr ""
+msgstr "Graph paper"
 
 #: blocks/src/block-extension/style-extension/block.js:66
 msgid "ステッチ"
-msgstr ""
+msgstr "Stitch"
 
 #: blocks/src/block-extension/style-extension/block.js:70
 msgid "かぎ括弧"
-msgstr ""
+msgstr "Brackets"
 
 #: blocks/src/block-extension/style-extension/block.js:74
 msgid "角括弧"
-msgstr ""
+msgstr "Square brackets"
 
 #: blocks/src/block-extension/style-extension/block.js:82
 msgid "ずれた二重線"
-msgstr ""
+msgstr "Diverged double line"
 
 #: blocks/src/block-extension/style-extension/block.js:86
 msgid "角三角"
-msgstr ""
+msgstr "Triangle corners"
 
 #: blocks/src/block-extension/style-extension/block.js:90
 msgid "クリップ"
-msgstr ""
+msgstr "Clip"
 
 #: blocks/src/block-extension/style-extension/block.js:94
 msgid "ホチキス"
-msgstr ""
+msgstr "Stapler"
 
 #: blocks/src/block-extension/style-extension/block.js:98
 msgid "ホチキス左上"
-msgstr ""
+msgstr "Top left stapler"
 
 #: blocks/src/block-extension/style-extension/block.js:102
 msgid "穴あけパンチ"
-msgstr ""
+msgstr "Paper punch"
 
 #: blocks/src/block-extension/style-extension/block.js:106
 msgid "手書き風"
-msgstr ""
+msgstr "Handwritten style"
 
 #: blocks/src/block-extension/style-extension/block.js:110
 msgid "上線"
-msgstr ""
+msgstr "Upper line"
 
 #: blocks/src/block-extension/style-extension/block.js:114
 msgid "付箋"
-msgstr ""
+msgstr "Sticky note"
 
 #: blocks/src/block-extension/style-extension/block.js:118
 msgid "左吹き出し"
-msgstr ""
+msgstr "Left speech balloon"
 
 #: blocks/src/block-extension/style-extension/block.js:122
 msgid "右吹き出し"
-msgstr ""
+msgstr "Right speech balloon"
 
 #: blocks/src/block-extension/style-extension/block.js:126
 msgid "上吹き出し"
-msgstr ""
+msgstr "Top speech balloon"
 
 #: blocks/src/block-extension/style-extension/block.js:130
 msgid "下吹き出し"
-msgstr ""
+msgstr "Bottom speech balloon"
 
 #: blocks/src/block-extension/style-extension/block.js:134
 msgid "情報"
-msgstr ""
+msgstr "Information"
 
 #: blocks/src/block-extension/style-extension/block.js:138
 msgid "質問"
-msgstr ""
+msgstr "Question"
 
 #: blocks/src/block-extension/style-extension/block.js:142
 msgid "アラート"
-msgstr ""
+msgstr "Alert"
 
 #: blocks/src/block-extension/style-extension/block.js:162
 msgid "グッド"
-msgstr ""
+msgstr "Thumbs up"
 
 #: blocks/src/block-extension/style-extension/block.js:166
 msgid "バッド"
-msgstr ""
+msgstr "Thumbs down"
 
 #: blocks/src/block-extension/style-extension/block.js:181
 msgid "実線"
-msgstr ""
+msgstr "Solid line"
 
 #: blocks/src/block-extension/style-extension/block.js:185
 msgid "二重線"
-msgstr ""
+msgstr "Double lines"
 
 #: blocks/src/block-extension/style-extension/block.js:189
 msgid "破線"
-msgstr ""
+msgstr "Dashed line"
 
 #: blocks/src/block-extension/style-extension/block.js:193
 msgid "点線"
-msgstr ""
+msgstr "Dotted line"
 
 #: blocks/src/block-extension/style-extension/block.js:197
 msgid "薄太"
-msgstr ""
+msgstr "Thin and thick"
 
 #: blocks/src/block-extension/style-extension/block.js:201
 msgid "微凸"
-msgstr ""
+msgstr "Slight convex"
 
 #: blocks/src/block-extension/style-extension/block.js:205
 msgid "実線(角丸小)"
-msgstr ""
+msgstr "Solid line (small rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:209
 msgid "二重線(角丸小)"
-msgstr ""
+msgstr "Double line (small rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:213
 msgid "破線(角丸小)"
-msgstr ""
+msgstr "Dashed line (small rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:217
 msgid "点線(角丸小)"
-msgstr ""
+msgstr "Dotted line (small rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:221
 msgid "薄太(角丸小)"
-msgstr ""
+msgstr "Thin and thick (small rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:225
 msgid "微凸(角丸小)"
-msgstr ""
+msgstr "Slight convex (small rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:229
 msgid "実線(角丸大)"
-msgstr ""
+msgstr "Sold line (large rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:233
 msgid "二重線(角丸大)"
-msgstr ""
+msgstr "Double line (large rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:237
 msgid "破線(角丸大)"
-msgstr ""
+msgstr "Dashed line (large rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:241
 msgid "点線(角丸大)"
-msgstr ""
+msgstr "Dotted line (large rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:245
 msgid "薄太(角丸大)"
-msgstr ""
+msgstr "Thin and thick (large rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:249
 msgid "微凸(角丸大)"
-msgstr ""
+msgstr "Slight convex (large rounded corners)"
 
 #: blocks/src/block-extension/style-extension/block.js:261
 msgid "[C] ボーダー設定"
-msgstr ""
+msgstr "[C] Border Settings"
 
 #: blocks/src/block-extension/style-extension/block.js:273
 #: blocks/src/block-extension/style-extension/block.js:341
 msgid "ボーダーをクリア"
-msgstr ""
+msgstr "Clear border"
 
 #: blocks/src/block-extension/style-extension/block.js:346
 msgid "[C] スタイル"
-msgstr ""
+msgstr "[C] Style Settings"
 
 #: blocks/src/block-extension/style-extension/block.js:358
 #: blocks/src/block-extension/style-extension/block.js:425
 msgid "スタイルをクリア"
-msgstr ""
+msgstr "Clear style"
 
 #: blocks/src/block-universal/caption-box/edit.js:69
 #: blocks/src/block-universal/label-box/edit.js:69
@@ -12801,7 +12801,7 @@ msgstr "Displays the list of new information."
 #: blocks/src/block/new-list/edit.js:83
 #: blocks/src/block/popular-list/edit.js:82
 msgid "表示カテゴリー選択"
-msgstr ""
+msgstr "Display categories"
 
 #: blocks/src/block/new-list/edit.js:95
 #: blocks/src/block/popular-list/edit.js:94
@@ -12912,23 +12912,23 @@ msgstr "Display the list of new articles."
 
 #: blocks/src/block/popular-list/edit.js:107
 msgid "除外するカテゴリーをカンマ区切りで指定"
-msgstr ""
+msgstr "Specify categories to exclude, separated by commas"
 
 #: blocks/src/block/popular-list/edit.js:112
 msgid "除外カテゴリー選択"
-msgstr ""
+msgstr "Excluded categories"
 
 #: blocks/src/block/popular-list/edit.js:136
 msgid "データの集計期間"
-msgstr ""
+msgstr "Data aggregation period"
 
 #: blocks/src/block/popular-list/edit.js:147
 msgid "1日"
-msgstr ""
+msgstr "1 day"
 
 #: blocks/src/block/popular-list/edit.js:175
 msgid "半年"
-msgstr ""
+msgstr "Half year"
 
 #: blocks/src/block/popular-list/edit.js:205
 msgid "全期間集計"
