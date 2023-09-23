@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-09-23T15:35:13+00:00\n"
-"PO-Revision-Date: 2023-09-23 15:36\n"
+"PO-Revision-Date: 2023-09-23 16:12\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1312,7 +1312,7 @@ msgstr ""
 #: lib/page-backup/backup-forms.php:24
 #: lib/page-backup/_top-page.php:40
 msgid "バックアップ"
-msgstr ""
+msgstr "Cópias de segurança"
 
 #: lib/admin.php:504
 #: lib/original-menu.php:48
@@ -1751,7 +1751,7 @@ msgstr ""
 #: lib/custom-fields/other-field.php:20
 #: lib/page-settings/_top-page.php:267
 msgid "その他"
-msgstr ""
+msgstr "Outro"
 
 #: lib/custom-fields/other-field.php:31
 msgid "アーカイブに出力しない"
@@ -2037,7 +2037,7 @@ msgstr ""
 
 #: lib/custom-fields/update-field.php:34
 msgid "更新"
-msgstr ""
+msgstr "Atualializado"
 
 #: lib/custom-fields/update-field.php:35
 msgid "更新しない"
@@ -2395,7 +2395,7 @@ msgstr ""
 
 #: lib/html-forms.php:592
 msgid "クリア"
-msgstr ""
+msgstr "Borrar"
 
 #: lib/html-forms.php:599
 msgid "大きな画像は縮小して表示されます。"
@@ -6819,7 +6819,7 @@ msgstr ""
 
 #: lib/page-settings/header-forms.php:113
 msgid " × "
-msgstr ""
+msgstr "×"
 
 #: lib/page-settings/header-forms.php:114
 msgid "高さ："
@@ -8676,7 +8676,7 @@ msgstr ""
 
 #: lib/page-settings/sns-follow-forms.php:78
 msgid "YouTube"
-msgstr ""
+msgstr "Globo.com"
 
 #: lib/page-settings/sns-follow-forms.php:79
 #: lib/page-settings/sns-share-forms-bottom.php:89
@@ -9390,11 +9390,11 @@ msgstr ""
 
 #: lib/page-settings/title-funcs.php:22
 msgid " - "
-msgstr ""
+msgstr "-"
 
 #: lib/page-settings/title-funcs.php:25
 msgid " | "
-msgstr ""
+msgstr "|"
 
 #: lib/page-settings/toc-forms.php:13
 msgid "目次設定"
