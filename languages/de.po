@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-09-23T15:35:13+00:00\n"
-"PO-Revision-Date: 2023-09-23 15:36\n"
+"PO-Revision-Date: 2023-09-23 16:12\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -97,17 +97,17 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:24
 #: lib/tinymce/html-tags.php:136
 msgid "ふりがな"
-msgstr ""
+msgstr "Furigana"
 
 #: lib/admin-tinymce-qtag.php:25
 #: lib/admin-tinymce-qtag.php:81
 msgid "太字"
-msgstr ""
+msgstr "Fett Text"
 
 #: lib/admin-tinymce-qtag.php:26
 #: lib/admin-tinymce-qtag.php:86
 msgid "赤字"
-msgstr ""
+msgstr "Haushaltssaldo"
 
 #: lib/admin-tinymce-qtag.php:27
 msgid "太い赤字"
@@ -190,7 +190,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:78
 msgid "インライン"
-msgstr ""
+msgstr "Inline"
 
 #: lib/admin-tinymce-qtag.php:91
 #: blocks/src/toolbutton/bold-red.js:14
@@ -203,7 +203,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:101
 msgid "青"
-msgstr ""
+msgstr "blau"
 
 #: lib/admin-tinymce-qtag.php:106
 #: blocks/src/toolbutton/bold-blue.js:14
@@ -212,7 +212,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:111
 msgid "緑"
-msgstr ""
+msgstr "Grün"
 
 #: lib/admin-tinymce-qtag.php:116
 #: blocks/src/toolbutton/bold-green.js:14
@@ -763,7 +763,7 @@ msgstr "Linke Seite"
 #: lib/admin-tinymce-qtag.php:927
 #: lib/admin-tinymce-qtag.php:948
 msgid "中央"
-msgstr ""
+msgstr "Center"
 
 #: lib/admin-tinymce-qtag.php:892
 #: lib/admin-tinymce-qtag.php:912
@@ -1250,7 +1250,7 @@ msgstr ""
 
 #: lib/admin.php:426
 msgid "メニュー"
-msgstr ""
+msgstr "Menu"
 
 #: lib/admin.php:433
 msgid "テーマの編集"
@@ -1751,7 +1751,7 @@ msgstr ""
 #: lib/custom-fields/other-field.php:20
 #: lib/page-settings/_top-page.php:267
 msgid "その他"
-msgstr ""
+msgstr "Sonstiges"
 
 #: lib/custom-fields/other-field.php:31
 msgid "アーカイブに出力しない"
@@ -1887,7 +1887,7 @@ msgstr ""
 #: lib/custom-fields/review-field.php:19
 #: lib/custom-fields/review-field.php:21
 msgid "レビュー"
-msgstr ""
+msgstr "Rezensionen"
 
 #: lib/custom-fields/review-field.php:32
 msgid "評価を表示する"
@@ -1907,7 +1907,7 @@ msgstr ""
 
 #: lib/custom-fields/review-field.php:43
 msgid "ゲーム"
-msgstr ""
+msgstr "Spiel"
 
 #: lib/custom-fields/review-field.php:44
 msgid "プレイリスト形式の音楽トラックのコレクション"
@@ -2037,7 +2037,7 @@ msgstr ""
 
 #: lib/custom-fields/update-field.php:34
 msgid "更新"
-msgstr ""
+msgstr "Aktualisier am"
 
 #: lib/custom-fields/update-field.php:35
 msgid "更新しない"
@@ -2063,17 +2063,17 @@ msgstr ""
 #: lib/custom-fields/update-field.php:85
 #: lib/custom-fields/update-field.php:87
 msgid "年"
-msgstr ""
+msgstr "Jahr"
 
 #: lib/custom-fields/update-field.php:89
 msgid "月"
-msgstr ""
+msgstr "Monat"
 
 #: lib/custom-fields/update-field.php:99
 #: lib/custom-fields/update-field.php:101
 #: lib/page-settings/apis-forms.php:263
 msgid "日"
-msgstr ""
+msgstr "Tag"
 
 #: lib/dashboard-message.php:38
 msgid "Guidance on COVID-19:"
@@ -2140,11 +2140,11 @@ msgstr "Braun"
 
 #: lib/gutenberg.php:110
 msgid "黒"
-msgstr ""
+msgstr "Schwarz"
 
 #: lib/gutenberg.php:115
 msgid "白"
-msgstr ""
+msgstr "weiß"
 
 #: lib/gutenberg.php:120
 msgid "淡い青"
@@ -2391,11 +2391,11 @@ msgstr ""
 
 #: lib/html-forms.php:591
 msgid "選択"
-msgstr ""
+msgstr "Selektion"
 
 #: lib/html-forms.php:592
 msgid "クリア"
-msgstr ""
+msgstr "Löschen"
 
 #: lib/html-forms.php:599
 msgid "大きな画像は縮小して表示されます。"
@@ -2650,7 +2650,7 @@ msgstr ""
 
 #: lib/page-access/access-forms.php:39
 msgid "キャッシュ"
-msgstr ""
+msgstr "Cache"
 
 #: lib/page-access/access-forms.php:43
 msgid "アクセスキャッシュの有効化"
@@ -2683,7 +2683,7 @@ msgstr ""
 #: lib/page-access/access-forms.php:61
 #: lib/page-settings/sns-share-forms.php:170
 msgid "1時間"
-msgstr ""
+msgstr "Stunde"
 
 #: lib/page-access/access-forms.php:62
 msgid "1時間半"
@@ -2857,7 +2857,7 @@ msgstr ""
 #: lib/page-item-ranking/form.php:86
 #: lib/page-speech-balloon/form.php:152
 msgid "保存"
-msgstr ""
+msgstr "Speichern"
 
 #: lib/page-affiliate-tag/list.php:21
 #: lib/page-func-text/list.php:21
@@ -2887,7 +2887,7 @@ msgstr ""
 #: lib/page-item-ranking/list.php:63
 #: lib/page-speech-balloon/list.php:73
 msgid "編集"
-msgstr ""
+msgstr "Redaktion"
 
 #: lib/page-affiliate-tag/list.php:53
 #: lib/page-func-text/list.php:53
@@ -2895,7 +2895,7 @@ msgstr ""
 #: lib/page-item-ranking/list.php:64
 #: lib/page-speech-balloon/list.php:75
 msgid "削除"
-msgstr ""
+msgstr "Löschen"
 
 #: lib/page-affiliate-tag/posts-delete.php:18
 msgid "アフィリエイトタグが削除されました。"
@@ -3005,7 +3005,7 @@ msgstr ""
 
 #: lib/page-cache/cache-forms.php:25
 msgid "すべて"
-msgstr ""
+msgstr "Aller Zeiten"
 
 #: lib/page-cache/cache-forms.php:28
 msgid "全てのキャッシュの削除"
@@ -3180,7 +3180,7 @@ msgstr ""
 #: lib/page-settings/title-forms.php:207
 #: lib/page-settings/toc-forms.php:25
 msgid "プレビュー"
-msgstr ""
+msgstr "Vorschau"
 
 #: lib/page-item-ranking/form.php:75
 msgid "タイトル（※必須）"
@@ -3228,7 +3228,7 @@ msgstr ""
 
 #: lib/page-item-ranking/form.php:131
 msgid "0.5"
-msgstr ""
+msgstr "0,5"
 
 #: lib/page-item-ranking/form.php:132
 msgid "1"
@@ -3252,7 +3252,7 @@ msgstr ""
 
 #: lib/page-item-ranking/form.php:137
 msgid "3.5"
-msgstr ""
+msgstr "3,5"
 
 #: lib/page-item-ranking/form.php:138
 msgid "4"
@@ -3344,7 +3344,7 @@ msgstr ""
 #: lib/shortcodes-rakuten.php:39
 #: lib/shortcodes-rakuten.php:42
 msgid "詳細ページ"
-msgstr ""
+msgstr "Suchseite"
 
 #: lib/page-item-ranking/item-ranking-func.php:362
 msgid "公式ページ"
@@ -4347,7 +4347,7 @@ msgstr ""
 
 #: lib/page-settings/all-forms.php:73
 msgid "フォント"
-msgstr ""
+msgstr "Schriftart"
 
 #: lib/page-settings/all-forms.php:74
 msgid "サイト全体適用されるフォントを選択します。"
@@ -4999,7 +4999,7 @@ msgstr ""
 #: lib/page-settings/apis-forms.php:108
 #: lib/page-settings/apis-funcs.php:190
 msgid "楽天"
-msgstr ""
+msgstr "Rakuten"
 
 #: lib/page-settings/apis-forms.php:114
 msgid "楽天アプリケーションID"
@@ -5286,7 +5286,7 @@ msgstr ""
 #: lib/page-settings/appeal-forms.php:55
 #: lib/page-settings/header-forms.php:68
 msgid "高さ"
-msgstr ""
+msgstr "Höhe"
 
 #: lib/page-settings/appeal-forms.php:60
 msgid "アピールエリアの高さをpx数で指定します。モバイル環境では高さは無効になります。（最小：200px、最大：800px）"
@@ -5344,7 +5344,7 @@ msgstr ""
 #: lib/widgets/fb-like-balloon.php:76
 #: lib/widgets/fb-like-box.php:106
 msgid "メッセージ"
-msgstr ""
+msgstr "Message"
 
 #: lib/page-settings/appeal-forms.php:129
 msgid "訪問者にアピールしたい内容を入力してください。"
@@ -5684,7 +5684,7 @@ msgstr ""
 #: lib/shortcodes.php:471
 #: lib/widgets/display-widgets.php:156
 msgid "カテゴリー"
-msgstr ""
+msgstr "Kategorien"
 
 #: lib/page-settings/carousel-forms.php:80
 #: lib/page-settings/editor-forms.php:67
@@ -5767,7 +5767,7 @@ msgstr ""
 
 #: lib/page-settings/carousel-forms.php:155
 msgid "秒"
-msgstr ""
+msgstr "Sekunde"
 
 #: lib/page-settings/carousel-forms.php:158
 msgid "カルーセルの自動送り間隔です。オートプレイが有効な時のみ設定した秒数ごとに入れ替わります。"
@@ -6819,7 +6819,7 @@ msgstr ""
 
 #: lib/page-settings/header-forms.php:113
 msgid " × "
-msgstr ""
+msgstr "×"
 
 #: lib/page-settings/header-forms.php:114
 msgid "高さ："
@@ -7617,7 +7617,7 @@ msgstr ""
 
 #: lib/page-settings/notice-forms.php:106
 msgid "色"
-msgstr ""
+msgstr "farben"
 
 #: lib/page-settings/notice-forms.php:111
 msgid "通知エリア背景色"
@@ -7840,7 +7840,7 @@ msgstr ""
 #: lib/page-settings/single-forms.php:309
 #: lib/page-settings/single-forms.php:404
 msgid "表示"
-msgstr ""
+msgstr "Anzeige"
 
 #: lib/page-settings/page-forms.php:28
 msgid "固定ページにコメントを表示するか。"
@@ -7933,7 +7933,7 @@ msgstr ""
 #: lib/page-settings/pwa-forms.php:51
 #: lib/page-speech-balloon/form.php:61
 msgid "名前"
-msgstr ""
+msgstr "Name"
 
 #: lib/page-settings/pwa-forms.php:55
 msgid "アプリ名"
@@ -8113,7 +8113,7 @@ msgstr ""
 #: lib/page-settings/reset-forms.php:25
 #: lib/page-settings/_top-page.php:270
 msgid "リセット"
-msgstr ""
+msgstr "Zurücksetzen"
 
 #: lib/page-settings/reset-forms.php:30
 msgid "全ての設定をリセットする"
@@ -8640,7 +8640,7 @@ msgstr ""
 
 #: lib/page-settings/sns-follow-forms.php:71
 msgid "ウェブサイト"
-msgstr ""
+msgstr "Website"
 
 #: lib/page-settings/sns-follow-forms.php:72
 #: lib/page-settings/sns-share-forms-bottom.php:68
@@ -8676,7 +8676,7 @@ msgstr ""
 
 #: lib/page-settings/sns-follow-forms.php:78
 msgid "YouTube"
-msgstr ""
+msgstr "Dailymotion"
 
 #: lib/page-settings/sns-follow-forms.php:79
 #: lib/page-settings/sns-share-forms-bottom.php:89
@@ -9178,7 +9178,7 @@ msgstr ""
 
 #: lib/page-settings/sns-share-forms.php:173
 msgid "4時間"
-msgstr ""
+msgstr "4 Stunden"
 
 #: lib/page-settings/sns-share-forms.php:174
 msgid "5時間"
@@ -9390,11 +9390,11 @@ msgstr ""
 
 #: lib/page-settings/title-funcs.php:22
 msgid " - "
-msgstr ""
+msgstr "-"
 
 #: lib/page-settings/title-funcs.php:25
 msgid " | "
-msgstr ""
+msgstr "|"
 
 #: lib/page-settings/toc-forms.php:13
 msgid "目次設定"
@@ -9445,7 +9445,7 @@ msgstr ""
 #: lib/page-settings/_top-page.php:201
 #: lib/widgets/toc.php:19
 msgid "目次"
-msgstr ""
+msgstr "Inhaltsverzeichnis"
 
 #: lib/page-settings/toc-forms.php:81
 msgid "目次の上にラベル表示されるタイトルを入力してください。"
@@ -9470,7 +9470,7 @@ msgstr ""
 #: lib/page-settings/toc-forms.php:99
 #: lib/page-settings/toc-funcs.php:70
 msgid "開く"
-msgstr ""
+msgstr "Öffnen"
 
 #: lib/page-settings/toc-forms.php:102
 msgid "閉："
@@ -9479,7 +9479,7 @@ msgstr ""
 #: lib/page-settings/toc-forms.php:103
 #: lib/page-settings/toc-funcs.php:78
 msgid "閉じる"
-msgstr ""
+msgstr "Schließen"
 
 #: lib/page-settings/toc-forms.php:104
 msgid "目次を「開く」「閉じる」のキャプションを変更します。"
@@ -9662,7 +9662,7 @@ msgstr ""
 
 #: lib/page-settings/_top-page.php:168
 msgid "ヘッダー"
-msgstr ""
+msgstr "Header"
 
 #: lib/page-settings/_top-page.php:180
 msgid "OGP"
@@ -9694,7 +9694,7 @@ msgstr ""
 
 #: lib/page-settings/_top-page.php:210
 msgid "画像"
-msgstr ""
+msgstr "Abbild"
 
 #: lib/page-settings/_top-page.php:216
 msgid "コード"
@@ -9715,7 +9715,7 @@ msgstr ""
 
 #: lib/page-settings/_top-page.php:234
 msgid "フッター"
-msgstr ""
+msgstr "Fußzeile"
 
 #: lib/page-settings/_top-page.php:240
 msgid "モバイル"
@@ -10363,11 +10363,11 @@ msgstr ""
 
 #: lib/shortcodes-amazon.php:188
 msgid "us-west-2"
-msgstr ""
+msgstr "eu-west-1"
 
 #: lib/shortcodes-amazon.php:270
 msgid "webservices.amazon.co.jp"
-msgstr ""
+msgstr "webservices.amazon.de"
 
 #: lib/shortcodes-amazon.php:467
 msgid "Amazon APIのアクセスキーもしくはシークレットキーもしくはトラッキングIDが設定されていません。「Cocoon設定」の「API」タブから入力してください。"
@@ -10652,7 +10652,7 @@ msgstr ""
 
 #: lib/tinymce/html-tags.php:140
 msgid "振り仮名"
-msgstr ""
+msgstr "Furigana"
 
 #: lib/tinymce/insert-html.php:38
 #: blocks/src/toolbutton/html.js:26
@@ -11273,7 +11273,7 @@ msgstr ""
 
 #: lib/widgets/display-widgets.php:159
 msgid "ページ"
-msgstr ""
+msgstr "Page"
 
 #: lib/widgets/display-widgets.php:163
 msgid "著者"
@@ -11641,7 +11641,7 @@ msgstr ""
 #: lib/_defins.php:174
 #: lib/_defins.php:187
 msgid "バナー"
-msgstr ""
+msgstr "Werbebanner"
 
 #: lib/_defins.php:143
 #: lib/_defins.php:175
