@@ -31,7 +31,7 @@ jobs:
 
         git add *-cocoon-blocks-js.json
         DIFF_COUNT=$(git diff --cached --numstat | wc -l)
-        if [ $DIFF_COUNT -ne 0 ] then
+        if [ $DIFF_COUNT -ne 0 ]; then
           git commit -m "PO JSON Regenerated"
           git push
         fi

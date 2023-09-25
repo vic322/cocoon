@@ -26,7 +26,7 @@ jobs:
 
         git add *.mo
         DIFF_COUNT=$(git diff --cached --numstat | wc -l)
-        if [ $DIFF_COUNT -ne 0 ] then
+        if [ $DIFF_COUNT -ne 0 ]; then
           git commit -m "MO Compiled"
           git push
         fi
