@@ -7,7 +7,7 @@ on:
       - 'languages/*.po'
 
 jobs:
-  WP_POT_TO_JSON:
+  WP_PO_TO_MO:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
