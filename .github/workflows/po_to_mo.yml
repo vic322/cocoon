@@ -1,0 +1,31 @@
+name: Convert PO to MO
+on:
+  workflow_dispatch:
+  push:
+    branches: translation_master
+    paths:
+      - 'languages/*.po'
+
+jobs:
+  WP_POT_TO_JSON:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: install gettext
+      run: apt-get install gettext
+    - name: run msgfmt
+      shell: bash
+      run: |
+        THEME_ROOT="/home/runner/work/cocoon/cocoon"
+        LANGUAGES_PATH="$THEME_ROOT/languages"
+        cd $LANGUAGES_PATH
+        ls *.po | sed -r 's/.po//g' | xargs -I LOCALE msgfmt -o $LANGUAGES_PATH/LOCALE.mo $LANGUAGES_PATH/LOCALE.po
+
+        git config user.name "GitHub Action"
+        git config user.email "github.action@noreply.com"
+
+        git add *.mo
+        git commit -m "MO Compiled"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
