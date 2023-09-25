@@ -25,7 +25,10 @@ jobs:
         git config user.email "github.action@noreply.com"
 
         git add *.mo
-        git commit -m "MO Compiled"
-        git push
+        DIFF_COUNT=$(git diff --cached --numstat | wc -l)
+        if [ $DIFF_COUNT -ne 0 ] then
+          git commit -m "MO Compiled"
+          git push
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
