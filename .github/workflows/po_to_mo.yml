@@ -19,7 +19,7 @@ jobs:
         THEME_ROOT="/home/runner/work/cocoon/cocoon"
         LANGUAGES_PATH="$THEME_ROOT/languages"
         cd $LANGUAGES_PATH
-        ls *.po | sed -r 's/.po//g' | xargs -I LOCALE msgfmt -o $LANGUAGES_PATH/LOCALE.mo $LANGUAGES_PATH/LOCALE.po
+        ls *.po | sed -r 's/.po//g' | xargs -I LOCALE msgfmt -o ${LANGUAGES_PATH}/LOCALE.mo ${LANGUAGES_PATH}/LOCALE.po
 
         git config user.name "GitHub Action"
         git config user.email "github.action@noreply.com"
