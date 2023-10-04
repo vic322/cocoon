@@ -300,7 +300,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
             generate_tips_tag(__('メインカラムの左上に「PR表記」を表示します。', THEME_NAME).get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/pr-small.png'));
 
             generate_checkbox_tag(OP_PR_LABEL_LARGE_VISIBLE, is_pr_label_large_visible(), __( '本文の上', THEME_NAME ).__( '（大）', THEME_NAME ));
-            generate_tips_tag(__('記事本文の上部に「PR表記」を挿入します。', THEME_NAME).__('カテゴリー・タグページの場合は、本文が入力されていないと表示されません。', THEME_NAME).get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/pr-large.png'));
+            generate_tips_tag(__('記事本文の上部に「PR表記」を挿入します。', THEME_NAME).get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/pr-large.png'));
           ?>
         </td>
       </tr>
@@ -348,7 +348,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
         <td>
           <?php
           generate_hierarchical_category_check_list( 0, OP_PR_LABEL_EXCLUDE_CATEGORY_IDS, get_pr_label_exclude_category_ids(), 300 );
-          generate_tips_tag(__( '「PR表記」を非表示にするカテゴリーを選択してください。', THEME_NAME ));
+          generate_tips_tag(__( '「PR表記」を非表示にするカテゴリーを選択してください。', THEME_NAME ).__( '除外したカテゴリーに属する投稿ページもまとめて非表示になります。', THEME_NAME ));
           ?>
         </td>
       </tr>
@@ -362,7 +362,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
         <td>
           <?php
           generate_textbox_tag(OP_PR_LABEL_EXCLUDE_TAG_IDS, get_pr_label_exclude_tag_ids(), __( '例：111,222,3333', THEME_NAME ));
-          generate_tips_tag(__( '「PR表記」を非表示にするタグページのIDを,（カンマ）区切りで指定してください。', THEME_NAME ));
+          generate_tips_tag(__( '「PR表記」を非表示にするタグページのIDを,（カンマ）区切りで指定してください。', THEME_NAME ).__( '除外したタグに属する投稿ページもまとめて非表示になります。', THEME_NAME ));
           ?>
         </td>
       </tr>
@@ -439,7 +439,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
             <?php
             generate_hierarchical_category_check_list( 0, OP_AD_EXCLUDE_CATEGORY_IDS, get_ad_exclude_category_ids(), 300 );
             //generate_textbox_tag(OP_AD_EXCLUDE_CATEGORY_IDS, get_ad_exclude_category_ids(), __( '例：111,222,3333', THEME_NAME ));
-            generate_tips_tag(__( '広告を非表示にするカテゴリーを選択してください。', THEME_NAME ));
+            generate_tips_tag(__( '広告を非表示にするカテゴリーを選択してください。', THEME_NAME ).__( '除外したカテゴリーに属する投稿ページもまとめて非表示になります。', THEME_NAME ));
             ?>
           </td>
         </tr>
