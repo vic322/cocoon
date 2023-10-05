@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2023-09-30T14:19:26+00:00\n"
-"PO-Revision-Date: 2023-09-30 15:03\n"
+"POT-Creation-Date: 2023-10-05T01:47:00+00:00\n"
+"PO-Revision-Date: 2023-10-05 01:47\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4271,10 +4271,6 @@ msgstr "(Large)"
 msgid "記事本文の上部に「PR表記」を挿入します。"
 msgstr "Insert a \"PR notation\" at the top of the article body."
 
-#: lib/page-settings/ads-forms.php:303
-msgid "カテゴリー・タグページの場合は、本文が入力されていないと表示されません。"
-msgstr ""
-
 #: lib/page-settings/ads-forms.php:311
 msgid "表示テキスト"
 msgstr "Displayed text"
@@ -4319,12 +4315,21 @@ msgstr "Excluded categories"
 msgid "「PR表記」を非表示にするカテゴリーを選択してください。"
 msgstr "Specify the categories for which you want to hide the \"PR notation\"."
 
+#: lib/page-settings/ads-forms.php:351
+#: lib/page-settings/ads-forms.php:442
+msgid "除外したカテゴリーに属する投稿ページもまとめて非表示になります。"
+msgstr ""
+
 #: lib/page-settings/ads-forms.php:360
 msgid "除外タグID"
 msgstr ""
 
 #: lib/page-settings/ads-forms.php:365
 msgid "「PR表記」を非表示にするタグページのIDを,（カンマ）区切りで指定してください。"
+msgstr ""
+
+#: lib/page-settings/ads-forms.php:365
+msgid "除外したタグに属する投稿ページもまとめて非表示になります。"
 msgstr ""
 
 #: lib/page-settings/ads-forms.php:377
@@ -10357,38 +10362,38 @@ msgstr "Site acceleration"
 msgid "サイト表示スピードの高速化設定を行います。"
 msgstr "The setting for acceleration of the site display speed."
 
-#: lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:56
+#: lib/plugin-update-checker/Puc/v5p2/Plugin/Ui.php:56
 msgid "View details"
 msgstr ""
 
-#: lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:79
+#: lib/plugin-update-checker/Puc/v5p2/Plugin/Ui.php:79
 msgid "More information about %s"
 msgstr ""
 
-#: lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:130
+#: lib/plugin-update-checker/Puc/v5p2/Plugin/Ui.php:130
 msgid "Check for updates"
 msgstr ""
 
-#: lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:217
+#: lib/plugin-update-checker/Puc/v5p2/Plugin/Ui.php:217
 msgctxt "the plugin title"
 msgid "The %s plugin is up to date."
 msgstr ""
 
-#: lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:219
+#: lib/plugin-update-checker/Puc/v5p2/Plugin/Ui.php:219
 msgctxt "the plugin title"
 msgid "A new version of the %s plugin is available."
 msgstr ""
 
-#: lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:221
+#: lib/plugin-update-checker/Puc/v5p2/Plugin/Ui.php:221
 msgctxt "the plugin title"
 msgid "Could not determine if updates are available for %s."
 msgstr ""
 
-#: lib/plugin-update-checker/Puc/v5p0/Plugin/Ui.php:227
+#: lib/plugin-update-checker/Puc/v5p2/Plugin/Ui.php:227
 msgid "Unknown update checker status \"%s\""
 msgstr ""
 
-#: lib/plugin-update-checker/Puc/v5p0/Vcs/PluginUpdateChecker.php:98
+#: lib/plugin-update-checker/Puc/v5p2/Vcs/PluginUpdateChecker.php:98
 msgid "There is no changelog available."
 msgstr ""
 
@@ -11814,15 +11819,15 @@ msgstr "Large skyscraper"
 msgid "広告コードをそのまま表示"
 msgstr "The ad code will appear as is"
 
-#: lib/_defins.php:305
+#: lib/_defins.php:308
 msgid "本当に削除してもいいですか？"
 msgstr "Do you really want to delete it?"
 
-#: lib/_defins.php:326
+#: lib/_defins.php:329
 msgid "www.amazon.co.jp"
 msgstr ""
 
-#: lib/_defins.php:329
+#: lib/_defins.php:332
 msgid "商品を取得できませんでした。存在しないASINを指定している可能性があります。"
 msgstr "The product could not be retrieved. You may have specified an ASIN that does not exist."
 
