@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-10-05T01:47:00+00:00\n"
-"PO-Revision-Date: 2023-10-05 01:47\n"
+"PO-Revision-Date: 2023-10-06 15:19\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4229,23 +4229,23 @@ msgstr "Insert \"PR notation\" in the location set in the \"Auto Insert Area\" o
 
 #: lib/page-settings/ads-forms.php:283
 msgid "全てのカテゴリーページ"
-msgstr ""
+msgstr "All category pages"
 
 #: lib/page-settings/ads-forms.php:284
 msgid "全カテゴリーページで「自動挿入エリア」で設定した場所に「PR表記」を挿入します。"
-msgstr ""
+msgstr "Insert \"PR notation\" in the location set in the \"Auto Insert Area\" on all category pages."
 
 #: lib/page-settings/ads-forms.php:286
 msgid "全てのタグページ"
-msgstr ""
+msgstr "All tag pages"
 
 #: lib/page-settings/ads-forms.php:287
 msgid "全タグページで「自動挿入エリア」で設定した場所に「PR表記」を挿入します。"
-msgstr ""
+msgstr "Insert \"PR notation\" in the location set in the \"Auto Insert Area\" on all tag pages."
 
 #: lib/page-settings/ads-forms.php:295
 msgid "自動挿入エリア"
-msgstr "Auto Insert Area"
+msgstr "Auto insert area"
 
 #: lib/page-settings/ads-forms.php:299
 msgid "メインカラム左上"
@@ -4318,19 +4318,19 @@ msgstr "Specify the categories for which you want to hide the \"PR notation\"."
 #: lib/page-settings/ads-forms.php:351
 #: lib/page-settings/ads-forms.php:442
 msgid "除外したカテゴリーに属する投稿ページもまとめて非表示になります。"
-msgstr ""
+msgstr "Posts belong to the excluded categories will also be hidden."
 
 #: lib/page-settings/ads-forms.php:360
 msgid "除外タグID"
-msgstr ""
+msgstr "Excluded tags"
 
 #: lib/page-settings/ads-forms.php:365
 msgid "「PR表記」を非表示にするタグページのIDを,（カンマ）区切りで指定してください。"
-msgstr ""
+msgstr "Specify the IDs of the tags for which you want to hide \"PR notation\" by separating them with , (comma)."
 
 #: lib/page-settings/ads-forms.php:365
 msgid "除外したタグに属する投稿ページもまとめて非表示になります。"
-msgstr ""
+msgstr "Posts belong to the excluded tags will also be hidden."
 
 #: lib/page-settings/ads-forms.php:377
 msgid "バリューコマース"
