@@ -107,7 +107,7 @@ function generate_small_pr_label_tag(){
 endif;
 
 
-//PR表記大の出力
+//PR表記（大）の出力
 if ( !function_exists( 'generate_large_pr_label_tag' ) ):
 function generate_large_pr_label_tag(){
   if (apply_filters( 'is_large_pr_label_visible', true )) {
@@ -1365,10 +1365,36 @@ function is_admin_post_php_page(){
 }
 endif;
 
+//テーマ設定テキストテンプレートページか
+if ( !function_exists( 'is_admin_theme_func_text_php_page' ) ):
+function is_admin_theme_func_text_php_page(){
+  global $pagenow;
+  $is_func_text = isset($_GET['page']) && $_GET['page'] == 'theme-func-text';
+  return $pagenow == 'admin.php' && $is_func_text;
+}
+endif;
+
+//Cocoon設定ページか
+if ( !function_exists( 'is_admin_cocoon_settings_page' ) ):
+function is_admin_cocoon_settings_page(){
+  global $pagenow;
+  $is_cocoon_settings = isset($_GET['page']) && $_GET['page'] == 'theme-settings';
+  return $pagenow == 'admin.php' && $is_cocoon_settings;
+}
+endif;
+
+//カテゴリ・タグ・カスタム分類編集ページか
+if ( !function_exists( 'is_admin_term_php_page' ) ):
+function is_admin_term_php_page(){
+  global $pagenow;
+  return $pagenow == 'term.php';
+}
+endif;
+
 //投稿・新規作成ページかどうか
 if ( !function_exists( 'is_admin_post_page' ) ):
 function is_admin_post_page(){
-  return is_admin_post_new_php_page() || is_admin_post_php_page();
+  return is_admin_post_new_php_page() || is_admin_post_php_page() || is_admin_theme_func_text_php_page() || is_admin_term_php_page();
 }
 endif;
 
@@ -3285,10 +3311,9 @@ function is_ios() {
 if ( !function_exists( 'change_fa' ) ):
 function change_fa($buffer){
   if (
-    is_site_icon_font_font_awesome_5() &&
-    preg_match_all('/<([a-z]+ [^>]*?class=")((fa fa-[a-z\-]+)[^"]*?)("[^>]*?)>/i', $buffer, $m)
+    is_site_icon_font_font_awesome_5()
+    && preg_match_all('/<([a-z]+ [^>]*?class=")((fa fa-[a-z\-]+)[^"]*?)("[^>]*?)>/i', $buffer, $m)
   ) {
-    //_v($m);
     $fa4_alls = $m[0];
     $befores = $m[1];
     $classes = $m[2];
