@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-10-07T05:58:05+00:00\n"
-"PO-Revision-Date: 2023-10-07 05:59\n"
+"PO-Revision-Date: 2023-10-07 06:03\n"
 "X-Generator: WP-CLI 2.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2035,7 +2035,7 @@ msgstr "Social media image"
 
 #: lib/custom-fields/sns-image-field.php:33
 msgid "FacebookやXなど、SNSでシェアする画像を設定します。未設定の場合はアイキャッチが利用されます。"
-msgstr ""
+msgstr "Set the image to be shared on social networking sites such as Facebook and X. If not set, eye catches will be used."
 
 #: lib/custom-fields/update-field.php:16
 #: lib/custom-fields/update-field.php:17
@@ -7773,7 +7773,7 @@ msgstr "OGP settings"
 
 #: lib/page-settings/ogp-forms.php:16
 msgid "OGPとは「Open Graph protocol」の略称です。 FacebookやXなどのSNSでシェアされた際に、そのページのタイトル・URL・概要・アイキャッチ画像（サムネイル）を意図した通りに正しく表示させる仕組みです。"
-msgstr ""
+msgstr "OGP is an abbreviation for \"Open Graph protocol. It is a mechanism to correctly display the title, URL, summary, and eye-catching image (thumbnail) of a page as intended when it is shared on social networking services such as Facebook and X."
 
 #: lib/page-settings/ogp-forms.php:24
 msgid "OGPの有効化"
@@ -8778,7 +8778,7 @@ msgstr "Website"
 #: lib/page-settings/sns-share-forms-bottom.php:68
 #: lib/page-settings/sns-share-forms-top.php:55
 msgid "X（旧Twitter）"
-msgstr ""
+msgstr "X (formerly Twitter)"
 
 #: lib/page-settings/sns-follow-forms.php:73
 #: lib/page-settings/sns-share-forms-bottom.php:71
@@ -9222,11 +9222,11 @@ msgstr "Toggle display share count on top share buttons."
 
 #: lib/page-settings/sns-share-forms.php:21
 msgid "Ｘポスト設定"
-msgstr ""
+msgstr "X post setting"
 
 #: lib/page-settings/sns-share-forms.php:23
 msgid "X（旧Twitter）上でのポスト動作の設定です。"
-msgstr ""
+msgstr "Setting for X (formerly Twitter)."
 
 #: lib/page-settings/sns-share-forms.php:30
 msgid "メンション"
@@ -9234,11 +9234,11 @@ msgstr "Mentions"
 
 #: lib/page-settings/sns-share-forms.php:34
 msgid "ポストにメンションを含める"
-msgstr ""
+msgstr "Include mentions in the post"
 
 #: lib/page-settings/sns-share-forms.php:35
 msgid "シェアされたポストに著者のＸ IDを含める。"
-msgstr ""
+msgstr "Include the author's X ID in the shared post."
 
 #: lib/page-settings/sns-share-forms.php:43
 msgid "プロモーション"
@@ -9246,11 +9246,11 @@ msgstr "Promotion"
 
 #: lib/page-settings/sns-share-forms.php:47
 msgid "ポスト後にフォローを促す"
-msgstr ""
+msgstr "Prompt for follow after post."
 
 #: lib/page-settings/sns-share-forms.php:48
 msgid "ポスト後に著者のフォローボタンを表示します。"
-msgstr ""
+msgstr "Display follow button for author after post."
 
 #: lib/page-settings/sns-share-forms.php:57
 msgid "ハッシュタグ"
@@ -9262,7 +9262,7 @@ msgstr "#hashtag"
 
 #: lib/page-settings/sns-share-forms.php:62
 msgid "ポスト時に含めるハッシュタグを入力してください。半角スペースで区切って複数入力も可能です。URLやタイトルを含めて140文字を超える場合は正常動作しない可能性もあります。"
-msgstr ""
+msgstr "Please enter a hashtag to include when posting. Multiple tags can be entered by separating them with a single space, but if they exceed 140 characters including URLs and titles, they may not work properly."
 
 #: lib/page-settings/sns-share-forms.php:79
 msgid "Facebook設定"
@@ -10613,7 +10613,7 @@ msgstr "updated short codes can only be used on posts and fixed pages."
 
 #: lib/sns-follow.php:135
 msgid "X（旧Twitter） URL"
-msgstr ""
+msgstr "X (formerly Twitter) URL"
 
 #: lib/sns-follow.php:136
 msgid "Facebook URL"
