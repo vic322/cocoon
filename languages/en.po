@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-11-29T13:09:58+00:00\n"
-"PO-Revision-Date: 2023-12-08 13:46\n"
+"PO-Revision-Date: 2023-12-08 14:01\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12353,7 +12353,7 @@ msgstr "Author website"
 
 #: tmp/sns-follow-buttons.php:29
 msgid "著作サイトをチェック"
-msgstr ""
+msgstr "Check out author site"
 
 #: tmp/sns-follow-buttons.php:45
 msgid "Google＋をフォロー"
@@ -12365,11 +12365,11 @@ msgstr "Subscribe to feedly"
 
 #: tmp/sns-follow-buttons.php:113
 msgid "RSSで更新情報を購読"
-msgstr ""
+msgstr "Subscribe updates by RSS"
 
 #: tmp/sns-share-buttons.php:17
 msgid "Xでシェア"
-msgstr ""
+msgstr "Share on X"
 
 #: tmp/sns-share-buttons.php:17
 msgid "X"
@@ -12377,11 +12377,11 @@ msgstr ""
 
 #: tmp/sns-share-buttons.php:21
 msgid "Facebookでシェア"
-msgstr ""
+msgstr "Share on Facebook"
 
 #: tmp/sns-share-buttons.php:25
 msgid "はてブでブックマーク"
-msgstr ""
+msgstr "Bookmark on Hatebu"
 
 #: tmp/sns-share-buttons.php:25
 msgid "はてブ"
@@ -12389,11 +12389,11 @@ msgstr "Hatena Bookmark"
 
 #: tmp/sns-share-buttons.php:29
 msgid "Pocketに保存"
-msgstr ""
+msgstr "Save to Pocket"
 
 #: tmp/sns-share-buttons.php:33
 msgid "LINEでシェア"
-msgstr ""
+msgstr "Share on LINE"
 
 #: tmp/sns-share-buttons.php:33
 msgid "LINE"
@@ -12401,15 +12401,15 @@ msgstr ""
 
 #: tmp/sns-share-buttons.php:37
 msgid "Pinterestでシェア"
-msgstr ""
+msgstr "Share on Pinterest"
 
 #: tmp/sns-share-buttons.php:41
 msgid "LinkedInでシェア"
-msgstr ""
+msgstr "Share on LinkedIn"
 
 #: tmp/sns-share-buttons.php:47
 msgid "タイトルとURLをコピーする"
-msgstr ""
+msgstr "Copy the title and URL"
 
 #: tmp/sns-share-buttons.php:47
 msgid "コピー"
@@ -12417,7 +12417,7 @@ msgstr "Copy"
 
 #: tmp/sns-share-buttons.php:51
 msgid "コメントする"
-msgstr ""
+msgstr "Comment"
 
 #: blocks/src/block-extension/style-extension/border01.js:46
 msgid "実線"
@@ -12493,39 +12493,39 @@ msgstr "Slight convex (large rounded corners)"
 
 #: blocks/src/block-extension/style-extension/border01.js:118
 msgid "白抜き灰"
-msgstr ""
+msgstr "Gray outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:122
 msgid "白抜き赤"
-msgstr ""
+msgstr "Red outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:126
 msgid "白抜きピンク"
-msgstr ""
+msgstr "Pink outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:130
 msgid "白抜き紺"
-msgstr ""
+msgstr "Navy outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:134
 msgid "白抜き青"
-msgstr ""
+msgstr "Blue outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:138
 msgid "白抜き紫"
-msgstr ""
+msgstr "Purple outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:142
 msgid "白抜きオレンジ"
-msgstr ""
+msgstr "Orange outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:146
 msgid "白抜き黄"
-msgstr ""
+msgstr "Yellow outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:150
 msgid "白抜き緑"
-msgstr ""
+msgstr "Green outline"
 
 #: blocks/src/block-extension/style-extension/border01.js:161
 msgid "[C] ボーダー設定"
@@ -12538,27 +12538,27 @@ msgstr "Clear border"
 
 #: blocks/src/block-extension/style-extension/margin.js:51
 msgid "ブロック下余白"
-msgstr ""
+msgstr "Margin under the block"
 
 #: blocks/src/block-extension/style-extension/margin.js:53
 msgid "[C] ブロック下余白"
-msgstr ""
+msgstr "[C] Margin under the block"
 
 #: blocks/src/block-extension/style-extension/margin.js:59
 msgid "未設定"
-msgstr ""
+msgstr "Not configured"
 
 #: blocks/src/block-extension/style-extension/margin.js:62
 msgid "文字高の"
-msgstr ""
+msgstr "Margin setting of"
 
 #: blocks/src/block-extension/style-extension/margin.js:64
 msgid "倍の余白設定"
-msgstr ""
+msgstr "times the character height."
 
 #: blocks/src/block-extension/style-extension/margin.js:93
 msgid "余白をクリア"
-msgstr ""
+msgstr "clear margin"
 
 #: blocks/src/block-extension/style-extension/style01.js:46
 msgid "薄背景"
@@ -12659,55 +12659,55 @@ msgstr "Thumbs down"
 
 #: blocks/src/block-extension/style-extension/style01.js:170
 msgid "プライマリー"
-msgstr ""
+msgstr "Primary"
 
 #: blocks/src/block-extension/style-extension/style01.js:174
 msgid "サクセス"
-msgstr ""
+msgstr "Success"
 
 #: blocks/src/block-extension/style-extension/style01.js:178
 msgid "インフォ"
-msgstr ""
+msgstr "Info"
 
 #: blocks/src/block-extension/style-extension/style01.js:182
 msgid "ワーニング"
-msgstr ""
+msgstr "Warning"
 
 #: blocks/src/block-extension/style-extension/style01.js:186
 msgid "デンジャー"
-msgstr ""
+msgstr "Danger"
 
 #: blocks/src/block-extension/style-extension/style01.js:190
 msgid "セカンダリー"
-msgstr ""
+msgstr "Secondary"
 
 #: blocks/src/block-extension/style-extension/style01.js:194
 msgid "ライト"
-msgstr ""
+msgstr "Light"
 
 #: blocks/src/block-extension/style-extension/style01.js:198
 msgid "ダーク"
-msgstr ""
+msgstr "Dark"
 
 #: blocks/src/block-extension/style-extension/style01.js:202
 msgid "付箋灰"
-msgstr ""
+msgstr "Gray sticky note"
 
 #: blocks/src/block-extension/style-extension/style01.js:206
 msgid "付箋赤"
-msgstr ""
+msgstr "Red sticky note"
 
 #: blocks/src/block-extension/style-extension/style01.js:210
 msgid "付箋青"
-msgstr ""
+msgstr "Blue sticky note"
 
 #: blocks/src/block-extension/style-extension/style01.js:214
 msgid "付箋黄"
-msgstr ""
+msgstr "Yellow sticky note"
 
 #: blocks/src/block-extension/style-extension/style01.js:218
 msgid "付箋緑"
-msgstr ""
+msgstr "Green sticky note"
 
 #: blocks/src/block-extension/style-extension/style01.js:229
 #: blocks/src/block-extension/style-extension/style02.js:137
@@ -12723,75 +12723,75 @@ msgstr "Clear style"
 
 #: blocks/src/block-extension/style-extension/style02.js:46
 msgid "丸数字"
-msgstr ""
+msgstr "Circle numbers"
 
 #: blocks/src/block-extension/style-extension/style02.js:50
 msgid "順位"
-msgstr ""
+msgstr "Place"
 
 #: blocks/src/block-extension/style-extension/style02.js:54
 msgid "ステップ"
-msgstr ""
+msgstr "Steps"
 
 #: blocks/src/block-extension/style-extension/style02.js:62
 msgid "チェック有効"
-msgstr ""
+msgstr "Check enabled"
 
 #: blocks/src/block-extension/style-extension/style02.js:66
 msgid "チェック無効"
-msgstr ""
+msgstr "Check disabled"
 
 #: blocks/src/block-extension/style-extension/style02.js:70
 msgid "丸"
-msgstr ""
+msgstr "Circle"
 
 #: blocks/src/block-extension/style-extension/style02.js:74
 msgid "三角"
-msgstr ""
+msgstr "Triangle"
 
 #: blocks/src/block-extension/style-extension/style02.js:78
 msgid "バツ"
-msgstr ""
+msgstr "X"
 
 #: blocks/src/block-extension/style-extension/style02.js:86
 msgid "疑問"
-msgstr ""
+msgstr "Question"
 
 #: blocks/src/block-extension/style-extension/style02.js:90
 msgid "警告"
-msgstr ""
+msgstr "Warning"
 
 #: blocks/src/block-extension/style-extension/style02.js:94
 msgid "肉球"
-msgstr ""
+msgstr "Paws"
 
 #: blocks/src/block-extension/style-extension/style02.js:98
 msgid "サムアップ"
-msgstr ""
+msgstr "Thumbs up"
 
 #: blocks/src/block-extension/style-extension/style02.js:102
 msgid "サムダウン"
-msgstr ""
+msgstr "Thumbs down"
 
 #: blocks/src/block-extension/style-extension/style02.js:110
 msgid "男性"
-msgstr ""
+msgstr "Man"
 
 #: blocks/src/block-extension/style-extension/style02.js:114
 msgid "女性"
-msgstr ""
+msgstr "Woman"
 
 #: blocks/src/block-extension/style-extension/style02.js:118
 msgid "ハート"
-msgstr ""
+msgstr "Heart"
 
 #: blocks/src/block-extension/style-extension/style02.js:122
 msgid "ハートブレイク"
-msgstr ""
+msgstr "Heartbreak"
 
 #: blocks/src/block-extension/style-extension/style02.js:126
 msgid "禁止"
-msgstr ""
+msgstr "Ban"
 
 #: blocks/src/block-universal/caption-box/edit.js:69
 #: blocks/src/block-universal/label-box/edit.js:69
@@ -13224,15 +13224,15 @@ msgstr "Displays the list of new information."
 
 #: blocks/src/block/navicard/edit.js:63
 msgid "ダッシュボードメニューの「外観」→「メニュー」からメニューを作成してください。"
-msgstr ""
+msgstr "Create a menu from \"Dashboard\" -> \"Appearance\" -> \"Menus\"."
 
 #: blocks/src/block/navicard/edit.js:68
 msgid "メニューが登録されていません。"
-msgstr ""
+msgstr "Menu is not registered."
 
 #: blocks/src/block/navicard/edit.js:70
 msgid "メニューを選択してください。"
-msgstr ""
+msgstr "Select a menu."
 
 #: blocks/src/block/navicard/edit.js:106
 #: blocks/src/block/new-list/edit.js:138
@@ -13250,7 +13250,7 @@ msgstr "Add a separator line to the top and bottom of the card"
 #: blocks/src/block/new-list/edit.js:142
 #: blocks/src/block/popular-list/edit.js:222
 msgid "（縦型表示のみ）"
-msgstr ""
+msgstr "(only for vertical display)"
 
 #: blocks/src/block/navicard/edit.js:114
 #: blocks/src/block/new-list/edit.js:146
@@ -13290,7 +13290,7 @@ msgstr "Display side by side"
 
 #: blocks/src/block/navicard/index.js:24
 msgid "登録されているメニューからナビカードを表示します。"
-msgstr ""
+msgstr "Display navicard from the registered menu."
 
 #: blocks/src/block/new-list/edit.js:83
 #: blocks/src/block/popular-list/edit.js:82
