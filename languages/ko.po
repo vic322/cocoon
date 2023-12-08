@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-11-29T13:09:58+00:00\n"
-"PO-Revision-Date: 2023-11-29 13:16\n"
+"PO-Revision-Date: 2023-12-08 14:16\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -30,7 +30,7 @@ msgstr ""
 
 #. Description of the theme
 msgid "SEO・高速化・モバイルファースト最適化済みの無料テーマ。"
-msgstr ""
+msgstr "SEO, 속도, 모바일 퍼스트에 최적화된 무료 테마."
 
 #. Author of the theme
 msgid "わいひら"
@@ -812,17 +812,17 @@ msgstr "버튼"
 #: lib/admin-tinymce-qtag.php:966
 #: lib/admin-tinymce-qtag.php:1277
 msgid "ブラック（小）"
-msgstr ""
+msgstr "블럭(소)"
 
 #: lib/admin-tinymce-qtag.php:971
 #: lib/admin-tinymce-qtag.php:1283
 msgid "ブラック（中）"
-msgstr ""
+msgstr "블럭(중)"
 
 #: lib/admin-tinymce-qtag.php:976
 #: lib/admin-tinymce-qtag.php:1289
 msgid "ブラック（大）"
-msgstr ""
+msgstr "블럭(대)"
 
 #: lib/admin-tinymce-qtag.php:982
 #: lib/admin-tinymce-qtag.php:1295
@@ -1220,7 +1220,7 @@ msgstr "아이캐치"
 
 #: lib/admin.php:228
 msgid "　題："
-msgstr "제목: "
+msgstr "　제목:"
 
 #: lib/admin.php:236
 msgid "本文："
@@ -1474,7 +1474,7 @@ msgstr ""
 #: lib/block-editor-styles-list.php:17
 #: lib/block-editor-styles-paragraph.php:17
 msgid "枠線"
-msgstr ""
+msgstr "테두리"
 
 #: lib/block-editor-styles-list.php:25
 #: lib/block-editor-styles-paragraph.php:25
@@ -1503,13 +1503,13 @@ msgstr "배경색"
 #: lib/block-editor-styles-list.php:33
 #: lib/block-editor-styles-paragraph.php:33
 msgid "枠線・背景色"
-msgstr ""
+msgstr "테두리・배경색"
 
 #: lib/block-editor-styles-list.php:41
 #: lib/block-editor-styles-paragraph.php:41
 #: blocks/src/block-extension/style-extension/style01.js:74
 msgid "交差線"
-msgstr ""
+msgstr "격자"
 
 #: lib/comments.php:45
 msgid "%s <span class=\"says\">says:</span>"
@@ -1669,7 +1669,7 @@ msgstr "이 페이지가 검색 엔진에 의해 색인화되지 않도록 메�
 
 #: lib/content-category.php:300
 msgid "こちらの設定を無効にしていても、Cocoon設定の「SEO」タブにある｢カテゴリーページをnoindexとする」設定を有効にしている場合はそちらが優先されます。"
-msgstr ""
+msgstr "이 설정을 비활성화 하더라도 Coocon 설정의 SEO 탭에 있는 ｢카테고리 페이지를 noindex로」 설정을 활성화 한 경우에는 해당 설정이 우선됩니다."
 
 #: lib/content-category.php:370
 msgid "カテゴリーとしてウィジェットやラベル等で表示される名前です。"
@@ -1717,7 +1717,7 @@ msgstr "태그 페이지의 meta keywords를 쉼표로 구분해 쓰세요. ※�
 
 #: lib/content-tag.php:248
 msgid "こちらの設定を無効にしていても、Cocoon設定の「SEO」タブにある｢タグページをnoindexとする」設定を有効にしている場合はそちらが優先されます。"
-msgstr ""
+msgstr "이 설정을 비활성화 하더라도 Coocon 설정의 SEO 탭에 있는 ｢태그 페이지를 noindex로」 설정을 활성화 한 경우에는 해당 설정이 우선됩니다."
 
 #: lib/custom-fields/ad-field.php:17
 #: lib/custom-fields/ad-field.php:18
@@ -1740,11 +1740,11 @@ msgstr "페이지의 광고(AdSense등) 표시 상태를 바꿉니다. 또한 �
 
 #: lib/custom-fields/ad-field.php:35
 msgid "PR表記を除外する"
-msgstr ""
+msgstr "PR 표시 제외하기"
 
 #: lib/custom-fields/ad-field.php:36
 msgid "Cocoon設定で「PR表記」を有効にしていたとしても、この除外オプションを有効にすれば非表示になります。"
-msgstr ""
+msgstr "Cocoon 설정의 「PR표시」를 활성화한 경우에도 이 제외 옵션을 활성화하면 표시되지 않습니다."
 
 #: lib/custom-fields/amp-field.php:17
 #: lib/custom-fields/amp-field.php:18
@@ -1859,7 +1859,7 @@ msgstr "페이지를 한 번 새로고침 해 주세요."
 
 #: lib/custom-fields/page-field.php:48
 msgid "1カラム（フルワイド）"
-msgstr ""
+msgstr "1열(풀 와이드)"
 
 #: lib/custom-fields/page-field.php:49
 msgid "1カラム（広い）"
@@ -1871,7 +1871,7 @@ msgstr "1열 (좁게)"
 
 #: lib/custom-fields/page-field.php:51
 msgid "本文のみ（フルワイド）"
-msgstr ""
+msgstr "본문만(풀 와이드)"
 
 #: lib/custom-fields/page-field.php:52
 msgid "本文のみ（広い）"
@@ -1964,7 +1964,8 @@ msgstr "텔레비전, 라디오, 비디오 게임과 같은 미디어 시즌"
 #: lib/custom-fields/review-field.php:47
 msgid "メディア出版物（書籍や定期刊行物、テレビ、ラジオ、ゲームなど）\n"
 "    "
-msgstr "미디어 출판물 (도서, 정기 간행물, 텔레비전, 라디오, 게임 등)"
+msgstr "미디어 출판물 (도서, 정기 간행물, 텔레비전, 라디오, 게임 등)\n"
+"    "
 
 #: lib/custom-fields/review-field.php:49
 msgid "シリーズもののエピソード（テレビ、ラジオ、ビデオゲームなど）"
@@ -2067,7 +2068,7 @@ msgstr "SNS 이미지"
 
 #: lib/custom-fields/sns-image-field.php:33
 msgid "FacebookやXなど、SNSでシェアする画像を設定します。未設定の場合はアイキャッチが利用されます。"
-msgstr ""
+msgstr "페이스북이나 X등 SNS에 공유할 이미지를 설정합니다. 설정하지 않은 경우 아이캐치가 사용됩니다."
 
 #: lib/custom-fields/update-field.php:16
 #: lib/custom-fields/update-field.php:17
@@ -2622,7 +2623,7 @@ msgstr "이득"
 #: lib/widgets/info-list.php:105
 #: blocks/src/block/info-list/index.js:29
 msgid "新着情報"
-msgstr ""
+msgstr "새 글"
 
 #: lib/html-tooltips.php:83
 msgid "良い色を選択するにはカラーサンプルサイトの利用をおすすめします。サイトから好みの色を見つけ出し、カラーコードをカラーピッカーにコピペすると設定できます。"
@@ -3773,7 +3774,7 @@ msgstr "PV 표시"
 
 #: lib/page-settings/admin-forms.php:121
 msgid "（※投稿・固定ページ一覧が重い場合は無効にしてください）"
-msgstr ""
+msgstr "(글・고정 페이지 목록이 많을 경우 비활성화 해주세요)"
 
 #: lib/page-settings/admin-forms.php:124
 msgid "アイキャッチを表示する"
@@ -4033,7 +4034,7 @@ msgstr "Responsinator 체크 표시"
 
 #: lib/page-settings/admin-forms.php:318
 msgid "<a href=\"http://www.responsinator.com/\" target=\"_blank\" rel=\"noopener\">Responsinator</a>チェック用リンクの表示。"
-msgstr ""
+msgstr "<a href=\"http://www.responsinator.com/\" target=\"_blank\" rel=\"noopener\">Responsinator</a>체크용 링크 표시."
 
 #: lib/page-settings/admin-forms.php:320
 msgid "Sizzyチェックを表示する"
@@ -4225,111 +4226,111 @@ msgstr "설정에 따라 AdSense 정책에 위반될 수 있으므로 설정을 
 
 #: lib/page-settings/ads-forms.php:238
 msgid "挿入型広告"
-msgstr ""
+msgstr "십입형 광고"
 
 #: lib/page-settings/ads-forms.php:242
 msgid "[ad]ショートコード・広告ブロックを有効にする"
-msgstr ""
+msgstr "[ad]숏코드・광고 블록을 활성화"
 
 #: lib/page-settings/ads-forms.php:246
 msgid "本文内に[ad]と入力したり「広告ブロック」を挿入した場合、その部分に「広告コード」に設定してある広告を表示します。"
-msgstr ""
+msgstr "본문 내에 [ad]라고 입력하거나 「광고 블록」을 삽입한 경우 그 부분에 「광고 코드로 설정한 광고가 표시됩니다."
 
 #: lib/page-settings/ads-forms.php:262
 msgid "PR表記設定"
-msgstr ""
+msgstr "PR 표시 설정"
 
 #: lib/page-settings/ads-forms.php:265
 msgid "消費者庁の景品表示法の指定告示（通称：ステマ規制）に対応するための「PR表記」に関する設定です。"
-msgstr ""
+msgstr "소비자청의 경품표시법 지정 고시(일명: 스텔스 마케팅 규제)에 대응하기 위해 광고가 광고임을 알리는 표시를 추가하는 「PR표기」에 관한 설정입니다."
 
 #: lib/page-settings/ads-forms.php:273
 msgid "自動挿入ページ"
-msgstr ""
+msgstr "자동 삽입 페이지"
 
 #: lib/page-settings/ads-forms.php:277
 msgid "全ての投稿ページ"
-msgstr ""
+msgstr "모든 글 페이지"
 
 #: lib/page-settings/ads-forms.php:278
 msgid "全投稿ページで「自動挿入エリア」で設定した場所に「PR表記」を挿入します。"
-msgstr ""
+msgstr "모든 글 페이지에서 「자동 삽입 영역」에서 설정한 위치에 PR표기를 삽입합니다."
 
 #: lib/page-settings/ads-forms.php:280
 msgid "全ての固定ページ"
-msgstr ""
+msgstr "모든 고정 페이지"
 
 #: lib/page-settings/ads-forms.php:281
 msgid "全固定ページで「自動挿入エリア」で設定した場所に「PR表記」を挿入します。"
-msgstr ""
+msgstr "모든 고정 페이지에서 「자동 삽입 영역」에서 설정한 위치에 PR표기를 삽입합니다."
 
 #: lib/page-settings/ads-forms.php:283
 msgid "全てのカテゴリーページ"
-msgstr ""
+msgstr "모든 카테고리 페이지"
 
 #: lib/page-settings/ads-forms.php:284
 msgid "全カテゴリーページで「自動挿入エリア」で設定した場所に「PR表記」を挿入します。"
-msgstr ""
+msgstr "모든 카테고리 페이지에 「자동 삽입 영역」에서 설정한 위치에 PR표기를 삽입합니다."
 
 #: lib/page-settings/ads-forms.php:286
 msgid "全てのタグページ"
-msgstr ""
+msgstr "모든 태그 페이지"
 
 #: lib/page-settings/ads-forms.php:287
 msgid "全タグページで「自動挿入エリア」で設定した場所に「PR表記」を挿入します。"
-msgstr ""
+msgstr "모든 태그 페이지에 「자동 삽입 영역」에서 설정한 위치에 PR표기를 삽입합니다."
 
 #: lib/page-settings/ads-forms.php:295
 msgid "自動挿入エリア"
-msgstr ""
+msgstr "자동 삽입 영역"
 
 #: lib/page-settings/ads-forms.php:299
 msgid "メインカラム左上"
-msgstr ""
+msgstr "메인 컬럼 왼쪽 상단"
 
 #: lib/page-settings/ads-forms.php:299
 msgid "（小）"
-msgstr ""
+msgstr "(소)"
 
 #: lib/page-settings/ads-forms.php:300
 msgid "メインカラムの左上に「PR表記」を表示します。"
-msgstr ""
+msgstr "메인 컬럼의 왼쪽 상단에 「PR표기」를 표시합니다."
 
 #: lib/page-settings/ads-forms.php:302
 msgid "本文の上"
-msgstr ""
+msgstr "본문 상단"
 
 #: lib/page-settings/ads-forms.php:302
 msgid "（大）"
-msgstr ""
+msgstr "(대)"
 
 #: lib/page-settings/ads-forms.php:303
 msgid "記事本文の上部に「PR表記」を挿入します。"
-msgstr ""
+msgstr "글 본문의 위쪽에 「PR표기」를 삽입합니다."
 
 #: lib/page-settings/ads-forms.php:311
 msgid "表示テキスト"
-msgstr ""
+msgstr "표시 텍스트"
 
 #: lib/page-settings/ads-forms.php:316
 msgid "テキスト（小）"
-msgstr ""
+msgstr "텍스트(소)"
 
 #: lib/page-settings/ads-forms.php:319
 msgid "メインカラム左上に表示される「PR表記」の文言を入力してください。"
-msgstr ""
+msgstr "메인 칼럼의 왼쪽 상단에 표시할 「PR표기」의 문구를 입력해주세요."
 
 #: lib/page-settings/ads-forms.php:322
 msgid "テキスト（大）"
-msgstr ""
+msgstr "텍스트(대)"
 
 #: lib/page-settings/ads-forms.php:325
 msgid "記事本文上に表示される「PR表記」の文言を入力してください。"
-msgstr ""
+msgstr "글 본문에 표시되는 「PR표기」 문구를 입력해주세요."
 
 #: lib/page-settings/ads-forms.php:333
 msgid "除外記事ID"
-msgstr ""
+msgstr "제외할 글 ID"
 
 #: lib/page-settings/ads-forms.php:337
 #: lib/page-settings/ads-forms.php:364
@@ -4339,7 +4340,7 @@ msgstr "예시: 111,222,3333"
 
 #: lib/page-settings/ads-forms.php:338
 msgid "「PR表記」を非表示にする投稿・固定ページのIDを,（カンマ）区切りで指定してください。"
-msgstr ""
+msgstr "「PR표기」를 하지 않을 글 및 고정 페이지의 ID를 쉼표로 구분하여서 입력해주세요."
 
 #: lib/page-settings/ads-forms.php:346
 #: lib/page-settings/index-forms.php:242
@@ -4349,24 +4350,24 @@ msgstr "제외 카테고리"
 
 #: lib/page-settings/ads-forms.php:351
 msgid "「PR表記」を非表示にするカテゴリーを選択してください。"
-msgstr ""
+msgstr "「PR표기」를 표시하지 않을 카테고리를 선택해주세요."
 
 #: lib/page-settings/ads-forms.php:351
 #: lib/page-settings/ads-forms.php:442
 msgid "除外したカテゴリーに属する投稿ページもまとめて非表示になります。"
-msgstr ""
+msgstr "제외된 카테고리에 포함된 글 페이지들에서도 일괄적으로 표시되지 않습니다."
 
 #: lib/page-settings/ads-forms.php:360
 msgid "除外タグID"
-msgstr ""
+msgstr "제외 태그 ID"
 
 #: lib/page-settings/ads-forms.php:365
 msgid "「PR表記」を非表示にするタグページのIDを,（カンマ）区切りで指定してください。"
-msgstr ""
+msgstr "「PR표기」를 표시하지 않을 태그 페이지의 ID를 쉼표로 구분하여서 입력해주세요."
 
 #: lib/page-settings/ads-forms.php:365
 msgid "除外したタグに属する投稿ページもまとめて非表示になります。"
-msgstr ""
+msgstr "제외된 태그에 포함된 글 페이지들에서도 일괄적으로 표시되지 않습니다."
 
 #: lib/page-settings/ads-forms.php:377
 msgid "バリューコマース"
@@ -4516,7 +4517,7 @@ msgstr "사와라비 명조 (웹 폰트)"
 
 #: lib/page-settings/all-forms.php:71
 msgid "指定なし"
-msgstr ""
+msgstr "지정안함"
 
 #: lib/page-settings/all-forms.php:73
 msgid "フォント"
@@ -4795,7 +4796,7 @@ msgstr "AMP 기능을 활성화합니다."
 #: lib/page-settings/amp-forms.php:27
 #: lib/page-settings/pwa-forms.php:36
 msgid "（非推奨）"
-msgstr ""
+msgstr "(비추천)"
 
 #: lib/page-settings/amp-forms.php:28
 msgid "有効化することで、AMP機能が有効化され高速表示されます。※AMP対応するページは投稿・固定ページのみです。"
@@ -4948,7 +4949,7 @@ msgstr ""
 
 #: lib/page-settings/analytics-forms.php:88
 msgid "Google Analytics 4の測定IDを入力してください。タグマネージャのトラッキングIDが入っている場合はタグマネージャが優先されます。"
-msgstr ""
+msgstr "Google Analytics 4의 측정ID를 입력해주세요. 태그 관리자의 추적 ID가 포함되어 있는 경우 태그 관리자가 우선됩니다."
 
 #: lib/page-settings/analytics-forms.php:102
 msgid "Google Search Console設定"
@@ -4972,23 +4973,23 @@ msgstr "Google Search Console의 사이트 인증 ID를 입력합니다."
 
 #: lib/page-settings/analytics-forms.php:132
 msgid "Clarity設定"
-msgstr ""
+msgstr "Clarity설정"
 
 #: lib/page-settings/analytics-forms.php:135
 msgid "ヒートマップ分析ツールClarityの設定です。"
-msgstr ""
+msgstr "히트맵 분석 도구인 Clarity의 설정입니다."
 
 #: lib/page-settings/analytics-forms.php:143
 msgid "プロジェクトID"
-msgstr ""
+msgstr "프로젝트ID"
 
 #: lib/page-settings/analytics-forms.php:147
 msgid "プロジェクトIDのみ入力"
-msgstr ""
+msgstr "프로젝트 ID만 입력"
 
 #: lib/page-settings/analytics-forms.php:148
 msgid "ClarityのプロジェクトIDを入力してください。"
-msgstr ""
+msgstr "Clarity의 프로젝트 ID를 입력해주세요."
 
 #: lib/page-settings/analytics-forms.php:163
 msgid "その他のアクセス解析・認証コード設定"
@@ -5344,7 +5345,7 @@ msgstr "모시모 제휴의 Yahoo! 쇼핑 ID를 입력하세요. "
 
 #: lib/page-settings/apis-forms.php:258
 msgid "楽天キャッシュの保存期間"
-msgstr ""
+msgstr "라쿠텐 캐시 보관 기간"
 
 #: lib/page-settings/apis-forms.php:264
 msgid "APIキャッシュのリフレッシュ間隔を設定します。1～3650日の間隔を選べます。間隔が短いほどAPIのリクエスト制限にかかる可能性が高くなりますのでご注意ください。アクセス数の多いサイトは長めに設定しておくことをおすすめします。"
@@ -5352,7 +5353,7 @@ msgstr "API 캐시의 새로 고침 간격을 설정하세요. 1~3650일 중에�
 
 #: lib/page-settings/apis-forms.php:264
 msgid "Amazon APIのキャッシュは利用規約により24時間で更新されます。"
-msgstr ""
+msgstr "Amazon API의 캐시는 이용 약관에 따라 24시간마다 갱신됩니다."
 
 #: lib/page-settings/apis-forms.php:273
 msgid "https://affiliate.amazon.co.jp/help/operating/paapilicenseagreement"
@@ -5486,7 +5487,7 @@ msgstr "어필 영역의 배경 이미지를 고정합니다. 위아래로 스�
 
 #: lib/page-settings/appeal-forms.php:77
 msgid "※iOSでは動作しません。"
-msgstr ""
+msgstr "※iOS에서는 작동하지 않습니다."
 
 #: lib/page-settings/appeal-forms.php:85
 msgid "エリア背景色"
@@ -5790,7 +5791,7 @@ msgstr "버튼 이미지"
 
 #: lib/page-settings/buttons-forms.php:100
 msgid "トップへ戻るボタンのアイコンフォント代わりに表示する画像を選択します。こちらに画像を設定するとアイコンフォントボタンは表示されません。"
-msgstr ""
+msgstr "위로 이동 버튼의 아이콘 폰트 대신 표시할 이미지를 선택합니다. 이 이미지를 지정하면 아이콘 폰트 버튼은 표시되지 않습니다."
 
 #: lib/page-settings/carousel-forms.php:13
 msgid "カルーセル設定"
@@ -5876,7 +5877,7 @@ msgstr "태그"
 
 #: lib/page-settings/carousel-forms.php:82
 msgid "カルーセルと関連付けるカテゴリーもしくはタグを選択してください。人気記事を有効にしカテゴリーもしくはタグを選択した場合は、すべて合算し「カルーセルの並び替え」で設定した順番で表示されます。"
-msgstr ""
+msgstr "캐러셀과 연관시킬 카테고리 또는 태그를 선택해주세요. 인기 글을 활성화 하고 카테고리 또는 태그를 선택한 경우에 모두 합산하여 「캐러셀 정렬」에서 설정한 순서대로 표시됩니다."
 
 #: lib/page-settings/carousel-forms.php:90
 msgid "カルーセルの並び替え"
@@ -6519,11 +6520,11 @@ msgstr "작성자명 표시"
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿・固定ページの「投稿日・更新日・投稿者名」を表示するかどうか。"
-msgstr ""
+msgstr "게시・고정 페이지의 게시일, 수정일, 게시자의 표시 여부입니다."
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿日・更新日が同じ日付の場合は投稿日のみが表示されます。"
-msgstr ""
+msgstr "게시일, 수정일이 동일한 경우 게시일만 표시됩니다."
 
 #: lib/page-settings/content-forms.php:366
 msgid "記事を読む時間"
@@ -6967,7 +6968,7 @@ msgstr "헤더의 높이를 px로 지정합니다. 모바일에서는 모바일�
 
 #: lib/page-settings/header-forms.php:73
 msgid "※「ヘッダーレイアウト」が「センターロゴ」の時のみに適用されます。"
-msgstr ""
+msgstr "※「헤더 레이아웃」이「중앙 로고」일 경우에만 적용됩니다."
 
 #: lib/page-settings/header-forms.php:81
 msgid "高さ（モバイル）"
@@ -7035,31 +7036,31 @@ msgstr "헤더 배경 이미지 고정"
 
 #: lib/page-settings/header-forms.php:150
 msgid "PC画面でヘッダー背景に設定した画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
-msgstr ""
+msgstr "PC화면에 헤더 배경에 설정된 이미지를 고정합니다.  상하로 스크롤을 할 때 배경 사진이 이동하지 않습니다."
 
 #: lib/page-settings/header-forms.php:150
 msgid "但しモバイル画面では固定は解除されます。"
-msgstr ""
+msgstr "다만 모바일 화면에서는 고정되지 않습니다."
 
 #: lib/page-settings/header-forms.php:153
 msgid "背景画像の全てを表示"
-msgstr ""
+msgstr "배경 사진 전체 표시"
 
 #: lib/page-settings/header-forms.php:154
 msgid "ヘッダーのサイズを「ヘッダー背景画像」に設定した画像の縦横比サイズに合わせて表示させます。"
-msgstr ""
+msgstr "헤더의 사이즈를 「헤더 배경 이미지」로 설정된 사진의 종횡비 사이즈에 맞춰서 표시합니다."
 
 #: lib/page-settings/header-forms.php:154
 msgid "これにより背景画像が隠れることなく表示されます。"
-msgstr ""
+msgstr "이렇게 하면 배경 사진이 숨겨지지 않고 표시됩니다."
 
 #: lib/page-settings/header-forms.php:154
 msgid "「ヘッダーレイアウト」設定が「センターロゴ」時のみ。"
-msgstr ""
+msgstr "「헤더 레이아웃」 설정이 「중앙 로고」일 때만."
 
 #: lib/page-settings/header-forms.php:154
 msgid "ヘッダー設定にある「高さ」や「高さ（モバイル）」の値は無効になります。"
-msgstr ""
+msgstr "헤더 설정에 있는 「높이」나 「높이(모바일)」의 값은 비활성화됩니다."
 
 #: lib/page-settings/header-forms.php:162
 msgid "ヘッダー全体色"
@@ -7395,7 +7396,7 @@ msgstr "(3열)"
 
 #: lib/page-settings/index-forms.php:54
 msgid "※サイドバーを表示しないレイアウト向け。"
-msgstr " ※사이드바를 표시하지 않는 레이아웃용. "
+msgstr "※사이드바를 표시하지 않는 레이아웃용."
 
 #: lib/page-settings/index-forms.php:54
 msgid "表示数は3の倍数推奨。"
@@ -7612,7 +7613,7 @@ msgstr "댓글 수 표시"
 
 #: lib/page-settings/index-forms.php:234
 msgid "インデックスページのエントリーカードに投稿関連情報を表示するかどうか。"
-msgstr ""
+msgstr "인덱스 페이지의 엔트리 카드에 게시 관련 정보를 표시할지 여부."
 
 #: lib/page-settings/index-forms.php:247
 msgid "アーカイブ（インデックスリスト・新着関連記事ウィジェット等）に表示させたくないカテゴリーを選択してください。"
@@ -7666,11 +7667,11 @@ msgstr "모바일 버튼 레이아웃에서 모바일 버튼이 선택된 경우
 
 #: lib/page-settings/mobile-buttons-forms.php:60
 msgid "常にサイトヘッダーロゴを表示する"
-msgstr ""
+msgstr "항상 사이트 헤더 로고 표시하기"
 
 #: lib/page-settings/mobile-buttons-forms.php:61
 msgid "モバイルで「ヘッダーモバイルボタン」が表示されているとき、ヘッダーのロゴを表示するか。"
-msgstr ""
+msgstr "모바일에서 「헤더 모바일 버튼」이 표시될 때 헤더의 로고를 표시할지 여부."
 
 #: lib/page-settings/mobile-buttons-forms.php:63
 msgid "モバイルボタン時コンテンツ下のサイドバーを表示"
@@ -7814,7 +7815,7 @@ msgstr "OGP 설정"
 
 #: lib/page-settings/ogp-forms.php:16
 msgid "OGPとは「Open Graph protocol」の略称です。 FacebookやXなどのSNSでシェアされた際に、そのページのタイトル・URL・概要・アイキャッチ画像（サムネイル）を意図した通りに正しく表示させる仕組みです。"
-msgstr ""
+msgstr "OGP란 Open Graph Protocol의 약자입니다. 페이스북이나 X같은 SNS에 공유할 때 그 페이지의 제목, URL, 개요, 아이캐치 이미지(썸네일)을 의도한 대로 정확히 표시할 수 있도록 해주는 구조입니다."
 
 #: lib/page-settings/ogp-forms.php:24
 msgid "OGPの有効化"
@@ -7974,11 +7975,11 @@ msgstr "jQuery 버전 차이로인해 작동하지 않는 프로그램이 있을
 
 #: lib/page-settings/others-forms.php:105
 msgid "jQuery 1、jQuery 2は古いバージョンなので脆弱性があります。できる限りjQuery 3をご利用ください。"
-msgstr ""
+msgstr "jQuery 1, jQuery 2는 오래된 버전이라서 취약점이 있습니다. 가급적 jQuery 3를 사용해주세요."
 
 #: lib/page-settings/others-forms.php:105
 msgid "このjQuery選択機能は2022年12月末日をもって廃止いたします。"
-msgstr ""
+msgstr "이 jQuery선택 기능은 2022년 12월 말일부로 사라집니다."
 
 #: lib/page-settings/others-forms.php:114
 msgid "jQuery Migrate"
@@ -7998,11 +7999,11 @@ msgstr "jQuery Migrate 버전 차이로인해 작동하지 않는 프로그램�
 
 #: lib/page-settings/others-forms.php:124
 msgid "できる限りjQuery Migrate 3をご利用ください。"
-msgstr ""
+msgstr "가급적 jQuery Migrate 3를 사용해주세요."
 
 #: lib/page-settings/others-forms.php:124
 msgid "このjQuery Migrate選択機能は2022年12月末日をもって廃止いたします。"
-msgstr ""
+msgstr "이 jQuery Migrate 선택 기능은 2022년 12월 말일부로 사라집니다."
 
 #: lib/page-settings/page-forms.php:16
 msgid "固定ページのコメント表示設定です。"
@@ -8420,7 +8421,7 @@ msgstr "수정일만 표시"
 
 #: lib/page-settings/seo-forms.php:115
 msgid "表示する日付形式を選択してください。表示する日付によって検索エンジンへの伝わり方が変わる可能性があります。"
-msgstr ""
+msgstr "표시할 날짜 형식을 선택해주세요. 표시되는 날짜에 따라서 검색엔진에 전달되는 방식이 바뀔 수 있습니다."
 
 #: lib/page-settings/single-forms.php:13
 msgid "カテゴリー・タグ表示設定"
@@ -8540,7 +8541,7 @@ msgstr "수직 4열 (권장 표시 수: 4, 8, 12...)"
 
 #: lib/page-settings/single-forms.php:167
 msgid "関連記事の表示タイプを選択します。"
-msgstr ""
+msgstr "관련 글 표시 유형을 선택합니다."
 
 #: lib/page-settings/single-forms.php:175
 #: blocks/src/block/info-list/edit.js:94
@@ -8612,7 +8613,7 @@ msgstr "「관련 글 엔트리 카드」에서 「본문에서 자동으로 가
 
 #: lib/page-settings/single-forms.php:267
 msgid "投稿の関連記事のエントリーカードに投稿関連情報を表示するかどうか。"
-msgstr ""
+msgstr "게시물과 관련된 글의 엔트리 카드에 게시 관련 정보를 표시할지 여부."
 
 #: lib/page-settings/single-forms.php:280
 msgid "ページ送りナビ設定"
@@ -8823,7 +8824,7 @@ msgstr "웹사이트"
 #: lib/page-settings/sns-share-forms-bottom.php:68
 #: lib/page-settings/sns-share-forms-top.php:55
 msgid "X（旧Twitter）"
-msgstr ""
+msgstr "X(구 Twitter)"
 
 #: lib/page-settings/sns-follow-forms.php:73
 #: lib/page-settings/sns-share-forms-bottom.php:71
@@ -8927,7 +8928,7 @@ msgstr "프런트 페이지"
 #: lib/page-settings/sns-share-forms-bottom.php:112
 #: lib/page-settings/sns-share-forms-top.php:99
 msgid "（インデックスページ）"
-msgstr ""
+msgstr "(인덱스 페이지)"
 
 #: lib/page-settings/sns-follow-forms.php:119
 msgid "フォローボタンを表示するページを選択してください。"
@@ -9273,11 +9274,11 @@ msgstr "상단 공유 버튼의 공유 수 표시 여부를 지정합니다."
 
 #: lib/page-settings/sns-share-forms.php:21
 msgid "Ｘポスト設定"
-msgstr ""
+msgstr "X 게시 설정"
 
 #: lib/page-settings/sns-share-forms.php:23
 msgid "X（旧Twitter）上でのポスト動作の設定です。"
-msgstr ""
+msgstr "X(구 트위터) 상에 게시하는 동작 설정입니다."
 
 #: lib/page-settings/sns-share-forms.php:30
 msgid "メンション"
@@ -9285,11 +9286,11 @@ msgstr "멘션"
 
 #: lib/page-settings/sns-share-forms.php:34
 msgid "ポストにメンションを含める"
-msgstr ""
+msgstr "게시물에 맨션 포함하기"
 
 #: lib/page-settings/sns-share-forms.php:35
 msgid "シェアされたポストに著者のＸ IDを含める。"
-msgstr ""
+msgstr "공유된 게시물에 작성자의 X ID를 포함합니다."
 
 #: lib/page-settings/sns-share-forms.php:43
 msgid "プロモーション"
@@ -9297,11 +9298,11 @@ msgstr "프로모션"
 
 #: lib/page-settings/sns-share-forms.php:47
 msgid "ポスト後にフォローを促す"
-msgstr ""
+msgstr "게시 후 팔로우 유도"
 
 #: lib/page-settings/sns-share-forms.php:48
 msgid "ポスト後に著者のフォローボタンを表示します。"
-msgstr ""
+msgstr "게시 후 작성자 팔로우 버튼을 표시합니다."
 
 #: lib/page-settings/sns-share-forms.php:57
 msgid "ハッシュタグ"
@@ -9313,7 +9314,7 @@ msgstr "#해시태그"
 
 #: lib/page-settings/sns-share-forms.php:62
 msgid "ポスト時に含めるハッシュタグを入力してください。半角スペースで区切って複数入力も可能です。URLやタイトルを含めて140文字を超える場合は正常動作しない可能性もあります。"
-msgstr ""
+msgstr "게시할 때 포함할 해시태그를 입력해주세요. 반각 공백으로 구분하여 여러개를 입력할 수 있습니다. URL이나 제목을 포함하여 140글자를 초과할 경우 정상적으로 작동하지 않을 수 있습니다."
 
 #: lib/page-settings/sns-share-forms.php:79
 msgid "Facebook設定"
@@ -9561,7 +9562,7 @@ msgstr "구분자"
 
 #: lib/page-settings/title-forms.php:326
 msgid " | （パイプ）"
-msgstr "| (파이프)"
+msgstr " | (파이프)"
 
 #: lib/page-settings/title-forms.php:327
 msgid " - （ハイフン）"
@@ -9686,7 +9687,7 @@ msgstr "개 이상의 헤딩이 있을 때"
 
 #: lib/page-settings/toc-forms.php:127
 msgid "設定した数以上の見出し数がある時のみ表示されます。"
-msgstr ""
+msgstr "설정한 수 이상의 제목이 있을 때만 표시됩니다."
 
 #: lib/page-settings/toc-forms.php:135
 #: lib/widgets/toc.php:90
@@ -10502,7 +10503,7 @@ msgstr "구분선"
 
 #: lib/settings.php:561
 msgid "（縦型表示時のみ）"
-msgstr ""
+msgstr "(세로형 표시 시에만)"
 
 #: lib/settings.php:563
 msgid "カード自体を罫線で囲みます。"
@@ -10664,7 +10665,7 @@ msgstr "updated 숏 코드는 글, 고정 페이지 이외에서는 이용할 �
 
 #: lib/sns-follow.php:135
 msgid "X（旧Twitter） URL"
-msgstr ""
+msgstr "X(구 Twitter) URL"
 
 #: lib/sns-follow.php:136
 msgid "Facebook URL"
@@ -11019,7 +11020,7 @@ msgstr[0] ""
 #: lib/utils.php:2511
 msgid "%sヶ月"
 msgid_plural "%sヶ月"
-msgstr[0] ""
+msgstr[0] "%s개월"
 
 #: lib/utils.php:2522
 msgid "%s年"
@@ -11406,7 +11407,7 @@ msgstr "CTA 버튼 색"
 
 #: lib/widgets/cta-box.php:164
 msgid "黒色"
-msgstr ""
+msgstr "검은색"
 
 #: lib/widgets/cta-box.php:168
 msgid "深紫"
@@ -11537,15 +11538,15 @@ msgstr "라인 ID (@은 불필요)"
 
 #: lib/widgets/info-list.php:20
 msgid "最近書かれた記事のタイトルリストを表示します。"
-msgstr ""
+msgstr "최근 작성된 글의 제목 목록을 표시합니다."
 
 #: lib/widgets/info-list.php:122
 msgid "新着情報のタイトル"
-msgstr ""
+msgstr "새로운 정보의 제목"
 
 #: lib/widgets/info-list.php:129
 msgid "キャプション（枠線内表示）"
-msgstr ""
+msgstr "캡션(테두리 표시)"
 
 #: lib/widgets/info-list.php:136
 #: lib/widgets/new-entries.php:154
@@ -11557,21 +11558,21 @@ msgstr "표시수"
 #: lib/widgets/info-list.php:149
 #: blocks/src/block/info-list/edit.js:109
 msgid "仕切り線表示"
-msgstr ""
+msgstr "구분선 표시"
 
 #: lib/widgets/info-list.php:155
 #: lib/widgets/new-entries.php:195
 #: blocks/src/block/info-list/edit.js:116
 msgid "更新日順に並び替え"
-msgstr ""
+msgstr "수정일 순으로 정렬"
 
 #: lib/widgets/info-list.php:161
 msgid "（※未選択の場合は全て表示）"
-msgstr ""
+msgstr "(※미선택시 모두 표시)"
 
 #: lib/widgets/item-ranking.php:20
 msgid "商品・サービスのランキングを表示するウィジェットです。"
-msgstr ""
+msgstr "상품・서비스의 랭킹을 표시하는 위젯입니다."
 
 #: lib/widgets/item-ranking.php:83
 #: blocks/src/block/ranking/edit.js:78
@@ -11625,14 +11626,14 @@ msgstr "네비 카드 목록을 보여주는 위젯입니다."
 #: lib/widgets/popular-entries.php:225
 #: lib/widgets/related-entries.php:203
 msgid "横型表示"
-msgstr ""
+msgstr "가로로 표시"
 
 #: lib/widgets/navi-entries.php:132
 #: lib/widgets/new-entries.php:171
 #: lib/widgets/popular-entries.php:226
 #: lib/widgets/related-entries.php:204
 msgid "（「大きなサムネイル」との使用がお勧め）"
-msgstr ""
+msgstr "(「큰 썸네일」과 함께 사용하는 것을 권장)"
 
 #: lib/widgets/navi-entries.php:138
 #: lib/widgets/new-entries.php:177
@@ -11730,7 +11731,7 @@ msgstr "제외할 글 ID (ID를 쉼표로 구분해서 입력해 주세요)"
 
 #: lib/widgets/popular-entries.php:251
 msgid "除外カテゴリー（除外するものを選択してください）"
-msgstr ""
+msgstr "제외 카테고리(제외할 항목을 선택하세요)"
 
 #: lib/widgets/recent-comments.php:19
 #: lib/widgets/recent-comments.php:127
@@ -11819,7 +11820,7 @@ msgstr ""
 
 #: lib/_defins.php:114
 msgid "記事内に広告が含まれています。"
-msgstr ""
+msgstr "글 내에 광고가 포함되어있습니다."
 
 #: lib/_defins.php:146
 #: lib/_defins.php:167
@@ -11901,7 +11902,7 @@ msgstr "본문 제목에 카운트를 쓰지 않으려면 체크를 해제하십
 
 #: skins/one/functions.php:134
 msgid "PCでもスマホ用の固定フッターメニューを表示する"
-msgstr ""
+msgstr "PC에서도 스마트폰용 고정 푸터 메뉴 표시하기"
 
 #: skins/one/functions.php:135
 msgid "従来どおりPCでスマホ用の固定フッターメニューを表示させたくない場合はチェックを外してください"
@@ -11913,11 +11914,11 @@ msgstr "전반적인 그림자"
 
 #: skins/one/functions.php:155
 msgid "ダークスキン対応にする"
-msgstr ""
+msgstr "다크 스킨 적용시 설정"
 
 #: skins/one/functions.php:156
 msgid "背景をダークにしたときはチェックを入れてください"
-msgstr ""
+msgstr "배경을 어둡게 할 때 체크해 주세요."
 
 #: skins/one/functions.php:166
 msgid "丸みをなくす"
@@ -11933,7 +11934,7 @@ msgstr "본문의 표제를 명조체로 한다"
 
 #: skins/one/functions.php:187
 msgid "サイドバーの見出しを明朝体にする"
-msgstr ""
+msgstr "사이드바의 제목을 명조체로"
 
 #: skins/raku-add-fadein/functions.php:268
 msgid "ふわっとタイプ"
@@ -11941,51 +11942,51 @@ msgstr "푹신한 타입"
 
 #: skins/raku-add-fadein/functions.php:290
 msgid "表示スキン（ベース）"
-msgstr ""
+msgstr "표시 스킨(베이스)"
 
 #: skins/raku-color-changing/functions.php:190
 msgid "スキンカラー"
-msgstr ""
+msgstr "스킨 색상"
 
 #: skins/raku-color-changing/functions.php:203
 msgid "背景アニメーション<br><small>（選択した4色がゆっくり入れ替わる）</small>"
-msgstr ""
+msgstr "배경 애니메이션<br><small>(선택한 4개의 색상이 서서히 바뀜)</small>"
 
 #: skins/raku-color-changing/functions.php:218
 msgid "記事内のタイトル<br><small>（選択した4色を順に適応する）</small>"
-msgstr ""
+msgstr "글 내의 제목<br><small>(선택한 4개의 색상을 순서대로 적용함)</small>"
 
 #: skins/raku-color-changing/functions.php:240
 msgid "サイドバー内のタイトル<br><small>（選択した4色を順に適応する）</small>"
-msgstr ""
+msgstr "사이드바 내의 제모<br><small>(선택한 4개의 색상을 순서대로 적용함)</small>"
 
 #: skins/skin-grayish-topfull/functions.php:2013
 msgid "サイトテキストグレー"
-msgstr ""
+msgstr "사이트 텍스트 회색"
 
 #: skins/skin-grayish-topfull/functions.php:2014
 msgid "ライトグレーT0"
-msgstr ""
+msgstr "라이트 그레이 T0"
 
 #: skins/skin-grayish-topfull/functions.php:2015
 msgid "ライトブルーT0"
-msgstr ""
+msgstr "라이트 블루 T0"
 
 #: skins/skin-grayish-topfull/functions.php:2016
 msgid "ライトブルーT70"
-msgstr ""
+msgstr "라이트 블루 T70"
 
 #: skins/skin-grayish-topfull/functions.php:2017
 msgid "ライトブルーT90"
-msgstr ""
+msgstr "라이트 블루 T90"
 
 #: skins/skin-grayish-topfull/functions.php:2018
 msgid "シェイドブルーS30"
-msgstr ""
+msgstr "쉐이드 블루 S30"
 
 #: skins/skin-grayish-topfull/functions.php:2019
 msgid "シェイドブルーS50"
-msgstr ""
+msgstr "쉐이드 블루 S50"
 
 #: skins/skin-grayish-topfull/functions.php:2020
 msgid "PinkT0"
@@ -12065,7 +12066,7 @@ msgstr ""
 
 #: skins/skin-grayish-topfull/functions.php:2081
 msgid "横スクロールできます"
-msgstr ""
+msgstr "갈 스크롤 가능"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:54
 #: tmp/sns-follow-buttons.php:33
@@ -12417,377 +12418,377 @@ msgstr ""
 
 #: blocks/src/block-extension/style-extension/border01.js:46
 msgid "実線"
-msgstr ""
+msgstr "실선"
 
 #: blocks/src/block-extension/style-extension/border01.js:50
 msgid "二重線"
-msgstr ""
+msgstr "이중선"
 
 #: blocks/src/block-extension/style-extension/border01.js:54
 msgid "破線"
-msgstr ""
+msgstr "파선"
 
 #: blocks/src/block-extension/style-extension/border01.js:58
 msgid "点線"
-msgstr ""
+msgstr "점선"
 
 #: blocks/src/block-extension/style-extension/border01.js:62
 msgid "薄太"
-msgstr ""
+msgstr "넓은선"
 
 #: blocks/src/block-extension/style-extension/border01.js:66
 msgid "微凸"
-msgstr ""
+msgstr "입체"
 
 #: blocks/src/block-extension/style-extension/border01.js:70
 msgid "実線(角丸小)"
-msgstr ""
+msgstr "실선(조금 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:74
 msgid "二重線(角丸小)"
-msgstr ""
+msgstr "이중선(조금 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:78
 msgid "破線(角丸小)"
-msgstr ""
+msgstr "파선(조금 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:82
 msgid "点線(角丸小)"
-msgstr ""
+msgstr "점선(조금 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:86
 msgid "薄太(角丸小)"
-msgstr ""
+msgstr "넓은선(조금 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:90
 msgid "微凸(角丸小)"
-msgstr ""
+msgstr "입체(조금 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:94
 msgid "実線(角丸大)"
-msgstr ""
+msgstr "실선(많이 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:98
 msgid "二重線(角丸大)"
-msgstr ""
+msgstr "이중선(많이 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:102
 msgid "破線(角丸大)"
-msgstr ""
+msgstr "파선(많이 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:106
 msgid "点線(角丸大)"
-msgstr ""
+msgstr "점선(많이 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:110
 msgid "薄太(角丸大)"
-msgstr ""
+msgstr "넓은선(많이 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:114
 msgid "微凸(角丸大)"
-msgstr ""
+msgstr "입체(많이 둥근 모서리)"
 
 #: blocks/src/block-extension/style-extension/border01.js:118
 msgid "白抜き灰"
-msgstr ""
+msgstr "밑색 빼기 회색"
 
 #: blocks/src/block-extension/style-extension/border01.js:122
 msgid "白抜き赤"
-msgstr ""
+msgstr "밑색 빼기 빨강"
 
 #: blocks/src/block-extension/style-extension/border01.js:126
 msgid "白抜きピンク"
-msgstr ""
+msgstr "밑색 빼기 분홍"
 
 #: blocks/src/block-extension/style-extension/border01.js:130
 msgid "白抜き紺"
-msgstr ""
+msgstr "밑색 빼기 남색"
 
 #: blocks/src/block-extension/style-extension/border01.js:134
 msgid "白抜き青"
-msgstr ""
+msgstr "밑색 빼기 파랑"
 
 #: blocks/src/block-extension/style-extension/border01.js:138
 msgid "白抜き紫"
-msgstr ""
+msgstr "밑색 빼기 보라"
 
 #: blocks/src/block-extension/style-extension/border01.js:142
 msgid "白抜きオレンジ"
-msgstr ""
+msgstr "밑색 빼기 주황색"
 
 #: blocks/src/block-extension/style-extension/border01.js:146
 msgid "白抜き黄"
-msgstr ""
+msgstr "밑색 빼기 노랑"
 
 #: blocks/src/block-extension/style-extension/border01.js:150
 msgid "白抜き緑"
-msgstr ""
+msgstr "밑색 빼기 초록"
 
 #: blocks/src/block-extension/style-extension/border01.js:161
 msgid "[C] ボーダー設定"
-msgstr ""
+msgstr "[C] 테두리 설정"
 
 #: blocks/src/block-extension/style-extension/border01.js:171
 #: blocks/src/block-extension/style-extension/border01.js:234
 msgid "ボーダーをクリア"
-msgstr ""
+msgstr "테두리 제거"
 
 #: blocks/src/block-extension/style-extension/margin.js:51
 msgid "ブロック下余白"
-msgstr ""
+msgstr "블록 하단 여백"
 
 #: blocks/src/block-extension/style-extension/margin.js:53
 msgid "[C] ブロック下余白"
-msgstr ""
+msgstr "[C] 블록 하단 여백"
 
 #: blocks/src/block-extension/style-extension/margin.js:59
 msgid "未設定"
-msgstr ""
+msgstr "미설정"
 
 #: blocks/src/block-extension/style-extension/margin.js:62
 msgid "文字高の"
-msgstr ""
+msgstr "글자 높이ㅇ"
 
 #: blocks/src/block-extension/style-extension/margin.js:64
 msgid "倍の余白設定"
-msgstr ""
+msgstr "이중 여백 설정"
 
 #: blocks/src/block-extension/style-extension/margin.js:93
 msgid "余白をクリア"
-msgstr ""
+msgstr "여백 제거"
 
 #: blocks/src/block-extension/style-extension/style01.js:46
 msgid "薄背景"
-msgstr ""
+msgstr "연한 배경"
 
 #: blocks/src/block-extension/style-extension/style01.js:50
 msgid "ストライプ"
-msgstr ""
+msgstr "스트라이프"
 
 #: blocks/src/block-extension/style-extension/style01.js:54
 msgid "方眼紙"
-msgstr ""
+msgstr "모눈종이"
 
 #: blocks/src/block-extension/style-extension/style01.js:62
 msgid "ステッチ"
-msgstr ""
+msgstr "바느질"
 
 #: blocks/src/block-extension/style-extension/style01.js:66
 msgid "かぎ括弧"
-msgstr ""
+msgstr "인용문"
 
 #: blocks/src/block-extension/style-extension/style01.js:70
 msgid "角括弧"
-msgstr ""
+msgstr "대괄호"
 
 #: blocks/src/block-extension/style-extension/style01.js:78
 msgid "ずれた二重線"
-msgstr ""
+msgstr "엇갈린 이중선"
 
 #: blocks/src/block-extension/style-extension/style01.js:82
 msgid "角三角"
-msgstr ""
+msgstr "삼각형 모퉁이"
 
 #: blocks/src/block-extension/style-extension/style01.js:86
 msgid "クリップ"
-msgstr ""
+msgstr "클립"
 
 #: blocks/src/block-extension/style-extension/style01.js:90
 msgid "ホチキス"
-msgstr ""
+msgstr "스테이플러"
 
 #: blocks/src/block-extension/style-extension/style01.js:94
 msgid "ホチキス左上"
-msgstr ""
+msgstr "스테이플러 좌상단"
 
 #: blocks/src/block-extension/style-extension/style01.js:98
 msgid "穴あけパンチ"
-msgstr ""
+msgstr "서류 펀치 구멍"
 
 #: blocks/src/block-extension/style-extension/style01.js:102
 msgid "手書き風"
-msgstr ""
+msgstr "손그림"
 
 #: blocks/src/block-extension/style-extension/style01.js:106
 msgid "上線"
-msgstr ""
+msgstr "상단 선"
 
 #: blocks/src/block-extension/style-extension/style01.js:110
 msgid "付箋"
-msgstr ""
+msgstr "포스트잇"
 
 #: blocks/src/block-extension/style-extension/style01.js:114
 msgid "左吹き出し"
-msgstr ""
+msgstr "말풍선 왼쪽"
 
 #: blocks/src/block-extension/style-extension/style01.js:118
 msgid "右吹き出し"
-msgstr ""
+msgstr "말풍선 오른쪽"
 
 #: blocks/src/block-extension/style-extension/style01.js:122
 msgid "上吹き出し"
-msgstr ""
+msgstr "말풍선 위쪽"
 
 #: blocks/src/block-extension/style-extension/style01.js:126
 msgid "下吹き出し"
-msgstr ""
+msgstr "말풍선 아래쪽"
 
 #: blocks/src/block-extension/style-extension/style01.js:130
 #: blocks/src/block-extension/style-extension/style02.js:82
 msgid "情報"
-msgstr ""
+msgstr "정보"
 
 #: blocks/src/block-extension/style-extension/style01.js:134
 msgid "質問"
-msgstr ""
+msgstr "질문"
 
 #: blocks/src/block-extension/style-extension/style01.js:138
 msgid "アラート"
-msgstr ""
+msgstr "알림"
 
 #: blocks/src/block-extension/style-extension/style01.js:158
 msgid "グッド"
-msgstr ""
+msgstr "GOOD"
 
 #: blocks/src/block-extension/style-extension/style01.js:162
 msgid "バッド"
-msgstr ""
+msgstr "BAD"
 
 #: blocks/src/block-extension/style-extension/style01.js:170
 msgid "プライマリー"
-msgstr ""
+msgstr "기본"
 
 #: blocks/src/block-extension/style-extension/style01.js:174
 msgid "サクセス"
-msgstr ""
+msgstr "성공"
 
 #: blocks/src/block-extension/style-extension/style01.js:178
 msgid "インフォ"
-msgstr ""
+msgstr "정보"
 
 #: blocks/src/block-extension/style-extension/style01.js:182
 msgid "ワーニング"
-msgstr ""
+msgstr "경고"
 
 #: blocks/src/block-extension/style-extension/style01.js:186
 msgid "デンジャー"
-msgstr ""
+msgstr "위험"
 
 #: blocks/src/block-extension/style-extension/style01.js:190
 msgid "セカンダリー"
-msgstr ""
+msgstr "두번째"
 
 #: blocks/src/block-extension/style-extension/style01.js:194
 msgid "ライト"
-msgstr ""
+msgstr "라이트"
 
 #: blocks/src/block-extension/style-extension/style01.js:198
 msgid "ダーク"
-msgstr ""
+msgstr "ekzm분홍"
 
 #: blocks/src/block-extension/style-extension/style01.js:202
 msgid "付箋灰"
-msgstr ""
+msgstr "포스트잇 회색"
 
 #: blocks/src/block-extension/style-extension/style01.js:206
 msgid "付箋赤"
-msgstr ""
+msgstr "포스트잇 빨간색"
 
 #: blocks/src/block-extension/style-extension/style01.js:210
 msgid "付箋青"
-msgstr ""
+msgstr "포스트잇 파란색"
 
 #: blocks/src/block-extension/style-extension/style01.js:214
 msgid "付箋黄"
-msgstr ""
+msgstr "포스트잇 노란색"
 
 #: blocks/src/block-extension/style-extension/style01.js:218
 msgid "付箋緑"
-msgstr ""
+msgstr "포스트잇 초록색"
 
 #: blocks/src/block-extension/style-extension/style01.js:229
 #: blocks/src/block-extension/style-extension/style02.js:137
 msgid "[C] スタイル"
-msgstr ""
+msgstr "[C] 스타일"
 
 #: blocks/src/block-extension/style-extension/style01.js:239
 #: blocks/src/block-extension/style-extension/style01.js:301
 #: blocks/src/block-extension/style-extension/style02.js:147
 #: blocks/src/block-extension/style-extension/style02.js:213
 msgid "スタイルをクリア"
-msgstr ""
+msgstr "스타일 제거"
 
 #: blocks/src/block-extension/style-extension/style02.js:46
 msgid "丸数字"
-msgstr ""
+msgstr "동그라미 숫자"
 
 #: blocks/src/block-extension/style-extension/style02.js:50
 msgid "順位"
-msgstr ""
+msgstr "순위"
 
 #: blocks/src/block-extension/style-extension/style02.js:54
 msgid "ステップ"
-msgstr ""
+msgstr "단계"
 
 #: blocks/src/block-extension/style-extension/style02.js:62
 msgid "チェック有効"
-msgstr ""
+msgstr "체크됨"
 
 #: blocks/src/block-extension/style-extension/style02.js:66
 msgid "チェック無効"
-msgstr ""
+msgstr "체크안됨"
 
 #: blocks/src/block-extension/style-extension/style02.js:70
 msgid "丸"
-msgstr ""
+msgstr "동그라미"
 
 #: blocks/src/block-extension/style-extension/style02.js:74
 msgid "三角"
-msgstr ""
+msgstr "삼각"
 
 #: blocks/src/block-extension/style-extension/style02.js:78
 msgid "バツ"
-msgstr ""
+msgstr "가위표"
 
 #: blocks/src/block-extension/style-extension/style02.js:86
 msgid "疑問"
-msgstr ""
+msgstr "의문"
 
 #: blocks/src/block-extension/style-extension/style02.js:90
 msgid "警告"
-msgstr ""
+msgstr "경고"
 
 #: blocks/src/block-extension/style-extension/style02.js:94
 msgid "肉球"
-msgstr ""
+msgstr "발자국"
 
 #: blocks/src/block-extension/style-extension/style02.js:98
 msgid "サムアップ"
-msgstr ""
+msgstr "추천"
 
 #: blocks/src/block-extension/style-extension/style02.js:102
 msgid "サムダウン"
-msgstr ""
+msgstr "비추천"
 
 #: blocks/src/block-extension/style-extension/style02.js:110
 msgid "男性"
-msgstr ""
+msgstr "남자"
 
 #: blocks/src/block-extension/style-extension/style02.js:114
 msgid "女性"
-msgstr ""
+msgstr "여자"
 
 #: blocks/src/block-extension/style-extension/style02.js:118
 msgid "ハート"
-msgstr ""
+msgstr "하트"
 
 #: blocks/src/block-extension/style-extension/style02.js:122
 msgid "ハートブレイク"
-msgstr ""
+msgstr "하트 브레이크"
 
 #: blocks/src/block-extension/style-extension/style02.js:126
 msgid "禁止"
-msgstr ""
+msgstr "금지"
 
 #: blocks/src/block-universal/caption-box/edit.js:69
 #: blocks/src/block-universal/label-box/edit.js:69
@@ -12894,15 +12895,15 @@ msgstr "탭 형태의 제목을 넣을 수 있는 박스입니다."
 
 #: blocks/src/block/ad/edit.js:19
 msgid "広告が非表示です。"
-msgstr ""
+msgstr "광고가 숨겨져 있습니다."
 
 #: blocks/src/block/ad/edit.js:21
 msgid "[ad]ショートコードが無効です。"
-msgstr ""
+msgstr "[ad]숏코드가 유효하지 않습니다."
 
 #: blocks/src/block/ad/index.js:24
 msgid "広告を表示します。"
-msgstr ""
+msgstr "광고를 표시합니다."
 
 #: blocks/src/block/balloon/edit.js:160
 #: blocks/src/old/balloon-1/block.js:101
@@ -12916,7 +12917,7 @@ msgstr "인물"
 
 #: blocks/src/block/balloon/edit.js:242
 msgid "吹き出し色設定"
-msgstr ""
+msgstr "말풍선 색 설정"
 
 #: blocks/src/block/balloon/edit.js:304
 msgid "セリフの入力"
@@ -12957,27 +12958,27 @@ msgstr "블로그 카드 표시용 입력 블록을 표시합니다. 여러개�
 
 #: blocks/src/block/box-menu/edit.js:60
 msgid "ダッシュボードメニューの「外観」→「メニュー」からボックスメニューを作成してください。"
-msgstr ""
+msgstr "대시보드 메뉴의 외모→메뉴에서 박스 메뉴를 생성하세요."
 
 #: blocks/src/block/box-menu/edit.js:65
 msgid "ボックスメニューが登録されていません。"
-msgstr ""
+msgstr "박스 메뉴가 등록되어 있지 않습니다."
 
 #: blocks/src/block/box-menu/edit.js:71
 msgid "有効なボックスメニューが登録されていません。"
-msgstr ""
+msgstr "유효한 박스 메뉴가 등록되어 있지 않습니다."
 
 #: blocks/src/block/box-menu/edit.js:73
 msgid "もしくは登録されているボックスメニューを表示設定にしてください。"
-msgstr ""
+msgstr "또는 등록되어 있는 박스 메뉴를 표시하도록 설정해 주세요."
 
 #: blocks/src/block/box-menu/edit.js:78
 msgid "ボックスメニューを選択してください。"
-msgstr ""
+msgstr "박스 메뉴를 선택하세요."
 
 #: blocks/src/block/box-menu/index.js:24
 msgid "登録されているボックスメニューを表示します。"
-msgstr ""
+msgstr "등록된 박스 메뉴를 표시합니다."
 
 #: blocks/src/block/button-wrap/deprecated.js:29
 #: blocks/src/old/button-wrap-1/block.js:56
@@ -13189,257 +13190,257 @@ msgstr "박스의 배경색에 따라 직관적으로 메시지 내용을 전달
 #: blocks/src/block/new-list/edit.js:78
 #: blocks/src/block/popular-list/edit.js:77
 msgid "表示するカテゴリーをカンマ区切りで指定"
-msgstr ""
+msgstr "표시할 카테고리를 쉼표로 구분하여 지정합니다"
 
 #: blocks/src/block/info-list/edit.js:87
 #: blocks/src/block/navicard/edit.js:99
 #: blocks/src/block/new-list/edit.js:123
 #: blocks/src/block/popular-list/edit.js:196
 msgid "基本設定"
-msgstr ""
+msgstr "기본 설정"
 
 #: blocks/src/block/info-list/edit.js:89
 msgid "キャプション(枠線内表示)"
-msgstr ""
+msgstr "캡션(테두리 표시)"
 
 #: blocks/src/block/info-list/edit.js:123
 #: blocks/src/block/new-list/edit.js:224
 #: blocks/src/block/popular-list/edit.js:272
 msgid "フィルタ"
-msgstr ""
+msgstr "필터"
 
 #: blocks/src/block/info-list/edit.js:125
 #: blocks/src/block/new-list/edit.js:226
 #: blocks/src/block/popular-list/edit.js:274
 msgid "全カテゴリー表示"
-msgstr ""
+msgstr "모든 카테고리 표시"
 
 #: blocks/src/block/info-list/index.js:31
 msgid "新着情報の一覧を表示します。"
-msgstr ""
+msgstr "새 글 목록을 표시합니다."
 
 #: blocks/src/block/navicard/edit.js:63
 msgid "ダッシュボードメニューの「外観」→「メニュー」からメニューを作成してください。"
-msgstr ""
+msgstr "대시보드 메뉴의 외모→메뉴에서 메뉴를 생성해주세요."
 
 #: blocks/src/block/navicard/edit.js:68
 msgid "メニューが登録されていません。"
-msgstr ""
+msgstr "메뉴가 등록되어 있지 않습니다."
 
 #: blocks/src/block/navicard/edit.js:70
 msgid "メニューを選択してください。"
-msgstr ""
+msgstr "메뉴를 선택해주세요."
 
 #: blocks/src/block/navicard/edit.js:106
 #: blocks/src/block/new-list/edit.js:138
 #: blocks/src/block/popular-list/edit.js:218
 msgid "通常のリスト"
-msgstr ""
+msgstr "일반 목록"
 
 #: blocks/src/block/navicard/edit.js:110
 #: blocks/src/block/new-list/edit.js:142
 #: blocks/src/block/popular-list/edit.js:222
 msgid "カードの上下に区切り線を入れる"
-msgstr ""
+msgstr "카드의 위아래에 구분선 넣기"
 
 #: blocks/src/block/navicard/edit.js:110
 #: blocks/src/block/new-list/edit.js:142
 #: blocks/src/block/popular-list/edit.js:222
 msgid "（縦型表示のみ）"
-msgstr ""
+msgstr "(세로형 표시에만)"
 
 #: blocks/src/block/navicard/edit.js:114
 #: blocks/src/block/new-list/edit.js:146
 #: blocks/src/block/popular-list/edit.js:226
 msgid "カードに枠線を表示する"
-msgstr ""
+msgstr "카드에 테두리 표시하기"
 
 #: blocks/src/block/navicard/edit.js:118
 #: blocks/src/block/new-list/edit.js:150
 #: blocks/src/block/popular-list/edit.js:230
 msgid "大きなサムネイル表示"
-msgstr ""
+msgstr "큰 썸네일 표시"
 
 #: blocks/src/block/navicard/edit.js:122
 #: blocks/src/block/new-list/edit.js:154
 #: blocks/src/block/popular-list/edit.js:234
 msgid "大きなサムネイルにタイトルを重ねる"
-msgstr ""
+msgstr "큰 썸네일에 제목 겹치기"
 
 #: blocks/src/block/navicard/edit.js:129
 #: blocks/src/block/new-list/edit.js:200
 #: blocks/src/block/popular-list/edit.js:241
 msgid "記事タイトルを太字にする"
-msgstr ""
+msgstr "글 제목을 굵게 표시하기"
 
 #: blocks/src/block/navicard/edit.js:134
 #: blocks/src/block/new-list/edit.js:205
 #: blocks/src/block/popular-list/edit.js:246
 msgid "カードに矢印を表示する"
-msgstr ""
+msgstr "카드에 화살표 표시하기"
 
 #: blocks/src/block/navicard/edit.js:139
 #: blocks/src/block/new-list/edit.js:210
 #: blocks/src/block/popular-list/edit.js:251
 msgid "横並び表示"
-msgstr ""
+msgstr "가로로 표시"
 
 #: blocks/src/block/navicard/index.js:24
 msgid "登録されているメニューからナビカードを表示します。"
-msgstr ""
+msgstr "등록되어 있는 메뉴에서 내비게이션 카드를 표시합니다."
 
 #: blocks/src/block/new-list/edit.js:83
 #: blocks/src/block/popular-list/edit.js:82
 msgid "表示カテゴリー選択"
-msgstr ""
+msgstr "표시할 카테고리 선택"
 
 #: blocks/src/block/new-list/edit.js:95
 #: blocks/src/block/popular-list/edit.js:94
 msgid "子カテゴリーの内容を含めて表示"
-msgstr ""
+msgstr "하위 카테고리의 내용을 포함하여 표시"
 
 #: blocks/src/block/new-list/edit.js:125
 #: blocks/src/block/popular-list/edit.js:198
 msgid "表示する記事の数"
-msgstr ""
+msgstr "표시할 글의 수"
 
 #: blocks/src/block/new-list/edit.js:160
 msgid "表示順"
-msgstr ""
+msgstr "표시 순서"
 
 #: blocks/src/block/new-list/edit.js:164
 msgid "更新日順"
-msgstr ""
+msgstr "수정일 순"
 
 #: blocks/src/block/new-list/edit.js:168
 msgid "投稿日順"
-msgstr ""
+msgstr "게시일 순"
 
 #: blocks/src/block/new-list/edit.js:181
 msgid "並び替え"
-msgstr ""
+msgstr "정렬"
 
 #: blocks/src/block/new-list/edit.js:184
 msgid "昇順"
-msgstr ""
+msgstr "오름차순"
 
 #: blocks/src/block/new-list/edit.js:185
 msgid "降順"
-msgstr ""
+msgstr "내림차순"
 
 #: blocks/src/block/new-list/edit.js:192
 msgid "読み飛ばし"
-msgstr ""
+msgstr "건너뛰기"
 
 #: blocks/src/block/new-list/edit.js:217
 msgid "説明文の表示"
-msgstr ""
+msgstr "설명문 표시"
 
 #: blocks/src/block/new-list/edit.js:237
 msgid "全タグ表示"
-msgstr ""
+msgstr "모든 태그 표시"
 
 #: blocks/src/block/new-list/edit.js:246
 msgid "固定記事の表示"
-msgstr ""
+msgstr "고정 기사 표시"
 
 #: blocks/src/block/new-list/edit.js:251
 #: blocks/src/block/popular-list/edit.js:286
 msgid "投稿タイプ"
-msgstr ""
+msgstr "게시 유형"
 
 #: blocks/src/block/new-list/edit.js:258
 msgid "検索グループ"
-msgstr ""
+msgstr "검색 그룹"
 
 #: blocks/src/block/new-list/edit.js:263
 msgid "投稿ユーザ"
-msgstr ""
+msgstr "게시자"
 
 #: blocks/src/block/new-list/index.js:31
 msgid "新着記事の一覧を表示します。"
-msgstr ""
+msgstr "새 글 목록을 표시합니다."
 
 #: blocks/src/block/popular-list/edit.js:107
 msgid "除外するカテゴリーをカンマ区切りで指定"
-msgstr ""
+msgstr "제외할 카테고리를 쉼표로 구분하여 지정"
 
 #: blocks/src/block/popular-list/edit.js:112
 msgid "除外カテゴリー選択"
-msgstr ""
+msgstr "제외 카테고리 선택"
 
 #: blocks/src/block/popular-list/edit.js:136
 msgid "データの集計期間"
-msgstr ""
+msgstr "데이터 수집 기간"
 
 #: blocks/src/block/popular-list/edit.js:147
 msgid "1日"
-msgstr ""
+msgstr "1일"
 
 #: blocks/src/block/popular-list/edit.js:175
 msgid "半年"
-msgstr ""
+msgstr "반년"
 
 #: blocks/src/block/popular-list/edit.js:205
 msgid "全期間集計"
-msgstr ""
+msgstr "전체 기간"
 
 #: blocks/src/block/popular-list/edit.js:258
 msgid "ランキング番号表示"
-msgstr ""
+msgstr "랭킹 번호 표시"
 
 #: blocks/src/block/popular-list/edit.js:265
 msgid "PV数表示"
-msgstr ""
+msgstr "PV 수 표시"
 
 #: blocks/src/block/popular-list/edit.js:293
 msgid "除外投稿(ID)"
-msgstr ""
+msgstr "제외 게시물(ID)"
 
 #: blocks/src/block/popular-list/index.js:31
 msgid "人気記事の一覧を表示します。"
-msgstr ""
+msgstr "인기 글 목록을 표시합니다."
 
 #: blocks/src/block/profile/edit.js:53
 msgid "選択できるユーザーがありません。"
-msgstr ""
+msgstr "선택할 수 있는 사용자가 없습니다."
 
 #: blocks/src/block/profile/edit.js:55
 msgid "ユーザーを選択してください。"
-msgstr ""
+msgstr "사용자를 선택해주세요."
 
 #: blocks/src/block/profile/edit.js:102
 msgid "ユーザー"
-msgstr ""
+msgstr "사용자"
 
 #: blocks/src/block/profile/index.js:24
 msgid "プロフィールを表示します。"
-msgstr ""
+msgstr "프로필을 표시합니다."
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
 msgid "（リスト非表示）"
-msgstr ""
+msgstr "(리스트 표시 안함)"
 
 #: blocks/src/block/ranking/edit.js:55
 msgid "ダッシュボードメニューの「Cocoon設定」→「ランキング」からランキングを作成してください。"
-msgstr ""
+msgstr "데시보드 메뉴 Cocoon설정→랭킹에서 랭킹을 만들어주세요."
 
 #: blocks/src/block/ranking/edit.js:63
 msgid "ランキングが登録されていません。"
-msgstr ""
+msgstr "랭킹이 등록되어있지 않습니다."
 
 #: blocks/src/block/ranking/edit.js:70
 msgid "有効なランキングが登録されていません。"
-msgstr ""
+msgstr "유효한 랭킹이 등록되어 있지 않습니다."
 
 #: blocks/src/block/ranking/edit.js:72
 msgid "もしくは登録されているランキングを表示設定にしてください。。"
-msgstr ""
+msgstr "또는 등록되어 있는 랭킹이 표시되도록 설정해 주세요."
 
 #: blocks/src/block/ranking/index.js:24
 msgid "登録されているランキングを表示します。"
-msgstr ""
+msgstr "등록된 랭킹을 표시합니다."
 
 #: blocks/src/block/search-box/block.js:29
 #: blocks/src/block/search-box/index.js:21
@@ -13471,27 +13472,27 @@ msgstr "탭에 메시지 내용을 전하기 위한 글자가 적혀 있는 박�
 
 #: blocks/src/block/template/edit.js:56
 msgid "ダッシュボードメニューの「Cocoon設定」→「テンプレート」からテンプレートを作成してください。"
-msgstr ""
+msgstr "대시보드 메뉴의 Cocoon 설정→템플릿에서 템플릿을 생성하세요."
 
 #: blocks/src/block/template/edit.js:61
 msgid "テンプレートが登録されていません。"
-msgstr ""
+msgstr "템플릿이 등록되어 있지 않습니다."
 
 #: blocks/src/block/template/edit.js:68
 msgid "有効なテンプレートが登録されていません。"
-msgstr ""
+msgstr "유효한 템플릿이 등록되어 있지 않습니다."
 
 #: blocks/src/block/template/edit.js:70
 msgid "もしくは登録されているテンプレートを表示設定にしてください。。"
-msgstr ""
+msgstr "또는 등록되어 있는 템플릿을 표시되도록 설정해 주세요."
 
 #: blocks/src/block/template/edit.js:76
 msgid "テンプレートを選択してください。"
-msgstr ""
+msgstr "템플릿을 선택해주세요."
 
 #: blocks/src/block/template/index.js:24
 msgid "登録されているテンプレートを表示します。"
-msgstr ""
+msgstr "등록된 템플릿을 표시합니다."
 
 #: blocks/src/block/timeline-item/index.js:23
 #: blocks/src/layout/column-children/block.js:24
@@ -13525,11 +13526,11 @@ msgstr "이전 토글박스. 클릭하여 컨텐츠 내용의 표시를 바꿀 �
 
 #: blocks/src/components/WidthPanel.js:15
 msgid "幅設定"
-msgstr ""
+msgstr "너비 설정"
 
 #: blocks/src/components/WidthPanel.js:16
 msgid "幅"
-msgstr ""
+msgstr "너비"
 
 #: blocks/src/custom/code/block.js:30
 msgid "言語"
@@ -13930,11 +13931,11 @@ msgstr ""
 
 #: blocks/src/layout/column-2/block.js:119
 msgid "1:3（｜□｜□□□｜））"
-msgstr ""
+msgstr "1:3（｜□｜□□□｜）"
 
 #: blocks/src/layout/column-2/block.js:123
 msgid "3:1,（｜□□□｜□｜）"
-msgstr ""
+msgstr "3:1（｜□□□｜□｜）"
 
 #: blocks/src/layout/column-3/block.js:39
 msgid "本文を左・中央・右カラムに分けます。"
