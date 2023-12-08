@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2023-11-29T13:09:58+00:00\n"
-"PO-Revision-Date: 2023-11-29 13:16\n"
+"PO-Revision-Date: 2023-12-08 13:46\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -11965,31 +11965,31 @@ msgstr "Titles in the sidebar<br><small>(Adapts the four selected colors in orde
 
 #: skins/skin-grayish-topfull/functions.php:2013
 msgid "サイトテキストグレー"
-msgstr ""
+msgstr "Site text gray"
 
 #: skins/skin-grayish-topfull/functions.php:2014
 msgid "ライトグレーT0"
-msgstr ""
+msgstr "Light Gray T0"
 
 #: skins/skin-grayish-topfull/functions.php:2015
 msgid "ライトブルーT0"
-msgstr ""
+msgstr "Light Blue T0"
 
 #: skins/skin-grayish-topfull/functions.php:2016
 msgid "ライトブルーT70"
-msgstr ""
+msgstr "Light Blue T70"
 
 #: skins/skin-grayish-topfull/functions.php:2017
 msgid "ライトブルーT90"
-msgstr ""
+msgstr "Light Blue T90"
 
 #: skins/skin-grayish-topfull/functions.php:2018
 msgid "シェイドブルーS30"
-msgstr ""
+msgstr "Shade Blue S30"
 
 #: skins/skin-grayish-topfull/functions.php:2019
 msgid "シェイドブルーS50"
-msgstr ""
+msgstr "Shade Blue S50"
 
 #: skins/skin-grayish-topfull/functions.php:2020
 msgid "PinkT0"
@@ -12069,12 +12069,12 @@ msgstr ""
 
 #: skins/skin-grayish-topfull/functions.php:2081
 msgid "横スクロールできます"
-msgstr ""
+msgstr "Can be scrolled horizontally"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:54
 #: tmp/sns-follow-buttons.php:33
 msgid "Xをフォロー"
-msgstr ""
+msgstr "Follow X"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:66
 #: tmp/sns-follow-buttons.php:37
@@ -12119,17 +12119,17 @@ msgstr "Follow Flickr"
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:170
 #: tmp/sns-follow-buttons.php:85
 msgid "Amazonほしい物リストをチェック"
-msgstr ""
+msgstr "Check Amazon Wishlist"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:183
 #: tmp/sns-follow-buttons.php:89
 msgid "Twitchをフォロー"
-msgstr ""
+msgstr "Follow Twitch"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:196
 #: tmp/sns-follow-buttons.php:93
 msgid "楽天ROOMをフォロー"
-msgstr ""
+msgstr "Follow Rakuten Room"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:209
 #: tmp/sns-follow-buttons.php:97
