@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-01-22T13:17:21+00:00\n"
-"PO-Revision-Date: 2024-01-22 13:22\n"
+"PO-Revision-Date: 2024-01-22 13:33\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1621,12 +1621,12 @@ msgstr "Title"
 #: lib/content-category.php:250
 #: lib/content-tag.php:197
 msgid "ページのタイトル"
-msgstr ""
+msgstr "Page title"
 
 #: lib/content-category.php:251
 #: lib/content-tag.php:198
 msgid "このページのタイトルを指定します。ページのタイトルタグにここで入力したテキストが適用されます。"
-msgstr ""
+msgstr "Specifies a title for the tag page. The text entered here will be applied to the title tag of the tag page."
 
 #: lib/content-category.php:255
 #: lib/content-tag.php:202
@@ -1636,7 +1636,7 @@ msgstr "Body"
 
 #: lib/content-category.php:260
 msgid "このページで表示されるメインコンテンツを入力してください。"
-msgstr ""
+msgstr "Enter the main content to be displayed on the tag page."
 
 #: lib/content-category.php:269
 #: lib/content-tag.php:216
@@ -1657,7 +1657,7 @@ msgstr "Enter a description for the category page."
 
 #: lib/content-category.php:279
 msgid "このページの説明を入力します。ここに入力したテキストはメタディスクリプションタグとして利用されます。"
-msgstr ""
+msgstr "Enter a description for the tag page. The text entered here will be used as a meta description tag."
 
 #: lib/content-category.php:283
 #: lib/content-tag.php:230
@@ -1676,7 +1676,7 @@ msgstr "Keyword 1, Keyword 2, Keyword 3, ..."
 #: lib/content-category.php:289
 #: lib/content-tag.php:236
 msgid "このページのメタキーワードをカンマ区切りで入力してください。※現在はあまり意味のない設定となっています。"
-msgstr ""
+msgstr "Enter meta keywords for the tag page, separated by commas. *This setting does not currently have much effect."
 
 #: lib/content-category.php:293
 #: lib/content-tag.php:240
@@ -1713,15 +1713,15 @@ msgstr "This is basically entered for displaying a description in the list table
 
 #: lib/content-tag.php:207
 msgid "ページで表示されるメインコンテンツを入力してください。"
-msgstr ""
+msgstr "Enter the main content to be displayed on the tag page."
 
 #: lib/content-tag.php:224
 msgid "ページの説明文を入力してください"
-msgstr ""
+msgstr "Enter a description for the tag page."
 
 #: lib/content-tag.php:226
 msgid "ページの説明を入力します。ここに入力したテキストはメタディスクリプションタグとして利用されます。"
-msgstr ""
+msgstr "Enter a description for the tag page. The text entered here will be used as a meta description tag."
 
 #: lib/content-tag.php:247
 msgid "こちらの設定を無効にしていても、Cocoon設定の「SEO」タブにある｢タグページをnoindexとする」設定を有効にしている場合はそちらが優先されます。"
@@ -1729,7 +1729,7 @@ msgstr "Even if this setting is disabled, \"Set tag page to noindex\" setting in
 
 #: lib/content-tag.php:247
 msgid "※カスタム投稿のカテゴリーなったとしても公開ページはタグとして認識されます。"
-msgstr ""
+msgstr "*Even if it is a custom post category, the public page will be recognized as a tag."
 
 #: lib/custom-fields/ad-field.php:17
 #: lib/custom-fields/ad-field.php:18
@@ -4228,23 +4228,23 @@ msgstr "If you enter [ad] or insert \"ad block\" in the text, the ad set in \"ad
 
 #: lib/page-settings/ads-forms.php:255
 msgid "ads.txt編集"
-msgstr ""
+msgstr "Edit ads.txt"
 
 #: lib/page-settings/ads-forms.php:260
 msgid "ads.txtの更新を有効にする"
-msgstr ""
+msgstr "Enable update of ads.txt"
 
 #: lib/page-settings/ads-forms.php:265
 msgid "ads.txtの内容を入力"
-msgstr ""
+msgstr "Enter the contents of ads.txt"
 
 #: lib/page-settings/ads-forms.php:266
 msgid "ads.txt（アズテキスト）とは、Webの広告枠の販売者を厳密に管理し、偽の広告枠が広告主に提供されるのを防ぐためのテキストファイルです。"
-msgstr ""
+msgstr "ads.txt is a text file that strictly controls sellers of ad spaces on the Web and prevents fake ad spaces from being offered to advertisers."
 
 #: lib/page-settings/ads-forms.php:266
 msgid "Adsenseのみなどを除く第三者（他社）広告との併用配信をする際は設置が必須です。"
-msgstr ""
+msgstr "Installation is required when serving in combination with third-party (other company) advertisements, except for Adsense only, etc."
 
 #: lib/page-settings/ads-forms.php:282
 msgid "PR表記設定"
@@ -4777,7 +4777,7 @@ msgstr "Date format"
 
 #: lib/page-settings/all-forms.php:323
 msgid "テーマが使用する日付のフォーマット形式を入力してください（初期値：Y.m.d）。"
-msgstr ""
+msgstr "Enter the date format that the theme will use (default : Y.m.d)."
 
 #: lib/page-settings/all-forms.php:325
 msgid "<a href=\"https://ja.wordpress.org/support/article/formatting-date-and-time/\">日付と時刻の書式の解説</a>"
@@ -8411,19 +8411,19 @@ msgstr "Do you want to output JSON-LD information of structured data to the head
 
 #: lib/page-settings/seo-forms.php:95
 msgid "メタタグ設定"
-msgstr ""
+msgstr "Meta tag settings"
 
 #: lib/page-settings/seo-forms.php:99
 msgid "headタグ内のmetaタグに関する設定です。"
-msgstr ""
+msgstr "Settings related to meta tags in the head tag."
 
 #: lib/page-settings/seo-forms.php:99
 msgid "よくわからない場合は設定を変更しないことを推奨します。"
-msgstr ""
+msgstr "Do not change the setting if you do not understand."
 
 #: lib/page-settings/seo-forms.php:107
 msgid "リファラー"
-msgstr ""
+msgstr "Referrer"
 
 #: lib/page-settings/seo-forms.php:113
 msgid "no-referrer"
@@ -8431,7 +8431,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:113
 msgid "（リファラー情報を送らない）"
-msgstr ""
+msgstr "(Do not send referrer information)"
 
 #: lib/page-settings/seo-forms.php:114
 msgid "no-referrer-when-downgrade"
@@ -8439,7 +8439,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:114
 msgid "（ASPにリファラーを送りたい場合はこちらを推奨）"
-msgstr ""
+msgstr "(Recommended when you want to send referrer to ASP)"
 
 #: lib/page-settings/seo-forms.php:115
 msgid "same-origin"
@@ -8463,7 +8463,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:119
 msgid "（ブラウザデフォルト）"
-msgstr ""
+msgstr "(Browser default)"
 
 #: lib/page-settings/seo-forms.php:120
 msgid "unsafe-url"
@@ -8471,11 +8471,11 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:123
 msgid "メタタグでのリファラーの振る舞いを設定します。"
-msgstr ""
+msgstr "Sets referrer behavior in meta tags."
 
 #: lib/page-settings/seo-forms.php:123
 msgid "以前のブラウザデフォルトはno-referrer-when-downgradeでしたが、2020年以降はstrict-origin-when-cross-originがデフォルトとなりました。"
-msgstr ""
+msgstr "Previously, the browser default was no-referrer-when-downgrade, but since 2020, strict-origin-when-cross-origin is the default."
 
 #: lib/page-settings/seo-forms.php:140
 msgid "日付の設定"
@@ -10309,7 +10309,7 @@ msgstr "Optimize"
 
 #: lib/page-speed-up/speed-up-forms.php:46
 msgid "CSS、JavaScriptの縮小化を行うことにより転送サイズを減らし高速化を図ります。AMPページも縮小化されます。"
-msgstr ""
+msgstr "By reducing the size of the HTML, CSS, and JavaScript, the transfer size is reduced, speeding up browsing. AMP are also reduced in size."
 
 #: lib/page-speed-up/speed-up-forms.php:55
 msgid "HTML縮小化"
@@ -11449,7 +11449,7 @@ msgstr "CTA heading"
 
 #: lib/widgets/cta-box.php:113
 msgid "画像とメッセージのレイアウト（サイドバー・フッター以外）"
-msgstr ""
+msgstr "Layout of images and messages (other than the sidebar and footer)"
 
 #: lib/widgets/cta-box.php:117
 msgid "画像・メッセージを上下に配置"
