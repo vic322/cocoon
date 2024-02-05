@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-02-03T13:23:39+00:00\n"
-"PO-Revision-Date: 2024-02-04 01:46\n"
+"PO-Revision-Date: 2024-02-05 13:13\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -7977,7 +7977,7 @@ msgstr ""
 
 #: lib/page-settings/others-forms.php:100
 msgid "jQuery Core 3.6.1"
-msgstr ""
+msgstr "JQuery Core 3.6.1"
 
 #: lib/page-settings/others-forms.php:101
 msgid "jQuery Core 2.2.4"
@@ -8005,7 +8005,7 @@ msgstr "JQuery Migrate"
 
 #: lib/page-settings/others-forms.php:120
 msgid "jQuery Migrate 3.3.2"
-msgstr ""
+msgstr "JQuery Migrate 3.3.2"
 
 #: lib/page-settings/others-forms.php:121
 msgid "jQuery Migrate 1.4.1"
@@ -11567,7 +11567,7 @@ msgstr "페이스북 페이지 URL"
 #: lib/widgets/fb-like-balloon.php:89
 #: lib/widgets/fb-like-box.php:125
 msgid "https://www.facebook.com/XXXXXXX"
-msgstr ""
+msgstr "https://www.facebook.com/XXXXXXX"
 
 #: lib/widgets/fb-like-balloon.php:90
 msgid "※未入力だとプロフィールページで設定されているものを利用。"
