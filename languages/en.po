@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-02-10T05:56:51+00:00\n"
-"PO-Revision-Date: 2024-02-10 06:00\n"
+"PO-Revision-Date: 2024-02-10 07:03\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -97,7 +97,7 @@ msgstr "Accordion"
 #: functions.php:521
 #: functions.php:522
 msgid "ブロックパターン"
-msgstr ""
+msgstr "Block patterns"
 
 #: lib/admin-tinymce-qtag.php:24
 #: lib/tinymce/html-tags.php:136
