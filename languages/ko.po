@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-03-05T10:55:22+00:00\n"
-"PO-Revision-Date: 2024-03-05 10:58\n"
+"PO-Revision-Date: 2024-03-22 15:45\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -102,7 +102,7 @@ msgstr "아코디언 박스"
 #: functions.php:521
 #: functions.php:522
 msgid "パターン"
-msgstr ""
+msgstr "패턴"
 
 #: lib/admin-tinymce-qtag.php:24
 #: lib/tinymce/html-tags.php:136
@@ -1727,11 +1727,11 @@ msgstr "페이지에 표시할 메인 콘텐츠를 입력해주세요."
 
 #: lib/content-tag.php:224
 msgid "ページの説明文を入力してください"
-msgstr ""
+msgstr "페이지의 설명문을 입력해주세요"
 
 #: lib/content-tag.php:226
 msgid "ページの説明を入力します。ここに入力したテキストはメタディスクリプションタグとして利用されます。"
-msgstr ""
+msgstr "페이지의 설명을 입력합니다. 여기에 입력한 텍스트는 메타 디스크립션 태그에 이용됩니다."
 
 #: lib/content-tag.php:247
 msgid "こちらの設定を無効にしていても、Cocoon設定の「SEO」タブにある｢タグページをnoindexとする」設定を有効にしている場合はそちらが優先されます。"
@@ -1739,7 +1739,7 @@ msgstr "이 설정을 비활성화 하더라도 Coocon 설정의 SEO 탭에 있�
 
 #: lib/content-tag.php:247
 msgid "※カスタム投稿のカテゴリーなったとしても公開ページはタグとして認識されます。"
-msgstr ""
+msgstr "※커스텀 게시의 카테고리가 된다 하여도 공개 페이지는 태그로 인식됩니다."
 
 #: lib/custom-fields/ad-field.php:17
 #: lib/custom-fields/ad-field.php:18
@@ -2313,7 +2313,7 @@ msgstr ""
 
 #: lib/gutenberg.php:278
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: lib/gutenberg.php:282
 msgid "JavaScript"
@@ -2329,7 +2329,7 @@ msgstr ""
 
 #: lib/gutenberg.php:294
 msgid "Objective C"
-msgstr ""
+msgstr "Objective C"
 
 #: lib/gutenberg.php:298
 msgid "PHP"
@@ -2669,7 +2669,7 @@ msgstr ""
 
 #: lib/html-tooltips.php:87
 msgid "Color Hunt"
-msgstr ""
+msgstr "Color Hunt"
 
 #: lib/html-tooltips.php:109
 #: lib/html-tooltips.php:123
@@ -4239,27 +4239,27 @@ msgstr "본문 내에 [ad]라고 입력하거나 「광고 블록」을 삽입�
 
 #: lib/page-settings/ads-forms.php:255
 msgid "ads.txt編集"
-msgstr ""
+msgstr "ads.txt 편집"
 
 #: lib/page-settings/ads-forms.php:260
 msgid "ads.txtの更新を有効にする"
-msgstr ""
+msgstr "ads.txt의 수정 사항을 활성화"
 
 #: lib/page-settings/ads-forms.php:265
 msgid "ads.txtの内容を入力"
-msgstr ""
+msgstr "ads.txt의 내용 입력"
 
 #: lib/page-settings/ads-forms.php:266
 msgid "ads.txt（アズテキスト）とは、Webの広告枠の販売者を厳密に管理し、偽の広告枠が広告主に提供されるのを防ぐためのテキストファイルです。"
-msgstr ""
+msgstr "ads.txt(애드 텍스트)란 웹의 광고틀의 판매자를 엄밀히 관리하고, 가짜 광고틀이 광고주에게 제공되는 것을 막기 위한 텍스트 파일입니다."
 
 #: lib/page-settings/ads-forms.php:266
 msgid "Adsenseのみなどを除く第三者（他社）広告との併用配信をする際は設置が必須です。"
-msgstr ""
+msgstr "Adsense를 제외한 제삼자(타사) 광고와 함께 사용을 할 때는 필수입니다."
 
 #: lib/page-settings/ads-forms.php:268
 msgid "ads.txtガイド"
-msgstr ""
+msgstr "ads.txt 가이드"
 
 #: lib/page-settings/ads-forms.php:282
 msgid "PR表記設定"
@@ -4554,47 +4554,47 @@ msgstr "전체 사이트에 적용할 폰트를 선택합니다."
 
 #: lib/page-settings/all-forms.php:78
 msgid "12px"
-msgstr ""
+msgstr "12px"
 
 #: lib/page-settings/all-forms.php:79
 msgid "13px"
-msgstr ""
+msgstr "13px"
 
 #: lib/page-settings/all-forms.php:80
 msgid "14px"
-msgstr ""
+msgstr "14px"
 
 #: lib/page-settings/all-forms.php:81
 msgid "15px"
-msgstr ""
+msgstr "15px"
 
 #: lib/page-settings/all-forms.php:82
 msgid "16px"
-msgstr ""
+msgstr "16px"
 
 #: lib/page-settings/all-forms.php:83
 msgid "17px"
-msgstr ""
+msgstr "17px"
 
 #: lib/page-settings/all-forms.php:84
 msgid "18px"
-msgstr ""
+msgstr "18px"
 
 #: lib/page-settings/all-forms.php:85
 msgid "19px"
-msgstr ""
+msgstr "19px"
 
 #: lib/page-settings/all-forms.php:86
 msgid "20px"
-msgstr ""
+msgstr "20px"
 
 #: lib/page-settings/all-forms.php:87
 msgid "21px"
-msgstr ""
+msgstr "21px"
 
 #: lib/page-settings/all-forms.php:88
 msgid "22px"
-msgstr ""
+msgstr "22px"
 
 #: lib/page-settings/all-forms.php:90
 #: blocks/src/block/button-wrap/edit.js:126
@@ -8931,11 +8931,11 @@ msgstr "X(구 Twitter)"
 #: lib/page-settings/sns-share-forms-top.php:58
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodon"
-msgstr ""
+msgstr "Mastodon"
 
 #: lib/page-settings/sns-follow-forms.php:74
 msgid "Bluesky"
-msgstr ""
+msgstr "Bluesky"
 
 #: lib/page-settings/sns-follow-forms.php:75
 #: lib/page-settings/sns-share-forms-bottom.php:74
