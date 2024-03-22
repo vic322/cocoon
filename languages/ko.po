@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-03-05T10:55:22+00:00\n"
-"PO-Revision-Date: 2024-03-22 15:45\n"
+"PO-Revision-Date: 2024-03-22 17:13\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -8942,7 +8942,7 @@ msgstr "Bluesky"
 #: lib/page-settings/sns-share-forms-top.php:61
 #: tmp/sns-share-buttons.php:25
 msgid "Misskey"
-msgstr ""
+msgstr "Misskey"
 
 #: lib/page-settings/sns-follow-forms.php:76
 #: lib/page-settings/sns-share-forms-bottom.php:77
@@ -10661,7 +10661,7 @@ msgstr "이미지 하단을 검은 배경으로 해서 제목 겹치기"
 
 #: lib/shortcodes-amazon.php:188
 msgid "us-west-2"
-msgstr ""
+msgstr "us-west-2"
 
 #: lib/shortcodes-amazon.php:270
 msgid "webservices.amazon.co.jp"
@@ -14071,11 +14071,11 @@ msgstr ""
 
 #: blocks/src/layout/column-2/block.js:111
 msgid "1:2（｜□｜□□｜）"
-msgstr ""
+msgstr "1:2（｜□｜□□｜）"
 
 #: blocks/src/layout/column-2/block.js:115
 msgid "2:1（｜□□｜□｜）"
-msgstr ""
+msgstr "2:1（｜□□｜□｜）"
 
 #: blocks/src/layout/column-2/block.js:119
 msgid "1:3（｜□｜□□□｜））"
@@ -14218,19 +14218,19 @@ msgstr ""
 
 #: blocks/src/toolbutton/background-icons.js:71
 msgid "◎"
-msgstr ""
+msgstr "◎"
 
 #: blocks/src/toolbutton/background-icons.js:72
 msgid "○"
-msgstr ""
+msgstr "○"
 
 #: blocks/src/toolbutton/background-icons.js:73
 msgid "△"
-msgstr ""
+msgstr "△"
 
 #: blocks/src/toolbutton/background-icons.js:74
 msgid "×"
-msgstr ""
+msgstr "×"
 
 #: blocks/src/toolbutton/bold.js:15
 msgid "太字（boldクラス指定）"
