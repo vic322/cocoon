@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-03-05T10:55:22+00:00\n"
-"PO-Revision-Date: 2024-03-22 17:13\n"
+"PO-Revision-Date: 2024-03-23 14:29\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4792,7 +4792,7 @@ msgstr "날짜 형식"
 
 #: lib/page-settings/all-forms.php:323
 msgid "テーマが使用する日付のフォーマット形式を入力してください（初期値：Y.m.d）。"
-msgstr ""
+msgstr "테마가 사용하는 날짜의 형식을 입력해주세요 (기본: Y.m.d)."
 
 #: lib/page-settings/all-forms.php:325
 msgid "<a href=\"https://ja.wordpress.org/support/article/formatting-date-and-time/\">日付と時刻の書式の解説</a>"
@@ -6673,7 +6673,7 @@ msgstr "제목 등의 글자수 카운터 표시"
 
 #: lib/page-settings/editor-forms.php:55
 msgid "タイトルや、SEOタイトル、メタディスクリプションの文字数を表示します。"
-msgstr ""
+msgstr "타이틀이나 SEO 타이틀, 메타 디스크립션의 문자수를 표시합니다."
 
 #: lib/page-settings/editor-forms.php:63
 msgid "エディター色"
@@ -6697,7 +6697,7 @@ msgstr "편집기에서 체크 리스트를 선택하는 것으로 태그를 선
 
 #: lib/page-settings/editor-forms.php:86
 msgid "※タグ編集画面やエディターのタグオプション上で階層構造形式になります。"
-msgstr ""
+msgstr "※태그 편집 화면이나 에디터의 태그 옵션 상에서 계층 구조 형식이 됩니다."
 
 #: lib/page-settings/editor-forms.php:100
 msgid "ブロックエディター設定"
