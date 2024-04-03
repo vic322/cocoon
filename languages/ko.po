@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-03-05T10:55:22+00:00\n"
-"PO-Revision-Date: 2024-04-03 14:07\n"
+"PO-Revision-Date: 2024-04-03 15:53\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -10350,7 +10350,7 @@ msgstr "축소화"
 
 #: lib/page-speed-up/speed-up-forms.php:46
 msgid "CSS、JavaScriptの縮小化を行うことにより転送サイズを減らし高速化を図ります。"
-msgstr ""
+msgstr "CSS, Java Script를 축소하여 전송 사이즈를 줄이고 속도를 높입니다."
 
 #: lib/page-speed-up/speed-up-forms.php:55
 msgid "HTML縮小化"
@@ -10783,15 +10783,15 @@ msgstr "X(구 Twitter) URL"
 
 #: lib/sns-follow.php:136
 msgid "Mastodon URL"
-msgstr ""
+msgstr "Mastodon URL"
 
 #: lib/sns-follow.php:137
 msgid "Bluesky URL"
-msgstr ""
+msgstr "Bluesky URL"
 
 #: lib/sns-follow.php:138
 msgid "Misskey URL"
-msgstr ""
+msgstr "Misskey URL"
 
 #: lib/sns-follow.php:139
 msgid "Facebook URL"
@@ -11651,7 +11651,7 @@ msgstr "트위터 ID (@은 불필요)"
 #: lib/widgets/fb-like-box.php:133
 #: lib/widgets/fb-like-box.php:141
 msgid "XXXXXXX"
-msgstr ""
+msgstr "XXXXXXX"
 
 #: lib/widgets/fb-like-box.php:134
 #: lib/widgets/fb-like-box.php:142
@@ -12199,22 +12199,22 @@ msgstr "갈 스크롤 가능"
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:57
 #: tmp/sns-follow-buttons.php:33
 msgid "Xをフォロー"
-msgstr ""
+msgstr "X 팔로우"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:69
 #: tmp/sns-follow-buttons.php:37
 msgid "Mastodonをフォロー"
-msgstr ""
+msgstr "Mastodon 팔로우"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:82
 #: tmp/sns-follow-buttons.php:41
 msgid "Blueskyをフォロー"
-msgstr ""
+msgstr "Bluesky 팔로우"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:95
 #: tmp/sns-follow-buttons.php:45
 msgid "Misskeyをフォロー"
-msgstr ""
+msgstr "Misskey 팔로우"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:108
 #: tmp/sns-follow-buttons.php:49
@@ -12259,17 +12259,17 @@ msgstr "플리커 팔로우"
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
 #: tmp/sns-follow-buttons.php:97
 msgid "Amazonほしい物リストをチェック"
-msgstr ""
+msgstr "아마존 위시 리스트 체크"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:225
 #: tmp/sns-follow-buttons.php:101
 msgid "Twitchをフォロー"
-msgstr ""
+msgstr "트위치 팔로우"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
 #: tmp/sns-follow-buttons.php:105
 msgid "楽天ROOMをフォロー"
-msgstr ""
+msgstr "라쿠텐 ROOM 팔로우"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:251
 #: tmp/sns-follow-buttons.php:109
@@ -12289,7 +12289,7 @@ msgstr "CodePen 팔로우"
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:290
 #: tmp/sns-follow-buttons.php:69
 msgid "TikTokをフォロー"
-msgstr ""
+msgstr "틱톡 팔로우"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:303
 #: tmp/sns-follow-buttons.php:81
@@ -12303,7 +12303,7 @@ msgstr "LINE@ 팔로우"
 
 #: skins/skin-made-in-heaven/lib/hook-wp.php:39
 msgid "ログアウト"
-msgstr ""
+msgstr "로그아웃"
 
 #. Template Name of the theme
 msgid "bbPress - Create Topic"
@@ -12497,7 +12497,7 @@ msgstr "작성자 웹사이트"
 
 #: tmp/sns-follow-buttons.php:29
 msgid "著作サイトをチェック"
-msgstr ""
+msgstr "저작 사이트 확인"
 
 #: tmp/sns-follow-buttons.php:57
 msgid "Google＋をフォロー"
@@ -12509,11 +12509,11 @@ msgstr "feedly로 새 글 구독"
 
 #: tmp/sns-follow-buttons.php:125
 msgid "RSSで更新情報を購読"
-msgstr ""
+msgstr "RSS에서 업데이트 구독"
 
 #: tmp/sns-share-buttons.php:17
 msgid "Xでシェア"
-msgstr ""
+msgstr "X에 공유"
 
 #: tmp/sns-share-buttons.php:17
 msgid "X"
@@ -12521,19 +12521,19 @@ msgstr ""
 
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodonでシェア"
-msgstr ""
+msgstr "Mastodon에 공유"
 
 #: tmp/sns-share-buttons.php:25
 msgid "Misskeyでシェア"
-msgstr ""
+msgstr "Misskey에 공유"
 
 #: tmp/sns-share-buttons.php:29
 msgid "Facebookでシェア"
-msgstr ""
+msgstr "페이스북에 공유"
 
 #: tmp/sns-share-buttons.php:33
 msgid "はてブでブックマーク"
-msgstr ""
+msgstr "하테나 북마크에 북마크하기"
 
 #: tmp/sns-share-buttons.php:33
 msgid "はてブ"
@@ -12541,11 +12541,11 @@ msgstr "하테나 북마크"
 
 #: tmp/sns-share-buttons.php:37
 msgid "Pocketに保存"
-msgstr ""
+msgstr "Pocket에 저장"
 
 #: tmp/sns-share-buttons.php:41
 msgid "LINEでシェア"
-msgstr ""
+msgstr "라인에 공유"
 
 #: tmp/sns-share-buttons.php:41
 msgid "LINE"
@@ -12553,15 +12553,15 @@ msgstr ""
 
 #: tmp/sns-share-buttons.php:45
 msgid "Pinterestでシェア"
-msgstr ""
+msgstr "핀터레스트에 공유"
 
 #: tmp/sns-share-buttons.php:49
 msgid "LinkedInでシェア"
-msgstr ""
+msgstr "링크드인에 공유"
 
 #: tmp/sns-share-buttons.php:55
 msgid "タイトルとURLをコピーする"
-msgstr ""
+msgstr "제목 및 URL 복사"
 
 #: tmp/sns-share-buttons.php:55
 msgid "コピー"
@@ -12569,7 +12569,7 @@ msgstr "복사"
 
 #: tmp/sns-share-buttons.php:59
 msgid "コメントする"
-msgstr ""
+msgstr "댓글 남기기"
 
 #: blocks/src/block-extension/style-extension/border01.js:46
 msgid "実線"
@@ -13069,7 +13069,7 @@ msgstr "말풍선 색 설정"
 
 #: blocks/src/block/balloon/edit.js:349
 msgid "セリフの入力"
-msgstr ""
+msgstr "문장 입력"
 
 #: blocks/src/block/balloon/index.js:38
 #: blocks/src/old/balloon-ex-fix1/block.js:60
@@ -14067,7 +14067,7 @@ msgstr "열 비율입니다."
 
 #: blocks/src/layout/column-2/block.js:107
 msgid "1:1（｜□｜□｜）"
-msgstr ""
+msgstr "1:1（｜□｜□｜）"
 
 #: blocks/src/layout/column-2/block.js:111
 msgid "1:2（｜□｜□□｜）"
@@ -14214,7 +14214,7 @@ msgstr "제휴 태그"
 
 #: blocks/src/toolbutton/background-icons.js:54
 msgid "背景アイコン"
-msgstr ""
+msgstr "배경 아이콘"
 
 #: blocks/src/toolbutton/background-icons.js:71
 msgid "◎"
