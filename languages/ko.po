@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-03-05T10:55:22+00:00\n"
-"PO-Revision-Date: 2024-03-23 14:29\n"
+"PO-Revision-Date: 2024-04-03 14:07\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -7037,7 +7037,7 @@ msgstr "높이: "
 
 #: lib/page-settings/header-forms.php:116
 msgid "ロゴの縦横幅を指定します。ロゴのRetina対応などに。サイズ設定が不要の場合は空欄にしてください。「ヘッダーレイアウト」が「センターロゴ」でないと、ロゴサイズの変更までは行われません。"
-msgstr ""
+msgstr "로고의 가로 세로 폭을 지정합니다. 로고의 Retina 디스플레이 대응 등에 사용합니다. 크기 설정이 필요 없는 경우는 빈 칸으로 두세요. 헤더 레이아웃이 중앙 로고가 아니면 로고 사이즈가 변경되지 않습니다."
 
 #: lib/page-settings/header-forms.php:123
 msgid "キャッチフレーズの配置"
@@ -7683,7 +7683,7 @@ msgstr "헤더ㆍ푸터 모바일 버튼"
 
 #: lib/page-settings/mobile-buttons-forms.php:41
 msgid "モバイルメニュー等を表示するための設定を行います。1024px未満で表示されます。"
-msgstr ""
+msgstr "모바일 메뉴 등을 표시하기 위한 설정을 합니다. 1024px 미만으로 표시됩니다."
 
 #: lib/page-settings/mobile-buttons-forms.php:52
 msgid "モバイルボタン"
@@ -7719,7 +7719,7 @@ msgstr "전역 네비 메뉴 색"
 
 #: lib/page-settings/navi-forms.php:17
 msgid "グローバルナビ背景色"
-msgstr ""
+msgstr "전역 네비 배경 색"
 
 #: lib/page-settings/navi-forms.php:18
 msgid "グローバルナビ全体の背景色を選択します。"
@@ -7963,7 +7963,7 @@ msgstr "Simplicity로부터 글 설정 이어받기"
 
 #: lib/page-settings/others-forms.php:55
 msgid "Simplicityから利用可能なPost meta情報を利用します。例えば投稿画面の「SEO設定」「広告除外」項目とか。※テーマカスタマイザーとかの設定は移行できません。"
-msgstr ""
+msgstr "Simplicity에서 이용 가능한 Post meta 정보를 이용합니다. 예를 들면 글 발행 화면의 「SEO 설정」 「광고 제외」 항목등. ※테마 커스터마이즈등의 설정은 할 수 없습니다."
 
 #: lib/page-settings/others-forms.php:63
 msgid "日本語スラッグ"
@@ -8433,19 +8433,19 @@ msgstr "구조화 데이터의 JSON-LD 정보를 헤더에 출력하시겠습니
 
 #: lib/page-settings/seo-forms.php:95
 msgid "メタタグ設定"
-msgstr ""
+msgstr "메타 태그 설정"
 
 #: lib/page-settings/seo-forms.php:99
 msgid "headタグ内のmetaタグに関する設定です。"
-msgstr ""
+msgstr "head 태그 내의 meta 태그에 관련된 설정입니다."
 
 #: lib/page-settings/seo-forms.php:99
 msgid "よくわからない場合は設定を変更しないことを推奨します。"
-msgstr ""
+msgstr "잘 알지 못하는 경우에는 변경하지 않는 것을 권장합니다."
 
 #: lib/page-settings/seo-forms.php:107
 msgid "リファラー"
-msgstr ""
+msgstr "리퍼러"
 
 #: lib/page-settings/seo-forms.php:113
 msgid "no-referrer"
@@ -8453,7 +8453,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:113
 msgid "（リファラー情報を送らない）"
-msgstr ""
+msgstr "(리퍼러 정보를 보내지 않음)"
 
 #: lib/page-settings/seo-forms.php:114
 msgid "no-referrer-when-downgrade"
@@ -8461,7 +8461,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:114
 msgid "（ASPにリファラーを送りたい場合はこちらを推奨）"
-msgstr ""
+msgstr "(ASP에 리퍼러를 보내고 싶은 경우는 이쪽을 권장)"
 
 #: lib/page-settings/seo-forms.php:115
 msgid "same-origin"
@@ -8485,7 +8485,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:119
 msgid "（ブラウザデフォルト）"
-msgstr ""
+msgstr "(브라우저 기본)"
 
 #: lib/page-settings/seo-forms.php:120
 msgid "unsafe-url"
@@ -8493,11 +8493,11 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:123
 msgid "メタタグでのリファラーの振る舞いを設定します。"
-msgstr ""
+msgstr "메타 태그의 리퍼러의 작동 방식을 설정합니다."
 
 #: lib/page-settings/seo-forms.php:123
 msgid "以前のブラウザデフォルトはno-referrer-when-downgradeでしたが、2020年以降はstrict-origin-when-cross-originがデフォルトとなりました。"
-msgstr ""
+msgstr "예전 브라우저의 기본값은 no-referrer-when-downgrade였지만 2020년 이후에는 strict-origin-when-cross-origin이 기본값이 되었습니다."
 
 #: lib/page-settings/seo-forms.php:140
 msgid "日付の設定"
@@ -8864,7 +8864,7 @@ msgstr "오리지널 스킨의  Cocoon 사이트 소개에 관해"
 
 #: lib/page-settings/sns-follow-forms.php:13
 msgid "フォローボタン設定"
-msgstr ""
+msgstr "팔로우 버튼 설정"
 
 #: lib/page-settings/sns-follow-forms.php:15
 msgid "フォローボタンの表示に関する設定です。"
@@ -9194,7 +9194,7 @@ msgstr "를 팔로우"
 
 #: lib/page-settings/sns-share-forms-bottom.php:11
 msgid "ボトムシェアボタン設定"
-msgstr ""
+msgstr "하단 공유 버튼 설정"
 
 #: lib/page-settings/sns-share-forms-bottom.php:13
 msgid "ボトムシェアボタンの表示に関する設定です。"
@@ -9352,7 +9352,7 @@ msgstr "하단 공유 버튼의 공유 표시 여부를 지정합니다."
 
 #: lib/page-settings/sns-share-forms-top.php:11
 msgid "トップシェアボタン設定"
-msgstr ""
+msgstr "상단 공유 버튼 설정"
 
 #: lib/page-settings/sns-share-forms-top.php:13
 msgid "トップシェアボタンの表示に関する設定です。"
@@ -9911,7 +9911,7 @@ msgstr "h2~h6 헤딩 내의 HTML 태그를 그대로 출력합니다."
 
 #: lib/page-settings/widget-area-forms.php:11
 msgid "ウィジェットエリア設定"
-msgstr ""
+msgstr "위젯 영역 표시"
 
 #: lib/page-settings/widget-area-forms.php:14
 msgid "使用しないウィジェットエリアを表示しないようにする設定です。"
@@ -9923,7 +9923,7 @@ msgstr "제외 위젯 영역"
 
 #: lib/page-settings/widget-forms.php:11
 msgid "ウィジェット設定"
-msgstr ""
+msgstr "위젯 설정"
 
 #: lib/page-settings/widget-forms.php:14
 msgid "使用しないウィジェットを表示しないようにする設定です。"
