@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-06-26T12:48:45+00:00\n"
-"PO-Revision-Date: 2024-06-26 12:52\n"
+"PO-Revision-Date: 2024-06-26 13:04\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1922,7 +1922,7 @@ msgstr "Hide title"
 
 #: lib/custom-fields/page-field.php:60
 msgid "このページに記事タイトルを表示するかを切り替えます。"
-msgstr "Toggle display of the table of contents on this page."
+msgstr "Toggle display of the article title on this page."
 
 #: lib/custom-fields/page-field.php:63
 msgid "読む時間を表示しない"
@@ -2625,7 +2625,7 @@ msgstr "Login page"
 
 #: lib/html-forms.php:1525
 msgid "未登録ユーザーです。ログインして、Cocoon設定の保存ボタンを押してください。"
-msgstr ""
+msgstr "Unregistered user. Please login and press the save button in Cocoon Settings."
 
 #: lib/html-forms.php:1528
 msgid "プロフィール内容は管理画面から変更可能です→"
@@ -5330,23 +5330,23 @@ msgstr "mercari"
 
 #: lib/page-settings/apis-forms.php:204
 msgid "メルカリアンバサダーID"
-msgstr ""
+msgstr "Mercari Ambassador ID"
 
 #: lib/page-settings/apis-forms.php:209
 msgid "メルカリの「アンバサダーID」を取得してください。"
-msgstr ""
+msgstr "Please obtain \"Ambassador ID\" from Mercari."
 
 #: lib/page-settings/apis-forms.php:214
 msgid "メルカリ検索ボタンを表示する"
-msgstr ""
+msgstr "Display Mercari search button"
 
 #: lib/page-settings/apis-forms.php:215
 msgid "メルカリのキーワード検索ボタンを表示するか。"
-msgstr ""
+msgstr "Do you want to display the Mercari keyword search button?"
 
 #: lib/page-settings/apis-forms.php:218
 msgid "メルカリの検索ボタンに表示するテキストを入力してください。"
-msgstr ""
+msgstr "Enter the text you want to appear on the Mercari search button. "
 
 #: lib/page-settings/apis-forms.php:230
 #: lib/page-settings/apis-funcs.php:279
@@ -6747,7 +6747,7 @@ msgstr "Change it for selecting tags by selecting the checklist in the editor."
 
 #: lib/page-settings/editor-forms.php:89
 msgid "※タグ編集画面やエディターのタグオプション上で階層構造形式になります。"
-msgstr ""
+msgstr "*This is a hierarchical structure format on the tag editing screen and on the tag options in the editor."
 
 #: lib/page-settings/editor-forms.php:103
 msgid "ブロックエディター設定"
@@ -11569,12 +11569,12 @@ msgstr "CTA images (reload if the selection button does not work)"
 #: lib/widgets/cta-box.php:148
 #: blocks/src/block/cta/edit.js:164
 msgid "ボタンテキスト"
-msgstr ""
+msgstr "Button Text"
 
 #: lib/widgets/cta-box.php:155
 #: blocks/src/block/cta/edit.js:170
 msgid "ボタンURL"
-msgstr ""
+msgstr "Button url"
 
 #: lib/widgets/cta-box.php:166
 #: blocks/src/block/cta/edit.js:179
@@ -12255,17 +12255,17 @@ msgstr "Follow X"
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:69
 #: tmp/sns-follow-buttons.php:37
 msgid "Mastodonをフォロー"
-msgstr ""
+msgstr "Follow Mastodon"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:82
 #: tmp/sns-follow-buttons.php:41
 msgid "Blueskyをフォロー"
-msgstr ""
+msgstr "Follow Bluesky"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:95
 #: tmp/sns-follow-buttons.php:45
 msgid "Misskeyをフォロー"
-msgstr ""
+msgstr "Follow Misskey"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:108
 #: tmp/sns-follow-buttons.php:49
@@ -12572,15 +12572,15 @@ msgstr "X"
 
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodonでシェア"
-msgstr ""
+msgstr "Share on Mastodon"
 
 #: tmp/sns-share-buttons.php:25
 msgid "Blueskyでシェア"
-msgstr ""
+msgstr "Share on Bluesky"
 
 #: tmp/sns-share-buttons.php:29
 msgid "Misskeyでシェア"
-msgstr ""
+msgstr "Share on Misskey"
 
 #: tmp/sns-share-buttons.php:33
 msgid "Facebookでシェア"
@@ -13298,11 +13298,11 @@ msgstr "CTA heading"
 
 #: blocks/src/block/cta/edit.js:49
 msgid "ここに訴求メッセージを入力してください。"
-msgstr ""
+msgstr "Enter a message."
 
 #: blocks/src/block/cta/edit.js:50
 msgid "この記事を読む"
-msgstr ""
+msgstr "Read this article"
 
 #: blocks/src/block/cta/edit.js:78
 #: blocks/src/block/info-list/edit.js:87
@@ -13314,27 +13314,27 @@ msgstr "Basic Settings"
 
 #: blocks/src/block/cta/edit.js:89
 msgid "画像とメッセージのレイアウト"
-msgstr ""
+msgstr "Layout of image and message"
 
 #: blocks/src/block/cta/edit.js:127
 msgid "置換"
-msgstr ""
+msgstr "Replace"
 
 #: blocks/src/block/cta/edit.js:185
 msgid "紺色(インディゴ)"
-msgstr ""
+msgstr "Navy blue (indigo)"
 
 #: blocks/src/block/cta/edit.js:191
 msgid "明るい青(シアン)"
-msgstr ""
+msgstr "Bright blue (cyan)"
 
 #: blocks/src/block/cta/edit.js:195
 msgid "緑色がかった青(ティール)"
-msgstr ""
+msgstr "Medium blue-green (teal)"
 
 #: blocks/src/block/cta/edit.js:206
 msgid "琥珀色(アンバー)"
-msgstr ""
+msgstr "Amber"
 
 #: blocks/src/block/cta/index.js:21
 msgid "CTA"
@@ -13342,7 +13342,7 @@ msgstr ""
 
 #: blocks/src/block/cta/index.js:23
 msgid "コールトゥアクションボックスを表示します。"
-msgstr ""
+msgstr "Display Call To Action box."
 
 #: blocks/src/block/faq/edit.js:130
 msgid "質問ラベル"
@@ -13733,11 +13733,11 @@ msgstr "A box with a label on the tab to convey the contents of the message."
 
 #: blocks/src/block/tab-item/index.js:21
 msgid "タブアイテム"
-msgstr ""
+msgstr "Tab Item"
 
 #: blocks/src/block/tab-item/index.js:23
 msgid "タブのコンテンツ"
-msgstr ""
+msgstr "Tab Content"
 
 #: blocks/src/block/tab/edit.js:159
 msgid "Tab"
@@ -13745,32 +13745,32 @@ msgstr "Tab"
 
 #: blocks/src/block/tab/edit.js:258
 msgid "タブ設定"
-msgstr ""
+msgstr "Tab Setting"
 
 #: blocks/src/block/tab/edit.js:262
 #: blocks/src/block/tab/index.js:22
 msgid "タブ"
-msgstr ""
+msgstr "Tab"
 
 #: blocks/src/block/tab/edit.js:263
 msgid "タブ削除"
-msgstr ""
+msgstr "Delete Tab"
 
 #: blocks/src/block/tab/edit.js:264
 msgid "上に移動"
-msgstr ""
+msgstr "Move Up"
 
 #: blocks/src/block/tab/edit.js:265
 msgid "下に移動"
-msgstr ""
+msgstr "Move Down"
 
 #: blocks/src/block/tab/edit.js:270
 msgid "タブ追加"
-msgstr ""
+msgstr "Add Tab"
 
 #: blocks/src/block/tab/index.js:24
 msgid "表示する内容をタブで切り替えることができるボックスです。"
-msgstr ""
+msgstr "Box allows you to switch the contents by tabs."
 
 #: blocks/src/block/template/edit.js:56
 msgid "ダッシュボードメニューの「Cocoon設定」→「テンプレート」からテンプレートを作成してください。"
@@ -14368,7 +14368,7 @@ msgstr "Affiliate tags"
 
 #: blocks/src/toolbutton/background-icons.js:54
 msgid "背景アイコン"
-msgstr ""
+msgstr "Background Icon"
 
 #: blocks/src/toolbutton/background-icons.js:71
 msgid "◎"
@@ -14404,7 +14404,7 @@ msgstr "Clear format"
 
 #: blocks/src/toolbutton/custom.js:24
 msgid "カスタムテキスト"
-msgstr ""
+msgstr "Custom Text"
 
 #: blocks/src/toolbutton/dropdown-affiliates.js:57
 msgid "アフィリエイト"
@@ -14413,7 +14413,7 @@ msgstr "Affiliate"
 #: blocks/src/toolbutton/dropdown-badges.js:22
 #: blocks/src/toolbutton/dropdown-badges.js:35
 msgid "インラインタグ"
-msgstr ""
+msgstr "Inline Tag"
 
 #: blocks/src/toolbutton/dropdown-letters.js:25
 #: blocks/src/toolbutton/dropdown-letters.js:38
