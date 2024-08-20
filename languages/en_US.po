@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-20 14:51\n"
+"PO-Revision-Date: 2024-08-20 15:09\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12831,27 +12831,27 @@ msgstr "Change the background color of the header mobile button."
 
 #: skins/skin-grayish-topfull/functions.php:1711
 msgid "※「フロントページのみヘッダーモバイルボタンをメニューアイコンのみON」に設定している場合は、フロントページのヘッダーモバイルボタンの背景色は無効になります。"
-msgstr ""
+msgstr "* When \"Display menu icon only of header mobile button on the front page\" is enabled, background color of header mobile button on the front page is disabled."
 
 #: skins/skin-grayish-topfull/functions.php:1728
 msgid "ヘッダーモバイルボタン背景色の不透明度調整"
-msgstr ""
+msgstr "Header mobile button background color opacity"
 
 #: skins/skin-grayish-topfull/functions.php:1730
 msgid "※「フロントページのみヘッダーモバイルボタンをメニューアイコンのみON」に設定している場合は、フロントページのヘッダーモバイルボタンの背景色の不透明度調整は無効になります。"
-msgstr ""
+msgstr "* When \"Display menu icon only of header mobile button on the front page\" is enabled, adjustment of opacity of the background color of header mobile button on the front page is disabled."
 
 #: skins/skin-grayish-topfull/functions.php:1761
 msgid "フロントページのみヘッダーモバイルボタンをメニューアイコンのみON/OFF"
-msgstr ""
+msgstr "Toggle display menu icon only of header mobile button on the front page."
 
 #: skins/skin-grayish-topfull/functions.php:1762
 msgid "フロントページ以外は設定したメニューを表示します。"
-msgstr ""
+msgstr "Display the configured menu except for the front page."
 
 #: skins/skin-grayish-topfull/functions.php:1763
 msgid "※ヘッダーモバイルボタンにオリジナルメニューを作成する場合は、メニューの一番上に#menuを設定してください。"
-msgstr ""
+msgstr "* To create original menu on the header mobile button, set #menu at the top of the menu."
 
 #: skins/skin-grayish-topfull/functions.php:1785
 msgid "ヘッダーモバイルボタン＆フッターモバイルボタンのアイコン下のキャプションのON/OFF"
