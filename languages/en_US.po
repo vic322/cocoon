@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-20 11:45\n"
+"PO-Revision-Date: 2024-08-20 14:51\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12234,7 +12234,7 @@ msgstr "*The currently selected [%s] adds behavior."
 #: skins/raku-color-changing/functions.php:224
 #: skins/raku-color-changing/functions.php:246
 msgid "適用する"
-msgstr ""
+msgstr "Apply"
 
 #: skins/raku-color-changing/functions.php:192
 msgid "スキンカラー"
@@ -12250,65 +12250,65 @@ msgstr "Background animation<br><small>(Four selected colors change slowly)</sma
 
 #: skins/raku-color-changing/functions.php:207
 msgid "【一通り変化するまでの時間】"
-msgstr ""
+msgstr "[Time to change for 1 cycle]"
 
 #: skins/raku-color-changing/functions.php:208
 msgid "秒（1～120秒）"
-msgstr ""
+msgstr "Seconds (1 ~ 120sec.)"
 
 #: skins/raku-color-changing/functions.php:209
 msgid "時間を短くする程「早く」、長くする程「ゆっくり」変化します。"
-msgstr ""
+msgstr "Shorter time makes the change \"faster\", Longer time makes the change \"slower\"."
 
 #: skins/raku-color-changing/functions.php:210
 msgid "【不透明度】"
-msgstr ""
+msgstr "[Opacity]"
 
 #: skins/raku-color-changing/functions.php:212
 msgid "数字を小さくする程、透明になります。"
-msgstr ""
+msgstr "The smaller the number, it became transparent."
 
 #: skins/raku-color-changing/functions.php:213
 msgid "透明にする程、【Cocoon設定 > 全体】の「サイト背景色」や「サイト背景画像」がより透けて見えます。"
-msgstr ""
+msgstr "As it becomes transparent, \"site background color\" and \"site background image\" in cocoon settings can be seen through."
 
 #: skins/raku-color-changing/functions.php:214
 msgid "設定していない場合は単純に色が薄くなります。"
-msgstr ""
+msgstr "If not set, the color will be simply lighter."
 
 #: skins/raku-color-changing/functions.php:220
 msgid "記事内のタイトル<br><small>（選択した4色を順に適用する）</small>"
-msgstr ""
+msgstr "Titles in the article<br><small>(Apply 4 colors in order)</small>"
 
 #: skins/raku-color-changing/functions.php:225
 #: skins/raku-color-changing/functions.php:247
 msgid "適用しない"
-msgstr ""
+msgstr "Do not apply"
 
 #: skins/raku-color-changing/functions.php:231
 msgid "【不透明度（背景と線の色）】"
-msgstr ""
+msgstr "[Opacity (Color of background and line)]"
 
 #: skins/raku-color-changing/functions.php:233
 #: skins/raku-color-changing/functions.php:255
 msgid "数字を小さくする程、色が薄くなります。"
-msgstr ""
+msgstr "The smaller the number, color became lighter."
 
 #: skins/raku-color-changing/functions.php:234
 msgid "【不透明度（H3タイトルの左側の線の色）】"
-msgstr ""
+msgstr "[Opacity (Color of the line to the left of the H3 title)]"
 
 #: skins/raku-color-changing/functions.php:236
 msgid " H3タイトルの左側の線だけ色が濃い方が綺麗なため、個別に設定できます。"
-msgstr ""
+msgstr "Left side of the H3 title can be set individually, as it looks well to have a darker color."
 
 #: skins/raku-color-changing/functions.php:242
 msgid "サイドバー内のタイトル<br><small>（選択した4色を順に適用する）</small>"
-msgstr ""
+msgstr "Titles in the article<br><small>(Apply 4 colors in order)</small>"
 
 #: skins/raku-color-changing/functions.php:253
 msgid "【不透明度（背景色）】"
-msgstr ""
+msgstr "[Opacity (Background color)]"
 
 #: skins/skin-grayish-topfull/functions.php:176
 msgid "skin-grayish: カスタマイズ"
@@ -12451,11 +12451,11 @@ msgstr "Click here for information on creating a global navigation menu and SNS 
 
 #: skins/skin-grayish-topfull/functions.php:641
 msgid "【PC】グローバルナビの高さ"
-msgstr ""
+msgstr "PC: Height of global navigation"
 
 #: skins/skin-grayish-topfull/functions.php:642
 msgid "フロントページのグローバルナビの高さ。56px〜100pxの範囲で変更可能です。"
-msgstr ""
+msgstr "Height of the global navigation on the front page. It can be changed within the range of 56px to 100px."
 
 #: skins/skin-grayish-topfull/functions.php:643
 #: skins/skin-grayish-topfull/functions.php:1382
@@ -12783,51 +12783,51 @@ msgstr "PC: Adjustment of header background color opacity"
 
 #: skins/skin-grayish-topfull/functions.php:1454
 msgid "【PC】フロントページ以外のヘッダーロゴ画像アップロード"
-msgstr ""
+msgstr "PC: Upload header logo image except for the front page"
 
 #: skins/skin-grayish-topfull/functions.php:1455
 msgid "ロゴをフロントページと別画像にしたいとき設定します。"
-msgstr ""
+msgstr "Set this option when you want to make a logo different from the front page."
 
 #: skins/skin-grayish-topfull/functions.php:1559
 msgid "コンテンツ下部ウィジェット：プロフィールボックス"
-msgstr ""
+msgstr "Bottom content widget : Profile Box"
 
 #: skins/skin-grayish-topfull/functions.php:1562
 msgid "プロフィールボックスの設定についてはこちらを参照"
-msgstr ""
+msgstr "Click here for more information on setting up the profile box."
 
 #: skins/skin-grayish-topfull/functions.php:1575
 msgid "プロフィールボックスの背景画像の白オーバーレイ不透明度調整"
-msgstr ""
+msgstr "White overlay opacity adjustment for profile box background image"
 
 #: skins/skin-grayish-topfull/functions.php:1576
 msgid "値が大きくなるほど白色が濃くなります。"
-msgstr ""
+msgstr "The larger the value, the darker the white."
 
 #: skins/skin-grayish-topfull/functions.php:1581
 msgid "（白色なし)"
-msgstr ""
+msgstr "(No whites)"
 
 #: skins/skin-grayish-topfull/functions.php:1611
 msgid "画像アップロード"
-msgstr ""
+msgstr "Upload image"
 
 #: skins/skin-grayish-topfull/functions.php:1612
 msgid "プロフィールボックスの背景に設定したい画像を選択"
-msgstr ""
+msgstr "Select the image for the background of the profile box"
 
 #: skins/skin-grayish-topfull/functions.php:1695
 msgid "ヘッダー・フッターモバイルボタンの設定についてはこちらを参照"
-msgstr ""
+msgstr "Click here for information on setting up header and footer mobile buttons"
 
 #: skins/skin-grayish-topfull/functions.php:1708
 msgid "ヘッダーモバイルボタンの背景色"
-msgstr ""
+msgstr "Background color of the header mobile button"
 
 #: skins/skin-grayish-topfull/functions.php:1709
 msgid "ヘッダーモバイルボタンの背景色を変更。"
-msgstr ""
+msgstr "Change the background color of the header mobile button."
 
 #: skins/skin-grayish-topfull/functions.php:1711
 msgid "※「フロントページのみヘッダーモバイルボタンをメニューアイコンのみON」に設定している場合は、フロントページのヘッダーモバイルボタンの背景色は無効になります。"
@@ -12855,19 +12855,19 @@ msgstr ""
 
 #: skins/skin-grayish-topfull/functions.php:1785
 msgid "ヘッダーモバイルボタン＆フッターモバイルボタンのアイコン下のキャプションのON/OFF"
-msgstr ""
+msgstr "Toggle caption below the icon of \"header mobile button\" & \"footer mobile button\""
 
 #: skins/skin-grayish-topfull/functions.php:1786
 msgid "モバイル時にアイコン下にキャプションを表示"
-msgstr ""
+msgstr "Display caption below the icon when mobile."
 
 #: skins/skin-grayish-topfull/functions.php:1808
 msgid "フッターモバイルボタンの背景色"
-msgstr ""
+msgstr "Background color of the footer mobile button"
 
 #: skins/skin-grayish-topfull/functions.php:1809
 msgid "フッターモバイルボタンの背景色を変更。"
-msgstr ""
+msgstr "Change the background color of the footer mobile button."
 
 #: skins/skin-grayish-topfull/functions.php:1827
 msgid "フッターモバイルボタン背景色の不透明度調整"
