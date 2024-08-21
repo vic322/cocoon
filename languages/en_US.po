@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-20 15:09\n"
+"PO-Revision-Date: 2024-08-21 07:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12509,7 +12509,7 @@ msgstr "Select whether to overlay white dots over the main visual. On recommende
 #: skins/skin-grayish-topfull/functions.php:1768
 #: skins/skin-grayish-topfull/functions.php:1791
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
 #: skins/skin-grayish-topfull/functions.php:726
 #: skins/skin-grayish-topfull/functions.php:748
@@ -12518,7 +12518,7 @@ msgstr ""
 #: skins/skin-grayish-topfull/functions.php:1769
 #: skins/skin-grayish-topfull/functions.php:1792
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
 #: skins/skin-grayish-topfull/functions.php:742
 msgid "メインビジュアル 白オーバーレイの不透明度調整"
@@ -12648,7 +12648,7 @@ msgstr "Click here to learn more about text changes."
 #: skins/skin-grayish-topfull/functions.php:1269
 #: skins/skin-grayish-topfull/functions.php:1273
 msgid "New Post"
-msgstr ""
+msgstr "New Post"
 
 #: skins/skin-grayish-topfull/functions.php:1153
 msgid "【フロントページ】\"New Post\"を変更"
@@ -12708,7 +12708,7 @@ msgstr "If the field is left blank, “Category” will be displayed."
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "More"
-msgstr ""
+msgstr "More"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】Moreボタン \"More\"を変更"
@@ -12727,7 +12727,7 @@ msgstr "If the field is left blank, “More” will be displayed."
 #: skins/skin-grayish-topfull/functions.php:1348
 #: skins/skin-grayish-topfull/functions.php:1350
 msgid "Next"
-msgstr ""
+msgstr "Next"
 
 #: skins/skin-grayish-topfull/functions.php:1233
 msgid "【フロントページ・各一覧ページ】Nextボタン \"Next\"を変更"
