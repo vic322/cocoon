@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-21 03:43\n"
+"PO-Revision-Date: 2024-08-21 07:42\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -8084,19 +8084,19 @@ msgstr ""
 
 #: lib/page-settings/others-forms.php:94
 msgid "jQuery"
-msgstr ""
+msgstr "jQuery"
 
 #: lib/page-settings/others-forms.php:100
 msgid "jQuery Core 3.6.1"
-msgstr ""
+msgstr "jQuery Core 3.6.1"
 
 #: lib/page-settings/others-forms.php:101
 msgid "jQuery Core 2.2.4"
-msgstr ""
+msgstr "jQuery Core 2.2.4"
 
 #: lib/page-settings/others-forms.php:102
 msgid "jQuery Core 1.12.4"
-msgstr ""
+msgstr "jQuery Core 1.12.4"
 
 #: lib/page-settings/others-forms.php:105
 msgid "jQueryのバージョン違いで動作しないプログラムがある場合は変更してください。"
@@ -8112,15 +8112,15 @@ msgstr ""
 
 #: lib/page-settings/others-forms.php:114
 msgid "jQuery Migrate"
-msgstr ""
+msgstr "jQuery Migrate"
 
 #: lib/page-settings/others-forms.php:120
 msgid "jQuery Migrate 3.3.2"
-msgstr ""
+msgstr "jQuery Migrate 3.3.2"
 
 #: lib/page-settings/others-forms.php:121
 msgid "jQuery Migrate 1.4.1"
-msgstr ""
+msgstr "jQuery Migrate 1.4.1"
 
 #: lib/page-settings/others-forms.php:124
 msgid "jQuery Migrateのバージョン違いで動作しないプログラムがある場合は変更してください。"
@@ -8554,7 +8554,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:114
 msgid "no-referrer-when-downgrade"
-msgstr ""
+msgstr "no-referrer-when-downgrade"
 
 #: lib/page-settings/seo-forms.php:114
 msgid "（ASPにリファラーを送りたい場合はこちらを推奨）"
@@ -8562,23 +8562,23 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:115
 msgid "same-origin"
-msgstr ""
+msgstr "same-origin"
 
 #: lib/page-settings/seo-forms.php:116
 msgid "origin"
-msgstr ""
+msgstr "origin"
 
 #: lib/page-settings/seo-forms.php:117
 msgid "strict-origin"
-msgstr ""
+msgstr "strict-origin"
 
 #: lib/page-settings/seo-forms.php:118
 msgid "origin-when-cross-origin"
-msgstr ""
+msgstr "origin-when-cross-origin"
 
 #: lib/page-settings/seo-forms.php:119
 msgid "strict-origin-when-cross-origin"
-msgstr ""
+msgstr "strict-origin-when-cross-origin"
 
 #: lib/page-settings/seo-forms.php:119
 msgid "（ブラウザデフォルト）"
@@ -8586,7 +8586,7 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:120
 msgid "unsafe-url"
-msgstr ""
+msgstr "unsafe-url"
 
 #: lib/page-settings/seo-forms.php:123
 msgid "メタタグでのリファラーの振る舞いを設定します。"
@@ -9032,32 +9032,32 @@ msgstr ""
 #: lib/page-settings/sns-share-forms-top.php:58
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodon"
-msgstr ""
+msgstr "Mastodon"
 
 #: lib/page-settings/sns-follow-forms.php:74
 #: lib/page-settings/sns-share-forms-bottom.php:74
 #: lib/page-settings/sns-share-forms-top.php:61
 #: tmp/sns-share-buttons.php:25
 msgid "Bluesky"
-msgstr ""
+msgstr "Bluesky"
 
 #: lib/page-settings/sns-follow-forms.php:75
 #: lib/page-settings/sns-share-forms-bottom.php:77
 #: lib/page-settings/sns-share-forms-top.php:64
 #: tmp/sns-share-buttons.php:29
 msgid "Misskey"
-msgstr ""
+msgstr "Misskey"
 
 #: lib/page-settings/sns-follow-forms.php:76
 #: lib/page-settings/sns-share-forms-bottom.php:80
 #: lib/page-settings/sns-share-forms-top.php:67
 #: tmp/sns-share-buttons.php:33
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: lib/page-settings/sns-follow-forms.php:77
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: lib/page-settings/sns-follow-forms.php:78
 #: lib/page-settings/sns-share-forms-bottom.php:83
@@ -9067,14 +9067,14 @@ msgstr ""
 
 #: lib/page-settings/sns-follow-forms.php:79
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: lib/page-settings/sns-follow-forms.php:80
 #: lib/page-settings/sns-share-forms-bottom.php:95
 #: lib/page-settings/sns-share-forms-top.php:82
 #: tmp/sns-share-buttons.php:49
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: lib/page-settings/sns-follow-forms.php:81
 msgid "YouTube"
@@ -9085,15 +9085,15 @@ msgstr "Dailymotion"
 #: lib/page-settings/sns-share-forms-top.php:85
 #: tmp/sns-share-buttons.php:53
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: lib/page-settings/sns-follow-forms.php:83
 msgid "note"
-msgstr ""
+msgstr "note"
 
 #: lib/page-settings/sns-follow-forms.php:84
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: lib/page-settings/sns-follow-forms.php:85
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
@@ -9103,23 +9103,23 @@ msgstr ""
 
 #: lib/page-settings/sns-follow-forms.php:86
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: lib/page-settings/sns-follow-forms.php:87
 msgid "楽天ROOM"
-msgstr ""
+msgstr "Rakuten ROOM"
 
 #: lib/page-settings/sns-follow-forms.php:88
 msgid "Slack"
-msgstr ""
+msgstr "Slack"
 
 #: lib/page-settings/sns-follow-forms.php:89
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: lib/page-settings/sns-follow-forms.php:90
 msgid "CodePen"
-msgstr ""
+msgstr "CodePen"
 
 #: lib/page-settings/sns-follow-forms.php:92
 msgid "から設定"
@@ -9341,18 +9341,18 @@ msgstr ""
 #: lib/page-settings/sns-share-forms-bottom.php:86
 #: lib/page-settings/sns-share-forms-top.php:73
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: lib/page-settings/sns-share-forms-bottom.php:89
 #: lib/page-settings/sns-share-forms-top.php:76
 #: tmp/sns-share-buttons.php:41
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: lib/page-settings/sns-share-forms-bottom.php:92
 #: lib/page-settings/sns-share-forms-top.php:79
 msgid "LINE@"
-msgstr ""
+msgstr "LINE@"
 
 #: lib/page-settings/sns-share-forms-bottom.php:101
 #: lib/page-settings/sns-share-forms-top.php:88
@@ -10808,7 +10808,7 @@ msgstr ""
 
 #: lib/shortcodes-product-func.php:381
 msgid "（"
-msgstr ""
+msgstr "("
 
 #: lib/shortcodes-product-func.php:381
 msgid "時点"
@@ -10816,7 +10816,7 @@ msgstr ""
 
 #: lib/shortcodes-product-func.php:381
 msgid "）"
-msgstr ""
+msgstr ")"
 
 #: lib/shortcodes-product-func.php:449
 msgid "楽天で詳細を見る"
@@ -10890,19 +10890,19 @@ msgstr ""
 
 #: lib/sns-follow.php:136
 msgid "Mastodon URL"
-msgstr ""
+msgstr "Mastodon URL"
 
 #: lib/sns-follow.php:137
 msgid "Bluesky URL"
-msgstr ""
+msgstr "Bluesky URL"
 
 #: lib/sns-follow.php:138
 msgid "Misskey URL"
-msgstr ""
+msgstr "Misskey URL"
 
 #: lib/sns-follow.php:139
 msgid "Facebook URL"
-msgstr ""
+msgstr "Facebook URL"
 
 #: lib/sns-follow.php:141
 msgid "はてブ URL"
@@ -10910,63 +10910,63 @@ msgstr ""
 
 #: lib/sns-follow.php:142
 msgid "Instagram URL"
-msgstr ""
+msgstr "Instagram URL"
 
 #: lib/sns-follow.php:143
 msgid "Pinterest URL"
-msgstr ""
+msgstr "Pinterest URL"
 
 #: lib/sns-follow.php:144
 msgid "YouTube URL"
-msgstr ""
+msgstr "YouTube URL"
 
 #: lib/sns-follow.php:145
 msgid "TikTok URL"
-msgstr ""
+msgstr "TikTok URL"
 
 #: lib/sns-follow.php:146
 msgid "LinkedIn URL"
-msgstr ""
+msgstr "LinkedIn URL"
 
 #: lib/sns-follow.php:147
 msgid "note URL"
-msgstr ""
+msgstr "note URL"
 
 #: lib/sns-follow.php:148
 msgid "SoundCloud URL"
-msgstr ""
+msgstr "SoundCloud URL"
 
 #: lib/sns-follow.php:149
 msgid "Flickr URL"
-msgstr ""
+msgstr "Flickr URL"
 
 #: lib/sns-follow.php:150
 msgid "LINE@ URL"
-msgstr ""
+msgstr "LINE@ URL"
 
 #: lib/sns-follow.php:151
 msgid "Amazon URL"
-msgstr ""
+msgstr "Amazon URL"
 
 #: lib/sns-follow.php:152
 msgid "Twitch URL"
-msgstr ""
+msgstr "Twitch URL"
 
 #: lib/sns-follow.php:153
 msgid "楽天 ROOM URL"
-msgstr ""
+msgstr "Rakuten ROOM URL"
 
 #: lib/sns-follow.php:154
 msgid "Slack URL"
-msgstr ""
+msgstr "Slack URL"
 
 #: lib/sns-follow.php:155
 msgid "GitHub URL"
-msgstr ""
+msgstr "GitHub URL"
 
 #: lib/sns-follow.php:156
 msgid "CodePen URL"
-msgstr ""
+msgstr "CodePen URL"
 
 #: lib/sns.php:17
 #: tmp/header-ogp.php:81
@@ -11125,7 +11125,7 @@ msgstr ""
 
 #: lib/tinymce/shortcodes.php:102
 msgid "ASIN"
-msgstr ""
+msgstr "ASIN"
 
 #: lib/tinymce/shortcodes.php:108
 msgid "Amazon商品リンク"
@@ -11724,7 +11724,7 @@ msgstr ""
 #: lib/widgets/fb-like-balloon.php:89
 #: lib/widgets/fb-like-box.php:125
 msgid "https://www.facebook.com/XXXXXXX"
-msgstr ""
+msgstr "https://www.facebook.com/XXXXXXX"
 
 #: lib/widgets/fb-like-balloon.php:90
 msgid "※未入力だとプロフィールページで設定されているものを利用。"
@@ -13133,7 +13133,7 @@ msgstr ""
 
 #: tmp/admin-panel.php:74
 msgid "GTmetrix"
-msgstr ""
+msgstr "GTmetrix"
 
 #: tmp/admin-panel.php:77
 msgid "モバイルフレンドリー"
@@ -13141,7 +13141,7 @@ msgstr ""
 
 #: tmp/admin-panel.php:83
 msgid "HTML5"
-msgstr ""
+msgstr "HTML5"
 
 #: tmp/admin-panel.php:86
 msgid "アウトライン"
@@ -13161,11 +13161,11 @@ msgstr ""
 
 #: tmp/admin-panel.php:107
 msgid "Sizzy"
-msgstr ""
+msgstr "Sizzy"
 
 #: tmp/admin-panel.php:111
 msgid "Resolution Test"
-msgstr ""
+msgstr "Resolution Test"
 
 #: tmp/admin-pv.php:22
 msgid "本日:"
@@ -13311,7 +13311,7 @@ msgstr ""
 
 #: tmp/sns-share-buttons.php:17
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodonでシェア"
@@ -13347,7 +13347,7 @@ msgstr ""
 
 #: tmp/sns-share-buttons.php:45
 msgid "LINE"
-msgstr ""
+msgstr "LINE"
 
 #: tmp/sns-share-buttons.php:49
 msgid "Pinterestでシェア"
@@ -14005,7 +14005,7 @@ msgstr ""
 #: blocks/src/old/button-1/block.js:86
 #: blocks/src/old/button/block.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: blocks/src/block/button/edit.js:84
 #: blocks/src/old/button-1/block.js:98
