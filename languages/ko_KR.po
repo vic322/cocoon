@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-20 11:45\n"
+"PO-Revision-Date: 2024-08-21 07:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12231,7 +12231,7 @@ msgstr "※현재 선택 중인 【%s】은 동작을 추가하는 것입니다.
 #: skins/raku-color-changing/functions.php:224
 #: skins/raku-color-changing/functions.php:246
 msgid "適用する"
-msgstr ""
+msgstr "적용"
 
 #: skins/raku-color-changing/functions.php:192
 msgid "スキンカラー"
@@ -12275,12 +12275,12 @@ msgstr "설정하지 않은 경우 단순히 색상이 옅어집니다."
 
 #: skins/raku-color-changing/functions.php:220
 msgid "記事内のタイトル<br><small>（選択した4色を順に適用する）</small>"
-msgstr ""
+msgstr "글 내의 제목<br><small>(선택한 4개의 색상을 순서대로 적용함)</small>"
 
 #: skins/raku-color-changing/functions.php:225
 #: skins/raku-color-changing/functions.php:247
 msgid "適用しない"
-msgstr ""
+msgstr "적용하지 않음"
 
 #: skins/raku-color-changing/functions.php:231
 msgid "【不透明度（背景と線の色）】"
@@ -12301,7 +12301,7 @@ msgstr "H3 제목 왼쪽의 선만 색상이 진한 것이 더 예쁘기 때문�
 
 #: skins/raku-color-changing/functions.php:242
 msgid "サイドバー内のタイトル<br><small>（選択した4色を順に適用する）</small>"
-msgstr ""
+msgstr "사이드바 내의 제모<br><small>(선택한 4개의 색상을 순서대로 적용함)</small>"
 
 #: skins/raku-color-changing/functions.php:253
 msgid "【不透明度（背景色）】"
