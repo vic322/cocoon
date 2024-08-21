@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-21 02:43\n"
+"PO-Revision-Date: 2024-08-21 03:43\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -3390,7 +3390,7 @@ msgstr ""
 #: lib/page-item-ranking/form.php:178
 #: lib/page-settings/notice-forms.php:66
 msgid "http://"
-msgstr ""
+msgstr "http://"
 
 #: lib/page-item-ranking/form.php:171
 msgid "詳細ページへリンクするためのURLを入力してください。"
@@ -3656,7 +3656,7 @@ msgstr ""
 #: lib/page-settings/about-forms.php:104
 #: lib/page-settings/about-forms.php:110
 msgid "バイト"
-msgstr ""
+msgstr "Bytes"
 
 #: lib/page-settings/about-forms.php:110
 msgid "functions.phpサイズ："
@@ -3664,27 +3664,27 @@ msgstr ""
 
 #: lib/page-settings/about-forms.php:118
 msgid "Gutenberg："
-msgstr ""
+msgstr "Gutenberg: "
 
 #: lib/page-settings/about-forms.php:120
 msgid "AMP："
-msgstr ""
+msgstr "AMP: "
 
 #: lib/page-settings/about-forms.php:123
 msgid "PWA："
-msgstr ""
+msgstr "PWA: "
 
 #: lib/page-settings/about-forms.php:125
 msgid "Font Awesome："
-msgstr ""
+msgstr "Font Awesome: "
 
 #: lib/page-settings/about-forms.php:126
 msgid "Auto Post Thumbnail："
-msgstr ""
+msgstr "Auto Post Thumbnail: "
 
 #: lib/page-settings/about-forms.php:127
 msgid "Retina："
-msgstr ""
+msgstr "Retina: "
 
 #: lib/page-settings/about-forms.php:128
 msgid "ホームイメージ："
@@ -3914,7 +3914,7 @@ msgstr ""
 
 #: lib/page-settings/admin-forms.php:204
 msgid "Jetpack"
-msgstr ""
+msgstr "Jetpack"
 
 #: lib/page-settings/admin-forms.php:207
 msgid "管理者パネルで表示するPVの取得方法を選択します。"
@@ -4447,7 +4447,7 @@ msgstr ""
 
 #: lib/page-settings/ads-forms.php:407
 msgid "LinkSwitch"
-msgstr ""
+msgstr "LinkSwitch"
 
 #: lib/page-settings/ads-forms.php:411
 msgid "LinkSwitchを有効にする"
@@ -4459,7 +4459,7 @@ msgstr ""
 
 #: lib/page-settings/ads-forms.php:415
 msgid "LinkSwitch ID"
-msgstr ""
+msgstr "LinkSwitch ID"
 
 #: lib/page-settings/ads-forms.php:417
 msgid "LinkSwitch IDの入力"
@@ -4599,7 +4599,7 @@ msgstr ""
 
 #: lib/page-settings/all-forms.php:74
 msgid "Noto Sans Korean"
-msgstr ""
+msgstr "Noto Sans Korean"
 
 #: lib/page-settings/all-forms.php:74
 #: lib/page-settings/all-forms.php:75
@@ -4608,7 +4608,7 @@ msgstr ""
 
 #: lib/page-settings/all-forms.php:75
 msgid "Pretendard"
-msgstr ""
+msgstr "Pretendard"
 
 #: lib/page-settings/all-forms.php:77
 msgid "指定なし"
@@ -4625,47 +4625,47 @@ msgstr ""
 
 #: lib/page-settings/all-forms.php:83
 msgid "12px"
-msgstr ""
+msgstr "12px"
 
 #: lib/page-settings/all-forms.php:84
 msgid "13px"
-msgstr ""
+msgstr "13px"
 
 #: lib/page-settings/all-forms.php:85
 msgid "14px"
-msgstr ""
+msgstr "14px"
 
 #: lib/page-settings/all-forms.php:86
 msgid "15px"
-msgstr ""
+msgstr "15px"
 
 #: lib/page-settings/all-forms.php:87
 msgid "16px"
-msgstr ""
+msgstr "16px"
 
 #: lib/page-settings/all-forms.php:88
 msgid "17px"
-msgstr ""
+msgstr "17px"
 
 #: lib/page-settings/all-forms.php:89
 msgid "18px"
-msgstr ""
+msgstr "18px"
 
 #: lib/page-settings/all-forms.php:90
 msgid "19px"
-msgstr ""
+msgstr "19px"
 
 #: lib/page-settings/all-forms.php:91
 msgid "20px"
-msgstr ""
+msgstr "20px"
 
 #: lib/page-settings/all-forms.php:92
 msgid "21px"
-msgstr ""
+msgstr "21px"
 
 #: lib/page-settings/all-forms.php:93
 msgid "22px"
-msgstr ""
+msgstr "22px"
 
 #: lib/page-settings/all-forms.php:95
 #: blocks/src/block/button-wrap/edit.js:126
@@ -4968,12 +4968,12 @@ msgstr ""
 #: lib/page-settings/amp-forms.php:103
 #: tmp/admin-panel.php:56
 msgid "The AMP Validator"
-msgstr ""
+msgstr "The AMP Validator"
 
 #: lib/page-settings/amp-forms.php:104
 #: tmp/admin-panel.php:59
 msgid "AMPBench"
-msgstr ""
+msgstr "AMPBench"
 
 #: lib/page-settings/amp-forms.php:107
 msgid "「AMPテスト」を行うテストツール（バリデーター）を選択します。"
@@ -5041,7 +5041,7 @@ msgstr ""
 
 #: lib/page-settings/analytics-forms.php:87
 msgid "G-XXXXXXXXXXXX"
-msgstr ""
+msgstr "G-XXXXXXXXXXXX"
 
 #: lib/page-settings/analytics-forms.php:88
 msgid "Google Analytics 4の測定IDを入力してください。タグマネージャのトラッキングIDが入っている場合はタグマネージャが優先されます。"
@@ -5400,7 +5400,7 @@ msgstr ""
 #: lib/page-settings/apis-forms.php:230
 #: lib/page-settings/apis-funcs.php:279
 msgid "DMM"
-msgstr ""
+msgstr "DMM"
 
 #: lib/page-settings/apis-forms.php:235
 msgid "DMMアフィリエイトID"
@@ -5436,7 +5436,7 @@ msgstr ""
 
 #: lib/page-settings/apis-forms.php:268
 msgid "Amazon a_id"
-msgstr ""
+msgstr "Amazon a_id"
 
 #: lib/page-settings/apis-forms.php:271
 msgid "もしもアフィリエイトのAmazon IDを入力してください。"
@@ -5450,7 +5450,7 @@ msgstr ""
 
 #: lib/page-settings/apis-forms.php:273
 msgid "楽天 a_id"
-msgstr ""
+msgstr "Rakuten a_id"
 
 #: lib/page-settings/apis-forms.php:276
 msgid "もしもアフィリエイトの楽天IDを入力してください。"
@@ -5668,7 +5668,7 @@ msgstr ""
 
 #: lib/page-settings/appeal-forms.php:155
 msgid "https://xxxxxxxx.com/xxxxx/"
-msgstr ""
+msgstr "https://xxxxxxxx.com/xxxxx/"
 
 #: lib/page-settings/appeal-forms.php:156
 msgid "ボタンのリンク先となるURLを入力してください。"
@@ -6130,7 +6130,7 @@ msgstr ""
 
 #: lib/page-settings/code-forms.php:103
 msgid ".entry-content pre"
-msgstr ""
+msgstr ".entry-content pre"
 
 #: lib/page-settings/code-forms.php:104
 msgid "ソースコードをハイライトするCSSセレクターを細かく設定できます。よくわからない場合は変更しないでください。"
@@ -6741,7 +6741,7 @@ msgstr ""
 
 #: lib/page-settings/editor-forms.php:25
 msgid "Gutenberg"
-msgstr ""
+msgstr "Gutenberg"
 
 #: lib/page-settings/editor-forms.php:29
 msgid "Gutenbergエディターを有効にする"
@@ -7333,7 +7333,7 @@ msgstr ""
 
 #: lib/page-settings/image-forms.php:133
 msgid "Lightbox"
-msgstr ""
+msgstr "Lightbox"
 
 #: lib/page-settings/image-forms.php:150
 msgid "全体画像設定"
