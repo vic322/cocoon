@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-20 11:45\n"
+"PO-Revision-Date: 2024-08-21 02:43\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -23,12 +23,12 @@ msgstr ""
 #. Theme Name of the theme
 #: style.css
 msgid "Cocoon"
-msgstr ""
+msgstr "Cocoon"
 
 #. Theme URI of the theme
 #: style.css
 msgid "https://wp-cocoon.com/"
-msgstr ""
+msgstr "https://wp-cocoon.com/"
 
 #. Description of the theme
 #: style.css
@@ -38,12 +38,12 @@ msgstr ""
 #. Author of the theme
 #: style.css
 msgid "わいひら"
-msgstr ""
+msgstr "yhira"
 
 #. Author URI of the theme
 #: style.css
 msgid "https://nelog.jp/"
-msgstr ""
+msgstr "https://nelog.jp/"
 
 #: blocks/src/init.php:258
 msgid "Cocoonブロック"
@@ -85,16 +85,16 @@ msgstr "Nächste"
 
 #: comments.php:53
 msgid "Required fields are marked %s"
-msgstr ""
+msgstr "Required fields are marked %s"
 
 #. translators: 1: edit user link, 2: accessibility text, 3: user name, 4: logout URL
 #: comments.php:69
 msgid "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s\">Log out?</a>"
-msgstr ""
+msgstr "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s\">Log out?</a>"
 
 #: comments.php:74
 msgid "Your email address will not be published."
-msgstr ""
+msgstr "Your email address will not be published."
 
 #: comments.php:81
 #: comments.php:88
@@ -1798,7 +1798,7 @@ msgstr ""
 #: lib/page-cache/cache-forms.php:79
 #: lib/page-settings/_top-page.php:252
 msgid "AMP"
-msgstr ""
+msgstr "AMP"
 
 #: lib/custom-fields/amp-field.php:33
 msgid "AMPページを生成しない"
@@ -2171,7 +2171,7 @@ msgstr "Tag"
 
 #: lib/dashboard-message.php:38
 msgid "Guidance on COVID-19:"
-msgstr ""
+msgstr "Guidance on COVID-19:"
 
 #: lib/gutenberg.php:15
 #: lib/page-settings/all-forms.php:31
@@ -2300,59 +2300,59 @@ msgstr ""
 
 #: lib/gutenberg.php:230
 msgid "Bash"
-msgstr ""
+msgstr "Bash"
 
 #: lib/gutenberg.php:234
 msgid "Basic"
-msgstr ""
+msgstr "Basic"
 
 #: lib/gutenberg.php:238
 msgid "C#"
-msgstr ""
+msgstr "C#"
 
 #: lib/gutenberg.php:242
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #: lib/gutenberg.php:246
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: lib/gutenberg.php:250
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: lib/gutenberg.php:254
 msgid "DOS"
-msgstr ""
+msgstr "DOS"
 
 #: lib/gutenberg.php:258
 msgid "Delphi"
-msgstr ""
+msgstr "Delphi"
 
 #: lib/gutenberg.php:262
 msgid "Go"
-msgstr ""
+msgstr "Go"
 
 #: lib/gutenberg.php:266
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: lib/gutenberg.php:270
 msgid "Haml"
-msgstr ""
+msgstr "Haml"
 
 #: lib/gutenberg.php:274
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: lib/gutenberg.php:278
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: lib/gutenberg.php:282
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: lib/gutenberg.php:286
 msgid "Less"
@@ -2706,11 +2706,11 @@ msgstr ""
 
 #: lib/html-tooltips.php:86
 msgid "NIPPON COLORS"
-msgstr ""
+msgstr "NIPPON COLORS"
 
 #: lib/html-tooltips.php:87
 msgid "Color Hunt"
-msgstr ""
+msgstr "Color Hunt"
 
 #: lib/html-tooltips.php:109
 #: lib/html-tooltips.php:123
@@ -3152,7 +3152,7 @@ msgstr ""
 
 #: lib/page-cache/cache-forms.php:94
 msgid "Amazon API"
-msgstr ""
+msgstr "Amazon API"
 
 #: lib/page-cache/cache-forms.php:97
 msgid "Amazon APIキャッシュの削除"
@@ -3312,7 +3312,7 @@ msgstr "Nicht enthalten"
 
 #: lib/page-item-ranking/form.php:130
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: lib/page-item-ranking/form.php:131
 msgid "0.5"
@@ -3320,23 +3320,23 @@ msgstr "0,5"
 
 #: lib/page-item-ranking/form.php:132
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: lib/page-item-ranking/form.php:133
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: lib/page-item-ranking/form.php:134
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: lib/page-item-ranking/form.php:135
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: lib/page-item-ranking/form.php:136
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: lib/page-item-ranking/form.php:137
 msgid "3.5"
@@ -3344,15 +3344,15 @@ msgstr "3,5"
 
 #: lib/page-item-ranking/form.php:138
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: lib/page-item-ranking/form.php:139
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: lib/page-item-ranking/form.php:140
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: lib/page-item-ranking/form.php:144
 msgid "商品等を星の数で評価します。「なし」を選択した場合は表示されません。"
