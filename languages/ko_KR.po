@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-20T11:08:45+00:00\n"
-"PO-Revision-Date: 2024-08-21 07:53\n"
+"POT-Creation-Date: 2024-08-22T10:33:51+00:00\n"
+"PO-Revision-Date: 2024-08-22 10:56\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1183,7 +1183,7 @@ msgid "あわせて読みたい"
 msgstr "같이 보기"
 
 #: lib/admin-tinymce-qtag.php:1656
-#: lib/shortcodes.php:1074
+#: lib/shortcodes.php:1075
 #: lib/widgets/cta-box.php:34
 #: tmp/css-custom.php:935
 #: tmp/css-custom.php:980
@@ -1276,7 +1276,7 @@ msgid "ダッシュボード"
 msgstr "대시보드"
 
 #: lib/admin.php:375
-#: lib/shortcodes.php:496
+#: lib/shortcodes.php:498
 msgid "投稿一覧"
 msgstr "글 목록"
 
@@ -2529,7 +2529,7 @@ msgstr "글"
 #: lib/page-settings/sns-share-forms-top.php:114
 #: lib/page-settings/toc-forms.php:62
 #: lib/page-settings/_top-page.php:200
-#: lib/shortcodes.php:490
+#: lib/shortcodes.php:492
 #: lib/widgets/display-widgets.php:170
 msgid "固定ページ"
 msgstr "페이지"
@@ -2685,7 +2685,7 @@ msgid "お得"
 msgstr "이득"
 
 #: lib/html-forms.php:1840
-#: lib/shortcodes.php:1006
+#: lib/shortcodes.php:1007
 #: lib/widgets/info-list.php:19
 #: lib/widgets/info-list.php:96
 #: lib/widgets/info-list.php:105
@@ -2925,21 +2925,21 @@ msgid "アフィリエイトタグを入力してください。"
 msgstr "당신의 제휴 태그를 입력하세요."
 
 #: lib/page-affiliate-tag/form.php:41
-#: lib/page-func-text/form.php:43
+#: lib/page-func-text/form.php:40
 #: lib/page-item-ranking/form.php:82
 #: lib/page-speech-balloon/form.php:141
 msgid "エディターのリストに表示"
 msgstr "에디터 목록에 표시"
 
 #: lib/page-affiliate-tag/form.php:42
-#: lib/page-func-text/form.php:44
+#: lib/page-func-text/form.php:41
 #: lib/page-item-ranking/form.php:83
 #: lib/page-speech-balloon/form.php:142
 msgid "エディターのドロップダウンリストに表示しなくて良い場合は、無効にしてください。"
 msgstr "편집기의 드롭다운 목록에 제휴 태그를 표시하지 않으려면 비활성화합니다."
 
 #: lib/page-affiliate-tag/form.php:46
-#: lib/page-func-text/form.php:48
+#: lib/page-func-text/form.php:45
 #: lib/page-item-ranking/form.php:86
 #: lib/page-speech-balloon/form.php:152
 msgid "保存"
@@ -3192,9 +3192,13 @@ msgstr "관련 제품 링크 페이지를 다시 로드하고 확인합니다."
 msgid "楽天商品番号:%sの"
 msgstr "라쿠텐 상품 번호: %s의"
 
-#: lib/page-func-text/form.php:40
+#: lib/page-func-text/form.php:37
 msgid "関数化するテキストを入力してください。"
 msgstr "템플릿으로 사용할 내용을 입력합니다."
+
+#: lib/page-func-text/form.php:37
+msgid "無限ループを避けるため、テンプレート内にtemp, tocショートコードが使用されている場合は、出力時に削除されます。"
+msgstr ""
 
 #: lib/page-func-text/func-text-func.php:39
 msgid "WordPressカスタマイズ注意文サンプル"
@@ -5981,7 +5985,7 @@ msgstr "으로 집계한 인기글을 포함"
 #: lib/page-settings/sns-follow-forms.php:116
 #: lib/page-settings/sns-share-forms-bottom.php:130
 #: lib/page-settings/sns-share-forms-top.php:117
-#: lib/shortcodes.php:502
+#: lib/shortcodes.php:504
 #: lib/widgets/display-widgets.php:156
 msgid "カテゴリー"
 msgstr "카테고리"
@@ -6309,7 +6313,7 @@ msgstr "댓글 목록 헤딩"
 #: lib/page-settings/comment-forms.php:60
 #: lib/page-settings/comment-forms.php:95
 #: lib/page-settings/single-forms.php:145
-#: lib/shortcodes.php:1070
+#: lib/shortcodes.php:1071
 #: lib/widgets/cta-box.php:108
 #: blocks/src/block-universal/caption-box/deprecated.js:25
 #: blocks/src/block-universal/caption-box/edit.js:20
@@ -10864,25 +10868,25 @@ msgstr "라쿠텐 상품 가져오기 오류"
 msgid "楽天商品リンクが取得できませんでした。"
 msgstr "라쿠텐 상품 링크를 가져오지 못했습니다."
 
-#: lib/shortcodes.php:302
+#: lib/shortcodes.php:305
 #: lib/tinymce/shortcodes.php:234
 #: blocks/src/toolbutton/dropdown-shortcodes.js:184
 msgid "こちらのコンテンツはログインユーザーのみに表示されます。"
 msgstr "이 콘텐츠는 로그인한 사용자에게만 표시됩니다."
 
-#: lib/shortcodes.php:383
+#: lib/shortcodes.php:386
 msgid "日付未入力"
 msgstr "날짜 미입력"
 
-#: lib/shortcodes.php:409
+#: lib/shortcodes.php:412
 msgid "歳"
 msgstr "나이"
 
-#: lib/shortcodes.php:508
+#: lib/shortcodes.php:510
 msgid "月別アーカイブ"
 msgstr "월별 아카이브"
 
-#: lib/shortcodes.php:978
+#: lib/shortcodes.php:980
 msgid "updatedショートコードは投稿・固定ページ以外では利用できません。"
 msgstr "updated 숏 코드는 글, 고정 페이지 이외에서는 이용할 수 없습니다."
 
@@ -12209,6 +12213,14 @@ msgstr "3. 메인은 왼쪽에서, 사이드는 오른쪽에서 부드럽게"
 #: skins/raku-add-fadein/functions.php:276
 msgid "４．ヘッダー部分は上から、メインは左から、サイドは右からふわっと"
 msgstr "4. 헤더 부분은 위에서, 메인은 왼쪽에서, 사이드는 오른쪽에서 부드럽게"
+
+#: skins/raku-add-fadein/functions.php:282
+msgid "ふわっとのタイプを選択してください。"
+msgstr ""
+
+#: skins/raku-add-fadein/functions.php:282
+msgid "（詳しくは実際にご確認ください）"
+msgstr ""
 
 #: skins/raku-add-fadein/functions.php:291
 msgid "表示スキン（ベース）"
