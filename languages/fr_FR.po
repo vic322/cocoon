@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-22T10:33:51+00:00\n"
-"PO-Revision-Date: 2024-08-23 03:24\n"
+"PO-Revision-Date: 2024-08-23 04:43\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -196,7 +196,7 @@ msgstr "avertissement"
 
 #: lib/admin-tinymce-qtag.php:41
 msgid "danger"
-msgstr ""
+msgstr "danger"
 
 #: lib/admin-tinymce-qtag.php:78
 msgid "インライン"
@@ -324,7 +324,7 @@ msgstr "Commentaires"
 #: blocks/src/block/test-box/deprecated.js:106
 #: blocks/src/old/tab-box/block.js:119
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: lib/admin-tinymce-qtag.php:205
 #: lib/admin-tinymce-qtag.php:670
@@ -703,7 +703,7 @@ msgstr "Pause"
 #: blocks/src/block/tab-box/edit.js:111
 #: blocks/src/old/tab-box/block.js:115
 msgid "Amazon"
-msgstr ""
+msgstr "Amazon"
 
 #: lib/admin-tinymce-qtag.php:796
 msgid "ボックス（付箋風）"
@@ -1222,7 +1222,7 @@ msgstr "Ajouter un lien produit"
 
 #: lib/admin.php:135
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: lib/admin.php:140
 #: lib/custom-fields/seo-field.php:62
@@ -1234,7 +1234,7 @@ msgstr "Nombre de caractères"
 
 #: lib/admin.php:145
 msgid "PV"
-msgstr ""
+msgstr "PV"
 
 #: lib/admin.php:150
 #: lib/content-category.php:264
@@ -1457,51 +1457,51 @@ msgstr "Style post-it (vert)"
 
 #: lib/block-editor-styles-image.php:15
 msgid "Clarendon"
-msgstr ""
+msgstr "Clarendon"
 
 #: lib/block-editor-styles-image.php:19
 msgid "Gingham"
-msgstr ""
+msgstr "Gingham"
 
 #: lib/block-editor-styles-image.php:23
 msgid "Moon"
-msgstr ""
+msgstr "Moon"
 
 #: lib/block-editor-styles-image.php:27
 msgid "Lark"
-msgstr ""
+msgstr "Lark"
 
 #: lib/block-editor-styles-image.php:31
 msgid "Reyes"
-msgstr ""
+msgstr "Reyes"
 
 #: lib/block-editor-styles-image.php:35
 msgid "Juno"
-msgstr ""
+msgstr "Juno"
 
 #: lib/block-editor-styles-image.php:39
 msgid "Slumber"
-msgstr ""
+msgstr "Slumber"
 
 #: lib/block-editor-styles-image.php:43
 msgid "Crema"
-msgstr ""
+msgstr "Crema"
 
 #: lib/block-editor-styles-image.php:47
 msgid "Ludwig"
-msgstr ""
+msgstr "Ludwig"
 
 #: lib/block-editor-styles-image.php:51
 msgid "Aden"
-msgstr ""
+msgstr "Aden"
 
 #: lib/block-editor-styles-image.php:55
 msgid "Perpetua"
-msgstr ""
+msgstr "Perpetua"
 
 #: lib/block-editor-styles-image.php:59
 msgid "Mono"
-msgstr ""
+msgstr "Mono"
 
 #: lib/block-editor-styles-list.php:17
 #: lib/block-editor-styles-paragraph.php:17
@@ -1569,7 +1569,7 @@ msgstr "j F, Y (D)"
 
 #: lib/comments.php:85
 msgid "H:i:s"
-msgstr ""
+msgstr "H:i:s"
 
 #: lib/comments.php:104
 msgid "<span class=\"comment-author-label\">名前:</span><cite class=\"fn comment-author\">%s<span class=\"admin\"></span></a></cite><span class=\"comment-author-separator\"> :</span>"
@@ -1798,7 +1798,7 @@ msgstr "Même si la mention \"PR\" est activée dans les paramètres Cocoon, ell
 #: lib/page-cache/cache-forms.php:79
 #: lib/page-settings/_top-page.php:252
 msgid "AMP"
-msgstr ""
+msgstr "AMP"
 
 #: lib/custom-fields/amp-field.php:33
 msgid "AMPページを生成しない"
@@ -1971,7 +1971,7 @@ msgstr "URL de redirection"
 
 #: lib/custom-fields/redirect-field.php:33
 msgid "https://"
-msgstr ""
+msgstr "https://"
 
 #: lib/custom-fields/redirect-field.php:34
 msgid "このページに訪れるユーザーを設定したURLに301リダイレクトします。"
@@ -2018,7 +2018,7 @@ msgstr "Saisons médiatiques telles que télévision, radio et jeux vidéo"
 #: lib/custom-fields/review-field.php:47
 msgid "メディア出版物（書籍や定期刊行物、テレビ、ラジオ、ゲームなど）\n"
 "    "
-msgstr ""
+msgstr "Publications dans les médias (livres et périodiques, télévision, radio, jeux, etc.)"
 
 #: lib/custom-fields/review-field.php:49
 msgid "シリーズもののエピソード（テレビ、ラジオ、ビデオゲームなど）"
@@ -2057,7 +2057,7 @@ msgstr "Saisissez une note entre 0 et 5."
 #: lib/custom-fields/seo-field.php:20
 #: lib/page-settings/_top-page.php:182
 msgid "SEO"
-msgstr ""
+msgstr "SEO"
 
 #: lib/custom-fields/seo-field.php:118
 msgid "SEOタイトル"
@@ -2300,7 +2300,7 @@ msgstr "Texte brut"
 
 #: lib/gutenberg.php:230
 msgid "Bash"
-msgstr ""
+msgstr "Bash"
 
 #: lib/gutenberg.php:234
 msgid "Basic"
@@ -2308,59 +2308,59 @@ msgstr "Basique"
 
 #: lib/gutenberg.php:238
 msgid "C#"
-msgstr ""
+msgstr "C#"
 
 #: lib/gutenberg.php:242
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #: lib/gutenberg.php:246
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: lib/gutenberg.php:250
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: lib/gutenberg.php:254
 msgid "DOS"
-msgstr ""
+msgstr "DOS"
 
 #: lib/gutenberg.php:258
 msgid "Delphi"
-msgstr ""
+msgstr "Delphi"
 
 #: lib/gutenberg.php:262
 msgid "Go"
-msgstr ""
+msgstr "Go"
 
 #: lib/gutenberg.php:266
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: lib/gutenberg.php:270
 msgid "Haml"
-msgstr ""
+msgstr "Haml"
 
 #: lib/gutenberg.php:274
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: lib/gutenberg.php:278
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: lib/gutenberg.php:282
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: lib/gutenberg.php:286
 msgid "Less"
-msgstr ""
+msgstr "Less"
 
 #: lib/gutenberg.php:290
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: lib/gutenberg.php:294
 msgid "Objective C"
@@ -2368,47 +2368,47 @@ msgstr "Objective-C"
 
 #: lib/gutenberg.php:298
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
 #: lib/gutenberg.php:302
 msgid "Perl"
-msgstr ""
+msgstr "Perl"
 
 #: lib/gutenberg.php:306
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: lib/gutenberg.php:310
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: lib/gutenberg.php:314
 msgid "Ruby"
-msgstr ""
+msgstr "Ruby"
 
 #: lib/gutenberg.php:318
 msgid "Rust"
-msgstr ""
+msgstr "Rust"
 
 #: lib/gutenberg.php:322
 msgid "SCSS"
-msgstr ""
+msgstr "SCSS"
 
 #: lib/gutenberg.php:326
 msgid "SQL"
-msgstr ""
+msgstr "SQL"
 
 #: lib/gutenberg.php:330
 msgid "Swift"
-msgstr ""
+msgstr "Swift"
 
 #: lib/gutenberg.php:334
 msgid "VBScript"
-msgstr ""
+msgstr "VBScript"
 
 #: lib/gutenberg.php:338
 msgid "XML"
-msgstr ""
+msgstr "XML"
 
 #: lib/html-forms.php:272
 msgid "解説ページ"
@@ -2710,7 +2710,7 @@ msgstr "COULEURS DU JAPON"
 
 #: lib/html-tooltips.php:87
 msgid "Color Hunt"
-msgstr ""
+msgstr "Color Hunt"
 
 #: lib/html-tooltips.php:109
 #: lib/html-tooltips.php:123
@@ -3197,7 +3197,7 @@ msgstr "Veuillez saisir le texte à utiliser comme fonction."
 
 #: lib/page-func-text/form.php:37
 msgid "無限ループを避けるため、テンプレート内にtemp, tocショートコードが使用されている場合は、出力時に削除されます。"
-msgstr ""
+msgstr "Pour éviter les boucles infinies, si les shortcodes temp, toc sont utilisés dans le modèle, ils sont supprimés à la sortie)."
 
 #: lib/page-func-text/func-text-func.php:39
 msgid "WordPressカスタマイズ注意文サンプル"
@@ -3316,47 +3316,47 @@ msgstr "Aucune"
 
 #: lib/page-item-ranking/form.php:130
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: lib/page-item-ranking/form.php:131
 msgid "0.5"
-msgstr ""
+msgstr "0.5"
 
 #: lib/page-item-ranking/form.php:132
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: lib/page-item-ranking/form.php:133
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: lib/page-item-ranking/form.php:134
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: lib/page-item-ranking/form.php:135
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: lib/page-item-ranking/form.php:136
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: lib/page-item-ranking/form.php:137
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: lib/page-item-ranking/form.php:138
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: lib/page-item-ranking/form.php:139
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: lib/page-item-ranking/form.php:140
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: lib/page-item-ranking/form.php:144
 msgid "商品等を星の数で評価します。「なし」を選択した場合は表示されません。"
@@ -3394,7 +3394,7 @@ msgstr "URL de la page de détails"
 #: lib/page-item-ranking/form.php:178
 #: lib/page-settings/notice-forms.php:66
 msgid "http://"
-msgstr ""
+msgstr "http://"
 
 #: lib/page-item-ranking/form.php:171
 msgid "詳細ページへリンクするためのURLを入力してください。"
@@ -3918,7 +3918,7 @@ msgstr "Thème original"
 
 #: lib/page-settings/admin-forms.php:204
 msgid "Jetpack"
-msgstr ""
+msgstr "Jetpack"
 
 #: lib/page-settings/admin-forms.php:207
 msgid "管理者パネルで表示するPVの取得方法を選択します。"
@@ -4451,7 +4451,7 @@ msgstr "Les paramètres de publicité liés à Value Commerce."
 
 #: lib/page-settings/ads-forms.php:407
 msgid "LinkSwitch"
-msgstr ""
+msgstr "LinkSwitch"
 
 #: lib/page-settings/ads-forms.php:411
 msgid "LinkSwitchを有効にする"
@@ -4499,7 +4499,7 @@ msgstr "Catégories exclues des publicités"
 
 #: lib/page-settings/ads-forms.php:462
 msgid "広告を非表示にするカテゴリーを選択してください。"
-msgstr ""
+msgstr "Sélectionnez la catégorie dans laquelle vous souhaitez masquer les publicités."
 
 #: lib/page-settings/ads-funcs.php:38
 msgid "スポンサーリンク"
@@ -4603,7 +4603,7 @@ msgstr "Sawarabi Mincho (police web)"
 
 #: lib/page-settings/all-forms.php:74
 msgid "Noto Sans Korean"
-msgstr ""
+msgstr "Noto Sans Korean"
 
 #: lib/page-settings/all-forms.php:74
 #: lib/page-settings/all-forms.php:75
@@ -4612,7 +4612,7 @@ msgstr "(Police web coréenne)"
 
 #: lib/page-settings/all-forms.php:75
 msgid "Pretendard"
-msgstr ""
+msgstr "Pretendard"
 
 #: lib/page-settings/all-forms.php:77
 msgid "指定なし"
@@ -4707,11 +4707,11 @@ msgstr "Police d'icône du site"
 
 #: lib/page-settings/all-forms.php:147
 msgid "Font Awesome 4"
-msgstr ""
+msgstr "Font Awesome 4"
 
 #: lib/page-settings/all-forms.php:148
 msgid "Font Awesome 5"
-msgstr ""
+msgstr "Font Awesome 5"
 
 #: lib/page-settings/all-forms.php:151
 msgid "サイト全体で使用するアイコンフォントを選択します。"
@@ -4875,7 +4875,7 @@ msgstr "<a href=\"https://wpdocs.osdn.jp/Formatting_Date_and_Time\">Description 
 
 #: lib/page-settings/all-funcs.php:255
 msgid "Y.m.d"
-msgstr ""
+msgstr "Y.m.d"
 
 #: lib/page-settings/amp-forms.php:11
 msgid "AMP設定"
@@ -4977,7 +4977,7 @@ msgstr "Le validateur AMP"
 #: lib/page-settings/amp-forms.php:104
 #: tmp/admin-panel.php:59
 msgid "AMPBench"
-msgstr ""
+msgstr "AMPBench"
 
 #: lib/page-settings/amp-forms.php:107
 msgid "「AMPテスト」を行うテストツール（バリデーター）を選択します。"
@@ -5025,7 +5025,7 @@ msgstr "ID de gestionnaire de balises"
 
 #: lib/page-settings/analytics-forms.php:58
 msgid "GTM-XXXXXXX"
-msgstr ""
+msgstr "GTM-XXXXXXX"
 
 #: lib/page-settings/analytics-forms.php:59
 msgid "GoogleタグマネージャのトラッキングIDを入力してください。Google AnalyticsトラッキングIDが入っていてもこちらが優先して計測されます。"
@@ -5045,7 +5045,7 @@ msgstr "ID de mesure GA4"
 
 #: lib/page-settings/analytics-forms.php:87
 msgid "G-XXXXXXXXXXXX"
-msgstr ""
+msgstr "G-XXXXXXXXXXXX"
 
 #: lib/page-settings/analytics-forms.php:88
 msgid "Google Analytics 4の測定IDを入力してください。タグマネージャのトラッキングIDが入っている場合はタグマネージャが優先されます。"
@@ -5404,7 +5404,7 @@ msgstr "Entrez le texte que vous souhaitez afficher sur le bouton de recherche M
 #: lib/page-settings/apis-forms.php:230
 #: lib/page-settings/apis-funcs.php:279
 msgid "DMM"
-msgstr ""
+msgstr "DMM"
 
 #: lib/page-settings/apis-forms.php:235
 msgid "DMMアフィリエイトID"
@@ -5440,7 +5440,7 @@ msgstr "Gagnez des récompenses en publiant un lien Amazon via un affilié Moshi
 
 #: lib/page-settings/apis-forms.php:268
 msgid "Amazon a_id"
-msgstr ""
+msgstr "Amazon a_id"
 
 #: lib/page-settings/apis-forms.php:271
 msgid "もしもアフィリエイトのAmazon IDを入力してください。"
@@ -5482,7 +5482,7 @@ msgstr "Le cache de l'API Amazon est mis à jour toutes les 24 heures conformém
 
 #: lib/page-settings/apis-forms.php:304
 msgid "https://affiliate.amazon.co.jp/help/operating/paapilicenseagreement"
-msgstr ""
+msgstr "https://affiliate.amazon.co.jp/help/operating/paapilicenseagreement"
 
 #: lib/page-settings/apis-forms.php:304
 msgid "Amazon.co.jp Product Advertising API ライセンス契約"
@@ -5490,7 +5490,7 @@ msgstr "Contrat de licence API Publicitaire de Produits d'Amazon.co.jp"
 
 #: lib/page-settings/apis-forms.php:305
 msgid "https://affiliate.amazon.co.jp/help/topic/t32/"
-msgstr ""
+msgstr "https://affiliate.amazon.co.jp/help/topic/t32/"
 
 #: lib/page-settings/apis-forms.php:305
 msgid "Product Advertising API (PA-API) の利用ガイドライン"
@@ -5498,7 +5498,7 @@ msgstr "Directives d'utilisation de l'API Publicitaire de Produits (PA-API)"
 
 #: lib/page-settings/apis-forms.php:306
 msgid "https://webservice.rakuten.co.jp/guide/rule"
-msgstr ""
+msgstr "https://webservice.rakuten.co.jp/guide/rule"
 
 #: lib/page-settings/apis-forms.php:306
 msgid "楽天ウェブサービス規約"
@@ -5672,7 +5672,7 @@ msgstr "Où votre bouton doit-il renvoyer ?"
 
 #: lib/page-settings/appeal-forms.php:155
 msgid "https://xxxxxxxx.com/xxxxx/"
-msgstr ""
+msgstr "https://xxxxxxxx.com/xxxxx/"
 
 #: lib/page-settings/appeal-forms.php:156
 msgid "ボタンのリンク先となるURLを入力してください。"
@@ -6134,7 +6134,7 @@ msgstr "Sélecteur CSS pour afficher les surbrillances"
 
 #: lib/page-settings/code-forms.php:103
 msgid ".entry-content pre"
-msgstr ""
+msgstr ".entry-content pre"
 
 #: lib/page-settings/code-forms.php:104
 msgid "ソースコードをハイライトするCSSセレクターを細かく設定できます。よくわからない場合は変更しないでください。"
@@ -6745,7 +6745,7 @@ msgstr "Paramètres de l'écran d'administration des publications/pages."
 
 #: lib/page-settings/editor-forms.php:25
 msgid "Gutenberg"
-msgstr ""
+msgstr "Gutenberg"
 
 #: lib/page-settings/editor-forms.php:29
 msgid "Gutenbergエディターを有効にする"
@@ -7337,7 +7337,7 @@ msgstr "Lity (léger, affichage un par un)"
 
 #: lib/page-settings/image-forms.php:133
 msgid "Lightbox"
-msgstr ""
+msgstr "Lightbox"
 
 #: lib/page-settings/image-forms.php:150
 msgid "全体画像設定"
@@ -7718,7 +7718,7 @@ msgstr "Chaîne d'abréviation"
 #: lib/page-settings/index-forms.php:195
 #: lib/page-settings/index-funcs.php:204
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: lib/page-settings/index-forms.php:196
 msgid "「自動生成抜粋文字数」を自動抜粋文が超えたときに表示する省略を表す文字を入力してください。"
@@ -8088,7 +8088,7 @@ msgstr "Vous pouvez définir la version de la bibliothèque JavaScript."
 
 #: lib/page-settings/others-forms.php:94
 msgid "jQuery"
-msgstr ""
+msgstr "jQuery"
 
 #: lib/page-settings/others-forms.php:100
 msgid "jQuery Core 3.6.1"
@@ -8550,7 +8550,7 @@ msgstr "Référent"
 
 #: lib/page-settings/seo-forms.php:113
 msgid "no-referrer"
-msgstr ""
+msgstr "no-referrer"
 
 #: lib/page-settings/seo-forms.php:113
 msgid "（リファラー情報を送らない）"
@@ -8558,7 +8558,7 @@ msgstr "(Ne pas envoyer d'informations de référent)"
 
 #: lib/page-settings/seo-forms.php:114
 msgid "no-referrer-when-downgrade"
-msgstr ""
+msgstr "no-referrer-when-downgrade"
 
 #: lib/page-settings/seo-forms.php:114
 msgid "（ASPにリファラーを送りたい場合はこちらを推奨）"
@@ -8566,23 +8566,23 @@ msgstr "(Recommandé si vous souhaitez envoyer le référent à ASP)"
 
 #: lib/page-settings/seo-forms.php:115
 msgid "same-origin"
-msgstr ""
+msgstr "same-origin"
 
 #: lib/page-settings/seo-forms.php:116
 msgid "origin"
-msgstr ""
+msgstr "origin"
 
 #: lib/page-settings/seo-forms.php:117
 msgid "strict-origin"
-msgstr ""
+msgstr "strict-origin"
 
 #: lib/page-settings/seo-forms.php:118
 msgid "origin-when-cross-origin"
-msgstr ""
+msgstr "origin-when-cross-origin"
 
 #: lib/page-settings/seo-forms.php:119
 msgid "strict-origin-when-cross-origin"
-msgstr ""
+msgstr "strict-origin-when-cross-origin"
 
 #: lib/page-settings/seo-forms.php:119
 msgid "（ブラウザデフォルト）"
@@ -8590,7 +8590,7 @@ msgstr "(Par défaut du navigateur)"
 
 #: lib/page-settings/seo-forms.php:120
 msgid "unsafe-url"
-msgstr ""
+msgstr "unsafe-url"
 
 #: lib/page-settings/seo-forms.php:123
 msgid "メタタグでのリファラーの振る舞いを設定します。"
@@ -9036,32 +9036,32 @@ msgstr "X (anciennement Twitter)"
 #: lib/page-settings/sns-share-forms-top.php:58
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodon"
-msgstr ""
+msgstr "Mastodon"
 
 #: lib/page-settings/sns-follow-forms.php:74
 #: lib/page-settings/sns-share-forms-bottom.php:74
 #: lib/page-settings/sns-share-forms-top.php:61
 #: tmp/sns-share-buttons.php:25
 msgid "Bluesky"
-msgstr ""
+msgstr "Bluesky"
 
 #: lib/page-settings/sns-follow-forms.php:75
 #: lib/page-settings/sns-share-forms-bottom.php:77
 #: lib/page-settings/sns-share-forms-top.php:64
 #: tmp/sns-share-buttons.php:29
 msgid "Misskey"
-msgstr ""
+msgstr "Misskey"
 
 #: lib/page-settings/sns-follow-forms.php:76
 #: lib/page-settings/sns-share-forms-bottom.php:80
 #: lib/page-settings/sns-share-forms-top.php:67
 #: tmp/sns-share-buttons.php:33
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: lib/page-settings/sns-follow-forms.php:77
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: lib/page-settings/sns-follow-forms.php:78
 #: lib/page-settings/sns-share-forms-bottom.php:83
@@ -9071,14 +9071,14 @@ msgstr "Signet Hatena"
 
 #: lib/page-settings/sns-follow-forms.php:79
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: lib/page-settings/sns-follow-forms.php:80
 #: lib/page-settings/sns-share-forms-bottom.php:95
 #: lib/page-settings/sns-share-forms-top.php:82
 #: tmp/sns-share-buttons.php:49
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: lib/page-settings/sns-follow-forms.php:81
 msgid "YouTube"
@@ -9089,15 +9089,15 @@ msgstr "DNA"
 #: lib/page-settings/sns-share-forms-top.php:85
 #: tmp/sns-share-buttons.php:53
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: lib/page-settings/sns-follow-forms.php:83
 msgid "note"
-msgstr ""
+msgstr "note"
 
 #: lib/page-settings/sns-follow-forms.php:84
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: lib/page-settings/sns-follow-forms.php:85
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
@@ -9107,7 +9107,7 @@ msgstr "Liste de souhaits Amazon"
 
 #: lib/page-settings/sns-follow-forms.php:86
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: lib/page-settings/sns-follow-forms.php:87
 msgid "楽天ROOM"
@@ -9115,15 +9115,15 @@ msgstr "Rakuten Room"
 
 #: lib/page-settings/sns-follow-forms.php:88
 msgid "Slack"
-msgstr ""
+msgstr "Slack"
 
 #: lib/page-settings/sns-follow-forms.php:89
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: lib/page-settings/sns-follow-forms.php:90
 msgid "CodePen"
-msgstr ""
+msgstr "CodePen"
 
 #: lib/page-settings/sns-follow-forms.php:92
 msgid "から設定"
@@ -9345,18 +9345,18 @@ msgstr "Basculer l'affichage des boutons de partage individuels."
 #: lib/page-settings/sns-share-forms-bottom.php:86
 #: lib/page-settings/sns-share-forms-top.php:73
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: lib/page-settings/sns-share-forms-bottom.php:89
 #: lib/page-settings/sns-share-forms-top.php:76
 #: tmp/sns-share-buttons.php:41
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: lib/page-settings/sns-share-forms-bottom.php:92
 #: lib/page-settings/sns-share-forms-top.php:79
 msgid "LINE@"
-msgstr ""
+msgstr "LINE@"
 
 #: lib/page-settings/sns-share-forms-bottom.php:101
 #: lib/page-settings/sns-share-forms-top.php:88
@@ -10078,7 +10078,7 @@ msgstr "En-tête"
 
 #: lib/page-settings/_top-page.php:185
 msgid "OGP"
-msgstr ""
+msgstr "OGP"
 
 #: lib/page-settings/_top-page.php:188
 msgid "アクセス解析・認証"
@@ -10132,7 +10132,7 @@ msgstr "Mobile"
 
 #: lib/page-settings/_top-page.php:257
 msgid "PWA"
-msgstr ""
+msgstr "PWA"
 
 #: lib/page-settings/_top-page.php:261
 msgid "管理者画面"
@@ -10148,7 +10148,7 @@ msgstr "Éditeur"
 
 #: lib/page-settings/_top-page.php:273
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: lib/page-settings/_top-page.php:282
 msgid "テーマ情報"
@@ -10296,7 +10296,7 @@ msgstr "Spécifie la forme et la bordure de l'icône."
 
 #: lib/page-speech-balloon/form.php:137
 msgid "TinyMCE"
-msgstr ""
+msgstr "TinyMCE"
 
 #: lib/page-speech-balloon/form.php:155
 msgid "ブロックエディターの「吹き出しブロック」で利用後、設定を変更すると、ブロックエディター上で再編集できなくなります。"
@@ -10836,7 +10836,7 @@ msgstr "L'une des options id, no, ou search n'a pas été saisie."
 
 #: lib/shortcodes-rakuten.php:184
 msgid "Y/m/d H:i"
-msgstr ""
+msgstr "Y/m/d H:i"
 
 #: lib/shortcodes-rakuten.php:390
 msgid "料率："
@@ -11129,7 +11129,7 @@ msgstr "Boîte de profil"
 
 #: lib/tinymce/shortcodes.php:102
 msgid "ASIN"
-msgstr ""
+msgstr "ASIN"
 
 #: lib/tinymce/shortcodes.php:108
 msgid "Amazon商品リンク"
@@ -11234,8 +11234,8 @@ msgstr "Êtes-vous sûr de vouloir publier l'article ?"
 #: lib/utils.php:2514
 msgid "%s min"
 msgid_plural "%s mins"
-msgstr[0] ""
-msgstr[1] "%s mins"
+msgstr[0] "%s min"
+msgstr[1] "%s min"
 
 #: lib/utils.php:2522
 msgid "%s hour"
@@ -11910,332 +11910,332 @@ msgstr "Titre des nouveaux articles"
 
 #: lib/widgets/new-entries.php:220
 msgid "「固定表示」記事を表示"
-msgstr ""
+msgstr "Afficher les articles en \"Affichage fixe\""
 
 #: lib/widgets/new-entries.php:232
 #: lib/widgets/popular-entries.php:244
 msgid "除外投稿ID（カンマ区切りでIDを入力してください）"
-msgstr ""
+msgstr "IDs des articles à exclure (entrez les IDs séparés par des virgules)"
 
 #: lib/widgets/new-entries.php:239
 #: lib/widgets/popular-entries.php:251
 msgid "除外カテゴリー（除外するものを選択してください）"
-msgstr ""
+msgstr "Catégories exclues (sélectionnez celles à exclure)"
 
 #: lib/widgets/pc-ad.php:19
 msgid "広告（PC用）"
-msgstr ""
+msgstr "Publicité (pour PC)"
 
 #: lib/widgets/pc-ad.php:20
 msgid "パソコンのみで表示される広告ウィジェットです。834pxより大きな画面で表示されます。"
-msgstr ""
+msgstr "C'est un widget publicitaire affiché uniquement sur les ordinateurs. Il s'affiche sur des écrans plus grands que 834 px."
 
 #: lib/widgets/pc-double-ads.php:19
 msgid "PC用ダブルレクタングル広告"
-msgstr ""
+msgstr "Publicité double rectangle pour PC"
 
 #: lib/widgets/pc-double-ads.php:20
 msgid "パソコンのみで表示されるダブルレクタングル広告ウィジェットです。834pxより大きな画面で表示されます。"
-msgstr ""
+msgstr "C'est un widget publicitaire double rectangle affiché uniquement sur les ordinateurs. Il s'affiche sur des écrans plus grands que 834 px."
 
 #: lib/widgets/pc-double-ads.php:64
 msgid "広告タグ（左）"
-msgstr ""
+msgstr "Tag publicitaire (gauche)"
 
 #: lib/widgets/pc-double-ads.php:71
 msgid "広告タグ（右）"
-msgstr ""
+msgstr "Tag publicitaire (droite)"
 
 #: lib/widgets/pc-text.php:19
 msgid "テキスト（PC用）"
-msgstr ""
+msgstr "Texte (pour PC)"
 
 #: lib/widgets/pc-text.php:20
 msgid "パソコンのみで表示されるテキストウィジェットです。834pxより大きな画面で表示されます。"
-msgstr ""
+msgstr "C'est un widget texte affiché uniquement sur les ordinateurs. Il s'affiche sur des écrans plus grands que 834 px."
 
 #: lib/widgets/popular-entries.php:22
 msgid "人気記事リストをサムネイルつきで表示するウィジェットです。"
-msgstr ""
+msgstr "C'est un widget pour afficher une liste des articles populaires avec des vignettes."
 
 #: lib/widgets/popular-entries.php:169
 msgid "全ての人気記事（全ページで表示）"
-msgstr ""
+msgstr "Tous les articles populaires (affichés sur toutes les pages)"
 
 #: lib/widgets/popular-entries.php:170
 msgid "カテゴリー別人気記事（投稿・カテゴリーで表示）"
-msgstr ""
+msgstr "Articles populaires par catégorie (affichés sur les articles et les catégories)"
 
 #: lib/widgets/popular-entries.php:175
 msgid "人気記事のタイトル"
-msgstr ""
+msgstr "Titre des articles populaires"
 
 #: lib/widgets/popular-entries.php:198
 msgid "集計期間"
-msgstr ""
+msgstr "Période d'agrégation"
 
 #: lib/widgets/popular-entries.php:219
 msgid "PV表示"
-msgstr ""
+msgstr "Affichage des PV"
 
 #: lib/widgets/recent-comments.php:19
 #: lib/widgets/recent-comments.php:127
 #: lib/widgets/recent-comments.php:133
 msgid "最近のコメント"
-msgstr ""
+msgstr "Commentaires récents"
 
 #: lib/widgets/recent-comments.php:20
 msgid "最近投稿されたコメントを表示するウィジェットです。"
-msgstr ""
+msgstr "C'est un widget pour afficher les commentaires récemment publiés."
 
 #: lib/widgets/recent-comments.php:105
 msgid "コメントなし"
-msgstr ""
+msgstr "Aucun commentaire"
 
 #: lib/widgets/recent-comments.php:148
 msgid "表示するコメント数"
-msgstr ""
+msgstr "Nombre de commentaires à afficher"
 
 #: lib/widgets/recent-comments.php:155
 msgid "コメント文字数"
-msgstr ""
+msgstr "Nombre de caractères des commentaires"
 
 #: lib/widgets/recent-comments.php:162
 msgid "管理者の除外"
-msgstr ""
+msgstr "Exclure les administrateurs"
 
 #: lib/widgets/recent-comments.php:164
 msgid "管理者のコメントを表示しない"
-msgstr ""
+msgstr "Ne pas afficher les commentaires des administrateurs"
 
 #: lib/widgets/recommended-cards.php:20
 msgid "おすすめカード一覧を表示するウィジェットです。"
-msgstr ""
+msgstr "C'est un widget pour afficher la liste des cartes recommandées."
 
 #: lib/widgets/recommended-cards.php:118
 msgid "余白を有効にする"
-msgstr ""
+msgstr "Activer les marges"
 
 #: lib/widgets/related-entries.php:20
 msgid "関連記事リストをサムネイルつきで表示するウィジェットです。投稿ページのみ表示されます。"
-msgstr ""
+msgstr "C'est un widget pour afficher une liste d'articles similaires avec des vignettes. Il est affiché uniquement sur les pages d'articles."
 
 #: lib/widgets/related-entries.php:168
 msgid "関連記事のタイトル"
-msgstr ""
+msgstr "Titre des articles similaires"
 
 #: lib/widgets/related-entries.php:191
 msgid "関連付け"
-msgstr ""
+msgstr "Lié"
 
 #: lib/widgets/related-entries.php:221
 msgid "除外カテゴリーID（除外するものを選択してください）"
-msgstr ""
+msgstr "IDs des catégories à exclure (sélectionnez celles à exclure)"
 
 #: lib/widgets/sns-follow-buttons.php:19
 #: lib/widgets/sns-follow-buttons.php:49
 #: lib/widgets/sns-follow-buttons.php:52
 msgid "SNSフォローボタン"
-msgstr ""
+msgstr "Boutons de suivi sur les réseaux sociaux"
 
 #: lib/widgets/sns-follow-buttons.php:20
 msgid "SNSサービスのフォローアイコンボタンを表示するウィジェットです。"
-msgstr ""
+msgstr "C'est un widget pour afficher les boutons d'icônes de suivi des services de réseaux sociaux."
 
 #: lib/widgets/toc.php:20
 msgid "目次リンクを表示するだけのウィジェットです。"
-msgstr ""
+msgstr "C'est un widget pour afficher uniquement les liens du sommaire."
 
 #: lib/widgets/toc.php:100
 msgid "Cocoon設定「目次」タブの「目次表示の深さ」で表示されていないものは表示できません。"
-msgstr ""
+msgstr "Paramètres de Cocoon Vous ne pouvez pas afficher ce qui n'est pas affiché dans \"Profondeur d'affichage du sommaire\" dans l'onglet \"Sommaire\"."
 
 #: lib/widgets/toc.php:100
 msgid "例：Cocoon設定で「h2見出しまで」と設定されている場合、このウィジェットで「h3見出し」以降を表示することはできません。"
-msgstr ""
+msgstr "Exemple : Si \"jusqu'à h2\" est défini dans les paramètres Cocoon, ce widget ne peut pas afficher \"h3\" et au-delà."
 
 #: lib/_defins.php:46
 #: blocks/src/block/faq/edit.js:127
 msgid "設定"
-msgstr ""
+msgstr "Paramètres"
 
 #: lib/_defins.php:113
 msgid "PR"
-msgstr ""
+msgstr "Publicité"
 
 #: lib/_defins.php:114
 msgid "記事内に広告が含まれています。"
-msgstr ""
+msgstr "Cet article contient des publicités."
 
 #: lib/_defins.php:146
 #: lib/_defins.php:167
 #: lib/_defins.php:178
 #: lib/_defins.php:191
 msgid "オート（AdSenseにおまかせ）"
-msgstr ""
+msgstr "Auto (par AdSense)"
 
 #: lib/_defins.php:147
 #: lib/_defins.php:168
 #: lib/_defins.php:179
 #: lib/_defins.php:192
 msgid "バナー"
-msgstr ""
+msgstr "Bannière"
 
 #: lib/_defins.php:148
 #: lib/_defins.php:180
 #: lib/_defins.php:193
 msgid "レスポンシブレクタングル"
-msgstr ""
+msgstr "Rectangle responsive"
 
 #: lib/_defins.php:149
 #: lib/_defins.php:181
 #: lib/_defins.php:194
 msgid "シングルレクタングル"
-msgstr ""
+msgstr "Rectangle simple"
 
 #: lib/_defins.php:150
 #: lib/_defins.php:182
 msgid "ダブルレクタングル"
-msgstr ""
+msgstr "Rectangle double"
 
 #: lib/_defins.php:151
 #: lib/_defins.php:184
 msgid "記事内広告"
-msgstr ""
+msgstr "Publicité dans l'article"
 
 #: lib/_defins.php:169
 msgid "レクタングル"
-msgstr ""
+msgstr "Rectangle"
 
 #: lib/_defins.php:170
 #: lib/_defins.php:183
 msgid "ラージスカイスクレイパー"
-msgstr ""
+msgstr "Gratte-ciel large"
 
 #: lib/_defins.php:177
 #: lib/_defins.php:190
 msgid "広告コードをそのまま表示"
-msgstr ""
+msgstr "Le code publicitaire s'affiche tel quel"
 
 #: lib/_defins.php:314
 msgid "本当に削除してもいいですか？"
-msgstr ""
+msgstr "Voulez-vous vraiment le supprimer ?"
 
 #: lib/_defins.php:335
 msgid "www.amazon.co.jp"
-msgstr "www.amazon.fr"
+msgstr "www.amazon.com"
 
 #: lib/_defins.php:338
 msgid "商品を取得できませんでした。存在しないASINを指定している可能性があります。"
-msgstr ""
+msgstr "Le produit n'a pas pu être récupéré. Vous avez peut-être spécifié un ASIN inexistant."
 
 #: searchform.php:21
 msgid "サイト内を検索"
-msgstr ""
+msgstr "Rechercher sur le site"
 
 #: skins/nagi/nagi-customizer.php:84
 msgid "スキンNAGIの設定"
-msgstr ""
+msgstr "Paramètres du skin NAGI"
 
 #: skins/nagi/nagi-customizer.php:223
 msgid "フロントページのタブ一覧の設定"
-msgstr ""
+msgstr "Paramètres de la liste des onglets de la page d'accueil"
 
 #: skins/nagi/nagi-customizer.php:446
 msgid "フッター固定CTAの色"
-msgstr ""
+msgstr "Couleur du CTA fixe du pied de page"
 
 #: skins/nagi/nagi-customizer.php:575
 msgid "カルーセルの設定"
-msgstr ""
+msgstr "Paramètres du carrousel"
 
 #: skins/one/functions.php:113
 msgid "スキンoneの設定"
-msgstr ""
+msgstr "Paramètres du skin one"
 
 #: skins/one/functions.php:122
 msgid "本文見出し(H2)にカウントを付ける"
-msgstr ""
+msgstr "Ajouter un compteur aux titres du corps (H2)"
 
 #: skins/one/functions.php:123
 msgid "本文の見出しにカウントをつけたくない場合はチェックを外してください"
-msgstr ""
+msgstr "Décochez si vous ne souhaitez pas ajouter de compteur aux titres du corps"
 
 #: skins/one/functions.php:134
 msgid "PCでもスマホ用の固定フッターメニューを表示する"
-msgstr ""
+msgstr "Afficher le menu fixe du pied de page pour smartphone même sur PC"
 
 #: skins/one/functions.php:135
 msgid "従来どおりPCでスマホ用の固定フッターメニューを表示させたくない場合はチェックを外してください"
-msgstr ""
+msgstr "Décochez si vous ne souhaitez pas afficher le menu fixe du pied de page pour smartphone sur votre PC comme avant."
 
 #: skins/one/functions.php:145
 msgid "全体的に影を付ける"
-msgstr ""
+msgstr "Ajouter une ombre sur l'ensemble"
 
 #: skins/one/functions.php:155
 msgid "ダークスキン対応にする"
-msgstr ""
+msgstr "Compatibilité avec le skin sombre"
 
 #: skins/one/functions.php:156
 msgid "背景をダークにしたときはチェックを入れてください"
-msgstr ""
+msgstr "Cochez lorsque le fond est sombre."
 
 #: skins/one/functions.php:166
 msgid "丸みをなくす"
-msgstr ""
+msgstr "Désactiver les bords arrondis"
 
 #: skins/one/functions.php:167
 msgid "ボタンなどの角の丸みをなくしたいときはチェックを入れてください"
-msgstr ""
+msgstr "Cochez si vous ne souhaitez pas avoir des coins arrondis pour les boutons, etc."
 
 #: skins/one/functions.php:177
 msgid "本文の見出しを明朝体にする"
-msgstr ""
+msgstr "Utiliser la police \"Minchotai\" pour les titres du corps"
 
 #: skins/one/functions.php:187
 msgid "サイドバーの見出しを明朝体にする"
-msgstr ""
+msgstr "Utiliser la police Mincho pour les titres de la barre latérale."
 
 #: skins/raku-add-fadein/functions.php:269
 msgid "ふわっとタイプ"
-msgstr ""
+msgstr "Type léger"
 
 #: skins/raku-add-fadein/functions.php:273
 msgid "１．ふわっと"
-msgstr ""
+msgstr "1. léger"
 
 #: skins/raku-add-fadein/functions.php:274
 msgid "２．下からふわっと"
-msgstr ""
+msgstr "2. léger venant du bas"
 
 #: skins/raku-add-fadein/functions.php:275
 msgid "３．メインは左から、サイドは右からふわっと"
-msgstr ""
+msgstr "3. Léger venant de la gauche pour la partie principale et de la droite pour la partie latérale"
 
 #: skins/raku-add-fadein/functions.php:276
 msgid "４．ヘッダー部分は上から、メインは左から、サイドは右からふわっと"
-msgstr ""
+msgstr "4. La partie de l'en-tête vient du haut, la partie principale de la gauche, et la partie latérale vient de la droite"
 
 #: skins/raku-add-fadein/functions.php:282
 msgid "ふわっとのタイプを選択してください。"
-msgstr ""
+msgstr "Sélectionnez le type de léger."
 
 #: skins/raku-add-fadein/functions.php:282
 msgid "（詳しくは実際にご確認ください）"
-msgstr ""
+msgstr "(Voir détails sur place)"
 
 #: skins/raku-add-fadein/functions.php:291
 msgid "表示スキン（ベース）"
-msgstr ""
+msgstr "Skins d'affichage (base)"
 
 #: skins/raku-add-fadein/functions.php:317
 msgid "こちらで選択したスキンが表示されます。"
-msgstr ""
+msgstr "Le skin sélectionné ici sera affiché."
 
 #: skins/raku-add-fadein/functions.php:318
 msgid "※現在選択中の【%s】は動作を追加するものです"
-msgstr ""
+msgstr "*Le [%s] actuellement sélectionné ajoute un comportement."
 
 #: skins/raku-color-changing/functions.php:36
 #: skins/raku-color-changing/functions.php:37
@@ -12246,150 +12246,150 @@ msgstr ""
 #: skins/raku-color-changing/functions.php:224
 #: skins/raku-color-changing/functions.php:246
 msgid "適用する"
-msgstr ""
+msgstr "Appliquer"
 
 #: skins/raku-color-changing/functions.php:192
 msgid "スキンカラー"
-msgstr ""
+msgstr "Couleur du skin"
 
 #: skins/raku-color-changing/functions.php:199
 msgid "4色 選択してください。"
-msgstr ""
+msgstr "Veuillez sélectionner 4 couleurs."
 
 #: skins/raku-color-changing/functions.php:205
 msgid "背景アニメーション<br><small>（選択した4色がゆっくり入れ替わる）</small>"
-msgstr ""
+msgstr "Animation de fond<br><small>(Les 4 couleurs sélectionnées changent lentement)</small>"
 
 #: skins/raku-color-changing/functions.php:207
 msgid "【一通り変化するまでの時間】"
-msgstr ""
+msgstr "[Temps pour un cycle complet de changement]"
 
 #: skins/raku-color-changing/functions.php:208
 msgid "秒（1～120秒）"
-msgstr ""
+msgstr "Secondes (1 ~ 120 sec.)"
 
 #: skins/raku-color-changing/functions.php:209
 msgid "時間を短くする程「早く」、長くする程「ゆっくり」変化します。"
-msgstr ""
+msgstr "Plus le temps est court, plus le changement est \"rapide\", plus le temps est long, plus le changement est \"lent\"."
 
 #: skins/raku-color-changing/functions.php:210
 msgid "【不透明度】"
-msgstr ""
+msgstr "[Opacité]"
 
 #: skins/raku-color-changing/functions.php:212
 msgid "数字を小さくする程、透明になります。"
-msgstr ""
+msgstr "Plus le chiffre est petit, plus c'est transparent."
 
 #: skins/raku-color-changing/functions.php:213
 msgid "透明にする程、【Cocoon設定 > 全体】の「サイト背景色」や「サイト背景画像」がより透けて見えます。"
-msgstr ""
+msgstr "Plus c'est transparent, plus la \"couleur de fond du site\" et \"l'image de fond du site\" dans les paramètres Cocoon deviennent visibles."
 
 #: skins/raku-color-changing/functions.php:214
 msgid "設定していない場合は単純に色が薄くなります。"
-msgstr ""
+msgstr "Si non défini, la couleur sera simplement plus claire."
 
 #: skins/raku-color-changing/functions.php:220
 msgid "記事内のタイトル<br><small>（選択した4色を順に適用する）</small>"
-msgstr ""
+msgstr "Titres dans l'article<br><small>(Appliquer 4 couleurs dans l'ordre)</small>"
 
 #: skins/raku-color-changing/functions.php:225
 #: skins/raku-color-changing/functions.php:247
 msgid "適用しない"
-msgstr ""
+msgstr "Ne pas appliquer"
 
 #: skins/raku-color-changing/functions.php:231
 msgid "【不透明度（背景と線の色）】"
-msgstr ""
+msgstr "[Opacité (Couleur de fond et couleur de la ligne)]"
 
 #: skins/raku-color-changing/functions.php:233
 #: skins/raku-color-changing/functions.php:255
 msgid "数字を小さくする程、色が薄くなります。"
-msgstr ""
+msgstr "Plus le chiffre est petit, plus la couleur est claire."
 
 #: skins/raku-color-changing/functions.php:234
 msgid "【不透明度（H3タイトルの左側の線の色）】"
-msgstr ""
+msgstr "[Opacité (Couleur de la ligne à gauche du titre H3)]"
 
 #: skins/raku-color-changing/functions.php:236
 msgid " H3タイトルの左側の線だけ色が濃い方が綺麗なため、個別に設定できます。"
-msgstr ""
+msgstr "La ligne à gauche du titre H3 peut être définie individuellement, car il est plus esthétique d'avoir une couleur plus foncée."
 
 #: skins/raku-color-changing/functions.php:242
 msgid "サイドバー内のタイトル<br><small>（選択した4色を順に適用する）</small>"
-msgstr ""
+msgstr "Titres dans la barre latérale<br><small>(Appliquer 4 couleurs dans l'ordre)</small>"
 
 #: skins/raku-color-changing/functions.php:253
 msgid "【不透明度（背景色）】"
-msgstr ""
+msgstr "[Opacité (Couleur de fond)]"
 
 #: skins/skin-grayish-topfull/functions.php:176
 msgid "skin-grayish: カスタマイズ"
-msgstr ""
+msgstr "skin-grayish: Personnaliser"
 
 #: skins/skin-grayish-topfull/functions.php:184
 msgid "全体：英字フォント設定"
-msgstr ""
+msgstr "Global : Paramètres de la police anglaise"
 
 #: skins/skin-grayish-topfull/functions.php:187
 msgid "英字フォントの適用箇所についてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour les informations sur l'endroit où appliquer les polices anglaises."
 
 #: skins/skin-grayish-topfull/functions.php:200
 msgid "英字フォント設定 選択"
-msgstr ""
+msgstr "Sélection de la police anglaise"
 
 #: skins/skin-grayish-topfull/functions.php:201
 msgid "ロゴテキスト・グローバルナビメニューや、フロントページ・サイドバーの各見出しに使用する英字フォントを選択できます。"
-msgstr ""
+msgstr "Vous pouvez sélectionner la police anglaise à utiliser pour le texte du logo, le menu de navigation global, et chacun des titres sur la page d'accueil et la barre latérale."
 
 #: skins/skin-grayish-topfull/functions.php:201
 msgid "※固定ページや投稿のコンテンツは除く。「設定なし」にするとCocoon設定 > 全体設定 > サイトフォント の設定を継承します。"
-msgstr ""
+msgstr "*À l'exclusion des pages fixes et du contenu des articles. Si \"Aucun réglage\" est sélectionné, les paramètres seront hérités de Cocoon Paramètres > Paramètres globaux > Police du site."
 
 #: skins/skin-grayish-topfull/functions.php:208
 #: skins/skin-grayish-topfull/functions.php:210
 msgid "（細タイプなし）"
-msgstr ""
+msgstr "(Sans type fin)"
 
 #: skins/skin-grayish-topfull/functions.php:213
 msgid "設定なし"
-msgstr ""
+msgstr "Aucun réglage"
 
 #: skins/skin-grayish-topfull/functions.php:228
 msgid "サイトロゴ（テキスト時）のフォント太さ 選択"
-msgstr ""
+msgstr "Épaisseur de la police du logo du site (lorsque c'est du texte)"
 
 #: skins/skin-grayish-topfull/functions.php:229
 msgid "ロゴテキストの英字フォントの太さを細（デフォルト）又は普通どちらか選択できます。"
-msgstr ""
+msgstr "Vous pouvez choisir l'épaisseur de la police du texte du logo entre fin (par défaut) et normal."
 
 #: skins/skin-grayish-topfull/functions.php:229
 msgid "※フォントによって細いタイプがない場合があります。"
-msgstr ""
+msgstr "*Il se peut que la police sélectionnée ne comporte pas de version fine."
 
 #: skins/skin-grayish-topfull/functions.php:234
 msgid "細"
-msgstr ""
+msgstr "Fin"
 
 #: skins/skin-grayish-topfull/functions.php:235
 msgid "普通"
-msgstr ""
+msgstr "Normal"
 
 #: skins/skin-grayish-topfull/functions.php:370
 msgid "全体：カラー設定"
-msgstr ""
+msgstr "Global : Paramètres des couleurs"
 
 #: skins/skin-grayish-topfull/functions.php:373
 msgid "各カラーの適用箇所についてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour voir où chaque couleur est appliquée."
 
 #: skins/skin-grayish-topfull/functions.php:388
 msgid "テキストカラー"
-msgstr ""
+msgstr "Couleur du texte"
 
 #: skins/skin-grayish-topfull/functions.php:389
 msgid "メニュー・見出し・本文などのテキストカラーを変更。"
-msgstr ""
+msgstr "Changez la couleur du texte des menus, des titres, du corps du texte, etc."
 
 #: skins/skin-grayish-topfull/functions.php:390
 #: skins/skin-grayish-topfull/functions.php:410
@@ -12402,118 +12402,118 @@ msgstr ""
 #: skins/skin-grayish-topfull/functions.php:1710
 #: skins/skin-grayish-topfull/functions.php:1810
 msgid "※空欄の場合はデフォルト値になります。"
-msgstr ""
+msgstr "*Si laissé vide, la valeur par défaut sera utilisée."
 
 #: skins/skin-grayish-topfull/functions.php:408
 msgid "メインアクセント 一番明るい青色"
-msgstr ""
+msgstr "Accent principal Le bleu le plus clair"
 
 #: skins/skin-grayish-topfull/functions.php:409
 msgid "サイトロゴテキストや各テキストリンクのホバー時の色、<br>フロントページのNewPostの色、<br>カテゴリタイトル下線、<br>サイドバー・ウィジェット見出し下線の色、<br>フッター内アクセント線の色を変更。"
-msgstr ""
+msgstr "Modifiez la couleur du texte du logo du site, la couleur des liens lors du survol, la couleur des nouveaux articles sur la page d'accueil, la couleur des sous-titres des catégories, la couleur des sous-titres des widgets dans la barre latérale, et la couleur des lignes d'accent dans le pied de page."
 
 #: skins/skin-grayish-topfull/functions.php:426
 msgid "メイン 薄い青色"
-msgstr ""
+msgstr "Principal Bleu clair"
 
 #: skins/skin-grayish-topfull/functions.php:427
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのMoreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr ""
+msgstr "Couleur de fond du troisième niveau de la navigation globale, bouton More sur la page d'accueil, bouton Next page, couleur de fond du nuage de tags lors du survol."
 
 #: skins/skin-grayish-topfull/functions.php:444
 msgid "メイン 一番薄い青"
-msgstr ""
+msgstr "Principal Bleu le plus clair"
 
 #: skins/skin-grayish-topfull/functions.php:445
 msgid "フロントページカテゴリー２つ目の背景色、<br>目次・記事下のSNSボタン背景のストライプの青系、<br>一覧ページのページネーションボタン背景色。"
-msgstr ""
+msgstr "Couleur de fond de la deuxième catégorie sur la page d'accueil, rayures bleues pour l'arrière-plan des boutons SNS sous le sommaire et les articles, couleur de fond des boutons de pagination sur la page de liste."
 
 #: skins/skin-grayish-topfull/functions.php:462
 msgid "サブ 濃い青"
-msgstr ""
+msgstr "Secondaire Bleu foncé"
 
 #: skins/skin-grayish-topfull/functions.php:463
 msgid "プロフィールname・投稿の日付・アイコン・本文目次の上下線・目次テキスト・SNSシェア・Follow・アピールエリアのボタン等。"
-msgstr ""
+msgstr "Nom du profil, date de publication, icônes, lignes supérieure et inférieure du sommaire du corps de texte, texte du sommaire, boutons pour le partage sur les réseaux sociaux, bouton Follow, bouton pour la zone d'appel, etc."
 
 #: skins/skin-grayish-topfull/functions.php:480
 msgid "サブ もっと濃い青"
-msgstr ""
+msgstr "Secondaire Bleu encore plus foncé"
 
 #: skins/skin-grayish-topfull/functions.php:481
 msgid "カテゴリーラベル背景色・記事内タグの枠線とアイコンの色。"
-msgstr ""
+msgstr "Couleur de fond des étiquettes de catégorie, bordure des tags dans les articles et couleur des icônes."
 
 #: skins/skin-grayish-topfull/functions.php:623
 msgid "フロントページ設定：ヘッダー"
-msgstr ""
+msgstr "Paramètres de la page d'accueil : En-tête"
 
 #: skins/skin-grayish-topfull/functions.php:626
 #: skins/skin-grayish-topfull/functions.php:1368
 msgid "グローバルナビの高さ等変更についてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour modifier la hauteur de la navigation globale, etc."
 
 #: skins/skin-grayish-topfull/functions.php:626
 msgid "メインビジュアルについてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour le visuel principal"
 
 #: skins/skin-grayish-topfull/functions.php:626
 msgid "グローバルナビのメニュー作成・SNSフォローボタンについてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour créer le menu de navigation globale et les boutons de suivi sur les réseaux sociaux."
 
 #: skins/skin-grayish-topfull/functions.php:641
 msgid "【PC】グローバルナビの高さ"
-msgstr ""
+msgstr "PC : Hauteur de la navigation globale"
 
 #: skins/skin-grayish-topfull/functions.php:642
 msgid "フロントページのグローバルナビの高さ。56px〜100pxの範囲で変更可能です。"
-msgstr ""
+msgstr "Hauteur de la navigation globale sur la page d'accueil. Peut être modifiée entre 56px et 100px."
 
 #: skins/skin-grayish-topfull/functions.php:643
 #: skins/skin-grayish-topfull/functions.php:1382
 msgid "※空欄の場合や、範囲外の値の場合は56pxになります。"
-msgstr ""
+msgstr "*Si laissé vide ou en dehors de la plage, la valeur sera de 56px."
 
 #: skins/skin-grayish-topfull/functions.php:666
 msgid "【PC】グローバルナビの背景色"
-msgstr ""
+msgstr "PC : Couleur de fond de la navigation globale"
 
 #: skins/skin-grayish-topfull/functions.php:667
 msgid "グローバルナビの背景色。"
-msgstr ""
+msgstr "Couleur de fond de la navigation globale"
 
 #: skins/skin-grayish-topfull/functions.php:685
 msgid "【PC】グローバルナビ背景色の不透明度調整"
-msgstr ""
+msgstr "PC : Réglage de l'opacité de la couleur de fond de la navigation globale"
 
 #: skins/skin-grayish-topfull/functions.php:686
 #: skins/skin-grayish-topfull/functions.php:1421
 #: skins/skin-grayish-topfull/functions.php:1729
 #: skins/skin-grayish-topfull/functions.php:1828
 msgid "値が大きくなるほど背景色が濃くなります。"
-msgstr ""
+msgstr "Plus la valeur est grande, plus la couleur de fond est foncée."
 
 #: skins/skin-grayish-topfull/functions.php:691
 #: skins/skin-grayish-topfull/functions.php:1426
 #: skins/skin-grayish-topfull/functions.php:1735
 #: skins/skin-grayish-topfull/functions.php:1833
 msgid "（背景色なし)"
-msgstr ""
+msgstr "（Sans couleur de fond)"
 
 #: skins/skin-grayish-topfull/functions.php:701
 #: skins/skin-grayish-topfull/functions.php:1436
 #: skins/skin-grayish-topfull/functions.php:1745
 #: skins/skin-grayish-topfull/functions.php:1843
 msgid "(不透明)"
-msgstr ""
+msgstr "(Opaque)"
 
 #: skins/skin-grayish-topfull/functions.php:719
 msgid "メインビジュアル 白ドットのON/OFF"
-msgstr ""
+msgstr "Visuel principal points blancs ON/OFF"
 
 #: skins/skin-grayish-topfull/functions.php:720
 msgid "メインビジュアルの上に白いドットを重ねるかどうかを選択。解像度が低い画像を使用する場合はON推奨"
-msgstr ""
+msgstr "Sélectionnez si vous souhaitez superposer des points blancs sur le visuel principal. Recommandé en cas d'utilisation d'images à faible résolution."
 
 #: skins/skin-grayish-topfull/functions.php:725
 #: skins/skin-grayish-topfull/functions.php:779
@@ -12521,7 +12521,7 @@ msgstr ""
 #: skins/skin-grayish-topfull/functions.php:1768
 #: skins/skin-grayish-topfull/functions.php:1791
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
 #: skins/skin-grayish-topfull/functions.php:726
 #: skins/skin-grayish-topfull/functions.php:748
@@ -12530,1222 +12530,1222 @@ msgstr ""
 #: skins/skin-grayish-topfull/functions.php:1769
 #: skins/skin-grayish-topfull/functions.php:1792
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
 #: skins/skin-grayish-topfull/functions.php:742
 msgid "メインビジュアル 白オーバーレイの不透明度調整"
-msgstr ""
+msgstr "Réglage de l'opacité du calque blanc du visuel principal"
 
 #: skins/skin-grayish-topfull/functions.php:743
 msgid "メインビジュアルの上に重ねる白の不透明度を調整。"
-msgstr ""
+msgstr "Réglez l'opacité du blanc superposé sur le visuel principal."
 
 #: skins/skin-grayish-topfull/functions.php:743
 msgid "値が大きくなるほど白が濃くなります。"
-msgstr ""
+msgstr "Plus la valeur est grande, plus le blanc est dense."
 
 #: skins/skin-grayish-topfull/functions.php:773
 msgid "メインビジュアル下のスクロールアニメーションのON/OFF"
-msgstr ""
+msgstr "Animation de défilement sous le visuel principal ON/OFF"
 
 #: skins/skin-grayish-topfull/functions.php:774
 msgid "メインビジュアルの下部にあるスクロールを促すアニメーションが不要の場合ここでOFF。"
-msgstr ""
+msgstr "Si vous n'avez pas besoin de l'animation de défilement sous le visuel principal, désactivez-la ici."
 
 #: skins/skin-grayish-topfull/functions.php:774
 msgid "PC/SP共通の設定になります。"
-msgstr ""
+msgstr "Ces paramètres sont communs pour PC/Smartphone."
 
 #: skins/skin-grayish-topfull/functions.php:790
 msgid "X（旧Twitter）フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi X (anciennement Twitter)"
 
 #: skins/skin-grayish-topfull/functions.php:794
 msgid "Mastodon フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Mastodon"
 
 #: skins/skin-grayish-topfull/functions.php:798
 msgid "Bluesky フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Bluesky"
 
 #: skins/skin-grayish-topfull/functions.php:802
 msgid "Misskey フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Misskey"
 
 #: skins/skin-grayish-topfull/functions.php:806
 msgid "Facebook フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Facebook"
 
 #: skins/skin-grayish-topfull/functions.php:810
 msgid "はてブ フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Hatena Bookmark"
 
 #: skins/skin-grayish-topfull/functions.php:814
 msgid "Instagram フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Instagram"
 
 #: skins/skin-grayish-topfull/functions.php:818
 msgid "Pinterest フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Pinterest"
 
 #: skins/skin-grayish-topfull/functions.php:822
 msgid "YouTube フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi YouTube"
 
 #: skins/skin-grayish-topfull/functions.php:826
 msgid "LinkedIn フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi LinkedIn"
 
 #: skins/skin-grayish-topfull/functions.php:830
 msgid "note フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi note"
 
 #: skins/skin-grayish-topfull/functions.php:834
 msgid "Flickr フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Flickr"
 
 #: skins/skin-grayish-topfull/functions.php:838
 msgid "Amazon欲しい物リスト フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Amazon Wishlist"
 
 #: skins/skin-grayish-topfull/functions.php:842
 msgid "Twitch フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Twitch"
 
 #: skins/skin-grayish-topfull/functions.php:846
 msgid "楽天ROOM フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Rakuten Room"
 
 #: skins/skin-grayish-topfull/functions.php:850
 msgid "Slack フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi Slack"
 
 #: skins/skin-grayish-topfull/functions.php:854
 msgid "GitHub フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi GitHub"
 
 #: skins/skin-grayish-topfull/functions.php:858
 msgid "CodePen フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi CodePen"
 
 #: skins/skin-grayish-topfull/functions.php:862
 msgid "TikTok フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi TikTok"
 
 #: skins/skin-grayish-topfull/functions.php:866
 msgid "SoundCloud フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi SoundCloud"
 
 #: skins/skin-grayish-topfull/functions.php:870
 msgid "LINE フォローボタンを表示"
-msgstr ""
+msgstr "Afficher le bouton de suivi LINE"
 
 #: skins/skin-grayish-topfull/functions.php:890
 msgid "プロフィールページでURLを入力している場合、グローバルナビにフォローボタンを表示します。"
-msgstr ""
+msgstr "Si l'URL est saisie sur la page de profil, les boutons de suivi sont affichés dans la navigation globale."
 
 #: skins/skin-grayish-topfull/functions.php:891
 msgid "※フロントページ以外のグローバルナビにも表示されます。"
-msgstr ""
+msgstr "*Cela s'affiche également dans la navigation globale sur des pages autres que la page d'accueil."
 
 #: skins/skin-grayish-topfull/functions.php:1137
 msgid "全体：テキスト変更"
-msgstr ""
+msgstr "Global : Changement de texte"
 
 #: skins/skin-grayish-topfull/functions.php:1140
 msgid "テキスト変更についてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour plus d'informations sur les modifications de texte."
 
 #: skins/skin-grayish-topfull/functions.php:1145
 #: skins/skin-grayish-topfull/functions.php:1269
 #: skins/skin-grayish-topfull/functions.php:1273
 msgid "New Post"
-msgstr ""
+msgstr "Nouvel Article"
 
 #: skins/skin-grayish-topfull/functions.php:1153
 msgid "【フロントページ】\"New Post\"を変更"
-msgstr ""
+msgstr "[Page d'accueil] Changer “Nouvel Article”"
 
 #: skins/skin-grayish-topfull/functions.php:1154
 msgid "New Postを別のテキストに変更できます。"
-msgstr ""
+msgstr "\"Nouvel Article\" peut être changé en un autre texte."
 
 #: skins/skin-grayish-topfull/functions.php:1154
 #: skins/skin-grayish-topfull/functions.php:1194
 msgid "Cocoon設定>インデックス>カテゴリーごとを選択した場合に表示されます。"
-msgstr ""
+msgstr "Il s'affiche lorsque vous sélectionnez Cocoon Paramètres > Index > Par catégorie."
 
 #: skins/skin-grayish-topfull/functions.php:1155
 msgid "※空欄の場合は\"New Post\"が表示されます。"
-msgstr ""
+msgstr "Si le champ est laissé vide, “Nouvel Article” sera affiché."
 
 #: skins/skin-grayish-topfull/functions.php:1165
 #: skins/skin-grayish-topfull/functions.php:1288
 #: skins/skin-grayish-topfull/functions.php:1289
 #: skins/skin-grayish-topfull/functions.php:1291
 msgid "最新の記事"
-msgstr ""
+msgstr "Derniers Articles"
 
 #: skins/skin-grayish-topfull/functions.php:1173
 msgid "【フロントページ】\"最新の記事\"を変更"
-msgstr ""
+msgstr "[Page d'accueil] Changer “Derniers Articles”"
 
 #: skins/skin-grayish-topfull/functions.php:1174
 msgid "\"最新の記事\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "“Derniers Articles” peut être changé en un autre texte."
 
 #: skins/skin-grayish-topfull/functions.php:1174
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "Cocoon設定>インデックス>タブ一覧又はカテゴリーごとを選択した場合に表示されます。"
-msgstr ""
+msgstr "Il s'affiche lorsque vous sélectionnez Cocoon Paramètres>Index>Liste des onglets ou Par catégorie."
 
 #: skins/skin-grayish-topfull/functions.php:1175
 msgid "※空欄の場合は\"最新の記事\"が表示されます。"
-msgstr ""
+msgstr "Si le champ est laissé vide, “Derniers Articles” sera affiché."
 
 #: skins/skin-grayish-topfull/functions.php:1193
 msgid "【フロントページ】\"Category\"を変更"
-msgstr ""
+msgstr "[Page d'accueil] Changer “Catégorie”"
 
 #: skins/skin-grayish-topfull/functions.php:1194
 msgid "Categoryを別のテキストに変更できます。"
-msgstr ""
+msgstr "“Catégorie” peut être changé en un autre texte."
 
 #: skins/skin-grayish-topfull/functions.php:1195
 msgid "※空欄の場合は\"Category\"が表示されます。"
-msgstr ""
+msgstr "Si le champ est laissé vide, “Catégorie” sera affiché."
 
 #: skins/skin-grayish-topfull/functions.php:1205
 #: skins/skin-grayish-topfull/functions.php:1334
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "More"
-msgstr ""
+msgstr "Plus"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】Moreボタン \"More\"を変更"
-msgstr ""
+msgstr "[Page d'accueil] Changer le bouton “Plus”"
 
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "\"More\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "\"Plus\" peut être changé en un autre texte."
 
 #: skins/skin-grayish-topfull/functions.php:1215
 msgid "※空欄の場合は\"More\"が表示されます。"
-msgstr ""
+msgstr "Si le champ est laissé vide, “Plus” sera affiché."
 
 #: skins/skin-grayish-topfull/functions.php:1225
 #: skins/skin-grayish-topfull/functions.php:1347
 #: skins/skin-grayish-topfull/functions.php:1348
 #: skins/skin-grayish-topfull/functions.php:1350
 msgid "Next"
-msgstr ""
+msgstr "Suivant"
 
 #: skins/skin-grayish-topfull/functions.php:1233
 msgid "【フロントページ・各一覧ページ】Nextボタン \"Next\"を変更"
-msgstr ""
+msgstr "[Page d'accueil et chaque page de liste] Changer le bouton Suivant \"Suivant\""
 
 #: skins/skin-grayish-topfull/functions.php:1234
 msgid "\"Next\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "\"Suivant\" peut être changé en un autre texte."
 
 #: skins/skin-grayish-topfull/functions.php:1234
 msgid "※空欄の場合は\"Next\"が表示されます。"
-msgstr ""
+msgstr "Si le champ est laissé vide, “Suivant” sera affiché."
 
 #: skins/skin-grayish-topfull/functions.php:1252
 msgid "【投稿・固定ページ】パンくずリスト \"Home\"を変更"
-msgstr ""
+msgstr "[Publication & Page] Changer le fil d'Ariane \"Accueil\""
 
 #: skins/skin-grayish-topfull/functions.php:1253
 msgid "\"Home\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "\"Accueil\" peut être changé en un autre texte."
 
 #: skins/skin-grayish-topfull/functions.php:1253
 msgid "※空欄の場合は\"Home\"が表示されます。"
-msgstr ""
+msgstr "Si le champ est laissé vide, “Accueil” sera affiché."
 
 #: skins/skin-grayish-topfull/functions.php:1365
 msgid "フロントページ以外の設定:ヘッダー"
-msgstr ""
+msgstr "Paramètres pour pages autres que la page d'accueil: En-tête"
 
 #: skins/skin-grayish-topfull/functions.php:1380
 msgid "【PC】フロントページ以外のグローバルナビの高さ"
-msgstr ""
+msgstr "PC : Hauteur de la navigation globale autre que la page d'accueil"
 
 #: skins/skin-grayish-topfull/functions.php:1381
 msgid "56px〜100pxの範囲で変更可能です。"
-msgstr ""
+msgstr "Elle peut être modifiée dans la plage de 56px à 100px."
 
 #: skins/skin-grayish-topfull/functions.php:1381
 msgid "ロゴ画像を使用の場合はロゴ画像の大きさを調整可能です。"
-msgstr ""
+msgstr "Si une image de logo est utilisée, la taille de l'image de logo peut être ajustée."
 
 #: skins/skin-grayish-topfull/functions.php:1403
 msgid "【PC】フロントページ以外のヘッダーの背景色"
-msgstr ""
+msgstr "PC : Couleur de fond des en-têtes autres que la page d'accueil"
 
 #: skins/skin-grayish-topfull/functions.php:1404
 msgid "ヘッダーの背景色を変更。"
-msgstr ""
+msgstr "Modifier la couleur de fond de l'en-tête."
 
 #: skins/skin-grayish-topfull/functions.php:1420
 msgid "【PC】ヘッダー背景色の不透明度調整"
-msgstr ""
+msgstr "Ajustement de l'opacité de la couleur de fond de l'en-tête pour PC"
 
 #: skins/skin-grayish-topfull/functions.php:1454
 msgid "【PC】フロントページ以外のヘッダーロゴ画像アップロード"
-msgstr ""
+msgstr "Téléchargement de l'image du logo de l'en-tête pour les pages autres que la page d'accueil (PC)"
 
 #: skins/skin-grayish-topfull/functions.php:1455
 msgid "ロゴをフロントページと別画像にしたいとき設定します。"
-msgstr ""
+msgstr "Configurez cette option si vous souhaitez utiliser une image différente pour le logo sur la page d'accueil."
 
 #: skins/skin-grayish-topfull/functions.php:1559
 msgid "コンテンツ下部ウィジェット：プロフィールボックス"
-msgstr ""
+msgstr "Widget en bas du contenu : Boîte de profil"
 
 #: skins/skin-grayish-topfull/functions.php:1562
 msgid "プロフィールボックスの設定についてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour plus d'informations sur la configuration de la boîte de profil."
 
 #: skins/skin-grayish-topfull/functions.php:1575
 msgid "プロフィールボックスの背景画像の白オーバーレイ不透明度調整"
-msgstr ""
+msgstr "Ajustement de l'opacité de la superposition blanche pour l'image de fond de la boîte de profil"
 
 #: skins/skin-grayish-topfull/functions.php:1576
 msgid "値が大きくなるほど白色が濃くなります。"
-msgstr ""
+msgstr "Plus la valeur est grande, plus le blanc est foncé."
 
 #: skins/skin-grayish-topfull/functions.php:1581
 msgid "（白色なし)"
-msgstr ""
+msgstr "(Pas de blanc)"
 
 #: skins/skin-grayish-topfull/functions.php:1611
 msgid "画像アップロード"
-msgstr ""
+msgstr "Télécharger l'image"
 
 #: skins/skin-grayish-topfull/functions.php:1612
 msgid "プロフィールボックスの背景に設定したい画像を選択"
-msgstr ""
+msgstr "Sélectionnez l'image à définir comme fond de la boîte de profil"
 
 #: skins/skin-grayish-topfull/functions.php:1695
 msgid "ヘッダー・フッターモバイルボタンの設定についてはこちらを参照"
-msgstr ""
+msgstr "Cliquez ici pour plus d'informations sur la configuration des boutons mobile de l'en-tête et du pied de page."
 
 #: skins/skin-grayish-topfull/functions.php:1708
 msgid "ヘッダーモバイルボタンの背景色"
-msgstr ""
+msgstr "Couleur de fond du bouton mobile de l'en-tête"
 
 #: skins/skin-grayish-topfull/functions.php:1709
 msgid "ヘッダーモバイルボタンの背景色を変更。"
-msgstr ""
+msgstr "Modifier la couleur de fond du bouton mobile de l'en-tête."
 
 #: skins/skin-grayish-topfull/functions.php:1711
 msgid "※「フロントページのみヘッダーモバイルボタンをメニューアイコンのみON」に設定している場合は、フロントページのヘッダーモバイルボタンの背景色は無効になります。"
-msgstr ""
+msgstr "* Lorsque l'option \"Afficher uniquement l'icône du menu du bouton mobile de l'en-tête sur la page d'accueil\" est activée, la couleur de fond du bouton mobile de l'en-tête sur la page d'accueil est désactivée."
 
 #: skins/skin-grayish-topfull/functions.php:1728
 msgid "ヘッダーモバイルボタン背景色の不透明度調整"
-msgstr ""
+msgstr "Ajustement de l'opacité de la couleur de fond du bouton mobile de l'en-tête"
 
 #: skins/skin-grayish-topfull/functions.php:1730
 msgid "※「フロントページのみヘッダーモバイルボタンをメニューアイコンのみON」に設定している場合は、フロントページのヘッダーモバイルボタンの背景色の不透明度調整は無効になります。"
-msgstr ""
+msgstr "* Lorsque l'option \"Afficher uniquement l'icône du menu du bouton mobile de l'en-tête sur la page d'accueil\" est activée, l'ajustement de l'opacité de la couleur de fond du bouton mobile de l'en-tête sur la page d'accueil est désactivé."
 
 #: skins/skin-grayish-topfull/functions.php:1761
 msgid "フロントページのみヘッダーモバイルボタンをメニューアイコンのみON/OFF"
-msgstr ""
+msgstr "Activer/Désactiver l'affichage uniquement de l'icône du menu du bouton mobile de l'en-tête sur la page d'accueil"
 
 #: skins/skin-grayish-topfull/functions.php:1762
 msgid "フロントページ以外は設定したメニューを表示します。"
-msgstr ""
+msgstr "Affiche le menu configuré sauf sur la page d'accueil."
 
 #: skins/skin-grayish-topfull/functions.php:1763
 msgid "※ヘッダーモバイルボタンにオリジナルメニューを作成する場合は、メニューの一番上に#menuを設定してください。"
-msgstr ""
+msgstr "* Pour créer un menu original sur le bouton mobile de l'en-tête, configurez #menu en haut du menu."
 
 #: skins/skin-grayish-topfull/functions.php:1785
 msgid "ヘッダーモバイルボタン＆フッターモバイルボタンのアイコン下のキャプションのON/OFF"
-msgstr ""
+msgstr "Activer/Désactiver la légende sous l'icône du \"bouton mobile de l'en-tête\" et du \"bouton mobile du pied de page\""
 
 #: skins/skin-grayish-topfull/functions.php:1786
 msgid "モバイル時にアイコン下にキャプションを表示"
-msgstr ""
+msgstr "Afficher la légende sous l'icône en mode mobile."
 
 #: skins/skin-grayish-topfull/functions.php:1808
 msgid "フッターモバイルボタンの背景色"
-msgstr ""
+msgstr "Couleur de fond du bouton mobile du pied de page"
 
 #: skins/skin-grayish-topfull/functions.php:1809
 msgid "フッターモバイルボタンの背景色を変更。"
-msgstr ""
+msgstr "Modifier la couleur de fond du bouton mobile du pied de page."
 
 #: skins/skin-grayish-topfull/functions.php:1827
 msgid "フッターモバイルボタン背景色の不透明度調整"
-msgstr ""
+msgstr "Ajustement de l'opacité de la couleur de fond du bouton mobile du pied de page"
 
 #: skins/skin-grayish-topfull/functions.php:1862
 msgid "モバイル時のヘッダーロゴ画像アップロード"
-msgstr ""
+msgstr "Téléchargement de l'image du logo de l'en-tête en mode mobile"
 
 #: skins/skin-grayish-topfull/functions.php:1863
 msgid "モバイル時のロゴを別画像にしたいとき設定します。"
-msgstr ""
+msgstr "Configurez cette option si vous souhaitez utiliser une image différente pour le logo en mode mobile."
 
 #: skins/skin-grayish-topfull/functions.php:2077
 msgid "サイトテキストグレー"
-msgstr ""
+msgstr "Gris du texte du site"
 
 #: skins/skin-grayish-topfull/functions.php:2078
 msgid "ライトグレーT0"
-msgstr ""
+msgstr "Gris clair T0"
 
 #: skins/skin-grayish-topfull/functions.php:2079
 msgid "ライトブルーT0"
-msgstr ""
+msgstr "Bleu clair T0"
 
 #: skins/skin-grayish-topfull/functions.php:2080
 msgid "ライトブルーT70"
-msgstr ""
+msgstr "Bleu clair T70"
 
 #: skins/skin-grayish-topfull/functions.php:2081
 msgid "ライトブルーT90"
-msgstr ""
+msgstr "Bleu clair T90"
 
 #: skins/skin-grayish-topfull/functions.php:2082
 msgid "シェイドブルーS30"
-msgstr ""
+msgstr "Bleu ombré S30"
 
 #: skins/skin-grayish-topfull/functions.php:2083
 msgid "シェイドブルーS50"
-msgstr ""
+msgstr "Bleu ombré S50"
 
 #: skins/skin-grayish-topfull/functions.php:2084
 msgid "PinkT0"
-msgstr ""
+msgstr "Rose T0"
 
 #: skins/skin-grayish-topfull/functions.php:2085
 msgid "PinkT50"
-msgstr ""
+msgstr "Rose T50"
 
 #: skins/skin-grayish-topfull/functions.php:2086
 msgid "PinkT90"
-msgstr ""
+msgstr "Rose T90"
 
 #: skins/skin-grayish-topfull/functions.php:2087
 msgid "PinkS50"
-msgstr ""
+msgstr "Rose S50"
 
 #: skins/skin-grayish-topfull/functions.php:2088
 msgid "RedT0"
-msgstr ""
+msgstr "Rouge T0"
 
 #: skins/skin-grayish-topfull/functions.php:2089
 msgid "RedT50"
-msgstr ""
+msgstr "Rouge T50"
 
 #: skins/skin-grayish-topfull/functions.php:2090
 msgid "YellowT0"
-msgstr ""
+msgstr "Jaune T0"
 
 #: skins/skin-grayish-topfull/functions.php:2091
 msgid "YellowT50"
-msgstr ""
+msgstr "Jaune T50"
 
 #: skins/skin-grayish-topfull/functions.php:2092
 msgid "YellowT90"
-msgstr ""
+msgstr "Jaune T90"
 
 #: skins/skin-grayish-topfull/functions.php:2093
 msgid "YellowS50"
-msgstr ""
+msgstr "Jaune S50"
 
 #: skins/skin-grayish-topfull/functions.php:2094
 msgid "BeigeT0"
-msgstr ""
+msgstr "Beige T0"
 
 #: skins/skin-grayish-topfull/functions.php:2095
 msgid "BeigeT50"
-msgstr ""
+msgstr "Beige T50"
 
 #: skins/skin-grayish-topfull/functions.php:2096
 msgid "BeigeT90"
-msgstr ""
+msgstr "Beige T90"
 
 #: skins/skin-grayish-topfull/functions.php:2097
 msgid "BeigeS50"
-msgstr ""
+msgstr "Beige S50"
 
 #: skins/skin-grayish-topfull/functions.php:2098
 msgid "GreenT0"
-msgstr ""
+msgstr "Vert T0"
 
 #: skins/skin-grayish-topfull/functions.php:2099
 msgid "GreenT50"
-msgstr ""
+msgstr "Vert T50"
 
 #: skins/skin-grayish-topfull/functions.php:2100
 msgid "GreenT90"
-msgstr ""
+msgstr "Vert T90"
 
 #: skins/skin-grayish-topfull/functions.php:2101
 msgid "GreenS30"
-msgstr ""
+msgstr "VertS30"
 
 #: skins/skin-grayish-topfull/functions.php:2102
 msgid "GreenS50"
-msgstr ""
+msgstr "VertS50"
 
 #: skins/skin-grayish-topfull/functions.php:2145
 msgid "横スクロールできます"
-msgstr ""
+msgstr "Peut être défilé horizontalement"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-mobile-search-button.php:23
 msgid "検索フォームを閉じる"
-msgstr ""
+msgstr "Fermer le formulaire de recherche"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-mobile-search-button.php:26
 msgid "検索フォームを開く"
-msgstr ""
+msgstr "Ouvrir le formulaire de recherche"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:57
 #: tmp/sns-follow-buttons.php:33
 msgid "Xをフォロー"
-msgstr ""
+msgstr "Suivre X"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:69
 #: tmp/sns-follow-buttons.php:37
 msgid "Mastodonをフォロー"
-msgstr ""
+msgstr "Suivre Mastodon"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:82
 #: tmp/sns-follow-buttons.php:41
 msgid "Blueskyをフォロー"
-msgstr ""
+msgstr "Suivre Bluesky"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:95
 #: tmp/sns-follow-buttons.php:45
 msgid "Misskeyをフォロー"
-msgstr ""
+msgstr "Suivre Misskey"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:108
 #: tmp/sns-follow-buttons.php:49
 msgid "Facebookをフォロー"
-msgstr ""
+msgstr "Suivre Facebook"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:121
 #: tmp/sns-follow-buttons.php:53
 msgid "はてブをフォロー"
-msgstr ""
+msgstr "Suivre Hatena Bookmark"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:134
 #: tmp/sns-follow-buttons.php:61
 msgid "Instagramをフォロー"
-msgstr ""
+msgstr "Suivre Instagram"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:147
 #: tmp/sns-follow-buttons.php:89
 msgid "Pinterestをフォロー"
-msgstr ""
+msgstr "Suivre Pinterest"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:160
 #: tmp/sns-follow-buttons.php:65
 msgid "YouTubeをフォロー"
-msgstr ""
+msgstr "Suivre YouTube"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:173
 #: tmp/sns-follow-buttons.php:73
 msgid "LinkedInをフォロー"
-msgstr ""
+msgstr "Suivre LinkedIn"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:186
 #: tmp/sns-follow-buttons.php:77
 msgid "noteをフォロー"
-msgstr ""
+msgstr "Suivre note"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:199
 #: tmp/sns-follow-buttons.php:85
 msgid "Flickrをフォロー"
-msgstr ""
+msgstr "Suivre Flickr"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
 #: tmp/sns-follow-buttons.php:97
 msgid "Amazonほしい物リストをチェック"
-msgstr ""
+msgstr "Vérifier la liste de souhaits Amazon"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:225
 #: tmp/sns-follow-buttons.php:101
 msgid "Twitchをフォロー"
-msgstr ""
+msgstr "Suivre Twitch"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
 #: tmp/sns-follow-buttons.php:105
 msgid "楽天ROOMをフォロー"
-msgstr ""
+msgstr "Suivre Rakuten Room"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:251
 #: tmp/sns-follow-buttons.php:109
 msgid "Slackをフォロー"
-msgstr ""
+msgstr "Suivre Slack"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:264
 #: tmp/sns-follow-buttons.php:113
 msgid "GitHubをフォロー"
-msgstr ""
+msgstr "Suivre GitHub"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:277
 #: tmp/sns-follow-buttons.php:117
 msgid "CodePenをフォロー"
-msgstr ""
+msgstr "Suivre CodePen"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:290
 #: tmp/sns-follow-buttons.php:69
 msgid "TikTokをフォロー"
-msgstr ""
+msgstr "Suivre TikTok"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:303
 #: tmp/sns-follow-buttons.php:81
 msgid "SoundCloudをフォロー"
-msgstr ""
+msgstr "Suivre SoundCloud"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:316
 #: tmp/sns-follow-buttons.php:93
 msgid "LINE@をフォロー"
-msgstr ""
+msgstr "Suivre LINE@"
 
 #: skins/skin-made-in-heaven/lib/hook-wp.php:37
 msgid "ログアウト"
-msgstr ""
+msgstr "Déconnexion"
 
 #: skins/skin-made-in-heaven/lib/hook-wp.php:53
 #: skins/skin-made-in-heaven/lib/hook-wp.php:75
 msgid "Slug"
-msgstr ""
+msgstr "Slug"
 
 #. Template Name of the theme
 msgid "bbPress - Create Topic"
-msgstr ""
+msgstr "bbPress - Créer un sujet"
 
 #. Template Name of the theme
 msgid "bbPress - Forums (Index)"
-msgstr ""
+msgstr "bbPress - Forums (Index)"
 
 #: tmp/admin-panel.php:39
 msgid "WLWで編集"
-msgstr ""
+msgstr "Modifier par WLW"
 
 #: tmp/admin-panel.php:48
 msgid "AMPページへ"
-msgstr ""
+msgstr "Vers la page AMP"
 
 #: tmp/admin-panel.php:71
 msgid "ページスピード"
-msgstr ""
+msgstr "Vitesse de la page"
 
 #: tmp/admin-panel.php:74
 msgid "GTmetrix"
-msgstr ""
+msgstr "GTmetrix"
 
 #: tmp/admin-panel.php:77
 msgid "モバイルフレンドリー"
-msgstr ""
+msgstr "Compatible mobile"
 
 #: tmp/admin-panel.php:83
 msgid "HTML5"
-msgstr ""
+msgstr "HTML5"
 
 #: tmp/admin-panel.php:86
 msgid "アウトライン"
-msgstr ""
+msgstr "Contour"
 
 #: tmp/admin-panel.php:89
 msgid "SEOチェキ"
-msgstr ""
+msgstr "Vérification SEO"
 
 #: tmp/admin-panel.php:92
 msgid "ツイート検索"
-msgstr ""
+msgstr "Rechercher des tweets"
 
 #: tmp/admin-panel.php:104
 msgid "レスポンシブテスト"
-msgstr ""
+msgstr "Test de réactivité"
 
 #: tmp/admin-panel.php:107
 msgid "Sizzy"
-msgstr ""
+msgstr "Sizzy"
 
 #: tmp/admin-panel.php:111
 msgid "Resolution Test"
-msgstr ""
+msgstr "Test de résolution"
 
 #: tmp/admin-pv.php:22
 msgid "本日:"
-msgstr ""
+msgstr "Aujourd'hui :"
 
 #: tmp/admin-pv.php:26
 msgid "週:"
-msgstr ""
+msgstr "Semaine :"
 
 #: tmp/admin-pv.php:30
 msgid "月:"
-msgstr ""
+msgstr "Mois :"
 
 #: tmp/admin-pv.php:34
 msgid "全体:"
-msgstr ""
+msgstr "Total :"
 
 #: tmp/admin-pv.php:43
 msgid "Jetpackの統計"
-msgstr ""
+msgstr "Statistiques Jetpack"
 
 #: tmp/breadcrumbs-page.php:13
 #: tmp/breadcrumbs.php:28
 #: tmp/mobile-home-button.php:19
 msgid "ホーム"
-msgstr "Page d’accueil"
+msgstr "Accueil"
 
 #: tmp/button-go-to-top.php:11
 msgid "トップへ戻る"
-msgstr ""
+msgstr "Retour en haut"
 
 #: tmp/content.php:91
 msgid "この記事は<span class=\"bold\">約%s分</span>で読めます。"
-msgstr ""
+msgstr "Cet article peut être lu en <span class=\"bold\">environ %s</span> minutes."
 
 #: tmp/css-custom.php:903
 msgid "ラベルなし"
-msgstr ""
+msgstr "Sans étiquette"
 
 #: tmp/date-tags.php:18
 msgid "通常ページへ"
-msgstr ""
+msgstr "Vers la page habituelle"
 
 #: tmp/fb-like-balloon.php:28
 #: tmp/fb-like-box.php:29
 msgid "いいね！"
-msgstr ""
+msgstr "J'aime !"
 
 #: tmp/fb-like-box.php:36
 msgid "@%sさんをフォロー"
-msgstr ""
+msgstr "Suivre @%s."
 
 #: tmp/fb-like-box.php:46
 msgid "友だち追加"
-msgstr ""
+msgstr "Ajouter des amis"
 
 #: tmp/font-preview.php:17
 msgid "フォントプレビュー"
-msgstr ""
+msgstr "Aperçu des polices"
 
 #: tmp/font-preview.php:23
 msgid "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで初めて人間というものを見た。"
-msgstr ""
+msgstr "Je suis un chat. Je n'ai pas encore de nom. Je ne sais pas du tout où je suis né. Tout ce dont je me souviens, c'est que je miaulais dans un endroit sombre et humide lorsque, pour la première fois, j'ai vu un être humain."
 
 #: tmp/font-preview.php:26
 msgid "現在の太さ："
-msgstr ""
+msgstr "Épaisseur actuelle :"
 
 #: tmp/font-preview.php:29
 msgid "「文字の太さ」変更でフォントに合った太さに調整しよう。"
-msgstr ""
+msgstr "Ajustons l'épaisseur pour l'adapter à la police en modifiant \"l'épaisseur du texte\"."
 
 #: tmp/font-preview.php:32
 msgid "太さ見本："
-msgstr ""
+msgstr "Exemple d'épaisseur :"
 
 #: tmp/font-preview.php:39
 msgid "利用可："
-msgstr ""
+msgstr "Disponible :"
 
 #: tmp/font-preview.php:53
 msgid "（WEBフォント）"
-msgstr ""
+msgstr "(Police web)"
 
 #: tmp/footer-javascript.php:42
 msgid "タイトルとURLをコピーしました"
-msgstr ""
+msgstr "Titre et URL copiés"
 
 #: tmp/list-category-columns.php:84
 #: tmp/list-category.php:47
 #: tmp/list-new-entries.php:23
 #: tmp/list-tab-index.php:84
 msgid "もっと見る"
-msgstr ""
+msgstr "Charger plus"
 
 #: tmp/list-not-found-posts.php:9
 msgid "投稿が見つかりませんでした。"
-msgstr ""
+msgstr "Les publications n'ont pas été trouvées."
 
 #: tmp/mobile-follow-button.php:21
 msgid "フォロー"
-msgstr ""
+msgstr "Suivre"
 
 #: tmp/mobile-share-button.php:22
 msgid "シェア"
-msgstr "Part de marché"
+msgstr "Partager"
 
 #: tmp/mobile-toc-button.php:28
 msgid "目次へ"
-msgstr ""
+msgstr "Vers la table des matières"
 
 #: tmp/pagination.php:38
 msgid "次のページ"
-msgstr "Envoyer vers l'arrière"
+msgstr "Page suivante"
 
 #: tmp/related-list.php:21
 msgid "関連記事は見つかりませんでした。"
-msgstr ""
+msgstr "Aucun article connexe trouvé."
 
 #: tmp/sns-follow-buttons.php:29
 msgid "著者サイト"
-msgstr ""
+msgstr "Site de l'auteur"
 
 #: tmp/sns-follow-buttons.php:29
 msgid "著作サイトをチェック"
-msgstr ""
+msgstr "Consulter le site de l'auteur"
 
 #: tmp/sns-follow-buttons.php:57
 msgid "Google＋をフォロー"
-msgstr ""
+msgstr "Suivre sur Google+"
 
 #: tmp/sns-follow-buttons.php:121
 msgid "feedlyで更新情報を購読"
-msgstr ""
+msgstr "S'abonner aux mises à jour sur feedly"
 
 #: tmp/sns-follow-buttons.php:125
 msgid "RSSで更新情報を購読"
-msgstr ""
+msgstr "S'abonner aux mises à jour par RSS"
 
 #: tmp/sns-share-buttons.php:17
 msgid "Xでシェア"
-msgstr ""
+msgstr "Partager sur X"
 
 #: tmp/sns-share-buttons.php:17
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodonでシェア"
-msgstr ""
+msgstr "Partager sur Mastodon"
 
 #: tmp/sns-share-buttons.php:25
 msgid "Blueskyでシェア"
-msgstr ""
+msgstr "Partager sur Bluesky"
 
 #: tmp/sns-share-buttons.php:29
 msgid "Misskeyでシェア"
-msgstr ""
+msgstr "Partager sur Misskey"
 
 #: tmp/sns-share-buttons.php:33
 msgid "Facebookでシェア"
-msgstr ""
+msgstr "Partager sur Facebook"
 
 #: tmp/sns-share-buttons.php:37
 msgid "はてブでブックマーク"
-msgstr ""
+msgstr "Mettre en signet sur Hatena Bookmark"
 
 #: tmp/sns-share-buttons.php:37
 msgid "はてブ"
-msgstr ""
+msgstr "Hatena Bookmark"
 
 #: tmp/sns-share-buttons.php:41
 msgid "Pocketに保存"
-msgstr ""
+msgstr "Enregistrer dans Pocket"
 
 #: tmp/sns-share-buttons.php:45
 msgid "LINEでシェア"
-msgstr ""
+msgstr "Partager sur LINE"
 
 #: tmp/sns-share-buttons.php:45
 msgid "LINE"
-msgstr ""
+msgstr "LINE"
 
 #: tmp/sns-share-buttons.php:49
 msgid "Pinterestでシェア"
-msgstr ""
+msgstr "Partager sur Pinterest"
 
 #: tmp/sns-share-buttons.php:53
 msgid "LinkedInでシェア"
-msgstr ""
+msgstr "Partager sur LinkedIn"
 
 #: tmp/sns-share-buttons.php:59
 msgid "タイトルとURLをコピーする"
-msgstr ""
+msgstr "Copier le titre et l'URL"
 
 #: tmp/sns-share-buttons.php:59
 msgid "コピー"
-msgstr "Copie"
+msgstr "Copier"
 
 #: tmp/sns-share-buttons.php:63
 msgid "コメントする"
-msgstr ""
+msgstr "Commenter"
 
 #: blocks/src/block-extension/style-extension/border01.js:46
 msgid "実線"
-msgstr ""
+msgstr "Ligne continue"
 
 #: blocks/src/block-extension/style-extension/border01.js:50
 msgid "二重線"
-msgstr ""
+msgstr "Lignes doubles"
 
 #: blocks/src/block-extension/style-extension/border01.js:54
 msgid "破線"
-msgstr ""
+msgstr "Ligne pointillée"
 
 #: blocks/src/block-extension/style-extension/border01.js:58
 msgid "点線"
-msgstr ""
+msgstr "Ligne en pointillés"
 
 #: blocks/src/block-extension/style-extension/border01.js:62
 msgid "薄太"
-msgstr ""
+msgstr "Fin et épais"
 
 #: blocks/src/block-extension/style-extension/border01.js:66
 msgid "微凸"
-msgstr ""
+msgstr "Légèrement convexe"
 
 #: blocks/src/block-extension/style-extension/border01.js:70
 msgid "実線(角丸小)"
-msgstr ""
+msgstr "Ligne continue (petits coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:74
 msgid "二重線(角丸小)"
-msgstr ""
+msgstr "Lignes doubles (petits coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:78
 msgid "破線(角丸小)"
-msgstr ""
+msgstr "Ligne pointillée (petits coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:82
 msgid "点線(角丸小)"
-msgstr ""
+msgstr "Ligne en pointillés (petits coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:86
 msgid "薄太(角丸小)"
-msgstr ""
+msgstr "Fin et épais (petits coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:90
 msgid "微凸(角丸小)"
-msgstr ""
+msgstr "Légèrement convexe (petits coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:94
 msgid "実線(角丸大)"
-msgstr ""
+msgstr "Ligne continue (grands coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:98
 msgid "二重線(角丸大)"
-msgstr ""
+msgstr "Lignes doubles (grands coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:102
 msgid "破線(角丸大)"
-msgstr ""
+msgstr "Ligne pointillée (grands coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:106
 msgid "点線(角丸大)"
-msgstr ""
+msgstr "Ligne en pointillés (grands coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:110
 msgid "薄太(角丸大)"
-msgstr ""
+msgstr "Fin et épais (grands coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:114
 msgid "微凸(角丸大)"
-msgstr ""
+msgstr "Légèrement convexe (grands coins arrondis)"
 
 #: blocks/src/block-extension/style-extension/border01.js:118
 msgid "白抜き灰"
-msgstr ""
+msgstr "Contour gris"
 
 #: blocks/src/block-extension/style-extension/border01.js:122
 msgid "白抜き赤"
-msgstr ""
+msgstr "Contour rouge"
 
 #: blocks/src/block-extension/style-extension/border01.js:126
 msgid "白抜きピンク"
-msgstr ""
+msgstr "Contour rose"
 
 #: blocks/src/block-extension/style-extension/border01.js:130
 msgid "白抜き紺"
-msgstr ""
+msgstr "Contour marine"
 
 #: blocks/src/block-extension/style-extension/border01.js:134
 msgid "白抜き青"
-msgstr ""
+msgstr "Contour bleu"
 
 #: blocks/src/block-extension/style-extension/border01.js:138
 msgid "白抜き紫"
-msgstr ""
+msgstr "Contour violet"
 
 #: blocks/src/block-extension/style-extension/border01.js:142
 msgid "白抜きオレンジ"
-msgstr ""
+msgstr "Contour orange"
 
 #: blocks/src/block-extension/style-extension/border01.js:146
 msgid "白抜き黄"
-msgstr ""
+msgstr "Contour jaune"
 
 #: blocks/src/block-extension/style-extension/border01.js:150
 msgid "白抜き緑"
-msgstr ""
+msgstr "Contour vert"
 
 #: blocks/src/block-extension/style-extension/border01.js:161
 msgid "[C] ボーダー"
-msgstr ""
+msgstr "[C] Bordure"
 
 #: blocks/src/block-extension/style-extension/border01.js:171
 #: blocks/src/block-extension/style-extension/border01.js:234
 msgid "ボーダーをクリア"
-msgstr ""
+msgstr "Effacer la bordure"
 
 #: blocks/src/block-extension/style-extension/margin.js:51
 msgid "ブロック下余白"
-msgstr ""
+msgstr "Marge sous le bloc"
 
 #: blocks/src/block-extension/style-extension/margin.js:53
 msgid "[C] ブロック下余白"
-msgstr ""
+msgstr "[C] Marge sous le bloc"
 
 #: blocks/src/block-extension/style-extension/margin.js:59
 msgid "未設定"
-msgstr ""
+msgstr "Non configuré"
 
 #: blocks/src/block-extension/style-extension/margin.js:62
 msgid "文字高の"
-msgstr ""
+msgstr "Hauteur des caractères de"
 
 #: blocks/src/block-extension/style-extension/margin.js:64
 msgid "倍の余白設定"
-msgstr ""
+msgstr "Réglage de la marge en fonction de la hauteur des caractères"
 
 #: blocks/src/block-extension/style-extension/margin.js:93
 msgid "余白をクリア"
-msgstr ""
+msgstr "Effacer la marge"
 
 #: blocks/src/block-extension/style-extension/style01.js:46
 msgid "薄背景"
-msgstr ""
+msgstr "Fond gris clair"
 
 #: blocks/src/block-extension/style-extension/style01.js:50
 msgid "ストライプ"
-msgstr ""
+msgstr "Rayures"
 
 #: blocks/src/block-extension/style-extension/style01.js:54
 msgid "方眼紙"
-msgstr ""
+msgstr "Papier millimétré"
 
 #: blocks/src/block-extension/style-extension/style01.js:62
 msgid "ステッチ"
-msgstr ""
+msgstr "Point de couture"
 
 #: blocks/src/block-extension/style-extension/style01.js:66
 msgid "かぎ括弧"
-msgstr ""
+msgstr "Guillemets"
 
 #: blocks/src/block-extension/style-extension/style01.js:70
 msgid "角括弧"
-msgstr ""
+msgstr "Crochets"
 
 #: blocks/src/block-extension/style-extension/style01.js:78
 msgid "ずれた二重線"
-msgstr ""
+msgstr "Lignes doubles décalées"
 
 #: blocks/src/block-extension/style-extension/style01.js:82
 msgid "角三角"
-msgstr ""
+msgstr "Coins triangulaires"
 
 #: blocks/src/block-extension/style-extension/style01.js:86
 msgid "クリップ"
-msgstr ""
+msgstr "Clip"
 
 #: blocks/src/block-extension/style-extension/style01.js:90
 msgid "ホチキス"
-msgstr ""
+msgstr "Agrafeuse"
 
 #: blocks/src/block-extension/style-extension/style01.js:94
 msgid "ホチキス左上"
-msgstr ""
+msgstr "Agrafe en haut à gauche"
 
 #: blocks/src/block-extension/style-extension/style01.js:98
 msgid "穴あけパンチ"
-msgstr ""
+msgstr "Perforatrice"
 
 #: blocks/src/block-extension/style-extension/style01.js:102
 msgid "手書き風"
-msgstr ""
+msgstr "Style manuscrit"
 
 #: blocks/src/block-extension/style-extension/style01.js:106
 msgid "上線"
-msgstr ""
+msgstr "Ligne supérieure"
 
 #: blocks/src/block-extension/style-extension/style01.js:110
 msgid "付箋"
-msgstr ""
+msgstr "Post-it"
 
 #: blocks/src/block-extension/style-extension/style01.js:114
 msgid "左吹き出し"
-msgstr ""
+msgstr "Bulle de gauche"
 
 #: blocks/src/block-extension/style-extension/style01.js:118
 msgid "右吹き出し"
-msgstr ""
+msgstr "Bulle de droite"
 
 #: blocks/src/block-extension/style-extension/style01.js:122
 msgid "上吹き出し"
-msgstr ""
+msgstr "Bulle du haut"
 
 #: blocks/src/block-extension/style-extension/style01.js:126
 msgid "下吹き出し"
-msgstr ""
+msgstr "Bulle du bas"
 
 #: blocks/src/block-extension/style-extension/style01.js:130
 #: blocks/src/block-extension/style-extension/style02.js:82
 msgid "情報"
-msgstr ""
+msgstr "Information"
 
 #: blocks/src/block-extension/style-extension/style01.js:134
 msgid "質問"
-msgstr ""
+msgstr "Question"
 
 #: blocks/src/block-extension/style-extension/style01.js:138
 msgid "アラート"
-msgstr ""
+msgstr "Alerte"
 
 #: blocks/src/block-extension/style-extension/style01.js:170
 msgid "プライマリー"
-msgstr ""
+msgstr "Primaire"
 
 #: blocks/src/block-extension/style-extension/style01.js:174
 msgid "サクセス"
-msgstr ""
+msgstr "Succès"
 
 #: blocks/src/block-extension/style-extension/style01.js:178
 msgid "インフォ"
-msgstr ""
+msgstr "Info"
 
 #: blocks/src/block-extension/style-extension/style01.js:182
 msgid "ワーニング"
-msgstr ""
+msgstr "Avertissement"
 
 #: blocks/src/block-extension/style-extension/style01.js:186
 msgid "デンジャー"
-msgstr ""
+msgstr "Danger"
 
 #: blocks/src/block-extension/style-extension/style01.js:190
 msgid "セカンダリー"
-msgstr ""
+msgstr "Secondaire"
 
 #: blocks/src/block-extension/style-extension/style01.js:194
 msgid "ライト"
-msgstr ""
+msgstr "Clair"
 
 #: blocks/src/block-extension/style-extension/style01.js:198
 msgid "ダーク"
-msgstr ""
+msgstr "Sombre"
 
 #: blocks/src/block-extension/style-extension/style01.js:202
 msgid "付箋灰"
-msgstr ""
+msgstr "Post-it gris"
 
 #: blocks/src/block-extension/style-extension/style01.js:206
 msgid "付箋赤"
-msgstr ""
+msgstr "Post-it rouge"
 
 #: blocks/src/block-extension/style-extension/style01.js:210
 msgid "付箋青"
-msgstr ""
+msgstr "Post-it bleu"
 
 #: blocks/src/block-extension/style-extension/style01.js:214
 msgid "付箋黄"
-msgstr ""
+msgstr "Post-it jaune"
 
 #: blocks/src/block-extension/style-extension/style01.js:218
 msgid "付箋緑"
-msgstr ""
+msgstr "Post-it vert"
 
 #: blocks/src/block-extension/style-extension/style01.js:229
 #: blocks/src/block-extension/style-extension/style02.js:137
 msgid "[C] スタイル"
-msgstr ""
+msgstr "[C] Paramètres de style"
 
 #: blocks/src/block-extension/style-extension/style01.js:239
 #: blocks/src/block-extension/style-extension/style01.js:301
 #: blocks/src/block-extension/style-extension/style02.js:147
 #: blocks/src/block-extension/style-extension/style02.js:213
 msgid "スタイルをクリア"
-msgstr ""
+msgstr "Effacer le style"
 
 #: blocks/src/block-extension/style-extension/style02.js:46
 msgid "丸数字"
-msgstr ""
+msgstr "Chiffres cerclés"
 
 #: blocks/src/block-extension/style-extension/style02.js:50
 msgid "順位"
-msgstr ""
+msgstr "Rang"
 
 #: blocks/src/block-extension/style-extension/style02.js:54
 msgid "ステップ"
-msgstr ""
+msgstr "Étapes"
 
 #: blocks/src/block-extension/style-extension/style02.js:62
 msgid "チェック有効"
-msgstr ""
+msgstr "Vérification activée"
 
 #: blocks/src/block-extension/style-extension/style02.js:66
 msgid "チェック無効"
-msgstr ""
+msgstr "Vérification désactivée"
 
 #: blocks/src/block-extension/style-extension/style02.js:70
 msgid "丸"
-msgstr ""
+msgstr "Cercle"
 
 #: blocks/src/block-extension/style-extension/style02.js:74
 msgid "三角"
-msgstr ""
+msgstr "Triangle"
 
 #: blocks/src/block-extension/style-extension/style02.js:78
 msgid "バツ"
-msgstr ""
+msgstr "X"
 
 #: blocks/src/block-extension/style-extension/style02.js:86
 msgid "疑問"
-msgstr ""
+msgstr "Question"
 
 #: blocks/src/block-extension/style-extension/style02.js:90
 msgid "警告"
-msgstr ""
+msgstr "Avertissement"
 
 #: blocks/src/block-extension/style-extension/style02.js:94
 msgid "肉球"
-msgstr ""
+msgstr "Pattes"
 
 #: blocks/src/block-extension/style-extension/style02.js:98
 msgid "サムアップ"
-msgstr ""
+msgstr "Pouce levé"
 
 #: blocks/src/block-extension/style-extension/style02.js:102
 msgid "サムダウン"
-msgstr ""
+msgstr "Pouce baissé"
 
 #: blocks/src/block-extension/style-extension/style02.js:110
 msgid "男性"
-msgstr ""
+msgstr "Homme"
 
 #: blocks/src/block-extension/style-extension/style02.js:114
 msgid "女性"
-msgstr ""
+msgstr "Femme"
 
 #: blocks/src/block-extension/style-extension/style02.js:118
 msgid "ハート"
-msgstr ""
+msgstr "Cœur"
 
 #: blocks/src/block-extension/style-extension/style02.js:122
 msgid "ハートブレイク"
-msgstr ""
+msgstr "Cœur brisé"
 
 #: blocks/src/block-extension/style-extension/style02.js:126
 msgid "禁止"
-msgstr ""
+msgstr "Interdiction"
 
 #: blocks/src/block-universal/caption-box/edit.js:111
 #: blocks/src/block-universal/label-box/edit.js:111
@@ -13782,7 +13782,7 @@ msgstr ""
 #: blocks/src/old/tab-caption-box/block.js:54
 #: blocks/src/old/toggle-box/block.js:57
 msgid "スタイル設定"
-msgstr ""
+msgstr "Paramètres de style"
 
 #: blocks/src/block-universal/caption-box/edit.js:134
 #: blocks/src/block-universal/label-box/edit.js:134
@@ -13811,49 +13811,49 @@ msgstr ""
 #: blocks/src/old/tab-caption-box/block.js:56
 #: blocks/src/old/toggle-box/block.js:59
 msgid "色設定"
-msgstr ""
+msgstr "Paramètres de couleur"
 
 #: blocks/src/block-universal/caption-box/index.js:22
 #: blocks/src/old/caption-box/block.js:21
 msgid "見出しボックス"
-msgstr ""
+msgstr "Boîte de titre"
 
 #: blocks/src/block-universal/caption-box/index.js:24
 #: blocks/src/old/caption-box/block.js:24
 msgid "ボックス「見出し」を入力できる汎用ボックスです。"
-msgstr ""
+msgstr "Une boîte générique où vous pouvez entrer un titre."
 
 #: blocks/src/block-universal/label-box/index.js:22
 #: blocks/src/old/label-box/block.js:20
 msgid "ラベルボックス"
-msgstr ""
+msgstr "Boîte d'étiquette"
 
 #: blocks/src/block-universal/label-box/index.js:24
 #: blocks/src/old/label-box/block.js:23
 msgid "ボックスに「ラベル見出し」入力できる汎用ボックスです。"
-msgstr ""
+msgstr "Une boîte générique permettant de saisir un titre d'étiquette."
 
 #: blocks/src/block-universal/tab-caption-box/index.js:22
 #: blocks/src/old/tab-caption-box/block.js:21
 msgid "タブ見出しボックス"
-msgstr ""
+msgstr "Boîte de titre d'onglet"
 
 #: blocks/src/block-universal/tab-caption-box/index.js:24
 #: blocks/src/old/tab-caption-box/block.js:24
 msgid "ボックスに「タブ見出し」を入力できる汎用ボックスです。"
-msgstr ""
+msgstr "Une boîte générique où vous pouvez entrer un titre d'onglet."
 
 #: blocks/src/block/ad/edit.js:19
 msgid "広告が非表示です。"
-msgstr ""
+msgstr "L'affichage des annonces est désactivé."
 
 #: blocks/src/block/ad/edit.js:21
 msgid "[ad]ショートコードが無効です。"
-msgstr ""
+msgstr "Le shortcode [ad] est désactivé."
 
 #: blocks/src/block/ad/index.js:23
 msgid "広告を表示します。"
-msgstr ""
+msgstr "Afficher les annonces."
 
 #: blocks/src/block/balloon/edit.js:206
 #: blocks/src/old/balloon-1/block.js:101
@@ -13863,32 +13863,32 @@ msgstr ""
 #: blocks/src/old/balloon-ex/block.js:140
 #: blocks/src/old/balloon/block.js:82
 msgid "人物"
-msgstr ""
+msgstr "Personne"
 
 #: blocks/src/block/balloon/edit.js:288
 msgid "吹き出し色設定"
-msgstr ""
+msgstr "Paramètre de couleur de bulle"
 
 #: blocks/src/block/balloon/edit.js:349
 msgid "セリフの入力"
-msgstr ""
+msgstr "Entrer les répliques"
 
 #: blocks/src/block/balloon/index.js:38
 #: blocks/src/old/balloon-ex-fix1/block.js:60
 #: blocks/src/old/balloon-ex-v2/block.js:23
 #: blocks/src/old/balloon-ex/block.js:57
 msgid "登録されている吹き出しのオプションを変更できます。"
-msgstr ""
+msgstr "Vous pouvez modifier les options de la bulle enregistrée."
 
 #: blocks/src/block/blank-box/index.js:23
 #: blocks/src/old/blank-box/block.js:23
 msgid "白抜きボックス"
-msgstr ""
+msgstr "Boîte avec contour"
 
 #: blocks/src/block/blank-box/index.js:25
 #: blocks/src/old/blank-box/block.js:26
 msgid "コンテンツを囲むだけのブランクボックスを表示します。"
-msgstr ""
+msgstr "Affiche une boîte vide pour entourer le contenu."
 
 #: blocks/src/block/blogcard/deprecated.js:47
 #: blocks/src/block/blogcard/edit.js:30
@@ -13904,49 +13904,49 @@ msgstr "Étiquette"
 #: blocks/src/block/blogcard/index.js:21
 #: blocks/src/old/blogcard-class/block.js:32
 msgid "ブログカード表示用の入力ブロックを表示します。URLは複数入力可能です。"
-msgstr ""
+msgstr "Afficher les blocs de saisie pour afficher les cartes de blog. Vous pouvez entrer plusieurs URL."
 
 #: blocks/src/block/box-menu/edit.js:60
 msgid "ダッシュボードメニューの「外観」→「メニュー」からボックスメニューを作成してください。"
-msgstr ""
+msgstr "Créez un menu à partir de « Tableau de bord » -> « Apparence » -> « Menus »."
 
 #: blocks/src/block/box-menu/edit.js:65
 msgid "ボックスメニューが登録されていません。"
-msgstr ""
+msgstr "Le menu de la boîte n'est pas enregistré."
 
 #: blocks/src/block/box-menu/edit.js:71
 msgid "有効なボックスメニューが登録されていません。"
-msgstr ""
+msgstr "Le menu de la boîte valide n'est pas enregistré."
 
 #: blocks/src/block/box-menu/edit.js:73
 msgid "もしくは登録されているボックスメニューを表示設定にしてください。"
-msgstr ""
+msgstr "ou modifiez les paramètres d'affichage du menu de la boîte."
 
 #: blocks/src/block/box-menu/edit.js:78
 msgid "ボックスメニューを選択してください。"
-msgstr ""
+msgstr "Sélectionnez un menu de boîte."
 
 #: blocks/src/block/box-menu/index.js:23
 msgid "登録されているボックスメニューを表示します。"
-msgstr ""
+msgstr "Afficher le menu de la boîte enregistré."
 
 #: blocks/src/block/button-wrap/deprecated.js:29
 #: blocks/src/old/button-wrap-1/block.js:56
 #: blocks/src/old/button-wrap/block.js:32
 msgid "こちらをクリックしてリンクタグを設定エリア入力してください。この入力は公開ページで反映されません。"
-msgstr ""
+msgstr "Cliquez ici pour entrer une zone de configuration d'un tag de lien. Cette saisie ne sera pas reflétée sur la page publiée."
 
 #: blocks/src/block/button-wrap/edit.js:83
 #: blocks/src/old/button-wrap-1/block.js:92
 #: blocks/src/old/button-wrap/block.js:67
 msgid "囲みボタン設定"
-msgstr ""
+msgstr "Paramètres du bouton entouré"
 
 #: blocks/src/block/button-wrap/edit.js:85
 #: blocks/src/old/button-wrap-1/block.js:94
 #: blocks/src/old/button-wrap/block.js:69
 msgid "リンクタグ・ショートコード"
-msgstr ""
+msgstr "Tags de lien et short codes"
 
 #: blocks/src/block/button-wrap/edit.js:91
 #: blocks/src/block/button/edit.js:94
@@ -13955,7 +13955,7 @@ msgstr ""
 #: blocks/src/old/button-wrap/block.js:155
 #: blocks/src/old/button/block.js:170
 msgid "サイズ"
-msgstr ""
+msgstr "Taille"
 
 #: blocks/src/block/button-wrap/edit.js:97
 #: blocks/src/block/button/edit.js:100
@@ -13964,7 +13964,7 @@ msgstr ""
 #: blocks/src/old/button-wrap/block.js:161
 #: blocks/src/old/button/block.js:176
 msgid "小"
-msgstr ""
+msgstr "Petit"
 
 #: blocks/src/block/button-wrap/edit.js:101
 #: blocks/src/block/button/edit.js:104
@@ -13973,7 +13973,7 @@ msgstr ""
 #: blocks/src/old/button-wrap/block.js:165
 #: blocks/src/old/button/block.js:180
 msgid "中"
-msgstr "Naka"
+msgstr "Moyen"
 
 #: blocks/src/block/button-wrap/edit.js:105
 #: blocks/src/block/button/edit.js:108
@@ -13982,7 +13982,7 @@ msgstr "Naka"
 #: blocks/src/old/button-wrap/block.js:169
 #: blocks/src/old/button/block.js:184
 msgid "大"
-msgstr "Ère Taishô"
+msgstr "Grand"
 
 #: blocks/src/block/button-wrap/edit.js:111
 #: blocks/src/block/button/edit.js:114
@@ -13992,72 +13992,72 @@ msgstr "Ère Taishô"
 #: blocks/src/old/micro-balloon-1/block.js:109
 #: blocks/src/old/micro-balloon/block.js:108
 msgid "円形にする"
-msgstr ""
+msgstr "Arrondi"
 
 #: blocks/src/block/button-wrap/edit.js:117
 #: blocks/src/block/button/edit.js:120
 #: blocks/src/old/button-1/block.js:134
 #: blocks/src/old/button-wrap-1/block.js:126
 msgid "光らせる"
-msgstr ""
+msgstr "Brillant"
 
 #: blocks/src/block/button-wrap/index.js:24
 #: blocks/src/old/button-wrap-1/block.js:47
 #: blocks/src/old/button-wrap/block.js:24
 msgid "アスリートタグ等のタグを変更できないリンクをボタン化します。"
-msgstr ""
+msgstr "Transformer en bouton un lien pour lequel les tags, comme les tags d'athlète, ne peuvent pas être modifiés."
 
 #: blocks/src/block/button/edit.js:70
 #: blocks/src/old/button-1/block.js:84
 #: blocks/src/old/button/block.js:66
 msgid "ボタン設定"
-msgstr ""
+msgstr "Paramètres du bouton"
 
 #: blocks/src/block/button/edit.js:72
 #: blocks/src/old/button-1/block.js:86
 #: blocks/src/old/button/block.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: blocks/src/block/button/edit.js:84
 #: blocks/src/old/button-1/block.js:98
 #: blocks/src/old/button/block.js:80
 msgid "現在のタブで開く"
-msgstr ""
+msgstr "Ouvrir dans l'onglet actuel"
 
 #: blocks/src/block/button/index.js:22
 #: blocks/src/old/button-1/block.js:40
 #: blocks/src/old/button/block.js:22
 msgid "一般的なリンクボタンを作成します。"
-msgstr ""
+msgstr "Créer un bouton de lien standard."
 
 #: blocks/src/block/comparison-box/index.js:21
 msgid "比較ボックス"
-msgstr ""
+msgstr "Boîte de comparaison"
 
 #: blocks/src/block/comparison-box/index.js:23
 msgid "2つの商品（サービス）の比較用の装飾です。"
-msgstr ""
+msgstr "C'est une décoration pour comparer deux produits (services)."
 
 #: blocks/src/block/comparison-box/items/block.js:32
 msgid "比較ボックスの左。"
-msgstr ""
+msgstr "Gauche de la boîte de comparaison"
 
 #: blocks/src/block/comparison-box/items/block.js:58
 msgid "比較ボックスの右。"
-msgstr ""
+msgstr "Droite de la boîte de comparaison"
 
 #: blocks/src/block/cta/edit.js:46
 msgid "CTA見出し"
-msgstr ""
+msgstr "Titre de l'appel à l'action"
 
 #: blocks/src/block/cta/edit.js:49
 msgid "ここに訴求メッセージを入力してください。"
-msgstr ""
+msgstr "Entrez un message ici."
 
 #: blocks/src/block/cta/edit.js:50
 msgid "この記事を読む"
-msgstr ""
+msgstr "Lire cet article"
 
 #: blocks/src/block/cta/edit.js:78
 #: blocks/src/block/info-list/edit.js:87
@@ -14065,64 +14065,64 @@ msgstr ""
 #: blocks/src/block/new-list/edit.js:124
 #: blocks/src/block/popular-list/edit.js:196
 msgid "基本設定"
-msgstr ""
+msgstr "Paramètres de base"
 
 #: blocks/src/block/cta/edit.js:89
 msgid "画像とメッセージのレイアウト"
-msgstr ""
+msgstr "Disposition de l'image et du message"
 
 #: blocks/src/block/cta/edit.js:127
 msgid "置換"
-msgstr ""
+msgstr "Remplacer"
 
 #: blocks/src/block/cta/index.js:21
 msgid "CTA"
-msgstr ""
+msgstr "CTA"
 
 #: blocks/src/block/cta/index.js:23
 msgid "コールトゥアクションボックスを表示します。"
-msgstr ""
+msgstr "Afficher la boîte d'appel à l'action."
 
 #: blocks/src/block/faq/edit.js:130
 msgid "質問ラベル"
-msgstr ""
+msgstr "Étiquette de question"
 
 #: blocks/src/block/faq/edit.js:134
 msgid "Q"
-msgstr ""
+msgstr "Q"
 
 #: blocks/src/block/faq/edit.js:138
 #: blocks/src/block/faq/edit.js:149
 msgid "※2文字以下推奨"
-msgstr ""
+msgstr "*Il est recommandé de ne pas dépasser deux caractères"
 
 #: blocks/src/block/faq/edit.js:143
 msgid "回答ラベル"
-msgstr ""
+msgstr "Étiquette de réponse"
 
 #: blocks/src/block/faq/edit.js:147
 msgid "A"
-msgstr ""
+msgstr "R"
 
 #: blocks/src/block/faq/edit.js:158
 msgid "質問ラベル色"
-msgstr ""
+msgstr "Couleur de l'étiquette de question"
 
 #: blocks/src/block/faq/edit.js:163
 msgid "回答ラベル色"
-msgstr ""
+msgstr "Couleur de l'étiquette de réponse"
 
 #: blocks/src/block/faq/edit.js:197
 msgid "質問を入力してください…"
-msgstr ""
+msgstr "Entrez votre question…"
 
 #: blocks/src/block/faq/index.js:20
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: blocks/src/block/faq/index.js:35
 msgid "よくある質問と回答。"
-msgstr ""
+msgstr "Questions fréquentes et réponses."
 
 #: blocks/src/block/icon-box/deprecated.js:80
 #: blocks/src/block/icon-box/edit.js:27
@@ -14143,732 +14143,732 @@ msgstr "Type"
 #: blocks/src/block/icon-box/deprecated.js:86
 #: blocks/src/block/test-box/deprecated.js:86
 msgid "補足情報(i)"
-msgstr ""
+msgstr "Info (i)"
 
 #: blocks/src/block/icon-box/deprecated.js:90
 #: blocks/src/block/test-box/deprecated.js:90
 msgid "補足情報(?)"
-msgstr ""
+msgstr "Info (?)"
 
 #: blocks/src/block/icon-box/deprecated.js:94
 #: blocks/src/block/test-box/deprecated.js:94
 msgid "補足情報(!)"
-msgstr ""
+msgstr "Info (!)"
 
 #: blocks/src/block/icon-box/index.js:22
 msgid "アイコンボックス"
-msgstr ""
+msgstr "Boîte d'icônes"
 
 #: blocks/src/block/icon-box/index.js:24
 msgid "アイコンを用いて直感的にメッセージ内容を伝えるためのボックスです。"
-msgstr ""
+msgstr "C'est une boîte pour transmettre le contenu du message de manière intuitive en utilisant des icônes."
 
 #: blocks/src/block/icon-list/edit.js:134
 msgid "アイコン色"
-msgstr ""
+msgstr "Couleur de l'icône"
 
 #: blocks/src/block/icon-list/edit.js:162
 msgid "タイトルがある場合は入力"
-msgstr ""
+msgstr "Entrez un titre si nécessaire"
 
 #: blocks/src/block/icon-list/index.js:21
 msgid "アイコンリスト"
-msgstr ""
+msgstr "Liste d'icônes"
 
 #: blocks/src/block/icon-list/index.js:23
 msgid "リストポイントにアイコンを適用した非順序リストです。"
-msgstr ""
+msgstr "Liste non ordonnée avec des icônes appliquées aux points de la liste."
 
 #: blocks/src/block/info-box/deprecated.js:93
 msgid "インフォ（薄い青）"
-msgstr ""
+msgstr "Info (bleu clair)"
 
 #: blocks/src/block/info-box/deprecated.js:97
 msgid "サクセス（薄い緑）"
-msgstr ""
+msgstr "Succès (vert clair)"
 
 #: blocks/src/block/info-box/index.js:22
 msgid "案内ボックス"
-msgstr ""
+msgstr "Boîte d'information"
 
 #: blocks/src/block/info-box/index.js:24
 msgid "ボックスの背景色により、直感的にメッセージ内容を伝えるためのボックスです。"
-msgstr ""
+msgstr "C'est une boîte pour transmettre le contenu du message de manière intuitive par la couleur de fond de la boîte."
 
 #: blocks/src/block/info-list/edit.js:58
 #: blocks/src/block/new-list/edit.js:78
 #: blocks/src/block/popular-list/edit.js:77
 msgid "表示するカテゴリーをカンマ区切りで指定"
-msgstr ""
+msgstr "Spécifiez les catégories à afficher par leur ID, séparées par des virgules"
 
 #: blocks/src/block/info-list/edit.js:89
 msgid "キャプション(枠線内表示)"
-msgstr ""
+msgstr "Légende (affichée à l'intérieur du cadre)"
 
 #: blocks/src/block/info-list/edit.js:123
 #: blocks/src/block/new-list/edit.js:225
 #: blocks/src/block/popular-list/edit.js:272
 msgid "フィルタ"
-msgstr ""
+msgstr "Filtre"
 
 #: blocks/src/block/info-list/edit.js:125
 #: blocks/src/block/new-list/edit.js:227
 #: blocks/src/block/popular-list/edit.js:274
 msgid "全カテゴリー表示"
-msgstr ""
+msgstr "Afficher toutes les catégories"
 
 #: blocks/src/block/info-list/index.js:30
 msgid "新着情報の一覧を表示します。"
-msgstr ""
+msgstr "Afficher la liste des nouvelles informations."
 
 #: blocks/src/block/navicard/edit.js:63
 msgid "ダッシュボードメニューの「外観」→「メニュー」からメニューを作成してください。"
-msgstr ""
+msgstr "Créez un menu à partir de \"Tableau de bord\" -> \"Apparence\" -> \"Menus\"."
 
 #: blocks/src/block/navicard/edit.js:68
 msgid "メニューが登録されていません。"
-msgstr ""
+msgstr "Le menu n'est pas enregistré."
 
 #: blocks/src/block/navicard/edit.js:70
 msgid "メニューを選択してください。"
-msgstr ""
+msgstr "Sélectionnez un menu."
 
 #: blocks/src/block/navicard/edit.js:106
 #: blocks/src/block/new-list/edit.js:139
 #: blocks/src/block/popular-list/edit.js:218
 msgid "通常のリスト"
-msgstr ""
+msgstr "Par défaut"
 
 #: blocks/src/block/navicard/edit.js:110
 #: blocks/src/block/new-list/edit.js:143
 #: blocks/src/block/popular-list/edit.js:222
 msgid "カードの上下に区切り線を入れる"
-msgstr ""
+msgstr "Ajouter une ligne de séparation en haut et en bas de la carte"
 
 #: blocks/src/block/navicard/edit.js:110
 #: blocks/src/block/new-list/edit.js:143
 #: blocks/src/block/popular-list/edit.js:222
 msgid "（縦型表示のみ）"
-msgstr ""
+msgstr "(uniquement pour l'affichage vertical)"
 
 #: blocks/src/block/navicard/edit.js:114
 #: blocks/src/block/new-list/edit.js:147
 #: blocks/src/block/popular-list/edit.js:226
 msgid "カードに枠線を表示する"
-msgstr ""
+msgstr "Afficher des bordures sur la carte"
 
 #: blocks/src/block/navicard/edit.js:118
 #: blocks/src/block/new-list/edit.js:151
 #: blocks/src/block/popular-list/edit.js:230
 msgid "大きなサムネイル表示"
-msgstr ""
+msgstr "Grande vignette"
 
 #: blocks/src/block/navicard/edit.js:122
 #: blocks/src/block/new-list/edit.js:155
 #: blocks/src/block/popular-list/edit.js:234
 msgid "大きなサムネイルにタイトルを重ねる"
-msgstr ""
+msgstr "Grande vignette avec le titre superposé"
 
 #: blocks/src/block/navicard/edit.js:129
 #: blocks/src/block/new-list/edit.js:201
 #: blocks/src/block/popular-list/edit.js:241
 msgid "記事タイトルを太字にする"
-msgstr ""
+msgstr "Titre en gras"
 
 #: blocks/src/block/navicard/edit.js:134
 #: blocks/src/block/new-list/edit.js:206
 #: blocks/src/block/popular-list/edit.js:246
 msgid "カードに矢印を表示する"
-msgstr ""
+msgstr "Afficher une flèche sur la carte"
 
 #: blocks/src/block/navicard/edit.js:139
 #: blocks/src/block/new-list/edit.js:211
 #: blocks/src/block/popular-list/edit.js:251
 msgid "横並び表示"
-msgstr ""
+msgstr "Affichage côte à côte"
 
 #: blocks/src/block/navicard/index.js:23
 msgid "登録されているメニューからナビカードを表示します。"
-msgstr ""
+msgstr "Afficher la carte de navigation à partir du menu enregistré."
 
 #: blocks/src/block/new-list/edit.js:83
 #: blocks/src/block/popular-list/edit.js:82
 msgid "表示カテゴリー選択"
-msgstr ""
+msgstr "Sélection des catégories à afficher"
 
 #: blocks/src/block/new-list/edit.js:86
 msgid "テキストを入力して絞り込んでください。"
-msgstr ""
+msgstr "Saisissez du texte pour affiner votre recherche."
 
 #: blocks/src/block/new-list/edit.js:86
 msgid "※最大10件表示"
-msgstr ""
+msgstr "*Affichage maximum de 10 éléments"
 
 #: blocks/src/block/new-list/edit.js:96
 #: blocks/src/block/popular-list/edit.js:94
 msgid "子カテゴリーの内容を含めて表示"
-msgstr ""
+msgstr "Inclure le contenu des sous-catégories"
 
 #: blocks/src/block/new-list/edit.js:126
 #: blocks/src/block/popular-list/edit.js:198
 msgid "表示する記事の数"
-msgstr ""
+msgstr "Nombre d'articles à afficher"
 
 #: blocks/src/block/new-list/edit.js:161
 msgid "表示順"
-msgstr ""
+msgstr "Ordre d'affichage"
 
 #: blocks/src/block/new-list/edit.js:165
 msgid "更新日順"
-msgstr ""
+msgstr "Trier par date de modification"
 
 #: blocks/src/block/new-list/edit.js:169
 msgid "投稿日順"
-msgstr ""
+msgstr "Trier par date de publication"
 
 #: blocks/src/block/new-list/edit.js:182
 msgid "並び替え"
-msgstr ""
+msgstr "Trier"
 
 #: blocks/src/block/new-list/edit.js:185
 msgid "昇順"
-msgstr ""
+msgstr "Croissant"
 
 #: blocks/src/block/new-list/edit.js:186
 msgid "降順"
-msgstr ""
+msgstr "Décroissant"
 
 #: blocks/src/block/new-list/edit.js:193
 msgid "読み飛ばし"
-msgstr ""
+msgstr "Ignorer des articles"
 
 #: blocks/src/block/new-list/edit.js:218
 msgid "説明文の表示"
-msgstr ""
+msgstr "Afficher la description"
 
 #: blocks/src/block/new-list/edit.js:238
 msgid "全タグ表示"
-msgstr ""
+msgstr "Afficher tous les tags"
 
 #: blocks/src/block/new-list/edit.js:247
 msgid "固定記事の表示"
-msgstr ""
+msgstr "Afficher les articles fixes"
 
 #: blocks/src/block/new-list/edit.js:252
 #: blocks/src/block/popular-list/edit.js:286
 msgid "投稿タイプ"
-msgstr ""
+msgstr "Type de publication"
 
 #: blocks/src/block/new-list/edit.js:259
 msgid "検索グループ"
-msgstr ""
+msgstr "Groupe de recherche"
 
 #: blocks/src/block/new-list/edit.js:264
 msgid "投稿ユーザ"
-msgstr ""
+msgstr "Auteur"
 
 #: blocks/src/block/new-list/index.js:30
 msgid "新着記事の一覧を表示します。"
-msgstr ""
+msgstr "Afficher la liste des nouveaux articles."
 
 #: blocks/src/block/popular-list/edit.js:107
 msgid "除外するカテゴリーをカンマ区切りで指定"
-msgstr ""
+msgstr "Spécifiez les catégories à exclure, séparées par des virgules"
 
 #: blocks/src/block/popular-list/edit.js:112
 msgid "除外カテゴリー選択"
-msgstr ""
+msgstr "Sélection des catégories à exclure"
 
 #: blocks/src/block/popular-list/edit.js:136
 msgid "データの集計期間"
-msgstr ""
+msgstr "Période d'agrégation des données"
 
 #: blocks/src/block/popular-list/edit.js:147
 msgid "1日"
-msgstr ""
+msgstr "1 jour"
 
 #: blocks/src/block/popular-list/edit.js:175
 msgid "半年"
-msgstr ""
+msgstr "6 mois"
 
 #: blocks/src/block/popular-list/edit.js:205
 msgid "全期間集計"
-msgstr ""
+msgstr "Agrégation sur toute la période"
 
 #: blocks/src/block/popular-list/edit.js:258
 msgid "ランキング番号表示"
-msgstr ""
+msgstr "Afficher le numéro du classement"
 
 #: blocks/src/block/popular-list/edit.js:265
 msgid "PV数表示"
-msgstr ""
+msgstr "Afficher le nombre de PV"
 
 #: blocks/src/block/popular-list/edit.js:293
 msgid "除外投稿(ID)"
-msgstr ""
+msgstr "Exclure les articles (ID)"
 
 #: blocks/src/block/popular-list/index.js:30
 msgid "人気記事の一覧を表示します。"
-msgstr ""
+msgstr "Afficher la liste des articles populaires."
 
 #: blocks/src/block/profile/edit.js:53
 msgid "選択できるユーザーがありません。"
-msgstr ""
+msgstr "Il n'y a aucun utilisateur à sélectionner."
 
 #: blocks/src/block/profile/edit.js:55
 msgid "ユーザーを選択してください。"
-msgstr ""
+msgstr "Veuillez sélectionner un utilisateur."
 
 #: blocks/src/block/profile/edit.js:102
 msgid "ユーザー"
-msgstr ""
+msgstr "Utilisateur"
 
 #: blocks/src/block/profile/index.js:23
 msgid "プロフィールを表示します。"
-msgstr ""
+msgstr "Afficher le profil de l'utilisateur."
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
 msgid "（リスト非表示）"
-msgstr ""
+msgstr "(Liste masquée)"
 
 #: blocks/src/block/ranking/edit.js:55
 msgid "ダッシュボードメニューの「Cocoon設定」→「ランキング」からランキングを作成してください。"
-msgstr ""
+msgstr "Créez un classement à partir de \"Tableau de bord\" -> \"Paramètres de Cocoon\" -> \"Créer un classement\"."
 
 #: blocks/src/block/ranking/edit.js:63
 msgid "ランキングが登録されていません。"
-msgstr ""
+msgstr "Le classement n'est pas enregistré."
 
 #: blocks/src/block/ranking/edit.js:70
 msgid "有効なランキングが登録されていません。"
-msgstr ""
+msgstr "Le classement valide n'est pas enregistré."
 
 #: blocks/src/block/ranking/edit.js:72
 msgid "もしくは登録されているランキングを表示設定にしてください。。"
-msgstr ""
+msgstr "ou changez les paramètres d'affichage du classement."
 
 #: blocks/src/block/ranking/index.js:23
 msgid "登録されているランキングを表示します。"
-msgstr ""
+msgstr "Afficher le classement enregistré."
 
 #: blocks/src/block/search-box/index.js:21
 msgid "検索案内"
-msgstr ""
+msgstr "Guide de recherche"
 
 #: blocks/src/block/search-box/index.js:23
 msgid "訪問者に検索を促すためのボックスです。検索をクリックすることで検索結果へ跳びます（※AMPページ以外）。"
-msgstr ""
+msgstr "Cette boîte est utilisée pour encourager les visiteurs à effectuer une recherche. Accédez aux résultats de la recherche en cliquant sur \"rechercher\" (*Ne fonctionne pas sur les pages AMP)."
 
 #: blocks/src/block/sticky-box/index.js:21
 msgid "付箋風ボックス"
-msgstr ""
+msgstr "Boîte style note autocollante"
 
 #: blocks/src/block/sticky-box/index.js:23
 msgid "目立つ濃いめの色で付箋風にメッセージを伝えるためのボックスです。"
-msgstr ""
+msgstr "C'est une boîte pour transmettre un message de style note autocollante avec des couleurs foncées."
 
 #: blocks/src/block/tab-box/index.js:22
 #: blocks/src/old/tab-box/block.js:21
 msgid "タブボックス"
-msgstr ""
+msgstr "Boîte à onglets"
 
 #: blocks/src/block/tab-box/index.js:24
 #: blocks/src/old/tab-box/block.js:24
 msgid "タブにメッセージ内容を伝えるための文字が書かれているボックスです。"
-msgstr ""
+msgstr "Une boîte avec un texte sur l'onglet pour transmettre le contenu du message."
 
 #: blocks/src/block/tab-item/index.js:21
 msgid "タブアイテム"
-msgstr ""
+msgstr "Élément d'onglet"
 
 #: blocks/src/block/tab-item/index.js:23
 msgid "タブのコンテンツ"
-msgstr ""
+msgstr "Contenu de l'onglet"
 
 #: blocks/src/block/tab/edit.js:159
 msgid "Tab"
-msgstr ""
+msgstr "Onglet"
 
 #: blocks/src/block/tab/edit.js:258
 msgid "タブ設定"
-msgstr ""
+msgstr "Paramètres de l'onglet"
 
 #: blocks/src/block/tab/edit.js:262
 #: blocks/src/block/tab/index.js:22
 msgid "タブ"
-msgstr ""
+msgstr "Onglet"
 
 #: blocks/src/block/tab/edit.js:263
 msgid "タブ削除"
-msgstr ""
+msgstr "Supprimer l'onglet"
 
 #: blocks/src/block/tab/edit.js:264
 msgid "上に移動"
-msgstr ""
+msgstr "Déplacer vers le haut"
 
 #: blocks/src/block/tab/edit.js:265
 msgid "下に移動"
-msgstr ""
+msgstr "Déplacer vers le bas"
 
 #: blocks/src/block/tab/edit.js:270
 msgid "タブ追加"
-msgstr ""
+msgstr "Ajouter un onglet"
 
 #: blocks/src/block/tab/index.js:24
 msgid "表示する内容をタブで切り替えることができるボックスです。"
-msgstr ""
+msgstr "Boîte permettant de basculer le contenu à afficher par des onglets."
 
 #: blocks/src/block/template/edit.js:56
 msgid "ダッシュボードメニューの「Cocoon設定」→「テンプレート」からテンプレートを作成してください。"
-msgstr ""
+msgstr "Créez un modèle à partir de \"Tableau de bord\" -> \"Paramètres de Cocoon\" -> \"Modèle\"."
 
 #: blocks/src/block/template/edit.js:61
 msgid "テンプレートが登録されていません。"
-msgstr ""
+msgstr "Le modèle n'est pas enregistré."
 
 #: blocks/src/block/template/edit.js:68
 msgid "有効なテンプレートが登録されていません。"
-msgstr ""
+msgstr "Le modèle valide n'est pas enregistré."
 
 #: blocks/src/block/template/edit.js:70
 msgid "もしくは登録されているテンプレートを表示設定にしてください。。"
-msgstr ""
+msgstr "ou changez les paramètres d'affichage du modèle."
 
 #: blocks/src/block/template/edit.js:76
 msgid "テンプレートを選択してください。"
-msgstr ""
+msgstr "Veuillez sélectionner un modèle."
 
 #: blocks/src/block/template/index.js:23
 msgid "登録されているテンプレートを表示します。"
-msgstr ""
+msgstr "Afficher le modèle enregistré."
 
 #: blocks/src/block/timeline-item/index.js:24
 #: blocks/src/layout/column-children/block.js:25
 msgid "カラム左側に表示される内容内容を入力。"
-msgstr ""
+msgstr "Entrez le contenu affiché sur le côté gauche de la colonne."
 
 #: blocks/src/block/timeline/edit.js:144
 msgid "アイテム数"
-msgstr ""
+msgstr "Nombre d'éléments"
 
 #: blocks/src/block/timeline/edit.js:156
 msgid "ポイント色"
-msgstr ""
+msgstr "Couleur du point"
 
 #: blocks/src/block/timeline/index.js:34
 msgid "時系列を表現するためのブロックです。"
-msgstr ""
+msgstr "Un bloc pour représenter une chronologie."
 
 #: blocks/src/block/toggle-box/deprecated.js:19
 #: blocks/src/old/toggle-box/block.js:15
 msgid "トグルボックス見出し"
-msgstr ""
+msgstr "Titre de la boîte à bascule"
 
 #: blocks/src/block/toggle-box/index.js:21
 msgid "アコーディオン（トグル）"
-msgstr ""
+msgstr "Accordéon (toggle)"
 
 #: blocks/src/block/toggle-box/index.js:23
 msgid "旧トグルボックス。クリックすることでコンテンツ内容の表示を切り替えることができるボックスです。"
-msgstr ""
+msgstr "Ancienne boîte à bascule. Vous pouvez basculer l'affichage du contenu en cliquant."
 
 #: blocks/src/components/WidthPanel.js:15
 msgid "幅設定"
-msgstr ""
+msgstr "Paramètre de largeur"
 
 #: blocks/src/components/WidthPanel.js:16
 msgid "幅"
-msgstr ""
+msgstr "Largeur"
 
 #: blocks/src/custom/code/block.js:30
 msgid "言語"
-msgstr ""
+msgstr "Langue"
 
 #: blocks/src/custom/code/block.js:32
 msgid "言語選択"
-msgstr ""
+msgstr "Sélection de la langue"
 
 #: blocks/src/helpers.js:33
 #: blocks/src/old/blank-box/block.js:17
 #: blocks/src/old/tab-box/block.js:15
 msgid "こちらをクリックして設定変更。この入力は公開ページで反映されません。"
-msgstr ""
+msgstr "Cliquez ici pour modifier les paramètres. Cette saisie ne sera pas affichée sur la page publiée."
 
 #: blocks/src/helpers.js:258
 msgid "fab-info-circle"
-msgstr ""
+msgstr "fab-info-circle"
 
 #: blocks/src/helpers.js:262
 msgid "fab-question-circle"
-msgstr ""
+msgstr "fab-question-circle"
 
 #: blocks/src/helpers.js:266
 msgid "fab-exclamation-circle"
-msgstr ""
+msgstr "fab-exclamation-circle"
 
 #: blocks/src/helpers.js:270
 msgid "fab-pencil"
-msgstr ""
+msgstr "fab-pencil"
 
 #: blocks/src/helpers.js:274
 msgid "fab-edit"
-msgstr ""
+msgstr "fab-edit"
 
 #: blocks/src/helpers.js:278
 msgid "fab-comment"
-msgstr ""
+msgstr "fab-comment"
 
 #: blocks/src/helpers.js:282
 msgid "fab-ok"
-msgstr ""
+msgstr "fab-ok"
 
 #: blocks/src/helpers.js:286
 msgid "fab-bad"
-msgstr ""
+msgstr "fab-bad"
 
 #: blocks/src/helpers.js:290
 msgid "fab-thumbs-up"
-msgstr ""
+msgstr "fab-thumbs-up"
 
 #: blocks/src/helpers.js:294
 msgid "fab-thumbs-down"
-msgstr ""
+msgstr "fab-thumbs-down"
 
 #: blocks/src/helpers.js:298
 #: blocks/src/helpers.js:473
 msgid "fab-check"
-msgstr ""
+msgstr "fab-check"
 
 #: blocks/src/helpers.js:302
 #: blocks/src/helpers.js:537
 msgid "fab-star"
-msgstr ""
+msgstr "fab-star"
 
 #: blocks/src/helpers.js:306
 msgid "fab-bell"
-msgstr ""
+msgstr "fab-bell"
 
 #: blocks/src/helpers.js:310
 msgid "fab-trophy"
-msgstr ""
+msgstr "fab-trophy"
 
 #: blocks/src/helpers.js:314
 msgid "fab-lightbulb"
-msgstr ""
+msgstr "fab-lightbulb"
 
 #: blocks/src/helpers.js:318
 msgid "fab-graduation-cap"
-msgstr ""
+msgstr "fab-graduation-cap"
 
 #: blocks/src/helpers.js:322
 msgid "fab-bolt"
-msgstr ""
+msgstr "fab-bolt"
 
 #: blocks/src/helpers.js:326
 msgid "fab-bookmark"
-msgstr ""
+msgstr "fab-bookmark"
 
 #: blocks/src/helpers.js:330
 msgid "fab-book"
-msgstr ""
+msgstr "fab-book"
 
 #: blocks/src/helpers.js:334
 msgid "fab-download"
-msgstr ""
+msgstr "fab-download"
 
 #: blocks/src/helpers.js:338
 msgid "fab-coffee"
-msgstr ""
+msgstr "fab-coffee"
 
 #: blocks/src/helpers.js:342
 msgid "fab-amazon"
-msgstr ""
+msgstr "fab-amazon"
 
 #: blocks/src/helpers.js:346
 msgid "fab-user"
-msgstr ""
+msgstr "fab-user"
 
 #: blocks/src/helpers.js:350
 msgid "fab-envelope"
-msgstr ""
+msgstr "fab-envelope"
 
 #: blocks/src/helpers.js:354
 msgid "fab-flag"
-msgstr ""
+msgstr "fab-flag"
 
 #: blocks/src/helpers.js:358
 msgid "fab-ban"
-msgstr ""
+msgstr "fab-ban"
 
 #: blocks/src/helpers.js:362
 msgid "fab-calendar"
-msgstr ""
+msgstr "fab-calendar"
 
 #: blocks/src/helpers.js:366
 msgid "fab-clock"
-msgstr ""
+msgstr "fab-clock"
 
 #: blocks/src/helpers.js:370
 msgid "fab-cutlery"
-msgstr ""
+msgstr "fab-cutlery"
 
 #: blocks/src/helpers.js:374
 #: blocks/src/helpers.js:545
 msgid "fab-heart"
-msgstr ""
+msgstr "fab-heart"
 
 #: blocks/src/helpers.js:378
 msgid "fab-camera"
-msgstr ""
+msgstr "fab-camera"
 
 #: blocks/src/helpers.js:382
 msgid "fab-search"
-msgstr ""
+msgstr "fab-search"
 
 #: blocks/src/helpers.js:386
 msgid "fab-file-text"
-msgstr ""
+msgstr "fab-file-text"
 
 #: blocks/src/helpers.js:390
 msgid "fab-folder"
-msgstr ""
+msgstr "fab-folder"
 
 #: blocks/src/helpers.js:394
 msgid "fab-tag"
-msgstr ""
+msgstr "fab-tag"
 
 #: blocks/src/helpers.js:398
 msgid "fab-car"
-msgstr ""
+msgstr "fab-car"
 
 #: blocks/src/helpers.js:402
 msgid "fab-truck"
-msgstr ""
+msgstr "fab-truck"
 
 #: blocks/src/helpers.js:406
 msgid "fab-bicycle"
-msgstr ""
+msgstr "fab-bicycle"
 
 #: blocks/src/helpers.js:410
 msgid "fab-motorcycle"
-msgstr ""
+msgstr "fab-motorcycle"
 
 #: blocks/src/helpers.js:414
 msgid "fab-bus"
-msgstr ""
+msgstr "fab-bus"
 
 #: blocks/src/helpers.js:418
 msgid "fab-plane"
-msgstr ""
+msgstr "fab-plane"
 
 #: blocks/src/helpers.js:422
 msgid "fab-train"
-msgstr ""
+msgstr "fab-train"
 
 #: blocks/src/helpers.js:426
 msgid "fab-subway"
-msgstr ""
+msgstr "fab-subway"
 
 #: blocks/src/helpers.js:430
 msgid "fab-taxi"
-msgstr ""
+msgstr "fab-taxi"
 
 #: blocks/src/helpers.js:434
 msgid "fab-ship"
-msgstr ""
+msgstr "fab-ship"
 
 #: blocks/src/helpers.js:438
 msgid "fab-jpy"
-msgstr ""
+msgstr "fab-jpy"
 
 #: blocks/src/helpers.js:442
 msgid "fab-usd"
-msgstr ""
+msgstr "fab-usd"
 
 #: blocks/src/helpers.js:446
 msgid "fab-eur"
-msgstr ""
+msgstr "fab-eur"
 
 #: blocks/src/helpers.js:450
 msgid "fab-btc"
-msgstr ""
+msgstr "fab-btc"
 
 #: blocks/src/helpers.js:454
 msgid "fab-apple"
-msgstr ""
+msgstr "fab-apple"
 
 #: blocks/src/helpers.js:458
 msgid "fab-android"
-msgstr ""
+msgstr "fab-android"
 
 #: blocks/src/helpers.js:462
 msgid "fab-wordpress"
-msgstr ""
+msgstr "fab-wordpress"
 
 #: blocks/src/helpers.js:469
 msgid "fab-caret-right"
-msgstr ""
+msgstr "fab-caret-right"
 
 #: blocks/src/helpers.js:477
 msgid "fab-check-circle"
-msgstr ""
+msgstr "fab-check-circle"
 
 #: blocks/src/helpers.js:481
 msgid "fab-check-circle-o"
-msgstr ""
+msgstr "fab-check-circle-o"
 
 #: blocks/src/helpers.js:485
 msgid "fab-check-square"
-msgstr ""
+msgstr "fab-check-square"
 
 #: blocks/src/helpers.js:489
 msgid "fab-check-square-o"
-msgstr ""
+msgstr "fab-check-square-o"
 
 #: blocks/src/helpers.js:493
 msgid "fab-caret-square-o-right"
-msgstr ""
+msgstr "fab-caret-square-o-right"
 
 #: blocks/src/helpers.js:497
 msgid "fab-arrow-right"
-msgstr ""
+msgstr "fab-arrow-right"
 
 #: blocks/src/helpers.js:501
 msgid "fab-angle-right"
-msgstr ""
+msgstr "fab-angle-right"
 
 #: blocks/src/helpers.js:505
 msgid "fab-angle-double-right"
-msgstr ""
+msgstr "fab-angle-double-right"
 
 #: blocks/src/helpers.js:509
 msgid "fab-arrow-circle-right"
-msgstr ""
+msgstr "fab-arrow-circle-right"
 
 #: blocks/src/helpers.js:513
 msgid "fab-arrow-circle-o-right"
-msgstr ""
+msgstr "fab-arrow-circle-o-right"
 
 #: blocks/src/helpers.js:517
 msgid "fab-play-circle"
-msgstr ""
+msgstr "fab-play-circle"
 
 #: blocks/src/helpers.js:521
 msgid "fab-play-circle-o"
-msgstr ""
+msgstr "fab-play-circle-o"
 
 #: blocks/src/helpers.js:525
 msgid "fab-chevron-right"
-msgstr ""
+msgstr "fab-chevron-right"
 
 #: blocks/src/helpers.js:529
 msgid "fab-chevron-circle-right"
-msgstr ""
+msgstr "fab-chevron-circle-right"
 
 #: blocks/src/helpers.js:533
 msgid "fab-hand-o-right"
-msgstr ""
+msgstr "fab-hand-o-right"
 
 #: blocks/src/helpers.js:541
 msgid "fab-star-o"
@@ -14956,249 +14956,249 @@ msgstr ""
 
 #: blocks/src/layout/column-2/block.js:49
 msgid "2カラム"
-msgstr ""
+msgstr "2 colonnes"
 
 #: blocks/src/layout/column-2/block.js:63
 msgid "本文を左右カラムに分けます。オプションでカラム比率を変更できます。"
-msgstr ""
+msgstr "Le corps du texte est divisé en colonnes gauche et droite. Vous pouvez changer le ratio des colonnes en option."
 
 #: blocks/src/layout/column-2/block.js:101
 msgid "カラム比率"
-msgstr ""
+msgstr "Ratio des colonnes"
 
 #: blocks/src/layout/column-2/block.js:107
 msgid "1:1（｜□｜□｜）"
-msgstr ""
+msgstr "2 colonnes (1:1, | □ | □)"
 
 #: blocks/src/layout/column-2/block.js:111
 msgid "1:2（｜□｜□□｜）"
-msgstr ""
+msgstr "2 colonnes (1:2, | □ | □ □ |)"
 
 #: blocks/src/layout/column-2/block.js:115
 msgid "2:1（｜□□｜□｜）"
-msgstr ""
+msgstr "2 colonnes (2:1, | □ □ | □)"
 
 #: blocks/src/layout/column-2/block.js:119
 msgid "1:3（｜□｜□□□｜））"
-msgstr ""
+msgstr "2 colonnes (1:3, | □ | □ □ □ |)"
 
 #: blocks/src/layout/column-2/block.js:123
 msgid "3:1,（｜□□□｜□｜）"
-msgstr ""
+msgstr "2 colonnes (3:1, | □ □ □ | □)"
 
 #: blocks/src/layout/column-3/block.js:39
 msgid "本文を左・中央・右カラムに分けます。"
-msgstr ""
+msgstr "Diviser le texte en colonnes gauche, centre et droite."
 
 #: blocks/src/layout/column-children/block.js:21
 msgid "左カラム"
-msgstr ""
+msgstr "Colonne de gauche"
 
 #: blocks/src/layout/column-children/block.js:69
 msgid "中央カラム"
-msgstr ""
+msgstr "Colonne centrale"
 
 #: blocks/src/layout/column-children/block.js:73
 msgid "カラム中央に表示される内容内容を入力。"
-msgstr ""
+msgstr "Entrez le contenu à afficher dans la colonne centrale."
 
 #: blocks/src/layout/column-children/block.js:117
 msgid "右カラム"
-msgstr ""
+msgstr "Colonne de droite"
 
 #: blocks/src/layout/column-children/block.js:121
 msgid "カラム右側に表示される内容内容を入力。"
-msgstr ""
+msgstr "Entrez le contenu à afficher dans la colonne de droite."
 
 #: blocks/src/micro/micro-balloon/deprecated.js:18
 #: blocks/src/old/micro-balloon-1/block.js:15
 #: blocks/src/old/micro-balloon/block.js:15
 msgid "マイクロコピーバルーン"
-msgstr ""
+msgstr "Bulle de microcopie"
 
 #: blocks/src/micro/micro-balloon/edit.js:85
 #: blocks/src/micro/micro-text/edit.js:59
 #: blocks/src/old/micro-balloon-1/block.js:71
 #: blocks/src/old/micro-balloon/block.js:70
 msgid "下寄り"
-msgstr ""
+msgstr "Texte en dessous"
 
 #: blocks/src/micro/micro-balloon/edit.js:89
 #: blocks/src/micro/micro-text/edit.js:63
 #: blocks/src/old/micro-balloon-1/block.js:75
 #: blocks/src/old/micro-balloon/block.js:74
 msgid "上寄り"
-msgstr ""
+msgstr "Texte au-dessus"
 
 #: blocks/src/micro/micro-balloon/index.js:22
 #: blocks/src/old/micro-balloon-1/block.js:24
 #: blocks/src/old/micro-balloon/block.js:23
 msgid "マイクロバルーン"
-msgstr ""
+msgstr "Micro bulle"
 
 #: blocks/src/micro/micro-balloon/index.js:24
 #: blocks/src/old/micro-balloon-1/block.js:27
 #: blocks/src/old/micro-balloon/block.js:26
 msgid "コンバージョンリンク（ボタン）の直上もしくは直下にテキストバルーン表示して、コンバージョン率アップを図るためのマイクロコピーです。"
-msgstr ""
+msgstr "Une microcopie pour augmenter le taux de conversion en affichant une bulle de texte juste au-dessus ou en dessous du lien de conversion (bouton)."
 
 #: blocks/src/micro/micro-text/deprecated.js:17
 msgid "マイクロコピーテキスト"
-msgstr ""
+msgstr "Texte de microcopie"
 
 #: blocks/src/micro/micro-text/index.js:22
 msgid "マイクロテキスト"
-msgstr ""
+msgstr "Micro texte"
 
 #: blocks/src/micro/micro-text/index.js:24
 msgid "コンバージョンリンク（ボタン）の直上もしくは直下に小さくテキスト表示して、コンバージョン率アップを図るためのマイクロコピーです。"
-msgstr ""
+msgstr "Une microcopie pour augmenter le taux de conversion en affichant un petit texte juste au-dessus ou en dessous du lien de conversion (bouton)."
 
 #: blocks/src/old/balloon-1/block.js:60
 #: blocks/src/old/balloon-2/block.js:49
 #: blocks/src/old/balloon/block.js:42
 msgid "登録されている吹き出しを挿入できます。"
-msgstr ""
+msgstr "Vous pouvez insérer une bulle de dialogue enregistrée."
 
 #: blocks/src/old/balloon-ex-fix1/block.js:57
 #: blocks/src/old/balloon-ex-v2/block.js:20
 #: blocks/src/old/balloon-ex/block.js:54
 msgid "吹き出しEX"
-msgstr ""
+msgstr "Bulle de dialogue EX"
 
 #: blocks/src/old/button-wrap/block.js:93
 #: blocks/src/old/button/block.js:108
 msgid "ディープパープル"
-msgstr ""
+msgstr "Violet foncé"
 
 #: blocks/src/old/button-wrap/block.js:97
 #: blocks/src/old/button/block.js:112
 msgid "インディゴ[紺色]"
-msgstr ""
+msgstr "Indigo (bleu marine)"
 
 #: blocks/src/old/button-wrap/block.js:105
 #: blocks/src/old/button/block.js:120
 msgid "ライトブルー"
-msgstr ""
+msgstr "Bleu clair"
 
 #: blocks/src/old/button-wrap/block.js:109
 #: blocks/src/old/button/block.js:124
 msgid "シアン"
-msgstr ""
+msgstr "Cyan"
 
 #: blocks/src/old/button-wrap/block.js:113
 #: blocks/src/old/button/block.js:128
 msgid "ティール[緑色がかった青]"
-msgstr ""
+msgstr "Teal [bleu-vert moyen]"
 
 #: blocks/src/old/button-wrap/block.js:121
 #: blocks/src/old/button/block.js:136
 msgid "ライトグリーン"
-msgstr ""
+msgstr "Vert clair"
 
 #: blocks/src/old/button-wrap/block.js:133
 #: blocks/src/old/button/block.js:148
 msgid "アンバー[琥珀色]"
-msgstr ""
+msgstr "Ambre"
 
 #: blocks/src/old/toggle-box/block.js:18
 msgid "トグルボックス"
-msgstr ""
+msgstr "Boîte à bascule"
 
 #: blocks/src/old/toggle-box/block.js:21
 msgid "クリックすることでコンテンツ内容の表示を切り替えることができるボックスです。"
-msgstr ""
+msgstr "Une boîte où vous pouvez afficher ou masquer le contenu par un clic."
 
 #: blocks/src/shortcode/affi/block.js:15
 msgid "アフィリエイトタグタグ"
-msgstr ""
+msgstr "Tags d'affiliation"
 
 #: blocks/src/toolbutton/background-icons.js:54
 msgid "背景アイコン"
-msgstr ""
+msgstr "Icône de fond"
 
 #: blocks/src/toolbutton/background-icons.js:71
 msgid "◎"
-msgstr ""
+msgstr "Double cercle"
 
 #: blocks/src/toolbutton/background-icons.js:72
 msgid "○"
-msgstr ""
+msgstr "Cercle"
 
 #: blocks/src/toolbutton/background-icons.js:73
 msgid "△"
-msgstr ""
+msgstr "Triangle"
 
 #: blocks/src/toolbutton/background-icons.js:74
 msgid "×"
-msgstr ""
+msgstr "Croix"
 
 #: blocks/src/toolbutton/background-icons.js:75
 msgid "✓"
-msgstr ""
+msgstr "Check"
 
 #: blocks/src/toolbutton/background-icons.js:76
 msgid "？"
-msgstr ""
+msgstr "?"
 
 #: blocks/src/toolbutton/bold.js:15
 msgid "太字（boldクラス指定）"
-msgstr ""
+msgstr "Gras (spécification de classe bold)"
 
 #: blocks/src/toolbutton/clear-format.js:16
 msgid "書式のクリア"
-msgstr ""
+msgstr "Effacer le formatage"
 
 #: blocks/src/toolbutton/custom.js:24
 msgid "カスタムテキスト"
-msgstr ""
+msgstr "Texte personnalisé"
 
 #: blocks/src/toolbutton/dropdown-affiliates.js:57
 msgid "アフィリエイト"
-msgstr ""
+msgstr "Affiliation"
 
 #: blocks/src/toolbutton/dropdown-badges.js:22
 #: blocks/src/toolbutton/dropdown-badges.js:35
 msgid "インラインタグ"
-msgstr ""
+msgstr "Tag en ligne"
 
 #: blocks/src/toolbutton/dropdown-letters.js:25
 #: blocks/src/toolbutton/dropdown-letters.js:38
 msgid "文字"
-msgstr "Système d'écriture"
+msgstr "Caractères"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:79
 msgid "Amazonリンク"
-msgstr ""
+msgstr "Lien Amazon"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:86
 msgid "Amazonリンク（商品名変更）"
-msgstr ""
+msgstr "Lien Amazon (modification du nom du produit)"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:88
 #: blocks/src/toolbutton/dropdown-shortcodes.js:115
 msgid "商品名"
-msgstr "Droit des marques"
+msgstr "Nom du produit"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:97
 msgid "Amazonリンク（ボタン非表示）"
-msgstr ""
+msgstr "Lien Amazon (bouton masqué)"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:106
 msgid "楽天リンク"
-msgstr ""
+msgstr "Lien Rakuten"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:113
 msgid "楽天リンク（商品名変更）"
-msgstr ""
+msgstr "Lien Rakuten (modification du nom du produit)"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:124
 msgid "楽天リンク（ボタン非表示）"
-msgstr ""
+msgstr "Lien Rakuten (bouton masqué)"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:140
 msgid "過去日時（年）"
-msgstr ""
+msgstr "Date passée (année)"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:147
 msgid "年齢"
@@ -15206,39 +15206,39 @@ msgstr "Âge"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:154
 msgid "ページ読み込み時の日付"
-msgstr ""
+msgstr "Date de chargement de la page"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:161
 msgid "ページの更新日"
-msgstr ""
+msgstr "Date de mise à jour de la page"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:168
 msgid "カウントダウン"
-msgstr ""
+msgstr "Compte à rebours"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:182
 msgid "ログインコンテンツ"
-msgstr ""
+msgstr "Contenu de connexion"
 
 #: blocks/src/toolbutton/dropdown-shortcodes.js:229
 msgid "汎用ショートコード"
-msgstr ""
+msgstr "Codes courts génériques"
 
 #: blocks/src/toolbutton/html.js:45
 msgid "HTMLを入力してください。"
-msgstr ""
+msgstr "Insérer du HTML"
 
 #: blocks/src/toolbutton/ruby.js:31
 msgid "ふりがな（ルビ）キャラクター"
-msgstr ""
+msgstr "Caractères avec furigana (JA)"
 
 #: blocks/src/toolbutton/ruby.js:51
 msgid "ふりがな（ルビ）を入力してください。"
-msgstr ""
+msgstr "Entrez le furigana (JA)"
 
 #: blocks/src/toolbutton/strike.js:15
 msgid "打ち消し線（訂正）"
-msgstr ""
+msgstr "Texte barré (correction)"
 
 #: blocks/src/block-universal/caption-box/block.json
 #: blocks/src/block-universal/label-box/block.json
@@ -15418,22 +15418,22 @@ msgstr ""
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "toggle"
-msgstr ""
+msgstr "fab-hand-o-right"
 
 #: blocks/src/micro/micro-balloon/block.json
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "micro"
-msgstr ""
+msgstr "micro"
 
 #: blocks/src/micro/micro-balloon/block.json
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "copy"
-msgstr ""
+msgstr "copy"
 
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "text"
-msgstr ""
+msgstr "text"
 
