@@ -245,8 +245,11 @@ function function_text_shortcode($atts) {
   if ($id) {
     if ($recode = get_function_text($id)) {
       //無限ループ要素の除去
-      //$shortcode = get_function_text_shortcode($id);
+      //テンプレートショートコード
       $template = preg_replace('{\['.TEMPLATE_SHORTCODE.'[^\]]*?id=[\'"]?'.$id.'[\'"]?[^\]]*?\]}i', '', $recode->text);
+      //目次ショートコード
+      $template = preg_replace('{\[toc[^\]]*\]}i', '', $recode->text);
+
       //余計な改行を取り除く
       $template = shortcode_unautop($template);
 
@@ -462,14 +465,13 @@ if ( !function_exists( 'toc_shortcode' ) ):
 function toc_shortcode( $atts, $content = null ) {
   extract(shortcode_atts(array(
     'depth' => 0,
-  ), $atts, 'toc_box'));
+  ), $atts, 'toc'));
   if (is_singular() || is_category() || is_tag()) {
     global $_TOC_WIDGET_OR_SHORTCODE_USED;
     $_TOC_WIDGET_OR_SHORTCODE_USED = true;
     $harray = array();
     $the_content = get_toc_expanded_content();
     return get_toc_tag($the_content, $harray, false, $depth);
-
   }
 }
 endif;
@@ -990,7 +992,6 @@ function ad_shortcode( $atts ) {
   if (is_ad_shortcode_enable()) {
     ob_start();//バッファリング
     get_template_part_with_ad_format(get_ad_shortcode_format(), 'ad-shortcode', is_ad_shortcode_label_visible());
-
     return ob_get_clean();
   }
 }

@@ -12474,6 +12474,44 @@ msgstr ""
 msgid "グローバルナビの背景色。"
 msgstr ""
 
+#: skins/skin-grayish-topfull/functions.php:623
+msgid "フロントページ設定：ヘッダー"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:626
+#: skins/skin-grayish-topfull/functions.php:1368
+msgid "グローバルナビの高さ等変更についてはこちらを参照"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:626
+msgid "メインビジュアルについてはこちらを参照"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:626
+msgid "グローバルナビのメニュー作成・SNSフォローボタンについてはこちらを参照"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:641
+msgid "【PC】グローバルナビの高さ"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:642
+msgid "フロントページのグローバルナビの高さ。56px〜100pxの範囲で変更可能です。"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:643
+#: skins/skin-grayish-topfull/functions.php:1382
+msgid "※空欄の場合や、範囲外の値の場合は56pxになります。"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:666
+msgid "【PC】グローバルナビの背景色"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:667
+msgid "グローバルナビの背景色。"
+msgstr ""
+
 #: skins/skin-grayish-topfull/functions.php:685
 msgid "【PC】グローバルナビ背景色の不透明度調整"
 msgstr ""
