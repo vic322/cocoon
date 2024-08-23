@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-23T07:23:26+00:00\n"
-"PO-Revision-Date: 2024-08-23 15:24\n"
+"PO-Revision-Date: 2024-08-23 16:35\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -7220,119 +7220,119 @@ msgstr "Header-Farbe (Logo-Bereich)"
 
 #: lib/page-settings/header-forms.php:187
 msgid "ロゴエリア背景色"
-msgstr ""
+msgstr "Hintergrundfarbe des Logo-Bereichs"
 
 #: lib/page-settings/header-forms.php:188
 msgid "グローバルナビ上のヘッダー背景色を選択します。"
-msgstr ""
+msgstr "Wählen Sie die Hintergrundfarbe des Headers über der globalen Navigation aus."
 
 #: lib/page-settings/header-forms.php:190
 msgid "ロゴ文字色"
-msgstr ""
+msgstr "Schriftfarbe des Logos"
 
 #: lib/page-settings/header-forms.php:191
 msgid "グローバルナビ上のヘッダーテキスト色を選択します。"
-msgstr ""
+msgstr "Wählen Sie die Schriftfarbe des Headers über der globalen Navigation aus."
 
 #: lib/page-settings/image-forms.php:13
 msgid "本文画像設定"
-msgstr ""
+msgstr "Bildeinstellungen für den Text"
 
 #: lib/page-settings/image-forms.php:16
 msgid "投稿・固定ページの本文部分に関する画像の設定です。"
-msgstr ""
+msgstr "Die Bildeinstellungen für den Textteil von Beiträgen und Seiten."
 
 #: lib/page-settings/image-forms.php:62
 msgid "アイキャッチの表示"
-msgstr ""
+msgstr "Eyecatcher anzeigen"
 
 #: lib/page-settings/image-forms.php:66
 msgid "本文上にアイキャッチを表示する"
-msgstr ""
+msgstr "Eyecatcher über dem Text anzeigen"
 
 #: lib/page-settings/image-forms.php:67
 msgid "投稿・固定ページトップにアイキャッチを表示します。"
-msgstr ""
+msgstr "Eyecatcher oben in Beiträgen und Seiten anzeigen."
 
 #: lib/page-settings/image-forms.php:71
 msgid "アイキャッチラベルを表示する"
-msgstr ""
+msgstr "Eyecatcher-Label anzeigen"
 
 #: lib/page-settings/image-forms.php:72
 msgid "投稿・固定ページのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
-msgstr ""
+msgstr "Schalten Sie die Anzeige des Kategorielabels für Eyecatcher in Beiträgen und Seiten um."
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチの中央寄せ"
-msgstr ""
+msgstr "Eyecatcher zentrieren"
 
 #: lib/page-settings/image-forms.php:75
 msgid "投稿・固定ページに表示されるアイキャッチをカラムの中央に表示します。"
-msgstr ""
+msgstr "Eyecatcher in Beiträgen und Seiten in der Mitte der Spalte anzeigen."
 
 #: lib/page-settings/image-forms.php:77
 msgid "アイキャッチをカラム幅に引き伸ばす"
-msgstr ""
+msgstr "Eyecatcher auf Spaltenbreite strecken"
 
 #: lib/page-settings/image-forms.php:78
 msgid "アイキャッチ画像に小さな画像を使っていても、強制的にカラム幅に拡大して表示します。"
-msgstr ""
+msgstr "Auch wenn ein kleines Bild als Eyecatcher verwendet wird, wird es zwangsweise auf Spaltenbreite vergrößert angezeigt."
 
 #: lib/page-settings/image-forms.php:80
 msgid "アイキャッチにキャプションがある場合は表示する"
-msgstr ""
+msgstr "Untertitel für Eyecatcher anzeigen"
 
 #: lib/page-settings/image-forms.php:81
 msgid "アイキャッチ画像にキャプションが設定してある場合、表示するかどうか。"
-msgstr ""
+msgstr "Wenn eine Bildunterschrift für ein Eyecatcher-Bild festgelegt wurde, möchten Sie diese anzeigen?"
 
 #: lib/page-settings/image-forms.php:90
 msgid "アイキャッチの自動設定"
-msgstr ""
+msgstr "Automatische Einstellung des Eyecatchers"
 
 #: lib/page-settings/image-forms.php:95
 msgid "アイキャッチ自動設定を有効にする"
-msgstr ""
+msgstr "Automatische Einstellung des Eyecatchers aktivieren"
 
 #: lib/page-settings/image-forms.php:96
 msgid "記事を保存したり公開したりするときに、本文中に最初に出てくる画像をアイキャッチにします。※プレビューには反映されません。"
-msgstr ""
+msgstr "Beim Speichern oder Veröffentlichen eines Artikels wird das erste Bild im Text als Eyecatcher festgelegt. *Wird nicht in der Vorschau angezeigt."
 
 #: lib/page-settings/image-forms.php:104
 msgid "画像の囲み効果"
-msgstr ""
+msgstr "Bildrahmeneffekt"
 
 #: lib/page-settings/image-forms.php:110
 msgid "ボーダー（薄い枠線）"
-msgstr ""
+msgstr "Rahmen (dünne Linie)"
 
 #: lib/page-settings/image-forms.php:111
 msgid "ボーダー（薄い太線）"
-msgstr ""
+msgstr "Rahmen (dicke Linie)"
 
 #: lib/page-settings/image-forms.php:112
 msgid "シャドー（薄い影）"
-msgstr ""
+msgstr "Schatten (leichter Schatten)"
 
 #: lib/page-settings/image-forms.php:113
 msgid "シャドー（ペーパー）"
-msgstr ""
+msgstr "Schatten (Papier)"
 
 #: lib/page-settings/image-forms.php:116
 msgid "画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
-msgstr ""
+msgstr "Stellen Sie den Rahmen eines Bildes ein. Wenn aktiviert, sind auch weiße Bilder leichter als solche zu erkennen."
 
 #: lib/page-settings/image-forms.php:130
 msgid "Spotlight（軽量・高機能ギャラリー）"
-msgstr ""
+msgstr "Spotlight (leichte, leistungsstarke Galerie)"
 
 #: lib/page-settings/image-forms.php:131
 msgid "baguetteBox（軽量・スマホ向け）"
-msgstr ""
+msgstr "baguetteBox (leicht, für Smartphones)"
 
 #: lib/page-settings/image-forms.php:132
 msgid "Lity（軽量・1枚ずつ表示）"
-msgstr ""
+msgstr "Lity (leicht, Einzeldarstellung)"
 
 #: lib/page-settings/image-forms.php:133
 msgid "Lightbox"
@@ -7340,95 +7340,95 @@ msgstr "Lightbox"
 
 #: lib/page-settings/image-forms.php:150
 msgid "全体画像設定"
-msgstr ""
+msgstr "Allgemeine Bildeinstellungen"
 
 #: lib/page-settings/image-forms.php:153
 msgid "全てのページで共通して利用する画像の設定です。"
-msgstr ""
+msgstr "Die Einstellungen für Bilder, die auf allen Seiten gemeinsam verwendet werden."
 
 #: lib/page-settings/image-forms.php:160
 msgid "サムネイル画像"
-msgstr ""
+msgstr "Thumbnail-Bild"
 
 #: lib/page-settings/image-forms.php:165
 msgid "テレビ（地デジ）やYouTubeと同じ比率。"
-msgstr ""
+msgstr "Das gleiche Seitenverhältnis wie bei Fernsehen (terrestrisches Digital) und YouTube."
 
 #: lib/page-settings/image-forms.php:166
 msgid "9:16, 1:1.777..（地デジ・YouTube比）デフォルト"
-msgstr ""
+msgstr "9:16, 1:1.777... (terrestrisches Digital, YouTube-Verhältnis) (Standard)"
 
 #: lib/page-settings/image-forms.php:168
 msgid "人間が最も美しいと感じる比率とされています。"
-msgstr ""
+msgstr "Es wird als das Seitenverhältnis angesehen, das für den Menschen am schönsten ist."
 
 #: lib/page-settings/image-forms.php:169
 msgid "約5:8, 1:1.618..（黄金比）"
-msgstr ""
+msgstr "Ca. 5:8, 1:1.618... (Goldener Schnitt)"
 
 #: lib/page-settings/image-forms.php:171
 msgid "一眼レフのアスペクト比。ハガキの縦横比に近いです。"
-msgstr ""
+msgstr "Das Seitenverhältnis einer Spiegelreflexkamera. Es ist dem Seitenverhältnis einer Postkarte ähnlich."
 
 #: lib/page-settings/image-forms.php:172
 msgid "2:3, 1:1.5（一眼レフ比）"
-msgstr ""
+msgstr "2:3, 1:1.5 (Spiegelreflexkamera-Verhältnis)"
 
 #: lib/page-settings/image-forms.php:174
 msgid "日本の木造建築に古くから使われている比率。大和比とも呼ばれています。"
-msgstr ""
+msgstr "Das Seitenverhältnis, das in der japanischen Holzarchitektur seit langem verwendet wird. Es wird auch Yamato-Verhältnis genannt."
 
 #: lib/page-settings/image-forms.php:175
 msgid "約5:7, 1:1.414..（白銀比）"
-msgstr ""
+msgstr "Ca. 5:7, 1:1.414... (Silberverhältnis)"
 
 #: lib/page-settings/image-forms.php:177
 msgid "アナログテレビやデジタルカメラ、PowerPointのスライドと同じ比率。"
-msgstr ""
+msgstr "Das gleiche Seitenverhältnis wie bei Analogfernsehen, Digitalkameras und PowerPoint-Folien."
 
 #: lib/page-settings/image-forms.php:178
 msgid "3:4, 1:1.333..（アナログテレビ・デジカメ比）"
-msgstr ""
+msgstr "3:4, 1:1.333... (Analogfernsehen/Digitalkamera-Verhältnis)"
 
 #: lib/page-settings/image-forms.php:180
 msgid "単なる正方形。"
-msgstr ""
+msgstr "Einfaches Quadrat."
 
 #: lib/page-settings/image-forms.php:181
 msgid "1:1（正方形）"
-msgstr ""
+msgstr "1:1 (Quadrat)"
 
 #: lib/page-settings/image-forms.php:184
 msgid "インデックス等で使われるサムネイル画像の縦横比率を変更します。※「インデックスカードタイプ」の「大きなカード」と「タイルカード」には適用されません。"
-msgstr ""
+msgstr "Ändern Sie das Seitenverhältnis der Thumbnails, die im Index usw. verwendet werden. *Dies gilt nicht für „Große Karte“ und „Kachelkarte“ im „Indexkartentyp“."
 
 #: lib/page-settings/image-forms.php:193
 msgid "Retinaディスプレイ"
-msgstr ""
+msgstr "Retina-Display"
 
 #: lib/page-settings/image-forms.php:197
 msgid "サムネイルをRetinaディスプレイ対応にする"
-msgstr ""
+msgstr "Thumbnails für Retina-Displays kompatibel machen"
 
 #: lib/page-settings/image-forms.php:198
 msgid "サムネイルをRetinaディスプレイ対応端末で見ても綺麗に表示されるようにします。※「インデックスカードタイプ」の「大きなカード」には適用されません。"
-msgstr ""
+msgstr "Thumbnails werden auch auf Retina-Display-kompatiblen Geräten schön angezeigt. *Dies gilt nicht für „Große Karte“ im „Indexkartentyp“."
 
 #: lib/page-settings/image-forms.php:207
 msgid "これらの設定で変更されるサムネイル部分はこちら。"
-msgstr ""
+msgstr "Hier ist der Thumbnail-Bereich, der durch diese Einstellungen geändert wird."
 
 #: lib/page-settings/image-forms.php:209
 msgid "インデックス、アーカイブ、検索結果ページのエントリーカードのサムネイル。"
-msgstr ""
+msgstr "Das Thumbnail der Eintragskarte für Index-, Archiv- und Suchergebnisseiten."
 
 #: lib/page-settings/image-forms.php:209
 msgid "インデックスカード"
-msgstr ""
+msgstr "Indexkarte"
 
 #: lib/page-settings/image-forms.php:210
 msgid "新着記事ウィジェットのサムネイル。"
-msgstr ""
+msgstr "Das Thumbnail eines neuen Artikel-Widgets."
 
 #: lib/page-settings/image-forms.php:210
 #: lib/widgets/new-entries.php:19
@@ -7437,408 +7437,408 @@ msgstr ""
 #: tmp/list-tab-index.php:26
 #: blocks/src/block/new-list/index.js:28
 msgid "新着記事"
-msgstr ""
+msgstr "Neue Artikel"
 
 #: lib/page-settings/image-forms.php:211
 msgid "人気記事ウィジェットのサムネイル。"
-msgstr ""
+msgstr "Das Thumbnail des beliebten Artikel-Widgets."
 
 #: lib/page-settings/image-forms.php:212
 msgid "関連記事のエントリーカードのサムネイル。"
-msgstr ""
+msgstr "Das Thumbnail der Eintragskarte für verwandte Artikel."
 
 #: lib/page-settings/image-forms.php:213
 msgid "カルーセルカードのサムネイル。"
-msgstr ""
+msgstr "Das Thumbnail der Karussellkarte."
 
 #: lib/page-settings/image-forms.php:213
 #: lib/page-settings/_top-page.php:236
 msgid "カルーセル"
-msgstr ""
+msgstr "Karussell"
 
 #: lib/page-settings/image-forms.php:214
 msgid "ページ送りナビのサムネイル。※デフォルトのみ）"
-msgstr ""
+msgstr "Das Thumbnail der Seitennavigationsanzeige. (nur Standard)"
 
 #: lib/page-settings/image-forms.php:214
 msgid "ページ送りナビ"
-msgstr ""
+msgstr "Seitennavigation"
 
 #: lib/page-settings/image-forms.php:215
 msgid "内部ブログカード、外部ブログカードのサムネイル。"
-msgstr ""
+msgstr "Das Thumbnail der internen und externen Blogkarten."
 
 #: lib/page-settings/image-forms.php:223
 msgid "NO IMAGE設定"
-msgstr ""
+msgstr "NO IMAGE-Einstellungen"
 
 #: lib/page-settings/image-forms.php:226
 msgid "アイキャッチの存在しない投稿のサムネイル画像設定です。"
-msgstr ""
+msgstr "Die Thumbnail-Bildeinstellungen für Beiträge ohne Eyecatcher."
 
 #: lib/page-settings/image-forms.php:234
 msgid "NO IMAGE画像"
-msgstr ""
+msgstr "NO IMAGE-Bild"
 
 #: lib/page-settings/image-forms.php:239
 msgid "アイキャッチが存在しない投稿・固定ページのサムネイルに利用される画像ファイルを指定してください。"
-msgstr ""
+msgstr "Geben Sie eine Bilddatei an, die im Thumbnail von Beiträgen/Seiten angezeigt wird, die keinen Eyecatcher haben."
 
 #: lib/page-settings/index-forms.php:13
 msgid "リスト設定"
-msgstr ""
+msgstr "Listeneinstellungen"
 
 #: lib/page-settings/index-forms.php:16
 msgid "リスト表示の設定です。"
-msgstr ""
+msgstr "Die Einstellungen für die Listenanzeige."
 
 #: lib/page-settings/index-forms.php:35
 msgid "※タイル表示はうまくプレビューできないかも。今のところ原因不明。"
-msgstr ""
+msgstr "*Die Kachelansicht kann möglicherweise nicht gut in der Vorschau angezeigt werden. Die Ursache ist derzeit unbekannt."
 
 #: lib/page-settings/index-forms.php:44
 msgid "フロントページタイプ"
-msgstr ""
+msgstr "Frontpagetyp"
 
 #: lib/page-settings/index-forms.php:48
 msgid "表示形式"
-msgstr ""
+msgstr "Anzeigeformat"
 
 #: lib/page-settings/index-forms.php:50
 msgid "一覧"
-msgstr ""
+msgstr "Listenansicht"
 
 #: lib/page-settings/index-forms.php:51
 msgid "タブ一覧"
-msgstr ""
+msgstr "Tabellenansicht"
 
 #: lib/page-settings/index-forms.php:52
 #: lib/page-settings/index-forms.php:53
 #: lib/page-settings/index-forms.php:54
 msgid "カテゴリーごと"
-msgstr ""
+msgstr "Nach Kategorien"
 
 #: lib/page-settings/index-forms.php:53
 msgid "（2カラム）"
-msgstr ""
+msgstr "(2 Spalten)"
 
 #: lib/page-settings/index-forms.php:54
 msgid "（3カラム）"
-msgstr ""
+msgstr "(3 Spalten)"
 
 #: lib/page-settings/index-forms.php:54
 msgid "※サイドバーを表示しないレイアウト向け。"
-msgstr ""
+msgstr "*Für Layouts, die keine Seitenleiste anzeigen."
 
 #: lib/page-settings/index-forms.php:54
 msgid "表示数は3の倍数推奨。"
-msgstr ""
+msgstr "Die Anzahl der Anzeigen wird als Vielfaches von 3 empfohlen."
 
 #: lib/page-settings/index-forms.php:57
 msgid "フロントページの表示形式を選択します。"
-msgstr ""
+msgstr "Wählen Sie das Anzeigeformat der Startseite."
 
 #: lib/page-settings/index-forms.php:60
 #: lib/widgets/info-list.php:160
 msgid "表示カテゴリー"
-msgstr ""
+msgstr "Kategorien"
 
 #: lib/page-settings/index-forms.php:62
 msgid "通常の記事インデックスの他に、カテゴリーの記事をタブ化して表示します。"
-msgstr ""
+msgstr "Zusätzlich zum normalen Artikelindex werden die Artikel in der Kategorie in Tabs angezeigt."
 
 #: lib/page-settings/index-forms.php:62
 msgid "「タブ一覧」の際は、3つまで有効。4つ目以降は無視されます。"
-msgstr ""
+msgstr "Bis zu 3 Tabs sind für „Tabellenansicht“ gültig. Der vierte und spätere wird ignoriert."
 
 #: lib/page-settings/index-forms.php:67
 msgid "カテゴリー順の変更"
-msgstr ""
+msgstr "Ändern der Kategorie-Reihenfolge"
 
 #: lib/page-settings/index-forms.php:69
 msgid "カテゴリーIDのカンマテキストを入力"
-msgstr ""
+msgstr "Geben Sie den Kommatext für die Kategorie-ID ein"
 
 #: lib/page-settings/index-forms.php:70
 msgid "意図通りの順番でカテゴリーを表示する場合は、カテゴリーIDをカンマ区切りで入力してください。"
-msgstr ""
+msgstr "Wenn Sie möchten, dass die Kategorien in der beabsichtigten Reihenfolge angezeigt werden, geben Sie die Kategorie-IDs durch Kommas getrennt ein."
 
 #: lib/page-settings/index-forms.php:70
 msgid "こちらの入力がある場合は、チェックボックスのものよりこちらの設定が優先されます。"
-msgstr ""
+msgstr "Wenn diese Eingabe vorhanden ist, hat diese Einstellung Vorrang vor der im Kontrollkästchen."
 
 #: lib/page-settings/index-forms.php:72
 msgid "カテゴリー表示の順番を並び替える場合はこちら"
-msgstr ""
+msgstr "Klicken Sie hier, um die Reihenfolge der Kategorieanzeige neu zu ordnen"
 
 #: lib/page-settings/index-forms.php:79
 msgid "1個"
-msgstr ""
+msgstr "1"
 
 #: lib/page-settings/index-forms.php:80
 msgid "2個"
-msgstr ""
+msgstr "2"
 
 #: lib/page-settings/index-forms.php:81
 msgid "3個"
-msgstr ""
+msgstr "3"
 
 #: lib/page-settings/index-forms.php:82
 msgid "4個"
-msgstr ""
+msgstr "4"
 
 #: lib/page-settings/index-forms.php:83
 msgid "5個"
-msgstr ""
+msgstr "5"
 
 #: lib/page-settings/index-forms.php:84
 msgid "6個"
-msgstr ""
+msgstr "6"
 
 #: lib/page-settings/index-forms.php:85
 msgid "7個"
-msgstr ""
+msgstr "7"
 
 #: lib/page-settings/index-forms.php:86
 msgid "8個"
-msgstr ""
+msgstr "8"
 
 #: lib/page-settings/index-forms.php:87
 msgid "9個"
-msgstr ""
+msgstr "9"
 
 #: lib/page-settings/index-forms.php:88
 msgid "10個"
-msgstr ""
+msgstr "10"
 
 #: lib/page-settings/index-forms.php:89
 msgid "11個"
-msgstr ""
+msgstr "11"
 
 #: lib/page-settings/index-forms.php:90
 msgid "12個"
-msgstr ""
+msgstr "12"
 
 #: lib/page-settings/index-forms.php:97
 msgid "新着エントリーカード表示数"
-msgstr ""
+msgstr "Anzahl der neuen Eintragskarten, die angezeigt werden"
 
 #: lib/page-settings/index-forms.php:100
 msgid "フロントページタイプを「カテゴリーごと」にした際に表示される新着エントリーカード数を設定します。"
-msgstr ""
+msgstr "Legen Sie die Anzahl der neuen Eintragskarten fest, die angezeigt werden, wenn der Frontpagetyp auf „Nach Kategorie“ eingestellt ist."
 
 #: lib/page-settings/index-forms.php:103
 msgid "カテゴリーエントリーカード表示数"
-msgstr ""
+msgstr "Anzahl der Kategorie-Eintragskarten, die angezeigt werden"
 
 #: lib/page-settings/index-forms.php:106
 msgid "フロントページのインデックスでカテゴリーごとに表示するエントリーカード数を設定します。"
-msgstr ""
+msgstr "Legen Sie die Anzahl der Eintragskarten fest, die für jede Kategorie im Index auf der Startseite angezeigt werden."
 
 #: lib/page-settings/index-forms.php:108
 msgid "「カテゴリーごと」表示でカード表示数を変更する場合はこちら"
-msgstr ""
+msgstr "Klicken Sie hier, um die Anzahl der angezeigten Karten in der Kategorieansicht zu ändern."
 
 #: lib/page-settings/index-forms.php:116
 msgid "並び順"
-msgstr ""
+msgstr "Sortierreihenfolge"
 
 #: lib/page-settings/index-forms.php:126
 msgid "一覧リストを表示する順番を設定します。"
-msgstr ""
+msgstr "Legen Sie die Reihenfolge fest, in der die Listenansicht angezeigt wird."
 
 #: lib/page-settings/index-forms.php:134
 msgid "カードタイプ"
-msgstr ""
+msgstr "Kartentyp"
 
 #: lib/page-settings/index-forms.php:139
 #: lib/page-settings/single-forms.php:161
 msgid "エントリーカード（デフォルト）"
-msgstr ""
+msgstr "Eintragskarte (Standard)"
 
 #: lib/page-settings/index-forms.php:140
 msgid "大きなカード（先頭のみ）"
-msgstr ""
+msgstr "Große Karte (nur oben)"
 
 #: lib/page-settings/index-forms.php:141
 msgid "大きなカード"
-msgstr ""
+msgstr "Große Karte"
 
 #: lib/page-settings/index-forms.php:142
 msgid "縦型カード2列"
-msgstr ""
+msgstr "Vertikale Karte, 2 Spalten"
 
 #: lib/page-settings/index-forms.php:143
 msgid "縦型カード3列"
-msgstr ""
+msgstr "Vertikale Karte, 3 Spalten"
 
 #: lib/page-settings/index-forms.php:144
 msgid "タイルカード2列"
-msgstr ""
+msgstr "Kachelkarte, 2 Spalten"
 
 #: lib/page-settings/index-forms.php:145
 msgid "タイルカード3列"
-msgstr ""
+msgstr "Kachelkarte, 3 Spalten"
 
 #: lib/page-settings/index-forms.php:148
 msgid "一覧リストのカード表示を変更します。カード表示数を変更するには、「設定 → 表示設定 → 1ページに表示する最大投稿数」から変更してください。"
-msgstr ""
+msgstr "Ändern Sie die Kartendarstellung der Listenansicht. Um die Anzahl der Karten anzuzeigen, ändern Sie diese unter „Einstellungen -> Lesen -> Blogseiten zeigen maximal“."
 
 #: lib/page-settings/index-forms.php:149
 msgid "縦型カード・タイルカードに設定した場合はサムネイルの再生成を行ってください。"
-msgstr ""
+msgstr "Wenn eine vertikale Karte oder eine Kachelkarte eingestellt ist, regenerieren Sie das Thumbnail."
 
 #: lib/page-settings/index-forms.php:153
 msgid "スマホ端末で縦型＆タイル型のエントリーカードを1カラムにする"
-msgstr ""
+msgstr "Vertikale und kachelartige Eintragskarten auf Smartphone-Geräten in einer Spalte anzeigen"
 
 #: lib/page-settings/index-forms.php:154
 msgid "スマホ（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
-msgstr ""
+msgstr "Wenn der Kartentyp „Vertikale Karte“ oder „Kachelkarte“ ist, wird er auf Smartphones (bis zu 480 px) in einer Spalte angezeigt. *Der Standardwert ist 2 Spalten."
 
 #: lib/page-settings/index-forms.php:169
 #: lib/page-settings/single-forms.php:219
 msgid "投稿エントリーカードの枠となる罫線を表示するか。"
-msgstr ""
+msgstr "Möchten Sie die Begrenzungslinien für den Rahmen der Eintragskarte anzeigen?"
 
 #: lib/page-settings/index-forms.php:177
 msgid "自動生成抜粋文字数"
-msgstr ""
+msgstr "Anzahl der Zeichen für automatisch generierte Auszüge"
 
 #: lib/page-settings/index-forms.php:182
 msgid "「エントリーカード」で、「本文から自動生成される抜粋文」を表示する場合の最大文字数を設定します。※投稿編集画面の抜粋文ではありません。（最小：0、最大：500）"
-msgstr ""
+msgstr "Legt die maximale Anzahl von Zeichen fest, die beim Anzeigen des „Automatisch aus dem Text generierten Auszugs“ auf „Eintragskarten“ angezeigt werden. *Dies ist nicht der Auszugstext des Beitrag-Editorbildschirms. (Minimum: 0, Maximum: 500)"
 
 #: lib/page-settings/index-forms.php:190
 msgid "省略文字列"
-msgstr ""
+msgstr "Abkürzungszeichen"
 
 #: lib/page-settings/index-forms.php:194
 #: lib/page-settings/index-funcs.php:204
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: lib/page-settings/index-forms.php:195
 msgid "「自動生成抜粋文字数」を自動抜粋文が超えたときに表示する省略を表す文字を入力してください。"
-msgstr ""
+msgstr "Geben Sie die Zeichen ein, die eine Abkürzung darstellen, wenn die automatisch generierten Auszüge die maximale Zeichenanzahl überschreiten."
 
 #: lib/page-settings/index-forms.php:204
 #: lib/page-settings/single-forms.php:241
 msgid "投稿関連情報の表示"
-msgstr ""
+msgstr "Post-bezogene Informationen anzeigen"
 
 #: lib/page-settings/index-forms.php:208
 #: lib/page-settings/single-forms.php:245
 msgid "スニペット（抜粋）の表示"
-msgstr ""
+msgstr "Snippets (Auszüge) anzeigen"
 
 #: lib/page-settings/index-forms.php:212
 #: lib/page-settings/single-forms.php:249
 msgid "スマホ端末でスニペットを表示（480px以下）"
-msgstr ""
+msgstr "Snippets auf Smartphone-Geräten anzeigen (bis zu 480 px)"
 
 #: lib/page-settings/index-forms.php:231
 msgid "コメント数の表示"
-msgstr ""
+msgstr "Kommentaranzahl anzeigen"
 
 #: lib/page-settings/index-forms.php:233
 msgid "インデックスページのエントリーカードに投稿関連情報を表示するかどうか。"
-msgstr ""
+msgstr "Anzeigen von Post-bezogenen Informationen auf den Eintragskarten der Indexseite."
 
 #: lib/page-settings/index-forms.php:246
 msgid "アーカイブ（インデックスリスト・新着関連記事ウィジェット等）に表示させたくないカテゴリーを選択してください。"
-msgstr ""
+msgstr "Wählen Sie die Kategorie, die Sie nicht im Archiv (Indexliste, Widget für neue verwandte Artikel usw.) anzeigen möchten."
 
 #: lib/page-settings/mobile-buttons-forms.php:13
 #: skins/skin-grayish-topfull/functions.php:1692
 msgid "モバイル設定"
-msgstr ""
+msgstr "Mobile Einstellungen"
 
 #: lib/page-settings/mobile-buttons-forms.php:16
 msgid "モバイル環境で表示するレイアウトの設定です。"
-msgstr ""
+msgstr "Die Layout-Einstellungen für die Anzeige in einer mobilen Umgebung."
 
 #: lib/page-settings/mobile-buttons-forms.php:27
 msgid "モバイルメニュー"
-msgstr ""
+msgstr "Mobiles Menü"
 
 #: lib/page-settings/mobile-buttons-forms.php:32
 msgid "ボタンを表示しない（ミドルメニューのみ）"
-msgstr ""
+msgstr "Button nicht anzeigen (nur Mittleres Menü)"
 
 #: lib/page-settings/mobile-buttons-forms.php:34
 #: lib/settings.php:304
 msgid "ヘッダーモバイルボタン"
-msgstr ""
+msgstr "Mobiler Header-Button"
 
 #: lib/page-settings/mobile-buttons-forms.php:35
 #: lib/settings.php:306
 msgid "フッターモバイルボタン"
-msgstr ""
+msgstr "Mobiler Footer-Button"
 
 #: lib/page-settings/mobile-buttons-forms.php:36
 msgid "ヘッダー・フッターモバイルボタン"
-msgstr ""
+msgstr "Mobiler Header- und Footer-Button"
 
 #: lib/page-settings/mobile-buttons-forms.php:41
 msgid "モバイルメニュー等を表示するための設定を行います。1024px未満で表示されます。"
-msgstr ""
+msgstr "Einstellungen zum Anzeigen von mobilen Menüs usw. Diese werden unter 1024 px angezeigt."
 
 #: lib/page-settings/mobile-buttons-forms.php:52
 msgid "モバイルボタン"
-msgstr ""
+msgstr "Mobiler Button"
 
 #: lib/page-settings/mobile-buttons-forms.php:57
 msgid "モバイルボタンの固定表示"
-msgstr ""
+msgstr "Fixierte Anzeige des mobilen Buttons"
 
 #: lib/page-settings/mobile-buttons-forms.php:58
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときボタンを固定表示するか。無効の場合はスクロールするとモバイルボタンが隠れます。"
-msgstr ""
+msgstr "Möchten Sie die Schaltfläche fixiert anzeigen, wenn „Mobiler Button“ im „Mobilen Menü“ ausgewählt ist? Wenn deaktiviert, wird der mobile Button ausgeblendet, wenn Sie scrollen."
 
 #: lib/page-settings/mobile-buttons-forms.php:60
 msgid "常にサイトヘッダーロゴを表示する"
-msgstr ""
+msgstr "Website-Header-Logo immer anzeigen"
 
 #: lib/page-settings/mobile-buttons-forms.php:61
 msgid "モバイルで「ヘッダーモバイルボタン」が表示されているとき、ヘッダーのロゴを表示するか。"
-msgstr ""
+msgstr "Soll das Header-Logo angezeigt werden, wenn der „Mobiler Header-Button“ auf einem mobilen Gerät angezeigt wird?"
 
 #: lib/page-settings/mobile-buttons-forms.php:63
 msgid "モバイルボタン時コンテンツ下のサイドバーを表示"
-msgstr ""
+msgstr "Seitenleiste unter dem Inhalt anzeigen, wenn der mobile Button verwendet wird."
 
 #: lib/page-settings/mobile-buttons-forms.php:64
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときメインカラム下に表示されるサイドバーを表示するかどうか。"
-msgstr ""
+msgstr "Möchten Sie die Seitenleiste anzeigen, die unter der Hauptspalte angezeigt wird, wenn „Mobiler Button“ im „Mobilen Menü“ ausgewählt ist?"
 
 #: lib/page-settings/navi-forms.php:12
 msgid "グローバルナビメニュー色"
-msgstr ""
+msgstr "Globales Navigationsmenü Farbe"
 
 #: lib/page-settings/navi-forms.php:17
 msgid "グローバルナビ背景色"
-msgstr ""
+msgstr "Hintergrundfarbe der globalen Navigation"
 
 #: lib/page-settings/navi-forms.php:18
 msgid "グローバルナビ全体の背景色を選択します。"
-msgstr ""
+msgstr "Wählen Sie die Hintergrundfarbe für die gesamte globale Navigation aus."
 
 #: lib/page-settings/navi-forms.php:20
 msgid "グローバルナビ文字色"
-msgstr ""
+msgstr "Schriftfarbe der globalen Navigation"
 
 #: lib/page-settings/navi-forms.php:21
 msgid "グローバルナビ全体のテキスト色を選択します。"
-msgstr ""
+msgstr "Wählen Sie die Schriftfarbe für die gesamte globale Navigation aus."
 
 #: lib/page-settings/navi-forms.php:30
 msgid "グローバルナビメニュー幅"
-msgstr ""
+msgstr "Breite des globalen Navigationsmenüs"
 
 #: lib/page-settings/navi-forms.php:34
 msgid "トップメニュー幅"
-msgstr ""
+msgstr "Breite des oberen Menüs"
 
 #: lib/page-settings/navi-forms.php:37
 msgid "グローバルナビのメニュー幅をpx数で指定します。未記入でデフォルト幅になります。"
@@ -14485,7 +14485,7 @@ msgstr "Tab-Inhalt"
 
 #: blocks/src/block/tab/edit.js:159
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: blocks/src/block/tab/edit.js:258
 msgid "タブ設定"
@@ -14725,183 +14725,183 @@ msgstr "fab-search"
 
 #: blocks/src/helpers.js:386
 msgid "fab-file-text"
-msgstr ""
+msgstr "fab-file-text"
 
 #: blocks/src/helpers.js:390
 msgid "fab-folder"
-msgstr ""
+msgstr "fab-folder"
 
 #: blocks/src/helpers.js:394
 msgid "fab-tag"
-msgstr ""
+msgstr "fab-tag"
 
 #: blocks/src/helpers.js:398
 msgid "fab-car"
-msgstr ""
+msgstr "fab-car"
 
 #: blocks/src/helpers.js:402
 msgid "fab-truck"
-msgstr ""
+msgstr "fab-truck"
 
 #: blocks/src/helpers.js:406
 msgid "fab-bicycle"
-msgstr ""
+msgstr "fab-bicycle"
 
 #: blocks/src/helpers.js:410
 msgid "fab-motorcycle"
-msgstr ""
+msgstr "fab-motorcycle"
 
 #: blocks/src/helpers.js:414
 msgid "fab-bus"
-msgstr ""
+msgstr "fab-bus"
 
 #: blocks/src/helpers.js:418
 msgid "fab-plane"
-msgstr ""
+msgstr "fab-plane"
 
 #: blocks/src/helpers.js:422
 msgid "fab-train"
-msgstr ""
+msgstr "fab-train"
 
 #: blocks/src/helpers.js:426
 msgid "fab-subway"
-msgstr ""
+msgstr "fab-subway"
 
 #: blocks/src/helpers.js:430
 msgid "fab-taxi"
-msgstr ""
+msgstr "fab-taxi"
 
 #: blocks/src/helpers.js:434
 msgid "fab-ship"
-msgstr ""
+msgstr "fab-ship"
 
 #: blocks/src/helpers.js:438
 msgid "fab-jpy"
-msgstr ""
+msgstr "fab-jpy"
 
 #: blocks/src/helpers.js:442
 msgid "fab-usd"
-msgstr ""
+msgstr "fab-usd"
 
 #: blocks/src/helpers.js:446
 msgid "fab-eur"
-msgstr ""
+msgstr "fab-eur"
 
 #: blocks/src/helpers.js:450
 msgid "fab-btc"
-msgstr ""
+msgstr "fab-btc"
 
 #: blocks/src/helpers.js:454
 msgid "fab-apple"
-msgstr ""
+msgstr "fab-apple"
 
 #: blocks/src/helpers.js:458
 msgid "fab-android"
-msgstr ""
+msgstr "fab-android"
 
 #: blocks/src/helpers.js:462
 msgid "fab-wordpress"
-msgstr ""
+msgstr "fab-wordpress"
 
 #: blocks/src/helpers.js:469
 msgid "fab-caret-right"
-msgstr ""
+msgstr "fab-caret-right"
 
 #: blocks/src/helpers.js:477
 msgid "fab-check-circle"
-msgstr ""
+msgstr "fab-check-circle"
 
 #: blocks/src/helpers.js:481
 msgid "fab-check-circle-o"
-msgstr ""
+msgstr "fab-check-circle-o"
 
 #: blocks/src/helpers.js:485
 msgid "fab-check-square"
-msgstr ""
+msgstr "fab-check-square"
 
 #: blocks/src/helpers.js:489
 msgid "fab-check-square-o"
-msgstr ""
+msgstr "fab-check-square-o"
 
 #: blocks/src/helpers.js:493
 msgid "fab-caret-square-o-right"
-msgstr ""
+msgstr "fab-caret-square-o-right"
 
 #: blocks/src/helpers.js:497
 msgid "fab-arrow-right"
-msgstr ""
+msgstr "fab-arrow-right"
 
 #: blocks/src/helpers.js:501
 msgid "fab-angle-right"
-msgstr ""
+msgstr "fab-angle-right"
 
 #: blocks/src/helpers.js:505
 msgid "fab-angle-double-right"
-msgstr ""
+msgstr "fab-angle-double-right"
 
 #: blocks/src/helpers.js:509
 msgid "fab-arrow-circle-right"
-msgstr ""
+msgstr "fab-arrow-circle-right"
 
 #: blocks/src/helpers.js:513
 msgid "fab-arrow-circle-o-right"
-msgstr ""
+msgstr "fab-arrow-circle-o-right"
 
 #: blocks/src/helpers.js:517
 msgid "fab-play-circle"
-msgstr ""
+msgstr "fab-play-circle"
 
 #: blocks/src/helpers.js:521
 msgid "fab-play-circle-o"
-msgstr ""
+msgstr "fab-play-circle-o"
 
 #: blocks/src/helpers.js:525
 msgid "fab-chevron-right"
-msgstr ""
+msgstr "fab-chevron-right"
 
 #: blocks/src/helpers.js:529
 msgid "fab-chevron-circle-right"
-msgstr ""
+msgstr "fab-chevron-circle-right"
 
 #: blocks/src/helpers.js:533
 msgid "fab-hand-o-right"
-msgstr ""
+msgstr "fab-hand-o-right"
 
 #: blocks/src/helpers.js:541
 msgid "fab-star-o"
-msgstr ""
+msgstr "fab-star-o"
 
 #: blocks/src/helpers.js:549
 msgid "fab-heart-o"
-msgstr ""
+msgstr "fab-heart-o"
 
 #: blocks/src/helpers.js:553
 msgid "fab-square"
-msgstr ""
+msgstr "fab-square"
 
 #: blocks/src/helpers.js:557
 msgid "fab-square-o"
-msgstr ""
+msgstr "fab-square-o"
 
 #: blocks/src/helpers.js:561
 msgid "fab-circle"
-msgstr ""
+msgstr "fab-circle"
 
 #: blocks/src/helpers.js:565
 msgid "fab-circle-o"
-msgstr ""
+msgstr "fab-circle-o"
 
 #: blocks/src/helpers.js:569
 msgid "fab-dot-circle-o"
-msgstr ""
+msgstr "fab-dot-circle-o"
 
 #: blocks/src/helpers.js:573
 msgid "fab-plus"
-msgstr ""
+msgstr "fab-plus"
 
 #: blocks/src/helpers.js:577
 msgid "fab-plus-circle"
-msgstr ""
+msgstr "fab-plus-circle"
 
 #: blocks/src/helpers.js:581
 msgid "fab-plus-square"
