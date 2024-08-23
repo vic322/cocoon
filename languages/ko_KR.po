@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-22T10:33:51+00:00\n"
-"PO-Revision-Date: 2024-08-23 03:45\n"
+"PO-Revision-Date: 2024-08-23 04:43\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12216,11 +12216,11 @@ msgstr "4. 헤더 부분은 위에서, 메인은 왼쪽에서, 사이드는 오�
 
 #: skins/raku-add-fadein/functions.php:282
 msgid "ふわっとのタイプを選択してください。"
-msgstr ""
+msgstr "\"부드러운\" 타입을 선택해 주세요."
 
 #: skins/raku-add-fadein/functions.php:282
 msgid "（詳しくは実際にご確認ください）"
-msgstr ""
+msgstr "(자세한 것은 실제로 확인해 주세요)"
 
 #: skins/raku-add-fadein/functions.php:291
 msgid "表示スキン（ベース）"
