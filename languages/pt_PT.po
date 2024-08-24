@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-24T04:32:47+00:00\n"
-"PO-Revision-Date: 2024-08-24 07:45\n"
+"PO-Revision-Date: 2024-08-24 08:47\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4201,7 +4201,7 @@ msgstr "Posição de exibição na página do índice"
 #: lib/page-settings/ads-forms.php:128
 #: tmp/mobile-top-button.php:26
 msgid "トップ"
-msgstr ""
+msgstr "Topo"
 
 #: lib/page-settings/ads-forms.php:136
 msgid "ミドル"
@@ -4870,7 +4870,7 @@ msgstr "Insira o formato de data que o tema usará (padrão: Y.m.d)."
 
 #: lib/page-settings/all-forms.php:330
 msgid "<a href=\"https://ja.wordpress.org/support/article/formatting-date-and-time/\">日付と時刻の書式の解説</a>"
-msgstr "<a href=\"https://wpdocs.osdn.jp/formatting-date-and-time\">Descrição do formato de data e hora</a>"
+msgstr "<a href=\"https://wpdocs.osdn.jp/formatting-date-and-time/\">Descrição do formato de data e hora</a>"
 
 #: lib/page-settings/all-funcs.php:255
 msgid "Y.m.d"
@@ -6973,7 +6973,7 @@ msgstr "Tipo de exibição do rodapé"
 
 #: lib/page-settings/footer-forms.php:54
 msgid "ロゴ＆メニュー＆クレジット"
-msgstr ""
+msgstr "Logos & Menus & Créditos"
 
 #: lib/page-settings/footer-forms.php:55
 msgid "メニュー＆クレジット（左右）"
@@ -12275,7 +12275,7 @@ msgstr "[Opacidade]"
 
 #: skins/raku-color-changing/functions.php:212
 msgid "数字を小さくする程、透明になります。"
-msgstr ""
+msgstr "Quanto menor for o número, mais transparente ele se torna."
 
 #: skins/raku-color-changing/functions.php:213
 msgid "透明にする程、【Cocoon設定 > 全体】の「サイト背景色」や「サイト背景画像」がより透けて見えます。"
@@ -14057,7 +14057,7 @@ msgstr "Cabeçalho CTA"
 
 #: blocks/src/block/cta/edit.js:49
 msgid "ここに訴求メッセージを入力してください。"
-msgstr ""
+msgstr "Insira uma mensagem aqui."
 
 #: blocks/src/block/cta/edit.js:50
 msgid "この記事を読む"
@@ -14425,7 +14425,7 @@ msgstr "Selecione um usuário."
 
 #: blocks/src/block/profile/edit.js:102
 msgid "ユーザー"
-msgstr ""
+msgstr "Usuário"
 
 #: blocks/src/block/profile/index.js:23
 msgid "プロフィールを表示します。"
