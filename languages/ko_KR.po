@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-23T07:23:26+00:00\n"
-"PO-Revision-Date: 2024-08-23 07:35\n"
+"POT-Creation-Date: 2024-08-24T04:32:47+00:00\n"
+"PO-Revision-Date: 2024-08-24 05:39\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1183,7 +1183,7 @@ msgid "あわせて読みたい"
 msgstr "같이 보기"
 
 #: lib/admin-tinymce-qtag.php:1656
-#: lib/shortcodes.php:1075
+#: lib/shortcodes.php:1080
 #: lib/widgets/cta-box.php:34
 #: tmp/css-custom.php:935
 #: tmp/css-custom.php:980
@@ -6311,7 +6311,7 @@ msgstr "댓글 목록 헤딩"
 #: lib/page-settings/comment-forms.php:60
 #: lib/page-settings/comment-forms.php:95
 #: lib/page-settings/single-forms.php:145
-#: lib/shortcodes.php:1071
+#: lib/shortcodes.php:1076
 #: lib/widgets/cta-box.php:108
 #: blocks/src/block-universal/caption-box/deprecated.js:25
 #: blocks/src/block-universal/caption-box/edit.js:20
@@ -12744,6 +12744,13 @@ msgstr "\"Next\"를 다른 텍스트로 변경할 수 있습니다."
 #: skins/skin-grayish-topfull/functions.php:1234
 msgid "※空欄の場合は\"Next\"が表示されます。"
 msgstr "※빈칸일 경우 \"Next\"가 표시됩니다."
+
+#: skins/skin-grayish-topfull/functions.php:1244
+#: skins/skin-grayish-topfull/functions.php:1540
+#: skins/skin-grayish-topfull/functions.php:1541
+#: skins/skin-grayish-topfull/functions.php:1543
+msgid "Home"
+msgstr "Home"
 
 #: skins/skin-grayish-topfull/functions.php:1252
 msgid "【投稿・固定ページ】パンくずリスト \"Home\"を変更"
