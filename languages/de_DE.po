@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-24T04:32:47+00:00\n"
-"PO-Revision-Date: 2024-08-24 05:39\n"
+"PO-Revision-Date: 2024-08-24 08:47\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4870,7 +4870,7 @@ msgstr "Geben Sie das Datumsformat ein, das vom Theme verwendet wird (Standard: 
 
 #: lib/page-settings/all-forms.php:330
 msgid "<a href=\"https://ja.wordpress.org/support/article/formatting-date-and-time/\">日付と時刻の書式の解説</a>"
-msgstr "<a href=\"https://wpdocs.osdn.jp/Formatting_Date_and_Time\">Beschreibung des Datums- und Zeitformats</a>"
+msgstr "<a href=\"https://wpdocs.osdn.jp/formatting-date-and-time/\">Beschreibung des Datums- und Zeitformats</a>"
 
 #: lib/page-settings/all-funcs.php:255
 msgid "Y.m.d"
