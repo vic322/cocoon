@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-24T04:32:47+00:00\n"
-"PO-Revision-Date: 2024-08-24 05:39\n"
+"PO-Revision-Date: 2024-08-24 13:13\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -14775,183 +14775,183 @@ msgstr "fab-taxi"
 
 #: blocks/src/helpers.js:434
 msgid "fab-ship"
-msgstr ""
+msgstr "fab-ship"
 
 #: blocks/src/helpers.js:438
 msgid "fab-jpy"
-msgstr ""
+msgstr "fab-jpy"
 
 #: blocks/src/helpers.js:442
 msgid "fab-usd"
-msgstr ""
+msgstr "fab-usd"
 
 #: blocks/src/helpers.js:446
 msgid "fab-eur"
-msgstr ""
+msgstr "fab-eur"
 
 #: blocks/src/helpers.js:450
 msgid "fab-btc"
-msgstr ""
+msgstr "fab-btc"
 
 #: blocks/src/helpers.js:454
 msgid "fab-apple"
-msgstr ""
+msgstr "fab-apple"
 
 #: blocks/src/helpers.js:458
 msgid "fab-android"
-msgstr ""
+msgstr "fab-android"
 
 #: blocks/src/helpers.js:462
 msgid "fab-wordpress"
-msgstr ""
+msgstr "fab-wordpress"
 
 #: blocks/src/helpers.js:469
 msgid "fab-caret-right"
-msgstr ""
+msgstr "fab-caret-right"
 
 #: blocks/src/helpers.js:477
 msgid "fab-check-circle"
-msgstr ""
+msgstr "fab-check-circle"
 
 #: blocks/src/helpers.js:481
 msgid "fab-check-circle-o"
-msgstr ""
+msgstr "fab-check-circle-o"
 
 #: blocks/src/helpers.js:485
 msgid "fab-check-square"
-msgstr ""
+msgstr "fab-check-square"
 
 #: blocks/src/helpers.js:489
 msgid "fab-check-square-o"
-msgstr ""
+msgstr "fab-check-square-o"
 
 #: blocks/src/helpers.js:493
 msgid "fab-caret-square-o-right"
-msgstr ""
+msgstr "fab-caret-square-o-right"
 
 #: blocks/src/helpers.js:497
 msgid "fab-arrow-right"
-msgstr ""
+msgstr "fab-arrow-right"
 
 #: blocks/src/helpers.js:501
 msgid "fab-angle-right"
-msgstr ""
+msgstr "fab-angle-right"
 
 #: blocks/src/helpers.js:505
 msgid "fab-angle-double-right"
-msgstr ""
+msgstr "fab-angle-double-right"
 
 #: blocks/src/helpers.js:509
 msgid "fab-arrow-circle-right"
-msgstr ""
+msgstr "fab-arrow-circle-right"
 
 #: blocks/src/helpers.js:513
 msgid "fab-arrow-circle-o-right"
-msgstr ""
+msgstr "fab-arrow-circle-o-right"
 
 #: blocks/src/helpers.js:517
 msgid "fab-play-circle"
-msgstr ""
+msgstr "fab-play-circle"
 
 #: blocks/src/helpers.js:521
 msgid "fab-play-circle-o"
-msgstr ""
+msgstr "fab-play-circle-o"
 
 #: blocks/src/helpers.js:525
 msgid "fab-chevron-right"
-msgstr ""
+msgstr "fab-chevron-right"
 
 #: blocks/src/helpers.js:529
 msgid "fab-chevron-circle-right"
-msgstr ""
+msgstr "fab-chevron-circle-right"
 
 #: blocks/src/helpers.js:533
 msgid "fab-hand-o-right"
-msgstr ""
+msgstr "fab-hand-o-right"
 
 #: blocks/src/helpers.js:541
 msgid "fab-star-o"
-msgstr ""
+msgstr "fab-star-o"
 
 #: blocks/src/helpers.js:549
 msgid "fab-heart-o"
-msgstr ""
+msgstr "fab-heart-o"
 
 #: blocks/src/helpers.js:553
 msgid "fab-square"
-msgstr ""
+msgstr "fab-square"
 
 #: blocks/src/helpers.js:557
 msgid "fab-square-o"
-msgstr ""
+msgstr "fab-square-o"
 
 #: blocks/src/helpers.js:561
 msgid "fab-circle"
-msgstr ""
+msgstr "fab-circle"
 
 #: blocks/src/helpers.js:565
 msgid "fab-circle-o"
-msgstr ""
+msgstr "fab-circle-o"
 
 #: blocks/src/helpers.js:569
 msgid "fab-dot-circle-o"
-msgstr ""
+msgstr "fab-dot-circle-o"
 
 #: blocks/src/helpers.js:573
 msgid "fab-plus"
-msgstr ""
+msgstr "fab-plus"
 
 #: blocks/src/helpers.js:577
 msgid "fab-plus-circle"
-msgstr ""
+msgstr "fab-plus-circle"
 
 #: blocks/src/helpers.js:581
 msgid "fab-plus-square"
-msgstr ""
+msgstr "fab-plus-square"
 
 #: blocks/src/helpers.js:585
 msgid "fab-plus-square-o"
-msgstr ""
+msgstr "fab-plus-square-o"
 
 #: blocks/src/helpers.js:589
 msgid "fab-minus"
-msgstr ""
+msgstr "fab-minus"
 
 #: blocks/src/helpers.js:593
 msgid "fab-minus-circle"
-msgstr ""
+msgstr "fab-minus-circle"
 
 #: blocks/src/helpers.js:597
 msgid "fab-minus-square"
-msgstr ""
+msgstr "fab-minus-square"
 
 #: blocks/src/helpers.js:601
 msgid "fab-minus-square-o"
-msgstr ""
+msgstr "fab-minus-square-o"
 
 #: blocks/src/helpers.js:605
 msgid "fab-times"
-msgstr ""
+msgstr "fab-times"
 
 #: blocks/src/helpers.js:609
 msgid "fab-times-circle"
-msgstr ""
+msgstr "fab-times-circle"
 
 #: blocks/src/helpers.js:613
 msgid "fab-times-circle-o"
-msgstr ""
+msgstr "fab-times-circle-o"
 
 #: blocks/src/helpers.js:617
 msgid "fab-window-close"
-msgstr ""
+msgstr "fab-window-close"
 
 #: blocks/src/helpers.js:621
 msgid "fab-window-close-o"
-msgstr ""
+msgstr "fab-window-close-o"
 
 #: blocks/src/helpers.js:625
 msgid "fab-paw"
-msgstr ""
+msgstr "fab-paw"
 
 #: blocks/src/layout/column-2/block.js:49
 msgid "2カラム"
@@ -15244,7 +15244,7 @@ msgstr "删除线（修正）"
 #: blocks/src/block-universal/tab-caption-box/block.json
 msgctxt "block keyword"
 msgid "caption"
-msgstr ""
+msgstr "caption"
 
 #: blocks/src/block-universal/caption-box/block.json
 #: blocks/src/block-universal/label-box/block.json
@@ -15266,24 +15266,24 @@ msgstr ""
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "box"
-msgstr ""
+msgstr "box"
 
 #: blocks/src/block-universal/label-box/block.json
 msgctxt "block keyword"
 msgid "label"
-msgstr ""
+msgstr "label"
 
 #: blocks/src/block-universal/tab-caption-box/block.json
 #: blocks/src/block/tab-box/block.json
 #: blocks/src/block/tab/block.json
 msgctxt "block keyword"
 msgid "tab"
-msgstr ""
+msgstr "tab"
 
 #: blocks/src/block/ad/block.json
 msgctxt "block keyword"
 msgid "ad"
-msgstr ""
+msgstr "ad"
 
 #: blocks/src/block/balloon/block.json
 #: blocks/src/micro/micro-balloon/block.json
