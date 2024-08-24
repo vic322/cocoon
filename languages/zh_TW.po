@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-24T04:32:47+00:00\n"
-"PO-Revision-Date: 2024-08-24 11:50\n"
+"POT-Creation-Date: 2024-08-24T16:00:06+00:00\n"
+"PO-Revision-Date: 2024-08-24 16:45\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12817,8 +12817,8 @@ msgid "値が大きくなるほど白色が濃くなります。"
 msgstr "值越大，白色越深。"
 
 #: skins/skin-grayish-topfull/functions.php:1581
-msgid "（白色なし)"
-msgstr "(無白色)"
+msgid "（白色なし）"
+msgstr ""
 
 #: skins/skin-grayish-topfull/functions.php:1611
 msgid "画像アップロード"
