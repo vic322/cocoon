@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-08-23T07:23:26+00:00\n"
-"PO-Revision-Date: 2024-08-23 07:35\n"
+"POT-Creation-Date: 2024-08-24T04:32:47+00:00\n"
+"PO-Revision-Date: 2024-08-24 05:39\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1183,7 +1183,7 @@ msgid "あわせて読みたい"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1656
-#: lib/shortcodes.php:1075
+#: lib/shortcodes.php:1080
 #: lib/widgets/cta-box.php:34
 #: tmp/css-custom.php:935
 #: tmp/css-custom.php:980
@@ -6311,7 +6311,7 @@ msgstr ""
 #: lib/page-settings/comment-forms.php:60
 #: lib/page-settings/comment-forms.php:95
 #: lib/page-settings/single-forms.php:145
-#: lib/shortcodes.php:1071
+#: lib/shortcodes.php:1076
 #: lib/widgets/cta-box.php:108
 #: blocks/src/block-universal/caption-box/deprecated.js:25
 #: blocks/src/block-universal/caption-box/edit.js:20
@@ -12676,199 +12676,6 @@ msgstr ""
 msgid "※空欄の場合は\"New Post\"が表示されます。"
 msgstr ""
 
-#: skins/skin-grayish-topfull/functions.php:686
-#: skins/skin-grayish-topfull/functions.php:1421
-#: skins/skin-grayish-topfull/functions.php:1729
-#: skins/skin-grayish-topfull/functions.php:1828
-msgid "値が大きくなるほど背景色が濃くなります。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:691
-#: skins/skin-grayish-topfull/functions.php:1426
-#: skins/skin-grayish-topfull/functions.php:1735
-#: skins/skin-grayish-topfull/functions.php:1833
-msgid "（背景色なし)"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:701
-#: skins/skin-grayish-topfull/functions.php:1436
-#: skins/skin-grayish-topfull/functions.php:1745
-#: skins/skin-grayish-topfull/functions.php:1843
-msgid "(不透明)"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:719
-msgid "メインビジュアル 白ドットのON/OFF"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:720
-msgid "メインビジュアルの上に白いドットを重ねるかどうかを選択。解像度が低い画像を使用する場合はON推奨"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:725
-#: skins/skin-grayish-topfull/functions.php:779
-#: skins/skin-grayish-topfull/functions.php:897
-#: skins/skin-grayish-topfull/functions.php:1768
-#: skins/skin-grayish-topfull/functions.php:1791
-msgid "ON"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:726
-#: skins/skin-grayish-topfull/functions.php:748
-#: skins/skin-grayish-topfull/functions.php:780
-#: skins/skin-grayish-topfull/functions.php:896
-#: skins/skin-grayish-topfull/functions.php:1769
-#: skins/skin-grayish-topfull/functions.php:1792
-msgid "OFF"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:742
-msgid "メインビジュアル 白オーバーレイの不透明度調整"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:743
-msgid "メインビジュアルの上に重ねる白の不透明度を調整。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:743
-msgid "値が大きくなるほど白が濃くなります。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:773
-msgid "メインビジュアル下のスクロールアニメーションのON/OFF"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:774
-msgid "メインビジュアルの下部にあるスクロールを促すアニメーションが不要の場合ここでOFF。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:774
-msgid "PC/SP共通の設定になります。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:790
-msgid "X（旧Twitter）フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:794
-msgid "Mastodon フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:798
-msgid "Bluesky フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:802
-msgid "Misskey フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:806
-msgid "Facebook フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:810
-msgid "はてブ フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:814
-msgid "Instagram フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:818
-msgid "Pinterest フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:822
-msgid "YouTube フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:826
-msgid "LinkedIn フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:830
-msgid "note フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:834
-msgid "Flickr フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:838
-msgid "Amazon欲しい物リスト フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:842
-msgid "Twitch フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:846
-msgid "楽天ROOM フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:850
-msgid "Slack フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:854
-msgid "GitHub フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:858
-msgid "CodePen フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:862
-msgid "TikTok フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:866
-msgid "SoundCloud フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:870
-msgid "LINE フォローボタンを表示"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:890
-msgid "プロフィールページでURLを入力している場合、グローバルナビにフォローボタンを表示します。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:891
-msgid "※フロントページ以外のグローバルナビにも表示されます。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:1137
-msgid "全体：テキスト変更"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:1140
-msgid "テキスト変更についてはこちらを参照"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:1145
-#: skins/skin-grayish-topfull/functions.php:1269
-#: skins/skin-grayish-topfull/functions.php:1273
-msgid "New Post"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:1153
-msgid "【フロントページ】\"New Post\"を変更"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:1154
-msgid "New Postを別のテキストに変更できます。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:1154
-#: skins/skin-grayish-topfull/functions.php:1194
-msgid "Cocoon設定>インデックス>カテゴリーごとを選択した場合に表示されます。"
-msgstr ""
-
-#: skins/skin-grayish-topfull/functions.php:1155
-msgid "※空欄の場合は\"New Post\"が表示されます。"
-msgstr ""
-
 #: skins/skin-grayish-topfull/functions.php:1165
 #: skins/skin-grayish-topfull/functions.php:1288
 #: skins/skin-grayish-topfull/functions.php:1289
@@ -12941,6 +12748,13 @@ msgstr ""
 
 #: skins/skin-grayish-topfull/functions.php:1234
 msgid "※空欄の場合は\"Next\"が表示されます。"
+msgstr ""
+
+#: skins/skin-grayish-topfull/functions.php:1244
+#: skins/skin-grayish-topfull/functions.php:1540
+#: skins/skin-grayish-topfull/functions.php:1541
+#: skins/skin-grayish-topfull/functions.php:1543
+msgid "Home"
 msgstr ""
 
 #: skins/skin-grayish-topfull/functions.php:1252
