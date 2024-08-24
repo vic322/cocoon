@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-24T04:32:47+00:00\n"
-"PO-Revision-Date: 2024-08-24 11:44\n"
+"PO-Revision-Date: 2024-08-24 11:50\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -10341,19 +10341,19 @@ msgstr "當我朦朧醒來時，那蜜蜂般的嗡嗡聲音，仍然清晰地在
 
 #: lib/page-speech-balloon/list.php:22
 msgid "うとうととして目がさめると女はいつのまにか、隣のじいさんと話を始めている。このじいさんはたしかに前の前の駅から乗ったいなか者である。"
-msgstr ""
+msgstr "我昏昏欲睡地睜開眼睛，發現那女人已經和旁邊的老頭聊起來了。這老頭確實是從前前一站上車的鄉下人。"
 
 #: lib/page-speech-balloon/list.php:23
 msgid "ゴーシュは町の活動写真館でセロを弾く係りでした。けれどもあんまり上手でないという評判でした。"
-msgstr ""
+msgstr "高修在鎮上的活動影劇院擔任大提琴演奏員。然而，他的演奏技術並不高明。"
 
 #: lib/page-speech-balloon/list.php:24
 msgid "これは、私わたしが小さいときに、村の茂平というおじいさんからきいたお話です。"
-msgstr ""
+msgstr "這是我小時候從村裡一位名叫茂平的老爺爺那裡聽來的故事。"
 
 #: lib/page-speech-balloon/list.php:41
 msgid "「吹き出し」を作成するには「新規作成」リンクをクリックしてください。"
-msgstr ""
+msgstr "要創建「對話框」，請點擊「新建」鏈接。"
 
 #: lib/page-speech-balloon/list.php:46
 msgid "吹き出し一覧"
@@ -10454,7 +10454,7 @@ msgstr "啟用瀏覽器快取可以減少訪問者從伺服器加載資源文件
 
 #: lib/page-speed-up/speed-up-forms.php:43
 msgid "縮小化"
-msgstr ""
+msgstr "縮小化"
 
 #: lib/page-speed-up/speed-up-forms.php:46
 msgid "CSS、JavaScriptの縮小化を行うことにより転送サイズを減らし高速化を図ります。"
@@ -10462,7 +10462,7 @@ msgstr "通過縮小CSS和JavaScript來減少傳輸大小，從而加快速度�
 
 #: lib/page-speed-up/speed-up-forms.php:55
 msgid "HTML縮小化"
-msgstr ""
+msgstr "HTML縮小化"
 
 #: lib/page-speed-up/speed-up-forms.php:59
 msgid "HTMLを縮小化する"
@@ -10482,7 +10482,7 @@ msgstr "縮小AMP頁面的源代碼。"
 
 #: lib/page-speed-up/speed-up-forms.php:80
 msgid "CSS縮小化"
-msgstr ""
+msgstr "CSS縮小化"
 
 #: lib/page-speed-up/speed-up-forms.php:84
 msgid "CSSを縮小化する"
@@ -10506,7 +10506,7 @@ msgstr "排除插件CSS的示例：/plugins/plugin-folder-name/"
 
 #: lib/page-speed-up/speed-up-forms.php:98
 msgid "JavaScript縮小化"
-msgstr ""
+msgstr "JavaScript縮小化"
 
 #: lib/page-speed-up/speed-up-forms.php:102
 msgid "JavaScriptを縮小化する"
@@ -10530,7 +10530,7 @@ msgstr "排除插件JavaScript的示例：/plugins/plugin-folder-name/"
 
 #: lib/page-speed-up/speed-up-forms.php:122
 msgid "Lazy Load設定"
-msgstr ""
+msgstr "Lazy Load設定"
 
 #: lib/page-speed-up/speed-up-forms.php:125
 msgid "サイトの画像を遅延読み込み表示する設定です。"
@@ -14911,47 +14911,47 @@ msgstr "fab-plus-square"
 
 #: blocks/src/helpers.js:585
 msgid "fab-plus-square-o"
-msgstr ""
+msgstr "fab-plus-square-o"
 
 #: blocks/src/helpers.js:589
 msgid "fab-minus"
-msgstr ""
+msgstr "fab-minus"
 
 #: blocks/src/helpers.js:593
 msgid "fab-minus-circle"
-msgstr ""
+msgstr "fab-minus-circle"
 
 #: blocks/src/helpers.js:597
 msgid "fab-minus-square"
-msgstr ""
+msgstr "fab-minus-square"
 
 #: blocks/src/helpers.js:601
 msgid "fab-minus-square-o"
-msgstr ""
+msgstr "fab-minus-square-o"
 
 #: blocks/src/helpers.js:605
 msgid "fab-times"
-msgstr ""
+msgstr "fab-times"
 
 #: blocks/src/helpers.js:609
 msgid "fab-times-circle"
-msgstr ""
+msgstr "fab-times-circle"
 
 #: blocks/src/helpers.js:613
 msgid "fab-times-circle-o"
-msgstr ""
+msgstr "fab-times-circle-o"
 
 #: blocks/src/helpers.js:617
 msgid "fab-window-close"
-msgstr ""
+msgstr "fab-window-close"
 
 #: blocks/src/helpers.js:621
 msgid "fab-window-close-o"
-msgstr ""
+msgstr "fab-window-close-o"
 
 #: blocks/src/helpers.js:625
 msgid "fab-paw"
-msgstr ""
+msgstr "fab-paw"
 
 #: blocks/src/layout/column-2/block.js:49
 msgid "2カラム"
@@ -15244,7 +15244,7 @@ msgstr "刪除線（修正）"
 #: blocks/src/block-universal/tab-caption-box/block.json
 msgctxt "block keyword"
 msgid "caption"
-msgstr ""
+msgstr "caption"
 
 #: blocks/src/block-universal/caption-box/block.json
 #: blocks/src/block-universal/label-box/block.json
@@ -15266,51 +15266,51 @@ msgstr ""
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "box"
-msgstr ""
+msgstr "box"
 
 #: blocks/src/block-universal/label-box/block.json
 msgctxt "block keyword"
 msgid "label"
-msgstr ""
+msgstr "label"
 
 #: blocks/src/block-universal/tab-caption-box/block.json
 #: blocks/src/block/tab-box/block.json
 #: blocks/src/block/tab/block.json
 msgctxt "block keyword"
 msgid "tab"
-msgstr ""
+msgstr "tab"
 
 #: blocks/src/block/ad/block.json
 msgctxt "block keyword"
 msgid "ad"
-msgstr ""
+msgstr "ad"
 
 #: blocks/src/block/balloon/block.json
 #: blocks/src/micro/micro-balloon/block.json
 msgctxt "block keyword"
 msgid "balloon"
-msgstr ""
+msgstr "balloon"
 
 #: blocks/src/block/blank-box/block.json
 msgctxt "block keyword"
 msgid "blank"
-msgstr ""
+msgstr "blank"
 
 #: blocks/src/block/blogcard/block.json
 msgctxt "block keyword"
 msgid "blogcard"
-msgstr ""
+msgstr "blogcard"
 
 #: blocks/src/block/blogcard/block.json
 #: blocks/src/block/button-wrap/block.json
 msgctxt "block keyword"
 msgid "wrap"
-msgstr ""
+msgstr "wrap"
 
 #: blocks/src/block/box-menu/block.json
 msgctxt "block keyword"
 msgid "box-menu"
-msgstr ""
+msgstr "box-menu"
 
 #: blocks/src/block/button-wrap/block.json
 #: blocks/src/block/button/block.json
