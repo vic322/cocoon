@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-24T16:00:06+00:00\n"
-"PO-Revision-Date: 2024-08-24 16:45\n"
+"PO-Revision-Date: 2024-08-25 00:54\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -28,7 +28,7 @@ msgstr "Cocoon"
 #. Theme URI of the theme
 #: style.css
 msgid "https://wp-cocoon.com/"
-msgstr ""
+msgstr "https://wp-cocoon.com/"
 
 #. Description of the theme
 #: style.css
@@ -43,7 +43,7 @@ msgstr "yhira"
 #. Author URI of the theme
 #: style.css
 msgid "https://nelog.jp/"
-msgstr ""
+msgstr "https://nelog.jp/"
 
 #: blocks/src/init.php:258
 msgid "Cocoonブロック"
@@ -324,7 +324,7 @@ msgstr "Comentarios"
 #: blocks/src/block/test-box/deprecated.js:106
 #: blocks/src/old/tab-box/block.js:119
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: lib/admin-tinymce-qtag.php:205
 #: lib/admin-tinymce-qtag.php:670
@@ -703,7 +703,7 @@ msgstr "Descanso"
 #: blocks/src/block/tab-box/edit.js:111
 #: blocks/src/old/tab-box/block.js:115
 msgid "Amazon"
-msgstr ""
+msgstr "Amazon"
 
 #: lib/admin-tinymce-qtag.php:796
 msgid "ボックス（付箋風）"
@@ -1222,7 +1222,7 @@ msgstr "Agregar enlace de producto"
 
 #: lib/admin.php:135
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: lib/admin.php:140
 #: lib/custom-fields/seo-field.php:62
@@ -1234,7 +1234,7 @@ msgstr "Recuento de caracteres"
 
 #: lib/admin.php:145
 msgid "PV"
-msgstr ""
+msgstr "PV"
 
 #: lib/admin.php:150
 #: lib/content-category.php:264
@@ -1457,51 +1457,51 @@ msgstr "Estilo nota adhesiva (verde)"
 
 #: lib/block-editor-styles-image.php:15
 msgid "Clarendon"
-msgstr ""
+msgstr "Clarendon"
 
 #: lib/block-editor-styles-image.php:19
 msgid "Gingham"
-msgstr ""
+msgstr "Gingham"
 
 #: lib/block-editor-styles-image.php:23
 msgid "Moon"
-msgstr ""
+msgstr "Moon"
 
 #: lib/block-editor-styles-image.php:27
 msgid "Lark"
-msgstr ""
+msgstr "Lark"
 
 #: lib/block-editor-styles-image.php:31
 msgid "Reyes"
-msgstr ""
+msgstr "Reyes"
 
 #: lib/block-editor-styles-image.php:35
 msgid "Juno"
-msgstr ""
+msgstr "Juno"
 
 #: lib/block-editor-styles-image.php:39
 msgid "Slumber"
-msgstr ""
+msgstr "Slumber"
 
 #: lib/block-editor-styles-image.php:43
 msgid "Crema"
-msgstr ""
+msgstr "Crema"
 
 #: lib/block-editor-styles-image.php:47
 msgid "Ludwig"
-msgstr ""
+msgstr "Ludwig"
 
 #: lib/block-editor-styles-image.php:51
 msgid "Aden"
-msgstr ""
+msgstr "Aden"
 
 #: lib/block-editor-styles-image.php:55
 msgid "Perpetua"
-msgstr ""
+msgstr "Perpetua"
 
 #: lib/block-editor-styles-image.php:59
 msgid "Mono"
-msgstr ""
+msgstr "Mono"
 
 #: lib/block-editor-styles-list.php:17
 #: lib/block-editor-styles-paragraph.php:17
@@ -1569,7 +1569,7 @@ msgstr "F j, Y (D)"
 
 #: lib/comments.php:85
 msgid "H:i:s"
-msgstr ""
+msgstr "H:i:s"
 
 #: lib/comments.php:104
 msgid "<span class=\"comment-author-label\">名前:</span><cite class=\"fn comment-author\">%s<span class=\"admin\"></span></a></cite><span class=\"comment-author-separator\"> :</span>"
@@ -1798,7 +1798,7 @@ msgstr "Incluso si \"Notación de PR\" está habilitado en la configuración de 
 #: lib/page-cache/cache-forms.php:79
 #: lib/page-settings/_top-page.php:252
 msgid "AMP"
-msgstr ""
+msgstr "AMP"
 
 #: lib/custom-fields/amp-field.php:33
 msgid "AMPページを生成しない"
@@ -1971,7 +1971,7 @@ msgstr "URL de redirección"
 
 #: lib/custom-fields/redirect-field.php:33
 msgid "https://"
-msgstr ""
+msgstr "https://"
 
 #: lib/custom-fields/redirect-field.php:34
 msgid "このページに訪れるユーザーを設定したURLに301リダイレクトします。"
@@ -2056,7 +2056,7 @@ msgstr "Ingrese una calificación entre 0 y 5."
 #: lib/custom-fields/seo-field.php:20
 #: lib/page-settings/_top-page.php:182
 msgid "SEO"
-msgstr ""
+msgstr "SEO"
 
 #: lib/custom-fields/seo-field.php:118
 msgid "SEOタイトル"
@@ -2151,7 +2151,7 @@ msgstr "Fecha y hora de actualización:"
 
 #: lib/custom-fields/update-field.php:40
 msgid "M j, Y @ H:i"
-msgstr ""
+msgstr "M j, Y @ H:i"
 
 #: lib/custom-fields/update-field.php:85
 #: lib/custom-fields/update-field.php:87
@@ -2299,7 +2299,7 @@ msgstr "Texto sin formato"
 
 #: lib/gutenberg.php:230
 msgid "Bash"
-msgstr ""
+msgstr "Bash"
 
 #: lib/gutenberg.php:234
 msgid "Basic"
@@ -2307,43 +2307,43 @@ msgstr "Básico"
 
 #: lib/gutenberg.php:238
 msgid "C#"
-msgstr ""
+msgstr "C#"
 
 #: lib/gutenberg.php:242
 msgid "C++"
-msgstr ""
+msgstr "C++"
 
 #: lib/gutenberg.php:246
 msgid "CSS"
-msgstr ""
+msgstr "CSS"
 
 #: lib/gutenberg.php:250
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: lib/gutenberg.php:254
 msgid "DOS"
-msgstr ""
+msgstr "DOS"
 
 #: lib/gutenberg.php:258
 msgid "Delphi"
-msgstr ""
+msgstr "Delphi"
 
 #: lib/gutenberg.php:262
 msgid "Go"
-msgstr ""
+msgstr "Go"
 
 #: lib/gutenberg.php:266
 msgid "HTML"
-msgstr ""
+msgstr "HTML"
 
 #: lib/gutenberg.php:270
 msgid "Haml"
-msgstr ""
+msgstr "Haml"
 
 #: lib/gutenberg.php:274
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: lib/gutenberg.php:278
 msgid "Java"
@@ -2351,15 +2351,15 @@ msgstr "JAVA"
 
 #: lib/gutenberg.php:282
 msgid "JavaScript"
-msgstr ""
+msgstr "JavaScript"
 
 #: lib/gutenberg.php:286
 msgid "Less"
-msgstr ""
+msgstr "Less"
 
 #: lib/gutenberg.php:290
 msgid "Markdown"
-msgstr ""
+msgstr "Markdown"
 
 #: lib/gutenberg.php:294
 msgid "Objective C"
@@ -2367,47 +2367,47 @@ msgstr "Objective-C"
 
 #: lib/gutenberg.php:298
 msgid "PHP"
-msgstr ""
+msgstr "PHP"
 
 #: lib/gutenberg.php:302
 msgid "Perl"
-msgstr ""
+msgstr "Perl"
 
 #: lib/gutenberg.php:306
 msgid "Python"
-msgstr ""
+msgstr "Python"
 
 #: lib/gutenberg.php:310
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: lib/gutenberg.php:314
 msgid "Ruby"
-msgstr ""
+msgstr "Ruby"
 
 #: lib/gutenberg.php:318
 msgid "Rust"
-msgstr ""
+msgstr "Rust"
 
 #: lib/gutenberg.php:322
 msgid "SCSS"
-msgstr ""
+msgstr "SCSS"
 
 #: lib/gutenberg.php:326
 msgid "SQL"
-msgstr ""
+msgstr "SQL"
 
 #: lib/gutenberg.php:330
 msgid "Swift"
-msgstr ""
+msgstr "Swift"
 
 #: lib/gutenberg.php:334
 msgid "VBScript"
-msgstr ""
+msgstr "VBScript"
 
 #: lib/gutenberg.php:338
 msgid "XML"
-msgstr ""
+msgstr "XML"
 
 #: lib/html-forms.php:272
 msgid "解説ページ"
@@ -8572,15 +8572,15 @@ msgstr ""
 
 #: lib/page-settings/seo-forms.php:117
 msgid "strict-origin"
-msgstr ""
+msgstr "strict-origin"
 
 #: lib/page-settings/seo-forms.php:118
 msgid "origin-when-cross-origin"
-msgstr ""
+msgstr "origin-when-cross-origin"
 
 #: lib/page-settings/seo-forms.php:119
 msgid "strict-origin-when-cross-origin"
-msgstr ""
+msgstr "strict-origin-when-cross-origin"
 
 #: lib/page-settings/seo-forms.php:119
 msgid "（ブラウザデフォルト）"
@@ -8588,7 +8588,7 @@ msgstr "(Predeterminado del navegador)"
 
 #: lib/page-settings/seo-forms.php:120
 msgid "unsafe-url"
-msgstr ""
+msgstr "unsafe-url"
 
 #: lib/page-settings/seo-forms.php:123
 msgid "メタタグでのリファラーの振る舞いを設定します。"
@@ -9033,32 +9033,32 @@ msgstr "X (anteriormente Twitter)"
 #: lib/page-settings/sns-share-forms-top.php:58
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodon"
-msgstr ""
+msgstr "Mastodon"
 
 #: lib/page-settings/sns-follow-forms.php:74
 #: lib/page-settings/sns-share-forms-bottom.php:74
 #: lib/page-settings/sns-share-forms-top.php:61
 #: tmp/sns-share-buttons.php:25
 msgid "Bluesky"
-msgstr ""
+msgstr "Bluesky"
 
 #: lib/page-settings/sns-follow-forms.php:75
 #: lib/page-settings/sns-share-forms-bottom.php:77
 #: lib/page-settings/sns-share-forms-top.php:64
 #: tmp/sns-share-buttons.php:29
 msgid "Misskey"
-msgstr ""
+msgstr "Misskey"
 
 #: lib/page-settings/sns-follow-forms.php:76
 #: lib/page-settings/sns-share-forms-bottom.php:80
 #: lib/page-settings/sns-share-forms-top.php:67
 #: tmp/sns-share-buttons.php:33
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: lib/page-settings/sns-follow-forms.php:77
 msgid "Google+"
-msgstr ""
+msgstr "Google+"
 
 #: lib/page-settings/sns-follow-forms.php:78
 #: lib/page-settings/sns-share-forms-bottom.php:83
@@ -9068,33 +9068,33 @@ msgstr "Marcador de Hatena"
 
 #: lib/page-settings/sns-follow-forms.php:79
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: lib/page-settings/sns-follow-forms.php:80
 #: lib/page-settings/sns-share-forms-bottom.php:95
 #: lib/page-settings/sns-share-forms-top.php:82
 #: tmp/sns-share-buttons.php:49
 msgid "Pinterest"
-msgstr ""
+msgstr "Pinterest"
 
 #: lib/page-settings/sns-follow-forms.php:81
 msgid "YouTube"
-msgstr ""
+msgstr "YouTube"
 
 #: lib/page-settings/sns-follow-forms.php:82
 #: lib/page-settings/sns-share-forms-bottom.php:98
 #: lib/page-settings/sns-share-forms-top.php:85
 #: tmp/sns-share-buttons.php:53
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: lib/page-settings/sns-follow-forms.php:83
 msgid "note"
-msgstr ""
+msgstr "note"
 
 #: lib/page-settings/sns-follow-forms.php:84
 msgid "Flickr"
-msgstr ""
+msgstr "Flickr"
 
 #: lib/page-settings/sns-follow-forms.php:85
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
@@ -9104,7 +9104,7 @@ msgstr "Lista de deseos de Amazon"
 
 #: lib/page-settings/sns-follow-forms.php:86
 msgid "Twitch"
-msgstr ""
+msgstr "Twitch"
 
 #: lib/page-settings/sns-follow-forms.php:87
 msgid "楽天ROOM"
@@ -9112,15 +9112,15 @@ msgstr "Rakuten Room"
 
 #: lib/page-settings/sns-follow-forms.php:88
 msgid "Slack"
-msgstr ""
+msgstr "Slack"
 
 #: lib/page-settings/sns-follow-forms.php:89
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: lib/page-settings/sns-follow-forms.php:90
 msgid "CodePen"
-msgstr ""
+msgstr "CodePen"
 
 #: lib/page-settings/sns-follow-forms.php:92
 msgid "から設定"
@@ -9342,18 +9342,18 @@ msgstr "Alternar la visualización de botones de compartir individuales."
 #: lib/page-settings/sns-share-forms-bottom.php:86
 #: lib/page-settings/sns-share-forms-top.php:73
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: lib/page-settings/sns-share-forms-bottom.php:89
 #: lib/page-settings/sns-share-forms-top.php:76
 #: tmp/sns-share-buttons.php:41
 msgid "Pocket"
-msgstr ""
+msgstr "Pocket"
 
 #: lib/page-settings/sns-share-forms-bottom.php:92
 #: lib/page-settings/sns-share-forms-top.php:79
 msgid "LINE@"
-msgstr ""
+msgstr "LINE@"
 
 #: lib/page-settings/sns-share-forms-bottom.php:101
 #: lib/page-settings/sns-share-forms-top.php:88
@@ -9797,11 +9797,11 @@ msgstr "Configure un carácter que se utilizará para delimitar títulos."
 
 #: lib/page-settings/title-funcs.php:22
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: lib/page-settings/title-funcs.php:25
 msgid " | "
-msgstr ""
+msgstr " | "
 
 #: lib/page-settings/toc-forms.php:13
 msgid "目次設定"
@@ -10075,7 +10075,7 @@ msgstr "Encabezado"
 
 #: lib/page-settings/_top-page.php:185
 msgid "OGP"
-msgstr ""
+msgstr "OGP"
 
 #: lib/page-settings/_top-page.php:188
 msgid "アクセス解析・認証"
@@ -10129,7 +10129,7 @@ msgstr "Móvil"
 
 #: lib/page-settings/_top-page.php:257
 msgid "PWA"
-msgstr ""
+msgstr "PWA"
 
 #: lib/page-settings/_top-page.php:261
 msgid "管理者画面"
@@ -10145,7 +10145,7 @@ msgstr "Editor"
 
 #: lib/page-settings/_top-page.php:273
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: lib/page-settings/_top-page.php:282
 msgid "テーマ情報"
