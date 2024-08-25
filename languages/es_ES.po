@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-24T16:00:06+00:00\n"
-"PO-Revision-Date: 2024-08-25 00:54\n"
+"PO-Revision-Date: 2024-08-25 01:22\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2465,7 +2465,7 @@ msgstr "Desde el primero"
 
 #: lib/html-forms.php:518
 msgid "個まで"
-msgstr ""
+msgstr "Máximo"
 
 #: lib/html-forms.php:520
 msgid "※-1で全てのH2見出し手前に広告を挿入"
@@ -2624,7 +2624,7 @@ msgstr "Publicaciones por %s"
 
 #: lib/html-forms.php:1492
 msgid "NO USER"
-msgstr ""
+msgstr "NO HAY USUARIO"
 
 #: lib/html-forms.php:1508
 msgid "未登録のユーザーさん"
@@ -3151,7 +3151,7 @@ msgstr "Eliminar todas las cachés de las páginas AMP."
 
 #: lib/page-cache/cache-forms.php:94
 msgid "Amazon API"
-msgstr ""
+msgstr "Amazon API"
 
 #: lib/page-cache/cache-forms.php:97
 msgid "Amazon APIキャッシュの削除"
@@ -3315,47 +3315,47 @@ msgstr "Ninguna"
 
 #: lib/page-item-ranking/form.php:130
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: lib/page-item-ranking/form.php:131
 msgid "0.5"
-msgstr ""
+msgstr "0.5"
 
 #: lib/page-item-ranking/form.php:132
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: lib/page-item-ranking/form.php:133
 msgid "1.5"
-msgstr ""
+msgstr "1.5"
 
 #: lib/page-item-ranking/form.php:134
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: lib/page-item-ranking/form.php:135
 msgid "2.5"
-msgstr ""
+msgstr "2.5"
 
 #: lib/page-item-ranking/form.php:136
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: lib/page-item-ranking/form.php:137
 msgid "3.5"
-msgstr ""
+msgstr "3.5"
 
 #: lib/page-item-ranking/form.php:138
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: lib/page-item-ranking/form.php:139
 msgid "4.5"
-msgstr ""
+msgstr "4.5"
 
 #: lib/page-item-ranking/form.php:140
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: lib/page-item-ranking/form.php:144
 msgid "商品等を星の数で評価します。「なし」を選択した場合は表示されません。"
@@ -3393,7 +3393,7 @@ msgstr "URL de la página de detalles"
 #: lib/page-item-ranking/form.php:178
 #: lib/page-settings/notice-forms.php:66
 msgid "http://"
-msgstr ""
+msgstr "http://"
 
 #: lib/page-item-ranking/form.php:171
 msgid "詳細ページへリンクするためのURLを入力してください。"
@@ -3524,7 +3524,7 @@ msgstr "Título de la página 404"
 #: lib/page-settings/404-forms.php:54
 #: lib/page-settings/404-funcs.php:27
 msgid "404 NOT FOUND"
-msgstr ""
+msgstr "404 NO ENCONTRADO"
 
 #: lib/page-settings/404-forms.php:55
 msgid "404ページに表示するタイトルを入力します。"
@@ -3917,7 +3917,7 @@ msgstr "Original del tema"
 
 #: lib/page-settings/admin-forms.php:204
 msgid "Jetpack"
-msgstr ""
+msgstr "Jetpack"
 
 #: lib/page-settings/admin-forms.php:207
 msgid "管理者パネルで表示するPVの取得方法を選択します。"
@@ -4450,7 +4450,7 @@ msgstr "La configuración de anuncios relacionados con Value Commerce."
 
 #: lib/page-settings/ads-forms.php:407
 msgid "LinkSwitch"
-msgstr ""
+msgstr "LinkSwitch"
 
 #: lib/page-settings/ads-forms.php:411
 msgid "LinkSwitchを有効にする"
@@ -4602,7 +4602,7 @@ msgstr "Sawarabi Mincho (fuente web)"
 
 #: lib/page-settings/all-forms.php:74
 msgid "Noto Sans Korean"
-msgstr ""
+msgstr "Noto Sans Korean"
 
 #: lib/page-settings/all-forms.php:74
 #: lib/page-settings/all-forms.php:75
@@ -4611,7 +4611,7 @@ msgstr "(Fuente web coreana)"
 
 #: lib/page-settings/all-forms.php:75
 msgid "Pretendard"
-msgstr ""
+msgstr "Pretendard"
 
 #: lib/page-settings/all-forms.php:77
 msgid "指定なし"
@@ -4706,11 +4706,11 @@ msgstr "Fuente de iconos del sitio"
 
 #: lib/page-settings/all-forms.php:147
 msgid "Font Awesome 4"
-msgstr ""
+msgstr "Font Awesome 4"
 
 #: lib/page-settings/all-forms.php:148
 msgid "Font Awesome 5"
-msgstr ""
+msgstr "Font Awesome 5"
 
 #: lib/page-settings/all-forms.php:151
 msgid "サイト全体で使用するアイコンフォントを選択します。"
@@ -4874,7 +4874,7 @@ msgstr "<a href=\"https://wpdocs.osdn.jp/formatting-date-and-time/\">Descripció
 
 #: lib/page-settings/all-funcs.php:255
 msgid "Y.m.d"
-msgstr ""
+msgstr "Y.m.d"
 
 #: lib/page-settings/amp-forms.php:11
 msgid "AMP設定"
@@ -4976,7 +4976,7 @@ msgstr "El Validador de AMP"
 #: lib/page-settings/amp-forms.php:104
 #: tmp/admin-panel.php:59
 msgid "AMPBench"
-msgstr ""
+msgstr "AMPBench"
 
 #: lib/page-settings/amp-forms.php:107
 msgid "「AMPテスト」を行うテストツール（バリデーター）を選択します。"
@@ -5024,7 +5024,7 @@ msgstr "ID de Tag Manager"
 
 #: lib/page-settings/analytics-forms.php:58
 msgid "GTM-XXXXXXX"
-msgstr ""
+msgstr "GTM-XXXXXXX"
 
 #: lib/page-settings/analytics-forms.php:59
 msgid "GoogleタグマネージャのトラッキングIDを入力してください。Google AnalyticsトラッキングIDが入っていてもこちらが優先して計測されます。"
@@ -5044,7 +5044,7 @@ msgstr "ID de medición de GA4"
 
 #: lib/page-settings/analytics-forms.php:87
 msgid "G-XXXXXXXXXXXX"
-msgstr ""
+msgstr "G-XXXXXXXXXXXX"
 
 #: lib/page-settings/analytics-forms.php:88
 msgid "Google Analytics 4の測定IDを入力してください。タグマネージャのトラッキングIDが入っている場合はタグマネージャが優先されます。"
@@ -5183,7 +5183,7 @@ msgstr "ID de seguimiento"
 
 #: lib/page-settings/apis-forms.php:52
 msgid "yourid-22"
-msgstr ""
+msgstr "yourid-22"
 
 #: lib/page-settings/apis-forms.php:53
 msgid "AmazonアソシエイトのトラッキングIDを入力してください。"
@@ -5403,7 +5403,7 @@ msgstr "Introduce el texto que deseas mostrar en el botón de búsqueda de Merca
 #: lib/page-settings/apis-forms.php:230
 #: lib/page-settings/apis-funcs.php:279
 msgid "DMM"
-msgstr ""
+msgstr "DMM"
 
 #: lib/page-settings/apis-forms.php:235
 msgid "DMMアフィリエイトID"
@@ -5439,7 +5439,7 @@ msgstr "Obtén recompensas publicando un enlace de Amazon a través de Moshimo A
 
 #: lib/page-settings/apis-forms.php:268
 msgid "Amazon a_id"
-msgstr ""
+msgstr "Amazon a_id"
 
 #: lib/page-settings/apis-forms.php:271
 msgid "もしもアフィリエイトのAmazon IDを入力してください。"
@@ -5481,7 +5481,7 @@ msgstr "El caché de la API de Amazon se actualiza cada 24 horas según los tér
 
 #: lib/page-settings/apis-forms.php:304
 msgid "https://affiliate.amazon.co.jp/help/operating/paapilicenseagreement"
-msgstr ""
+msgstr "https://affiliate.amazon.co.jp/help/operating/paapilicenseagreement"
 
 #: lib/page-settings/apis-forms.php:304
 msgid "Amazon.co.jp Product Advertising API ライセンス契約"
@@ -5489,7 +5489,7 @@ msgstr "Contrato de licencia de la API de publicidad de productos de Amazon.co.j
 
 #: lib/page-settings/apis-forms.php:305
 msgid "https://affiliate.amazon.co.jp/help/topic/t32/"
-msgstr ""
+msgstr "https://affiliate.amazon.co.jp/help/topic/t32/"
 
 #: lib/page-settings/apis-forms.php:305
 msgid "Product Advertising API (PA-API) の利用ガイドライン"
@@ -5497,7 +5497,7 @@ msgstr "Directrices para el uso de la API de publicidad de productos (PA-API)"
 
 #: lib/page-settings/apis-forms.php:306
 msgid "https://webservice.rakuten.co.jp/guide/rule"
-msgstr ""
+msgstr "https://webservice.rakuten.co.jp/guide/rule"
 
 #: lib/page-settings/apis-forms.php:306
 msgid "楽天ウェブサービス規約"
@@ -5671,7 +5671,7 @@ msgstr "¿A dónde debería enlazar tu botón?"
 
 #: lib/page-settings/appeal-forms.php:155
 msgid "https://xxxxxxxx.com/xxxxx/"
-msgstr ""
+msgstr "https://xxxxxxxx.com/xxxxx/"
 
 #: lib/page-settings/appeal-forms.php:156
 msgid "ボタンのリンク先となるURLを入力してください。"
@@ -6133,7 +6133,7 @@ msgstr "Selector CSS para mostrar el resaltado"
 
 #: lib/page-settings/code-forms.php:103
 msgid ".entry-content pre"
-msgstr ""
+msgstr ".entry-content pre"
 
 #: lib/page-settings/code-forms.php:104
 msgid "ソースコードをハイライトするCSSセレクターを細かく設定できます。よくわからない場合は変更しないでください。"
@@ -6422,7 +6422,7 @@ msgstr "Altura de la línea"
 
 #: lib/page-settings/content-forms.php:34
 msgid "line-hightで、行の高さを指定します。1にすると文字列と同等の高さになります。"
-msgstr ""
+msgstr "Especifica la altura de la línea en line-height. Si se establece en 1, la altura de la línea será igual a la altura del texto."
 
 #: lib/page-settings/content-forms.php:38
 msgid "行の余白（単位：em）"
@@ -6744,7 +6744,7 @@ msgstr "Configuración de la pantalla de administración de publicaciones/págin
 
 #: lib/page-settings/editor-forms.php:25
 msgid "Gutenberg"
-msgstr ""
+msgstr "Gutenberg"
 
 #: lib/page-settings/editor-forms.php:29
 msgid "Gutenbergエディターを有効にする"
@@ -7132,7 +7132,7 @@ msgstr "Ancho:"
 
 #: lib/page-settings/header-forms.php:113
 msgid " × "
-msgstr ""
+msgstr " × "
 
 #: lib/page-settings/header-forms.php:114
 msgid "高さ："
@@ -7336,7 +7336,7 @@ msgstr "Lity (ligero, muestra una por una)"
 
 #: lib/page-settings/image-forms.php:133
 msgid "Lightbox"
-msgstr ""
+msgstr "Lightbox"
 
 #: lib/page-settings/image-forms.php:150
 msgid "全体画像設定"
@@ -7716,7 +7716,7 @@ msgstr "Cadena abreviada"
 #: lib/page-settings/index-forms.php:194
 #: lib/page-settings/index-funcs.php:204
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: lib/page-settings/index-forms.php:195
 msgid "「自動生成抜粋文字数」を自動抜粋文が超えたときに表示する省略を表す文字を入力してください。"
@@ -8086,19 +8086,19 @@ msgstr "Puede configurar la versión de la biblioteca de JavaScript."
 
 #: lib/page-settings/others-forms.php:94
 msgid "jQuery"
-msgstr ""
+msgstr "jQuery"
 
 #: lib/page-settings/others-forms.php:100
 msgid "jQuery Core 3.6.1"
-msgstr ""
+msgstr "jQuery Core 3.6.1"
 
 #: lib/page-settings/others-forms.php:101
 msgid "jQuery Core 2.2.4"
-msgstr ""
+msgstr "jQuery Core 2.2.4"
 
 #: lib/page-settings/others-forms.php:102
 msgid "jQuery Core 1.12.4"
-msgstr ""
+msgstr "jQuery Core 1.12.4"
 
 #: lib/page-settings/others-forms.php:105
 msgid "jQueryのバージョン違いで動作しないプログラムがある場合は変更してください。"
@@ -8114,15 +8114,15 @@ msgstr "Esta función de selección de jQuery se eliminará a finales de diciemb
 
 #: lib/page-settings/others-forms.php:114
 msgid "jQuery Migrate"
-msgstr ""
+msgstr "jQuery Migrate"
 
 #: lib/page-settings/others-forms.php:120
 msgid "jQuery Migrate 3.3.2"
-msgstr ""
+msgstr "jQuery Migrate 3.3.2"
 
 #: lib/page-settings/others-forms.php:121
 msgid "jQuery Migrate 1.4.1"
-msgstr ""
+msgstr "jQuery Migrate 1.4.1"
 
 #: lib/page-settings/others-forms.php:124
 msgid "jQuery Migrateのバージョン違いで動作しないプログラムがある場合は変更してください。"
@@ -8548,7 +8548,7 @@ msgstr "Referencia"
 
 #: lib/page-settings/seo-forms.php:113
 msgid "no-referrer"
-msgstr ""
+msgstr "no-referrer"
 
 #: lib/page-settings/seo-forms.php:113
 msgid "（リファラー情報を送らない）"
@@ -8556,7 +8556,7 @@ msgstr "(No enviar información de referencia)"
 
 #: lib/page-settings/seo-forms.php:114
 msgid "no-referrer-when-downgrade"
-msgstr ""
+msgstr "no-referrer-when-downgrade"
 
 #: lib/page-settings/seo-forms.php:114
 msgid "（ASPにリファラーを送りたい場合はこちらを推奨）"
@@ -8564,11 +8564,11 @@ msgstr "(Recomendado cuando desea enviar la referencia a ASP)"
 
 #: lib/page-settings/seo-forms.php:115
 msgid "same-origin"
-msgstr ""
+msgstr "same-origin"
 
 #: lib/page-settings/seo-forms.php:116
 msgid "origin"
-msgstr ""
+msgstr "origin"
 
 #: lib/page-settings/seo-forms.php:117
 msgid "strict-origin"
@@ -10293,7 +10293,7 @@ msgstr "Especifique la forma y el borde del icono."
 
 #: lib/page-speech-balloon/form.php:137
 msgid "TinyMCE"
-msgstr ""
+msgstr "TinyMCE"
 
 #: lib/page-speech-balloon/form.php:155
 msgid "ブロックエディターの「吹き出しブロック」で利用後、設定を変更すると、ブロックエディター上で再編集できなくなります。"
@@ -10833,7 +10833,7 @@ msgstr "No se ha ingresado ninguna opción de id, no o search."
 
 #: lib/shortcodes-rakuten.php:184
 msgid "Y/m/d H:i"
-msgstr ""
+msgstr "Y/m/d H:i"
 
 #: lib/shortcodes-rakuten.php:390
 msgid "料率："
@@ -11126,7 +11126,7 @@ msgstr "Caja de perfil"
 
 #: lib/tinymce/shortcodes.php:102
 msgid "ASIN"
-msgstr ""
+msgstr "ASIN"
 
 #: lib/tinymce/shortcodes.php:108
 msgid "Amazon商品リンク"
@@ -11231,7 +11231,7 @@ msgstr "¿Está seguro de que desea publicar el artículo?"
 #: lib/utils.php:2514
 msgid "%s min"
 msgid_plural "%s mins"
-msgstr[0] ""
+msgstr[0] "%s min"
 msgstr[1] "%s mins"
 
 #: lib/utils.php:2522
@@ -12058,7 +12058,7 @@ msgstr "Configuración"
 
 #: lib/_defins.php:113
 msgid "PR"
-msgstr ""
+msgstr "PR"
 
 #: lib/_defins.php:114
 msgid "記事内に広告が含まれています。"
@@ -12518,7 +12518,7 @@ msgstr "Seleccione si desea superponer puntos blancos sobre el visual principal.
 #: skins/skin-grayish-topfull/functions.php:1768
 #: skins/skin-grayish-topfull/functions.php:1791
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
 #: skins/skin-grayish-topfull/functions.php:726
 #: skins/skin-grayish-topfull/functions.php:748
@@ -12527,7 +12527,7 @@ msgstr ""
 #: skins/skin-grayish-topfull/functions.php:1769
 #: skins/skin-grayish-topfull/functions.php:1792
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
 #: skins/skin-grayish-topfull/functions.php:742
 msgid "メインビジュアル 白オーバーレイの不透明度調整"
@@ -12755,7 +12755,7 @@ msgstr "Si el campo está en blanco, se mostrará \"Siguiente\"."
 #: skins/skin-grayish-topfull/functions.php:1541
 #: skins/skin-grayish-topfull/functions.php:1543
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: skins/skin-grayish-topfull/functions.php:1252
 msgid "【投稿・固定ページ】パンくずリスト \"Home\"を変更"
@@ -12823,7 +12823,7 @@ msgstr "Cuanto mayor sea el valor, más oscuro será el blanco."
 
 #: skins/skin-grayish-topfull/functions.php:1581
 msgid "（白色なし）"
-msgstr ""
+msgstr "(Sin blanco)"
 
 #: skins/skin-grayish-topfull/functions.php:1611
 msgid "画像アップロード"
@@ -13125,7 +13125,7 @@ msgstr "Cerrar sesión"
 #: skins/skin-made-in-heaven/lib/hook-wp.php:53
 #: skins/skin-made-in-heaven/lib/hook-wp.php:75
 msgid "Slug"
-msgstr ""
+msgstr "Slug"
 
 #. Template Name of the theme
 msgid "bbPress - Create Topic"
@@ -13149,7 +13149,7 @@ msgstr "Velocidad de la página"
 
 #: tmp/admin-panel.php:74
 msgid "GTmetrix"
-msgstr ""
+msgstr "GTmetrix"
 
 #: tmp/admin-panel.php:77
 msgid "モバイルフレンドリー"
@@ -13157,7 +13157,7 @@ msgstr "Amigable para móviles"
 
 #: tmp/admin-panel.php:83
 msgid "HTML5"
-msgstr ""
+msgstr "HTML5"
 
 #: tmp/admin-panel.php:86
 msgid "アウトライン"
@@ -13177,7 +13177,7 @@ msgstr "Prueba de responsividad"
 
 #: tmp/admin-panel.php:107
 msgid "Sizzy"
-msgstr ""
+msgstr "Sizzy"
 
 #: tmp/admin-panel.php:111
 msgid "Resolution Test"
@@ -13327,7 +13327,7 @@ msgstr "Compartir en X"
 
 #: tmp/sns-share-buttons.php:17
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodonでシェア"
@@ -13363,7 +13363,7 @@ msgstr "Compartir en LINE"
 
 #: tmp/sns-share-buttons.php:45
 msgid "LINE"
-msgstr ""
+msgstr "LINE"
 
 #: tmp/sns-share-buttons.php:49
 msgid "Pinterestでシェア"
@@ -14021,7 +14021,7 @@ msgstr "Configuración de botón"
 #: blocks/src/old/button-1/block.js:86
 #: blocks/src/old/button/block.js:68
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: blocks/src/block/button/edit.js:84
 #: blocks/src/old/button-1/block.js:98
@@ -14081,7 +14081,7 @@ msgstr "Reemplazar"
 
 #: blocks/src/block/cta/index.js:21
 msgid "CTA"
-msgstr ""
+msgstr "CTA"
 
 #: blocks/src/block/cta/index.js:23
 msgid "コールトゥアクションボックスを表示します。"
@@ -14093,7 +14093,7 @@ msgstr "Etiqueta de pregunta"
 
 #: blocks/src/block/faq/edit.js:134
 msgid "Q"
-msgstr ""
+msgstr "P"
 
 #: blocks/src/block/faq/edit.js:138
 #: blocks/src/block/faq/edit.js:149
@@ -14106,7 +14106,7 @@ msgstr "Etiqueta de respuesta"
 
 #: blocks/src/block/faq/edit.js:147
 msgid "A"
-msgstr ""
+msgstr "R"
 
 #: blocks/src/block/faq/edit.js:158
 msgid "質問ラベル色"
@@ -14122,7 +14122,7 @@ msgstr "Ingrese su pregunta…"
 
 #: blocks/src/block/faq/index.js:20
 msgid "FAQ"
-msgstr ""
+msgstr "Preguntas frecuentes"
 
 #: blocks/src/block/faq/index.js:35
 msgid "よくある質問と回答。"
@@ -14601,362 +14601,362 @@ msgstr "Haz clic aquí para cambiar la configuración. Esta entrada no se reflej
 
 #: blocks/src/helpers.js:258
 msgid "fab-info-circle"
-msgstr ""
+msgstr "fab-info-circle"
 
 #: blocks/src/helpers.js:262
 msgid "fab-question-circle"
-msgstr ""
+msgstr "fab-question-circle"
 
 #: blocks/src/helpers.js:266
 msgid "fab-exclamation-circle"
-msgstr ""
+msgstr "fab-exclamation-circle"
 
 #: blocks/src/helpers.js:270
 msgid "fab-pencil"
-msgstr ""
+msgstr "fab-pencil"
 
 #: blocks/src/helpers.js:274
 msgid "fab-edit"
-msgstr ""
+msgstr "fab-edit"
 
 #: blocks/src/helpers.js:278
 msgid "fab-comment"
-msgstr ""
+msgstr "fab-comment"
 
 #: blocks/src/helpers.js:282
 msgid "fab-ok"
-msgstr ""
+msgstr "fab-ok"
 
 #: blocks/src/helpers.js:286
 msgid "fab-bad"
-msgstr ""
+msgstr "fab-bad"
 
 #: blocks/src/helpers.js:290
 msgid "fab-thumbs-up"
-msgstr ""
+msgstr "fab-thumbs-up"
 
 #: blocks/src/helpers.js:294
 msgid "fab-thumbs-down"
-msgstr ""
+msgstr "fab-thumbs-down"
 
 #: blocks/src/helpers.js:298
 #: blocks/src/helpers.js:473
 msgid "fab-check"
-msgstr ""
+msgstr "fab-check"
 
 #: blocks/src/helpers.js:302
 #: blocks/src/helpers.js:537
 msgid "fab-star"
-msgstr ""
+msgstr "fab-star"
 
 #: blocks/src/helpers.js:306
 msgid "fab-bell"
-msgstr ""
+msgstr "fab-bell"
 
 #: blocks/src/helpers.js:310
 msgid "fab-trophy"
-msgstr ""
+msgstr "fab-trophy"
 
 #: blocks/src/helpers.js:314
 msgid "fab-lightbulb"
-msgstr ""
+msgstr "fab-lightbulb"
 
 #: blocks/src/helpers.js:318
 msgid "fab-graduation-cap"
-msgstr ""
+msgstr "fab-graduation-cap"
 
 #: blocks/src/helpers.js:322
 msgid "fab-bolt"
-msgstr ""
+msgstr "fab-bolt"
 
 #: blocks/src/helpers.js:326
 msgid "fab-bookmark"
-msgstr ""
+msgstr "fab-bookmark"
 
 #: blocks/src/helpers.js:330
 msgid "fab-book"
-msgstr ""
+msgstr "fab-book"
 
 #: blocks/src/helpers.js:334
 msgid "fab-download"
-msgstr ""
+msgstr "fab-download"
 
 #: blocks/src/helpers.js:338
 msgid "fab-coffee"
-msgstr ""
+msgstr "fab-coffee"
 
 #: blocks/src/helpers.js:342
 msgid "fab-amazon"
-msgstr ""
+msgstr "fab-amazon"
 
 #: blocks/src/helpers.js:346
 msgid "fab-user"
-msgstr ""
+msgstr "fab-user"
 
 #: blocks/src/helpers.js:350
 msgid "fab-envelope"
-msgstr ""
+msgstr "fab-envelope"
 
 #: blocks/src/helpers.js:354
 msgid "fab-flag"
-msgstr ""
+msgstr "fab-flag"
 
 #: blocks/src/helpers.js:358
 msgid "fab-ban"
-msgstr ""
+msgstr "fab-ban"
 
 #: blocks/src/helpers.js:362
 msgid "fab-calendar"
-msgstr ""
+msgstr "fab-calendar"
 
 #: blocks/src/helpers.js:366
 msgid "fab-clock"
-msgstr ""
+msgstr "fab-clock"
 
 #: blocks/src/helpers.js:370
 msgid "fab-cutlery"
-msgstr ""
+msgstr "fab-cutlery"
 
 #: blocks/src/helpers.js:374
 #: blocks/src/helpers.js:545
 msgid "fab-heart"
-msgstr ""
+msgstr "fab-heart"
 
 #: blocks/src/helpers.js:378
 msgid "fab-camera"
-msgstr ""
+msgstr "fab-camera"
 
 #: blocks/src/helpers.js:382
 msgid "fab-search"
-msgstr ""
+msgstr "fab-search"
 
 #: blocks/src/helpers.js:386
 msgid "fab-file-text"
-msgstr ""
+msgstr "fab-file-text"
 
 #: blocks/src/helpers.js:390
 msgid "fab-folder"
-msgstr ""
+msgstr "fab-folder"
 
 #: blocks/src/helpers.js:394
 msgid "fab-tag"
-msgstr ""
+msgstr "fab-tag"
 
 #: blocks/src/helpers.js:398
 msgid "fab-car"
-msgstr ""
+msgstr "fab-car"
 
 #: blocks/src/helpers.js:402
 msgid "fab-truck"
-msgstr ""
+msgstr "fab-truck"
 
 #: blocks/src/helpers.js:406
 msgid "fab-bicycle"
-msgstr ""
+msgstr "fab-bicycle"
 
 #: blocks/src/helpers.js:410
 msgid "fab-motorcycle"
-msgstr ""
+msgstr "fab-motorcycle"
 
 #: blocks/src/helpers.js:414
 msgid "fab-bus"
-msgstr ""
+msgstr "fab-bus"
 
 #: blocks/src/helpers.js:418
 msgid "fab-plane"
-msgstr ""
+msgstr "fab-plane"
 
 #: blocks/src/helpers.js:422
 msgid "fab-train"
-msgstr ""
+msgstr "fab-train"
 
 #: blocks/src/helpers.js:426
 msgid "fab-subway"
-msgstr ""
+msgstr "fab-subway"
 
 #: blocks/src/helpers.js:430
 msgid "fab-taxi"
-msgstr ""
+msgstr "fab-taxi"
 
 #: blocks/src/helpers.js:434
 msgid "fab-ship"
-msgstr ""
+msgstr "fab-ship"
 
 #: blocks/src/helpers.js:438
 msgid "fab-jpy"
-msgstr ""
+msgstr "fab-jpy"
 
 #: blocks/src/helpers.js:442
 msgid "fab-usd"
-msgstr ""
+msgstr "fab-usd"
 
 #: blocks/src/helpers.js:446
 msgid "fab-eur"
-msgstr ""
+msgstr "fab-eur"
 
 #: blocks/src/helpers.js:450
 msgid "fab-btc"
-msgstr ""
+msgstr "fab-btc"
 
 #: blocks/src/helpers.js:454
 msgid "fab-apple"
-msgstr ""
+msgstr "fab-apple"
 
 #: blocks/src/helpers.js:458
 msgid "fab-android"
-msgstr ""
+msgstr "fab-android"
 
 #: blocks/src/helpers.js:462
 msgid "fab-wordpress"
-msgstr ""
+msgstr "fab-wordpress"
 
 #: blocks/src/helpers.js:469
 msgid "fab-caret-right"
-msgstr ""
+msgstr "fab-caret-right"
 
 #: blocks/src/helpers.js:477
 msgid "fab-check-circle"
-msgstr ""
+msgstr "fab-check-circle"
 
 #: blocks/src/helpers.js:481
 msgid "fab-check-circle-o"
-msgstr ""
+msgstr "fab-check-circle-o"
 
 #: blocks/src/helpers.js:485
 msgid "fab-check-square"
-msgstr ""
+msgstr "fab-check-square"
 
 #: blocks/src/helpers.js:489
 msgid "fab-check-square-o"
-msgstr ""
+msgstr "fab-check-square-o"
 
 #: blocks/src/helpers.js:493
 msgid "fab-caret-square-o-right"
-msgstr ""
+msgstr "fab-caret-square-o-right"
 
 #: blocks/src/helpers.js:497
 msgid "fab-arrow-right"
-msgstr ""
+msgstr "fab-arrow-right"
 
 #: blocks/src/helpers.js:501
 msgid "fab-angle-right"
-msgstr ""
+msgstr "fab-angle-right"
 
 #: blocks/src/helpers.js:505
 msgid "fab-angle-double-right"
-msgstr ""
+msgstr "fab-angle-double-right"
 
 #: blocks/src/helpers.js:509
 msgid "fab-arrow-circle-right"
-msgstr ""
+msgstr "fab-arrow-circle-right"
 
 #: blocks/src/helpers.js:513
 msgid "fab-arrow-circle-o-right"
-msgstr ""
+msgstr "fab-arrow-circle-o-right"
 
 #: blocks/src/helpers.js:517
 msgid "fab-play-circle"
-msgstr ""
+msgstr "fab-play-circle"
 
 #: blocks/src/helpers.js:521
 msgid "fab-play-circle-o"
-msgstr ""
+msgstr "fab-play-circle-o"
 
 #: blocks/src/helpers.js:525
 msgid "fab-chevron-right"
-msgstr ""
+msgstr "fab-chevron-right"
 
 #: blocks/src/helpers.js:529
 msgid "fab-chevron-circle-right"
-msgstr ""
+msgstr "fab-chevron-circle-right"
 
 #: blocks/src/helpers.js:533
 msgid "fab-hand-o-right"
-msgstr ""
+msgstr "fab-hand-o-right"
 
 #: blocks/src/helpers.js:541
 msgid "fab-star-o"
-msgstr ""
+msgstr "fab-star-o"
 
 #: blocks/src/helpers.js:549
 msgid "fab-heart-o"
-msgstr ""
+msgstr "fab-heart-o"
 
 #: blocks/src/helpers.js:553
 msgid "fab-square"
-msgstr ""
+msgstr "fab-square"
 
 #: blocks/src/helpers.js:557
 msgid "fab-square-o"
-msgstr ""
+msgstr "fab-square-o"
 
 #: blocks/src/helpers.js:561
 msgid "fab-circle"
-msgstr ""
+msgstr "fab-circle"
 
 #: blocks/src/helpers.js:565
 msgid "fab-circle-o"
-msgstr ""
+msgstr "fab-circle-o"
 
 #: blocks/src/helpers.js:569
 msgid "fab-dot-circle-o"
-msgstr ""
+msgstr "fab-dot-circle-o"
 
 #: blocks/src/helpers.js:573
 msgid "fab-plus"
-msgstr ""
+msgstr "fab-plus"
 
 #: blocks/src/helpers.js:577
 msgid "fab-plus-circle"
-msgstr ""
+msgstr "fab-plus-circle"
 
 #: blocks/src/helpers.js:581
 msgid "fab-plus-square"
-msgstr ""
+msgstr "fab-plus-square"
 
 #: blocks/src/helpers.js:585
 msgid "fab-plus-square-o"
-msgstr ""
+msgstr "fab-plus-square-o"
 
 #: blocks/src/helpers.js:589
 msgid "fab-minus"
-msgstr ""
+msgstr "fab-minus"
 
 #: blocks/src/helpers.js:593
 msgid "fab-minus-circle"
-msgstr ""
+msgstr "fab-minus-circle"
 
 #: blocks/src/helpers.js:597
 msgid "fab-minus-square"
-msgstr ""
+msgstr "fab-minus-square"
 
 #: blocks/src/helpers.js:601
 msgid "fab-minus-square-o"
-msgstr ""
+msgstr "fab-minus-square-o"
 
 #: blocks/src/helpers.js:605
 msgid "fab-times"
-msgstr ""
+msgstr "fab-times"
 
 #: blocks/src/helpers.js:609
 msgid "fab-times-circle"
-msgstr ""
+msgstr "fab-times-circle"
 
 #: blocks/src/helpers.js:613
 msgid "fab-times-circle-o"
-msgstr ""
+msgstr "fab-times-circle-o"
 
 #: blocks/src/helpers.js:617
 msgid "fab-window-close"
-msgstr ""
+msgstr "fab-window-close"
 
 #: blocks/src/helpers.js:621
 msgid "fab-window-close-o"
-msgstr ""
+msgstr "fab-window-close-o"
 
 #: blocks/src/helpers.js:625
 msgid "fab-paw"
-msgstr ""
+msgstr "fab-paw"
 
 #: blocks/src/layout/column-2/block.js:49
 msgid "2カラム"
@@ -15249,7 +15249,7 @@ msgstr "Tachado (corrección)"
 #: blocks/src/block-universal/tab-caption-box/block.json
 msgctxt "block keyword"
 msgid "caption"
-msgstr ""
+msgstr "caption"
 
 #: blocks/src/block-universal/caption-box/block.json
 #: blocks/src/block-universal/label-box/block.json
@@ -15271,84 +15271,84 @@ msgstr ""
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "box"
-msgstr ""
+msgstr "box"
 
 #: blocks/src/block-universal/label-box/block.json
 msgctxt "block keyword"
 msgid "label"
-msgstr ""
+msgstr "label"
 
 #: blocks/src/block-universal/tab-caption-box/block.json
 #: blocks/src/block/tab-box/block.json
 #: blocks/src/block/tab/block.json
 msgctxt "block keyword"
 msgid "tab"
-msgstr ""
+msgstr "tab"
 
 #: blocks/src/block/ad/block.json
 msgctxt "block keyword"
 msgid "ad"
-msgstr ""
+msgstr "ad"
 
 #: blocks/src/block/balloon/block.json
 #: blocks/src/micro/micro-balloon/block.json
 msgctxt "block keyword"
 msgid "balloon"
-msgstr ""
+msgstr "balloon"
 
 #: blocks/src/block/blank-box/block.json
 msgctxt "block keyword"
 msgid "blank"
-msgstr ""
+msgstr "blank"
 
 #: blocks/src/block/blogcard/block.json
 msgctxt "block keyword"
 msgid "blogcard"
-msgstr ""
+msgstr "blogcard"
 
 #: blocks/src/block/blogcard/block.json
 #: blocks/src/block/button-wrap/block.json
 msgctxt "block keyword"
 msgid "wrap"
-msgstr ""
+msgstr "wrap"
 
 #: blocks/src/block/box-menu/block.json
 msgctxt "block keyword"
 msgid "box-menu"
-msgstr ""
+msgstr "box-menu"
 
 #: blocks/src/block/button-wrap/block.json
 #: blocks/src/block/button/block.json
 msgctxt "block keyword"
 msgid "button"
-msgstr ""
+msgstr "button"
 
 #: blocks/src/block/button-wrap/block.json
 #: blocks/src/block/button/block.json
 msgctxt "block keyword"
 msgid "btn"
-msgstr ""
+msgstr "btn"
 
 #: blocks/src/block/comparison-box/block.json
 msgctxt "block keyword"
 msgid "comparison"
-msgstr ""
+msgstr "comparison"
 
 #: blocks/src/block/cta/block.json
 msgctxt "block keyword"
 msgid "cta"
-msgstr ""
+msgstr "cta"
 
 #: blocks/src/block/faq/block.json
 msgctxt "block keyword"
 msgid "faq"
-msgstr ""
+msgstr "faq"
 
 #: blocks/src/block/icon-box/block.json
 #: blocks/src/block/icon-list/block.json
 msgctxt "block keyword"
 msgid "icon"
-msgstr ""
+msgstr "icon"
 
 #: blocks/src/block/icon-list/block.json
 #: blocks/src/block/info-list/block.json
@@ -15356,88 +15356,88 @@ msgstr ""
 #: blocks/src/block/popular-list/block.json
 msgctxt "block keyword"
 msgid "list"
-msgstr ""
+msgstr "list"
 
 #: blocks/src/block/info-box/block.json
 #: blocks/src/block/info-list/block.json
 msgctxt "block keyword"
 msgid "info"
-msgstr ""
+msgstr "info"
 
 #: blocks/src/block/navicard/block.json
 msgctxt "block keyword"
 msgid "navi"
-msgstr ""
+msgstr "navi"
 
 #: blocks/src/block/navicard/block.json
 msgctxt "block keyword"
 msgid "card"
-msgstr ""
+msgstr "card"
 
 #: blocks/src/block/new-list/block.json
 msgctxt "block keyword"
 msgid "new"
-msgstr ""
+msgstr "new"
 
 #: blocks/src/block/popular-list/block.json
 msgctxt "block keyword"
 msgid "popular"
-msgstr ""
+msgstr "popular"
 
 #: blocks/src/block/profile/block.json
 msgctxt "block keyword"
 msgid "profile"
-msgstr ""
+msgstr "profile"
 
 #: blocks/src/block/profile/block.json
 msgctxt "block keyword"
 msgid "author"
-msgstr ""
+msgstr "author"
 
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
 msgid "ranking"
-msgstr ""
+msgstr "ranking"
 
 #: blocks/src/block/search-box/block.json
 msgctxt "block keyword"
 msgid "search"
-msgstr ""
+msgstr "search"
 
 #: blocks/src/block/sticky-box/block.json
 msgctxt "block keyword"
 msgid "sticky"
-msgstr ""
+msgstr "sticky"
 
 #: blocks/src/block/template/block.json
 msgctxt "block keyword"
 msgid "template"
-msgstr ""
+msgstr "template"
 
 #: blocks/src/block/timeline/block.json
 msgctxt "block keyword"
 msgid "timeline"
-msgstr ""
+msgstr "timeline"
 
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "toggle"
-msgstr ""
+msgstr "toggle"
 
 #: blocks/src/micro/micro-balloon/block.json
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "micro"
-msgstr ""
+msgstr "micro"
 
 #: blocks/src/micro/micro-balloon/block.json
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "copy"
-msgstr ""
+msgstr "copy"
 
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "text"
-msgstr ""
+msgstr "text"
 
