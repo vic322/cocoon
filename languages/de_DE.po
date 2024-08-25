@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-24T16:00:06+00:00\n"
-"PO-Revision-Date: 2024-08-24 16:45\n"
+"PO-Revision-Date: 2024-08-25 00:54\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12823,7 +12823,7 @@ msgstr "Je größer der Wert, desto intensiver das Weiß."
 
 #: skins/skin-grayish-topfull/functions.php:1581
 msgid "（白色なし）"
-msgstr ""
+msgstr "(Kein Weiß)"
 
 #: skins/skin-grayish-topfull/functions.php:1611
 msgid "画像アップロード"
