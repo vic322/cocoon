@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-29T00:24:31+00:00\n"
-"PO-Revision-Date: 2024-08-29 01:49\n"
+"PO-Revision-Date: 2024-08-29 03:46\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -10887,11 +10887,11 @@ msgstr "Le shortcode updated ne peut être utilisé que sur des articles ou des 
 
 #: lib/shortcodes.php:1087
 msgid "保存エラー"
-msgstr ""
+msgstr "Enregistrer l’erreur"
 
 #: lib/shortcodes.php:1105
 msgid "エラー："
-msgstr ""
+msgstr "Erreur : "
 
 #: lib/sns-follow.php:135
 msgid "X（旧Twitter） URL"
@@ -11719,11 +11719,11 @@ msgstr "Bulle Facebook"
 
 #: lib/widgets/fb-like-balloon.php:23
 msgid "投稿・個別ページのアイキャッチを利用したFacebookページへの「フォロー」ボタンを表示するウィジェットです。"
-msgstr ""
+msgstr "Ce widget sert à afficher le bouton \"Suivre\" sur une page Facebook en utilisant l'image en vedette d'un article ou d'une page individuelle."
 
 #: lib/widgets/fb-like-balloon.php:79
 msgid "この記事が気に入ったら最新ニュース情報を、<br><span class=\"bold-red\">フォロー</span>してチェックしよう！"
-msgstr ""
+msgstr "Si vous avez aimé cet article, <br><span class=\"bold-red\">Suivre</span> les dernières nouvelles!"
 
 #: lib/widgets/fb-like-balloon.php:87
 #: lib/widgets/fb-like-box.php:123
@@ -11745,13 +11745,13 @@ msgstr "Boîte Facebook"
 
 #: lib/widgets/fb-like-box.php:22
 msgid "「この記事が気に入ったらフォローしよう」ウィジェットです。"
-msgstr ""
+msgstr "C'est le widget \"Si vous avez aimé cet article, Suivre!\"."
 
 #: lib/widgets/fb-like-box.php:31
 #: lib/widgets/fb-like-box.php:109
 #: lib/widgets/fb-like-box.php:111
 msgid "この記事が気に入ったら<br>フォローしよう"
-msgstr ""
+msgstr "Si vous avez aimé cet article,<br>Suivre!"
 
 #: lib/widgets/fb-like-box.php:32
 #: lib/widgets/fb-like-box.php:118
@@ -12128,15 +12128,15 @@ msgstr "Voulez-vous vraiment le supprimer ?"
 
 #: lib/_defins.php:338
 msgid "無限ループを避けるため[toc]ショートコードはパターンでは使用できません。"
-msgstr ""
+msgstr "Pour éviter les boucles infinies, le shortcodes [toc] ne peut pas être utilisé dans les modèles."
 
 #: lib/_defins.php:338
 msgid "ショートコードを削除してください。"
-msgstr ""
+msgstr "Supprimer le shortcodes."
 
 #: lib/_defins.php:338
 msgid "ショートコードが使用されている場合でも表示時に取り消されます。"
-msgstr ""
+msgstr "Même si un shortcode est utilisé, il est annulé à l'affichage."
 
 #: lib/_defins.php:341
 msgid "www.amazon.co.jp"
