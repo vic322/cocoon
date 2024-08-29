@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-29T00:24:31+00:00\n"
-"PO-Revision-Date: 2024-08-29 01:49\n"
+"PO-Revision-Date: 2024-08-29 02:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -10887,11 +10887,11 @@ msgstr "更新的簡碼僅可用於文章和固定頁面。"
 
 #: lib/shortcodes.php:1087
 msgid "保存エラー"
-msgstr ""
+msgstr "保存错误"
 
 #: lib/shortcodes.php:1105
 msgid "エラー："
-msgstr ""
+msgstr "錯誤："
 
 #: lib/sns-follow.php:135
 msgid "X（旧Twitter） URL"
@@ -11714,11 +11714,11 @@ msgstr "Facebook氣球"
 
 #: lib/widgets/fb-like-balloon.php:23
 msgid "投稿・個別ページのアイキャッチを利用したFacebookページへの「フォロー」ボタンを表示するウィジェットです。"
-msgstr ""
+msgstr "這是一個插件，用於顯示帶有文章/個別頁面亮點圖片的Facebook頁面上的“關注”按鈕。"
 
 #: lib/widgets/fb-like-balloon.php:79
 msgid "この記事が気に入ったら最新ニュース情報を、<br><span class=\"bold-red\">フォロー</span>してチェックしよう！"
-msgstr ""
+msgstr "如果您喜歡這篇文章，請按<span class=\"bold-red\">關注</span>，以查看最新消息！"
 
 #: lib/widgets/fb-like-balloon.php:87
 #: lib/widgets/fb-like-box.php:123
