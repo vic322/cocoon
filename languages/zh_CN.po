@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-29T00:24:31+00:00\n"
-"PO-Revision-Date: 2024-08-29 01:49\n"
+"PO-Revision-Date: 2024-08-29 02:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -10887,11 +10887,11 @@ msgstr "updated短代码仅在文章和固定页面中可用。"
 
 #: lib/shortcodes.php:1087
 msgid "保存エラー"
-msgstr ""
+msgstr "保存错误"
 
 #: lib/shortcodes.php:1105
 msgid "エラー："
-msgstr ""
+msgstr "错误："
 
 #: lib/sns-follow.php:135
 msgid "X（旧Twitter） URL"
@@ -11714,11 +11714,11 @@ msgstr "Facebook气球"
 
 #: lib/widgets/fb-like-balloon.php:23
 msgid "投稿・個別ページのアイキャッチを利用したFacebookページへの「フォロー」ボタンを表示するウィジェットです。"
-msgstr ""
+msgstr "这是一个显示“关注”按钮的组件，使用文章或独立页面的特色图片链接到Facebook页面。"
 
 #: lib/widgets/fb-like-balloon.php:79
 msgid "この記事が気に入ったら最新ニュース情報を、<br><span class=\"bold-red\">フォロー</span>してチェックしよう！"
-msgstr ""
+msgstr "如果你喜欢这篇文章，请点赞获取最新资讯。<br><span class=\"bold-red\">关注</span>以查看！"
 
 #: lib/widgets/fb-like-balloon.php:87
 #: lib/widgets/fb-like-box.php:123
@@ -11740,13 +11740,13 @@ msgstr "Facebook盒子"
 
 #: lib/widgets/fb-like-box.php:22
 msgid "「この記事が気に入ったらフォローしよう」ウィジェットです。"
-msgstr ""
+msgstr "这是一个“如果你喜欢这篇文章，请关注！”组件。"
 
 #: lib/widgets/fb-like-box.php:31
 #: lib/widgets/fb-like-box.php:109
 #: lib/widgets/fb-like-box.php:111
 msgid "この記事が気に入ったら<br>フォローしよう"
-msgstr ""
+msgstr "如果你喜欢这篇文章<br>请关注"
 
 #: lib/widgets/fb-like-box.php:32
 #: lib/widgets/fb-like-box.php:118
@@ -12123,15 +12123,15 @@ msgstr "确定要删除吗？"
 
 #: lib/_defins.php:338
 msgid "無限ループを避けるため[toc]ショートコードはパターンでは使用できません。"
-msgstr ""
+msgstr "为避免无限循环，模式中不能使用 [toc] 简码。"
 
 #: lib/_defins.php:338
 msgid "ショートコードを削除してください。"
-msgstr ""
+msgstr "删除简码。"
 
 #: lib/_defins.php:338
 msgid "ショートコードが使用されている場合でも表示時に取り消されます。"
-msgstr ""
+msgstr "即使使用了简码，也会在显示时取消。"
 
 #: lib/_defins.php:341
 msgid "www.amazon.co.jp"
