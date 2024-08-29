@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-08-29T00:24:31+00:00\n"
-"PO-Revision-Date: 2024-08-29 02:53\n"
+"PO-Revision-Date: 2024-08-29 03:46\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -11740,13 +11740,13 @@ msgstr "Facebook框"
 
 #: lib/widgets/fb-like-box.php:22
 msgid "「この記事が気に入ったらフォローしよう」ウィジェットです。"
-msgstr ""
+msgstr "這是一個“如果你喜歡這篇文章，關注！”的插件。"
 
 #: lib/widgets/fb-like-box.php:31
 #: lib/widgets/fb-like-box.php:109
 #: lib/widgets/fb-like-box.php:111
 msgid "この記事が気に入ったら<br>フォローしよう"
-msgstr ""
+msgstr "如果你喜歡這篇文章，<br>請按關注！"
 
 #: lib/widgets/fb-like-box.php:32
 #: lib/widgets/fb-like-box.php:118
@@ -12123,15 +12123,15 @@ msgstr "您真的確定要刪除嗎？"
 
 #: lib/_defins.php:338
 msgid "無限ループを避けるため[toc]ショートコードはパターンでは使用できません。"
-msgstr ""
+msgstr "为避免无限循环，模式中不能使用 [toc] 简码。"
 
 #: lib/_defins.php:338
 msgid "ショートコードを削除してください。"
-msgstr ""
+msgstr "删除简码。"
 
 #: lib/_defins.php:338
 msgid "ショートコードが使用されている場合でも表示時に取り消されます。"
-msgstr ""
+msgstr "即使使用了简码，也会在显示时取消。"
 
 #: lib/_defins.php:341
 msgid "www.amazon.co.jp"
