@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 04:33\n"
+"PO-Revision-Date: 2024-10-01 05:38\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12441,7 +12441,7 @@ msgstr "Haupt, Hellblau"
 
 #: skins/skin-grayish-topfull/functions.php:427
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのView Moreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr ""
+msgstr "Die Hintergrundfarbe der dritten Ebene der globalen Navigation, die Farbe der Schaltfläche \"Mehr sehen\" auf der Startseite, die Schaltfläche \"Zur nächsten Seite\" und die Hintergrundfarbe beim Hover im Tag-Cloud."
 
 #: skins/skin-grayish-topfull/functions.php:444
 msgid "メイン 一番薄い青"
@@ -12743,19 +12743,19 @@ msgstr "Wenn das Feld leer ist, wird \"Kategorie\" angezeigt."
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "View More"
-msgstr ""
+msgstr "Mehr sehen"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】View Moreボタン \"View More\"を変更"
-msgstr ""
+msgstr "[Startseite] \"Mehr sehen\" Schaltfläche ändern"
 
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "\"View More\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "\"Mehr sehen\" kann in einen anderen Text geändert werden."
 
 #: skins/skin-grayish-topfull/functions.php:1215
 msgid "※空欄の場合は\"View More\"が表示されます。"
-msgstr ""
+msgstr "Wenn das Feld leer ist, wird \"Mehr sehen\" angezeigt."
 
 #: skins/skin-grayish-topfull/functions.php:1225
 #: skins/skin-grayish-topfull/functions.php:1347
