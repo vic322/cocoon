@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 04:33\n"
+"PO-Revision-Date: 2024-10-01 11:06\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -8016,11 +8016,11 @@ msgstr "Image d'accueil"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "インデックスページのOGPやTwitter Cardsで表示する画像の設定です。"
-msgstr ""
+msgstr "Il s'agit du paramétrage des images à afficher dans le OGP et les cartes Twitter sur la page d'index."
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "フロントページが固定ページに設定してある場合は、固定ページのアイキャッチが優先されます。"
-msgstr ""
+msgstr "Si la page d'accueil est une page fixe, l'accroche de la page fixe est prioritaire."
 
 #: lib/page-settings/ogp-forms.php:124
 msgid "画像のアップロード"
@@ -12441,7 +12441,7 @@ msgstr "Principal Bleu clair"
 
 #: skins/skin-grayish-topfull/functions.php:427
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのView Moreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr ""
+msgstr "Couleur de fond du troisième niveau de la navigation globale, bouton Voir More sur la page d'accueil, bouton Next page, couleur de fond du nuage de tags lors du survol."
 
 #: skins/skin-grayish-topfull/functions.php:444
 msgid "メイン 一番薄い青"
@@ -12743,19 +12743,19 @@ msgstr "Si le champ est laissé vide, “Catégorie” sera affiché."
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "View More"
-msgstr ""
+msgstr "Voir Plus"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】View Moreボタン \"View More\"を変更"
-msgstr ""
+msgstr "[Page d'accueil] Changer le bouton “Voir Plus”"
 
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "\"View More\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "\"Voir Plus\" peut être changé en un autre texte."
 
 #: skins/skin-grayish-topfull/functions.php:1215
 msgid "※空欄の場合は\"View More\"が表示されます。"
-msgstr ""
+msgstr "Si le champ est laissé vide, “Voir Plus” sera affiché."
 
 #: skins/skin-grayish-topfull/functions.php:1225
 #: skins/skin-grayish-topfull/functions.php:1347
@@ -14458,83 +14458,83 @@ msgstr "Afficher le profil de l'utilisateur."
 #: blocks/src/block/radar/edit.js:93
 #: blocks/src/block/radar/save.js:115
 msgid "総計:"
-msgstr ""
+msgstr "Total :"
 
 #: blocks/src/block/radar/edit.js:244
 msgid "チャートカラー"
-msgstr ""
+msgstr "Couleur du graphique"
 
 #: blocks/src/block/radar/edit.js:250
 msgid "チャート設定"
-msgstr ""
+msgstr "Paramètres du graphique"
 
 #: blocks/src/block/radar/edit.js:252
 msgid "キャンバスサイズ"
-msgstr ""
+msgstr "Taille de la zone de dessin"
 
 #: blocks/src/block/radar/edit.js:267
 msgid "最大値"
-msgstr ""
+msgstr "Maximum"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "タイトルを表示"
-msgstr ""
+msgstr "Afficher le titre"
 
 #: blocks/src/block/radar/edit.js:290
 msgid "ここにタイトルを入力してください"
-msgstr ""
+msgstr "Entrez le titre ici"
 
 #: blocks/src/block/radar/edit.js:294
 msgid "データ名を表示"
-msgstr ""
+msgstr "Afficher le nom des données"
 
 #: blocks/src/block/radar/edit.js:300
 msgid "データ名"
-msgstr ""
+msgstr "nom des données"
 
 #: blocks/src/block/radar/edit.js:303
 msgid "ここに凡例を入力してください"
-msgstr ""
+msgstr "Entrez la légende ici"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "項目"
-msgstr ""
+msgstr "Items"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "（カンマ区切りで何項目でも入力可）"
-msgstr ""
+msgstr "(il est possible de saisir un nombre quelconque d'éléments, séparés par des virgules)"
 
 #: blocks/src/block/radar/edit.js:310
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
-msgstr ""
+msgstr "Item A, Item B, Item C, Item D, Item E"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "値"
-msgstr ""
+msgstr "Valeurs"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "（カンマ区切りで項目の数だけ入力可）"
-msgstr ""
+msgstr "(Vous pouvez saisir autant d'éléments que vous le souhaitez, séparés par des virgules)"
 
 #: blocks/src/block/radar/edit.js:329
 msgid "1, 2, 3, 4, 5"
-msgstr ""
+msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:332
 msgid "総計を表示"
-msgstr ""
+msgstr "Afficher le total"
 
 #: blocks/src/block/radar/edit.js:337
 msgid "項目に値を表示"
-msgstr ""
+msgstr "Affichage des valeurs des items"
 
 #: blocks/src/block/radar/edit.js:342
 msgid "値が最大値を超えるのを許可"
-msgstr ""
+msgstr "Autorise le dépassement de la valeur maximale"
 
 #: blocks/src/block/radar/edit.js:347
 msgid "アングルラインを表示"
-msgstr ""
+msgstr "Affichage des lignes d'angle"
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
@@ -15502,12 +15502,12 @@ msgstr "author"
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "radar"
-msgstr ""
+msgstr "radar"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "chart"
-msgstr ""
+msgstr "chart"
 
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
