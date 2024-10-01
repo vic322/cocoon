@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 11:06\n"
+"PO-Revision-Date: 2024-10-01 13:46\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -14458,83 +14458,83 @@ msgstr "Exibe a biografia do usuário."
 #: blocks/src/block/radar/edit.js:93
 #: blocks/src/block/radar/save.js:115
 msgid "総計:"
-msgstr ""
+msgstr "Total:"
 
 #: blocks/src/block/radar/edit.js:244
 msgid "チャートカラー"
-msgstr ""
+msgstr "Cor do gráfico"
 
 #: blocks/src/block/radar/edit.js:250
 msgid "チャート設定"
-msgstr ""
+msgstr "Configurações do gráfico"
 
 #: blocks/src/block/radar/edit.js:252
 msgid "キャンバスサイズ"
-msgstr ""
+msgstr "Tamanho da tela"
 
 #: blocks/src/block/radar/edit.js:267
 msgid "最大値"
-msgstr ""
+msgstr "Máximo"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "タイトルを表示"
-msgstr ""
+msgstr "Mostrar título"
 
 #: blocks/src/block/radar/edit.js:290
 msgid "ここにタイトルを入力してください"
-msgstr ""
+msgstr "Introduzir título aqui"
 
 #: blocks/src/block/radar/edit.js:294
 msgid "データ名を表示"
-msgstr ""
+msgstr "Exibir nome dos dados"
 
 #: blocks/src/block/radar/edit.js:300
 msgid "データ名"
-msgstr ""
+msgstr "Nome dos dados"
 
 #: blocks/src/block/radar/edit.js:303
 msgid "ここに凡例を入力してください"
-msgstr ""
+msgstr "Introduzir legenda aqui"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "項目"
-msgstr ""
+msgstr "Itens"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "（カンマ区切りで何項目でも入力可）"
-msgstr ""
+msgstr "(Pode inserir quantos itens quiser, separados por vírgulas)"
 
 #: blocks/src/block/radar/edit.js:310
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
-msgstr ""
+msgstr "Item A, Item B, Item C, Item D, Item E"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "値"
-msgstr ""
+msgstr "Valores"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "（カンマ区切りで項目の数だけ入力可）"
-msgstr ""
+msgstr "(Pode inserir apenas o número de itens, separados por vírgulas)"
 
 #: blocks/src/block/radar/edit.js:329
 msgid "1, 2, 3, 4, 5"
-msgstr ""
+msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:332
 msgid "総計を表示"
-msgstr ""
+msgstr "Exibir o total"
 
 #: blocks/src/block/radar/edit.js:337
 msgid "項目に値を表示"
-msgstr ""
+msgstr "Exibir valores nos itens"
 
 #: blocks/src/block/radar/edit.js:342
 msgid "値が最大値を超えるのを許可"
-msgstr ""
+msgstr "Permitir que o valor exceda o valor máximo"
 
 #: blocks/src/block/radar/edit.js:347
 msgid "アングルラインを表示"
-msgstr ""
+msgstr "Exibir linha de ângulo"
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
@@ -15502,12 +15502,12 @@ msgstr "author"
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "radar"
-msgstr ""
+msgstr "radar"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "chart"
-msgstr ""
+msgstr "chart"
 
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
