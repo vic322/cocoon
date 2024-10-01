@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 04:33\n"
+"PO-Revision-Date: 2024-10-01 05:38\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -14490,51 +14490,51 @@ msgstr "Display data name"
 
 #: blocks/src/block/radar/edit.js:300
 msgid "データ名"
-msgstr ""
+msgstr "Data name"
 
 #: blocks/src/block/radar/edit.js:303
 msgid "ここに凡例を入力してください"
-msgstr ""
+msgstr "Enter legend here"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "項目"
-msgstr ""
+msgstr "Items"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "（カンマ区切りで何項目でも入力可）"
-msgstr ""
+msgstr "(You may enter as many items as you wish, separated by commas)"
 
 #: blocks/src/block/radar/edit.js:310
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
-msgstr ""
+msgstr "Item A, Item B, Item C, Item D, Item E"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "値"
-msgstr ""
+msgstr "Values"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "（カンマ区切りで項目の数だけ入力可）"
-msgstr ""
+msgstr "(Only count of items can be entered, separated by commas)"
 
 #: blocks/src/block/radar/edit.js:329
 msgid "1, 2, 3, 4, 5"
-msgstr ""
+msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:332
 msgid "総計を表示"
-msgstr ""
+msgstr "Display total"
 
 #: blocks/src/block/radar/edit.js:337
 msgid "項目に値を表示"
-msgstr ""
+msgstr "Display values for items"
 
 #: blocks/src/block/radar/edit.js:342
 msgid "値が最大値を超えるのを許可"
-msgstr ""
+msgstr "Allow value to exceed maximum"
 
 #: blocks/src/block/radar/edit.js:347
 msgid "アングルラインを表示"
-msgstr ""
+msgstr "Display angle lines"
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
@@ -15502,12 +15502,12 @@ msgstr "author"
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "radar"
-msgstr ""
+msgstr "radar"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "chart"
-msgstr ""
+msgstr "chart"
 
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
