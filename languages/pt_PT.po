@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 04:33\n"
+"PO-Revision-Date: 2024-10-01 11:06\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -8016,11 +8016,11 @@ msgstr "Imagem da página inicial"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "インデックスページのOGPやTwitter Cardsで表示する画像の設定です。"
-msgstr ""
+msgstr "Esta é a definição das imagens a apresentar no OGP e nos Twitter Cards na página de índice."
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "フロントページが固定ページに設定してある場合は、固定ページのアイキャッチが優先されます。"
-msgstr ""
+msgstr "Se a página inicial estiver definida como uma página estática, a imagem destacada da página estática terá prioridade."
 
 #: lib/page-settings/ogp-forms.php:124
 msgid "画像のアップロード"
@@ -12441,7 +12441,7 @@ msgstr "Principal Azul claro"
 
 #: skins/skin-grayish-topfull/functions.php:427
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのView Moreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr ""
+msgstr "Cor de fundo da terceira camada do menu de navegação global, botão \"Ver Mais\" na página inicial, botão \"Próximo\" e a cor de fundo ao passar o mouse sobre as tags no \"Tag Cloud\"."
 
 #: skins/skin-grayish-topfull/functions.php:444
 msgid "メイン 一番薄い青"
@@ -12743,19 +12743,19 @@ msgstr "Se deixado em branco, \"Categoria\" será exibido."
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "View More"
-msgstr ""
+msgstr "Ver Mais"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】View Moreボタン \"View More\"を変更"
-msgstr ""
+msgstr "[Página inicial] Alterar botão \"Ver Mais\""
 
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "\"View More\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "\"Ver Mais\" pode ser alterado para outro texto."
 
 #: skins/skin-grayish-topfull/functions.php:1215
 msgid "※空欄の場合は\"View More\"が表示されます。"
-msgstr ""
+msgstr "Se deixado em branco, \"Ver Mais\" será exibido."
 
 #: skins/skin-grayish-topfull/functions.php:1225
 #: skins/skin-grayish-topfull/functions.php:1347
