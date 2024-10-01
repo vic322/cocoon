@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 05:38\n"
+"PO-Revision-Date: 2024-10-01 07:07\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -8016,11 +8016,11 @@ msgstr "Startseitenbild"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "インデックスページのOGPやTwitter Cardsで表示する画像の設定です。"
-msgstr ""
+msgstr "Dies ist die Einstellung der Bilder, die in den OGP- und Twitter-Karten auf der Index-Seite angezeigt werden."
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "フロントページが固定ページに設定してある場合は、固定ページのアイキャッチが優先されます。"
-msgstr ""
+msgstr "Wenn die Titelseite auf eine feste Seite eingestellt ist, hat der Blickfang für die feste Seite Vorrang."
 
 #: lib/page-settings/ogp-forms.php:124
 msgid "画像のアップロード"
@@ -14458,83 +14458,83 @@ msgstr "Zeigt das Profil des Benutzers an."
 #: blocks/src/block/radar/edit.js:93
 #: blocks/src/block/radar/save.js:115
 msgid "総計:"
-msgstr ""
+msgstr "Gesamt:"
 
 #: blocks/src/block/radar/edit.js:244
 msgid "チャートカラー"
-msgstr ""
+msgstr "Diagrammfarben"
 
 #: blocks/src/block/radar/edit.js:250
 msgid "チャート設定"
-msgstr ""
+msgstr "Diagrammeinstellungen"
 
 #: blocks/src/block/radar/edit.js:252
 msgid "キャンバスサイズ"
-msgstr ""
+msgstr "Größe der Zeichenfläche"
 
 #: blocks/src/block/radar/edit.js:267
 msgid "最大値"
-msgstr ""
+msgstr "Maximum"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "タイトルを表示"
-msgstr ""
+msgstr "Titel anzeigen"
 
 #: blocks/src/block/radar/edit.js:290
 msgid "ここにタイトルを入力してください"
-msgstr ""
+msgstr "Titel hier eingeben"
 
 #: blocks/src/block/radar/edit.js:294
 msgid "データ名を表示"
-msgstr ""
+msgstr "Name der Datenanzeige"
 
 #: blocks/src/block/radar/edit.js:300
 msgid "データ名"
-msgstr ""
+msgstr "Daten-Name"
 
 #: blocks/src/block/radar/edit.js:303
 msgid "ここに凡例を入力してください"
-msgstr ""
+msgstr "Legende hier eingeben"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "項目"
-msgstr ""
+msgstr "Fields"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "（カンマ区切りで何項目でも入力可）"
-msgstr ""
+msgstr "(es kann eine beliebige Anzahl von Positionen eingegeben werden, die durch Kommas getrennt sind)"
 
 #: blocks/src/block/radar/edit.js:310
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
-msgstr ""
+msgstr "Posten A, Posten B, Posten C, Posten D, Posten E"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "値"
-msgstr ""
+msgstr "Werts"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "（カンマ区切りで項目の数だけ入力可）"
-msgstr ""
+msgstr "(Sie können beliebig viele Einträge vornehmen, die durch Kommata getrennt sind)"
 
 #: blocks/src/block/radar/edit.js:329
 msgid "1, 2, 3, 4, 5"
-msgstr ""
+msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:332
 msgid "総計を表示"
-msgstr ""
+msgstr "Summe anzeigen"
 
 #: blocks/src/block/radar/edit.js:337
 msgid "項目に値を表示"
-msgstr ""
+msgstr "Werte für Positionen anzeigen"
 
 #: blocks/src/block/radar/edit.js:342
 msgid "値が最大値を超えるのを許可"
-msgstr ""
+msgstr "Erlaubt, dass der Wert den Höchstwert überschreitet"
 
 #: blocks/src/block/radar/edit.js:347
 msgid "アングルラインを表示"
-msgstr ""
+msgstr "Winkellinien anzeigen"
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
@@ -15502,12 +15502,12 @@ msgstr "author"
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "radar"
-msgstr ""
+msgstr "radar"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "chart"
-msgstr ""
+msgstr "Karte"
 
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
