@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 04:33\n"
+"PO-Revision-Date: 2024-10-01 16:06\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -12436,7 +12436,7 @@ msgstr "메인 연한 파란색"
 
 #: skins/skin-grayish-topfull/functions.php:427
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのView Moreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr ""
+msgstr "글로벌 내비게이션의 3단계 배경색, <br>프론트 페이지의 View More 버튼, 다음 페이지 버튼, 태그 클라우드의 호버 시 배경색."
 
 #: skins/skin-grayish-topfull/functions.php:444
 msgid "メイン 一番薄い青"
@@ -12738,19 +12738,19 @@ msgstr "※빈칸일 경우 \"Category\"가 표시됩니다."
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "View More"
-msgstr ""
+msgstr "View More"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】View Moreボタン \"View More\"を変更"
-msgstr ""
+msgstr "【프론트 페이지】View More 버튼 \"More\"를 변경"
 
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "\"View More\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "\"View More\"를 다른 텍스트로 변경할 수 있습니다."
 
 #: skins/skin-grayish-topfull/functions.php:1215
 msgid "※空欄の場合は\"View More\"が表示されます。"
-msgstr ""
+msgstr "※빈칸일 경우 \"View More\"가 표시됩니다."
 
 #: skins/skin-grayish-topfull/functions.php:1225
 #: skins/skin-grayish-topfull/functions.php:1347
