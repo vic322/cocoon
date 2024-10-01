@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 04:33\n"
+"PO-Revision-Date: 2024-10-01 13:46\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -8016,11 +8016,11 @@ msgstr "主页图像"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "インデックスページのOGPやTwitter Cardsで表示する画像の設定です。"
-msgstr ""
+msgstr "这是在索引页面中设置OGP和Twitter Cards显示的图片。"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "フロントページが固定ページに設定してある場合は、固定ページのアイキャッチが優先されます。"
-msgstr ""
+msgstr "如果首页设置为固定页面，则优先显示固定页面的特色图片。"
 
 #: lib/page-settings/ogp-forms.php:124
 msgid "画像のアップロード"
@@ -12436,7 +12436,7 @@ msgstr "主要 浅蓝色"
 
 #: skins/skin-grayish-topfull/functions.php:427
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのView Moreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr ""
+msgstr "全局导航的第三级背景色、<br>首页\"查看更多\"按钮、下一页按钮、标签云悬停时的背景色。"
 
 #: skins/skin-grayish-topfull/functions.php:444
 msgid "メイン 一番薄い青"
@@ -12738,19 +12738,19 @@ msgstr "※如果留空，将显示“Category”。"
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "View More"
-msgstr ""
+msgstr "查看更多"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】View Moreボタン \"View More\"を変更"
-msgstr ""
+msgstr "[首页] 更改更多按钮 \"查看更多\""
 
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "\"View More\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "可以将\"查看更多\"更改为其他文本。"
 
 #: skins/skin-grayish-topfull/functions.php:1215
 msgid "※空欄の場合は\"View More\"が表示されます。"
-msgstr ""
+msgstr "※如果留空，将显示\"查看更多\"。"
 
 #: skins/skin-grayish-topfull/functions.php:1225
 #: skins/skin-grayish-topfull/functions.php:1347
@@ -14453,83 +14453,83 @@ msgstr "显示简介。"
 #: blocks/src/block/radar/edit.js:93
 #: blocks/src/block/radar/save.js:115
 msgid "総計:"
-msgstr ""
+msgstr "累计:"
 
 #: blocks/src/block/radar/edit.js:244
 msgid "チャートカラー"
-msgstr ""
+msgstr "图表颜色"
 
 #: blocks/src/block/radar/edit.js:250
 msgid "チャート設定"
-msgstr ""
+msgstr "图表设置"
 
 #: blocks/src/block/radar/edit.js:252
 msgid "キャンバスサイズ"
-msgstr ""
+msgstr "画布尺寸"
 
 #: blocks/src/block/radar/edit.js:267
 msgid "最大値"
-msgstr ""
+msgstr "最大值"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "タイトルを表示"
-msgstr ""
+msgstr "显示标题"
 
 #: blocks/src/block/radar/edit.js:290
 msgid "ここにタイトルを入力してください"
-msgstr ""
+msgstr "在此输入标题"
 
 #: blocks/src/block/radar/edit.js:294
 msgid "データ名を表示"
-msgstr ""
+msgstr "显示数据名称"
 
 #: blocks/src/block/radar/edit.js:300
 msgid "データ名"
-msgstr ""
+msgstr "数据名称"
 
 #: blocks/src/block/radar/edit.js:303
 msgid "ここに凡例を入力してください"
-msgstr ""
+msgstr "在此输入图例"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "項目"
-msgstr ""
+msgstr "项目"
 
 #: blocks/src/block/radar/edit.js:307
 msgid "（カンマ区切りで何項目でも入力可）"
-msgstr ""
+msgstr "（可以输入任意数量的项目，使用逗号分隔）"
 
 #: blocks/src/block/radar/edit.js:310
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
-msgstr ""
+msgstr "项目A, 项目B, 项目C, 项目D, 项目E"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "値"
-msgstr ""
+msgstr "值"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "（カンマ区切りで項目の数だけ入力可）"
-msgstr ""
+msgstr "（只能输入与项目数量相等的项，用逗号分隔）"
 
 #: blocks/src/block/radar/edit.js:329
 msgid "1, 2, 3, 4, 5"
-msgstr ""
+msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:332
 msgid "総計を表示"
-msgstr ""
+msgstr "显示总计"
 
 #: blocks/src/block/radar/edit.js:337
 msgid "項目に値を表示"
-msgstr ""
+msgstr "在项目上显示数值"
 
 #: blocks/src/block/radar/edit.js:342
 msgid "値が最大値を超えるのを許可"
-msgstr ""
+msgstr "允许数值超过最大值"
 
 #: blocks/src/block/radar/edit.js:347
 msgid "アングルラインを表示"
-msgstr ""
+msgstr "显示角度线"
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
@@ -15497,12 +15497,12 @@ msgstr "author"
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "radar"
-msgstr ""
+msgstr "雷达图"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "chart"
-msgstr ""
+msgstr "图表"
 
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
