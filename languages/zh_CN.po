@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-03T08:10:41+00:00\n"
-"PO-Revision-Date: 2024-10-03 08:14\n"
+"POT-Creation-Date: 2024-10-03T08:25:58+00:00\n"
+"PO-Revision-Date: 2024-10-03 09:00\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2240,12 +2240,12 @@ msgid "茶色"
 msgstr "栗色"
 
 #: lib/gutenberg.php:105
-msgid "薄い灰色"
-msgstr ""
+msgid "ライトグレー"
+msgstr "浅灰色"
 
 #: lib/gutenberg.php:115
 msgid "ダークグレー"
-msgstr ""
+msgstr "暗灰色"
 
 #: lib/gutenberg.php:120
 msgid "黒"
@@ -14467,15 +14467,15 @@ msgstr "累计:"
 
 #: blocks/src/block/radar/edit.js:266
 msgid "チャート色"
-msgstr ""
+msgstr "图表颜色"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "グリッド色"
-msgstr ""
+msgstr "网格颜色"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "（※透過）"
-msgstr ""
+msgstr "（※透明）"
 
 #: blocks/src/block/radar/edit.js:287
 msgid "チャート設定"
