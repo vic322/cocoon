@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-03T08:10:41+00:00\n"
-"PO-Revision-Date: 2024-10-03 08:14\n"
+"POT-Creation-Date: 2024-10-03T08:25:58+00:00\n"
+"PO-Revision-Date: 2024-10-03 09:00\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2240,12 +2240,12 @@ msgid "茶色"
 msgstr "棕色"
 
 #: lib/gutenberg.php:105
-msgid "薄い灰色"
-msgstr ""
+msgid "ライトグレー"
+msgstr "淺灰色"
 
 #: lib/gutenberg.php:115
 msgid "ダークグレー"
-msgstr ""
+msgstr "深灰色"
 
 #: lib/gutenberg.php:120
 msgid "黒"
@@ -8026,11 +8026,11 @@ msgstr "主頁圖片"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "インデックスページのOGPやTwitter Cardsで表示する画像の設定です。"
-msgstr ""
+msgstr "這是設定索引頁面中在OGP和Twitter Cards上顯示的圖片。"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "フロントページが固定ページに設定してある場合は、固定ページのアイキャッチが優先されます。"
-msgstr ""
+msgstr "如果首頁設定為靜態頁面，則優先使用靜態頁面的特色圖片。"
 
 #: lib/page-settings/ogp-forms.php:124
 msgid "画像のアップロード"
@@ -12446,7 +12446,7 @@ msgstr "主要 淡藍色"
 
 #: skins/skin-grayish-topfull/functions.php:427
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのView Moreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr ""
+msgstr "全球導航的第3層背景色，<br>首頁的\"檢視更多\"按鈕，下一頁按鈕，標籤雲的懸停背景色。"
 
 #: skins/skin-grayish-topfull/functions.php:444
 msgid "メイン 一番薄い青"
@@ -12748,19 +12748,19 @@ msgstr "如果留空，將顯示 \"分類\"。"
 #: skins/skin-grayish-topfull/functions.php:1335
 #: skins/skin-grayish-topfull/functions.php:1337
 msgid "View More"
-msgstr ""
+msgstr "檢視更多"
 
 #: skins/skin-grayish-topfull/functions.php:1213
 msgid "【フロントページ】View Moreボタン \"View More\"を変更"
-msgstr ""
+msgstr "[首頁] 更改 More按鈕的 \"檢視更多\""
 
 #: skins/skin-grayish-topfull/functions.php:1214
 msgid "\"View More\"を別のテキストに変更できます。"
-msgstr ""
+msgstr "可以將 \"檢視更多\" 更改為其他文本。"
 
 #: skins/skin-grayish-topfull/functions.php:1215
 msgid "※空欄の場合は\"View More\"が表示されます。"
-msgstr ""
+msgstr "如果留空，將顯示 \"檢視更多\"。"
 
 #: skins/skin-grayish-topfull/functions.php:1225
 #: skins/skin-grayish-topfull/functions.php:1347
@@ -14463,91 +14463,91 @@ msgstr "顯示使用者的個人簡介。"
 #: blocks/src/block/radar/edit.js:109
 #: blocks/src/block/radar/save.js:120
 msgid "総計:"
-msgstr ""
+msgstr "累計:"
 
 #: blocks/src/block/radar/edit.js:266
 msgid "チャート色"
-msgstr ""
+msgstr "圖表顏色"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "グリッド色"
-msgstr ""
+msgstr "網格顏色"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "（※透過）"
-msgstr ""
+msgstr "（※透明）"
 
 #: blocks/src/block/radar/edit.js:287
 msgid "チャート設定"
-msgstr ""
+msgstr "圖表設置"
 
 #: blocks/src/block/radar/edit.js:289
 msgid "キャンバスサイズ"
-msgstr ""
+msgstr "畫布尺寸"
 
 #: blocks/src/block/radar/edit.js:304
 msgid "最大値"
-msgstr ""
+msgstr "最大值"
 
 #: blocks/src/block/radar/edit.js:318
 msgid "タイトルを表示"
-msgstr ""
+msgstr "顯示標題列"
 
 #: blocks/src/block/radar/edit.js:327
 msgid "ここにタイトルを入力してください"
-msgstr ""
+msgstr "在此輸入標題"
 
 #: blocks/src/block/radar/edit.js:331
 msgid "データ名を表示"
-msgstr ""
+msgstr "顯示數據名稱"
 
 #: blocks/src/block/radar/edit.js:337
 msgid "データ名"
-msgstr ""
+msgstr "數據名稱"
 
 #: blocks/src/block/radar/edit.js:340
 msgid "ここに凡例を入力してください"
-msgstr ""
+msgstr "請在此輸入圖例"
 
 #: blocks/src/block/radar/edit.js:344
 msgid "項目"
-msgstr ""
+msgstr "項目"
 
 #: blocks/src/block/radar/edit.js:344
 msgid "（カンマ区切りで何項目でも入力可）"
-msgstr ""
+msgstr "（可使用逗號分隔輸入多個項目）"
 
 #: blocks/src/block/radar/edit.js:347
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
-msgstr ""
+msgstr "項目A, 項目B, 項目C, 項目D, 項目E"
 
 #: blocks/src/block/radar/edit.js:350
 msgid "値"
-msgstr ""
+msgstr "值"
 
 #: blocks/src/block/radar/edit.js:350
 msgid "（カンマ区切りで項目の数だけ入力可）"
-msgstr ""
+msgstr "（僅可根據項目數使用逗號分隔輸入）"
 
 #: blocks/src/block/radar/edit.js:366
 msgid "1, 2, 3, 4, 5"
-msgstr ""
+msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:369
 msgid "総計を表示"
-msgstr ""
+msgstr "顯示總計"
 
 #: blocks/src/block/radar/edit.js:374
 msgid "項目に値を表示"
-msgstr ""
+msgstr "在項目上顯示數值"
 
 #: blocks/src/block/radar/edit.js:379
 msgid "値が最大値を超えるのを許可"
-msgstr ""
+msgstr "允許數值超過最大值"
 
 #: blocks/src/block/radar/edit.js:384
 msgid "アングルラインを表示"
-msgstr ""
+msgstr "顯示角度線"
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
@@ -15515,12 +15515,12 @@ msgstr "author"
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "radar"
-msgstr ""
+msgstr "radar"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "chart"
-msgstr ""
+msgstr "chart"
 
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
