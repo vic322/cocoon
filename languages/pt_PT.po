@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-01T04:18:20+00:00\n"
-"PO-Revision-Date: 2024-10-01 13:46\n"
+"POT-Creation-Date: 2024-10-03T08:10:41+00:00\n"
+"PO-Revision-Date: 2024-10-03 08:14\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -107,7 +107,7 @@ msgstr "Nenhuma palavra-chave especificada"
 
 #: functions.php:506
 #: functions.php:507
-#: lib/admin.php:416
+#: lib/admin.php:409
 msgid "パターン一覧"
 msgstr "Lista de padrões."
 
@@ -266,7 +266,7 @@ msgid "青色アンダーラインマーカー"
 msgstr "Marcador sublinhado azul"
 
 #: lib/admin-tinymce-qtag.php:168
-#: blocks/src/block/radar/edit.js:260
+#: blocks/src/block/radar/edit.js:297
 #: blocks/src/toolbutton/dropdown-font-sizes.js:54
 #: blocks/src/toolbutton/dropdown-font-sizes.js:67
 msgid "フォントサイズ"
@@ -278,7 +278,7 @@ msgstr "Caixa (ícone)"
 
 #: lib/admin-tinymce-qtag.php:190
 #: lib/admin-tinymce-qtag.php:517
-#: lib/admin.php:167
+#: lib/admin.php:160
 #: lib/block-editor-styles-group.php:41
 #: lib/block-editor-styles-paragraph.php:76
 #: lib/custom-fields/memo-field.php:17
@@ -468,7 +468,7 @@ msgstr "Caixa (contorno)"
 #: lib/admin-tinymce-qtag.php:735
 #: lib/admin-tinymce-qtag.php:766
 #: lib/admin-tinymce-qtag.php:799
-#: lib/gutenberg.php:105
+#: lib/gutenberg.php:110
 #: lib/widgets/cta-box.php:184
 #: blocks/src/block/cta/edit.js:215
 #: blocks/src/block/sticky-box/deprecated.js:87
@@ -1221,11 +1221,11 @@ msgstr "Próximo artigo"
 msgid "商品リンクの追加"
 msgstr "Adicionar link do produto"
 
-#: lib/admin.php:147
+#: lib/admin.php:140
 msgid "ID"
 msgstr "ID"
 
-#: lib/admin.php:152
+#: lib/admin.php:145
 #: lib/custom-fields/seo-field.php:62
 #: lib/custom-fields/seo-field.php:116
 #: lib/custom-fields/seo-field.php:126
@@ -1233,90 +1233,90 @@ msgstr "ID"
 msgid "文字数"
 msgstr "Contagem de caracteres"
 
-#: lib/admin.php:157
+#: lib/admin.php:150
 msgid "PV"
 msgstr "PV"
 
-#: lib/admin.php:162
+#: lib/admin.php:155
 #: lib/content-category.php:264
 #: lib/content-tag.php:211
 msgid "アイキャッチ"
 msgstr "Imagem de destaque"
 
-#: lib/admin.php:200
+#: lib/admin.php:193
 msgid "　題："
 msgstr "Título:"
 
-#: lib/admin.php:208
+#: lib/admin.php:201
 msgid "本文："
 msgstr "Corpo:"
 
-#: lib/admin.php:230
+#: lib/admin.php:223
 msgid "日："
 msgstr "Dia:"
 
-#: lib/admin.php:238
+#: lib/admin.php:231
 msgid "週："
 msgstr "Semana:"
 
-#: lib/admin.php:246
+#: lib/admin.php:239
 msgid "月："
 msgstr "Mês:"
 
-#: lib/admin.php:254
+#: lib/admin.php:247
 msgid "全："
 msgstr "Total:"
 
-#: lib/admin.php:368
+#: lib/admin.php:361
 msgid "管理メニュー"
 msgstr "Menu de administração"
 
-#: lib/admin.php:380
+#: lib/admin.php:373
 #: tmp/admin-panel.php:31
 msgid "ダッシュボード"
 msgstr "Painel de controle"
 
-#: lib/admin.php:387
+#: lib/admin.php:380
 #: lib/shortcodes.php:498
 msgid "投稿一覧"
 msgstr "Publicações"
 
-#: lib/admin.php:394
+#: lib/admin.php:387
 msgid "固定ページ一覧"
 msgstr "Páginas"
 
-#: lib/admin.php:401
+#: lib/admin.php:394
 msgid "メディア一覧"
 msgstr "Mídia"
 
-#: lib/admin.php:408
+#: lib/admin.php:401
 msgid "テーマ"
 msgstr "Temas"
 
-#: lib/admin.php:424
+#: lib/admin.php:417
 msgid "カスタマイズ"
 msgstr "Personalizar"
 
-#: lib/admin.php:431
+#: lib/admin.php:424
 #: lib/page-settings/_top-page.php:264
 msgid "ウィジェット"
 msgstr "Widgets"
 
-#: lib/admin.php:438
+#: lib/admin.php:431
 #: tmp/mobile-navi-button.php:21
 #: blocks/src/block/navicard/edit.js:149
 msgid "メニュー"
 msgstr "Menus"
 
-#: lib/admin.php:445
+#: lib/admin.php:438
 msgid "テーマの編集"
 msgstr "Editor de temas"
 
-#: lib/admin.php:452
+#: lib/admin.php:445
 msgid "プラグイン一覧"
 msgstr "Plugins"
 
-#: lib/admin.php:467
+#: lib/admin.php:460
 #: lib/original-menu.php:27
 #: lib/page-speech-balloon/_top-page.php:37
 #: lib/tinymce/speech-balloons.php:50
@@ -1327,7 +1327,7 @@ msgstr "Plugins"
 msgid "吹き出し"
 msgstr "Balão de fala"
 
-#: lib/admin.php:474
+#: lib/admin.php:467
 #: lib/original-menu.php:30
 #: lib/tinymce/function-texts.php:49
 #: blocks/src/block/template/edit.js:108
@@ -1337,7 +1337,7 @@ msgstr "Balão de fala"
 msgid "テンプレート"
 msgstr "Modelo"
 
-#: lib/admin.php:481
+#: lib/admin.php:474
 #: lib/original-menu.php:33
 #: lib/tinymce/affiliate-tags.php:48
 #: blocks/src/shortcode/affi/block.js:18
@@ -1345,12 +1345,12 @@ msgstr "Modelo"
 msgid "アフィリエイトタグ"
 msgstr "Tag de afiliado"
 
-#: lib/admin.php:488
+#: lib/admin.php:481
 #: lib/original-menu.php:36
 msgid "ランキング作成"
 msgstr "Criar ranking"
 
-#: lib/admin.php:495
+#: lib/admin.php:488
 #: lib/original-menu.php:39
 #: lib/page-access/access-forms.php:14
 #: lib/page-access/access-forms.php:26
@@ -1358,19 +1358,19 @@ msgstr "Criar ranking"
 msgid "アクセス集計"
 msgstr "Resumo de acessos"
 
-#: lib/admin.php:502
+#: lib/admin.php:495
 #: lib/original-menu.php:42
 msgid "高速化"
 msgstr "Acelerar"
 
-#: lib/admin.php:509
+#: lib/admin.php:502
 #: lib/original-menu.php:45
 #: lib/page-backup/backup-forms.php:24
 #: lib/page-backup/_top-page.php:40
 msgid "バックアップ"
 msgstr "Backup"
 
-#: lib/admin.php:516
+#: lib/admin.php:509
 #: lib/original-menu.php:48
 #: lib/page-cache/cache-forms.php:14
 #: lib/page-cache/_top-page.php:63
@@ -1378,13 +1378,13 @@ msgstr "Backup"
 msgid "キャッシュ削除"
 msgstr "Excluir cache"
 
-#: lib/admin.php:660
+#: lib/admin.php:653
 #: blocks/src/block/info-list/edit.js:63
 msgid "カテゴリー検索"
 msgstr "Pesquisa por categoria"
 
-#: lib/admin.php:720
-#: lib/admin.php:734
+#: lib/admin.php:713
+#: lib/admin.php:727
 msgid "Excerpt"
 msgstr "Excerto"
 
@@ -1526,6 +1526,7 @@ msgstr "Linha de borda"
 #: blocks/src/block/button/edit.js:144
 #: blocks/src/block/faq/edit.js:173
 #: blocks/src/block/icon-list/edit.js:124
+#: blocks/src/block/radar/edit.js:271
 #: blocks/src/block/tab-box/edit.js:146
 #: blocks/src/block/timeline/edit.js:161
 #: blocks/src/block/toggle-box/edit.js:121
@@ -1612,6 +1613,7 @@ msgstr "Especifique a cor da categoria."
 #: blocks/src/block/button/edit.js:149
 #: blocks/src/block/faq/edit.js:178
 #: blocks/src/block/icon-list/edit.js:129
+#: blocks/src/block/radar/edit.js:276
 #: blocks/src/block/tab-box/edit.js:151
 #: blocks/src/block/timeline/edit.js:166
 #: blocks/src/block/toggle-box/edit.js:126
@@ -1644,7 +1646,7 @@ msgstr "Especifique a cor do texto da categoria. Se não especificado, o branco 
 #: lib/widgets/recommended-cards.php:87
 #: lib/widgets/sns-follow-buttons.php:56
 #: lib/widgets/toc.php:83
-#: blocks/src/block/radar/edit.js:287
+#: blocks/src/block/radar/edit.js:324
 #: blocks/src/block/timeline-item/deprecated.js:24
 #: blocks/src/block/timeline-item/deprecated.js:48
 #: blocks/src/block/timeline-item/edit.js:28
@@ -2237,177 +2239,185 @@ msgstr "Laranja profundo"
 msgid "茶色"
 msgstr "Marrom"
 
-#: lib/gutenberg.php:110
+#: lib/gutenberg.php:105
+msgid "薄い灰色"
+msgstr ""
+
+#: lib/gutenberg.php:115
+msgid "ダークグレー"
+msgstr ""
+
+#: lib/gutenberg.php:120
 msgid "黒"
 msgstr "Preto"
 
-#: lib/gutenberg.php:115
+#: lib/gutenberg.php:125
 msgid "白"
 msgstr "Branco"
 
-#: lib/gutenberg.php:120
+#: lib/gutenberg.php:130
 msgid "淡い青"
 msgstr "Azul claro"
 
-#: lib/gutenberg.php:125
+#: lib/gutenberg.php:135
 msgid "淡い黄色"
 msgstr "Amarelo claro"
 
-#: lib/gutenberg.php:130
+#: lib/gutenberg.php:140
 msgid "淡い赤"
 msgstr "Vermelho claro"
 
-#: lib/gutenberg.php:135
+#: lib/gutenberg.php:145
 msgid "淡い緑"
 msgstr "Verde claro"
 
-#: lib/gutenberg.php:180
+#: lib/gutenberg.php:190
 #: lib/page-settings/editor-forms.php:193
 msgid "拡張色A"
 msgstr "Cor estendida A"
 
-#: lib/gutenberg.php:185
+#: lib/gutenberg.php:195
 #: lib/page-settings/editor-forms.php:194
 msgid "拡張色B"
 msgstr "Cor estendida B"
 
-#: lib/gutenberg.php:190
+#: lib/gutenberg.php:200
 #: lib/page-settings/editor-forms.php:195
 msgid "拡張色C"
 msgstr "Cor estendida C"
 
-#: lib/gutenberg.php:195
+#: lib/gutenberg.php:205
 #: lib/page-settings/editor-forms.php:196
 msgid "拡張色D"
 msgstr "Cor estendida D"
 
-#: lib/gutenberg.php:200
+#: lib/gutenberg.php:210
 #: lib/page-settings/editor-forms.php:197
 msgid "拡張色E"
 msgstr "Cor estendida E"
 
-#: lib/gutenberg.php:205
+#: lib/gutenberg.php:215
 #: lib/page-settings/editor-forms.php:198
 msgid "拡張色F"
 msgstr "Cor estendida F"
 
-#: lib/gutenberg.php:222
+#: lib/gutenberg.php:232
 msgid "ハイライト表示しない"
 msgstr "Não exibir destaque"
 
-#: lib/gutenberg.php:226
+#: lib/gutenberg.php:236
 msgid "プレーンテキスト"
 msgstr "Texto simples"
 
-#: lib/gutenberg.php:230
+#: lib/gutenberg.php:240
 msgid "Bash"
 msgstr "Bash"
 
-#: lib/gutenberg.php:234
+#: lib/gutenberg.php:244
 msgid "Basic"
 msgstr "Básico"
 
-#: lib/gutenberg.php:238
+#: lib/gutenberg.php:248
 msgid "C#"
 msgstr "C#"
 
-#: lib/gutenberg.php:242
+#: lib/gutenberg.php:252
 msgid "C++"
 msgstr "C++"
 
-#: lib/gutenberg.php:246
+#: lib/gutenberg.php:256
 msgid "CSS"
 msgstr "CSS"
 
-#: lib/gutenberg.php:250
+#: lib/gutenberg.php:260
 msgid "D"
 msgstr "D"
 
-#: lib/gutenberg.php:254
+#: lib/gutenberg.php:264
 msgid "DOS"
 msgstr "DOS"
 
-#: lib/gutenberg.php:258
+#: lib/gutenberg.php:268
 msgid "Delphi"
 msgstr "Delphi"
 
-#: lib/gutenberg.php:262
+#: lib/gutenberg.php:272
 msgid "Go"
 msgstr "Go"
 
-#: lib/gutenberg.php:266
+#: lib/gutenberg.php:276
 msgid "HTML"
 msgstr "HTML"
 
-#: lib/gutenberg.php:270
+#: lib/gutenberg.php:280
 msgid "Haml"
 msgstr "Haml"
 
-#: lib/gutenberg.php:274
+#: lib/gutenberg.php:284
 msgid "JSON"
 msgstr "JSON"
 
-#: lib/gutenberg.php:278
+#: lib/gutenberg.php:288
 msgid "Java"
 msgstr "Java"
 
-#: lib/gutenberg.php:282
+#: lib/gutenberg.php:292
 msgid "JavaScript"
 msgstr "JavaScript"
 
-#: lib/gutenberg.php:286
+#: lib/gutenberg.php:296
 msgid "Less"
 msgstr "Less"
 
-#: lib/gutenberg.php:290
+#: lib/gutenberg.php:300
 msgid "Markdown"
 msgstr "Markdown"
 
-#: lib/gutenberg.php:294
+#: lib/gutenberg.php:304
 msgid "Objective C"
 msgstr "Objective-C"
 
-#: lib/gutenberg.php:298
+#: lib/gutenberg.php:308
 msgid "PHP"
 msgstr "PHP"
 
-#: lib/gutenberg.php:302
+#: lib/gutenberg.php:312
 msgid "Perl"
 msgstr "Perl"
 
-#: lib/gutenberg.php:306
+#: lib/gutenberg.php:316
 msgid "Python"
 msgstr "Python"
 
-#: lib/gutenberg.php:310
+#: lib/gutenberg.php:320
 msgid "R"
 msgstr "R"
 
-#: lib/gutenberg.php:314
+#: lib/gutenberg.php:324
 msgid "Ruby"
 msgstr "Ruby"
 
-#: lib/gutenberg.php:318
+#: lib/gutenberg.php:328
 msgid "Rust"
 msgstr "Rust"
 
-#: lib/gutenberg.php:322
+#: lib/gutenberg.php:332
 msgid "SCSS"
 msgstr "SCSS"
 
-#: lib/gutenberg.php:326
+#: lib/gutenberg.php:336
 msgid "SQL"
 msgstr "SQL"
 
-#: lib/gutenberg.php:330
+#: lib/gutenberg.php:340
 msgid "Swift"
 msgstr "Swift"
 
-#: lib/gutenberg.php:334
+#: lib/gutenberg.php:344
 msgid "VBScript"
 msgstr "VBScript"
 
-#: lib/gutenberg.php:338
+#: lib/gutenberg.php:348
 msgid "XML"
 msgstr "XML"
 
@@ -13819,7 +13829,7 @@ msgstr "Configurações de estilo"
 #: blocks/src/block/button/edit.js:141
 #: blocks/src/block/faq/edit.js:155
 #: blocks/src/block/icon-list/edit.js:111
-#: blocks/src/block/radar/edit.js:241
+#: blocks/src/block/radar/edit.js:263
 #: blocks/src/block/tab-box/edit.js:138
 #: blocks/src/block/timeline/edit.js:153
 #: blocks/src/block/toggle-box/edit.js:113
@@ -14455,84 +14465,92 @@ msgstr "Usuário"
 msgid "プロフィールを表示します。"
 msgstr "Exibe a biografia do usuário."
 
-#: blocks/src/block/radar/edit.js:93
-#: blocks/src/block/radar/save.js:115
+#: blocks/src/block/radar/edit.js:109
+#: blocks/src/block/radar/save.js:120
 msgid "総計:"
 msgstr "Total:"
 
-#: blocks/src/block/radar/edit.js:244
-msgid "チャートカラー"
-msgstr "Cor do gráfico"
+#: blocks/src/block/radar/edit.js:266
+msgid "チャート色"
+msgstr ""
 
-#: blocks/src/block/radar/edit.js:250
+#: blocks/src/block/radar/edit.js:281
+msgid "グリッド色"
+msgstr ""
+
+#: blocks/src/block/radar/edit.js:281
+msgid "（※透過）"
+msgstr ""
+
+#: blocks/src/block/radar/edit.js:287
 msgid "チャート設定"
 msgstr "Configurações do gráfico"
 
-#: blocks/src/block/radar/edit.js:252
+#: blocks/src/block/radar/edit.js:289
 msgid "キャンバスサイズ"
 msgstr "Tamanho da tela"
 
-#: blocks/src/block/radar/edit.js:267
+#: blocks/src/block/radar/edit.js:304
 msgid "最大値"
 msgstr "Máximo"
 
-#: blocks/src/block/radar/edit.js:281
+#: blocks/src/block/radar/edit.js:318
 msgid "タイトルを表示"
 msgstr "Mostrar título"
 
-#: blocks/src/block/radar/edit.js:290
+#: blocks/src/block/radar/edit.js:327
 msgid "ここにタイトルを入力してください"
 msgstr "Introduzir título aqui"
 
-#: blocks/src/block/radar/edit.js:294
+#: blocks/src/block/radar/edit.js:331
 msgid "データ名を表示"
 msgstr "Exibir nome dos dados"
 
-#: blocks/src/block/radar/edit.js:300
+#: blocks/src/block/radar/edit.js:337
 msgid "データ名"
 msgstr "Nome dos dados"
 
-#: blocks/src/block/radar/edit.js:303
+#: blocks/src/block/radar/edit.js:340
 msgid "ここに凡例を入力してください"
 msgstr "Introduzir legenda aqui"
 
-#: blocks/src/block/radar/edit.js:307
+#: blocks/src/block/radar/edit.js:344
 msgid "項目"
 msgstr "Itens"
 
-#: blocks/src/block/radar/edit.js:307
+#: blocks/src/block/radar/edit.js:344
 msgid "（カンマ区切りで何項目でも入力可）"
 msgstr "(Pode inserir quantos itens quiser, separados por vírgulas)"
 
-#: blocks/src/block/radar/edit.js:310
+#: blocks/src/block/radar/edit.js:347
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
 msgstr "Item A, Item B, Item C, Item D, Item E"
 
-#: blocks/src/block/radar/edit.js:313
+#: blocks/src/block/radar/edit.js:350
 msgid "値"
 msgstr "Valores"
 
-#: blocks/src/block/radar/edit.js:313
+#: blocks/src/block/radar/edit.js:350
 msgid "（カンマ区切りで項目の数だけ入力可）"
 msgstr "(Pode inserir apenas o número de itens, separados por vírgulas)"
 
-#: blocks/src/block/radar/edit.js:329
+#: blocks/src/block/radar/edit.js:366
 msgid "1, 2, 3, 4, 5"
 msgstr "1, 2, 3, 4, 5"
 
-#: blocks/src/block/radar/edit.js:332
+#: blocks/src/block/radar/edit.js:369
 msgid "総計を表示"
 msgstr "Exibir o total"
 
-#: blocks/src/block/radar/edit.js:337
+#: blocks/src/block/radar/edit.js:374
 msgid "項目に値を表示"
 msgstr "Exibir valores nos itens"
 
-#: blocks/src/block/radar/edit.js:342
+#: blocks/src/block/radar/edit.js:379
 msgid "値が最大値を超えるのを許可"
 msgstr "Permitir que o valor exceda o valor máximo"
 
-#: blocks/src/block/radar/edit.js:347
+#: blocks/src/block/radar/edit.js:384
 msgid "アングルラインを表示"
 msgstr "Exibir linha de ângulo"
 
@@ -14704,362 +14722,362 @@ msgstr "Seleção de idioma"
 msgid "こちらをクリックして設定変更。この入力は公開ページで反映されません。"
 msgstr "Clique aqui para alterar a configuração. Esta entrada não será exibida na página publicada."
 
-#: blocks/src/helpers.js:257
+#: blocks/src/helpers.js:269
 msgid "fab-info-circle"
 msgstr "fab-info-circle"
 
-#: blocks/src/helpers.js:261
+#: blocks/src/helpers.js:273
 msgid "fab-question-circle"
 msgstr "fab-question-circle"
 
-#: blocks/src/helpers.js:265
+#: blocks/src/helpers.js:277
 msgid "fab-exclamation-circle"
 msgstr "fab-exclamation-circle"
 
-#: blocks/src/helpers.js:269
+#: blocks/src/helpers.js:281
 msgid "fab-pencil"
 msgstr "fab-pencil"
 
-#: blocks/src/helpers.js:273
+#: blocks/src/helpers.js:285
 msgid "fab-edit"
 msgstr "fab-edit"
 
-#: blocks/src/helpers.js:277
+#: blocks/src/helpers.js:289
 msgid "fab-comment"
 msgstr "fab-comment"
 
-#: blocks/src/helpers.js:281
+#: blocks/src/helpers.js:293
 msgid "fab-ok"
 msgstr "fab-ok"
 
-#: blocks/src/helpers.js:285
+#: blocks/src/helpers.js:297
 msgid "fab-bad"
 msgstr "fab-bad"
 
-#: blocks/src/helpers.js:289
+#: blocks/src/helpers.js:301
 msgid "fab-thumbs-up"
 msgstr "fab-thumbs-up"
 
-#: blocks/src/helpers.js:293
+#: blocks/src/helpers.js:305
 msgid "fab-thumbs-down"
 msgstr "fab-thumbs-down"
 
-#: blocks/src/helpers.js:297
-#: blocks/src/helpers.js:472
+#: blocks/src/helpers.js:309
+#: blocks/src/helpers.js:484
 msgid "fab-check"
 msgstr "fab-check"
 
-#: blocks/src/helpers.js:301
-#: blocks/src/helpers.js:536
+#: blocks/src/helpers.js:313
+#: blocks/src/helpers.js:548
 msgid "fab-star"
 msgstr "fab-star"
 
-#: blocks/src/helpers.js:305
+#: blocks/src/helpers.js:317
 msgid "fab-bell"
 msgstr "fab-bell"
 
-#: blocks/src/helpers.js:309
+#: blocks/src/helpers.js:321
 msgid "fab-trophy"
 msgstr "fab-trophy"
 
-#: blocks/src/helpers.js:313
+#: blocks/src/helpers.js:325
 msgid "fab-lightbulb"
 msgstr "fab-lightbulb"
 
-#: blocks/src/helpers.js:317
+#: blocks/src/helpers.js:329
 msgid "fab-graduation-cap"
 msgstr "fab-graduation-cap"
 
-#: blocks/src/helpers.js:321
+#: blocks/src/helpers.js:333
 msgid "fab-bolt"
 msgstr "fab-bolt"
 
-#: blocks/src/helpers.js:325
+#: blocks/src/helpers.js:337
 msgid "fab-bookmark"
 msgstr "fab-bookmark"
 
-#: blocks/src/helpers.js:329
+#: blocks/src/helpers.js:341
 msgid "fab-book"
 msgstr "fab-book"
 
-#: blocks/src/helpers.js:333
+#: blocks/src/helpers.js:345
 msgid "fab-download"
 msgstr "fab-download"
 
-#: blocks/src/helpers.js:337
+#: blocks/src/helpers.js:349
 msgid "fab-coffee"
 msgstr "fab-coffee"
 
-#: blocks/src/helpers.js:341
+#: blocks/src/helpers.js:353
 msgid "fab-amazon"
 msgstr "fab-amazon"
 
-#: blocks/src/helpers.js:345
+#: blocks/src/helpers.js:357
 msgid "fab-user"
 msgstr "fab-user"
 
-#: blocks/src/helpers.js:349
+#: blocks/src/helpers.js:361
 msgid "fab-envelope"
 msgstr "fab-envelope"
 
-#: blocks/src/helpers.js:353
+#: blocks/src/helpers.js:365
 msgid "fab-flag"
 msgstr "fab-flag"
 
-#: blocks/src/helpers.js:357
+#: blocks/src/helpers.js:369
 msgid "fab-ban"
 msgstr "fab-ban"
 
-#: blocks/src/helpers.js:361
+#: blocks/src/helpers.js:373
 msgid "fab-calendar"
 msgstr "fab-calendar"
 
-#: blocks/src/helpers.js:365
+#: blocks/src/helpers.js:377
 msgid "fab-clock"
 msgstr "fab-clock"
 
-#: blocks/src/helpers.js:369
+#: blocks/src/helpers.js:381
 msgid "fab-cutlery"
 msgstr "fab-cutlery"
 
-#: blocks/src/helpers.js:373
-#: blocks/src/helpers.js:544
+#: blocks/src/helpers.js:385
+#: blocks/src/helpers.js:556
 msgid "fab-heart"
 msgstr "fab-heart"
 
-#: blocks/src/helpers.js:377
+#: blocks/src/helpers.js:389
 msgid "fab-camera"
 msgstr "fab-camera"
 
-#: blocks/src/helpers.js:381
+#: blocks/src/helpers.js:393
 msgid "fab-search"
 msgstr "fab-search"
 
-#: blocks/src/helpers.js:385
+#: blocks/src/helpers.js:397
 msgid "fab-file-text"
 msgstr "fab-file-text"
 
-#: blocks/src/helpers.js:389
+#: blocks/src/helpers.js:401
 msgid "fab-folder"
 msgstr "fab-folder"
 
-#: blocks/src/helpers.js:393
+#: blocks/src/helpers.js:405
 msgid "fab-tag"
 msgstr "fab-tag"
 
-#: blocks/src/helpers.js:397
+#: blocks/src/helpers.js:409
 msgid "fab-car"
 msgstr "fab-car"
 
-#: blocks/src/helpers.js:401
+#: blocks/src/helpers.js:413
 msgid "fab-truck"
 msgstr "fab-truck"
 
-#: blocks/src/helpers.js:405
+#: blocks/src/helpers.js:417
 msgid "fab-bicycle"
 msgstr "fab-bicycle"
 
-#: blocks/src/helpers.js:409
+#: blocks/src/helpers.js:421
 msgid "fab-motorcycle"
 msgstr "fab-motorcycle"
 
-#: blocks/src/helpers.js:413
+#: blocks/src/helpers.js:425
 msgid "fab-bus"
 msgstr "fab-bus"
 
-#: blocks/src/helpers.js:417
+#: blocks/src/helpers.js:429
 msgid "fab-plane"
 msgstr "fab-plane"
 
-#: blocks/src/helpers.js:421
+#: blocks/src/helpers.js:433
 msgid "fab-train"
 msgstr "fab-train"
 
-#: blocks/src/helpers.js:425
+#: blocks/src/helpers.js:437
 msgid "fab-subway"
 msgstr "fab-subway"
 
-#: blocks/src/helpers.js:429
+#: blocks/src/helpers.js:441
 msgid "fab-taxi"
 msgstr "fab-taxi"
 
-#: blocks/src/helpers.js:433
+#: blocks/src/helpers.js:445
 msgid "fab-ship"
 msgstr "fab-ship"
 
-#: blocks/src/helpers.js:437
+#: blocks/src/helpers.js:449
 msgid "fab-jpy"
 msgstr "fab-jpy"
 
-#: blocks/src/helpers.js:441
+#: blocks/src/helpers.js:453
 msgid "fab-usd"
 msgstr "fab-usd"
 
-#: blocks/src/helpers.js:445
+#: blocks/src/helpers.js:457
 msgid "fab-eur"
 msgstr "fab-eur"
 
-#: blocks/src/helpers.js:449
+#: blocks/src/helpers.js:461
 msgid "fab-btc"
 msgstr "fab-btc"
 
-#: blocks/src/helpers.js:453
+#: blocks/src/helpers.js:465
 msgid "fab-apple"
 msgstr "fab-apple"
 
-#: blocks/src/helpers.js:457
+#: blocks/src/helpers.js:469
 msgid "fab-android"
 msgstr "fab-android"
 
-#: blocks/src/helpers.js:461
+#: blocks/src/helpers.js:473
 msgid "fab-wordpress"
 msgstr "fab-wordpress"
 
-#: blocks/src/helpers.js:468
+#: blocks/src/helpers.js:480
 msgid "fab-caret-right"
 msgstr "fab-caret-right"
 
-#: blocks/src/helpers.js:476
+#: blocks/src/helpers.js:488
 msgid "fab-check-circle"
 msgstr "fab-check-circle"
 
-#: blocks/src/helpers.js:480
+#: blocks/src/helpers.js:492
 msgid "fab-check-circle-o"
 msgstr "fab-check-circle-o"
 
-#: blocks/src/helpers.js:484
+#: blocks/src/helpers.js:496
 msgid "fab-check-square"
 msgstr "fab-check-square"
 
-#: blocks/src/helpers.js:488
+#: blocks/src/helpers.js:500
 msgid "fab-check-square-o"
 msgstr "fab-check-square-o"
 
-#: blocks/src/helpers.js:492
+#: blocks/src/helpers.js:504
 msgid "fab-caret-square-o-right"
 msgstr "fab-caret-square-o-right"
 
-#: blocks/src/helpers.js:496
+#: blocks/src/helpers.js:508
 msgid "fab-arrow-right"
 msgstr "fab-arrow-right"
 
-#: blocks/src/helpers.js:500
+#: blocks/src/helpers.js:512
 msgid "fab-angle-right"
 msgstr "fab-angle-right"
 
-#: blocks/src/helpers.js:504
+#: blocks/src/helpers.js:516
 msgid "fab-angle-double-right"
 msgstr "fab-angle-double-right"
 
-#: blocks/src/helpers.js:508
+#: blocks/src/helpers.js:520
 msgid "fab-arrow-circle-right"
 msgstr "fab-arrow-circle-right"
 
-#: blocks/src/helpers.js:512
+#: blocks/src/helpers.js:524
 msgid "fab-arrow-circle-o-right"
 msgstr "fab-arrow-circle-o-right"
 
-#: blocks/src/helpers.js:516
+#: blocks/src/helpers.js:528
 msgid "fab-play-circle"
 msgstr "fab-play-circle"
 
-#: blocks/src/helpers.js:520
+#: blocks/src/helpers.js:532
 msgid "fab-play-circle-o"
 msgstr "fab-play-circle-o"
 
-#: blocks/src/helpers.js:524
+#: blocks/src/helpers.js:536
 msgid "fab-chevron-right"
 msgstr "fab-chevron-right"
 
-#: blocks/src/helpers.js:528
+#: blocks/src/helpers.js:540
 msgid "fab-chevron-circle-right"
 msgstr "fab-chevron-circle-right"
 
-#: blocks/src/helpers.js:532
+#: blocks/src/helpers.js:544
 msgid "fab-hand-o-right"
 msgstr "fab-hand-o-right"
 
-#: blocks/src/helpers.js:540
+#: blocks/src/helpers.js:552
 msgid "fab-star-o"
 msgstr "fab-star-o"
 
-#: blocks/src/helpers.js:548
+#: blocks/src/helpers.js:560
 msgid "fab-heart-o"
 msgstr "fab-heart-o"
 
-#: blocks/src/helpers.js:552
+#: blocks/src/helpers.js:564
 msgid "fab-square"
 msgstr "fab-square"
 
-#: blocks/src/helpers.js:556
+#: blocks/src/helpers.js:568
 msgid "fab-square-o"
 msgstr "fab-square-o"
 
-#: blocks/src/helpers.js:560
+#: blocks/src/helpers.js:572
 msgid "fab-circle"
 msgstr "fab-circle"
 
-#: blocks/src/helpers.js:564
+#: blocks/src/helpers.js:576
 msgid "fab-circle-o"
 msgstr "fab-circle-o"
 
-#: blocks/src/helpers.js:568
+#: blocks/src/helpers.js:580
 msgid "fab-dot-circle-o"
 msgstr "fab-dot-circle-o"
 
-#: blocks/src/helpers.js:572
+#: blocks/src/helpers.js:584
 msgid "fab-plus"
 msgstr "fab-plus"
 
-#: blocks/src/helpers.js:576
+#: blocks/src/helpers.js:588
 msgid "fab-plus-circle"
 msgstr "fab-plus-circle"
 
-#: blocks/src/helpers.js:580
+#: blocks/src/helpers.js:592
 msgid "fab-plus-square"
 msgstr "fab-plus-square"
 
-#: blocks/src/helpers.js:584
+#: blocks/src/helpers.js:596
 msgid "fab-plus-square-o"
 msgstr "fab-plus-square-o"
 
-#: blocks/src/helpers.js:588
+#: blocks/src/helpers.js:600
 msgid "fab-minus"
 msgstr "fab-minus"
 
-#: blocks/src/helpers.js:592
+#: blocks/src/helpers.js:604
 msgid "fab-minus-circle"
 msgstr "fab-minus-circle"
 
-#: blocks/src/helpers.js:596
+#: blocks/src/helpers.js:608
 msgid "fab-minus-square"
 msgstr "fab-minus-square"
 
-#: blocks/src/helpers.js:600
+#: blocks/src/helpers.js:612
 msgid "fab-minus-square-o"
 msgstr "fab-minus-square-o"
 
-#: blocks/src/helpers.js:604
+#: blocks/src/helpers.js:616
 msgid "fab-times"
 msgstr "fab-times"
 
-#: blocks/src/helpers.js:608
+#: blocks/src/helpers.js:620
 msgid "fab-times-circle"
 msgstr "fab-times-circle"
 
-#: blocks/src/helpers.js:612
+#: blocks/src/helpers.js:624
 msgid "fab-times-circle-o"
 msgstr "fab-times-circle-o"
 
-#: blocks/src/helpers.js:616
+#: blocks/src/helpers.js:628
 msgid "fab-window-close"
 msgstr "fab-window-close"
 
-#: blocks/src/helpers.js:620
+#: blocks/src/helpers.js:632
 msgid "fab-window-close-o"
 msgstr "fab-window-close-o"
 
-#: blocks/src/helpers.js:624
+#: blocks/src/helpers.js:636
 msgid "fab-paw"
 msgstr "fab-paw"
 
