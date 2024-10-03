@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-10-03T08:10:41+00:00\n"
-"PO-Revision-Date: 2024-10-03 08:14\n"
+"POT-Creation-Date: 2024-10-03T08:25:58+00:00\n"
+"PO-Revision-Date: 2024-10-03 09:00\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2240,12 +2240,12 @@ msgid "茶色"
 msgstr "Braun"
 
 #: lib/gutenberg.php:105
-msgid "薄い灰色"
-msgstr ""
+msgid "ライトグレー"
+msgstr "Hellgrau"
 
 #: lib/gutenberg.php:115
 msgid "ダークグレー"
-msgstr ""
+msgstr "Dunkelgrau"
 
 #: lib/gutenberg.php:120
 msgid "黒"
@@ -14472,15 +14472,15 @@ msgstr "Gesamt:"
 
 #: blocks/src/block/radar/edit.js:266
 msgid "チャート色"
-msgstr ""
+msgstr "Diagrammfarbe"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "グリッド色"
-msgstr ""
+msgstr "Rasterfarbe"
 
 #: blocks/src/block/radar/edit.js:281
 msgid "（※透過）"
-msgstr ""
+msgstr "(*Transparent)"
 
 #: blocks/src/block/radar/edit.js:287
 msgid "チャート設定"
