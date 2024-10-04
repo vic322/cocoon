@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-10-03T08:25:58+00:00\n"
-"PO-Revision-Date: 2024-10-03 09:00\n"
+"PO-Revision-Date: 2024-10-04 06:33\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -14547,7 +14547,7 @@ msgstr ""
 
 #: blocks/src/block/radar/edit.js:384
 msgid "アングルラインを表示"
-msgstr ""
+msgstr "각도 선 표시"
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
