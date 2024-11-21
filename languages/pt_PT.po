@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-11-21T11:18:29+00:00\n"
-"PO-Revision-Date: 2024-11-21 11:27\n"
+"PO-Revision-Date: 2024-11-21 12:50\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1320,7 +1320,7 @@ msgstr "Plugins"
 #: lib/original-menu.php:20
 #: lib/page-settings/_top-page.php:128
 msgid "Cocoon 設定"
-msgstr ""
+msgstr "Configurações do Cocoon"
 
 #: lib/admin.php:460
 #: lib/original-menu.php:27
@@ -1641,13 +1641,13 @@ msgstr "Título SEO"
 #: lib/content-category.php:249
 #: lib/content-tag.php:197
 msgid "SEO向けのタイトルの入力"
-msgstr ""
+msgstr "Entrada do título para SEO"
 
 #: lib/content-category.php:250
 #: lib/content-tag.php:198
 #: lib/custom-fields/seo-field.php:120
 msgid "検索エンジンに表示させたいタイトルを入力してください。記事のタイトルより、こちらに入力したテキストが優先的にタイトルタグ(&lt;title&gt;)に挿入されます。"
-msgstr ""
+msgstr "Por favor, insira o título que deseja exibir nos motores de busca. O texto inserido aqui será prioritariamente inserido na tag de título (&lt;title&gt;) em vez do título do artigo."
 
 #: lib/content-category.php:254
 #: lib/content-tag.php:202
@@ -2053,7 +2053,7 @@ msgstr "Digite um título de SEO aqui."
 
 #: lib/custom-fields/seo-field.php:120
 msgid "一般的に日本語の場合は、32文字以内が最適とされています。（※ページやインデックスの見出し部分には「記事のタイトル」が利用されます）"
-msgstr ""
+msgstr "(* Na parte de cabeçalho da página ou no índice, será utilizado \"o título do artigo\")"
 
 #: lib/custom-fields/seo-field.php:130
 msgid "記事の説明文を入力してください。"
@@ -9700,11 +9700,11 @@ msgstr "Insira a meta descrição"
 
 #: lib/page-settings/title-forms.php:70
 msgid "フロントページで出力するメタディスクリプションタグの内容を入力してください。"
-msgstr ""
+msgstr "Por favor, insira o conteúdo da meta descrição a ser exibida na página inicial."
 
 #: lib/page-settings/title-forms.php:70
 msgid "入力しない場合は、キャッチフレーズが表示されます。"
-msgstr ""
+msgstr "Se não for inserido, o slogan será exibido."
 
 #: lib/page-settings/title-forms.php:82
 msgid "キーワード1,キーワード2,キーワード3,..."
