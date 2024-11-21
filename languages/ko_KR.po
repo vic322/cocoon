@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-11-21T11:18:29+00:00\n"
-"PO-Revision-Date: 2024-11-21 11:27\n"
+"PO-Revision-Date: 2024-11-21 12:50\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1320,7 +1320,7 @@ msgstr "플러그인"
 #: lib/original-menu.php:20
 #: lib/page-settings/_top-page.php:128
 msgid "Cocoon 設定"
-msgstr ""
+msgstr "Cocoon 설정"
 
 #: lib/admin.php:460
 #: lib/original-menu.php:27
@@ -1641,13 +1641,13 @@ msgstr "SEO 제목"
 #: lib/content-category.php:249
 #: lib/content-tag.php:197
 msgid "SEO向けのタイトルの入力"
-msgstr ""
+msgstr "SEO용 제목 입력"
 
 #: lib/content-category.php:250
 #: lib/content-tag.php:198
 #: lib/custom-fields/seo-field.php:120
 msgid "検索エンジンに表示させたいタイトルを入力してください。記事のタイトルより、こちらに入力したテキストが優先的にタイトルタグ(&lt;title&gt;)に挿入されます。"
-msgstr ""
+msgstr "검색 엔진에 표시할 제목을 입력해 주세요. 여기 입력한 텍스트가 기사 제목보다 우선적으로 제목 태그 (&lt;title&gt;)에 삽입됩니다."
 
 #: lib/content-category.php:254
 #: lib/content-tag.php:202
@@ -2053,7 +2053,7 @@ msgstr "여기에 SEO 제목을 입력하세요."
 
 #: lib/custom-fields/seo-field.php:120
 msgid "一般的に日本語の場合は、32文字以内が最適とされています。（※ページやインデックスの見出し部分には「記事のタイトル」が利用されます）"
-msgstr ""
+msgstr "(※ 페이지나 인덱스의 헤더 부분에는 \"기사 제목\"이 사용됩니다)"
 
 #: lib/custom-fields/seo-field.php:130
 msgid "記事の説明文を入力してください。"
@@ -8029,11 +8029,11 @@ msgstr "홈 이미지"
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "インデックスページのOGPやTwitter Cardsで表示する画像の設定です。"
-msgstr ""
+msgstr "탑 페이지의 OGP나 트위터 카드에 표시할 이미지의 설정입니다."
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "フロントページが固定ページに設定してある場合は、固定ページのアイキャッチが優先されます。"
-msgstr ""
+msgstr "프론트 페이지가 고정 페이지로 설정된 경우, 고정 페이지의 아이캐치가 우선됩니다."
 
 #: lib/page-settings/ogp-forms.php:124
 msgid "画像のアップロード"
@@ -9700,11 +9700,11 @@ msgstr "meta description 입력"
 
 #: lib/page-settings/title-forms.php:70
 msgid "フロントページで出力するメタディスクリプションタグの内容を入力してください。"
-msgstr ""
+msgstr "프론트 페이지에서 출력할 메타 디스크립션 태그의 내용을 입력해 주세요."
 
 #: lib/page-settings/title-forms.php:70
 msgid "入力しない場合は、キャッチフレーズが表示されます。"
-msgstr ""
+msgstr "입력하지 않을 경우, 캐치프레이즈가 표시됩니다."
 
 #: lib/page-settings/title-forms.php:82
 msgid "キーワード1,キーワード2,キーワード3,..."
@@ -14474,23 +14474,23 @@ msgstr "총합:"
 
 #: blocks/src/block/radar/edit.js:275
 msgid "チャート色"
-msgstr ""
+msgstr "차트 색상"
 
 #: blocks/src/block/radar/edit.js:290
 msgid "グリッド色"
-msgstr ""
+msgstr "그리드 색상"
 
 #: blocks/src/block/radar/edit.js:290
 msgid "（※透過）"
-msgstr ""
+msgstr "(※투명)"
 
 #: blocks/src/block/radar/edit.js:296
 msgid "チャート設定"
-msgstr ""
+msgstr "차트 설정"
 
 #: blocks/src/block/radar/edit.js:298
 msgid "キャンバスサイズ"
-msgstr ""
+msgstr "캔버스 크기"
 
 #: blocks/src/block/radar/edit.js:313
 msgid "最大値"
@@ -14498,43 +14498,43 @@ msgstr "최대값"
 
 #: blocks/src/block/radar/edit.js:327
 msgid "タイトルを表示"
-msgstr ""
+msgstr "제목 보기"
 
 #: blocks/src/block/radar/edit.js:336
 msgid "ここにタイトルを入力してください"
-msgstr ""
+msgstr "여기에 제목 입력"
 
 #: blocks/src/block/radar/edit.js:340
 msgid "データ名を表示"
-msgstr ""
+msgstr "데이터 이름 표시"
 
 #: blocks/src/block/radar/edit.js:346
 msgid "データ名"
-msgstr ""
+msgstr "데이터 이름"
 
 #: blocks/src/block/radar/edit.js:349
 msgid "ここに凡例を入力してください"
-msgstr ""
+msgstr "여기에 범례를 입력해 주세요"
 
 #: blocks/src/block/radar/edit.js:353
 msgid "項目"
-msgstr ""
+msgstr "분야"
 
 #: blocks/src/block/radar/edit.js:353
 msgid "（カンマ区切りで何項目でも入力可）"
-msgstr ""
+msgstr "(쉼표로 구분하여 여러 항목 입력 가능)"
 
 #: blocks/src/block/radar/edit.js:356
 msgid "項目A, 項目B, 項目C, 項目D, 項目E"
-msgstr ""
+msgstr "항목A, 항목B, 항목C, 항목D, 항목E"
 
 #: blocks/src/block/radar/edit.js:359
 msgid "値"
-msgstr ""
+msgstr "값"
 
 #: blocks/src/block/radar/edit.js:359
 msgid "（カンマ区切りで項目の数だけ入力可）"
-msgstr ""
+msgstr "(쉼표로 구분하여 항목 수만큼 입력 가능)"
 
 #: blocks/src/block/radar/edit.js:375
 msgid "1, 2, 3, 4, 5"
@@ -14542,15 +14542,15 @@ msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:378
 msgid "総計を表示"
-msgstr ""
+msgstr "총계를 표시"
 
 #: blocks/src/block/radar/edit.js:383
 msgid "項目に値を表示"
-msgstr ""
+msgstr "항목에 값을 표시"
 
 #: blocks/src/block/radar/edit.js:388
 msgid "値が最大値を超えるのを許可"
-msgstr ""
+msgstr "값이 최대치를 초과하는 것을 허용"
 
 #: blocks/src/block/radar/edit.js:393
 msgid "アングルラインを表示"
