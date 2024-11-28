@@ -10,14 +10,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-11-25T15:56:43+00:00\n"
-"PO-Revision-Date: 2024-11-25 16:00\n"
+"PO-Revision-Date: 2024-11-28 14:32\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
 "X-Crowdin-Project-ID: 568447\n"
 "X-Crowdin-Language: pt-PT\n"
 "X-Crowdin-File: /translation_master/languages/cocoon.pot\n"
-"X-Crowdin-File-ID: 37\n"
+"X-Crowdin-File-ID: 42\n"
 "Language: pt_PT\n"
 
 #. Theme Name of the theme
@@ -7719,7 +7719,7 @@ msgstr "String de abreviação"
 #: lib/page-settings/index-forms.php:194
 #: lib/page-settings/index-funcs.php:204
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: lib/page-settings/index-forms.php:195
 msgid "「自動生成抜粋文字数」を自動抜粋文が超えたときに表示する省略を表す文字を入力してください。"
@@ -9822,11 +9822,11 @@ msgstr "Defina um caractere a ser usado para delimitar os títulos."
 
 #: lib/page-settings/title-funcs.php:22
 msgid "-"
-msgstr "-"
+msgstr ""
 
 #: lib/page-settings/title-funcs.php:25
 msgid "|"
-msgstr "|"
+msgstr ""
 
 #: lib/page-settings/toc-forms.php:13
 msgid "目次設定"
@@ -11264,7 +11264,7 @@ msgstr "Tem certeza de que deseja publicar a página?"
 #: lib/utils.php:2544
 msgid "%s min"
 msgid_plural "%s mins"
-msgstr[0] "%s min"
+msgstr[0] ""
 msgstr[1] "%s mins"
 
 #: lib/utils.php:2552
