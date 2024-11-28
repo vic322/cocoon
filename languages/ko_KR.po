@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-11-28T14:41:27+00:00\n"
-"PO-Revision-Date: 2024-11-28 16:08\n"
+"PO-Revision-Date: 2024-11-28 16:19\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -14552,11 +14552,11 @@ msgstr "각도 선 표시"
 
 #: blocks/src/block/radar/index.js:25
 msgid "レーダーチャート"
-msgstr ""
+msgstr "방사형 차트"
 
 #: blocks/src/block/radar/index.js:27
 msgid "評価や能力値表示に。"
-msgstr ""
+msgstr "평가나 능력치 표시용으로."
 
 #: blocks/src/block/ranking/edit.js:43
 #: blocks/src/block/template/edit.js:43
