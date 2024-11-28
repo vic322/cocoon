@@ -10,14 +10,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-11-25T15:56:43+00:00\n"
-"PO-Revision-Date: 2024-11-25 16:00\n"
+"PO-Revision-Date: 2024-11-28 14:32\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
 "X-Crowdin-Project-ID: 568447\n"
 "X-Crowdin-Language: en\n"
 "X-Crowdin-File: /translation_master/languages/cocoon.pot\n"
-"X-Crowdin-File-ID: 37\n"
+"X-Crowdin-File-ID: 42\n"
 "Language: en_US\n"
 
 #. Theme Name of the theme
@@ -90,7 +90,7 @@ msgstr "Required fields are marked %s"
 #. translators: 1: edit user link, 2: accessibility text, 3: user name, 4: logout URL
 #: comments.php:69
 msgid "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s\">Log out?</a>"
-msgstr "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s\">Log out?</a>"
+msgstr ""
 
 #: comments.php:74
 msgid "Your email address will not be published."
@@ -1647,7 +1647,7 @@ msgstr "Input for SEO-friendly title"
 #: lib/content-tag.php:197
 #: lib/custom-fields/seo-field.php:120
 msgid "検索エンジンに表示させたいタイトルを入力してください。記事のタイトルより、こちらに入力したテキストが優先的にタイトルタグ(&lt;title&gt;)に挿入されます。"
-msgstr "Enter the title you want to display on search engines. The text you enter \"here is given priority over the title of the article for the title tag (&lt;\"title&gt;)."
+msgstr "Enter the title you want to display on search engines. The text you enter here is given priority over the title of the article for the title tag (&lt;title&gt;)."
 
 #: lib/content-category.php:253
 #: lib/content-tag.php:201
@@ -7719,7 +7719,7 @@ msgstr "Abbreviation string"
 #: lib/page-settings/index-forms.php:194
 #: lib/page-settings/index-funcs.php:204
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: lib/page-settings/index-forms.php:195
 msgid "「自動生成抜粋文字数」を自動抜粋文が超えたときに表示する省略を表す文字を入力してください。"
@@ -9822,11 +9822,11 @@ msgstr "Set a character that will be used to delimit titles."
 
 #: lib/page-settings/title-funcs.php:22
 msgid "-"
-msgstr "-"
+msgstr ""
 
 #: lib/page-settings/title-funcs.php:25
 msgid "|"
-msgstr "|"
+msgstr ""
 
 #: lib/page-settings/toc-forms.php:13
 msgid "目次設定"
