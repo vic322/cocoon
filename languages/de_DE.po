@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-11-28T14:41:27+00:00\n"
-"PO-Revision-Date: 2024-11-28 16:19\n"
+"PO-Revision-Date: 2024-11-28 17:19\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -9712,11 +9712,11 @@ msgstr "Wenn nichts eingegeben wird, wird der Slogan angezeigt."
 #: lib/page-settings/title-forms.php:188
 #: lib/page-settings/title-forms.php:289
 msgid "メタキーワードタグを出力する"
-msgstr "Meta-Keyword-Tag ausgeben"
+msgstr "Meta-Keyword-Tags ausgeben"
 
 #: lib/page-settings/title-forms.php:87
 msgid "フロントページのheadタグ内に、メタキーワードタグを出力するか。"
-msgstr "Soll das Meta-Keywords-Tag im Head-Tag der Startseite ausgegeben werden?"
+msgstr "Soll das Meta-Keywords-Tags im Head-Tag der Startseite ausgegeben werden?"
 
 #: lib/page-settings/title-forms.php:90
 msgid "キーワード1,キーワード2,キーワード3,..."
