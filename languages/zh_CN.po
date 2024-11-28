@@ -10,14 +10,14 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-11-25T15:56:43+00:00\n"
-"PO-Revision-Date: 2024-11-25 16:00\n"
+"PO-Revision-Date: 2024-11-28 13:18\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
 "X-Crowdin-Project-ID: 568447\n"
 "X-Crowdin-Language: zh-CN\n"
 "X-Crowdin-File: /translation_master/languages/cocoon.pot\n"
-"X-Crowdin-File-ID: 37\n"
+"X-Crowdin-File-ID: 42\n"
 "Language: zh_CN\n"
 
 #. Theme Name of the theme
@@ -1553,7 +1553,7 @@ msgstr "交叉线"
 
 #: lib/comments.php:45
 msgid "%s <span class=\"says\">says:</span>"
-msgstr "%s <span class=\"says\">says:</span>"
+msgstr ""
 
 #: lib/comments.php:50
 #: lib/comments.php:119
@@ -7135,7 +7135,7 @@ msgstr "宽度："
 
 #: lib/page-settings/header-forms.php:113
 msgid " × "
-msgstr " × "
+msgstr ""
 
 #: lib/page-settings/header-forms.php:114
 msgid "高さ："
@@ -7719,7 +7719,7 @@ msgstr "省略字符串"
 #: lib/page-settings/index-forms.php:194
 #: lib/page-settings/index-funcs.php:204
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: lib/page-settings/index-forms.php:195
 msgid "「自動生成抜粋文字数」を自動抜粋文が超えたときに表示する省略を表す文字を入力してください。"
@@ -9822,11 +9822,11 @@ msgstr "请设置作为标题分隔符的字符。"
 
 #: lib/page-settings/title-funcs.php:22
 msgid "-"
-msgstr "-"
+msgstr ""
 
 #: lib/page-settings/title-funcs.php:25
 msgid "|"
-msgstr "|"
+msgstr ""
 
 #: lib/page-settings/toc-forms.php:13
 msgid "目次設定"
@@ -10834,7 +10834,7 @@ msgstr "在Amazon上查看详情"
 
 #: lib/shortcodes-product-func.php:381
 msgid "（"
-msgstr "（"
+msgstr ""
 
 #: lib/shortcodes-product-func.php:381
 msgid "時点"
@@ -10842,7 +10842,7 @@ msgstr "时间点"
 
 #: lib/shortcodes-product-func.php:381
 msgid "）"
-msgstr "）"
+msgstr ""
 
 #: lib/shortcodes-product-func.php:449
 msgid "楽天で詳細を見る"
@@ -15242,27 +15242,27 @@ msgstr "背景图标"
 
 #: blocks/src/toolbutton/background-icons.js:71
 msgid "◎"
-msgstr "◎"
+msgstr ""
 
 #: blocks/src/toolbutton/background-icons.js:72
 msgid "○"
-msgstr "○"
+msgstr ""
 
 #: blocks/src/toolbutton/background-icons.js:73
 msgid "△"
-msgstr "△"
+msgstr ""
 
 #: blocks/src/toolbutton/background-icons.js:74
 msgid "×"
-msgstr "×"
+msgstr ""
 
 #: blocks/src/toolbutton/background-icons.js:75
 msgid "✓"
-msgstr "✓"
+msgstr ""
 
 #: blocks/src/toolbutton/background-icons.js:76
 msgid "？"
-msgstr "？"
+msgstr ""
 
 #: blocks/src/toolbutton/bold.js:15
 msgid "太字（boldクラス指定）"
