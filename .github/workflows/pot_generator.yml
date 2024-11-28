@@ -20,7 +20,7 @@ jobs:
 
         # Regenerate POT file
         # wp i18n make-pot "$THEME_ROOT" "$SAVE_FULL_PATH" --domain="$DOMAIN" --exclude="languages/*,plugins/*,blocks/dist/*,node_modules/*" --skip-audit
-        wp i18n make-pot "$THEME_ROOT" "$SAVE_FULL_PATH" --domain="$DOMAIN" --include="blocks/src/*,lib/*,tmp/*,skins/*,templates/*,*.php" --skip-audit --ignore-domain --debug
+        wp i18n make-pot "$THEME_ROOT" "$SAVE_FULL_PATH" --domain="$DOMAIN" --include="blocks/src/*,lib/*,tmp/*,skins/*,templates/*,*.php" --ignore-domain --debug
 
         git config user.name "GitHub Action"
         git config user.email "github.action@noreply.com"
