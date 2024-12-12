@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-12T08:26:10+00:00\n"
-"PO-Revision-Date: 2024-12-12 09:59\n"
+"POT-Creation-Date: 2024-12-12T12:59:45+00:00\n"
+"PO-Revision-Date: 2024-12-12 13:58\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2084,8 +2084,8 @@ msgid "記事の説明文を入力してください。"
 msgstr "Digite uma descrição para o artigo."
 
 #: lib/custom-fields/seo-field.php:131
-msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマホではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
-msgstr "Digite uma descrição para o artigo. A meta descrição que você digitar aqui também será usada como um snippet para os cartões de blog. Se deixado em branco, o texto inserido em \"Excerto\" será usado como a meta descrição."
+msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
+msgstr ""
 
 #: lib/custom-fields/seo-field.php:135
 msgid "記事の関連キーワードを半角カンマ区切りで入力してください。"
@@ -4842,32 +4842,32 @@ msgid "サイドバーの表示状態"
 msgstr "Estado de exibição da barra lateral"
 
 #: lib/page-settings/all-forms.php:266
-msgid "全てのページで表示"
-msgstr "Exibir em todas as páginas"
+msgid "全てのページで表示する"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:267
-msgid "全てのページで非表示"
-msgstr "Ocultar em todas as páginas"
+msgid "全てのページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:268
-msgid "フロントページで非表示"
-msgstr "Ocultar na página inicial"
+msgid "フロントページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:269
-msgid "インデックスページで非表示"
-msgstr "Ocultar nas páginas de índice"
+msgid "インデックスページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:270
-msgid "固定ページで非表示"
-msgstr "Ocultar em páginas fixas"
+msgid "固定ページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:271
-msgid "投稿ページで非表示"
-msgstr "Ocultar em páginas de postagem"
+msgid "投稿ページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:272
-msgid "404ページで非表示"
-msgstr "Ocultar nas páginas 404"
+msgid "404ページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:276
 msgid "サイドバーを表示するページの設定です。"
@@ -5980,6 +5980,8 @@ msgid "カルーセルを表示するページを設定します。"
 msgstr "Configura a página para exibir o carrossel."
 
 #: lib/page-settings/carousel-forms.php:49
+#: lib/page-settings/index-forms.php:212
+#: lib/page-settings/single-forms.php:249
 msgid "スマートフォンで表示する（480px以下）"
 msgstr ""
 
@@ -7204,16 +7206,16 @@ msgid "ヘッダー背景として表示する画像を設定します。"
 msgstr "Defina uma imagem como fundo do cabeçalho."
 
 #: lib/page-settings/header-forms.php:149
-msgid "ヘッダー背景画像の固定"
-msgstr "Fixar imagem de fundo do cabeçalho"
+msgid "ヘッダー背景画像を固定する"
+msgstr ""
 
 #: lib/page-settings/header-forms.php:150
 msgid "PC画面でヘッダー背景に設定した画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
 msgstr "Fixa a imagem definida como fundo do cabeçalho na tela do PC. A imagem de fundo não se moverá ao rolar para cima e para baixo."
 
 #: lib/page-settings/header-forms.php:153
-msgid "背景画像の全てを表示"
-msgstr "Exibir toda a imagem de fundo"
+msgid "背景画像を全て表示する"
+msgstr ""
 
 #: lib/page-settings/header-forms.php:154
 msgid "ヘッダーのサイズを「ヘッダー背景画像」に設定した画像の縦横比サイズに合わせて表示させます。"
@@ -7368,8 +7370,8 @@ msgid "Spotlight（軽量・高機能ギャラリー）"
 msgstr "Spotlight (galeria leve e de alto desempenho)"
 
 #: lib/page-settings/image-forms.php:131
-msgid "baguetteBox（軽量・スマホ向け）"
-msgstr "baguetteBox (para smartphones leves)"
+msgid "baguetteBox（軽量・スマートフォン向け）"
+msgstr ""
 
 #: lib/page-settings/image-forms.php:132
 msgid "Lity（軽量・1枚ずつ表示）"
@@ -7730,12 +7732,12 @@ msgid "縦型カード・タイルカードに設定した場合はサムネイ�
 msgstr "Se um cartão vertical/cartão em mosaico foi definido, regenere a miniatura."
 
 #: lib/page-settings/index-forms.php:153
-msgid "スマホ端末で縦型＆タイル型のエントリーカードを1カラムにする"
-msgstr "Coloque cartões de entrada verticais e em mosaico em uma única coluna em dispositivos móveis"
+msgid "スマートフォンで縦型＆タイル型のエントリーカードを1カラムにする"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:154
-msgid "スマホ（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
-msgstr "Se o tipo de cartão for \"Cartão vertical\"/\"Cartão em mosaico\", ele será exibido em uma única coluna em dispositivos móveis (até 480 px). *O padrão é 2 colunas"
+msgid "スマートフォン（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:169
 #: lib/page-settings/single-forms.php:219
@@ -7769,16 +7771,13 @@ msgid "投稿関連情報の表示"
 msgstr "Exibir informações relacionadas à postagem"
 
 #: lib/page-settings/index-forms.php:208
-msgid "スニペット（抜粋）の表示"
-msgstr "Exibir snippets (resumos)"
-
-#: lib/page-settings/index-forms.php:212
-msgid "スマホ端末でスニペットを表示（480px以下）"
-msgstr "Exibir snippets em dispositivos móveis (até 480 px)"
+#: lib/page-settings/single-forms.php:245
+msgid "スニペット（抜粋）を表示する"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:224
-msgid "コメント数の表示"
-msgstr "Exibir contagem de comentários"
+msgid "コメント数を表示する"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:224
 msgid "（※投稿・固定ページでコメントが表示されている場合）"
@@ -8888,14 +8887,6 @@ msgstr "Contagem máxima de caracteres para trechos gerados automaticamente"
 msgid "「関連記事エントリーカード」で、「本文から自動生成される抜粋文」を表示する場合の最大文字数を設定します。※投稿編集画面の抜粋文ではありません。（最小：1、最大：500）"
 msgstr "Define o número máximo de caracteres ao exibir \"Trecho gerado automaticamente do texto\" em \"Cartões de entrada de artigos relacionados\". *Este não é o trecho de texto da tela de edição da postagem. (mínimo: 1, máximo: 500)"
 
-#: lib/page-settings/single-forms.php:245
-msgid "スニペット（抜粋）を表示する"
-msgstr ""
-
-#: lib/page-settings/single-forms.php:249
-msgid "スマホ端末でスニペットを表示する（480px以下）"
-msgstr ""
-
 #: lib/page-settings/single-forms.php:266
 msgid "投稿の関連記事のエントリーカードに投稿関連情報を表示するかどうか。"
 msgstr "Exibir informações relacionadas a postagens em cartões de entrada de artigos relacionados ou não."
@@ -9011,20 +9002,20 @@ msgid "スキンを選択してください。"
 msgstr "Selecione uma skin."
 
 #: lib/page-settings/skin-forms.php:97
-msgid "表示スキン"
-msgstr "Exibir skins"
+msgid "スキン一覧表示"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:102
-msgid "全てのスキンを表示"
-msgstr "Exibir todas as skins"
+msgid "全てのスキンを表示する"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:103
-msgid "親テーマのスキンのみ表示"
-msgstr "Exibir apenas skins do tema pai"
+msgid "親テーマのスキンのみ表示する"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:104
-msgid "子テーマのスキンのみ表示"
-msgstr "Exibir apenas skins do tema filho"
+msgid "子テーマのスキンのみ表示する"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:107
 msgid "スキン一覧に含めて表示するスキンを選択してください。"
@@ -12289,12 +12280,12 @@ msgid "本文の見出しにカウントをつけたくない場合はチェッ�
 msgstr "Desmarque se não quiser adicionar uma contagem aos títulos do corpo do texto"
 
 #: skins/one/functions.php:134
-msgid "PCでもスマホ用の固定フッターメニューを表示する"
-msgstr "Exibir o menu fixo do rodapé para smartphones mesmo no PC"
+msgid "PCでもスマートフォン用の固定フッターメニューを表示する"
+msgstr ""
 
 #: skins/one/functions.php:135
-msgid "従来どおりPCでスマホ用の固定フッターメニューを表示させたくない場合はチェックを外してください"
-msgstr "Desmarque se não quiser exibir o menu fixo do rodapé para smartphones no PC como antes."
+msgid "従来どおりPCでスマートフォン用の固定フッターメニューを表示させたくない場合はチェックを外してください"
+msgstr ""
 
 #: skins/one/functions.php:145
 msgid "全体的に影を付ける"
@@ -12353,8 +12344,8 @@ msgid "（詳しくは実際にご確認ください）"
 msgstr "(Para detalhes, verifique pessoalmente)"
 
 #: skins/raku-add-fadein/functions.php:291
-msgid "表示スキン（ベース）"
-msgstr "Skin de exibição (base)"
+msgid "スキン一覧表示（ベース）"
+msgstr ""
 
 #: skins/raku-add-fadein/functions.php:317
 msgid "こちらで選択したスキンが表示されます。"
