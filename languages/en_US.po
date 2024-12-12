@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-12T08:26:10+00:00\n"
-"PO-Revision-Date: 2024-12-12 09:59\n"
+"POT-Creation-Date: 2024-12-12T12:59:45+00:00\n"
+"PO-Revision-Date: 2024-12-12 13:58\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2084,7 +2084,7 @@ msgid "記事の説明文を入力してください。"
 msgstr "Enter a description for the article."
 
 #: lib/custom-fields/seo-field.php:131
-msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマホではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
+msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
 msgstr "Enter a description for the article. The meta description you enter here will also be used as a snippet for blog cards. If left blank, the text entered for \"Excerpt\" is used as the meta description."
 
 #: lib/custom-fields/seo-field.php:135
@@ -4842,31 +4842,31 @@ msgid "サイドバーの表示状態"
 msgstr "Display status of the sidebar"
 
 #: lib/page-settings/all-forms.php:266
-msgid "全てのページで表示"
+msgid "全てのページで表示する"
 msgstr "Display on all pages"
 
 #: lib/page-settings/all-forms.php:267
-msgid "全てのページで非表示"
+msgid "全てのページで非表示にする"
 msgstr "Hide on all pages"
 
 #: lib/page-settings/all-forms.php:268
-msgid "フロントページで非表示"
+msgid "フロントページで非表示にする"
 msgstr "Hide on front page"
 
 #: lib/page-settings/all-forms.php:269
-msgid "インデックスページで非表示"
+msgid "インデックスページで非表示にする"
 msgstr "Hide on index pages"
 
 #: lib/page-settings/all-forms.php:270
-msgid "固定ページで非表示"
+msgid "固定ページで非表示にする"
 msgstr "Hide on pages"
 
 #: lib/page-settings/all-forms.php:271
-msgid "投稿ページで非表示"
+msgid "投稿ページで非表示にする"
 msgstr "Hide on post pages"
 
 #: lib/page-settings/all-forms.php:272
-msgid "404ページで非表示"
+msgid "404ページで非表示にする"
 msgstr "Hide on 404 pages"
 
 #: lib/page-settings/all-forms.php:276
@@ -5980,6 +5980,8 @@ msgid "カルーセルを表示するページを設定します。"
 msgstr "Sets the page to display the carousel."
 
 #: lib/page-settings/carousel-forms.php:49
+#: lib/page-settings/index-forms.php:212
+#: lib/page-settings/single-forms.php:249
 msgid "スマートフォンで表示する（480px以下）"
 msgstr "Display on smartphone (up to 480 px)"
 
@@ -7204,7 +7206,7 @@ msgid "ヘッダー背景として表示する画像を設定します。"
 msgstr "Set an image as the header background."
 
 #: lib/page-settings/header-forms.php:149
-msgid "ヘッダー背景画像の固定"
+msgid "ヘッダー背景画像を固定する"
 msgstr "Fix header background image"
 
 #: lib/page-settings/header-forms.php:150
@@ -7212,8 +7214,8 @@ msgid "PC画面でヘッダー背景に設定した画像を固定します。�
 msgstr "Fixes the image set as the header background on the PC screen. The background image will not move when scrolling up and down."
 
 #: lib/page-settings/header-forms.php:153
-msgid "背景画像の全てを表示"
-msgstr "Show all background images"
+msgid "背景画像を全て表示する"
+msgstr "Display the entire background image"
 
 #: lib/page-settings/header-forms.php:154
 msgid "ヘッダーのサイズを「ヘッダー背景画像」に設定した画像の縦横比サイズに合わせて表示させます。"
@@ -7368,7 +7370,7 @@ msgid "Spotlight（軽量・高機能ギャラリー）"
 msgstr "Spotlight (lightweight and high-functionality gallery)"
 
 #: lib/page-settings/image-forms.php:131
-msgid "baguetteBox（軽量・スマホ向け）"
+msgid "baguetteBox（軽量・スマートフォン向け）"
 msgstr "baguetteBox (for lightweight smartphones)"
 
 #: lib/page-settings/image-forms.php:132
@@ -7730,11 +7732,11 @@ msgid "縦型カード・タイルカードに設定した場合はサムネイ�
 msgstr "If a vertical card/tile card has been set, regenerate the thumbnail."
 
 #: lib/page-settings/index-forms.php:153
-msgid "スマホ端末で縦型＆タイル型のエントリーカードを1カラムにする"
+msgid "スマートフォンで縦型＆タイル型のエントリーカードを1カラムにする"
 msgstr "Place vertical- and tile-type entry cards in a single column on smartphone devices"
 
 #: lib/page-settings/index-forms.php:154
-msgid "スマホ（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
+msgid "スマートフォン（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
 msgstr "If the card type is \"Vertical card\"/\"Tile card\", it will be displayed in a single column on smartphones (up to 480 px). *The default is 2 columns"
 
 #: lib/page-settings/index-forms.php:169
@@ -7769,16 +7771,13 @@ msgid "投稿関連情報の表示"
 msgstr "Display post-related information"
 
 #: lib/page-settings/index-forms.php:208
-msgid "スニペット（抜粋）の表示"
+#: lib/page-settings/single-forms.php:245
+msgid "スニペット（抜粋）を表示する"
 msgstr "Display snippets (excerpts)"
 
-#: lib/page-settings/index-forms.php:212
-msgid "スマホ端末でスニペットを表示（480px以下）"
-msgstr "Display snippets on smartphone devices (up to 480 px)"
-
 #: lib/page-settings/index-forms.php:224
-msgid "コメント数の表示"
-msgstr "Comment count display"
+msgid "コメント数を表示する"
+msgstr "Display comment count"
 
 #: lib/page-settings/index-forms.php:224
 msgid "（※投稿・固定ページでコメントが表示されている場合）"
@@ -8888,14 +8887,6 @@ msgstr "Maximum character count for automatically generated excerpts"
 msgid "「関連記事エントリーカード」で、「本文から自動生成される抜粋文」を表示する場合の最大文字数を設定します。※投稿編集画面の抜粋文ではありません。（最小：1、最大：500）"
 msgstr "Sets the maximum number of characters when displaying \"Auto-generated from the text excerpt\" in \"Related article entry cards\". *This is not excerpt text of the post editing screen. (minimum: 1, maximum: 500)"
 
-#: lib/page-settings/single-forms.php:245
-msgid "スニペット（抜粋）を表示する"
-msgstr "Display snippets (excerpts)"
-
-#: lib/page-settings/single-forms.php:249
-msgid "スマホ端末でスニペットを表示する（480px以下）"
-msgstr "Display snippets on smartphone devices (up to 480 px)"
-
 #: lib/page-settings/single-forms.php:266
 msgid "投稿の関連記事のエントリーカードに投稿関連情報を表示するかどうか。"
 msgstr "Display post related information in entry cards of related post pages or not."
@@ -9011,20 +9002,20 @@ msgid "スキンを選択してください。"
 msgstr "Select a skin."
 
 #: lib/page-settings/skin-forms.php:97
-msgid "表示スキン"
-msgstr "Display skins"
+msgid "スキン一覧表示"
+msgstr "Skins list display"
 
 #: lib/page-settings/skin-forms.php:102
-msgid "全てのスキンを表示"
+msgid "全てのスキンを表示する"
 msgstr "Display all skins"
 
 #: lib/page-settings/skin-forms.php:103
-msgid "親テーマのスキンのみ表示"
+msgid "親テーマのスキンのみ表示する"
 msgstr "Display only parent theme skins"
 
 #: lib/page-settings/skin-forms.php:104
-msgid "子テーマのスキンのみ表示"
-msgstr "Display only child theme skins"
+msgid "子テーマのスキンのみ表示する"
+msgstr "Display only parent theme skins"
 
 #: lib/page-settings/skin-forms.php:107
 msgid "スキン一覧に含めて表示するスキンを選択してください。"
@@ -12289,12 +12280,12 @@ msgid "本文の見出しにカウントをつけたくない場合はチェッ�
 msgstr "Uncheck if do not want to add a count to the body headings"
 
 #: skins/one/functions.php:134
-msgid "PCでもスマホ用の固定フッターメニューを表示する"
+msgid "PCでもスマートフォン用の固定フッターメニューを表示する"
 msgstr "Display fixed footer menu for smartphones even on a PC"
 
 #: skins/one/functions.php:135
-msgid "従来どおりPCでスマホ用の固定フッターメニューを表示させたくない場合はチェックを外してください"
-msgstr "Uncheck if do not want to display the fixed footer menu for smart phones on your PC as before."
+msgid "従来どおりPCでスマートフォン用の固定フッターメニューを表示させたくない場合はチェックを外してください"
+msgstr "Uncheck if you do not want to display the fixed footer menu for smartphones on your Pc as before."
 
 #: skins/one/functions.php:145
 msgid "全体的に影を付ける"
@@ -12353,8 +12344,8 @@ msgid "（詳しくは実際にご確認ください）"
 msgstr "(Please check in person for details)"
 
 #: skins/raku-add-fadein/functions.php:291
-msgid "表示スキン（ベース）"
-msgstr "Display skins (base)"
+msgid "スキン一覧表示（ベース）"
+msgstr "Skins list display (Base)"
 
 #: skins/raku-add-fadein/functions.php:317
 msgid "こちらで選択したスキンが表示されます。"
