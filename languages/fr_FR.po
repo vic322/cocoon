@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-12T12:59:45+00:00\n"
-"PO-Revision-Date: 2024-12-12 13:58\n"
+"PO-Revision-Date: 2024-12-12 14:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -3950,7 +3950,7 @@ msgstr ""
 
 #: lib/page-settings/admin-forms.php:201
 msgid "WordPressのダッシュボードに移動するためのリンクです。"
-msgstr ""
+msgstr "Lien pour accéder au tableau de bord de WordPress."
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクの表示"
