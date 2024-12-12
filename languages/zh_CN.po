@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-12T06:37:13+00:00\n"
-"PO-Revision-Date: 2024-12-12 07:18\n"
+"PO-Revision-Date: 2024-12-12 08:20\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2768,7 +2768,7 @@ msgstr "这是主题独有的访问统计功能设置。"
 
 #: lib/page-access/access-forms.php:30
 msgid "アクセス集計を有効にする"
-msgstr ""
+msgstr "启用访问统计"
 
 #: lib/page-access/access-forms.php:31
 msgid "有効にすることで「人気記事」ウィジェット等が利用できるようになります。簡易的なWordPress Popular Postsプラグインを実装しているようなものなのでレンタルサーバーから負荷が高いといわれたら無効にしてください。"
@@ -2956,7 +2956,7 @@ msgstr "标题"
 #: lib/page-speech-balloon/form.php:49
 #: lib/page-speech-balloon/form.php:73
 msgid "（※必須）"
-msgstr ""
+msgstr "（※必填）"
 
 #: lib/page-affiliate-tag/form.php:31
 #: lib/page-func-text/form.php:31
@@ -3590,12 +3590,12 @@ msgstr "这是有关环境的信息。"
 #: lib/page-settings/about-forms.php:20
 #: lib/page-settings/about-forms.php:165
 msgid "環境情報をコピー"
-msgstr ""
+msgstr "复制环境信息"
 
 #: lib/page-settings/about-forms.php:21
 #: lib/page-settings/about-forms.php:166
 msgid "環境情報をコピーしました"
-msgstr ""
+msgstr "已复制环境信息"
 
 #: lib/page-settings/about-forms.php:28
 msgid "サイト名："
@@ -3765,7 +3765,7 @@ msgstr "正在使用的插件："
 
 #: lib/page-settings/about-forms.php:162
 msgid "不具合報告の際には上記の情報を添えてもらうと助かります。"
-msgstr ""
+msgstr "报告问题时，附上上述信息会有所帮助。"
 
 #: lib/page-settings/admin-forms.php:13
 msgid "管理画面設定"
@@ -3781,11 +3781,11 @@ msgstr "用于快速导航到管理界面的菜单链接。"
 
 #: lib/page-settings/admin-forms.php:31
 msgid "ツールバー（管理バー）に独自管理メニューを表示する"
-msgstr ""
+msgstr "在工具栏（管理栏）显示自定义管理菜单"
 
 #: lib/page-settings/admin-forms.php:32
 msgid "ツールバー（管理バー）に手軽に設定画面にアクセスできるメニューを表示します。"
-msgstr ""
+msgstr "在工具栏（管理栏）显示可轻松访问设置界面的菜单。"
 
 #: lib/page-settings/admin-forms.php:46
 msgid "ダッシュボードメッセージ"
@@ -3813,11 +3813,11 @@ msgstr "新冠病毒相关信息将显示至WHO发布疫情结束声明或接近
 
 #: lib/page-settings/admin-forms.php:77
 msgid "投稿・固定ページ一覧設定"
-msgstr ""
+msgstr "投稿和固定页面列表设置"
 
 #: lib/page-settings/admin-forms.php:81
 msgid "管理画面の投稿・固定ページ一覧ページの設定です。"
-msgstr ""
+msgstr "这是管理界面中投稿和固定页面列表页面的设置。"
 
 #: lib/page-settings/admin-forms.php:92
 msgid "カラム表示"
@@ -3829,7 +3829,7 @@ msgstr "操作文章和固定页面文章列表表格中的列。"
 
 #: lib/page-settings/admin-forms.php:99
 msgid "投稿者を表示する"
-msgstr ""
+msgstr "显示作者"
 
 #: lib/page-settings/admin-forms.php:102
 msgid "カテゴリーを表示する"
@@ -3851,7 +3851,7 @@ msgstr "显示日期"
 
 #: lib/page-settings/admin-forms.php:115
 msgid "IDを表示する"
-msgstr ""
+msgstr "显示文章ID"
 
 #: lib/page-settings/admin-forms.php:118
 msgid "文字数を表示する"
@@ -3895,15 +3895,15 @@ msgstr "这是一个用于显示管理员PV区域和各种检查工具的面板�
 
 #: lib/page-settings/admin-forms.php:163
 msgid "全て表示する"
-msgstr ""
+msgstr "显示全部"
 
 #: lib/page-settings/admin-forms.php:164
 msgid "PCのみ表示する"
-msgstr ""
+msgstr "仅显示在PC上"
 
 #: lib/page-settings/admin-forms.php:165
 msgid "モバイルのみ表示する"
-msgstr ""
+msgstr "仅显示在移动设备上"
 
 #: lib/page-settings/admin-forms.php:166
 #: lib/page-settings/appeal-forms.php:38
@@ -3946,11 +3946,11 @@ msgstr "在管理员面板内显示编辑区域。"
 
 #: lib/page-settings/admin-forms.php:200
 msgid "ダッシュボードリンクを表示する"
-msgstr ""
+msgstr "显示仪表盘链接"
 
 #: lib/page-settings/admin-forms.php:201
 msgid "WordPressのダッシュボードに移動するためのリンクです。"
-msgstr ""
+msgstr "这是跳转到WordPress仪表盘的链接。"
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクの表示"
@@ -4050,11 +4050,11 @@ msgstr "显示链接以在<a href=\"http://seocheki.net/\" target=\"_blank\" rel
 
 #: lib/page-settings/admin-forms.php:268
 msgid "ツイート検索を表示する"
-msgstr ""
+msgstr "显示推文搜索"
 
 #: lib/page-settings/admin-forms.php:269
 msgid "投稿・固定ページ・インデックスページに対するツイート検索リンクの表示。"
-msgstr ""
+msgstr "显示针对投稿、固定页面和索引页面的推文搜索链接。"
 
 #: lib/page-settings/admin-forms.php:278
 msgid "レスポンシブツールエリアの表示"
@@ -4062,7 +4062,7 @@ msgstr "显示响应式工具区域"
 
 #: lib/page-settings/admin-forms.php:282
 msgid "レスポンシブチェックツールエリアを表示する"
-msgstr ""
+msgstr "显示响应式检查工具区域"
 
 #: lib/page-settings/admin-forms.php:283
 msgid "レスポンシブ表示状態を効率的にチェックできるツールエリアの表示を切り替えます。"
@@ -4094,23 +4094,23 @@ msgstr "<a href=\"http://whatismyscreenresolution.net/multi-screen-test\" target
 
 #: lib/page-settings/admin-forms.php:311
 msgid "インデックス設定"
-msgstr ""
+msgstr "索引設定"
 
 #: lib/page-settings/admin-forms.php:314
 msgid "インデックスページのエントリーカードに表示されるPVの設定です。"
-msgstr ""
+msgstr "这是设置索引页面条目卡中显示的PV。"
 
 #: lib/page-settings/admin-forms.php:322
 msgid "エントリーカード"
-msgstr ""
+msgstr "条目卡片"
 
 #: lib/page-settings/admin-forms.php:323
 msgid "エントリーカードのPV表示エリアの設定です。"
-msgstr ""
+msgstr "这是条目卡PV显示区域的设置。"
 
 #: lib/page-settings/admin-forms.php:328
 msgid "インデックスにPV数を表示する"
-msgstr ""
+msgstr "在索引中显示PV数"
 
 #: lib/page-settings/admin-forms.php:329
 msgid "インデックスページのエントリーカードごとにPV数を表示します。集計方法がJetpackの場合は、初回アクセス時に情報取得に時間がかかります。"
@@ -4154,7 +4154,7 @@ msgstr "广告显示"
 
 #: lib/page-settings/ads-forms.php:26
 msgid "全ての広告を表示する"
-msgstr ""
+msgstr "显示所有广告"
 
 #: lib/page-settings/ads-forms.php:27
 msgid "アドセンス設定、ウィジェット設定等、全ての広告の表示を切り替えます。"
@@ -4189,7 +4189,7 @@ msgstr "显示AdSense广告"
 
 #: lib/page-settings/ads-forms.php:69
 msgid "全てのアドセンス広告を表示する"
-msgstr ""
+msgstr "显示所有AdSense广告"
 
 #: lib/page-settings/ads-forms.php:70
 msgid "「アドセンス設定」で設定した、アドセンス広告全ての表示を切り替えます。"
@@ -5589,37 +5589,37 @@ msgstr "宣传区域的显示"
 #: lib/page-settings/carousel-forms.php:39
 #: lib/page-settings/recommended-forms.php:40
 msgid "全ページで表示する"
-msgstr ""
+msgstr "在所有页面显示"
 
 #: lib/page-settings/appeal-forms.php:40
 #: lib/page-settings/carousel-forms.php:40
 #: lib/page-settings/recommended-forms.php:41
 msgid "フロントページのみで表示する"
-msgstr ""
+msgstr "仅在首页显示"
 
 #: lib/page-settings/appeal-forms.php:41
 #: lib/page-settings/carousel-forms.php:41
 #: lib/page-settings/recommended-forms.php:42
 msgid "投稿・固定ページ以外で表示する"
-msgstr ""
+msgstr "显示在帖子和固定页面以外的地方"
 
 #: lib/page-settings/appeal-forms.php:42
 #: lib/page-settings/carousel-forms.php:42
 #: lib/page-settings/recommended-forms.php:43
 msgid "投稿・固定ページのみで表示する"
-msgstr ""
+msgstr "仅在帖子和固定页面显示"
 
 #: lib/page-settings/appeal-forms.php:43
 #: lib/page-settings/carousel-forms.php:43
 #: lib/page-settings/recommended-forms.php:44
 msgid "投稿ページのみで表示する"
-msgstr ""
+msgstr "仅在帖子页面显示"
 
 #: lib/page-settings/appeal-forms.php:44
 #: lib/page-settings/carousel-forms.php:44
 #: lib/page-settings/recommended-forms.php:45
 msgid "固定ページのみで表示する"
-msgstr ""
+msgstr "仅在固定页面显示"
 
 #: lib/page-settings/appeal-forms.php:47
 msgid "アピールエリアを表示するページを設定します。"
@@ -5632,7 +5632,7 @@ msgstr "高度"
 
 #: lib/page-settings/appeal-forms.php:60
 msgid "アピールエリアの最低限の高さをpx数で指定します。モバイル環境では高さは無効になります。（最小：200px、最大：800px）"
-msgstr ""
+msgstr "以像素为单位指定宣传区域的高度。在移动设备上，高度设置将无效。（最小：200px，最大：800px）"
 
 #: lib/page-settings/appeal-forms.php:68
 msgid "エリア画像"
@@ -5644,7 +5644,7 @@ msgstr "设置在宣传区域背景中显示的图片。"
 
 #: lib/page-settings/appeal-forms.php:76
 msgid "アピールエリアの背景画像を固定する"
-msgstr ""
+msgstr "固定宣传区域的背景图片"
 
 #: lib/page-settings/appeal-forms.php:77
 msgid "アピールエリアに設定した背景画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
@@ -5981,7 +5981,7 @@ msgstr "设置显示轮播的页面。"
 
 #: lib/page-settings/carousel-forms.php:49
 msgid "スマートフォンで表示する（480px以下）"
-msgstr ""
+msgstr "在智能手机上显示（480px以下）"
 
 #: lib/page-settings/carousel-forms.php:58
 msgid "表示内容"
@@ -5989,7 +5989,7 @@ msgstr "显示内容"
 
 #: lib/page-settings/carousel-forms.php:63
 msgid "人気記事、カテゴリー、タグの順に優先され、いずれか一つが表示されます。"
-msgstr ""
+msgstr "按人气文章、类别、标签的顺序优先显示，其中之一将会被显示。"
 
 #: lib/page-settings/carousel-forms.php:68
 #: lib/widgets/popular-entries.php:201
@@ -6024,7 +6024,7 @@ msgstr "包括按...统计的热门文章"
 
 #: lib/page-settings/carousel-forms.php:76
 msgid "人気記事を選択すると、人気記事のみが優先して表示されます。"
-msgstr ""
+msgstr "选择人气文章时，将仅优先显示人气文章。"
 
 #: lib/page-settings/carousel-forms.php:78
 #: lib/page-settings/single-forms.php:129
@@ -6039,11 +6039,11 @@ msgstr "分类"
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "カテゴリーを選択すると、カテゴリーに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "选择类别时，仅显示与类别相关的文章。"
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "（※カテゴリー関連記事を表示させたい場合は、人気記事を選択しないでください）"
-msgstr ""
+msgstr "（※如果希望显示类别相关文章，请不要选择人气文章）"
 
 #: lib/page-settings/carousel-forms.php:82
 #: lib/page-settings/editor-forms.php:83
@@ -6059,11 +6059,11 @@ msgstr "标签"
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "タグを選択すると、タグに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "选择标签时，仅显示与标签相关的文章。"
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "（※タグ関連記事を表示させたい場合は、人気記事・カテゴリーを選択しないでください）"
-msgstr ""
+msgstr "（※如果希望显示标签相关文章，请不要选择人气文章或类别）"
 
 #: lib/page-settings/carousel-forms.php:92
 msgid "カルーセルの並び替え"
@@ -6118,7 +6118,7 @@ msgstr "自动播放"
 
 #: lib/page-settings/carousel-forms.php:142
 msgid "オートプレイを実行する"
-msgstr ""
+msgstr "启用自动播放"
 
 #: lib/page-settings/carousel-forms.php:143
 msgid "カルーセルが自動的に送られます。"
@@ -6150,7 +6150,7 @@ msgstr "高亮显示"
 
 #: lib/page-settings/code-forms.php:52
 msgid "ソースコードをハイライト表示する"
-msgstr ""
+msgstr "高亮显示源代码"
 
 #: lib/page-settings/code-forms.php:53
 msgid "本文中に表示されているpreタグ中のソースコードをハイライト表示します。"
@@ -6158,7 +6158,7 @@ msgstr "高亮显示本文中pre标签内的源代码。"
 
 #: lib/page-settings/code-forms.php:58
 msgid "行番号を表示する"
-msgstr ""
+msgstr "显示行号"
 
 #: lib/page-settings/code-forms.php:59
 msgid "ソースコード左側に行番号を表示します。"
@@ -6515,7 +6515,7 @@ msgstr "添加rel属性"
 #: lib/page-settings/content-forms.php:109
 #: lib/page-settings/content-forms.php:232
 msgid "noopenerを追加する"
-msgstr ""
+msgstr "添加noopener"
 
 #: lib/page-settings/content-forms.php:110
 #: lib/page-settings/content-forms.php:233
@@ -6527,7 +6527,7 @@ msgstr "在rel属性中添加noopener。"
 #: lib/page-settings/content-forms.php:236
 #: lib/page-settings/content-forms.php:246
 msgid "target=\"_blank\"の際はnoopenerを追加する"
-msgstr ""
+msgstr "target=\"_blank\"时添加noopener"
 
 #: lib/page-settings/content-forms.php:114
 #: lib/page-settings/content-forms.php:237
@@ -6537,7 +6537,7 @@ msgstr "在新标签页中打开链接时，添加rel属性noopener。"
 #: lib/page-settings/content-forms.php:118
 #: lib/page-settings/content-forms.php:241
 msgid "noreferrerを追加する"
-msgstr ""
+msgstr "添加noreferrer"
 
 #: lib/page-settings/content-forms.php:119
 #: lib/page-settings/content-forms.php:242
@@ -6551,7 +6551,7 @@ msgstr "在新标签页中打开链接时，添加rel属性noreferrer。"
 
 #: lib/page-settings/content-forms.php:127
 msgid "externalを追加する"
-msgstr ""
+msgstr "添加external"
 
 #: lib/page-settings/content-forms.php:128
 msgid "rel属性にexternalを追加します。"
@@ -6565,7 +6565,7 @@ msgstr "图标显示"
 #: lib/page-settings/content-forms.php:140
 #: lib/page-settings/content-forms.php:260
 msgid "アイコンを表示する"
-msgstr ""
+msgstr "显示图标"
 
 #: lib/page-settings/content-forms.php:141
 msgid "外部リンクの右部にFont Awesomeアイコンを表示するか。"
@@ -6632,7 +6632,7 @@ msgstr "响应式表格"
 
 #: lib/page-settings/content-forms.php:316
 msgid "横幅の広いテーブルは横スクロールする"
-msgstr ""
+msgstr "宽表格可以水平滚动"
 
 #: lib/page-settings/content-forms.php:317
 msgid "端末幅より広いテーブルが表示されるときは、テーブルを横スクロールして崩れないようにします。"
@@ -6640,7 +6640,7 @@ msgstr "当显示的表格宽于设备宽度时，表格将可以横向滚动以
 
 #: lib/page-settings/content-forms.php:321
 msgid "テーブルの1列目を固定表示する"
-msgstr ""
+msgstr "固定显示表格的第一列"
 
 #: lib/page-settings/content-forms.php:322
 msgid "横スクロールテーブルで1列目となるth、tdを固定します。"
@@ -6666,19 +6666,19 @@ msgstr "发布相关信息"
 #: lib/page-settings/index-forms.php:215
 #: lib/page-settings/single-forms.php:252
 msgid "投稿日を表示する"
-msgstr ""
+msgstr "显示发布日期"
 
 #: lib/page-settings/content-forms.php:355
 #: lib/page-settings/index-forms.php:218
 #: lib/page-settings/single-forms.php:262
 msgid "更新日を表示する"
-msgstr ""
+msgstr "显示更新日期"
 
 #: lib/page-settings/content-forms.php:357
 #: lib/page-settings/index-forms.php:221
 #: lib/page-settings/single-forms.php:265
 msgid "投稿者名を表示する"
-msgstr ""
+msgstr "显示发布者名称"
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿・固定ページの「投稿日・更新日・投稿者名」を表示するかどうか。"
@@ -6690,11 +6690,11 @@ msgstr "如果发布日期和更新日期相同，则只显示发布日期。"
 
 #: lib/page-settings/content-forms.php:358
 msgid "この日付表示設定では、単にCSSにより表示/非表示が切り替わります。"
-msgstr ""
+msgstr "此日期显示设置仅通过CSS切换显示/隐藏。"
 
 #: lib/page-settings/content-forms.php:358
 msgid "HTMLは出力されるので、検索エンジンに日付情報は伝わります。"
-msgstr ""
+msgstr "HTML会被输出，因此日期信息会传递给搜索引擎。"
 
 #: lib/page-settings/content-forms.php:366
 msgid "記事を読む時間"
@@ -6810,7 +6810,7 @@ msgstr "字数统计器"
 
 #: lib/page-settings/editor-forms.php:57
 msgid "タイトル等の文字数カウンターを表示する"
-msgstr ""
+msgstr "显示标题等的字数统计器"
 
 #: lib/page-settings/editor-forms.php:58
 msgid "タイトルや、SEOタイトル、メタディスクリプションの文字数を表示します。"
@@ -6850,7 +6850,7 @@ msgstr "仅适用于块编辑器的设置。"
 
 #: lib/page-settings/editor-forms.php:117
 msgid "「ふりがな（ルビ）」ボタンを表示する"
-msgstr ""
+msgstr "显示“假名（注音）”按钮"
 
 #: lib/page-settings/editor-forms.php:118
 msgid "Cocoonの「ルビ」ボタン表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
@@ -6858,7 +6858,7 @@ msgstr "切换Cocoon的“注音”按钮显示。如果使用插件的注音功
 
 #: lib/page-settings/editor-forms.php:122
 msgid "「書式のクリア」ボタンを表示する"
-msgstr ""
+msgstr "显示“清除格式”按钮"
 
 #: lib/page-settings/editor-forms.php:123
 msgid "Cocoonの「書式のクリア」表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
@@ -6870,7 +6870,7 @@ msgstr "样式下拉菜单"
 
 #: lib/page-settings/editor-forms.php:135
 msgid "「文字スタイル」を表示する"
-msgstr ""
+msgstr "显示\"文字样式\""
 
 #: lib/page-settings/editor-forms.php:136
 msgid "ツールバーの文字スタイルドロップダウンを表示するか。"
@@ -6878,7 +6878,7 @@ msgstr "是否显示工具栏的文本样式下拉菜单。"
 
 #: lib/page-settings/editor-forms.php:138
 msgid "「マーカー」を表示する"
-msgstr ""
+msgstr "显示\"标记\""
 
 #: lib/page-settings/editor-forms.php:139
 msgid "ツールバーのマーカースタイルドロップダウンを表示するか。"
@@ -6886,7 +6886,7 @@ msgstr "是否显示工具栏的标记样式下拉菜单。"
 
 #: lib/page-settings/editor-forms.php:141
 msgid "「バッジ」を表示する"
-msgstr ""
+msgstr "显示\"徽章\""
 
 #: lib/page-settings/editor-forms.php:142
 msgid "ツールバーのバッジスタイルドロップダウンを表示するか。"
@@ -6894,7 +6894,7 @@ msgstr "是否显示工具栏的徽章样式下拉菜单。"
 
 #: lib/page-settings/editor-forms.php:144
 msgid "「文字サイズ」を表示する"
-msgstr ""
+msgstr "显示\"文字大小\""
 
 #: lib/page-settings/editor-forms.php:145
 msgid "ツールバーの文字サイズスタイルドロップダウンを表示するか。"
@@ -6906,7 +6906,7 @@ msgstr "短代码下拉菜单"
 
 #: lib/page-settings/editor-forms.php:157
 msgid "「汎用ショートコード」を表示する"
-msgstr ""
+msgstr "显示\"通用短代码\""
 
 #: lib/page-settings/editor-forms.php:158
 msgid "ツールバーの汎用ショートコードドロップダウンを表示するか。"
@@ -6914,7 +6914,7 @@ msgstr "是否显示工具栏的通用短代码下拉菜单。"
 
 #: lib/page-settings/editor-forms.php:160
 msgid "「テンプレート」表示する"
-msgstr ""
+msgstr "显示\"模板\""
 
 #: lib/page-settings/editor-forms.php:161
 msgid "ツールバーのテンプレートショートコードドロップダウンを表示するか。"
@@ -6922,7 +6922,7 @@ msgstr "是否显示工具栏的模板短代码下拉菜单。"
 
 #: lib/page-settings/editor-forms.php:163
 msgid "「アフィリエイト」を表示する"
-msgstr ""
+msgstr "显示\"联盟营销\""
 
 #: lib/page-settings/editor-forms.php:164
 msgid "ツールバーのアフィリエイトショートコードドロップダウンを表示するか。"
@@ -6930,7 +6930,7 @@ msgstr "是否显示工具栏的联盟营销短代码下拉菜单。"
 
 #: lib/page-settings/editor-forms.php:166
 msgid "「ランキング」を表示する"
-msgstr ""
+msgstr "显示\"排名\""
 
 #: lib/page-settings/editor-forms.php:167
 msgid "ツールバーのランキングショートコードドロップダウンを表示するか。"
