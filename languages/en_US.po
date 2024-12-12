@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-12T06:37:13+00:00\n"
-"PO-Revision-Date: 2024-12-12 07:18\n"
+"PO-Revision-Date: 2024-12-12 08:20\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -6906,7 +6906,7 @@ msgstr "Short code drop-down list"
 
 #: lib/page-settings/editor-forms.php:157
 msgid "「汎用ショートコード」を表示する"
-msgstr ""
+msgstr "Display \"Generic shortcode\""
 
 #: lib/page-settings/editor-forms.php:158
 msgid "ツールバーの汎用ショートコードドロップダウンを表示するか。"
@@ -6914,7 +6914,7 @@ msgstr "Do you want to display the generic short code dropdown list on the toolb
 
 #: lib/page-settings/editor-forms.php:160
 msgid "「テンプレート」表示する"
-msgstr ""
+msgstr "Display \"Template\""
 
 #: lib/page-settings/editor-forms.php:161
 msgid "ツールバーのテンプレートショートコードドロップダウンを表示するか。"
@@ -6922,7 +6922,7 @@ msgstr "Do you want to display the template short code dropdown list on the tool
 
 #: lib/page-settings/editor-forms.php:163
 msgid "「アフィリエイト」を表示する"
-msgstr ""
+msgstr "Display \"Affiliate\""
 
 #: lib/page-settings/editor-forms.php:164
 msgid "ツールバーのアフィリエイトショートコードドロップダウンを表示するか。"
@@ -6930,7 +6930,7 @@ msgstr "Do you want to display the affiliate short code dropdown list on the too
 
 #: lib/page-settings/editor-forms.php:166
 msgid "「ランキング」を表示する"
-msgstr ""
+msgstr "Display \"Ranking\""
 
 #: lib/page-settings/editor-forms.php:167
 msgid "ツールバーのランキングショートコードドロップダウンを表示するか。"
@@ -6942,11 +6942,11 @@ msgstr "Block Option"
 
 #: lib/page-settings/editor-forms.php:180
 msgid "「スタイル」オプションを表示する"
-msgstr ""
+msgstr "Display \"Style\" option"
 
 #: lib/page-settings/editor-forms.php:181
 msgid "ブロックエディターの「スタイル」オプションを表示するか。"
-msgstr ""
+msgstr "Do you want to see the display of \"Style\" options in the block editor?"
 
 #: lib/page-settings/editor-forms.php:189
 msgid "拡張カラーパレット色"
@@ -7277,7 +7277,7 @@ msgstr "Body image settings"
 
 #: lib/page-settings/image-forms.php:16
 msgid "投稿・固定・カテゴリー・タグページの本文部分に関する画像の設定です。"
-msgstr ""
+msgstr "The image settings for the post/page/category/tag body text parts."
 
 #: lib/page-settings/image-forms.php:62
 msgid "アイキャッチの表示"
@@ -7289,7 +7289,7 @@ msgstr "Display eye-catching images above the body text"
 
 #: lib/page-settings/image-forms.php:67
 msgid "本文エリアトップトップにアイキャッチを表示します。"
-msgstr ""
+msgstr "Display the featured image at the top of the main content area."
 
 #: lib/page-settings/image-forms.php:71
 msgid "アイキャッチラベルを表示する"
@@ -7297,15 +7297,15 @@ msgstr "Display eye-catching labels"
 
 #: lib/page-settings/image-forms.php:72
 msgid "本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
-msgstr ""
+msgstr "Toggle display of the category label displayed for eye-catching images on content aria top."
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
-msgstr ""
+msgstr "Centering of eye-catching image"
 
 #: lib/page-settings/image-forms.php:75
 msgid "本文エリアトップに表示されるアイキャッチをカラムの中央に表示します。"
-msgstr ""
+msgstr "Displays eye-catching images in content aria top in the center of the column."
 
 #: lib/page-settings/image-forms.php:77
 msgid "アイキャッチをカラム幅に引き伸ばす"
@@ -7321,7 +7321,7 @@ msgstr "Display a caption for an eye-catching image"
 
 #: lib/page-settings/image-forms.php:81
 msgid "アイキャッチ画像にキャプションが設定してある場合、表示するかどうかを設定します。"
-msgstr ""
+msgstr "If a caption has been set for an eye-catching image, do you want to display it?"
 
 #: lib/page-settings/image-forms.php:90
 msgid "アイキャッチの自動設定"
@@ -7333,7 +7333,7 @@ msgstr "Enable automatic setting of an eye-catching image"
 
 #: lib/page-settings/image-forms.php:95
 msgid "（※投稿・固定ページのみ）"
-msgstr ""
+msgstr "(*Posts and pages only)"
 
 #: lib/page-settings/image-forms.php:96
 msgid "記事を保存したり公開したりするときに、本文中に最初に出てくる画像をアイキャッチにします。※プレビューには反映されません。"
@@ -7833,7 +7833,7 @@ msgstr "Mobile button"
 
 #: lib/page-settings/mobile-buttons-forms.php:57
 msgid "モバイルボタンを固定表示する"
-msgstr ""
+msgstr "Fixed display of mobile button"
 
 #: lib/page-settings/mobile-buttons-forms.php:58
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときボタンを固定表示するか。無効の場合はスクロールするとモバイルボタンが隠れます。"
@@ -7849,7 +7849,7 @@ msgstr "Whether to display the header logo when the \"Header Mobile Button\" is 
 
 #: lib/page-settings/mobile-buttons-forms.php:63
 msgid "モバイルボタン時コンテンツ下のサイドバーを表示する"
-msgstr ""
+msgstr "Display the sidebar below the content when using the mobile button"
 
 #: lib/page-settings/mobile-buttons-forms.php:64
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときメインカラム下に表示されるサイドバーを表示するかどうか。"
@@ -7909,7 +7909,7 @@ msgstr "Notification display"
 
 #: lib/page-settings/notice-forms.php:40
 msgid "通知エリアを表示する"
-msgstr ""
+msgstr "Display notification area"
 
 #: lib/page-settings/notice-forms.php:41
 msgid "通知メッセージを入力して「通知表示」を有効にすればヘッダー下に通知メッセージが表示されます。"
@@ -7997,7 +7997,7 @@ msgstr "Enable OGP"
 
 #: lib/page-settings/ogp-forms.php:29
 msgid "OGPタグを挿入する"
-msgstr ""
+msgstr "Insert OGP tag"
 
 #: lib/page-settings/ogp-forms.php:30
 msgid "headタグ内にFacebookや外部サイトなどに、ページの概要情報伝えるタグを挿入します。"
@@ -8029,7 +8029,7 @@ msgstr "Enable Twitter card"
 
 #: lib/page-settings/ogp-forms.php:76
 msgid "Twitterカードタグを挿入する"
-msgstr ""
+msgstr "Insert Twitter card tag"
 
 #: lib/page-settings/ogp-forms.php:77
 msgid "headタグ内にTwitterに対して、ページの概要情報伝えるタグを挿入します。"
@@ -8081,7 +8081,7 @@ msgstr "Easy SSL support"
 
 #: lib/page-settings/others-forms.php:28
 msgid "内部URLをSSL対応する（簡易版）"
-msgstr ""
+msgstr "Internal URL compatible with SSL (simplified version)"
 
 #: lib/page-settings/others-forms.php:29
 msgid "サイトの内部リンクや、非SSLの画像・URLなど、HTTPS化する必要があるURLをSSL対応させて表示させます（※全てのURLに対応しているわけではありません）。"
@@ -8499,7 +8499,7 @@ msgstr "Insert in head tag"
 
 #: lib/page-settings/seo-forms.php:30
 msgid "canonicalタグを追加する"
-msgstr ""
+msgstr "Add canonical tag"
 
 #: lib/page-settings/seo-forms.php:31
 msgid "WordPressデフォルトでも投稿・固定ページには、canonicalタグは挿入されます。"
@@ -8511,11 +8511,11 @@ msgstr "When this feature is enabled, a canonical tag is also inserted in the ho
 
 #: lib/page-settings/seo-forms.php:34
 msgid "分割ページにrel=\"next\"/\"prev\"タグを追加する"
-msgstr ""
+msgstr "Add [rel=\"next\"/\"prev\"] tag to split page"
 
 #: lib/page-settings/seo-forms.php:35
 msgid "検索エンジンに続き物ページの順番を知らせます。"
-msgstr ""
+msgstr "Notify search engines of the order of sequential pages."
 
 #: lib/page-settings/seo-forms.php:38
 msgid "カテゴリーページをnoindexとする"
@@ -8572,7 +8572,7 @@ msgstr "Structured data"
 
 #: lib/page-settings/seo-forms.php:79
 msgid "JSON-LDを出力する"
-msgstr ""
+msgstr "Output JSON-LD"
 
 #: lib/page-settings/seo-forms.php:80
 msgid "構造化データのJSON-LD情報をヘッダーに出力するかどうか。"
@@ -8676,11 +8676,11 @@ msgstr "Select the date format to display. The way it transmitted to search engi
 
 #: lib/page-settings/seo-forms.php:161
 msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するhtmlを制御します。"
-msgstr ""
+msgstr "In this \"SEO\" \"Display Date\" setting, you control the HTML output to inform search engines of either the \"Published Date\" or the \"Updated Date.\""
 
 #: lib/page-settings/seo-forms.php:161
 msgid "「投稿日・更新日を表示」を選択した場合は、「更新日」が優先して検索エンジンに伝えられます。"
-msgstr ""
+msgstr "If \"Display Published and Updated Dates\" is selected, \"Updated Date\" will be prioritized and conveyed to search engines."
 
 #: lib/page-settings/single-forms.php:13
 msgid "カテゴリー・タグ表示設定"
@@ -8890,11 +8890,11 @@ msgstr "Sets the maximum number of characters when displaying \"Auto-generated f
 
 #: lib/page-settings/single-forms.php:245
 msgid "スニペット（抜粋）を表示する"
-msgstr ""
+msgstr "Display snippets (excerpts)"
 
 #: lib/page-settings/single-forms.php:249
 msgid "スマホ端末でスニペットを表示する（480px以下）"
-msgstr ""
+msgstr "Display snippets on smartphone devices (up to 480 px)"
 
 #: lib/page-settings/single-forms.php:266
 msgid "投稿の関連記事のエントリーカードに投稿関連情報を表示するかどうか。"
@@ -8982,7 +8982,7 @@ msgstr "The breadcrumbs settings of posts."
 
 #: lib/page-settings/single-forms.php:443
 msgid "投稿・カテゴリーページのパンくずリスト表示位置を設定します。"
-msgstr ""
+msgstr "Set the breadcrumb display position for post/category pages."
 
 #: lib/page-settings/single-forms.php:456
 msgid "投稿ページのパンくずリストに対して、表示されているページのタイトルを含めるか切り替えます。"
@@ -9378,7 +9378,7 @@ msgstr "Display of bottom share buttons"
 
 #: lib/page-settings/sns-share-forms-bottom.php:40
 msgid "メインカラムボトムシェアボタンを表示する"
-msgstr ""
+msgstr "Display bottom share buttons in the main column"
 
 #: lib/page-settings/sns-share-forms-bottom.php:41
 msgid "ボトムシェアボタンの表示を切り替えます。"
@@ -9536,7 +9536,7 @@ msgstr "Display of top share buttons"
 
 #: lib/page-settings/sns-share-forms-top.php:40
 msgid "メインカラムトップシェアボタンを表示する"
-msgstr ""
+msgstr "Display top share buttons in the main column"
 
 #: lib/page-settings/sns-share-forms-top.php:41
 msgid "トップシェアボタンの表示を切り替えます。"
@@ -10530,7 +10530,7 @@ msgstr "Sets browser caching. By setting browser caching, from next time, resour
 
 #: lib/page-speed-up/speed-up-forms.php:29
 msgid "ブラウザキャッシュを有効にする"
-msgstr ""
+msgstr "Enable browser cache"
 
 #: lib/page-speed-up/speed-up-forms.php:30
 msgid "ブラウザキャッシュを有効化することで、訪問者が2回目以降リソースファイルをサーバーから読み込む時間を軽減できます。"
@@ -10837,7 +10837,7 @@ msgstr "Titles are displayed below large thumbnail images."
 #: blocks/src/block/new-list/edit.js:151
 #: blocks/src/block/popular-list/edit.js:230
 msgid "大きなサムネイル表示にする"
-msgstr ""
+msgstr "Display with big thumbnail"
 
 #: lib/settings.php:564
 msgid "大きなサムネイル画像の下段にタイトルを重ねます。"
@@ -10848,7 +10848,7 @@ msgstr "Titles are placed overlapping the lower part of large thumbnail images."
 #: blocks/src/block/new-list/edit.js:155
 #: blocks/src/block/popular-list/edit.js:234
 msgid "大きなサムネイルにタイトルを重ねて表示する"
-msgstr ""
+msgstr "Display with big thumbnail and overlay title"
 
 #: lib/settings.php:574
 msgid "画像のみ"
@@ -11801,7 +11801,7 @@ msgstr "Page"
 
 #: lib/widgets/display-widgets.php:163
 msgid "投稿者"
-msgstr ""
+msgstr "Author"
 
 #: lib/widgets/display-widgets.php:176
 msgid "カスタム投稿タイプ"
@@ -11900,7 +11900,7 @@ msgstr "Display count"
 #: lib/widgets/info-list.php:143
 #: blocks/src/block/info-list/edit.js:102
 msgid "枠線を表示する"
-msgstr ""
+msgstr "Display borders"
 
 #: lib/widgets/info-list.php:149
 #: blocks/src/block/info-list/edit.js:109
