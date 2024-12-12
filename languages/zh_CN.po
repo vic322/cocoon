@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-12T06:37:13+00:00\n"
-"PO-Revision-Date: 2024-12-12 08:20\n"
+"POT-Creation-Date: 2024-12-12T08:26:10+00:00\n"
+"PO-Revision-Date: 2024-12-12 09:59\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -6942,11 +6942,11 @@ msgstr "块选项"
 
 #: lib/page-settings/editor-forms.php:180
 msgid "「スタイル」オプションを表示する"
-msgstr ""
+msgstr "显示\"样式\"选项"
 
 #: lib/page-settings/editor-forms.php:181
 msgid "ブロックエディターの「スタイル」オプションを表示するか。"
-msgstr ""
+msgstr "是否显示块编辑器的\"样式\"选项。"
 
 #: lib/page-settings/editor-forms.php:189
 msgid "拡張カラーパレット色"
@@ -7277,7 +7277,7 @@ msgstr "正文图像设置"
 
 #: lib/page-settings/image-forms.php:16
 msgid "投稿・固定・カテゴリー・タグページの本文部分に関する画像の設定です。"
-msgstr ""
+msgstr "这是关于投稿、固定、类别和标签页面正文部分的图片设置。"
 
 #: lib/page-settings/image-forms.php:62
 msgid "アイキャッチの表示"
@@ -7289,7 +7289,7 @@ msgstr "在正文上方显示特色图片"
 
 #: lib/page-settings/image-forms.php:67
 msgid "本文エリアトップトップにアイキャッチを表示します。"
-msgstr ""
+msgstr "在正文区域顶部显示特色图片。"
 
 #: lib/page-settings/image-forms.php:71
 msgid "アイキャッチラベルを表示する"
@@ -7297,15 +7297,15 @@ msgstr "显示特色图片标签"
 
 #: lib/page-settings/image-forms.php:72
 msgid "本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
-msgstr ""
+msgstr "切换显示正文区域顶部特色图片上的类别标签。"
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
-msgstr ""
+msgstr "特色图片居中"
 
 #: lib/page-settings/image-forms.php:75
 msgid "本文エリアトップに表示されるアイキャッチをカラムの中央に表示します。"
-msgstr ""
+msgstr "将正文区域顶部显示的特色图片居中显示在栏中。"
 
 #: lib/page-settings/image-forms.php:77
 msgid "アイキャッチをカラム幅に引き伸ばす"
@@ -7320,8 +7320,8 @@ msgid "アイキャッチにキャプションがある場合は表示する"
 msgstr "如果特色图片有标题，则显示"
 
 #: lib/page-settings/image-forms.php:81
-msgid "アイキャッチ画像にキャプションが設定してある場合、表示するかどうかを設定します。"
-msgstr ""
+msgid "アイキャッチ画像にキャプションが設定してある場合、表示するかどうか。"
+msgstr "如果为特色图片设置了标题，是否显示。"
 
 #: lib/page-settings/image-forms.php:90
 msgid "アイキャッチの自動設定"
@@ -7333,7 +7333,7 @@ msgstr "启用特色图片自动设置"
 
 #: lib/page-settings/image-forms.php:95
 msgid "（※投稿・固定ページのみ）"
-msgstr ""
+msgstr "（※仅限投稿和固定页面）"
 
 #: lib/page-settings/image-forms.php:96
 msgid "記事を保存したり公開したりするときに、本文中に最初に出てくる画像をアイキャッチにします。※プレビューには反映されません。"
@@ -7833,7 +7833,7 @@ msgstr "移动按钮"
 
 #: lib/page-settings/mobile-buttons-forms.php:57
 msgid "モバイルボタンを固定表示する"
-msgstr ""
+msgstr "固定显示移动按钮"
 
 #: lib/page-settings/mobile-buttons-forms.php:58
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときボタンを固定表示するか。無効の場合はスクロールするとモバイルボタンが隠れます。"
@@ -7849,7 +7849,7 @@ msgstr "在移动设备上显示“头部移动按钮”时，是否显示头部
 
 #: lib/page-settings/mobile-buttons-forms.php:63
 msgid "モバイルボタン時コンテンツ下のサイドバーを表示する"
-msgstr ""
+msgstr "在移动按钮时显示内容下的侧边栏"
 
 #: lib/page-settings/mobile-buttons-forms.php:64
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときメインカラム下に表示されるサイドバーを表示するかどうか。"
@@ -7909,7 +7909,7 @@ msgstr "显示通知"
 
 #: lib/page-settings/notice-forms.php:40
 msgid "通知エリアを表示する"
-msgstr ""
+msgstr "显示通知区域"
 
 #: lib/page-settings/notice-forms.php:41
 msgid "通知メッセージを入力して「通知表示」を有効にすればヘッダー下に通知メッセージが表示されます。"
@@ -7997,7 +7997,7 @@ msgstr "启用OGP"
 
 #: lib/page-settings/ogp-forms.php:29
 msgid "OGPタグを挿入する"
-msgstr ""
+msgstr "插入OGP标签"
 
 #: lib/page-settings/ogp-forms.php:30
 msgid "headタグ内にFacebookや外部サイトなどに、ページの概要情報伝えるタグを挿入します。"
@@ -8029,7 +8029,7 @@ msgstr "启用Twitter卡片"
 
 #: lib/page-settings/ogp-forms.php:76
 msgid "Twitterカードタグを挿入する"
-msgstr ""
+msgstr "插入Twitter卡片标签"
 
 #: lib/page-settings/ogp-forms.php:77
 msgid "headタグ内にTwitterに対して、ページの概要情報伝えるタグを挿入します。"
@@ -8081,7 +8081,7 @@ msgstr "简单SSL支持"
 
 #: lib/page-settings/others-forms.php:28
 msgid "内部URLをSSL対応する（簡易版）"
-msgstr ""
+msgstr "SSL支持内部URL（简化版）"
 
 #: lib/page-settings/others-forms.php:29
 msgid "サイトの内部リンクや、非SSLの画像・URLなど、HTTPS化する必要があるURLをSSL対応させて表示させます（※全てのURLに対応しているわけではありません）。"
@@ -8511,11 +8511,11 @@ msgstr "启用此功能后，首页和分类页面等也会插入canonical标签
 
 #: lib/page-settings/seo-forms.php:34
 msgid "分割ページにrel=\"next\"/\"prev\"タグを追加する"
-msgstr ""
+msgstr "在分页页面中添加rel=\"next\"/\"prev\"标签"
 
 #: lib/page-settings/seo-forms.php:35
 msgid "検索エンジンに続き物ページの順番を知らせます。"
-msgstr ""
+msgstr "通知搜索引擎续篇页面的顺序。"
 
 #: lib/page-settings/seo-forms.php:38
 msgid "カテゴリーページをnoindexとする"
@@ -8572,7 +8572,7 @@ msgstr "结构化数据"
 
 #: lib/page-settings/seo-forms.php:79
 msgid "JSON-LDを出力する"
-msgstr ""
+msgstr "输出JSON-LD"
 
 #: lib/page-settings/seo-forms.php:80
 msgid "構造化データのJSON-LD情報をヘッダーに出力するかどうか。"
