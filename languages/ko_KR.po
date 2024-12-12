@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-12T08:26:10+00:00\n"
-"PO-Revision-Date: 2024-12-12 09:59\n"
+"POT-Creation-Date: 2024-12-12T12:59:45+00:00\n"
+"PO-Revision-Date: 2024-12-12 13:58\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2084,8 +2084,8 @@ msgid "記事の説明文を入力してください。"
 msgstr "글에 대한 설명을 입력하세요."
 
 #: lib/custom-fields/seo-field.php:131
-msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマホではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
-msgstr "글의 설명을 입력해 주세요. 대략 120자 전후의 입력을 추천합니다. 휴대폰에서는 약 50자가 뜹니다. 여기 입력한 meta description은 블로그 카드의 스니펫(발췌문 부분)에도 이용됩니다. 이곳에 입력하지 않은 경우는 \"발췌\"에 입력한 것이 메타 데이터에 삽입됩니다."
+msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
+msgstr ""
 
 #: lib/custom-fields/seo-field.php:135
 msgid "記事の関連キーワードを半角カンマ区切りで入力してください。"
@@ -4842,32 +4842,32 @@ msgid "サイドバーの表示状態"
 msgstr "사이드바의 상태를 표시합니다."
 
 #: lib/page-settings/all-forms.php:266
-msgid "全てのページで表示"
-msgstr "모든 페이지에 표시"
+msgid "全てのページで表示する"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:267
-msgid "全てのページで非表示"
-msgstr "모든 페이지에 숨기기"
+msgid "全てのページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:268
-msgid "フロントページで非表示"
-msgstr "프런트 페이지에서 숨기기"
+msgid "フロントページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:269
-msgid "インデックスページで非表示"
-msgstr "인덱스 페이지에서 숨기기"
+msgid "インデックスページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:270
-msgid "固定ページで非表示"
-msgstr "페이지에서 숨기기"
+msgid "固定ページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:271
-msgid "投稿ページで非表示"
-msgstr "글 페이지에서 숨기기"
+msgid "投稿ページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:272
-msgid "404ページで非表示"
-msgstr "404 페이지에서 숨기기"
+msgid "404ページで非表示にする"
+msgstr ""
 
 #: lib/page-settings/all-forms.php:276
 msgid "サイドバーを表示するページの設定です。"
@@ -5980,6 +5980,8 @@ msgid "カルーセルを表示するページを設定します。"
 msgstr "캐러셀에 표시할 글을 지정합니다."
 
 #: lib/page-settings/carousel-forms.php:49
+#: lib/page-settings/index-forms.php:212
+#: lib/page-settings/single-forms.php:249
 msgid "スマートフォンで表示する（480px以下）"
 msgstr ""
 
@@ -7204,16 +7206,16 @@ msgid "ヘッダー背景として表示する画像を設定します。"
 msgstr "헤더 배경에 표시할 이미지를 설정합니다."
 
 #: lib/page-settings/header-forms.php:149
-msgid "ヘッダー背景画像の固定"
-msgstr "헤더 배경 이미지 고정"
+msgid "ヘッダー背景画像を固定する"
+msgstr ""
 
 #: lib/page-settings/header-forms.php:150
 msgid "PC画面でヘッダー背景に設定した画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
 msgstr "PC화면에 헤더 배경에 설정된 이미지를 고정합니다.  상하로 스크롤을 할 때 배경 사진이 이동하지 않습니다."
 
 #: lib/page-settings/header-forms.php:153
-msgid "背景画像の全てを表示"
-msgstr "배경 사진 전체 표시"
+msgid "背景画像を全て表示する"
+msgstr ""
 
 #: lib/page-settings/header-forms.php:154
 msgid "ヘッダーのサイズを「ヘッダー背景画像」に設定した画像の縦横比サイズに合わせて表示させます。"
@@ -7368,8 +7370,8 @@ msgid "Spotlight（軽量・高機能ギャラリー）"
 msgstr "Spotlight (가벼움ㆍ고기능)"
 
 #: lib/page-settings/image-forms.php:131
-msgid "baguetteBox（軽量・スマホ向け）"
-msgstr "baguetteBox (가벼움ㆍ스마트폰용)"
+msgid "baguetteBox（軽量・スマートフォン向け）"
+msgstr ""
 
 #: lib/page-settings/image-forms.php:132
 msgid "Lity（軽量・1枚ずつ表示）"
@@ -7730,12 +7732,12 @@ msgid "縦型カード・タイルカードに設定した場合はサムネイ�
 msgstr "세로형 카드ㆍ타일 카드를 설정한 경우에는 썸네일을 재생성해 주세요."
 
 #: lib/page-settings/index-forms.php:153
-msgid "スマホ端末で縦型＆タイル型のエントリーカードを1カラムにする"
-msgstr "스마트폰에서 세로형 및 타일 형식의 엔트리 카드를 1열로 표시"
+msgid "スマートフォンで縦型＆タイル型のエントリーカードを1カラムにする"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:154
-msgid "スマホ（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
-msgstr "스마트폰(480px 이하)에서 표시할 때 카드 타입이 세로형 및 타일 카드인 경우 한 줄로 표시합니다. ※기본은 2 열"
+msgid "スマートフォン（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:169
 #: lib/page-settings/single-forms.php:219
@@ -7769,16 +7771,13 @@ msgid "投稿関連情報の表示"
 msgstr "글 관련 정보 표시"
 
 #: lib/page-settings/index-forms.php:208
-msgid "スニペット（抜粋）の表示"
-msgstr "스니펫(발췌) 표시"
-
-#: lib/page-settings/index-forms.php:212
-msgid "スマホ端末でスニペットを表示（480px以下）"
-msgstr "스마트폰에서 스니펫 표시 (480px 이하)"
+#: lib/page-settings/single-forms.php:245
+msgid "スニペット（抜粋）を表示する"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:224
-msgid "コメント数の表示"
-msgstr "댓글 수 표시"
+msgid "コメント数を表示する"
+msgstr ""
 
 #: lib/page-settings/index-forms.php:224
 msgid "（※投稿・固定ページでコメントが表示されている場合）"
@@ -8888,14 +8887,6 @@ msgstr "최대 자동 생성 발췌 글자 수"
 msgid "「関連記事エントリーカード」で、「本文から自動生成される抜粋文」を表示する場合の最大文字数を設定します。※投稿編集画面の抜粋文ではありません。（最小：1、最大：500）"
 msgstr "「관련 글 엔트리 카드」에서 「본문에서 자동으로 가져오는 발췌문」을 표시하는 경우 최대 글자수를 설정합니다.※글 편집 화면의 발췌문이 아닙니다. (최소: 1, 최대: 500)"
 
-#: lib/page-settings/single-forms.php:245
-msgid "スニペット（抜粋）を表示する"
-msgstr ""
-
-#: lib/page-settings/single-forms.php:249
-msgid "スマホ端末でスニペットを表示する（480px以下）"
-msgstr ""
-
 #: lib/page-settings/single-forms.php:266
 msgid "投稿の関連記事のエントリーカードに投稿関連情報を表示するかどうか。"
 msgstr "게시물과 관련된 글의 엔트리 카드에 게시 관련 정보를 표시할지 여부."
@@ -9011,20 +9002,20 @@ msgid "スキンを選択してください。"
 msgstr "스킨을 선택하세요."
 
 #: lib/page-settings/skin-forms.php:97
-msgid "表示スキン"
-msgstr "표시 스킨"
+msgid "スキン一覧表示"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:102
-msgid "全てのスキンを表示"
-msgstr "모든 스킨 표시"
+msgid "全てのスキンを表示する"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:103
-msgid "親テーマのスキンのみ表示"
-msgstr "부모테마 스킨만 표시"
+msgid "親テーマのスキンのみ表示する"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:104
-msgid "子テーマのスキンのみ表示"
-msgstr "자식테마 스킨만 표시"
+msgid "子テーマのスキンのみ表示する"
+msgstr ""
 
 #: lib/page-settings/skin-forms.php:107
 msgid "スキン一覧に含めて表示するスキンを選択してください。"
@@ -12284,12 +12275,12 @@ msgid "本文の見出しにカウントをつけたくない場合はチェッ�
 msgstr "본문 제목에 카운트를 쓰지 않으려면 체크를 해제하십시오"
 
 #: skins/one/functions.php:134
-msgid "PCでもスマホ用の固定フッターメニューを表示する"
-msgstr "PC에서도 스마트폰용 고정 푸터 메뉴 표시하기"
+msgid "PCでもスマートフォン用の固定フッターメニューを表示する"
+msgstr ""
 
 #: skins/one/functions.php:135
-msgid "従来どおりPCでスマホ用の固定フッターメニューを表示させたくない場合はチェックを外してください"
-msgstr "기존 PC에서 스마트 폰용 고정 바닥 글 메뉴를 표시하지 않으려면 체크를 해제하십시오"
+msgid "従来どおりPCでスマートフォン用の固定フッターメニューを表示させたくない場合はチェックを外してください"
+msgstr ""
 
 #: skins/one/functions.php:145
 msgid "全体的に影を付ける"
@@ -12348,8 +12339,8 @@ msgid "（詳しくは実際にご確認ください）"
 msgstr "(자세한 것은 실제로 확인해 주세요)"
 
 #: skins/raku-add-fadein/functions.php:291
-msgid "表示スキン（ベース）"
-msgstr "표시 스킨(베이스)"
+msgid "スキン一覧表示（ベース）"
+msgstr ""
 
 #: skins/raku-add-fadein/functions.php:317
 msgid "こちらで選択したスキンが表示されます。"
