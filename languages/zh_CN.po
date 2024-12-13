@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-13 14:53\n"
+"PO-Revision-Date: 2024-12-13 15:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4966,7 +4966,7 @@ msgstr "AMP画廊（支持多张图片画廊显示）"
 #: lib/page-settings/amp-forms.php:59
 #: lib/page-settings/image-forms.php:136
 msgid "本文内のリンク画像をクリックしたときの拡大効果の設定です。"
-msgstr ""
+msgstr "设置正文中链接图片点击时的放大效果。"
 
 #: lib/page-settings/amp-forms.php:67
 msgid "インラインスタイル"
@@ -7303,7 +7303,7 @@ msgstr "切换显示正文区域顶部特色图片上的类别标签。"
 
 #: lib/page-settings/image-forms.php:72
 msgid "（※投稿・固定・カテゴリーページのみ）"
-msgstr ""
+msgstr "（※仅限投稿、固定和类别页面）"
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
@@ -7367,7 +7367,7 @@ msgstr "阴影（纸张效果）"
 
 #: lib/page-settings/image-forms.php:116
 msgid "本文内の画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
-msgstr ""
+msgstr "这是正文中图片边框的设置。启用后，即使是浅色图片也更容易被识别为图片。"
 
 #: lib/page-settings/image-forms.php:130
 msgid "Spotlight（軽量・高機能ギャラリー）"
@@ -8679,7 +8679,7 @@ msgstr "请选择要显示的日期格式。显示的日期可能会影响搜索
 
 #: lib/page-settings/seo-forms.php:161
 msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するHTMLを制御します。"
-msgstr ""
+msgstr "在此「SEO」中的「显示日期」设置中，通过控制输出的HTML来决定是否将「发布日期」或「更新日期」传递给搜索引擎。"
 
 #: lib/page-settings/seo-forms.php:161
 msgid "「投稿日・更新日を表示」を選択した場合は、「更新日」が優先して検索エンジンに伝えられます。"
