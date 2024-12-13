@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-12T12:59:45+00:00\n"
-"PO-Revision-Date: 2024-12-12 14:53\n"
+"POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
+"PO-Revision-Date: 2024-12-13 14:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2629,77 +2629,77 @@ msgstr "Saisissez les ID des tags, séparés par des virgules."
 msgid "人気記事は見つかりませんでした。"
 msgstr "Aucun article populaire n'a été trouvé."
 
-#: lib/html-forms.php:1353
-#: lib/html-forms.php:1901
+#: lib/html-forms.php:1347
+#: lib/html-forms.php:1895
 msgid "記事は見つかりませんでした。"
 msgstr "Aucun article trouvé."
 
 #. translators: %s: author's display name
-#: lib/html-forms.php:1485
+#: lib/html-forms.php:1479
 msgid "Posts by %s"
 msgstr "Articles par %s"
 
-#: lib/html-forms.php:1489
+#: lib/html-forms.php:1483
 msgid "NO USER"
 msgstr "AUCUN UTILISATEUR"
 
-#: lib/html-forms.php:1504
+#: lib/html-forms.php:1498
 msgid "未登録のユーザーさん"
 msgstr "Utilisateur non enregistré"
 
-#: lib/html-forms.php:1514
+#: lib/html-forms.php:1508
 msgid "未登録のユーザーさんです。"
 msgstr "L'utilisateur n'est pas enregistré."
 
-#: lib/html-forms.php:1516
+#: lib/html-forms.php:1510
 msgid "ログイン・登録はこちら→"
 msgstr "Connexion/Inscription ->"
 
-#: lib/html-forms.php:1518
+#: lib/html-forms.php:1512
 msgid "ログインページ"
 msgstr "Page de connexion"
 
-#: lib/html-forms.php:1522
+#: lib/html-forms.php:1516
 msgid "未登録ユーザーです。ログインして、Cocoon設定の保存ボタンを押してください。"
 msgstr "Utilisateur non enregistré. Veuillez vous connecter et appuyer sur le bouton de sauvegarde dans les paramètres Cocoon."
 
-#: lib/html-forms.php:1525
+#: lib/html-forms.php:1519
 msgid "プロフィール内容は管理画面から変更可能です→"
 msgstr "Le contenu du profil peut être modifié depuis l'écran d'administration ->"
 
-#: lib/html-forms.php:1525
+#: lib/html-forms.php:1519
 msgid "プロフィール設定画面"
 msgstr "Paramètres du profil"
 
-#: lib/html-forms.php:1525
+#: lib/html-forms.php:1519
 msgid "※このメッセージは、ログインユーザーにしか表示されません。"
 msgstr "*Ce message est uniquement affiché pour les utilisateurs connectés."
 
-#: lib/html-forms.php:1555
+#: lib/html-forms.php:1549
 msgid "管理者用エラーメッセージ"
 msgstr "Messages d'erreur pour l'administrateur"
 
-#: lib/html-forms.php:1782
+#: lib/html-forms.php:1776
 msgid "おすすめ"
 msgstr "Recommandé"
 
-#: lib/html-forms.php:1785
+#: lib/html-forms.php:1779
 msgid "新着"
 msgstr "Nouveautés"
 
-#: lib/html-forms.php:1788
+#: lib/html-forms.php:1782
 msgid "注目"
 msgstr "En vedette"
 
-#: lib/html-forms.php:1791
+#: lib/html-forms.php:1785
 msgid "必見"
 msgstr "À voir absolument"
 
-#: lib/html-forms.php:1794
+#: lib/html-forms.php:1788
 msgid "お得"
 msgstr "Bonnes affaires"
 
-#: lib/html-forms.php:1837
+#: lib/html-forms.php:1831
 #: lib/shortcodes.php:1013
 #: lib/widgets/info-list.php:19
 #: lib/widgets/info-list.php:96
@@ -4965,8 +4965,8 @@ msgstr "Galerie AMP (prise en charge de l'affichage de galeries multi-images)"
 
 #: lib/page-settings/amp-forms.php:59
 #: lib/page-settings/image-forms.php:136
-msgid "リンク画像をクリックしたときの拡大効果の設定です。"
-msgstr "Paramètre de l'effet d'agrandissement lorsqu'une image de lien est cliquée."
+msgid "本文内のリンク画像をクリックしたときの拡大効果の設定です。"
+msgstr ""
 
 #: lib/page-settings/amp-forms.php:67
 msgid "インラインスタイル"
@@ -7301,6 +7301,10 @@ msgstr "Afficher les étiquettes des images à la une"
 msgid "本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
 msgstr ""
 
+#: lib/page-settings/image-forms.php:72
+msgid "（※投稿・固定・カテゴリーページのみ）"
+msgstr ""
+
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
 msgstr ""
@@ -7362,8 +7366,8 @@ msgid "シャドー（ペーパー）"
 msgstr "Ombre (papier)"
 
 #: lib/page-settings/image-forms.php:116
-msgid "画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
-msgstr "Définissez la bordure d'une image. Si cette option est activée, il sera plus facile de reconnaître même les images à fond blanc."
+msgid "本文内の画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
+msgstr ""
 
 #: lib/page-settings/image-forms.php:130
 msgid "Spotlight（軽量・高機能ギャラリー）"
@@ -8674,7 +8678,7 @@ msgid "表示する日付形式を選択してください。表示する日付�
 msgstr "Sélectionnez le format de date à afficher. La manière dont cela est transmis aux moteurs de recherche peut changer en fonction de la date affichée."
 
 #: lib/page-settings/seo-forms.php:161
-msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するhtmlを制御します。"
+msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するHTMLを制御します。"
 msgstr ""
 
 #: lib/page-settings/seo-forms.php:161
