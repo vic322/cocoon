@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-13 14:53\n"
+"PO-Revision-Date: 2024-12-13 15:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -4966,7 +4966,7 @@ msgstr "AMP gallery (support for multi-image gallery display)"
 #: lib/page-settings/amp-forms.php:59
 #: lib/page-settings/image-forms.php:136
 msgid "本文内のリンク画像をクリックしたときの拡大効果の設定です。"
-msgstr ""
+msgstr "Sets the magnification effect when a link image within the content is clicked."
 
 #: lib/page-settings/amp-forms.php:67
 msgid "インラインスタイル"
@@ -7303,7 +7303,7 @@ msgstr "Toggle display of the category label displayed for eye-catching images o
 
 #: lib/page-settings/image-forms.php:72
 msgid "（※投稿・固定・カテゴリーページのみ）"
-msgstr ""
+msgstr "(*Posts, pages, and category pages only)"
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
@@ -7367,7 +7367,7 @@ msgstr "Shadow (paper)"
 
 #: lib/page-settings/image-forms.php:116
 msgid "本文内の画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
-msgstr ""
+msgstr "Set the border of an image within the content. If enabled, it will be easier to recognize even white-based images as images."
 
 #: lib/page-settings/image-forms.php:130
 msgid "Spotlight（軽量・高機能ギャラリー）"
@@ -8679,7 +8679,7 @@ msgstr "Select the date format to display. The way it transmitted to search engi
 
 #: lib/page-settings/seo-forms.php:161
 msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するHTMLを制御します。"
-msgstr ""
+msgstr "In this \"SEO\" \"Display Date\" setting, you control the HTML output to inform search engines of either the \"Published Date\" or the \"Updated Date.\""
 
 #: lib/page-settings/seo-forms.php:161
 msgid "「投稿日・更新日を表示」を選択した場合は、「更新日」が優先して検索エンジンに伝えられます。"
