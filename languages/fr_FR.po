@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-13 15:53\n"
+"PO-Revision-Date: 2024-12-13 17:42\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -6160,7 +6160,7 @@ msgstr "Afficher en surbrillance le code source dans les balises pre affichées 
 
 #: lib/page-settings/code-forms.php:58
 msgid "行番号を表示する"
-msgstr ""
+msgstr "Afficher les numéros de ligne"
 
 #: lib/page-settings/code-forms.php:59
 msgid "ソースコード左側に行番号を表示します。"
@@ -6517,7 +6517,7 @@ msgstr "Attributs rel supplémentaires"
 #: lib/page-settings/content-forms.php:109
 #: lib/page-settings/content-forms.php:232
 msgid "noopenerを追加する"
-msgstr ""
+msgstr "Ajouter noopener"
 
 #: lib/page-settings/content-forms.php:110
 #: lib/page-settings/content-forms.php:233
@@ -6529,7 +6529,7 @@ msgstr "Ajoutez noopener aux attributs rel."
 #: lib/page-settings/content-forms.php:236
 #: lib/page-settings/content-forms.php:246
 msgid "target=\"_blank\"の際はnoopenerを追加する"
-msgstr ""
+msgstr "Ajouter noopener lorsque la cible target=\"_blank\"."
 
 #: lib/page-settings/content-forms.php:114
 #: lib/page-settings/content-forms.php:237
@@ -6539,7 +6539,7 @@ msgstr "Ajoutez noopener aux attributs rel des liens qui s'ouvrent dans un nouve
 #: lib/page-settings/content-forms.php:118
 #: lib/page-settings/content-forms.php:241
 msgid "noreferrerを追加する"
-msgstr ""
+msgstr "Ajouter noreferrer"
 
 #: lib/page-settings/content-forms.php:119
 #: lib/page-settings/content-forms.php:242
@@ -6553,7 +6553,7 @@ msgstr "Ajoutez noreferrer aux attributs rel des liens qui s'ouvrent dans un nou
 
 #: lib/page-settings/content-forms.php:127
 msgid "externalを追加する"
-msgstr ""
+msgstr "Ajouter external"
 
 #: lib/page-settings/content-forms.php:128
 msgid "rel属性にexternalを追加します。"
@@ -6567,7 +6567,7 @@ msgstr "Affichage de l'icône"
 #: lib/page-settings/content-forms.php:140
 #: lib/page-settings/content-forms.php:260
 msgid "アイコンを表示する"
-msgstr ""
+msgstr "Afficher les indicateurs"
 
 #: lib/page-settings/content-forms.php:141
 msgid "外部リンクの右部にFont Awesomeアイコンを表示するか。"
@@ -6634,7 +6634,7 @@ msgstr "Table responsive"
 
 #: lib/page-settings/content-forms.php:316
 msgid "横幅の広いテーブルは横スクロールする"
-msgstr ""
+msgstr "Défilement horizontal pour les tables larges"
 
 #: lib/page-settings/content-forms.php:317
 msgid "端末幅より広いテーブルが表示されるときは、テーブルを横スクロールして崩れないようにします。"
@@ -6642,7 +6642,7 @@ msgstr "Lorsque des tables plus larges que la largeur de l'écran sont affichée
 
 #: lib/page-settings/content-forms.php:321
 msgid "テーブルの1列目を固定表示する"
-msgstr ""
+msgstr "Afficher en mode fixe la première colonne des tables"
 
 #: lib/page-settings/content-forms.php:322
 msgid "横スクロールテーブルで1列目となるth、tdを固定します。"
@@ -6668,19 +6668,19 @@ msgstr "Informations liées à la publication"
 #: lib/page-settings/index-forms.php:215
 #: lib/page-settings/single-forms.php:252
 msgid "投稿日を表示する"
-msgstr ""
+msgstr "Afficher la date de publication"
 
 #: lib/page-settings/content-forms.php:355
 #: lib/page-settings/index-forms.php:218
 #: lib/page-settings/single-forms.php:262
 msgid "更新日を表示する"
-msgstr ""
+msgstr "Afficher la date de mise à jour"
 
 #: lib/page-settings/content-forms.php:357
 #: lib/page-settings/index-forms.php:221
 #: lib/page-settings/single-forms.php:265
 msgid "投稿者名を表示する"
-msgstr ""
+msgstr "Afficher le nom de l'auteur"
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿・固定ページの「投稿日・更新日・投稿者名」を表示するかどうか。"
@@ -6692,11 +6692,11 @@ msgstr "Si la date de publication et la date de mise à jour sont identiques, se
 
 #: lib/page-settings/content-forms.php:358
 msgid "この日付表示設定では、単にCSSにより表示/非表示が切り替わります。"
-msgstr ""
+msgstr "Ce paramètre d'affichage de date bascule simplement entre l'affichage et la non-affichage via CSS."
 
 #: lib/page-settings/content-forms.php:358
 msgid "HTMLは出力されるので、検索エンジンに日付情報は伝わります。"
-msgstr ""
+msgstr "Le HTML est généré, de sorte que les informations de date sont transmises aux moteurs de recherche."
 
 #: lib/page-settings/content-forms.php:366
 msgid "記事を読む時間"
@@ -6812,7 +6812,7 @@ msgstr "Compteur de caractères"
 
 #: lib/page-settings/editor-forms.php:57
 msgid "タイトル等の文字数カウンターを表示する"
-msgstr ""
+msgstr "Afficher le compteur de caractères pour les titres, etc."
 
 #: lib/page-settings/editor-forms.php:58
 msgid "タイトルや、SEOタイトル、メタディスクリプションの文字数を表示します。"
@@ -6852,7 +6852,7 @@ msgstr "Ces paramètres s'appliquent uniquement à l'éditeur de blocs."
 
 #: lib/page-settings/editor-forms.php:117
 msgid "「ふりがな（ルビ）」ボタンを表示する"
-msgstr ""
+msgstr "Afficher le bouton « Furigana (Ruby) »"
 
 #: lib/page-settings/editor-forms.php:118
 msgid "Cocoonの「ルビ」ボタン表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
@@ -6860,7 +6860,7 @@ msgstr "Basculez l'affichage du bouton “Ruby” dans Cocoon. Désactivez-le si
 
 #: lib/page-settings/editor-forms.php:122
 msgid "「書式のクリア」ボタンを表示する"
-msgstr ""
+msgstr "Afficher le bouton « Effacer le formatage »"
 
 #: lib/page-settings/editor-forms.php:123
 msgid "Cocoonの「書式のクリア」表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
@@ -6872,7 +6872,7 @@ msgstr "Menu déroulant des styles"
 
 #: lib/page-settings/editor-forms.php:135
 msgid "「文字スタイル」を表示する"
-msgstr ""
+msgstr "Afficher le « Style de texte »"
 
 #: lib/page-settings/editor-forms.php:136
 msgid "ツールバーの文字スタイルドロップダウンを表示するか。"
@@ -6880,7 +6880,7 @@ msgstr "Voulez-vous afficher la liste déroulante des styles de texte dans la ba
 
 #: lib/page-settings/editor-forms.php:138
 msgid "「マーカー」を表示する"
-msgstr ""
+msgstr "Afficher le « Marqueur »"
 
 #: lib/page-settings/editor-forms.php:139
 msgid "ツールバーのマーカースタイルドロップダウンを表示するか。"
@@ -6888,7 +6888,7 @@ msgstr "Voulez-vous afficher la liste déroulante des styles de marqueur dans la
 
 #: lib/page-settings/editor-forms.php:141
 msgid "「バッジ」を表示する"
-msgstr ""
+msgstr "Afficher le « Badge »"
 
 #: lib/page-settings/editor-forms.php:142
 msgid "ツールバーのバッジスタイルドロップダウンを表示するか。"
@@ -6896,7 +6896,7 @@ msgstr "Voulez-vous afficher la liste déroulante des styles de badge dans la ba
 
 #: lib/page-settings/editor-forms.php:144
 msgid "「文字サイズ」を表示する"
-msgstr ""
+msgstr "Afficher la « Taille de texte »"
 
 #: lib/page-settings/editor-forms.php:145
 msgid "ツールバーの文字サイズスタイルドロップダウンを表示するか。"
@@ -6908,7 +6908,7 @@ msgstr "Liste déroulante des shortcodes"
 
 #: lib/page-settings/editor-forms.php:157
 msgid "「汎用ショートコード」を表示する"
-msgstr ""
+msgstr "Afficher le « Shortcode générique »"
 
 #: lib/page-settings/editor-forms.php:158
 msgid "ツールバーの汎用ショートコードドロップダウンを表示するか。"
@@ -6916,7 +6916,7 @@ msgstr "Voulez-vous afficher la liste déroulante des shortcodes génériques da
 
 #: lib/page-settings/editor-forms.php:160
 msgid "「テンプレート」表示する"
-msgstr ""
+msgstr "Afficher le « Modèle »"
 
 #: lib/page-settings/editor-forms.php:161
 msgid "ツールバーのテンプレートショートコードドロップダウンを表示するか。"
@@ -6924,7 +6924,7 @@ msgstr "Voulez-vous afficher la liste déroulante des shortcodes de modèles dan
 
 #: lib/page-settings/editor-forms.php:163
 msgid "「アフィリエイト」を表示する"
-msgstr ""
+msgstr "Afficher l'« Affiliation »"
 
 #: lib/page-settings/editor-forms.php:164
 msgid "ツールバーのアフィリエイトショートコードドロップダウンを表示するか。"
@@ -6932,7 +6932,7 @@ msgstr "Voulez-vous afficher la liste déroulante des shortcodes d'affiliation d
 
 #: lib/page-settings/editor-forms.php:166
 msgid "「ランキング」を表示する"
-msgstr ""
+msgstr "Afficher le « Classement »"
 
 #: lib/page-settings/editor-forms.php:167
 msgid "ツールバーのランキングショートコードドロップダウンを表示するか。"
@@ -6944,11 +6944,11 @@ msgstr "Options de bloc"
 
 #: lib/page-settings/editor-forms.php:180
 msgid "「スタイル」オプションを表示する"
-msgstr ""
+msgstr "Afficher l'option « Style »"
 
 #: lib/page-settings/editor-forms.php:181
 msgid "ブロックエディターの「スタイル」オプションを表示するか。"
-msgstr ""
+msgstr "Afficher ou non l'option « Style » dans l'éditeur de blocs."
 
 #: lib/page-settings/editor-forms.php:189
 msgid "拡張カラーパレット色"
@@ -7207,7 +7207,7 @@ msgstr "Définissez une image comme arrière-plan de l'en-tête."
 
 #: lib/page-settings/header-forms.php:149
 msgid "ヘッダー背景画像を固定する"
-msgstr ""
+msgstr "Fixer l'image d'arrière-plan de l'en-tête"
 
 #: lib/page-settings/header-forms.php:150
 msgid "PC画面でヘッダー背景に設定した画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
@@ -7215,7 +7215,7 @@ msgstr "Fixez l'image définie comme arrière-plan de l'en-tête sur l'écran PC
 
 #: lib/page-settings/header-forms.php:153
 msgid "背景画像を全て表示する"
-msgstr ""
+msgstr "Afficher l'image d'arrière-plan en entier"
 
 #: lib/page-settings/header-forms.php:154
 msgid "ヘッダーのサイズを「ヘッダー背景画像」に設定した画像の縦横比サイズに合わせて表示させます。"
@@ -7279,7 +7279,7 @@ msgstr "Paramètres d'image du corps"
 
 #: lib/page-settings/image-forms.php:16
 msgid "投稿・固定・カテゴリー・タグページの本文部分に関する画像の設定です。"
-msgstr ""
+msgstr "Paramètres des images pour la section de contenu des pages des articles, fixes, catégories et tags."
 
 #: lib/page-settings/image-forms.php:62
 msgid "アイキャッチの表示"
@@ -7291,7 +7291,7 @@ msgstr "Afficher les images à la une au-dessus du texte du corps"
 
 #: lib/page-settings/image-forms.php:67
 msgid "本文エリアトップトップにアイキャッチを表示します。"
-msgstr ""
+msgstr "Afficher l'image mise en avant en haut de la zone de contenu."
 
 #: lib/page-settings/image-forms.php:71
 msgid "アイキャッチラベルを表示する"
@@ -7299,19 +7299,19 @@ msgstr "Afficher les étiquettes des images à la une"
 
 #: lib/page-settings/image-forms.php:72
 msgid "本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
-msgstr ""
+msgstr "Basculer l'affichage des étiquettes de catégorie sur l'image mise en avant en haut de la zone de contenu."
 
 #: lib/page-settings/image-forms.php:72
 msgid "（※投稿・固定・カテゴリーページのみ）"
-msgstr ""
+msgstr "(*Uniquement pour les pages des articles, fixes et catégories)"
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
-msgstr ""
+msgstr "Centrage de l'image à la une"
 
 #: lib/page-settings/image-forms.php:75
 msgid "本文エリアトップに表示されるアイキャッチをカラムの中央に表示します。"
-msgstr ""
+msgstr "Afficher l'image mise en avant en haut de la zone de contenu au centre de la colonne."
 
 #: lib/page-settings/image-forms.php:77
 msgid "アイキャッチをカラム幅に引き伸ばす"
@@ -7339,7 +7339,7 @@ msgstr "Activer la définition automatique de l'image à la une"
 
 #: lib/page-settings/image-forms.php:95
 msgid "（※投稿・固定ページのみ）"
-msgstr ""
+msgstr "(*Uniquement pour les pages des articles et fixes)"
 
 #: lib/page-settings/image-forms.php:96
 msgid "記事を保存したり公開したりするときに、本文中に最初に出てくる画像をアイキャッチにします。※プレビューには反映されません。"
@@ -7367,7 +7367,7 @@ msgstr "Ombre (papier)"
 
 #: lib/page-settings/image-forms.php:116
 msgid "本文内の画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
-msgstr ""
+msgstr "Paramètres des bordures des images dans le contenu. Lorsqu'elles sont activées, même les images claires seront plus faciles à identifier comme des images."
 
 #: lib/page-settings/image-forms.php:130
 msgid "Spotlight（軽量・高機能ギャラリー）"
@@ -7375,7 +7375,7 @@ msgstr "Spotlight (galerie légère et performante)"
 
 #: lib/page-settings/image-forms.php:131
 msgid "baguetteBox（軽量・スマートフォン向け）"
-msgstr ""
+msgstr "baguetteBox (léger, adapté aux smartphones)"
 
 #: lib/page-settings/image-forms.php:132
 msgid "Lity（軽量・1枚ずつ表示）"
@@ -7737,11 +7737,11 @@ msgstr "Si une carte verticale ou une carte en tuiles a été définie, régén�
 
 #: lib/page-settings/index-forms.php:153
 msgid "スマートフォンで縦型＆タイル型のエントリーカードを1カラムにする"
-msgstr ""
+msgstr "Placez les cartes d'entrée verticales et en tuiles dans une seule colonne sur les appareils mobiles"
 
 #: lib/page-settings/index-forms.php:154
 msgid "スマートフォン（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
-msgstr ""
+msgstr "Si le type de carte est « Carte verticale » ou « Carte en tuiles », il sera affiché dans une seule colonne sur les smartphones (jusqu'à 480 px). *Le paramètre par défaut est 2 colonnes"
 
 #: lib/page-settings/index-forms.php:169
 #: lib/page-settings/single-forms.php:219
@@ -7777,11 +7777,11 @@ msgstr "Afficher les informations relatives à la publication"
 #: lib/page-settings/index-forms.php:208
 #: lib/page-settings/single-forms.php:245
 msgid "スニペット（抜粋）を表示する"
-msgstr ""
+msgstr "Afficher les extraits (snippets)"
 
 #: lib/page-settings/index-forms.php:224
 msgid "コメント数を表示する"
-msgstr ""
+msgstr "Afficher le nombre de commentaires"
 
 #: lib/page-settings/index-forms.php:224
 msgid "（※投稿・固定ページでコメントが表示されている場合）"
@@ -7836,7 +7836,7 @@ msgstr "Bouton mobile"
 
 #: lib/page-settings/mobile-buttons-forms.php:57
 msgid "モバイルボタンを固定表示する"
-msgstr ""
+msgstr "Affichage fixe du bouton mobile"
 
 #: lib/page-settings/mobile-buttons-forms.php:58
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときボタンを固定表示するか。無効の場合はスクロールするとモバイルボタンが隠れます。"
@@ -7852,7 +7852,7 @@ msgstr "Afficher le logo de l'en-tête lorsque le « bouton mobile d'en-tête »
 
 #: lib/page-settings/mobile-buttons-forms.php:63
 msgid "モバイルボタン時コンテンツ下のサイドバーを表示する"
-msgstr ""
+msgstr "Afficher la barre latérale sous le contenu lors de l'utilisation du bouton mobile"
 
 #: lib/page-settings/mobile-buttons-forms.php:64
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときメインカラム下に表示されるサイドバーを表示するかどうか。"
@@ -7912,7 +7912,7 @@ msgstr "Affichage de la notification"
 
 #: lib/page-settings/notice-forms.php:40
 msgid "通知エリアを表示する"
-msgstr ""
+msgstr "Affichage de la zone de notification"
 
 #: lib/page-settings/notice-forms.php:41
 msgid "通知メッセージを入力して「通知表示」を有効にすればヘッダー下に通知メッセージが表示されます。"
@@ -8000,7 +8000,7 @@ msgstr "Activer OGP"
 
 #: lib/page-settings/ogp-forms.php:29
 msgid "OGPタグを挿入する"
-msgstr ""
+msgstr "Insérer le tag OGP"
 
 #: lib/page-settings/ogp-forms.php:30
 msgid "headタグ内にFacebookや外部サイトなどに、ページの概要情報伝えるタグを挿入します。"
@@ -8032,7 +8032,7 @@ msgstr "Activer la carte Twitter"
 
 #: lib/page-settings/ogp-forms.php:76
 msgid "Twitterカードタグを挿入する"
-msgstr ""
+msgstr "Insérer le tag de la carte Twitter"
 
 #: lib/page-settings/ogp-forms.php:77
 msgid "headタグ内にTwitterに対して、ページの概要情報伝えるタグを挿入します。"
@@ -8084,7 +8084,7 @@ msgstr "Support SSL simplifié"
 
 #: lib/page-settings/others-forms.php:28
 msgid "内部URLをSSL対応する（簡易版）"
-msgstr ""
+msgstr "URL interne compatible SSL (version simplifiée)"
 
 #: lib/page-settings/others-forms.php:29
 msgid "サイトの内部リンクや、非SSLの画像・URLなど、HTTPS化する必要があるURLをSSL対応させて表示させます（※全てのURLに対応しているわけではありません）。"
@@ -8502,7 +8502,7 @@ msgstr "Insérer dans la balise head"
 
 #: lib/page-settings/seo-forms.php:30
 msgid "canonicalタグを追加する"
-msgstr ""
+msgstr "Ajouter une balise canonical"
 
 #: lib/page-settings/seo-forms.php:31
 msgid "WordPressデフォルトでも投稿・固定ページには、canonicalタグは挿入されます。"
@@ -8514,11 +8514,11 @@ msgstr "Lorsque cette fonctionnalité est activée, une balise canonique est ég
 
 #: lib/page-settings/seo-forms.php:34
 msgid "分割ページにrel=\"next\"/\"prev\"タグを追加する"
-msgstr ""
+msgstr "Ajouter la balise [rel=\"next\"/\"prev\"] aux pages fractionnées"
 
 #: lib/page-settings/seo-forms.php:35
 msgid "検索エンジンに続き物ページの順番を知らせます。"
-msgstr ""
+msgstr "Informer les moteurs de recherche de l'ordre des pages en série."
 
 #: lib/page-settings/seo-forms.php:38
 msgid "カテゴリーページをnoindexとする"
@@ -11796,7 +11796,7 @@ msgstr "Page"
 
 #: lib/widgets/display-widgets.php:163
 msgid "投稿者"
-msgstr ""
+msgstr "Contributeur"
 
 #: lib/widgets/display-widgets.php:176
 msgid "カスタム投稿タイプ"
@@ -11895,18 +11895,18 @@ msgstr "Nombre d'affichages"
 #: lib/widgets/info-list.php:143
 #: blocks/src/block/info-list/edit.js:102
 msgid "枠線を表示する"
-msgstr ""
+msgstr "Afficher la bordure"
 
 #: lib/widgets/info-list.php:149
 #: blocks/src/block/info-list/edit.js:109
 msgid "仕切り線を表示する"
-msgstr ""
+msgstr "Afficher une ligne de séparation"
 
 #: lib/widgets/info-list.php:155
 #: lib/widgets/new-entries.php:226
 #: blocks/src/block/info-list/edit.js:116
 msgid "更新日順に並び替える"
-msgstr ""
+msgstr "Trier par date de modification"
 
 #: lib/widgets/info-list.php:162
 msgid "（※未選択の場合は全て表示）"
@@ -11971,7 +11971,7 @@ msgstr "C'est un widget pour afficher la liste des cartes de navigation."
 #: blocks/src/block/new-list/edit.js:201
 #: blocks/src/block/popular-list/edit.js:241
 msgid "横並び表示にする"
-msgstr ""
+msgstr "Affichage côte à côte"
 
 #: lib/widgets/navi-entries.php:132
 #: lib/widgets/new-entries.php:202
@@ -12018,7 +12018,7 @@ msgstr "Titre des nouveaux articles"
 
 #: lib/widgets/new-entries.php:220
 msgid "「固定表示」記事を表示する"
-msgstr ""
+msgstr "Afficher les articles en \"Affichage fixe\""
 
 #: lib/widgets/new-entries.php:232
 #: lib/widgets/popular-entries.php:244
@@ -12085,12 +12085,12 @@ msgstr "Période d'agrégation"
 #: lib/widgets/popular-entries.php:226
 #: blocks/src/block/popular-list/edit.js:253
 msgid "ランキング番号を表示する"
-msgstr ""
+msgstr "Afficher le numéro du classement"
 
 #: lib/widgets/popular-entries.php:232
 #: blocks/src/block/popular-list/edit.js:260
 msgid "PV数を表示する"
-msgstr ""
+msgstr "Afficher le nombre de PV"
 
 #: lib/widgets/recent-comments.php:19
 #: lib/widgets/recent-comments.php:117
@@ -12285,11 +12285,11 @@ msgstr "Décochez si vous ne souhaitez pas ajouter de compteur aux titres du cor
 
 #: skins/one/functions.php:134
 msgid "PCでもスマートフォン用の固定フッターメニューを表示する"
-msgstr ""
+msgstr "Afficher le menu fixe du pied de page pour smartphone même sur PC"
 
 #: skins/one/functions.php:135
 msgid "従来どおりPCでスマートフォン用の固定フッターメニューを表示させたくない場合はチェックを外してください"
-msgstr ""
+msgstr "Décochez si vous ne souhaitez pas afficher le menu fixe du pied de page pour smartphone sur votre PC comme avant."
 
 #: skins/one/functions.php:145
 msgid "全体的に影を付ける"
@@ -12349,7 +12349,7 @@ msgstr "(Voir détails sur place)"
 
 #: skins/raku-add-fadein/functions.php:291
 msgid "スキン一覧表示（ベース）"
-msgstr ""
+msgstr "Affichage de la liste des skins (base)"
 
 #: skins/raku-add-fadein/functions.php:317
 msgid "こちらで選択したスキンが表示されます。"
@@ -13347,7 +13347,7 @@ msgstr "Vers la page AMP"
 
 #: tmp/admin-panel.php:71
 msgid "PageSpeed Insights"
-msgstr ""
+msgstr "PageSpeed Insights"
 
 #: tmp/admin-panel.php:74
 msgid "GTmetrix"
@@ -13367,7 +13367,7 @@ msgstr "Rechercher des tweets"
 
 #: tmp/admin-panel.php:98
 msgid "Responsinator"
-msgstr ""
+msgstr "Responsinator"
 
 #: tmp/admin-panel.php:101
 msgid "Sizzy"
@@ -13375,7 +13375,7 @@ msgstr "Sizzy"
 
 #: tmp/admin-panel.php:105
 msgid "ScreenResolution"
-msgstr ""
+msgstr "ScreenResolution"
 
 #: tmp/admin-pv.php:22
 msgid "本日:"
