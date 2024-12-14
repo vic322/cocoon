@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-14 12:53\n"
+"PO-Revision-Date: 2024-12-14 13:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -3785,7 +3785,7 @@ msgstr "툴바(관리 바)에 독자 관리 메뉴를 표시합니다."
 
 #: lib/page-settings/admin-forms.php:32
 msgid "ツールバー（管理バー）に手軽に設定画面にアクセスできるメニューを表示します。"
-msgstr ""
+msgstr "툴바(관리 바)에 설정 화면에 쉽게 접근할 수 있는 메뉴를 표시합니다."
 
 #: lib/page-settings/admin-forms.php:46
 msgid "ダッシュボードメッセージ"
@@ -3813,11 +3813,11 @@ msgstr "신종 코로나 바이러스에 관한 정보는 WHO의 종식 선언�
 
 #: lib/page-settings/admin-forms.php:77
 msgid "投稿・固定ページ一覧設定"
-msgstr ""
+msgstr "게시물·고정 페이지 목록 설정"
 
 #: lib/page-settings/admin-forms.php:81
 msgid "管理画面の投稿・固定ページ一覧ページの設定です。"
-msgstr ""
+msgstr "관리 화면의 게시물·고정 페이지 목록 페이지 설정입니다."
 
 #: lib/page-settings/admin-forms.php:92
 msgid "カラム表示"
@@ -3829,7 +3829,7 @@ msgstr "게시물 및 페이지 문서 목록 테이블의 열 작업입니다."
 
 #: lib/page-settings/admin-forms.php:99
 msgid "投稿者を表示する"
-msgstr ""
+msgstr "작성자를 표시합니다"
 
 #: lib/page-settings/admin-forms.php:102
 msgid "カテゴリーを表示する"
@@ -3851,7 +3851,7 @@ msgstr "날짜 표시"
 
 #: lib/page-settings/admin-forms.php:115
 msgid "IDを表示する"
-msgstr ""
+msgstr "글 ID 표시"
 
 #: lib/page-settings/admin-forms.php:118
 msgid "文字数を表示する"
@@ -3895,15 +3895,15 @@ msgstr "PV 표시 영역 및 관리자의 다양한 확인 도구를 표시하�
 
 #: lib/page-settings/admin-forms.php:163
 msgid "全て表示する"
-msgstr ""
+msgstr "전체 보기"
 
 #: lib/page-settings/admin-forms.php:164
 msgid "PCのみ表示する"
-msgstr ""
+msgstr "PC만 표시"
 
 #: lib/page-settings/admin-forms.php:165
 msgid "モバイルのみ表示する"
-msgstr ""
+msgstr "모바일만 표시"
 
 #: lib/page-settings/admin-forms.php:166
 #: lib/page-settings/appeal-forms.php:38
@@ -3946,11 +3946,11 @@ msgstr "관리자 패널에 편집 영역을 표시합니다."
 
 #: lib/page-settings/admin-forms.php:200
 msgid "ダッシュボードリンクを表示する"
-msgstr ""
+msgstr "대시보드 링크 표시"
 
 #: lib/page-settings/admin-forms.php:201
 msgid "WordPressのダッシュボードに移動するためのリンクです。"
-msgstr ""
+msgstr "Wordpress 대시보드로 이동하기 위한 링크입니다."
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクの表示"
@@ -4050,11 +4050,11 @@ msgstr "<a href=\"http://seocheki.net/\" target=\"_blank\" rel=\"noopener\">SEO 
 
 #: lib/page-settings/admin-forms.php:268
 msgid "ツイート検索を表示する"
-msgstr ""
+msgstr "트윗 검색을 표시합니다"
 
 #: lib/page-settings/admin-forms.php:269
 msgid "投稿・固定ページ・インデックスページに対するツイート検索リンクの表示。"
-msgstr ""
+msgstr "게시물·고정 페이지·인덱스 페이지에 대한 트윗 검색 링크를 표시합니다."
 
 #: lib/page-settings/admin-forms.php:278
 msgid "レスポンシブツールエリアの表示"
@@ -4062,7 +4062,7 @@ msgstr "반응 도구 영역을 표시합니다."
 
 #: lib/page-settings/admin-forms.php:282
 msgid "レスポンシブチェックツールエリアを表示する"
-msgstr ""
+msgstr "반응형 확인 도구 영역을 표시합니다"
 
 #: lib/page-settings/admin-forms.php:283
 msgid "レスポンシブ表示状態を効率的にチェックできるツールエリアの表示を切り替えます。"
@@ -4094,23 +4094,23 @@ msgstr "<a href=\"http://whatismyscreenresolution.net/multi-screen-test\" target
 
 #: lib/page-settings/admin-forms.php:311
 msgid "インデックス設定"
-msgstr ""
+msgstr "인덱스 설정"
 
 #: lib/page-settings/admin-forms.php:314
 msgid "インデックスページのエントリーカードに表示されるPVの設定です。"
-msgstr ""
+msgstr "인덱스 페이지의 엔트리 카드에 표시되는 PV 설정입니다."
 
 #: lib/page-settings/admin-forms.php:322
 msgid "エントリーカード"
-msgstr ""
+msgstr "엔트리 카드"
 
 #: lib/page-settings/admin-forms.php:323
 msgid "エントリーカードのPV表示エリアの設定です。"
-msgstr ""
+msgstr "엔트리 카드의 PV 표시 영역 설정입니다."
 
 #: lib/page-settings/admin-forms.php:328
 msgid "インデックスにPV数を表示する"
-msgstr ""
+msgstr "인덱스에 PV 카운트를 표시합니다"
 
 #: lib/page-settings/admin-forms.php:329
 msgid "インデックスページのエントリーカードごとにPV数を表示します。集計方法がJetpackの場合は、初回アクセス時に情報取得に時間がかかります。"
@@ -4154,7 +4154,7 @@ msgstr "광고 표시"
 
 #: lib/page-settings/ads-forms.php:26
 msgid "全ての広告を表示する"
-msgstr ""
+msgstr "모든 광고 표시"
 
 #: lib/page-settings/ads-forms.php:27
 msgid "アドセンス設定、ウィジェット設定等、全ての広告の表示を切り替えます。"
@@ -4189,7 +4189,7 @@ msgstr "AdSense 광고 표시"
 
 #: lib/page-settings/ads-forms.php:69
 msgid "全てのアドセンス広告を表示する"
-msgstr ""
+msgstr "모든 AdSense 광고 표시"
 
 #: lib/page-settings/ads-forms.php:70
 msgid "「アドセンス設定」で設定した、アドセンス広告全ての表示を切り替えます。"
@@ -4843,31 +4843,31 @@ msgstr "사이드바의 상태를 표시합니다."
 
 #: lib/page-settings/all-forms.php:266
 msgid "全てのページで表示する"
-msgstr ""
+msgstr "모든 페이지에 표시"
 
 #: lib/page-settings/all-forms.php:267
 msgid "全てのページで非表示にする"
-msgstr ""
+msgstr "모든 페이지에 숨기기"
 
 #: lib/page-settings/all-forms.php:268
 msgid "フロントページで非表示にする"
-msgstr ""
+msgstr "프런트 페이지에서 숨기기"
 
 #: lib/page-settings/all-forms.php:269
 msgid "インデックスページで非表示にする"
-msgstr ""
+msgstr "인덱스 페이지에서 숨기기"
 
 #: lib/page-settings/all-forms.php:270
 msgid "固定ページで非表示にする"
-msgstr ""
+msgstr "페이지에서 숨기기"
 
 #: lib/page-settings/all-forms.php:271
 msgid "投稿ページで非表示にする"
-msgstr ""
+msgstr "글 페이지에서 숨기기"
 
 #: lib/page-settings/all-forms.php:272
 msgid "404ページで非表示にする"
-msgstr ""
+msgstr "404 페이지에서 숨기기"
 
 #: lib/page-settings/all-forms.php:276
 msgid "サイドバーを表示するページの設定です。"
@@ -4966,7 +4966,7 @@ msgstr "AMP 갤러리 (다중 이미지 갤러리 표시를 지원)"
 #: lib/page-settings/amp-forms.php:59
 #: lib/page-settings/image-forms.php:136
 msgid "本文内のリンク画像をクリックしたときの拡大効果の設定です。"
-msgstr ""
+msgstr "본문 내 링크 이미지 클릭 시 확대 효과 설정입니다."
 
 #: lib/page-settings/amp-forms.php:67
 msgid "インラインスタイル"
@@ -5589,37 +5589,37 @@ msgstr "어필 영역 표시"
 #: lib/page-settings/carousel-forms.php:39
 #: lib/page-settings/recommended-forms.php:40
 msgid "全ページで表示する"
-msgstr ""
+msgstr "모든 페이지에 표시"
 
 #: lib/page-settings/appeal-forms.php:40
 #: lib/page-settings/carousel-forms.php:40
 #: lib/page-settings/recommended-forms.php:41
 msgid "フロントページのみで表示する"
-msgstr ""
+msgstr "프런트 페이지에만 표시"
 
 #: lib/page-settings/appeal-forms.php:41
 #: lib/page-settings/carousel-forms.php:41
 #: lib/page-settings/recommended-forms.php:42
 msgid "投稿・固定ページ以外で表示する"
-msgstr ""
+msgstr "게시물/페이지 이외의 페이지에 표시"
 
 #: lib/page-settings/appeal-forms.php:42
 #: lib/page-settings/carousel-forms.php:42
 #: lib/page-settings/recommended-forms.php:43
 msgid "投稿・固定ページのみで表示する"
-msgstr ""
+msgstr "게시물/페이지에만 표시"
 
 #: lib/page-settings/appeal-forms.php:43
 #: lib/page-settings/carousel-forms.php:43
 #: lib/page-settings/recommended-forms.php:44
 msgid "投稿ページのみで表示する"
-msgstr ""
+msgstr "게시물에만 표시"
 
 #: lib/page-settings/appeal-forms.php:44
 #: lib/page-settings/carousel-forms.php:44
 #: lib/page-settings/recommended-forms.php:45
 msgid "固定ページのみで表示する"
-msgstr ""
+msgstr "페이지에만 표시"
 
 #: lib/page-settings/appeal-forms.php:47
 msgid "アピールエリアを表示するページを設定します。"
@@ -5632,7 +5632,7 @@ msgstr "높이"
 
 #: lib/page-settings/appeal-forms.php:60
 msgid "アピールエリアの最低限の高さをpx数で指定します。モバイル環境では高さは無効になります。（最小：200px、最大：800px）"
-msgstr ""
+msgstr "어필 영역의 최소 높이를 px 단위로 지정합니다. 모바일 환경에서는 높이가 비활성화됩니다. (최소: 200px, 최대: 800px)"
 
 #: lib/page-settings/appeal-forms.php:68
 msgid "エリア画像"
@@ -5644,7 +5644,7 @@ msgstr "어필 영역의 배경에 표시할 이미지를 설정하세요."
 
 #: lib/page-settings/appeal-forms.php:76
 msgid "アピールエリアの背景画像を固定する"
-msgstr ""
+msgstr "어필 영역 배경 이미지 고정"
 
 #: lib/page-settings/appeal-forms.php:77
 msgid "アピールエリアに設定した背景画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
@@ -5983,7 +5983,7 @@ msgstr "캐러셀에 표시할 글을 지정합니다."
 #: lib/page-settings/index-forms.php:212
 #: lib/page-settings/single-forms.php:249
 msgid "スマートフォンで表示する（480px以下）"
-msgstr ""
+msgstr "스마트폰에서 표시 (480px 이하)"
 
 #: lib/page-settings/carousel-forms.php:58
 msgid "表示内容"
@@ -5991,7 +5991,7 @@ msgstr "표시 내용"
 
 #: lib/page-settings/carousel-forms.php:63
 msgid "人気記事、カテゴリー、タグの順に優先され、いずれか一つが表示されます。"
-msgstr ""
+msgstr "인기 기사, 카테고리, 태그 순으로 우선되며, 이 중 하나가 표시됩니다."
 
 #: lib/page-settings/carousel-forms.php:68
 #: lib/widgets/popular-entries.php:201
@@ -6026,7 +6026,7 @@ msgstr "으로 집계한 인기글을 포함"
 
 #: lib/page-settings/carousel-forms.php:76
 msgid "人気記事を選択すると、人気記事のみが優先して表示されます。"
-msgstr ""
+msgstr "인기 기사를 선택하면 인기 기사만 우선적으로 표시됩니다."
 
 #: lib/page-settings/carousel-forms.php:78
 #: lib/page-settings/single-forms.php:129
@@ -6041,11 +6041,11 @@ msgstr "카테고리"
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "カテゴリーを選択すると、カテゴリーに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "카테고리를 선택하면 카테고리와 연결된 기사만 표시됩니다."
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "（※カテゴリー関連記事を表示させたい場合は、人気記事を選択しないでください）"
-msgstr ""
+msgstr "(※카테고리 관련 기사를 표시하려면 인기 기사를 선택하지 마십시오)"
 
 #: lib/page-settings/carousel-forms.php:82
 #: lib/page-settings/editor-forms.php:83
@@ -6061,11 +6061,11 @@ msgstr "태그"
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "タグを選択すると、タグに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "태그를 선택하면 태그와 연결된 기사만 표시됩니다."
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "（※タグ関連記事を表示させたい場合は、人気記事・カテゴリーを選択しないでください）"
-msgstr ""
+msgstr "(※태그 관련 기사를 표시하려면 인기 기사·카테고리를 선택하지 마십시오)"
 
 #: lib/page-settings/carousel-forms.php:92
 msgid "カルーセルの並び替え"
@@ -6120,7 +6120,7 @@ msgstr "자동 재생"
 
 #: lib/page-settings/carousel-forms.php:142
 msgid "オートプレイを実行する"
-msgstr ""
+msgstr "자동 재생하기"
 
 #: lib/page-settings/carousel-forms.php:143
 msgid "カルーセルが自動的に送られます。"
@@ -6152,7 +6152,7 @@ msgstr "하이라이팅 표시"
 
 #: lib/page-settings/code-forms.php:52
 msgid "ソースコードをハイライト表示する"
-msgstr ""
+msgstr "소스코드 하이라이팅 표시"
 
 #: lib/page-settings/code-forms.php:53
 msgid "本文中に表示されているpreタグ中のソースコードをハイライト表示します。"
@@ -6160,7 +6160,7 @@ msgstr "본문 텍스트에 표시된 pre 태그에서 소스코드를 하이라
 
 #: lib/page-settings/code-forms.php:58
 msgid "行番号を表示する"
-msgstr ""
+msgstr "행 번호를 표시"
 
 #: lib/page-settings/code-forms.php:59
 msgid "ソースコード左側に行番号を表示します。"
@@ -6517,7 +6517,7 @@ msgstr "추가 rel 속성"
 #: lib/page-settings/content-forms.php:109
 #: lib/page-settings/content-forms.php:232
 msgid "noopenerを追加する"
-msgstr ""
+msgstr "noopener 추가"
 
 #: lib/page-settings/content-forms.php:110
 #: lib/page-settings/content-forms.php:233
@@ -6529,7 +6529,7 @@ msgstr "rel 속성에 noopener 추가"
 #: lib/page-settings/content-forms.php:236
 #: lib/page-settings/content-forms.php:246
 msgid "target=\"_blank\"の際はnoopenerを追加する"
-msgstr ""
+msgstr "target=\"_blank\"일 때 noopener 추가."
 
 #: lib/page-settings/content-forms.php:114
 #: lib/page-settings/content-forms.php:237
@@ -6539,7 +6539,7 @@ msgstr "새 탭에서 여는 링크의 rel 속성에 noopener를 추가합니다
 #: lib/page-settings/content-forms.php:118
 #: lib/page-settings/content-forms.php:241
 msgid "noreferrerを追加する"
-msgstr ""
+msgstr "noreferrer 추가"
 
 #: lib/page-settings/content-forms.php:119
 #: lib/page-settings/content-forms.php:242
@@ -6553,7 +6553,7 @@ msgstr "새 탭에서 여는 링크의 rel 속성에 noreferrer를 추가합니�
 
 #: lib/page-settings/content-forms.php:127
 msgid "externalを追加する"
-msgstr ""
+msgstr "external 추가"
 
 #: lib/page-settings/content-forms.php:128
 msgid "rel属性にexternalを追加します。"
@@ -6567,7 +6567,7 @@ msgstr "아이콘 표시"
 #: lib/page-settings/content-forms.php:140
 #: lib/page-settings/content-forms.php:260
 msgid "アイコンを表示する"
-msgstr ""
+msgstr "아이콘 표시"
 
 #: lib/page-settings/content-forms.php:141
 msgid "外部リンクの右部にFont Awesomeアイコンを表示するか。"
@@ -6634,7 +6634,7 @@ msgstr "반응형 표"
 
 #: lib/page-settings/content-forms.php:316
 msgid "横幅の広いテーブルは横スクロールする"
-msgstr ""
+msgstr "가로로 긴 표를 수평 스크롤"
 
 #: lib/page-settings/content-forms.php:317
 msgid "端末幅より広いテーブルが表示されるときは、テーブルを横スクロールして崩れないようにします。"
@@ -6642,7 +6642,7 @@ msgstr "기기의 화면보다 표의 너비가 길 때 표의 좌우 스크롤�
 
 #: lib/page-settings/content-forms.php:321
 msgid "テーブルの1列目を固定表示する"
-msgstr ""
+msgstr "표의 첫째줄을 고정하기"
 
 #: lib/page-settings/content-forms.php:322
 msgid "横スクロールテーブルで1列目となるth、tdを固定します。"
@@ -6668,19 +6668,19 @@ msgstr "글 관련 설정"
 #: lib/page-settings/index-forms.php:215
 #: lib/page-settings/single-forms.php:252
 msgid "投稿日を表示する"
-msgstr ""
+msgstr "작성일을 표시"
 
 #: lib/page-settings/content-forms.php:355
 #: lib/page-settings/index-forms.php:218
 #: lib/page-settings/single-forms.php:262
 msgid "更新日を表示する"
-msgstr ""
+msgstr "수정일을 표시"
 
 #: lib/page-settings/content-forms.php:357
 #: lib/page-settings/index-forms.php:221
 #: lib/page-settings/single-forms.php:265
 msgid "投稿者名を表示する"
-msgstr ""
+msgstr "작성자 이름을 표시"
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿・固定ページの「投稿日・更新日・投稿者名」を表示するかどうか。"
@@ -6692,11 +6692,11 @@ msgstr "게시일, 수정일이 동일한 경우 게시일만 표시됩니다."
 
 #: lib/page-settings/content-forms.php:358
 msgid "この日付表示設定では、単にCSSにより表示/非表示が切り替わります。"
-msgstr ""
+msgstr "이 날짜 표시 설정은 단순히 CSS로 표시/비표시가 전환됩니다."
 
 #: lib/page-settings/content-forms.php:358
 msgid "HTMLは出力されるので、検索エンジンに日付情報は伝わります。"
-msgstr ""
+msgstr "HTML은 출력되므로 검색 엔진에 날짜 정보가 전달됩니다."
 
 #: lib/page-settings/content-forms.php:366
 msgid "記事を読む時間"
@@ -6812,7 +6812,7 @@ msgstr "글자 수 카운터"
 
 #: lib/page-settings/editor-forms.php:57
 msgid "タイトル等の文字数カウンターを表示する"
-msgstr ""
+msgstr "제목 등의 글자수 카운터 표시"
 
 #: lib/page-settings/editor-forms.php:58
 msgid "タイトルや、SEOタイトル、メタディスクリプションの文字数を表示します。"
@@ -6852,7 +6852,7 @@ msgstr "블록 에디터에만 적용되는 설정입니다."
 
 #: lib/page-settings/editor-forms.php:117
 msgid "「ふりがな（ルビ）」ボタンを表示する"
-msgstr ""
+msgstr "\"후리가나(루비)\" 버튼을 표시"
 
 #: lib/page-settings/editor-forms.php:118
 msgid "Cocoonの「ルビ」ボタン表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
@@ -6860,7 +6860,7 @@ msgstr "Cocoon의 루비 버튼 표시 상태를 변경합니다. 루비 플러�
 
 #: lib/page-settings/editor-forms.php:122
 msgid "「書式のクリア」ボタンを表示する"
-msgstr ""
+msgstr "\"서식 지우기\" 버튼을 표시"
 
 #: lib/page-settings/editor-forms.php:123
 msgid "Cocoonの「書式のクリア」表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
@@ -6872,7 +6872,7 @@ msgstr "스타일 드롭다운"
 
 #: lib/page-settings/editor-forms.php:135
 msgid "「文字スタイル」を表示する"
-msgstr ""
+msgstr "\"문자 스타일\"을 표시"
 
 #: lib/page-settings/editor-forms.php:136
 msgid "ツールバーの文字スタイルドロップダウンを表示するか。"
@@ -6880,7 +6880,7 @@ msgstr "툴바의 글자 스타일 드롭다운을 표시하겠습니까?"
 
 #: lib/page-settings/editor-forms.php:138
 msgid "「マーカー」を表示する"
-msgstr ""
+msgstr "\"마커\"를 표시"
 
 #: lib/page-settings/editor-forms.php:139
 msgid "ツールバーのマーカースタイルドロップダウンを表示するか。"
@@ -6888,7 +6888,7 @@ msgstr "툴바의 마커 스타일 드롭다운을 표시하겠습니까?"
 
 #: lib/page-settings/editor-forms.php:141
 msgid "「バッジ」を表示する"
-msgstr ""
+msgstr "\"배지\"를 표시"
 
 #: lib/page-settings/editor-forms.php:142
 msgid "ツールバーのバッジスタイルドロップダウンを表示するか。"
@@ -6896,7 +6896,7 @@ msgstr "툴바의 배지 스타일 드롭다운을 표시하겠습니까?"
 
 #: lib/page-settings/editor-forms.php:144
 msgid "「文字サイズ」を表示する"
-msgstr ""
+msgstr "\"문자 크기\"를 표시"
 
 #: lib/page-settings/editor-forms.php:145
 msgid "ツールバーの文字サイズスタイルドロップダウンを表示するか。"
@@ -6908,7 +6908,7 @@ msgstr "숏 코드 드롭다운"
 
 #: lib/page-settings/editor-forms.php:157
 msgid "「汎用ショートコード」を表示する"
-msgstr ""
+msgstr "\"범용 쇼트코드\"를 표시"
 
 #: lib/page-settings/editor-forms.php:158
 msgid "ツールバーの汎用ショートコードドロップダウンを表示するか。"
@@ -6916,7 +6916,7 @@ msgstr "툴바의 범용 숏 코드 드롭다운을 표시하겠습니까?"
 
 #: lib/page-settings/editor-forms.php:160
 msgid "「テンプレート」表示する"
-msgstr ""
+msgstr "\"템플릿\" 표시"
 
 #: lib/page-settings/editor-forms.php:161
 msgid "ツールバーのテンプレートショートコードドロップダウンを表示するか。"
@@ -6924,7 +6924,7 @@ msgstr "툴바의 템플릿 숏 코드 드롭다운을 표시하겠습니까?"
 
 #: lib/page-settings/editor-forms.php:163
 msgid "「アフィリエイト」を表示する"
-msgstr ""
+msgstr "\"어필리에이트\"를 표시"
 
 #: lib/page-settings/editor-forms.php:164
 msgid "ツールバーのアフィリエイトショートコードドロップダウンを表示するか。"
@@ -6932,7 +6932,7 @@ msgstr "툴바의 제휴 숏 코드 드롭다운을 표시하겠습니까?"
 
 #: lib/page-settings/editor-forms.php:166
 msgid "「ランキング」を表示する"
-msgstr ""
+msgstr "\"랭킹\"을 표시"
 
 #: lib/page-settings/editor-forms.php:167
 msgid "ツールバーのランキングショートコードドロップダウンを表示するか。"
@@ -6944,11 +6944,11 @@ msgstr "블록 옵션"
 
 #: lib/page-settings/editor-forms.php:180
 msgid "「スタイル」オプションを表示する"
-msgstr ""
+msgstr "\"스타일\" 옵션을 표시"
 
 #: lib/page-settings/editor-forms.php:181
 msgid "ブロックエディターの「スタイル」オプションを表示するか。"
-msgstr ""
+msgstr "블록 에디터의 \"스타일\" 옵션을 표시할지 여부."
 
 #: lib/page-settings/editor-forms.php:189
 msgid "拡張カラーパレット色"
@@ -7207,7 +7207,7 @@ msgstr "헤더 배경에 표시할 이미지를 설정합니다."
 
 #: lib/page-settings/header-forms.php:149
 msgid "ヘッダー背景画像を固定する"
-msgstr ""
+msgstr "헤더 배경 이미지 고정"
 
 #: lib/page-settings/header-forms.php:150
 msgid "PC画面でヘッダー背景に設定した画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
@@ -7215,7 +7215,7 @@ msgstr "PC화면에 헤더 배경에 설정된 이미지를 고정합니다.  �
 
 #: lib/page-settings/header-forms.php:153
 msgid "背景画像を全て表示する"
-msgstr ""
+msgstr "배경 이미지 전체를 표시"
 
 #: lib/page-settings/header-forms.php:154
 msgid "ヘッダーのサイズを「ヘッダー背景画像」に設定した画像の縦横比サイズに合わせて表示させます。"
@@ -7279,7 +7279,7 @@ msgstr "본문 배경 설정"
 
 #: lib/page-settings/image-forms.php:16
 msgid "投稿・固定・カテゴリー・タグページの本文部分に関する画像の設定です。"
-msgstr ""
+msgstr "게시물·고정·카테고리·태그 페이지의 본문 부분에 관한 이미지 설정입니다."
 
 #: lib/page-settings/image-forms.php:62
 msgid "アイキャッチの表示"
@@ -7291,7 +7291,7 @@ msgstr "본문 위에 아이캐치 표시"
 
 #: lib/page-settings/image-forms.php:67
 msgid "本文エリアトップトップにアイキャッチを表示します。"
-msgstr ""
+msgstr "본문 영역 상단에 아이캐치를 표시합니다."
 
 #: lib/page-settings/image-forms.php:71
 msgid "アイキャッチラベルを表示する"
@@ -7299,19 +7299,19 @@ msgstr "아이캐치 레이블 표시"
 
 #: lib/page-settings/image-forms.php:72
 msgid "本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
-msgstr ""
+msgstr "본문 영역 상단의 아이캐치에 표시되는 카테고리 라벨의 표시 전환입니다."
 
 #: lib/page-settings/image-forms.php:72
 msgid "（※投稿・固定・カテゴリーページのみ）"
-msgstr ""
+msgstr "(※게시물·고정·카테고리 페이지에 한함)"
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
-msgstr ""
+msgstr "아이캐치를 중앙에"
 
 #: lib/page-settings/image-forms.php:75
 msgid "本文エリアトップに表示されるアイキャッチをカラムの中央に表示します。"
-msgstr ""
+msgstr "본문 영역 상단에 표시되는 아이캐치를 열의 중앙에 표시합니다."
 
 #: lib/page-settings/image-forms.php:77
 msgid "アイキャッチをカラム幅に引き伸ばす"
@@ -7339,7 +7339,7 @@ msgstr "아이캐치 이미지 자동 설정을 활성화합니다."
 
 #: lib/page-settings/image-forms.php:95
 msgid "（※投稿・固定ページのみ）"
-msgstr ""
+msgstr "(※게시물·고정 페이지에 한함)"
 
 #: lib/page-settings/image-forms.php:96
 msgid "記事を保存したり公開したりするときに、本文中に最初に出てくる画像をアイキャッチにします。※プレビューには反映されません。"
@@ -7367,7 +7367,7 @@ msgstr "그림자 (종이)"
 
 #: lib/page-settings/image-forms.php:116
 msgid "本文内の画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
-msgstr ""
+msgstr "본문 내 이미지의 테두리 설정입니다. 활성화하면 밝은 계열의 이미지도 이미지로 인식하기 쉬워집니다."
 
 #: lib/page-settings/image-forms.php:130
 msgid "Spotlight（軽量・高機能ギャラリー）"
@@ -7375,7 +7375,7 @@ msgstr "Spotlight (가벼움ㆍ고기능)"
 
 #: lib/page-settings/image-forms.php:131
 msgid "baguetteBox（軽量・スマートフォン向け）"
-msgstr ""
+msgstr "baguetteBox (가벼움ㆍ스마트폰용)"
 
 #: lib/page-settings/image-forms.php:132
 msgid "Lity（軽量・1枚ずつ表示）"
@@ -7737,11 +7737,11 @@ msgstr "세로형 카드ㆍ타일 카드를 설정한 경우에는 썸네일을 
 
 #: lib/page-settings/index-forms.php:153
 msgid "スマートフォンで縦型＆タイル型のエントリーカードを1カラムにする"
-msgstr ""
+msgstr "스마트폰에서 세로형 및 타일 형식의 엔트리 카드를 1열로 표시"
 
 #: lib/page-settings/index-forms.php:154
 msgid "スマートフォン（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
-msgstr ""
+msgstr "스마트폰(480px 이하)에서 표시할 때 카드 타입이 세로형 및 타일 카드인 경우 한 줄로 표시합니다. ※기본은 2 열"
 
 #: lib/page-settings/index-forms.php:169
 #: lib/page-settings/single-forms.php:219
@@ -7777,11 +7777,11 @@ msgstr "글 관련 정보 표시"
 #: lib/page-settings/index-forms.php:208
 #: lib/page-settings/single-forms.php:245
 msgid "スニペット（抜粋）を表示する"
-msgstr ""
+msgstr "스니펫(발췌) 표시"
 
 #: lib/page-settings/index-forms.php:224
 msgid "コメント数を表示する"
-msgstr ""
+msgstr "댓글 수를 표시"
 
 #: lib/page-settings/index-forms.php:224
 msgid "（※投稿・固定ページでコメントが表示されている場合）"
@@ -7836,7 +7836,7 @@ msgstr "모바일 버튼"
 
 #: lib/page-settings/mobile-buttons-forms.php:57
 msgid "モバイルボタンを固定表示する"
-msgstr ""
+msgstr "모바일 버튼 고정 표시"
 
 #: lib/page-settings/mobile-buttons-forms.php:58
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときボタンを固定表示するか。無効の場合はスクロールするとモバイルボタンが隠れます。"
@@ -7852,7 +7852,7 @@ msgstr "모바일에서 「헤더 모바일 버튼」이 표시될 때 헤더의
 
 #: lib/page-settings/mobile-buttons-forms.php:63
 msgid "モバイルボタン時コンテンツ下のサイドバーを表示する"
-msgstr ""
+msgstr "모바일 버튼시 콘텐츠 하단의 사이드바를 표시"
 
 #: lib/page-settings/mobile-buttons-forms.php:64
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときメインカラム下に表示されるサイドバーを表示するかどうか。"
@@ -7912,7 +7912,7 @@ msgstr "알림 표시"
 
 #: lib/page-settings/notice-forms.php:40
 msgid "通知エリアを表示する"
-msgstr ""
+msgstr "알림 영역을 표시"
 
 #: lib/page-settings/notice-forms.php:41
 msgid "通知メッセージを入力して「通知表示」を有効にすればヘッダー下に通知メッセージが表示されます。"
@@ -8000,7 +8000,7 @@ msgstr "OGP 활성화"
 
 #: lib/page-settings/ogp-forms.php:29
 msgid "OGPタグを挿入する"
-msgstr ""
+msgstr "OGP 태그 삽입"
 
 #: lib/page-settings/ogp-forms.php:30
 msgid "headタグ内にFacebookや外部サイトなどに、ページの概要情報伝えるタグを挿入します。"
@@ -8032,7 +8032,7 @@ msgstr "트위터 카드 활성화"
 
 #: lib/page-settings/ogp-forms.php:76
 msgid "Twitterカードタグを挿入する"
-msgstr ""
+msgstr "트위터 카드 태그 삽입"
 
 #: lib/page-settings/ogp-forms.php:77
 msgid "headタグ内にTwitterに対して、ページの概要情報伝えるタグを挿入します。"
@@ -8084,7 +8084,7 @@ msgstr "간단 SSL 지원"
 
 #: lib/page-settings/others-forms.php:28
 msgid "内部URLをSSL対応する（簡易版）"
-msgstr ""
+msgstr "내부 URL을 SSL에 대응 (간이 버전)"
 
 #: lib/page-settings/others-forms.php:29
 msgid "サイトの内部リンクや、非SSLの画像・URLなど、HTTPS化する必要があるURLをSSL対応させて表示させます（※全てのURLに対応しているわけではありません）。"
@@ -8502,7 +8502,7 @@ msgstr "head 태그에 삽입"
 
 #: lib/page-settings/seo-forms.php:30
 msgid "canonicalタグを追加する"
-msgstr ""
+msgstr "canonical 태그 추가"
 
 #: lib/page-settings/seo-forms.php:31
 msgid "WordPressデフォルトでも投稿・固定ページには、canonicalタグは挿入されます。"
@@ -8514,11 +8514,11 @@ msgstr "이 기능을 설정하면 탑 페이지나 카테고리 페이지 등�
 
 #: lib/page-settings/seo-forms.php:34
 msgid "分割ページにrel=\"next\"/\"prev\"タグを追加する"
-msgstr ""
+msgstr "분할 페이지에 rel=\"next\"/\"prev\" 태그 주가"
 
 #: lib/page-settings/seo-forms.php:35
 msgid "検索エンジンに続き物ページの順番を知らせます。"
-msgstr ""
+msgstr "검색 엔진에 연속 페이지의 순서를 알립니다."
 
 #: lib/page-settings/seo-forms.php:38
 msgid "カテゴリーページをnoindexとする"
@@ -8575,7 +8575,7 @@ msgstr "구조화 데이터"
 
 #: lib/page-settings/seo-forms.php:79
 msgid "JSON-LDを出力する"
-msgstr ""
+msgstr "JSON-LD 출력"
 
 #: lib/page-settings/seo-forms.php:80
 msgid "構造化データのJSON-LD情報をヘッダーに出力するかどうか。"
@@ -8679,11 +8679,11 @@ msgstr "표시할 날짜 형식을 선택해주세요. 표시되는 날짜에 �
 
 #: lib/page-settings/seo-forms.php:161
 msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するHTMLを制御します。"
-msgstr ""
+msgstr "이 \"SEO\"의 \"표시 날짜\" 설정에서는 \"작성일\" 또는 \"수정일\" 중 검색 엔진에 알리고자 하는 항목을 출력하는 HTML을 제어합니다."
 
 #: lib/page-settings/seo-forms.php:161
 msgid "「投稿日・更新日を表示」を選択した場合は、「更新日」が優先して検索エンジンに伝えられます。"
-msgstr ""
+msgstr "\"작성일·수정일 표시\"를 선택한 경우 \"수정일\"이 우선적으로 검색 엔진에 전달됩니다."
 
 #: lib/page-settings/single-forms.php:13
 msgid "カテゴリー・タグ表示設定"
@@ -8977,7 +8977,7 @@ msgstr "글의 빵부스러기 설정입니다."
 
 #: lib/page-settings/single-forms.php:443
 msgid "投稿・カテゴリーページのパンくずリスト表示位置を設定します。"
-msgstr ""
+msgstr "게시물·카테고리 페이지의 빵부스러기 리스트 표시 위치를 설정합니다."
 
 #: lib/page-settings/single-forms.php:456
 msgid "投稿ページのパンくずリストに対して、表示されているページのタイトルを含めるか切り替えます。"
@@ -9007,19 +9007,19 @@ msgstr "스킨을 선택하세요."
 
 #: lib/page-settings/skin-forms.php:97
 msgid "スキン一覧表示"
-msgstr ""
+msgstr "스킨 목록 표시"
 
 #: lib/page-settings/skin-forms.php:102
 msgid "全てのスキンを表示する"
-msgstr ""
+msgstr "모든 스킨 표시"
 
 #: lib/page-settings/skin-forms.php:103
 msgid "親テーマのスキンのみ表示する"
-msgstr ""
+msgstr "부모테마 스킨만 표시"
 
 #: lib/page-settings/skin-forms.php:104
 msgid "子テーマのスキンのみ表示する"
-msgstr ""
+msgstr "자식테마 스킨만 표시"
 
 #: lib/page-settings/skin-forms.php:107
 msgid "スキン一覧に含めて表示するスキンを選択してください。"
@@ -9373,7 +9373,7 @@ msgstr "하단 공유 버튼 표시"
 
 #: lib/page-settings/sns-share-forms-bottom.php:40
 msgid "メインカラムボトムシェアボタンを表示する"
-msgstr ""
+msgstr "메인 칼럼 하단 공유 버튼 표시"
 
 #: lib/page-settings/sns-share-forms-bottom.php:41
 msgid "ボトムシェアボタンの表示を切り替えます。"
@@ -9531,7 +9531,7 @@ msgstr "상단 공유 버튼 표시"
 
 #: lib/page-settings/sns-share-forms-top.php:40
 msgid "メインカラムトップシェアボタンを表示する"
-msgstr ""
+msgstr "메인 칼럼 상단 공유 버튼 표시"
 
 #: lib/page-settings/sns-share-forms-top.php:41
 msgid "トップシェアボタンの表示を切り替えます。"
@@ -10525,7 +10525,7 @@ msgstr "브라우저 캐시를 설정합니다. 브라우저 캐시를 설정함
 
 #: lib/page-speed-up/speed-up-forms.php:29
 msgid "ブラウザキャッシュを有効にする"
-msgstr ""
+msgstr "브라우저 캐시를 활성화합니다"
 
 #: lib/page-speed-up/speed-up-forms.php:30
 msgid "ブラウザキャッシュを有効化することで、訪問者が2回目以降リソースファイルをサーバーから読み込む時間を軽減できます。"
@@ -10832,7 +10832,7 @@ msgstr "큰 썸네일 사진 아래에 제목을 표시합니다."
 #: blocks/src/block/new-list/edit.js:151
 #: blocks/src/block/popular-list/edit.js:230
 msgid "大きなサムネイル表示にする"
-msgstr ""
+msgstr "큰 썸네일 표시"
 
 #: lib/settings.php:564
 msgid "大きなサムネイル画像の下段にタイトルを重ねます。"
@@ -10843,7 +10843,7 @@ msgstr "큰 썸네일 사진 하단에 제목을 겹칩니다."
 #: blocks/src/block/new-list/edit.js:155
 #: blocks/src/block/popular-list/edit.js:234
 msgid "大きなサムネイルにタイトルを重ねて表示する"
-msgstr ""
+msgstr "큰 썸네일에 제목을 겹쳐서 표시합니다"
 
 #: lib/settings.php:574
 msgid "画像のみ"
@@ -11791,7 +11791,7 @@ msgstr "페이지"
 
 #: lib/widgets/display-widgets.php:163
 msgid "投稿者"
-msgstr ""
+msgstr "참여자"
 
 #: lib/widgets/display-widgets.php:176
 msgid "カスタム投稿タイプ"
@@ -11890,18 +11890,18 @@ msgstr "표시수"
 #: lib/widgets/info-list.php:143
 #: blocks/src/block/info-list/edit.js:102
 msgid "枠線を表示する"
-msgstr ""
+msgstr "테두리 표시"
 
 #: lib/widgets/info-list.php:149
 #: blocks/src/block/info-list/edit.js:109
 msgid "仕切り線を表示する"
-msgstr ""
+msgstr "구분선을 표시합니다"
 
 #: lib/widgets/info-list.php:155
 #: lib/widgets/new-entries.php:226
 #: blocks/src/block/info-list/edit.js:116
 msgid "更新日順に並び替える"
-msgstr ""
+msgstr "수정일 순으로 정렬"
 
 #: lib/widgets/info-list.php:162
 msgid "（※未選択の場合は全て表示）"
@@ -11966,7 +11966,7 @@ msgstr "네비 카드 목록을 보여주는 위젯입니다."
 #: blocks/src/block/new-list/edit.js:201
 #: blocks/src/block/popular-list/edit.js:241
 msgid "横並び表示にする"
-msgstr ""
+msgstr "가로 배열로 표시합니다"
 
 #: lib/widgets/navi-entries.php:132
 #: lib/widgets/new-entries.php:202
@@ -12013,7 +12013,7 @@ msgstr "새 글 목록 제목"
 
 #: lib/widgets/new-entries.php:220
 msgid "「固定表示」記事を表示する"
-msgstr ""
+msgstr "고정 표시 글을 표시"
 
 #: lib/widgets/new-entries.php:232
 #: lib/widgets/popular-entries.php:244
@@ -12080,12 +12080,12 @@ msgstr "집계 기간"
 #: lib/widgets/popular-entries.php:226
 #: blocks/src/block/popular-list/edit.js:253
 msgid "ランキング番号を表示する"
-msgstr ""
+msgstr "랭킹 번호 표시"
 
 #: lib/widgets/popular-entries.php:232
 #: blocks/src/block/popular-list/edit.js:260
 msgid "PV数を表示する"
-msgstr ""
+msgstr "PV 수 표시"
 
 #: lib/widgets/recent-comments.php:19
 #: lib/widgets/recent-comments.php:117
@@ -12280,11 +12280,11 @@ msgstr "본문 제목에 카운트를 쓰지 않으려면 체크를 해제하십
 
 #: skins/one/functions.php:134
 msgid "PCでもスマートフォン用の固定フッターメニューを表示する"
-msgstr ""
+msgstr "PC에서도 스마트폰용 고정 푸터 메뉴 표시하기"
 
 #: skins/one/functions.php:135
 msgid "従来どおりPCでスマートフォン用の固定フッターメニューを表示させたくない場合はチェックを外してください"
-msgstr ""
+msgstr "기존 PC에서 스마트 폰용 고정 바닥 글 메뉴를 표시하지 않으려면 체크를 해제하십시오"
 
 #: skins/one/functions.php:145
 msgid "全体的に影を付ける"
@@ -12344,7 +12344,7 @@ msgstr "(자세한 것은 실제로 확인해 주세요)"
 
 #: skins/raku-add-fadein/functions.php:291
 msgid "スキン一覧表示（ベース）"
-msgstr ""
+msgstr "스킨 목록 표시(베이스)"
 
 #: skins/raku-add-fadein/functions.php:317
 msgid "こちらで選択したスキンが表示されます。"
@@ -13342,7 +13342,7 @@ msgstr "AMP 페이지로"
 
 #: tmp/admin-panel.php:71
 msgid "PageSpeed Insights"
-msgstr ""
+msgstr "PageSpeed Insights"
 
 #: tmp/admin-panel.php:74
 msgid "GTmetrix"
@@ -13362,7 +13362,7 @@ msgstr "트윗 검색"
 
 #: tmp/admin-panel.php:98
 msgid "Responsinator"
-msgstr ""
+msgstr "Responsinator"
 
 #: tmp/admin-panel.php:101
 msgid "Sizzy"
@@ -13370,7 +13370,7 @@ msgstr "Sizzy"
 
 #: tmp/admin-panel.php:105
 msgid "ScreenResolution"
-msgstr ""
+msgstr "ScreenResolution"
 
 #: tmp/admin-pv.php:22
 msgid "本日:"
