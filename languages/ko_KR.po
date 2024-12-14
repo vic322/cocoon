@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-13 14:53\n"
+"PO-Revision-Date: 2024-12-14 12:53\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2085,7 +2085,7 @@ msgstr "글에 대한 설명을 입력하세요."
 
 #: lib/custom-fields/seo-field.php:131
 msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
-msgstr ""
+msgstr "글의 설명을 입력해 주세요. 대략 120자 전후의 입력을 추천합니다. 휴대폰에서는 약 50자가 뜹니다. 여기 입력한 meta description은 블로그 카드의 스니펫(발췌문 부분)에도 이용됩니다. 이곳에 입력하지 않은 경우는 \"발췌\"에 입력한 것이 메타 데이터에 삽입됩니다."
 
 #: lib/custom-fields/seo-field.php:135
 msgid "記事の関連キーワードを半角カンマ区切りで入力してください。"
@@ -2768,7 +2768,7 @@ msgstr "테마의 자체적인 접속 집계 기능의 설정입니다."
 
 #: lib/page-access/access-forms.php:30
 msgid "アクセス集計を有効にする"
-msgstr ""
+msgstr "접속 집계를 활성화합니다"
 
 #: lib/page-access/access-forms.php:31
 msgid "有効にすることで「人気記事」ウィジェット等が利用できるようになります。簡易的なWordPress Popular Postsプラグインを実装しているようなものなのでレンタルサーバーから負荷が高いといわれたら無効にしてください。"
@@ -2956,7 +2956,7 @@ msgstr "제목"
 #: lib/page-speech-balloon/form.php:49
 #: lib/page-speech-balloon/form.php:73
 msgid "（※必須）"
-msgstr ""
+msgstr "(※필수)"
 
 #: lib/page-affiliate-tag/form.php:31
 #: lib/page-func-text/form.php:31
@@ -3590,12 +3590,12 @@ msgstr "환경에 관한 정보입니다."
 #: lib/page-settings/about-forms.php:20
 #: lib/page-settings/about-forms.php:165
 msgid "環境情報をコピー"
-msgstr ""
+msgstr "환경 정보를 복사"
 
 #: lib/page-settings/about-forms.php:21
 #: lib/page-settings/about-forms.php:166
 msgid "環境情報をコピーしました"
-msgstr ""
+msgstr "환경 정보를 복사했습니다"
 
 #: lib/page-settings/about-forms.php:28
 msgid "サイト名："
@@ -3765,7 +3765,7 @@ msgstr "사용중인 플러그인:"
 
 #: lib/page-settings/about-forms.php:162
 msgid "不具合報告の際には上記の情報を添えてもらうと助かります。"
-msgstr ""
+msgstr "버그 신고 시에는 위 정보를 함께 첨부해 주시면 도움이 됩니다."
 
 #: lib/page-settings/admin-forms.php:13
 msgid "管理画面設定"
@@ -3781,7 +3781,7 @@ msgstr "관리 화면으로 이동하기 위한 메뉴 링크입니다."
 
 #: lib/page-settings/admin-forms.php:31
 msgid "ツールバー（管理バー）に独自管理メニューを表示する"
-msgstr ""
+msgstr "툴바(관리 바)에 독자 관리 메뉴를 표시합니다."
 
 #: lib/page-settings/admin-forms.php:32
 msgid "ツールバー（管理バー）に手軽に設定画面にアクセスできるメニューを表示します。"
