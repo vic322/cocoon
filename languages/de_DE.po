@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-13 14:53\n"
+"PO-Revision-Date: 2024-12-15 04:52\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2085,7 +2085,7 @@ msgstr "Geben Sie eine Beschreibung für den Artikel ein."
 
 #: lib/custom-fields/seo-field.php:131
 msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
-msgstr ""
+msgstr "Geben Sie eine Beschreibung für den Artikel ein. Die hier eingegebene Meta-Beschreibung wird auch als Snippet für Blog-Karten verwendet. Wenn dieses Feld leer bleibt, wird der für \"Auszug\" eingegebene Text als Meta-Beschreibung verwendet."
 
 #: lib/custom-fields/seo-field.php:135
 msgid "記事の関連キーワードを半角カンマ区切りで入力してください。"
@@ -2768,7 +2768,7 @@ msgstr "Einstellungen für die themenspezifische Zugriffszusammenfassungsfunktio
 
 #: lib/page-access/access-forms.php:30
 msgid "アクセス集計を有効にする"
-msgstr ""
+msgstr "Aktivieren der Zugriffsstatistik"
 
 #: lib/page-access/access-forms.php:31
 msgid "有効にすることで「人気記事」ウィジェット等が利用できるようになります。簡易的なWordPress Popular Postsプラグインを実装しているようなものなのでレンタルサーバーから負荷が高いといわれたら無効にしてください。"
@@ -2956,7 +2956,7 @@ msgstr "Titel"
 #: lib/page-speech-balloon/form.php:49
 #: lib/page-speech-balloon/form.php:73
 msgid "（※必須）"
-msgstr ""
+msgstr "(*Erforderlich)"
 
 #: lib/page-affiliate-tag/form.php:31
 #: lib/page-func-text/form.php:31
@@ -3590,12 +3590,12 @@ msgstr "Informationen zur Umgebung."
 #: lib/page-settings/about-forms.php:20
 #: lib/page-settings/about-forms.php:165
 msgid "環境情報をコピー"
-msgstr ""
+msgstr "Umgebungsinformationen kopieren"
 
 #: lib/page-settings/about-forms.php:21
 #: lib/page-settings/about-forms.php:166
 msgid "環境情報をコピーしました"
-msgstr ""
+msgstr "Umgebungsinformationen wurden kopiert"
 
 #: lib/page-settings/about-forms.php:28
 msgid "サイト名："
@@ -3765,7 +3765,7 @@ msgstr "Verwendete Plugins:"
 
 #: lib/page-settings/about-forms.php:162
 msgid "不具合報告の際には上記の情報を添えてもらうと助かります。"
-msgstr ""
+msgstr "Es wäre hilfreich, wenn Sie die oben genannten Informationen bei der Fehlerberichterstattung beifügen könnten."
 
 #: lib/page-settings/admin-forms.php:13
 msgid "管理画面設定"
@@ -3781,11 +3781,11 @@ msgstr "Menü-Link, um schnell zum Admin-Bildschirm zu gelangen."
 
 #: lib/page-settings/admin-forms.php:31
 msgid "ツールバー（管理バー）に独自管理メニューを表示する"
-msgstr ""
+msgstr "Eigene Verwaltungsmenüs in der Toolbar (Admin-Leiste) anzeigen"
 
 #: lib/page-settings/admin-forms.php:32
 msgid "ツールバー（管理バー）に手軽に設定画面にアクセスできるメニューを表示します。"
-msgstr ""
+msgstr "Ein Menü wird in der Toolbar (Admin-Leiste) angezeigt, um schnell auf den Einstellungsbildschirm zugreifen zu können."
 
 #: lib/page-settings/admin-forms.php:46
 msgid "ダッシュボードメッセージ"
@@ -3813,11 +3813,11 @@ msgstr "Informationen zum neuartigen Coronavirus werden angezeigt, bis die WHO d
 
 #: lib/page-settings/admin-forms.php:77
 msgid "投稿・固定ページ一覧設定"
-msgstr ""
+msgstr "Einstellungen für Beiträge und Seitenübersicht"
 
 #: lib/page-settings/admin-forms.php:81
 msgid "管理画面の投稿・固定ページ一覧ページの設定です。"
-msgstr ""
+msgstr "Dies sind die Einstellungen für die Beitrags- und Seitenübersichtsseite im Administrationsbereich."
 
 #: lib/page-settings/admin-forms.php:92
 msgid "カラム表示"
