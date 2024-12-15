@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-13 14:53\n"
+"PO-Revision-Date: 2024-12-15 13:05\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2085,7 +2085,7 @@ msgstr "Ingrese una descripción para el artículo."
 
 #: lib/custom-fields/seo-field.php:131
 msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
-msgstr ""
+msgstr "Ingrese una descripción para el artículo. La meta descripción que ingrese aquí también se usará como un fragmento para las tarjetas de blog. Si lo deja en blanco, el texto ingresado en \"Extracto\" se utiliza como la meta descripción."
 
 #: lib/custom-fields/seo-field.php:135
 msgid "記事の関連キーワードを半角カンマ区切りで入力してください。"
@@ -2768,7 +2768,7 @@ msgstr "Configuración de la función de resumen de acceso específica del tema.
 
 #: lib/page-access/access-forms.php:30
 msgid "アクセス集計を有効にする"
-msgstr ""
+msgstr "Habilitar resumen de acceso"
 
 #: lib/page-access/access-forms.php:31
 msgid "有効にすることで「人気記事」ウィジェット等が利用できるようになります。簡易的なWordPress Popular Postsプラグインを実装しているようなものなのでレンタルサーバーから負荷が高いといわれたら無効にしてください。"
@@ -2956,7 +2956,7 @@ msgstr "Título"
 #: lib/page-speech-balloon/form.php:49
 #: lib/page-speech-balloon/form.php:73
 msgid "（※必須）"
-msgstr ""
+msgstr "(* Requerido)"
 
 #: lib/page-affiliate-tag/form.php:31
 #: lib/page-func-text/form.php:31
@@ -3590,12 +3590,12 @@ msgstr "Información relacionada con el entorno."
 #: lib/page-settings/about-forms.php:20
 #: lib/page-settings/about-forms.php:165
 msgid "環境情報をコピー"
-msgstr ""
+msgstr "Copiar información del entorno"
 
 #: lib/page-settings/about-forms.php:21
 #: lib/page-settings/about-forms.php:166
 msgid "環境情報をコピーしました"
-msgstr ""
+msgstr "Información del entorno copiada"
 
 #: lib/page-settings/about-forms.php:28
 msgid "サイト名："
@@ -3765,7 +3765,7 @@ msgstr "Plugins en uso:"
 
 #: lib/page-settings/about-forms.php:162
 msgid "不具合報告の際には上記の情報を添えてもらうと助かります。"
-msgstr ""
+msgstr "Será de ayuda si adjunta la información anterior al informar de un problema."
 
 #: lib/page-settings/admin-forms.php:13
 msgid "管理画面設定"
@@ -3781,11 +3781,11 @@ msgstr "Enlace de menú para acceder rápidamente al panel de administración."
 
 #: lib/page-settings/admin-forms.php:31
 msgid "ツールバー（管理バー）に独自管理メニューを表示する"
-msgstr ""
+msgstr "Mostrar un menú de gestión personalizado en la barra de herramientas (barra de administración)"
 
 #: lib/page-settings/admin-forms.php:32
 msgid "ツールバー（管理バー）に手軽に設定画面にアクセスできるメニューを表示します。"
-msgstr ""
+msgstr "Muestra un menú en la barra de herramientas (barra de administración) para acceder fácilmente a la pantalla de configuración."
 
 #: lib/page-settings/admin-forms.php:46
 msgid "ダッシュボードメッセージ"
@@ -3813,11 +3813,11 @@ msgstr "La información sobre el nuevo coronavirus se mostrará hasta que la OMS
 
 #: lib/page-settings/admin-forms.php:77
 msgid "投稿・固定ページ一覧設定"
-msgstr ""
+msgstr "Configuración de listas de entradas y páginas fijas"
 
 #: lib/page-settings/admin-forms.php:81
 msgid "管理画面の投稿・固定ページ一覧ページの設定です。"
-msgstr ""
+msgstr "Esta es la configuración de la lista de entradas y páginas fijas en el panel de administración."
 
 #: lib/page-settings/admin-forms.php:92
 msgid "カラム表示"
@@ -3829,7 +3829,7 @@ msgstr "Operación de columnas en la tabla de la lista de publicaciones y págin
 
 #: lib/page-settings/admin-forms.php:99
 msgid "投稿者を表示する"
-msgstr ""
+msgstr "Mostrar el autor"
 
 #: lib/page-settings/admin-forms.php:102
 msgid "カテゴリーを表示する"
@@ -3851,7 +3851,7 @@ msgstr "Mostrar fecha"
 
 #: lib/page-settings/admin-forms.php:115
 msgid "IDを表示する"
-msgstr ""
+msgstr "Mostrar ID de publicación"
 
 #: lib/page-settings/admin-forms.php:118
 msgid "文字数を表示する"
@@ -3895,15 +3895,15 @@ msgstr "Panel para el área de visualización de PV y para mostrar varias herram
 
 #: lib/page-settings/admin-forms.php:163
 msgid "全て表示する"
-msgstr ""
+msgstr "Mostrar todo"
 
 #: lib/page-settings/admin-forms.php:164
 msgid "PCのみ表示する"
-msgstr ""
+msgstr "Mostrar solo en PC"
 
 #: lib/page-settings/admin-forms.php:165
 msgid "モバイルのみ表示する"
-msgstr ""
+msgstr "Mostrar solo en móviles"
 
 #: lib/page-settings/admin-forms.php:166
 #: lib/page-settings/appeal-forms.php:38
@@ -3946,11 +3946,11 @@ msgstr "Mostrar el área de edición en el panel de administración."
 
 #: lib/page-settings/admin-forms.php:200
 msgid "ダッシュボードリンクを表示する"
-msgstr ""
+msgstr "Mostrar enlace al panel de control"
 
 #: lib/page-settings/admin-forms.php:201
 msgid "WordPressのダッシュボードに移動するためのリンクです。"
-msgstr ""
+msgstr "Enlace para ir al panel de control de Wordpress."
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクの表示"
@@ -4050,7 +4050,7 @@ msgstr "Mostrar enlace de <a href=\"http://seocheki.net/\" target=\"_blank\" rel
 
 #: lib/page-settings/admin-forms.php:268
 msgid "ツイート検索を表示する"
-msgstr ""
+msgstr "Mostrar búsqueda de tweets"
 
 #: lib/page-settings/admin-forms.php:269
 msgid "投稿・固定ページ・インデックスページに対するツイート検索リンクの表示。"
