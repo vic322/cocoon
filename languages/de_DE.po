@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-15 06:06\n"
+"PO-Revision-Date: 2024-12-15 10:52\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -3851,7 +3851,7 @@ msgstr "Datum anzeigen"
 
 #: lib/page-settings/admin-forms.php:115
 msgid "IDを表示する"
-msgstr ""
+msgstr "Beitrags-ID anzeigen"
 
 #: lib/page-settings/admin-forms.php:118
 msgid "文字数を表示する"
@@ -3895,15 +3895,15 @@ msgstr "Ein Panel zur Anzeige von PVs und verschiedenen Prüftools für Administ
 
 #: lib/page-settings/admin-forms.php:163
 msgid "全て表示する"
-msgstr ""
+msgstr "Alle zeigen"
 
 #: lib/page-settings/admin-forms.php:164
 msgid "PCのみ表示する"
-msgstr ""
+msgstr "Nur auf dem PC anzeigen"
 
 #: lib/page-settings/admin-forms.php:165
 msgid "モバイルのみ表示する"
-msgstr ""
+msgstr "Nur auf Mobilgeräten anzeigen"
 
 #: lib/page-settings/admin-forms.php:166
 #: lib/page-settings/appeal-forms.php:38
@@ -3946,11 +3946,11 @@ msgstr "Anzeigen des Bearbeitungsbereichs im Admin-Panel."
 
 #: lib/page-settings/admin-forms.php:200
 msgid "ダッシュボードリンクを表示する"
-msgstr ""
+msgstr "Dashboard-Link anzeigen"
 
 #: lib/page-settings/admin-forms.php:201
 msgid "WordPressのダッシュボードに移動するためのリンクです。"
-msgstr ""
+msgstr "Link zum WordPress-Dashboard."
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクの表示"
@@ -4050,11 +4050,11 @@ msgstr "Anzeigen des Links zu <a href=\"http://seocheki.net/\" target=\"_blank\"
 
 #: lib/page-settings/admin-forms.php:268
 msgid "ツイート検索を表示する"
-msgstr ""
+msgstr "Tweet-Suche anzeigen"
 
 #: lib/page-settings/admin-forms.php:269
 msgid "投稿・固定ページ・インデックスページに対するツイート検索リンクの表示。"
-msgstr ""
+msgstr "Anzeigen eines Tweet-Suchlinks für Beiträge, Seiten und Indexseiten."
 
 #: lib/page-settings/admin-forms.php:278
 msgid "レスポンシブツールエリアの表示"
@@ -4062,7 +4062,7 @@ msgstr "Anzeige des Responsive-Tool-Bereichs"
 
 #: lib/page-settings/admin-forms.php:282
 msgid "レスポンシブチェックツールエリアを表示する"
-msgstr ""
+msgstr "Responsive-Check-Tools anzeigen"
 
 #: lib/page-settings/admin-forms.php:283
 msgid "レスポンシブ表示状態を効率的にチェックできるツールエリアの表示を切り替えます。"
@@ -4094,23 +4094,23 @@ msgstr "Anzeigen des Links zum <a href=\"http://whatismyscreenresolution.net/mul
 
 #: lib/page-settings/admin-forms.php:311
 msgid "インデックス設定"
-msgstr ""
+msgstr "Indexeinstellungen"
 
 #: lib/page-settings/admin-forms.php:314
 msgid "インデックスページのエントリーカードに表示されるPVの設定です。"
-msgstr ""
+msgstr "Dies sind die Einstellungen für die Seitenaufrufe (PV), die auf den Eintragskarten der Indexseite angezeigt werden."
 
 #: lib/page-settings/admin-forms.php:322
 msgid "エントリーカード"
-msgstr ""
+msgstr "Eintragskarte"
 
 #: lib/page-settings/admin-forms.php:323
 msgid "エントリーカードのPV表示エリアの設定です。"
-msgstr ""
+msgstr "Dies sind die Einstellungen für den Anzeigebereich der Seitenaufrufe (PV) auf der Eintragskarte."
 
 #: lib/page-settings/admin-forms.php:328
 msgid "インデックスにPV数を表示する"
-msgstr ""
+msgstr "PV-Anzahl im Index anzeigen"
 
 #: lib/page-settings/admin-forms.php:329
 msgid "インデックスページのエントリーカードごとにPV数を表示します。集計方法がJetpackの場合は、初回アクセス時に情報取得に時間がかかります。"
@@ -4154,7 +4154,7 @@ msgstr "Anzeigenanzeige"
 
 #: lib/page-settings/ads-forms.php:26
 msgid "全ての広告を表示する"
-msgstr ""
+msgstr "Alle Anzeigen anzeigen"
 
 #: lib/page-settings/ads-forms.php:27
 msgid "アドセンス設定、ウィジェット設定等、全ての広告の表示を切り替えます。"
@@ -4189,7 +4189,7 @@ msgstr "AdSense-Anzeige"
 
 #: lib/page-settings/ads-forms.php:69
 msgid "全てのアドセンス広告を表示する"
-msgstr ""
+msgstr "Alle AdSense-Anzeigen anzeigen"
 
 #: lib/page-settings/ads-forms.php:70
 msgid "「アドセンス設定」で設定した、アドセンス広告全ての表示を切り替えます。"
@@ -4843,31 +4843,31 @@ msgstr "Anzeigestatus der Seitenleiste"
 
 #: lib/page-settings/all-forms.php:266
 msgid "全てのページで表示する"
-msgstr ""
+msgstr "Auf allen Seiten anzeigen"
 
 #: lib/page-settings/all-forms.php:267
 msgid "全てのページで非表示にする"
-msgstr ""
+msgstr "Auf allen Seiten ausblenden"
 
 #: lib/page-settings/all-forms.php:268
 msgid "フロントページで非表示にする"
-msgstr ""
+msgstr "Auf der Startseite ausblenden"
 
 #: lib/page-settings/all-forms.php:269
 msgid "インデックスページで非表示にする"
-msgstr ""
+msgstr "Auf Indexseiten ausblenden"
 
 #: lib/page-settings/all-forms.php:270
 msgid "固定ページで非表示にする"
-msgstr ""
+msgstr "Auf statischen Seiten ausblenden"
 
 #: lib/page-settings/all-forms.php:271
 msgid "投稿ページで非表示にする"
-msgstr ""
+msgstr "Auf Beitragsseiten ausblenden"
 
 #: lib/page-settings/all-forms.php:272
 msgid "404ページで非表示にする"
-msgstr ""
+msgstr "Auf 404-Seiten ausblenden"
 
 #: lib/page-settings/all-forms.php:276
 msgid "サイドバーを表示するページの設定です。"
@@ -4966,7 +4966,7 @@ msgstr "AMP-Galerie (Unterstützung für die Anzeige von Multi-Bilder-Galerien)"
 #: lib/page-settings/amp-forms.php:59
 #: lib/page-settings/image-forms.php:136
 msgid "本文内のリンク画像をクリックしたときの拡大効果の設定です。"
-msgstr ""
+msgstr "Einstellungen für den Vergrößerungseffekt beim Klicken auf verlinkte Bilder im Inhalt.\n"
 
 #: lib/page-settings/amp-forms.php:67
 msgid "インラインスタイル"
@@ -5589,37 +5589,37 @@ msgstr "Anzeige des Ankündigungsbereichs"
 #: lib/page-settings/carousel-forms.php:39
 #: lib/page-settings/recommended-forms.php:40
 msgid "全ページで表示する"
-msgstr ""
+msgstr "Auf allen Seiten anzeigen"
 
 #: lib/page-settings/appeal-forms.php:40
 #: lib/page-settings/carousel-forms.php:40
 #: lib/page-settings/recommended-forms.php:41
 msgid "フロントページのみで表示する"
-msgstr ""
+msgstr "Nur auf der Startseite anzeigen"
 
 #: lib/page-settings/appeal-forms.php:41
 #: lib/page-settings/carousel-forms.php:41
 #: lib/page-settings/recommended-forms.php:42
 msgid "投稿・固定ページ以外で表示する"
-msgstr ""
+msgstr "Auf Seiten außer Beiträgen/Seiten anzeigen"
 
 #: lib/page-settings/appeal-forms.php:42
 #: lib/page-settings/carousel-forms.php:42
 #: lib/page-settings/recommended-forms.php:43
 msgid "投稿・固定ページのみで表示する"
-msgstr ""
+msgstr "Nur auf Beiträgen/Seiten anzeigen"
 
 #: lib/page-settings/appeal-forms.php:43
 #: lib/page-settings/carousel-forms.php:43
 #: lib/page-settings/recommended-forms.php:44
 msgid "投稿ページのみで表示する"
-msgstr ""
+msgstr "Nur auf Beiträgen anzeigen"
 
 #: lib/page-settings/appeal-forms.php:44
 #: lib/page-settings/carousel-forms.php:44
 #: lib/page-settings/recommended-forms.php:45
 msgid "固定ページのみで表示する"
-msgstr ""
+msgstr "Nur auf Seiten anzeigen"
 
 #: lib/page-settings/appeal-forms.php:47
 msgid "アピールエリアを表示するページを設定します。"
@@ -5632,7 +5632,7 @@ msgstr "Höhe"
 
 #: lib/page-settings/appeal-forms.php:60
 msgid "アピールエリアの最低限の高さをpx数で指定します。モバイル環境では高さは無効になります。（最小：200px、最大：800px）"
-msgstr ""
+msgstr "Geben Sie die Mindesthöhe des Anzeigebereichs in Pixeln an. In mobilen Umgebungen wird die Höhe deaktiviert. (Minimum: 200px, Maximum: 800px)"
 
 #: lib/page-settings/appeal-forms.php:68
 msgid "エリア画像"
@@ -5644,7 +5644,7 @@ msgstr "Legen Sie ein Bild fest, das im Hintergrund des Ankündigungsbereichs an
 
 #: lib/page-settings/appeal-forms.php:76
 msgid "アピールエリアの背景画像を固定する"
-msgstr ""
+msgstr "Hintergrundbild des Ankündigungsbereichs fixieren"
 
 #: lib/page-settings/appeal-forms.php:77
 msgid "アピールエリアに設定した背景画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
@@ -5983,7 +5983,7 @@ msgstr "Legen Sie die Seite fest, auf der das Karussell angezeigt werden soll."
 #: lib/page-settings/index-forms.php:212
 #: lib/page-settings/single-forms.php:249
 msgid "スマートフォンで表示する（480px以下）"
-msgstr ""
+msgstr "Auf Smartphone anzeigen (bis zu 480 px)"
 
 #: lib/page-settings/carousel-forms.php:58
 msgid "表示内容"
@@ -5991,7 +5991,7 @@ msgstr "Angezeigter Inhalt"
 
 #: lib/page-settings/carousel-forms.php:63
 msgid "人気記事、カテゴリー、タグの順に優先され、いずれか一つが表示されます。"
-msgstr ""
+msgstr "Beliebte Beiträge, Kategorien und Tags werden in dieser Reihenfolge priorisiert, wobei jeweils nur eines angezeigt wird."
 
 #: lib/page-settings/carousel-forms.php:68
 #: lib/widgets/popular-entries.php:201
@@ -6026,7 +6026,7 @@ msgstr "Inklusive beliebter Artikel, die in … zusammengefasst sind"
 
 #: lib/page-settings/carousel-forms.php:76
 msgid "人気記事を選択すると、人気記事のみが優先して表示されます。"
-msgstr ""
+msgstr "Wenn beliebte Beiträge ausgewählt werden, werden ausschließlich diese priorisiert angezeigt."
 
 #: lib/page-settings/carousel-forms.php:78
 #: lib/page-settings/single-forms.php:129
@@ -6041,11 +6041,11 @@ msgstr "Kategorie"
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "カテゴリーを選択すると、カテゴリーに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "Wenn Kategorien ausgewählt werden, werden nur Beiträge angezeigt, die den Kategorien zugeordnet sind."
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "（※カテゴリー関連記事を表示させたい場合は、人気記事を選択しないでください）"
-msgstr ""
+msgstr "(Hinweis: Um verwandte Beiträge zu Kategorien anzuzeigen, wählen Sie keine beliebten Beiträge aus.)"
 
 #: lib/page-settings/carousel-forms.php:82
 #: lib/page-settings/editor-forms.php:83
@@ -6061,11 +6061,11 @@ msgstr "Tag"
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "タグを選択すると、タグに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "Wenn Sie Tags auswählen, werden nur Beiträge angezeigt, die mit den Tags verknüpft sind."
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "（※タグ関連記事を表示させたい場合は、人気記事・カテゴリーを選択しないでください）"
-msgstr ""
+msgstr "(Hinweis: Um verwandte Beiträge zu Tags anzuzeigen, wählen Sie weder beliebte Beiträge noch Kategorien aus.)"
 
 #: lib/page-settings/carousel-forms.php:92
 msgid "カルーセルの並び替え"
@@ -6120,7 +6120,7 @@ msgstr "Autoplay"
 
 #: lib/page-settings/carousel-forms.php:142
 msgid "オートプレイを実行する"
-msgstr ""
+msgstr "Autoplay aktivieren"
 
 #: lib/page-settings/carousel-forms.php:143
 msgid "カルーセルが自動的に送られます。"
@@ -6152,7 +6152,7 @@ msgstr "Hervorhebung anzeigen"
 
 #: lib/page-settings/code-forms.php:52
 msgid "ソースコードをハイライト表示する"
-msgstr ""
+msgstr "Quellcode hervorheben"
 
 #: lib/page-settings/code-forms.php:53
 msgid "本文中に表示されているpreタグ中のソースコードをハイライト表示します。"
@@ -6160,7 +6160,7 @@ msgstr "Quellcode in pre-Tags, die im Text angezeigt werden, wird hervorgehoben.
 
 #: lib/page-settings/code-forms.php:58
 msgid "行番号を表示する"
-msgstr ""
+msgstr "Zeilennummern anzeigen"
 
 #: lib/page-settings/code-forms.php:59
 msgid "ソースコード左側に行番号を表示します。"
@@ -6517,7 +6517,7 @@ msgstr "Zusätzliches rel-Attribut"
 #: lib/page-settings/content-forms.php:109
 #: lib/page-settings/content-forms.php:232
 msgid "noopenerを追加する"
-msgstr ""
+msgstr "noopener hinzufügen"
 
 #: lib/page-settings/content-forms.php:110
 #: lib/page-settings/content-forms.php:233
@@ -6529,7 +6529,7 @@ msgstr "Fügt noopener zum rel-Attribut hinzu."
 #: lib/page-settings/content-forms.php:236
 #: lib/page-settings/content-forms.php:246
 msgid "target=\"_blank\"の際はnoopenerを追加する"
-msgstr ""
+msgstr "noopener hinzufügen, wenn das Ziel \"_blank\" ist."
 
 #: lib/page-settings/content-forms.php:114
 #: lib/page-settings/content-forms.php:237
@@ -6539,7 +6539,7 @@ msgstr "Fügt noopener zu den rel-Attributen von Links hinzu, die in einem neuen
 #: lib/page-settings/content-forms.php:118
 #: lib/page-settings/content-forms.php:241
 msgid "noreferrerを追加する"
-msgstr ""
+msgstr "noreferrer hinzufügen"
 
 #: lib/page-settings/content-forms.php:119
 #: lib/page-settings/content-forms.php:242
@@ -6553,7 +6553,7 @@ msgstr "Fügt noreferrer zu den rel-Attributen von Links hinzu, die in einem neu
 
 #: lib/page-settings/content-forms.php:127
 msgid "externalを追加する"
-msgstr ""
+msgstr "external hinzufügen"
 
 #: lib/page-settings/content-forms.php:128
 msgid "rel属性にexternalを追加します。"
@@ -6567,7 +6567,7 @@ msgstr "Symbolanzeige"
 #: lib/page-settings/content-forms.php:140
 #: lib/page-settings/content-forms.php:260
 msgid "アイコンを表示する"
-msgstr ""
+msgstr "Symbole anzeigen"
 
 #: lib/page-settings/content-forms.php:141
 msgid "外部リンクの右部にFont Awesomeアイコンを表示するか。"
@@ -6634,7 +6634,7 @@ msgstr "Responsive Tabelle"
 
 #: lib/page-settings/content-forms.php:316
 msgid "横幅の広いテーブルは横スクロールする"
-msgstr ""
+msgstr "Horizontales Scrollen für breite Tabellen"
 
 #: lib/page-settings/content-forms.php:317
 msgid "端末幅より広いテーブルが表示されるときは、テーブルを横スクロールして崩れないようにします。"
@@ -6642,7 +6642,7 @@ msgstr "Wenn eine Tabelle breiter als die Geräteanzeige ist, wird ein horizonta
 
 #: lib/page-settings/content-forms.php:321
 msgid "テーブルの1列目を固定表示する"
-msgstr ""
+msgstr "Fixierte Anzeige der ersten Spalte von Tabellen"
 
 #: lib/page-settings/content-forms.php:322
 msgid "横スクロールテーブルで1列目となるth、tdを固定します。"
@@ -6668,19 +6668,19 @@ msgstr "Beitragsbezogene Informationen"
 #: lib/page-settings/index-forms.php:215
 #: lib/page-settings/single-forms.php:252
 msgid "投稿日を表示する"
-msgstr ""
+msgstr "Veröffentlichungsdatum anzeigen"
 
 #: lib/page-settings/content-forms.php:355
 #: lib/page-settings/index-forms.php:218
 #: lib/page-settings/single-forms.php:262
 msgid "更新日を表示する"
-msgstr ""
+msgstr "Aktualisierungsdatum anzeigen"
 
 #: lib/page-settings/content-forms.php:357
 #: lib/page-settings/index-forms.php:221
 #: lib/page-settings/single-forms.php:265
 msgid "投稿者名を表示する"
-msgstr ""
+msgstr "Autorenname anzeigen"
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿・固定ページの「投稿日・更新日・投稿者名」を表示するかどうか。"
@@ -6692,11 +6692,11 @@ msgstr "Wenn Veröffentlichungsdatum und Aktualisierungsdatum identisch sind, wi
 
 #: lib/page-settings/content-forms.php:358
 msgid "この日付表示設定では、単にCSSにより表示/非表示が切り替わります。"
-msgstr ""
+msgstr "Mit dieser Datumseinstellung wird die Anzeige einfach per CSS ein- oder ausgeblendet."
 
 #: lib/page-settings/content-forms.php:358
 msgid "HTMLは出力されるので、検索エンジンに日付情報は伝わります。"
-msgstr ""
+msgstr "Das HTML wird ausgegeben, sodass die Datumsinformationen an Suchmaschinen übermittelt werden."
 
 #: lib/page-settings/content-forms.php:366
 msgid "記事を読む時間"
@@ -6812,7 +6812,7 @@ msgstr "Zeichenzähler"
 
 #: lib/page-settings/editor-forms.php:57
 msgid "タイトル等の文字数カウンターを表示する"
-msgstr ""
+msgstr "Zeichenzähler-Anzeige für Titel usw."
 
 #: lib/page-settings/editor-forms.php:58
 msgid "タイトルや、SEOタイトル、メタディスクリプションの文字数を表示します。"
@@ -6852,7 +6852,7 @@ msgstr "Die Einstellungen gelten nur für den Block-Editor."
 
 #: lib/page-settings/editor-forms.php:117
 msgid "「ふりがな（ルビ）」ボタンを表示する"
-msgstr ""
+msgstr "Schaltfläche \"Furigana (Ruby)\" anzeigen"
 
 #: lib/page-settings/editor-forms.php:118
 msgid "Cocoonの「ルビ」ボタン表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
@@ -8514,11 +8514,11 @@ msgstr "Wenn diese Funktion aktiviert ist, wird das Canonical-Tag auch auf der S
 
 #: lib/page-settings/seo-forms.php:34
 msgid "分割ページにrel=\"next\"/\"prev\"タグを追加する"
-msgstr ""
+msgstr "Fügen Sie dem Teil „rel=\"next\"/\"prev\"“-Tag hinzu"
 
 #: lib/page-settings/seo-forms.php:35
 msgid "検索エンジンに続き物ページの順番を知らせます。"
-msgstr ""
+msgstr "Teilt Suchmaschinen die Reihenfolge von fortlaufenden Seiten mit."
 
 #: lib/page-settings/seo-forms.php:38
 msgid "カテゴリーページをnoindexとする"
@@ -8575,7 +8575,7 @@ msgstr "Strukturierte Daten"
 
 #: lib/page-settings/seo-forms.php:79
 msgid "JSON-LDを出力する"
-msgstr ""
+msgstr "JSON-LD ausgeben"
 
 #: lib/page-settings/seo-forms.php:80
 msgid "構造化データのJSON-LD情報をヘッダーに出力するかどうか。"
@@ -8679,11 +8679,11 @@ msgstr "Wählen Sie das anzuzeigende Datumsformat. Die Art und Weise, wie es an 
 
 #: lib/page-settings/seo-forms.php:161
 msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するHTMLを制御します。"
-msgstr ""
+msgstr "Mit dieser \"SEO\"-Einstellung für das \"Anzuzeigende Datum\" können Sie steuern, ob das HTML den Suchmaschinen das Veröffentlichungsdatum oder das Aktualisierungsdatum mitteilt."
 
 #: lib/page-settings/seo-forms.php:161
 msgid "「投稿日・更新日を表示」を選択した場合は、「更新日」が優先して検索エンジンに伝えられます。"
-msgstr ""
+msgstr "Wenn \"Veröffentlichungsdatum und Aktualisierungsdatum anzeigen\" ausgewählt ist, wird das \"Aktualisierungsdatum\" priorisiert an Suchmaschinen übermittelt."
 
 #: lib/page-settings/single-forms.php:13
 msgid "カテゴリー・タグ表示設定"
@@ -8977,7 +8977,7 @@ msgstr "Einstellungen für die Breadcrumbs in Beiträgen."
 
 #: lib/page-settings/single-forms.php:443
 msgid "投稿・カテゴリーページのパンくずリスト表示位置を設定します。"
-msgstr ""
+msgstr "Legen Sie die Anzeigeposition des Breadcrumb-Menüs für Beiträge und Kategorieseiten fest."
 
 #: lib/page-settings/single-forms.php:456
 msgid "投稿ページのパンくずリストに対して、表示されているページのタイトルを含めるか切り替えます。"
@@ -9007,19 +9007,19 @@ msgstr "Wählen Sie einen Skin aus."
 
 #: lib/page-settings/skin-forms.php:97
 msgid "スキン一覧表示"
-msgstr ""
+msgstr "Skin-Liste anzeigen"
 
 #: lib/page-settings/skin-forms.php:102
 msgid "全てのスキンを表示する"
-msgstr ""
+msgstr "Alle Skins anzeigen"
 
 #: lib/page-settings/skin-forms.php:103
 msgid "親テーマのスキンのみ表示する"
-msgstr ""
+msgstr "Nur Skins des übergeordneten Themas anzeigen"
 
 #: lib/page-settings/skin-forms.php:104
 msgid "子テーマのスキンのみ表示する"
-msgstr ""
+msgstr "Nur Skins des untergeordneten Themas anzeigen"
 
 #: lib/page-settings/skin-forms.php:107
 msgid "スキン一覧に含めて表示するスキンを選択してください。"
@@ -9373,7 +9373,7 @@ msgstr "Anzeige der Share-Buttons unten"
 
 #: lib/page-settings/sns-share-forms-bottom.php:40
 msgid "メインカラムボトムシェアボタンを表示する"
-msgstr ""
+msgstr "Share-Buttons unten in der Hauptspalte anzeigen"
 
 #: lib/page-settings/sns-share-forms-bottom.php:41
 msgid "ボトムシェアボタンの表示を切り替えます。"
@@ -9531,7 +9531,7 @@ msgstr "Anzeige der Share-Buttons oben"
 
 #: lib/page-settings/sns-share-forms-top.php:40
 msgid "メインカラムトップシェアボタンを表示する"
-msgstr ""
+msgstr "Share-Buttons oben in der Hauptspalte anzeigen"
 
 #: lib/page-settings/sns-share-forms-top.php:41
 msgid "トップシェアボタンの表示を切り替えます。"
@@ -10525,7 +10525,7 @@ msgstr "Stellt den Browser-Cache ein. Durch das Einrichten des Browser-Caches we
 
 #: lib/page-speed-up/speed-up-forms.php:29
 msgid "ブラウザキャッシュを有効にする"
-msgstr ""
+msgstr "Browser-Cache aktivieren"
 
 #: lib/page-speed-up/speed-up-forms.php:30
 msgid "ブラウザキャッシュを有効化することで、訪問者が2回目以降リソースファイルをサーバーから読み込む時間を軽減できます。"
@@ -10832,7 +10832,7 @@ msgstr "Der Titel wird unter dem großen Vorschaubild angezeigt."
 #: blocks/src/block/new-list/edit.js:151
 #: blocks/src/block/popular-list/edit.js:230
 msgid "大きなサムネイル表示にする"
-msgstr ""
+msgstr "Große Miniaturansicht"
 
 #: lib/settings.php:564
 msgid "大きなサムネイル画像の下段にタイトルを重ねます。"
@@ -10843,7 +10843,7 @@ msgstr "Der Titel wird über den unteren Teil des großen Vorschaubildes gelegt.
 #: blocks/src/block/new-list/edit.js:155
 #: blocks/src/block/popular-list/edit.js:234
 msgid "大きなサムネイルにタイトルを重ねて表示する"
-msgstr ""
+msgstr "Titel auf großer Miniaturansicht überlagern"
 
 #: lib/settings.php:574
 msgid "画像のみ"
@@ -11796,7 +11796,7 @@ msgstr "Seite"
 
 #: lib/widgets/display-widgets.php:163
 msgid "投稿者"
-msgstr ""
+msgstr "Autor"
 
 #: lib/widgets/display-widgets.php:176
 msgid "カスタム投稿タイプ"
@@ -11895,18 +11895,18 @@ msgstr "Anzahl der Anzeigen"
 #: lib/widgets/info-list.php:143
 #: blocks/src/block/info-list/edit.js:102
 msgid "枠線を表示する"
-msgstr ""
+msgstr "Rahmen anzeigen"
 
 #: lib/widgets/info-list.php:149
 #: blocks/src/block/info-list/edit.js:109
 msgid "仕切り線を表示する"
-msgstr ""
+msgstr "Trennlinie anzeigen"
 
 #: lib/widgets/info-list.php:155
 #: lib/widgets/new-entries.php:226
 #: blocks/src/block/info-list/edit.js:116
 msgid "更新日順に並び替える"
-msgstr ""
+msgstr "Nach Aktualisierungsdatum sortieren"
 
 #: lib/widgets/info-list.php:162
 msgid "（※未選択の場合は全て表示）"
@@ -11971,7 +11971,7 @@ msgstr "Dies ist ein Widget zur Anzeige der Navigationskartenliste."
 #: blocks/src/block/new-list/edit.js:201
 #: blocks/src/block/popular-list/edit.js:241
 msgid "横並び表示にする"
-msgstr ""
+msgstr "Nebeneinander anordnen"
 
 #: lib/widgets/navi-entries.php:132
 #: lib/widgets/new-entries.php:202
@@ -12018,7 +12018,7 @@ msgstr "Titel neuer Artikel"
 
 #: lib/widgets/new-entries.php:220
 msgid "「固定表示」記事を表示する"
-msgstr ""
+msgstr "Artikel mit „Fixierter Anzeige“ anzeigen"
 
 #: lib/widgets/new-entries.php:232
 #: lib/widgets/popular-entries.php:244
@@ -12085,12 +12085,12 @@ msgstr "Aggregationszeitraum"
 #: lib/widgets/popular-entries.php:226
 #: blocks/src/block/popular-list/edit.js:253
 msgid "ランキング番号を表示する"
-msgstr ""
+msgstr "Rangnummer anzeigen"
 
 #: lib/widgets/popular-entries.php:232
 #: blocks/src/block/popular-list/edit.js:260
 msgid "PV数を表示する"
-msgstr ""
+msgstr "PV-Anzahl anzeigen"
 
 #: lib/widgets/recent-comments.php:19
 #: lib/widgets/recent-comments.php:117
@@ -12285,11 +12285,11 @@ msgstr "Deaktivieren Sie das Kontrollkästchen, wenn Sie keine Zählung in den �
 
 #: skins/one/functions.php:134
 msgid "PCでもスマートフォン用の固定フッターメニューを表示する"
-msgstr ""
+msgstr "Festes Fußmenü für Smartphones auch auf einem PC anzeigen"
 
 #: skins/one/functions.php:135
 msgid "従来どおりPCでスマートフォン用の固定フッターメニューを表示させたくない場合はチェックを外してください"
-msgstr ""
+msgstr "Deaktivieren Sie das Kontrollkästchen, wenn Sie das feste Fußmenü für Smartphones auf Ihrem PC wie gewohnt nicht anzeigen möchten."
 
 #: skins/one/functions.php:145
 msgid "全体的に影を付ける"
@@ -12349,7 +12349,7 @@ msgstr "(Bitte überprüfen Sie die Details vor Ort)"
 
 #: skins/raku-add-fadein/functions.php:291
 msgid "スキン一覧表示（ベース）"
-msgstr ""
+msgstr "Skin-Liste anzeigen (Basis)"
 
 #: skins/raku-add-fadein/functions.php:317
 msgid "こちらで選択したスキンが表示されます。"
@@ -13347,7 +13347,7 @@ msgstr "Zur AMP-Seite"
 
 #: tmp/admin-panel.php:71
 msgid "PageSpeed Insights"
-msgstr ""
+msgstr "PageSpeed Insights"
 
 #: tmp/admin-panel.php:74
 msgid "GTmetrix"
@@ -13367,7 +13367,7 @@ msgstr "Tweets durchsuchen"
 
 #: tmp/admin-panel.php:98
 msgid "Responsinator"
-msgstr ""
+msgstr "Responsinator"
 
 #: tmp/admin-panel.php:101
 msgid "Sizzy"
@@ -13375,7 +13375,7 @@ msgstr "Sizzy"
 
 #: tmp/admin-panel.php:105
 msgid "ScreenResolution"
-msgstr ""
+msgstr "ScreenResolution"
 
 #: tmp/admin-pv.php:22
 msgid "本日:"
