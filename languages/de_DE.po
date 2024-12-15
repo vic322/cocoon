@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-15 04:52\n"
+"PO-Revision-Date: 2024-12-15 06:06\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -3829,7 +3829,7 @@ msgstr "Spaltenoperationen der Beitrags- und Seitenartikel-Listen-Tabellen."
 
 #: lib/page-settings/admin-forms.php:99
 msgid "投稿者を表示する"
-msgstr ""
+msgstr "Autor anzeigen"
 
 #: lib/page-settings/admin-forms.php:102
 msgid "カテゴリーを表示する"
