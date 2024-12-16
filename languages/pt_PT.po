@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-13 14:53\n"
+"PO-Revision-Date: 2024-12-16 13:34\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2085,7 +2085,7 @@ msgstr "Digite uma descrição para o artigo."
 
 #: lib/custom-fields/seo-field.php:131
 msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
-msgstr ""
+msgstr "Digite uma descrição para o artigo. A meta descrição que você digitar aqui também será usada como um snippet para os cartões de blog. Se deixado em branco, o texto inserido em \"Excerto\" será usado como a meta descrição."
 
 #: lib/custom-fields/seo-field.php:135
 msgid "記事の関連キーワードを半角カンマ区切りで入力してください。"
