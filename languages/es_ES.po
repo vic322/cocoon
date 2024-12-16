@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-16 11:37\n"
+"PO-Revision-Date: 2024-12-16 13:34\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -7279,7 +7279,7 @@ msgstr "Configuración de imagen del cuerpo"
 
 #: lib/page-settings/image-forms.php:16
 msgid "投稿・固定・カテゴリー・タグページの本文部分に関する画像の設定です。"
-msgstr ""
+msgstr "Configuración de imágenes relacionadas con el contenido principal en páginas de entradas, páginas fijas, categorías y etiquetas."
 
 #: lib/page-settings/image-forms.php:62
 msgid "アイキャッチの表示"
@@ -7291,7 +7291,7 @@ msgstr "Mostrar imagen destacada sobre el texto del cuerpo"
 
 #: lib/page-settings/image-forms.php:67
 msgid "本文エリアトップトップにアイキャッチを表示します。"
-msgstr ""
+msgstr "Muestra la imagen destacada en la parte superior del área de contenido."
 
 #: lib/page-settings/image-forms.php:71
 msgid "アイキャッチラベルを表示する"
@@ -7299,19 +7299,19 @@ msgstr "Mostrar etiquetas de imagen destacada"
 
 #: lib/page-settings/image-forms.php:72
 msgid "本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
-msgstr ""
+msgstr "Configuración para alternar la visualización de la etiqueta de categoría en la imagen destacada de la parte superior del área de contenido."
 
 #: lib/page-settings/image-forms.php:72
 msgid "（※投稿・固定・カテゴリーページのみ）"
-msgstr ""
+msgstr "(※ Solo para páginas de entradas, fijas y categorías)"
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
-msgstr ""
+msgstr "Centrar imagen destacada"
 
 #: lib/page-settings/image-forms.php:75
 msgid "本文エリアトップに表示されるアイキャッチをカラムの中央に表示します。"
-msgstr ""
+msgstr "Muestra la imagen destacada en el centro de la columna en la parte superior del área de contenido."
 
 #: lib/page-settings/image-forms.php:77
 msgid "アイキャッチをカラム幅に引き伸ばす"
@@ -7339,7 +7339,7 @@ msgstr "Habilitar la configuración automática de imagen destacada"
 
 #: lib/page-settings/image-forms.php:95
 msgid "（※投稿・固定ページのみ）"
-msgstr ""
+msgstr "(※ Solo para páginas de entradas y páginas fijas)"
 
 #: lib/page-settings/image-forms.php:96
 msgid "記事を保存したり公開したりするときに、本文中に最初に出てくる画像をアイキャッチにします。※プレビューには反映されません。"
@@ -7367,7 +7367,7 @@ msgstr "Sombra (papel)"
 
 #: lib/page-settings/image-forms.php:116
 msgid "本文内の画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。"
-msgstr ""
+msgstr "Configuración del borde de las imágenes dentro del contenido. Si está habilitado, incluso las imágenes claras serán más fáciles de identificar."
 
 #: lib/page-settings/image-forms.php:130
 msgid "Spotlight（軽量・高機能ギャラリー）"
@@ -7375,7 +7375,7 @@ msgstr "Spotlight (galería ligera y de alto rendimiento)"
 
 #: lib/page-settings/image-forms.php:131
 msgid "baguetteBox（軽量・スマートフォン向け）"
-msgstr ""
+msgstr "baguetteBox (para teléfonos inteligentes ligeros)"
 
 #: lib/page-settings/image-forms.php:132
 msgid "Lity（軽量・1枚ずつ表示）"
@@ -7737,11 +7737,11 @@ msgstr "Si se ha configurado una tarjeta vertical o de mosaico, regenere la mini
 
 #: lib/page-settings/index-forms.php:153
 msgid "スマートフォンで縦型＆タイル型のエントリーカードを1カラムにする"
-msgstr ""
+msgstr "Colocar tarjetas de entrada verticales y de mosaico en una sola columna en dispositivos móviles"
 
 #: lib/page-settings/index-forms.php:154
 msgid "スマートフォン（480px以下）で表示した際に、カードタイプを「縦型カード」「タイルカード」にしている場合は、1カラムで表示します。※デフォルトは2カラム"
-msgstr ""
+msgstr "Si el tipo de tarjeta es \"Tarjeta vertical\"/\"Tarjeta de mosaico\", se mostrará en una sola columna en teléfonos inteligentes (hasta 480 px). *El valor predeterminado es de 2 columnas"
 
 #: lib/page-settings/index-forms.php:169
 #: lib/page-settings/single-forms.php:219
@@ -7777,11 +7777,11 @@ msgstr "Mostrar información relacionada con la publicación"
 #: lib/page-settings/index-forms.php:208
 #: lib/page-settings/single-forms.php:245
 msgid "スニペット（抜粋）を表示する"
-msgstr ""
+msgstr "Mostrar fragmentos (extractos)"
 
 #: lib/page-settings/index-forms.php:224
 msgid "コメント数を表示する"
-msgstr ""
+msgstr "Mostrar el número de comentarios"
 
 #: lib/page-settings/index-forms.php:224
 msgid "（※投稿・固定ページでコメントが表示されている場合）"
@@ -7836,7 +7836,7 @@ msgstr "Botón móvil"
 
 #: lib/page-settings/mobile-buttons-forms.php:57
 msgid "モバイルボタンを固定表示する"
-msgstr ""
+msgstr "Mostrar botón móvil fijo"
 
 #: lib/page-settings/mobile-buttons-forms.php:58
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときボタンを固定表示するか。無効の場合はスクロールするとモバイルボタンが隠れます。"
@@ -7852,7 +7852,7 @@ msgstr "¿Desea mostrar el logotipo del encabezado cuando se muestra el \"Botón
 
 #: lib/page-settings/mobile-buttons-forms.php:63
 msgid "モバイルボタン時コンテンツ下のサイドバーを表示する"
-msgstr ""
+msgstr "Mostrar la barra lateral debajo del contenido al usar el botón móvil"
 
 #: lib/page-settings/mobile-buttons-forms.php:64
 msgid "「モバイルメニュー」で「モバイルボタン」が選択されているときメインカラム下に表示されるサイドバーを表示するかどうか。"
@@ -7912,7 +7912,7 @@ msgstr "Visualización de notificaciones"
 
 #: lib/page-settings/notice-forms.php:40
 msgid "通知エリアを表示する"
-msgstr ""
+msgstr "Visualización del área de notificación"
 
 #: lib/page-settings/notice-forms.php:41
 msgid "通知メッセージを入力して「通知表示」を有効にすればヘッダー下に通知メッセージが表示されます。"
@@ -8000,7 +8000,7 @@ msgstr "Habilitar OGP"
 
 #: lib/page-settings/ogp-forms.php:29
 msgid "OGPタグを挿入する"
-msgstr ""
+msgstr "Insertar etiqueta OGP"
 
 #: lib/page-settings/ogp-forms.php:30
 msgid "headタグ内にFacebookや外部サイトなどに、ページの概要情報伝えるタグを挿入します。"
@@ -8032,7 +8032,7 @@ msgstr "Habilitar tarjeta de Twitter"
 
 #: lib/page-settings/ogp-forms.php:76
 msgid "Twitterカードタグを挿入する"
-msgstr ""
+msgstr "Insertar etiqueta de tarjeta de Twitter"
 
 #: lib/page-settings/ogp-forms.php:77
 msgid "headタグ内にTwitterに対して、ページの概要情報伝えるタグを挿入します。"
@@ -8084,7 +8084,7 @@ msgstr "Soporte de SSL fácil"
 
 #: lib/page-settings/others-forms.php:28
 msgid "内部URLをSSL対応する（簡易版）"
-msgstr ""
+msgstr "URL interna compatible con SSL (versión simplificada)"
 
 #: lib/page-settings/others-forms.php:29
 msgid "サイトの内部リンクや、非SSLの画像・URLなど、HTTPS化する必要があるURLをSSL対応させて表示させます（※全てのURLに対応しているわけではありません）。"
@@ -8502,7 +8502,7 @@ msgstr "Insertar en la etiqueta head"
 
 #: lib/page-settings/seo-forms.php:30
 msgid "canonicalタグを追加する"
-msgstr ""
+msgstr "Agregar etiqueta canónica"
 
 #: lib/page-settings/seo-forms.php:31
 msgid "WordPressデフォルトでも投稿・固定ページには、canonicalタグは挿入されます。"
