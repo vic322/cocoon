@@ -12,14 +12,22 @@ $tag_id = get_queried_object_id();
 $eye_catch_url = get_the_tag_eye_catch_url($tag_id);
 $content = get_the_tag_content($tag_id);
 if ($eye_catch_url || $content): ?>
-<article class="tag-content article">
+<article class="tag-content article<?php echo get_additional_entry_content_classes(); ?>">
   <header class="article-header tag-header">
     <?php //タイトル
     cocoon_template_part('tmp/list-title'); ?>
-    <?php if ($eye_catch_url): ?>
-      <div class="eye-catch-wrap">
+    <?php if ($eye_catch_url):
+      //アイキャッチがない場合は非表示クラスを追加
+      $display_none = is_eyecatch_visible() ? null : ' display-none';
+      //アイキャッチからキャプションを取得
+      $caption = get_caption_from_image_url($eye_catch_url); ?>
+      <div class="eye-catch-wrap<?php echo $display_none; ?>">
         <figure class="eye-catch">
           <img src="<?php echo esc_url($eye_catch_url); ?>" class="eye-catch-image wp-tag-image" alt="<?php echo esc_attr(get_the_tag_title($tag_id)); ?>">
+          <?php //キャプション
+          if ($caption){
+            echo '<figcaption class="eye-catch-caption">'.esc_html($caption).'</figcaption>';
+          }; ?>
         </figure>
       </div>
       <?php do_action('tag_eye_catch_after'); ?>

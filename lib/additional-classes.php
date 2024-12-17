@@ -290,12 +290,12 @@ function body_class_additional($classes) {
     $classes[] = 'no-post-author';
   }
 
-  //スマホ環境でスニペットを表示するか
+  //スマートフォン環境でスニペットを表示するか
   if (!is_smartphone_entry_card_snippet_visible()) {
     $classes[] = 'no-sp-snippet';
   }
 
-  //スマホ環境でスニペットを表示するか
+  //スマートフォン環境でスニペットを表示するか
   if (!is_smartphone_related_entry_card_snippet_visible()) {
     $classes[] = 'no-sp-snippet-related';
   }
@@ -371,7 +371,7 @@ function get_additional_entry_content_classes($option = null){
       break;
   }
 
-  //行番号表示
+  //行番号を表示する
   if (is_code_row_number_enable()) {
     $classes .= ' is-code-row-number-enable';
   }
@@ -929,7 +929,7 @@ function get_additional_carousel_area_classes($option = null){
     $classes .= ' ccb-carousel-border';
   }
 
-  //スマホ表示
+  //スマートフォン表示
   if (!is_carousel_smartphone_visible()) {
     $classes .= ' sp-display-none';
   }

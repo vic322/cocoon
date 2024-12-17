@@ -263,13 +263,13 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
           <td>
             <?php
             $options = array(
-              'display_all' => __( '全てのページで表示', THEME_NAME ),
-              'no_display_all' => __( '全てのページで非表示', THEME_NAME ),
-              'no_display_front_page' => __( 'フロントページで非表示', THEME_NAME ),
-              'no_display_index_pages' => __( 'インデックスページで非表示', THEME_NAME ),
-              'no_display_pages' => __( '固定ページで非表示', THEME_NAME ),
-              'no_display_singles' => __( '投稿ページで非表示', THEME_NAME ),
-              'no_display_404_pages' => __( '404ページで非表示', THEME_NAME ),
+              'display_all' => __( '全てのページで表示する', THEME_NAME ),
+              'no_display_all' => __( '全てのページで非表示にする', THEME_NAME ),
+              'no_display_front_page' => __( 'フロントページで非表示にする', THEME_NAME ),
+              'no_display_index_pages' => __( 'インデックスページで非表示にする', THEME_NAME ),
+              'no_display_pages' => __( '固定ページで非表示にする', THEME_NAME ),
+              'no_display_singles' => __( '投稿ページで非表示にする', THEME_NAME ),
+              'no_display_404_pages' => __( '404ページで非表示にする', THEME_NAME ),
             );
             //アドミンバーに独自管理メニューを表示
             generate_radiobox_tag(OP_SIDEBAR_DISPLAY_TYPE, $options, get_sidebar_display_type());
@@ -324,7 +324,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
           </th>
           <td>
             <?php
-            generate_textbox_tag(OP_SITE_DATE_FORMAT, get_site_date_format(), '');
+            generate_textbox_tag(OP_SITE_DATE_FORMAT, get_site_date_format(), SITE_DATE_FORMAT);
             generate_tips_tag(__( 'テーマが使用する日付のフォーマット形式を入力してください（初期値：Y.m.d）。', THEME_NAME ));
             ?>
             <p><?php _e( '<a href="https://ja.wordpress.org/support/article/formatting-date-and-time/">日付と時刻の書式の解説</a>', THEME_NAME ) ?></p>

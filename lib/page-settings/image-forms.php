@@ -13,7 +13,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
   <h2 class="hndle"><?php _e( '本文画像設定', THEME_NAME ) ?></h2>
   <div class="inside">
 
-    <p><?php _e( '投稿・固定ページの本文部分に関する画像の設定です。', THEME_NAME ) ?></p>
+    <p><?php _e( '投稿・固定・カテゴリー・タグページの本文部分に関する画像の設定です。', THEME_NAME ) ?></p>
 
     <table class="form-table">
       <tbody>
@@ -64,15 +64,15 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
           <td>
             <?php
             generate_checkbox_tag(OP_EYECATCH_VISIBLE, is_eyecatch_visible(), __( '本文上にアイキャッチを表示する', THEME_NAME ));
-            generate_tips_tag(__( '投稿・固定ページトップにアイキャッチを表示します。', THEME_NAME ));
+            generate_tips_tag(__( '本文エリアトップトップにアイキャッチを表示します。', THEME_NAME ));
             ?>
             <div class="indent<?php echo get_not_allowed_form_class(is_eyecatch_visible(), true); ?>">
               <?php
               generate_checkbox_tag(OP_EYECATCH_LABEL_VISIBLE, is_eyecatch_label_visible(), __( 'アイキャッチラベルを表示する', THEME_NAME ));
-              generate_tips_tag(__( '投稿・固定ページのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。', THEME_NAME ));
+              generate_tips_tag(__( '本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。', THEME_NAME ).__( '（※投稿・固定・カテゴリーページのみ）', THEME_NAME ));
 
-            generate_checkbox_tag(OP_EYECATCH_CENTER_ENABLE , is_eyecatch_center_enable(), __( 'アイキャッチの中央寄せ', THEME_NAME ));
-            generate_tips_tag(__( '投稿・固定ページに表示されるアイキャッチをカラムの中央に表示します。', THEME_NAME ));
+            generate_checkbox_tag(OP_EYECATCH_CENTER_ENABLE , is_eyecatch_center_enable(), __( 'アイキャッチを中央寄せする', THEME_NAME ));
+            generate_tips_tag(__( '本文エリアトップに表示されるアイキャッチをカラムの中央に表示します。', THEME_NAME ));
 
             generate_checkbox_tag(OP_EYECATCH_WIDTH_100_PERCENT_ENABLE , is_eyecatch_width_100_percent_enable(), __( 'アイキャッチをカラム幅に引き伸ばす', THEME_NAME ));
             generate_tips_tag(__( 'アイキャッチ画像に小さな画像を使っていても、強制的にカラム幅に拡大して表示します。', THEME_NAME ));
@@ -92,7 +92,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
           <td>
             <?php
 
-            generate_checkbox_tag(OP_AUTO_POST_THUMBNAIL_ENABLE, is_auto_post_thumbnail_enable(), __( 'アイキャッチ自動設定を有効にする', THEME_NAME ));
+            generate_checkbox_tag(OP_AUTO_POST_THUMBNAIL_ENABLE, is_auto_post_thumbnail_enable(), __( 'アイキャッチ自動設定を有効にする', THEME_NAME ).__( '（※投稿・固定ページのみ）', THEME_NAME ));
             generate_tips_tag(__( '記事を保存したり公開したりするときに、本文中に最初に出てくる画像をアイキャッチにします。※プレビューには反映されません。', THEME_NAME ));
             ?>
           </td>
@@ -113,7 +113,7 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
               'shadow_paper' => __( 'シャドー（ペーパー）', THEME_NAME ),
             );
             generate_radiobox_tag(OP_IMAGE_WRAP_EFFECT, $options, get_image_wrap_effect());
-            generate_tips_tag(__( '画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。', THEME_NAME ));
+            generate_tips_tag(__( '本文内の画像の枠線の設定です。有効にすると白系の画像でも画像と認識しやすくなります。', THEME_NAME ));
             ?>
           </td>
         </tr>
@@ -128,12 +128,12 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
             $options = array(
               'none' => __( 'なし', THEME_NAME ),
               'spotlight' => get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/spotlight.gif').__( 'Spotlight（軽量・高機能ギャラリー）', THEME_NAME ),
-              'baguettebox' => get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/baguettebox.gif').__( 'baguetteBox（軽量・スマホ向け）', THEME_NAME ),
+              'baguettebox' => get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/baguettebox.gif').__( 'baguetteBox（軽量・スマートフォン向け）', THEME_NAME ),
               'lity' => get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/lity.gif').__( 'Lity（軽量・1枚ずつ表示）', THEME_NAME ),
               'lightbox' => get_image_preview_tag('https://im-cocoon.net/wp-content/uploads/lightbox.gif').__( 'Lightbox', THEME_NAME ),
             );
             generate_radiobox_tag(OP_IMAGE_ZOOM_EFFECT, $options, get_image_zoom_effect());
-            generate_tips_tag(__( 'リンク画像をクリックしたときの拡大効果の設定です。', THEME_NAME ).get_help_page_tag('https://wp-cocoon.com/lightbox-libraries/'));
+            generate_tips_tag(__( '本文内のリンク画像をクリックしたときの拡大効果の設定です。', THEME_NAME ).get_help_page_tag('https://wp-cocoon.com/lightbox-libraries/'));
             ?>
           </td>
         </tr>

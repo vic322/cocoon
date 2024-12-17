@@ -60,7 +60,7 @@ function is_carousel_display_type_page_only(){
 }
 endif;
 
-//カルーセルをスマホで表示する
+//カルーセルをスマートフォンで表示する
 define('OP_CAROUSEL_SMARTPHONE_VISIBLE', 'carousel_smartphone_visible');
 if ( !function_exists( 'is_carousel_smartphone_visible' ) ):
 function is_carousel_smartphone_visible(){
@@ -109,10 +109,11 @@ function get_carousel_orderby(){
 endif;
 
 //カルーセルに表示する最大数
+define('CAROUSEL_MAX_COUNT', 18);
 define('OP_CAROUSEL_MAX_COUNT', 'carousel_max_count');
 if ( !function_exists( 'get_carousel_max_count' ) ):
 function get_carousel_max_count(){
-  return get_theme_option(OP_CAROUSEL_MAX_COUNT, 18);
+  return get_theme_option(OP_CAROUSEL_MAX_COUNT, '');
 }
 endif;
 

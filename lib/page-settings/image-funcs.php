@@ -23,7 +23,7 @@ function is_eyecatch_label_visible(){
 }
 endif;
 
-//アイキャッチの中央寄せ
+//アイキャッチを中央寄せする
 define('OP_EYECATCH_CENTER_ENABLE', 'eyecatch_center_enable');
 if ( !function_exists( 'is_eyecatch_center_enable' ) ):
 function is_eyecatch_center_enable(){
@@ -188,7 +188,7 @@ endif;
 define('OP_NO_IMAGE_URL', 'no_image_url');
 if ( !function_exists( 'get_no_image_url' ) ):
 function get_no_image_url(){
-  return get_theme_option(OP_NO_IMAGE_URL);
+  return get_theme_option(OP_NO_IMAGE_URL, '');
 }
 endif;
 if ( !function_exists( 'get_no_image_file' ) ):
@@ -377,5 +377,38 @@ function get_categorized_no_image_url($url, $width = null, $height = null, $id =
 
   }
   return $url;
+}
+endif;
+
+// 画像のURLから添付ファイルIDを取得する関数
+if ( !function_exists( 'get_attachment_id_from_url' ) ):
+function get_attachment_id_from_url($url) {
+  global $wpdb;
+
+  // 添付ファイルURLからIDを取得
+  $attachment_id = $wpdb->get_var(
+      $wpdb->prepare(
+          "SELECT ID FROM $wpdb->posts WHERE guid = %s AND post_type = 'attachment'",
+          $url
+      )
+  );
+
+  return $attachment_id;
+}
+endif;
+
+// 画像のURLからキャプションを取得する関数
+if ( !function_exists( 'get_caption_from_image_url' ) ):
+function get_caption_from_image_url($image_url) {
+  // 画像URLから添付ファイルIDを取得
+  $attachment_id = get_attachment_id_from_url($image_url);
+
+  // キャプションを取得
+  if ($attachment_id) {
+      $caption = wp_get_attachment_caption($attachment_id);
+      return $caption ? $caption : '';
+  }
+
+  return '';
 }
 endif;
