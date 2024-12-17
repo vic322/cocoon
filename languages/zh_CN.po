@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-17T11:52:56+00:00\n"
-"PO-Revision-Date: 2024-12-17 12:13\n"
+"PO-Revision-Date: 2024-12-17 12:55\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -14469,11 +14469,11 @@ msgstr "跳过"
 
 #: blocks/src/block/new-list/edit.js:238
 msgid "全タグを表示する"
-msgstr ""
+msgstr "显示所有标签"
 
 #: blocks/src/block/new-list/edit.js:247
 msgid "固定記事を表示する"
-msgstr ""
+msgstr "显示置顶文章"
 
 #: blocks/src/block/new-list/edit.js:252
 #: blocks/src/block/popular-list/edit.js:286
@@ -14571,7 +14571,7 @@ msgstr "最大值"
 
 #: blocks/src/block/radar/edit.js:327
 msgid "タイトルを表示する"
-msgstr ""
+msgstr "显示标题"
 
 #: blocks/src/block/radar/edit.js:336
 msgid "ここにタイトルを入力してください"
@@ -14579,7 +14579,7 @@ msgstr "在此输入标题"
 
 #: blocks/src/block/radar/edit.js:340
 msgid "データ名を表示する"
-msgstr ""
+msgstr "显示数据名称"
 
 #: blocks/src/block/radar/edit.js:346
 msgid "データ名"
@@ -14615,19 +14615,19 @@ msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:378
 msgid "総計を表示する"
-msgstr ""
+msgstr "显示总计"
 
 #: blocks/src/block/radar/edit.js:383
 msgid "項目に値を表示する"
-msgstr ""
+msgstr "在项目上显示数值"
 
 #: blocks/src/block/radar/edit.js:388
 msgid "値が最大値を超えるのを許可する"
-msgstr ""
+msgstr "允许数值超过最大值"
 
 #: blocks/src/block/radar/edit.js:393
 msgid "アングルラインを表示する"
-msgstr ""
+msgstr "显示角度线"
 
 #: blocks/src/block/radar/index.js:25
 msgid "レーダーチャート"
