@@ -2788,7 +2788,6 @@ msgstr "Cache aktivieren"
 #: lib/page-access/access-forms.php:43
 #: lib/page-settings/sns-follow-forms.php:232
 #: lib/page-settings/sns-share-forms.php:158
-#: lib/page-speed-up/speed-up-forms.php:29
 msgid "キャッシュを有効にする"
 msgstr "Cache aktivieren"
 
@@ -10529,6 +10528,9 @@ msgstr "Browser-Cache"
 msgid "ブラウザキャッシュを設定します。ブラウザキャッシュを設定することで、次回からサーバーではなくローカルのリソースファイルが読み込まれることになるので高速化が図れます。"
 msgstr "Stellt den Browser-Cache ein. Durch das Einrichten des Browser-Caches werden beim nächsten Mal die Ressourcen-Dateien lokal geladen und nicht vom Server, was die Geschwindigkeit erhöht."
 
+#: lib/page-speed-up/speed-up-forms.php:29
+msgid "ブラウザキャッシュを有効にする"
+msgstr "Browser-Cache aktivieren"
 #: lib/page-speed-up/speed-up-forms.php:30
 msgid "ブラウザキャッシュを有効化することで、訪問者が2回目以降リソースファイルをサーバーから読み込む時間を軽減できます。"
 msgstr "Durch die Aktivierung des Browser-Caches kann die Zeit, die zum Laden der Ressourcen-Dateien vom Server benötigt wird, bei wiederholten Besuchen reduziert werden."
