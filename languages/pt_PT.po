@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-13T14:49:06+00:00\n"
-"PO-Revision-Date: 2024-12-16 13:34\n"
+"PO-Revision-Date: 2024-12-17 09:01\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2768,7 +2768,7 @@ msgstr "Configurações para a função de resumo de acesso específica do tema.
 
 #: lib/page-access/access-forms.php:30
 msgid "アクセス集計を有効にする"
-msgstr ""
+msgstr "Ativar coleta de estatísticas de acesso"
 
 #: lib/page-access/access-forms.php:31
 msgid "有効にすることで「人気記事」ウィジェット等が利用できるようになります。簡易的なWordPress Popular Postsプラグインを実装しているようなものなのでレンタルサーバーから負荷が高いといわれたら無効にしてください。"
@@ -2956,7 +2956,7 @@ msgstr "Título"
 #: lib/page-speech-balloon/form.php:49
 #: lib/page-speech-balloon/form.php:73
 msgid "（※必須）"
-msgstr ""
+msgstr "(* Obrigatório)"
 
 #: lib/page-affiliate-tag/form.php:31
 #: lib/page-func-text/form.php:31
@@ -3590,12 +3590,12 @@ msgstr "Informações relacionadas ao ambiente."
 #: lib/page-settings/about-forms.php:20
 #: lib/page-settings/about-forms.php:165
 msgid "環境情報をコピー"
-msgstr ""
+msgstr "Copiar informações do ambiente"
 
 #: lib/page-settings/about-forms.php:21
 #: lib/page-settings/about-forms.php:166
 msgid "環境情報をコピーしました"
-msgstr ""
+msgstr "As informações do ambiente foram copiadas"
 
 #: lib/page-settings/about-forms.php:28
 msgid "サイト名："
@@ -3765,7 +3765,7 @@ msgstr "Plugins em uso:"
 
 #: lib/page-settings/about-forms.php:162
 msgid "不具合報告の際には上記の情報を添えてもらうと助かります。"
-msgstr ""
+msgstr "Ao relatar problemas, é útil incluir as informações acima."
 
 #: lib/page-settings/admin-forms.php:13
 msgid "管理画面設定"
@@ -3781,11 +3781,11 @@ msgstr "Link de menu para ir rapidamente para a tela de administração."
 
 #: lib/page-settings/admin-forms.php:31
 msgid "ツールバー（管理バー）に独自管理メニューを表示する"
-msgstr ""
+msgstr "Exibir um menu de gerenciamento personalizado na barra de ferramentas (barra de administração)"
 
 #: lib/page-settings/admin-forms.php:32
 msgid "ツールバー（管理バー）に手軽に設定画面にアクセスできるメニューを表示します。"
-msgstr ""
+msgstr "Exibe um menu na barra de ferramentas (barra de administração) para acessar facilmente a tela de configurações."
 
 #: lib/page-settings/admin-forms.php:46
 msgid "ダッシュボードメッセージ"
@@ -3813,11 +3813,11 @@ msgstr "As informações sobre o novo coronavírus serão exibidas até que a OM
 
 #: lib/page-settings/admin-forms.php:77
 msgid "投稿・固定ページ一覧設定"
-msgstr ""
+msgstr "Configurações da lista de posts e páginas fixas"
 
 #: lib/page-settings/admin-forms.php:81
 msgid "管理画面の投稿・固定ページ一覧ページの設定です。"
-msgstr ""
+msgstr "Configurações da página de lista de posts e páginas fixas no painel de administração."
 
 #: lib/page-settings/admin-forms.php:92
 msgid "カラム表示"
@@ -3829,7 +3829,7 @@ msgstr "Operação de coluna das tabelas de lista de postagens e páginas."
 
 #: lib/page-settings/admin-forms.php:99
 msgid "投稿者を表示する"
-msgstr ""
+msgstr "Exibir autor"
 
 #: lib/page-settings/admin-forms.php:102
 msgid "カテゴリーを表示する"
@@ -3851,7 +3851,7 @@ msgstr "Exibir data"
 
 #: lib/page-settings/admin-forms.php:115
 msgid "IDを表示する"
-msgstr ""
+msgstr "Exibir ID da postagem"
 
 #: lib/page-settings/admin-forms.php:118
 msgid "文字数を表示する"
@@ -3895,15 +3895,15 @@ msgstr "Um painel para a área de exibição de PV e para exibir várias ferrame
 
 #: lib/page-settings/admin-forms.php:163
 msgid "全て表示する"
-msgstr ""
+msgstr "Exibir tudo"
 
 #: lib/page-settings/admin-forms.php:164
 msgid "PCのみ表示する"
-msgstr ""
+msgstr "Exibir apenas no PC"
 
 #: lib/page-settings/admin-forms.php:165
 msgid "モバイルのみ表示する"
-msgstr ""
+msgstr "Exibir apenas no mobile"
 
 #: lib/page-settings/admin-forms.php:166
 #: lib/page-settings/appeal-forms.php:38
@@ -3946,11 +3946,11 @@ msgstr "Exibe a área de edição no painel de administração."
 
 #: lib/page-settings/admin-forms.php:200
 msgid "ダッシュボードリンクを表示する"
-msgstr ""
+msgstr "Exibir link do painel"
 
 #: lib/page-settings/admin-forms.php:201
 msgid "WordPressのダッシュボードに移動するためのリンクです。"
-msgstr ""
+msgstr "Link para acessar o painel do Wordpress"
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクの表示"
@@ -4050,11 +4050,11 @@ msgstr "Exibir o link <a href=\"http://seocheki.net/\" target=\"_blank\" rel=\"n
 
 #: lib/page-settings/admin-forms.php:268
 msgid "ツイート検索を表示する"
-msgstr ""
+msgstr "Exibir a pesquisa de tweets"
 
 #: lib/page-settings/admin-forms.php:269
 msgid "投稿・固定ページ・インデックスページに対するツイート検索リンクの表示。"
-msgstr ""
+msgstr "Exibir links de pesquisa de tweets para posts, páginas fixas e páginas de índice."
 
 #: lib/page-settings/admin-forms.php:278
 msgid "レスポンシブツールエリアの表示"
@@ -4062,7 +4062,7 @@ msgstr "Exibir área de ferramentas responsivas"
 
 #: lib/page-settings/admin-forms.php:282
 msgid "レスポンシブチェックツールエリアを表示する"
-msgstr ""
+msgstr "Exibir a área da ferramenta de verificação responsiva"
 
 #: lib/page-settings/admin-forms.php:283
 msgid "レスポンシブ表示状態を効率的にチェックできるツールエリアの表示を切り替えます。"
@@ -4094,23 +4094,23 @@ msgstr "Exibir o link de verificação do WhatIsMyScreenResolution <a href=\"htt
 
 #: lib/page-settings/admin-forms.php:311
 msgid "インデックス設定"
-msgstr ""
+msgstr "Configurações de índice"
 
 #: lib/page-settings/admin-forms.php:314
 msgid "インデックスページのエントリーカードに表示されるPVの設定です。"
-msgstr ""
+msgstr "Configurações de exibição de PV nos cartões de entrada da página de índice."
 
 #: lib/page-settings/admin-forms.php:322
 msgid "エントリーカード"
-msgstr ""
+msgstr "Cartão de entrada"
 
 #: lib/page-settings/admin-forms.php:323
 msgid "エントリーカードのPV表示エリアの設定です。"
-msgstr ""
+msgstr "Configurações da área de exibição de PV no cartão de entrada."
 
 #: lib/page-settings/admin-forms.php:328
 msgid "インデックスにPV数を表示する"
-msgstr ""
+msgstr "Exibir contagem de PV no índice"
 
 #: lib/page-settings/admin-forms.php:329
 msgid "インデックスページのエントリーカードごとにPV数を表示します。集計方法がJetpackの場合は、初回アクセス時に情報取得に時間がかかります。"
@@ -4154,7 +4154,7 @@ msgstr "Exibição de anúncios"
 
 #: lib/page-settings/ads-forms.php:26
 msgid "全ての広告を表示する"
-msgstr ""
+msgstr "Exibir todos os anúncios"
 
 #: lib/page-settings/ads-forms.php:27
 msgid "アドセンス設定、ウィジェット設定等、全ての広告の表示を切り替えます。"
@@ -4189,7 +4189,7 @@ msgstr "Exibição de anúncios do AdSense"
 
 #: lib/page-settings/ads-forms.php:69
 msgid "全てのアドセンス広告を表示する"
-msgstr ""
+msgstr "Exibir todos os anúncios do AdSense"
 
 #: lib/page-settings/ads-forms.php:70
 msgid "「アドセンス設定」で設定した、アドセンス広告全ての表示を切り替えます。"
@@ -4843,31 +4843,31 @@ msgstr "Estado de exibição da barra lateral"
 
 #: lib/page-settings/all-forms.php:266
 msgid "全てのページで表示する"
-msgstr ""
+msgstr "Exibir em todas as páginas"
 
 #: lib/page-settings/all-forms.php:267
 msgid "全てのページで非表示にする"
-msgstr ""
+msgstr "Exibir em todas as páginas"
 
 #: lib/page-settings/all-forms.php:268
 msgid "フロントページで非表示にする"
-msgstr ""
+msgstr "Ocultar na página inicial"
 
 #: lib/page-settings/all-forms.php:269
 msgid "インデックスページで非表示にする"
-msgstr ""
+msgstr "Ocultar nas páginas de índice"
 
 #: lib/page-settings/all-forms.php:270
 msgid "固定ページで非表示にする"
-msgstr ""
+msgstr "Ocultar em páginas fixas"
 
 #: lib/page-settings/all-forms.php:271
 msgid "投稿ページで非表示にする"
-msgstr ""
+msgstr "Ocultar em páginas de postagem"
 
 #: lib/page-settings/all-forms.php:272
 msgid "404ページで非表示にする"
-msgstr ""
+msgstr "Ocultar nas páginas 404"
 
 #: lib/page-settings/all-forms.php:276
 msgid "サイドバーを表示するページの設定です。"
@@ -4966,7 +4966,7 @@ msgstr "Galeria AMP (suporte para exibição de galeria de várias imagens)"
 #: lib/page-settings/amp-forms.php:59
 #: lib/page-settings/image-forms.php:136
 msgid "本文内のリンク画像をクリックしたときの拡大効果の設定です。"
-msgstr ""
+msgstr "Configurações do efeito de ampliação ao clicar em imagens com links no conteúdo."
 
 #: lib/page-settings/amp-forms.php:67
 msgid "インラインスタイル"
@@ -5589,37 +5589,37 @@ msgstr "Exibir área de anúncio"
 #: lib/page-settings/carousel-forms.php:39
 #: lib/page-settings/recommended-forms.php:40
 msgid "全ページで表示する"
-msgstr ""
+msgstr "Exibir em todas as páginas"
 
 #: lib/page-settings/appeal-forms.php:40
 #: lib/page-settings/carousel-forms.php:40
 #: lib/page-settings/recommended-forms.php:41
 msgid "フロントページのみで表示する"
-msgstr ""
+msgstr "Exibir apenas na página inicial"
 
 #: lib/page-settings/appeal-forms.php:41
 #: lib/page-settings/carousel-forms.php:41
 #: lib/page-settings/recommended-forms.php:42
 msgid "投稿・固定ページ以外で表示する"
-msgstr ""
+msgstr "Exibir em páginas que não sejam postagens/páginas fixas"
 
 #: lib/page-settings/appeal-forms.php:42
 #: lib/page-settings/carousel-forms.php:42
 #: lib/page-settings/recommended-forms.php:43
 msgid "投稿・固定ページのみで表示する"
-msgstr ""
+msgstr "Exibir apenas em postagens/páginas fixas"
 
 #: lib/page-settings/appeal-forms.php:43
 #: lib/page-settings/carousel-forms.php:43
 #: lib/page-settings/recommended-forms.php:44
 msgid "投稿ページのみで表示する"
-msgstr ""
+msgstr "Exibir apenas em postagens"
 
 #: lib/page-settings/appeal-forms.php:44
 #: lib/page-settings/carousel-forms.php:44
 #: lib/page-settings/recommended-forms.php:45
 msgid "固定ページのみで表示する"
-msgstr ""
+msgstr "Exibir apenas em páginas fixas"
 
 #: lib/page-settings/appeal-forms.php:47
 msgid "アピールエリアを表示するページを設定します。"
@@ -5632,7 +5632,7 @@ msgstr "Altura"
 
 #: lib/page-settings/appeal-forms.php:60
 msgid "アピールエリアの最低限の高さをpx数で指定します。モバイル環境では高さは無効になります。（最小：200px、最大：800px）"
-msgstr ""
+msgstr "Especifique a altura mínima da área de destaque em pixels. Em dispositivos móveis, a altura será desativada. (Mínimo: 200px, Máximo: 800px)"
 
 #: lib/page-settings/appeal-forms.php:68
 msgid "エリア画像"
@@ -5644,7 +5644,7 @@ msgstr "Defina uma imagem para exibir no fundo da área de anúncio."
 
 #: lib/page-settings/appeal-forms.php:76
 msgid "アピールエリアの背景画像を固定する"
-msgstr ""
+msgstr "Fixar a imagem de fundo da área de anúncio"
 
 #: lib/page-settings/appeal-forms.php:77
 msgid "アピールエリアに設定した背景画像を固定します。上下にスクロールしたときに背景画像が移動しなくなります。"
@@ -5983,7 +5983,7 @@ msgstr "Configura a página para exibir o carrossel."
 #: lib/page-settings/index-forms.php:212
 #: lib/page-settings/single-forms.php:249
 msgid "スマートフォンで表示する（480px以下）"
-msgstr ""
+msgstr "Exibir no smartphone (até 480 px)"
 
 #: lib/page-settings/carousel-forms.php:58
 msgid "表示内容"
@@ -5991,7 +5991,7 @@ msgstr "O que você vê"
 
 #: lib/page-settings/carousel-forms.php:63
 msgid "人気記事、カテゴリー、タグの順に優先され、いずれか一つが表示されます。"
-msgstr ""
+msgstr "Os artigos populares, categorias e tags são priorizados nesta ordem, exibindo apenas um deles."
 
 #: lib/page-settings/carousel-forms.php:68
 #: lib/widgets/popular-entries.php:201
@@ -6026,7 +6026,7 @@ msgstr "Incluir artigos populares agregados em"
 
 #: lib/page-settings/carousel-forms.php:76
 msgid "人気記事を選択すると、人気記事のみが優先して表示されます。"
-msgstr ""
+msgstr "Ao selecionar artigos populares, apenas os artigos populares serão exibidos com prioridade."
 
 #: lib/page-settings/carousel-forms.php:78
 #: lib/page-settings/single-forms.php:129
@@ -6041,11 +6041,11 @@ msgstr "Categoria"
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "カテゴリーを選択すると、カテゴリーに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "Ao selecionar uma categoria, apenas os artigos associados a essa categoria serão exibidos."
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "（※カテゴリー関連記事を表示させたい場合は、人気記事を選択しないでください）"
-msgstr ""
+msgstr "(※ Para exibir artigos relacionados à categoria, não selecione artigos populares)"
 
 #: lib/page-settings/carousel-forms.php:82
 #: lib/page-settings/editor-forms.php:83
@@ -6061,7 +6061,7 @@ msgstr "Tag"
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "タグを選択すると、タグに関連付けられた記事のみが表示されます。"
-msgstr ""
+msgstr "Ao selecionar uma tag, apenas os artigos associados a essa tag serão exibidos."
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "（※タグ関連記事を表示させたい場合は、人気記事・カテゴリーを選択しないでください）"
