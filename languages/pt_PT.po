@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2024-12-17T11:52:56+00:00\n"
-"PO-Revision-Date: 2024-12-17 12:13\n"
+"PO-Revision-Date: 2024-12-17 12:55\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2993,7 +2993,7 @@ msgstr "Digite sua tag de afiliado."
 #: lib/page-item-ranking/form.php:82
 #: lib/page-speech-balloon/form.php:141
 msgid "エディターのリストに表示する"
-msgstr ""
+msgstr "Exibir na lista do editor"
 
 #: lib/page-affiliate-tag/form.php:42
 #: lib/page-func-text/form.php:41
@@ -3960,7 +3960,7 @@ msgstr "Link para acessar o painel do Wordpress"
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクを表示する"
-msgstr ""
+msgstr "Exibir link de edição de postagem"
 
 #: lib/page-settings/admin-forms.php:204
 msgid "WordPress管理画面で投稿内容を編集するためのリンクです。"
@@ -3968,7 +3968,7 @@ msgstr "Este é o link para editar o conteúdo da postagem na tela de administra
 
 #: lib/page-settings/admin-forms.php:206
 msgid "WLW編集リンクを表示する"
-msgstr ""
+msgstr "Exibir link de edição do WLW"
 
 #: lib/page-settings/admin-forms.php:207
 msgid "Windows Live Writerで投稿内容を編集するためのリンクです。"
@@ -3988,7 +3988,7 @@ msgstr "Exibe a confirmação de operação AMP, links de teste, etc."
 
 #: lib/page-settings/admin-forms.php:226
 msgid "Google AMPテストを表示する"
-msgstr ""
+msgstr "Exibir teste Google AMP"
 
 #: lib/page-settings/admin-forms.php:227
 msgid "<a href=\"https://search.google.com/test/amp\" target=\"_blank\" rel=\"noopener\">AMP テスト - Google Search Console</a>でチェックするためのリンクの表示。"
@@ -3996,7 +3996,7 @@ msgstr "Exibir link para verificar no <a href=\"https://search.google.com/test/a
 
 #: lib/page-settings/admin-forms.php:229
 msgid "The AMP Validatorを表示する"
-msgstr ""
+msgstr "Exibir The AMP Validator"
 
 #: lib/page-settings/admin-forms.php:230
 msgid "<a href=\"https://validator.ampproject.org/#\" target=\"_blank\" rel=\"noopener\">The AMP Validator</a>でチェックするためのリンクの表示。"
@@ -6392,11 +6392,11 @@ msgstr "Operação de botão de alternância."
 
 #: lib/page-settings/comment-forms.php:79
 msgid "常に表示する"
-msgstr ""
+msgstr "Exibir sempre"
 
 #: lib/page-settings/comment-forms.php:80
 msgid "ボタンで表示を切り替える"
-msgstr ""
+msgstr "Alternar exibição com botão"
 
 #: lib/page-settings/comment-forms.php:83
 msgid "コメント入力欄の表示状態を設定します。"
@@ -8670,15 +8670,15 @@ msgstr "Data a ser exibida"
 
 #: lib/page-settings/seo-forms.php:155
 msgid "投稿日・更新日を表示する"
-msgstr ""
+msgstr "Exibir data de postagem e data de atualização"
 
 #: lib/page-settings/seo-forms.php:156
 msgid "投稿日のみを表示する"
-msgstr ""
+msgstr "Exibir apenas a data de postagem"
 
 #: lib/page-settings/seo-forms.php:157
 msgid "更新日のみを表示する"
-msgstr ""
+msgstr "Exibir apenas a data de atualização"
 
 #: lib/page-settings/seo-forms.php:161
 msgid "表示する日付形式を選択してください。表示する日付によって検索エンジンへの伝わり方が変わる可能性があります。"
@@ -9518,7 +9518,7 @@ msgstr "Exibir contagem de compartilhamentos"
 #: lib/page-settings/sns-share-forms-bottom.php:205
 #: lib/page-settings/sns-share-forms-top.php:195
 msgid "シェア数を表示する"
-msgstr ""
+msgstr "Exibir contagem de compartilhamentos"
 
 #: lib/page-settings/sns-share-forms-bottom.php:206
 msgid "ボトムシェアボタンのシェア数表示を切り替えます。"
@@ -11776,11 +11776,11 @@ msgstr "Exibição do widget"
 
 #: lib/widgets/display-widgets.php:127
 msgid "チェック・入力したページで非表示にする"
-msgstr ""
+msgstr "Ocultar nas páginas selecionadas/inseridas"
 
 #: lib/widgets/display-widgets.php:128
 msgid "チェック・入力したページで表示する"
-msgstr ""
+msgstr "Exibir nas páginas selecionadas/inseridas"
 
 #: lib/widgets/display-widgets.php:159
 msgid "ページ"
@@ -14399,7 +14399,7 @@ msgstr "Filtro"
 #: blocks/src/block/new-list/edit.js:227
 #: blocks/src/block/popular-list/edit.js:274
 msgid "全カテゴリーを表示する"
-msgstr ""
+msgstr "Exibir todas as categorias"
 
 #: blocks/src/block/info-list/index.js:30
 msgid "新着情報の一覧を表示します。"
@@ -14437,7 +14437,7 @@ msgstr "*Máximo de 10 itens exibidos"
 #: blocks/src/block/new-list/edit.js:96
 #: blocks/src/block/popular-list/edit.js:94
 msgid "子カテゴリーの内容を含めて表示する"
-msgstr ""
+msgstr "Incluir e exibir o conteúdo das subcategorias"
 
 #: blocks/src/block/new-list/edit.js:126
 #: blocks/src/block/popular-list/edit.js:198
@@ -14474,11 +14474,11 @@ msgstr "Pular artigos"
 
 #: blocks/src/block/new-list/edit.js:238
 msgid "全タグを表示する"
-msgstr ""
+msgstr "Exibir todas as tags"
 
 #: blocks/src/block/new-list/edit.js:247
 msgid "固定記事を表示する"
-msgstr ""
+msgstr "Exibir artigos fixos"
 
 #: blocks/src/block/new-list/edit.js:252
 #: blocks/src/block/popular-list/edit.js:286
@@ -14576,7 +14576,7 @@ msgstr "Máximo"
 
 #: blocks/src/block/radar/edit.js:327
 msgid "タイトルを表示する"
-msgstr ""
+msgstr "Exibir o título"
 
 #: blocks/src/block/radar/edit.js:336
 msgid "ここにタイトルを入力してください"
@@ -14584,7 +14584,7 @@ msgstr "Introduzir título aqui"
 
 #: blocks/src/block/radar/edit.js:340
 msgid "データ名を表示する"
-msgstr ""
+msgstr "Exibir nome dos dados"
 
 #: blocks/src/block/radar/edit.js:346
 msgid "データ名"
@@ -14620,19 +14620,19 @@ msgstr "1, 2, 3, 4, 5"
 
 #: blocks/src/block/radar/edit.js:378
 msgid "総計を表示する"
-msgstr ""
+msgstr "Exibir o total"
 
 #: blocks/src/block/radar/edit.js:383
 msgid "項目に値を表示する"
-msgstr ""
+msgstr "Exibir valores nos itens"
 
 #: blocks/src/block/radar/edit.js:388
 msgid "値が最大値を超えるのを許可する"
-msgstr ""
+msgstr "Permitir que o valor exceda o valor máximo"
 
 #: blocks/src/block/radar/edit.js:393
 msgid "アングルラインを表示する"
-msgstr ""
+msgstr "Exibir linha de ângulo"
 
 #: blocks/src/block/radar/index.js:25
 msgid "レーダーチャート"
