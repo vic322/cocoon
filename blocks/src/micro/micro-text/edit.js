@@ -63,6 +63,7 @@ export function MicroTextEdit( props ) {
                 label: __( '上寄り', THEME_NAME ),
               },
             ] }
+            __nextHasNoMarginBottom={ true }
           />
 
           <BaseControl label={ __( 'アイコン', THEME_NAME ) }>
@@ -88,6 +89,7 @@ export function MicroTextEdit( props ) {
 
         <PanelColorSettings
           title={ __( '色設定', THEME_NAME ) }
+          enableAlpha={true}
           colorSettings={ [
             {
               label: __( '文字色', THEME_NAME ),

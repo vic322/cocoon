@@ -107,7 +107,7 @@ export default function edit( props ) {
                 value: 'default',
               },
               {
-                label: __( 'カードの上下に区切り線を入れる', THEME_NAME ) + __( '（縦型表示のみ）', THEME_NAME ),
+                label: __( 'カードの上下に区切り線を入れる', THEME_NAME ) + __( '（縦並び表示のみ）', THEME_NAME ),
                 value: 'border_partition',
               },
               {
@@ -123,6 +123,7 @@ export default function edit( props ) {
                 value: 'large_thumb_on',
               },
             ] }
+            __nextHasNoMarginBottom={ true }
           />
           <Divider />
           <ToggleControl
@@ -158,6 +159,7 @@ export default function edit( props ) {
             } )
           }
           options={ options }
+          __nextHasNoMarginBottom={ true }
         />
         { getNavicardContent() }
       </div>

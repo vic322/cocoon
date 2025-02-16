@@ -217,6 +217,7 @@ export function BalloonEdit( props ) {
               } )
             }
             options={ balloons }
+            __nextHasNoMarginBottom={ true }
           />
 
           <SelectControl
@@ -241,6 +242,7 @@ export function BalloonEdit( props ) {
                 label: __( '考え事', THEME_NAME ),
               },
             ] }
+            __nextHasNoMarginBottom={ true }
           />
 
           <SelectControl
@@ -257,6 +259,7 @@ export function BalloonEdit( props ) {
                 label: __( '右', THEME_NAME ),
               },
             ] }
+            __nextHasNoMarginBottom={ true }
           />
 
           <SelectControl
@@ -281,6 +284,7 @@ export function BalloonEdit( props ) {
                 label: __( '丸（枠線あり）', THEME_NAME ),
               },
             ] }
+            __nextHasNoMarginBottom={ true }
           />
         </PanelBody>
 
@@ -346,7 +350,7 @@ export function BalloonEdit( props ) {
             [ fontSize.class ]: fontSize.class,
           } ) }
         >
-          <InnerBlocks placeholder={ __( 'セリフの入力', THEME_NAME ) } />
+          <InnerBlocks />
         </div>
       </div>
     </Fragment>

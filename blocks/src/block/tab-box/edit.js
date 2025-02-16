@@ -131,11 +131,13 @@ export function TabBoxEdit( props ) {
                 label: __( 'プロフィール', THEME_NAME ),
               },
             ] }
+            __nextHasNoMarginBottom={ true }
           />
         </PanelBody>
 
         <PanelColorSettings
           title={ __( '色設定', THEME_NAME ) }
+          enableAlpha={true}
           colorSettings={ [
             {
               label: __( 'ボーダー色', THEME_NAME ),

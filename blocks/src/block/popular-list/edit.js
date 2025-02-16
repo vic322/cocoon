@@ -67,7 +67,7 @@ export default function edit( props ) {
 
   // wp.coreから全カテゴリー情報の取得
   const categoryData = useSelect( ( select ) => {
-    return select( 'core' ).getEntityRecords( 'taxonomy', 'category' );
+    return select( 'core' ).getEntityRecords( 'taxonomy', 'category', { per_page: -1 } );
   } );
 
   // 可変コントロールの定義
@@ -180,6 +180,7 @@ export default function edit( props ) {
           value: "365",
         },
       ] }
+      __nextHasNoMarginBottom={ true }
     />
   );
   if ( showAllDays ) {
@@ -219,7 +220,7 @@ export default function edit( props ) {
                 value: 'default',
               },
               {
-                label: __( 'カードの上下に区切り線を入れる', THEME_NAME ) + __( '（縦型表示のみ）', THEME_NAME ),
+                label: __( 'カードの上下に区切り線を入れる', THEME_NAME ) + __( '（縦並び表示のみ）', THEME_NAME ),
                 value: 'border_partition',
               },
               {
@@ -235,6 +236,7 @@ export default function edit( props ) {
                 value: 'large_thumb_on',
               },
             ] }
+            __nextHasNoMarginBottom={ true }
           />
           <Divider />
           <ToggleControl
