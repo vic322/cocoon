@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-02-09T14:11:13+00:00\n"
-"PO-Revision-Date: 2025-02-16 07:12\n"
+"PO-Revision-Date: 2025-02-18 14:50\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -2182,6 +2182,10 @@ msgstr "Día"
 #: lib/dashboard-message.php:38
 msgid "Guidance on COVID-19:"
 msgstr "Guía sobre COVID-19:"
+
+#: lib/eyecatch.php:49
+msgid "Auto Draft"
+msgstr ""
 
 #: lib/eyecatch.php:445
 msgid "タイトルからアイキャッチを生成する"
