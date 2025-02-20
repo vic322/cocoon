@@ -1204,7 +1204,7 @@ msgstr "Detalles aquí"
 
 #: lib/admin-tinymce-qtag.php:1674
 #: tmp/css-custom.php:970
-#: tmp/css-custom.php:1014
+#: tmp/css-custom.php:1014#: lib/c
 #: blocks/src/block/blogcard/deprecated.js:89
 #: blocks/src/block/blogcard/edit.js:72
 #: blocks/src/old/blogcard-class/block.js:94
