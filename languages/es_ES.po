@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-02-20T11:35:37+00:00\n"
-"PO-Revision-Date: 2025-02-20 12:02\n"
+"PO-Revision-Date: 2025-02-20 13:13\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -13437,7 +13437,7 @@ msgstr "Seguir LINE@"
 
 #: skins/skin-made-in-heaven/lib/hook-cocoon.php:28
 msgid "%s件ヒット"
-msgstr ""
+msgstr "%s resultados encontrados"
 
 #: skins/skin-made-in-heaven/lib/hook-cocoon.php:41
 #: skins/skin-made-in-heaven/lib/panel-option.php:200
@@ -13467,7 +13467,7 @@ msgstr "Inicio"
 
 #: skins/skin-made-in-heaven/lib/hook-cocoon.php:116
 msgid "%s開設から%s日目です。"
-msgstr ""
+msgstr "%s ha estado abierto durante %s días."
 
 #: skins/skin-made-in-heaven/lib/hook-cocoon.php:388
 msgid "新着順"
@@ -13818,7 +13818,7 @@ msgstr "Aproximadamente 5:7"
 
 #: skins/skin-made-in-heaven/lib/panel-option.php:170
 msgid "サムネイル画像の比率（%s）に従う"
-msgstr ""
+msgstr "Seguir la proporción de la imagen en miniatura (%s)"
 
 #: skins/skin-made-in-heaven/lib/panel-option.php:187
 msgid "並び替え選択"
