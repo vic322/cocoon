@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-03-23T02:11:22+00:00\n"
-"PO-Revision-Date: 2025-03-23 02:18\n"
+"PO-Revision-Date: 2025-03-23 02:43\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -13049,15 +13049,15 @@ msgstr "当希望徽标与首页使用不同图像时进行设置。"
 
 #: skins/skin-grayish-topfull/functions.php:1604
 msgid "コンテンツ下部ウィジェット：プロフィール"
-msgstr ""
+msgstr "内容底部小工具：个人资料"
 
 #: skins/skin-grayish-topfull/functions.php:1607
 msgid "プロフィールの設定についてはこちらを参照"
-msgstr ""
+msgstr "有关个人资料的设置请参阅此处"
 
 #: skins/skin-grayish-topfull/functions.php:1620
 msgid "プロフィールの背景画像の白オーバーレイ不透明度調整"
-msgstr ""
+msgstr "调整个人资料背景图片的白色遮罩不透明度"
 
 #: skins/skin-grayish-topfull/functions.php:1621
 msgid "値が大きくなるほど白色が濃くなります。"
@@ -13073,7 +13073,7 @@ msgstr "上传图片"
 
 #: skins/skin-grayish-topfull/functions.php:1657
 msgid "プロフィールの背景に設定したい画像を選択"
-msgstr ""
+msgstr "选择要设置为个人资料背景的图片"
 
 #: skins/skin-grayish-topfull/functions.php:1740
 msgid "ヘッダー・フッターモバイルボタンの設定についてはこちらを参照"
