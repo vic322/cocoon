@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-03-23T02:11:22+00:00\n"
-"PO-Revision-Date: 2025-03-23 02:18\n"
+"PO-Revision-Date: 2025-03-23 02:43\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -13054,15 +13054,15 @@ msgstr "Defina esta opção se quiser usar uma imagem de logotipo diferente da p
 
 #: skins/skin-grayish-topfull/functions.php:1604
 msgid "コンテンツ下部ウィジェット：プロフィール"
-msgstr ""
+msgstr "Widget abaixo do conteúdo: Perfil"
 
 #: skins/skin-grayish-topfull/functions.php:1607
 msgid "プロフィールの設定についてはこちらを参照"
-msgstr ""
+msgstr "Consulte aqui para as configurações de perfil"
 
 #: skins/skin-grayish-topfull/functions.php:1620
 msgid "プロフィールの背景画像の白オーバーレイ不透明度調整"
-msgstr ""
+msgstr "Ajuste da opacidade da sobreposição branca na imagem de fundo do perfil"
 
 #: skins/skin-grayish-topfull/functions.php:1621
 msgid "値が大きくなるほど白色が濃くなります。"
@@ -13078,7 +13078,7 @@ msgstr "Carregar imagem"
 
 #: skins/skin-grayish-topfull/functions.php:1657
 msgid "プロフィールの背景に設定したい画像を選択"
-msgstr ""
+msgstr "Selecionar a imagem que deseja definir como fundo do perfil"
 
 #: skins/skin-grayish-topfull/functions.php:1740
 msgid "ヘッダー・フッターモバイルボタンの設定についてはこちらを参照"
