@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2025-05-24T15:07:10+00:00\n"
-"PO-Revision-Date: 2025-05-24 15:08\n"
+"PO-Revision-Date: 2025-05-24 15:14\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -3508,7 +3508,7 @@ msgstr "Enter the URL for the link to the details page."
 
 #: lib/page-item-ranking/form.php:176
 msgid "公式ページURL"
-msgstr ""
+msgstr "Official page URL"
 
 #: lib/page-item-ranking/form.php:179
 msgid "公式ページ等のURLを入力してください。「リンクタグ」と双方入力されている場合はこちらが優先されます。"
@@ -13758,7 +13758,7 @@ msgstr "Round label"
 
 #: skins/skin-made-in-heaven/lib/panel-editor.php:166
 msgid "ボーダーカラー"
-msgstr ""
+msgstr "Border color"
 
 #: skins/skin-made-in-heaven/lib/panel-main.php:16
 msgid "拡張"
