@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2026-07-08T05:28:17+00:00\n"
-"PO-Revision-Date: 2026-07-08 05:37\n"
+"PO-Revision-Date: 2026-07-08 07:13\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -10695,7 +10695,7 @@ msgstr "Cabeçalho"
 
 #: lib/page-settings/_top-page.php:185
 msgid "OGP"
-msgstr ""
+msgstr "OGP"
 
 #: lib/page-settings/_top-page.php:188
 msgid "アクセス解析・認証"
@@ -10755,7 +10755,7 @@ msgstr "Móvel"
 
 #: lib/page-settings/_top-page.php:257
 msgid "PWA"
-msgstr ""
+msgstr "PWA"
 
 #: lib/page-settings/_top-page.php:261
 msgid "管理者画面"
@@ -10772,7 +10772,7 @@ msgstr "Editor"
 
 #: lib/page-settings/_top-page.php:273
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: lib/page-settings/_top-page.php:282
 msgid "テーマ情報"
@@ -10928,7 +10928,7 @@ msgstr "Especifica a forma e a borda do ícone."
 
 #: lib/page-speech-balloon/form.php:137
 msgid "TinyMCE"
-msgstr ""
+msgstr "TinyMCE"
 
 #: lib/page-speech-balloon/form.php:155
 msgid "ブロックエディターの「吹き出しブロック」で利用後、設定を変更すると、ブロックエディター上で再編集できなくなります。"
@@ -11844,7 +11844,7 @@ msgstr "Autor"
 
 #: lib/tinymce/shortcodes.php:105
 msgid "ASIN"
-msgstr ""
+msgstr "ASIN"
 
 #: lib/tinymce/shortcodes.php:111
 #: blocks/src/block/amazon-product-link/edit.js:246
@@ -12340,7 +12340,7 @@ msgstr "Adicionar parágrafos automaticamente"
 #: lib/widgets/cta-box.php:19
 #: blocks/src/block/cta/index.js:21
 msgid "CTA"
-msgstr ""
+msgstr "CTA"
 
 #: lib/widgets/cta-box.php:20
 msgid "コール・トゥ・アクションで訪問者にとってもらいたい行動を促すウィジェットです。"
@@ -12915,7 +12915,7 @@ msgstr "A página que você estava procurando não pôde ser encontrada."
 
 #: lib/_defins.php:410
 msgid "Y.m.d"
-msgstr ""
+msgstr "Y.m.d"
 
 #: lib/_defins.php:413
 msgid "コメントをどうぞ"
@@ -13324,7 +13324,7 @@ msgstr "Selecione se deseja sobrepor pontos brancos sobre o visual principal. Re
 #: skins/skin-grayish-topfull/functions.php:1823
 #: skins/skin-grayish-topfull/functions.php:1846
 msgid "ON"
-msgstr ""
+msgstr "ON"
 
 #: skins/skin-grayish-topfull/functions.php:771
 #: skins/skin-grayish-topfull/functions.php:793
@@ -13333,7 +13333,7 @@ msgstr ""
 #: skins/skin-grayish-topfull/functions.php:1824
 #: skins/skin-grayish-topfull/functions.php:1847
 msgid "OFF"
-msgstr ""
+msgstr "OFF"
 
 #: skins/skin-grayish-topfull/functions.php:787
 msgid "メインビジュアル 白オーバーレイの不透明度調整"
@@ -13569,7 +13569,7 @@ msgstr "Se deixado em branco, \"Próximo\" será exibido."
 #: skins/skin-grayish-topfull/functions.php:1596
 #: skins/skin-grayish-topfull/functions.php:1598
 msgid "Home"
-msgstr ""
+msgstr "Home"
 
 #: skins/skin-grayish-topfull/functions.php:1307
 msgid "【投稿・固定ページ】パンくずリスト \"Home\"を変更"
@@ -14067,7 +14067,7 @@ msgstr "Logout"
 #: skins/skin-made-in-heaven/lib/hook-wp.php:56
 #: skins/skin-made-in-heaven/lib/hook-wp.php:79
 msgid "Slug"
-msgstr ""
+msgstr "Slug"
 
 #: skins/skin-made-in-heaven/lib/hook-wp.php:301
 msgid "ミニ"
@@ -14276,7 +14276,7 @@ msgstr "Cabeçalho (dentro da borda)"
 #: skins/skin-made-in-heaven/lib/panel-editor.php:146
 #: blocks/src/block/faq/index.js:20
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: skins/skin-made-in-heaven/lib/panel-editor.php:150
 msgid "標準"
@@ -14571,19 +14571,19 @@ msgstr "Opacidade (valor de opacidade %d–%d%%)"
 
 #: skins/skin-made-in-heaven/tmp/css-custom.php:13
 msgid "過去の投稿"
-msgstr ""
+msgstr "Postagens anteriores"
 
 #: skins/skin-made-in-heaven/tmp/css-custom.php:14
 msgid "新しい投稿"
-msgstr ""
+msgstr "Novas postagens"
 
 #: skins/skin-made-in-heaven/tmp/css-custom.php:15
 msgid "スクロールできます→"
-msgstr ""
+msgstr "Pode rolar →"
 
 #: skins/skin-made-in-heaven/tmp/css-custom.php:16
 msgid "お勧め"
-msgstr ""
+msgstr "Recomendado"
 
 #: skins/skin-made-in-heaven/tmp/list-category-columns.php:30
 msgid "更新記事"
@@ -14611,15 +14611,15 @@ msgstr "Para a página AMP"
 
 #: tmp/admin-panel.php:71
 msgid "PageSpeed Insights"
-msgstr ""
+msgstr "PageSpeed Insights"
 
 #: tmp/admin-panel.php:74
 msgid "GTmetrix"
-msgstr ""
+msgstr "GTmetrix"
 
 #: tmp/admin-panel.php:80
 msgid "HTML5"
-msgstr ""
+msgstr "HTML5"
 
 #: tmp/admin-panel.php:83
 msgid "SEOチェキ"
@@ -14631,15 +14631,15 @@ msgstr "Pesquisar tweets"
 
 #: tmp/admin-panel.php:98
 msgid "Responsinator"
-msgstr ""
+msgstr "Responsinator"
 
 #: tmp/admin-panel.php:101
 msgid "Sizzy"
-msgstr ""
+msgstr "Sizzy"
 
 #: tmp/admin-panel.php:105
 msgid "ScreenResolution"
-msgstr ""
+msgstr "ScreenResolution"
 
 #: tmp/admin-pv.php:22
 msgid "本日:"
@@ -14712,7 +14712,7 @@ msgstr "Este artigo pode ser lido em <span class=\"bold\">aproximadamente %s min
 
 #: tmp/css-custom.php:954
 msgid "ラベルなし"
-msgstr ""
+msgstr "Sem etiqueta"
 
 #: tmp/date-tags.php:18
 msgid "通常ページへ"
@@ -14811,7 +14811,7 @@ msgstr "Compartilhar no X"
 
 #: tmp/sns-share-buttons.php:17
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodonでシェア"
@@ -14855,7 +14855,7 @@ msgstr "Compartilhar no LINE"
 
 #: tmp/sns-share-buttons.php:53
 msgid "LINE"
-msgstr ""
+msgstr "LINE"
 
 #: tmp/sns-share-buttons.php:57
 msgid "Pinterestでシェア"
@@ -14903,140 +14903,140 @@ msgstr ""
 
 #: blocks/src/block-extension/style-extension/border01.js:46
 msgid "実線"
-msgstr ""
+msgstr "Linha sólida"
 
 #: blocks/src/block-extension/style-extension/border01.js:50
 msgid "二重線"
-msgstr ""
+msgstr "Linhas duplas"
 
 #: blocks/src/block-extension/style-extension/border01.js:54
 msgid "破線"
-msgstr ""
+msgstr "Linhas tracejadas"
 
 #: blocks/src/block-extension/style-extension/border01.js:58
 msgid "点線"
-msgstr ""
+msgstr "Linhas pontilhadas"
 
 #: blocks/src/block-extension/style-extension/border01.js:62
 msgid "薄太"
-msgstr ""
+msgstr "Fino e grosso"
 
 #: blocks/src/block-extension/style-extension/border01.js:66
 msgid "微凸"
-msgstr ""
+msgstr "Ligeiramente convexo"
 
 #: blocks/src/block-extension/style-extension/border01.js:70
 msgid "実線(角丸小)"
-msgstr ""
+msgstr "Linha sólida (pequenos cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:74
 msgid "二重線(角丸小)"
-msgstr ""
+msgstr "Linhas duplas (pequenos cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:78
 msgid "破線(角丸小)"
-msgstr ""
+msgstr "Linhas tracejadas (pequenos cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:82
 msgid "点線(角丸小)"
-msgstr ""
+msgstr "Linhas pontilhadas (pequenos cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:86
 msgid "薄太(角丸小)"
-msgstr ""
+msgstr "Fino e grosso (pequenos cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:90
 msgid "微凸(角丸小)"
-msgstr ""
+msgstr "Ligeiramente convexo (pequenos cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:94
 msgid "実線(角丸大)"
-msgstr ""
+msgstr "Linha sólida (grandes cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:98
 msgid "二重線(角丸大)"
-msgstr ""
+msgstr "Linhas duplas (grandes cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:102
 msgid "破線(角丸大)"
-msgstr ""
+msgstr "Linhas tracejadas (grandes cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:106
 msgid "点線(角丸大)"
-msgstr ""
+msgstr "Linhas pontilhadas (grandes cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:110
 msgid "薄太(角丸大)"
-msgstr ""
+msgstr "Fino e grosso (grandes cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:114
 msgid "微凸(角丸大)"
-msgstr ""
+msgstr "Ligeiramente convexo (grandes cantos arredondados)"
 
 #: blocks/src/block-extension/style-extension/border01.js:118
 msgid "白抜き灰"
-msgstr ""
+msgstr "Contorno cinza"
 
 #: blocks/src/block-extension/style-extension/border01.js:122
 msgid "白抜き赤"
-msgstr ""
+msgstr "Contorno vermelho"
 
 #: blocks/src/block-extension/style-extension/border01.js:126
 msgid "白抜きピンク"
-msgstr ""
+msgstr "Contorno rosa"
 
 #: blocks/src/block-extension/style-extension/border01.js:130
 msgid "白抜き紺"
-msgstr ""
+msgstr "Contorno azul marinho"
 
 #: blocks/src/block-extension/style-extension/border01.js:134
 msgid "白抜き青"
-msgstr ""
+msgstr "Contorno azul"
 
 #: blocks/src/block-extension/style-extension/border01.js:138
 msgid "白抜き紫"
-msgstr ""
+msgstr "Contorno roxo"
 
 #: blocks/src/block-extension/style-extension/border01.js:142
 msgid "白抜きオレンジ"
-msgstr ""
+msgstr "Contorno laranja"
 
 #: blocks/src/block-extension/style-extension/border01.js:146
 msgid "白抜き黄"
-msgstr ""
+msgstr "Contorno amarelo"
 
 #: blocks/src/block-extension/style-extension/border01.js:150
 msgid "白抜き緑"
-msgstr ""
+msgstr "Contorno verde"
 
 #: blocks/src/block-extension/style-extension/border01.js:161
 msgid "[C] ボーダー"
-msgstr ""
+msgstr "[C] Borda"
 
 #: blocks/src/block-extension/style-extension/border01.js:171
 #: blocks/src/block-extension/style-extension/border01.js:234
 msgid "ボーダーをクリア"
-msgstr ""
+msgstr "Limpar borda"
 
 #: blocks/src/block-extension/style-extension/margin.js:51
 msgid "ブロック下余白"
-msgstr ""
+msgstr "Margem inferior do bloco"
 
 #: blocks/src/block-extension/style-extension/margin.js:53
 msgid "[C] ブロック下余白"
-msgstr ""
+msgstr "[C] Margem inferior do bloco"
 
 #: blocks/src/block-extension/style-extension/margin.js:62
 msgid "文字高の"
-msgstr ""
+msgstr "Configuração de margem de"
 
 #: blocks/src/block-extension/style-extension/margin.js:64
 msgid "倍の余白設定"
-msgstr ""
+msgstr "vezes a altura do texto."
 
 #: blocks/src/block-extension/style-extension/margin.js:92
 msgid "余白をクリア"
-msgstr ""
+msgstr "Limpar margem"
 
 #: blocks/src/block-extension/style-extension/margin.js:109
 msgid "※WordPress標準のマージンボトム設定よりこちらが優先されます。"
@@ -15044,80 +15044,80 @@ msgstr ""
 
 #: blocks/src/block-extension/style-extension/style01.js:46
 msgid "薄背景"
-msgstr ""
+msgstr "Fundo cinza claro"
 
 #: blocks/src/block-extension/style-extension/style01.js:54
 msgid "方眼紙"
-msgstr ""
+msgstr "Papel quadriculado"
 
 #: blocks/src/block-extension/style-extension/style01.js:62
 msgid "ステッチ"
-msgstr ""
+msgstr "Costura"
 
 #: blocks/src/block-extension/style-extension/style01.js:66
 msgid "かぎ括弧"
-msgstr ""
+msgstr "Aspas"
 
 #: blocks/src/block-extension/style-extension/style01.js:70
 msgid "角括弧"
-msgstr ""
+msgstr "Colchetes"
 
 #: blocks/src/block-extension/style-extension/style01.js:78
 msgid "ずれた二重線"
-msgstr ""
+msgstr "Linha dupla divergente"
 
 #: blocks/src/block-extension/style-extension/style01.js:82
 msgid "角三角"
-msgstr ""
+msgstr "Triângulos nos cantos"
 
 #: blocks/src/block-extension/style-extension/style01.js:86
 msgid "クリップ"
-msgstr ""
+msgstr "Clipes"
 
 #: blocks/src/block-extension/style-extension/style01.js:90
 msgid "ホチキス"
-msgstr ""
+msgstr "Grampeador"
 
 #: blocks/src/block-extension/style-extension/style01.js:94
 msgid "ホチキス左上"
-msgstr ""
+msgstr "Grampeador no canto superior esquerdo"
 
 #: blocks/src/block-extension/style-extension/style01.js:98
 msgid "穴あけパンチ"
-msgstr ""
+msgstr "Furador de papel"
 
 #: blocks/src/block-extension/style-extension/style01.js:102
 msgid "手書き風"
-msgstr ""
+msgstr "Estilo manuscrito"
 
 #: blocks/src/block-extension/style-extension/style01.js:114
 msgid "左吹き出し"
-msgstr ""
+msgstr "Balão de fala à esquerda"
 
 #: blocks/src/block-extension/style-extension/style01.js:118
 msgid "右吹き出し"
-msgstr ""
+msgstr "Balão de fala à direita"
 
 #: blocks/src/block-extension/style-extension/style01.js:122
 msgid "上吹き出し"
-msgstr ""
+msgstr "Balão de fala superior"
 
 #: blocks/src/block-extension/style-extension/style01.js:126
 msgid "下吹き出し"
-msgstr ""
+msgstr "Balão de fala inferior"
 
 #: blocks/src/block-extension/style-extension/style01.js:130
 #: blocks/src/block-extension/style-extension/style02.js:82
 msgid "情報"
-msgstr ""
+msgstr "Informação"
 
 #: blocks/src/block-extension/style-extension/style01.js:134
 msgid "質問"
-msgstr ""
+msgstr "Pergunta"
 
 #: blocks/src/block-extension/style-extension/style01.js:138
 msgid "アラート"
-msgstr ""
+msgstr "Alerta"
 
 #: blocks/src/block-extension/style-extension/style01.js:170
 msgid "プライマリー"
@@ -17044,7 +17044,7 @@ msgstr "Tachado (correção)"
 #: blocks/src/block-universal/tab-caption-box/block.json
 msgctxt "block keyword"
 msgid "caption"
-msgstr ""
+msgstr "caption"
 
 #: blocks/src/block-universal/caption-box/block.json
 #: blocks/src/block-universal/label-box/block.json
@@ -17066,24 +17066,24 @@ msgstr ""
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "box"
-msgstr ""
+msgstr "box"
 
 #: blocks/src/block-universal/label-box/block.json
 msgctxt "block keyword"
 msgid "label"
-msgstr ""
+msgstr "label"
 
 #: blocks/src/block-universal/tab-caption-box/block.json
 #: blocks/src/block/tab-box/block.json
 #: blocks/src/block/tab/block.json
 msgctxt "block keyword"
 msgid "tab"
-msgstr ""
+msgstr "tab"
 
 #: blocks/src/block/ad/block.json
 msgctxt "block keyword"
 msgid "ad"
-msgstr ""
+msgstr "ad"
 
 #: blocks/src/block/amazon-product-link/block.json
 msgctxt "block title"
@@ -17099,40 +17099,40 @@ msgstr "Pesquise e selecione produtos da Amazon no editor e insira um link de pr
 #: blocks/src/micro/micro-balloon/block.json
 msgctxt "block keyword"
 msgid "balloon"
-msgstr ""
+msgstr "balloon"
 
 #: blocks/src/block/blank-box/block.json
 msgctxt "block keyword"
 msgid "blank"
-msgstr ""
+msgstr "blank"
 
 #: blocks/src/block/blogcard/block.json
 msgctxt "block keyword"
 msgid "blogcard"
-msgstr ""
+msgstr "blogcard"
 
 #: blocks/src/block/blogcard/block.json
 #: blocks/src/block/button-wrap/block.json
 msgctxt "block keyword"
 msgid "wrap"
-msgstr ""
+msgstr "wrap"
 
 #: blocks/src/block/box-menu/block.json
 msgctxt "block keyword"
 msgid "box-menu"
-msgstr ""
+msgstr "box-menu"
 
 #: blocks/src/block/button-wrap/block.json
 #: blocks/src/block/button/block.json
 msgctxt "block keyword"
 msgid "button"
-msgstr ""
+msgstr "button"
 
 #: blocks/src/block/button-wrap/block.json
 #: blocks/src/block/button/block.json
 msgctxt "block keyword"
 msgid "btn"
-msgstr ""
+msgstr "btn"
 
 #: blocks/src/block/campaign/block.json
 msgctxt "block title"
@@ -17162,23 +17162,23 @@ msgstr "período"
 #: blocks/src/block/comparison-box/block.json
 msgctxt "block keyword"
 msgid "comparison"
-msgstr ""
+msgstr "comparison"
 
 #: blocks/src/block/cta/block.json
 msgctxt "block keyword"
 msgid "cta"
-msgstr ""
+msgstr "cta"
 
 #: blocks/src/block/faq/block.json
 msgctxt "block keyword"
 msgid "faq"
-msgstr ""
+msgstr "faq"
 
 #: blocks/src/block/icon-box/block.json
 #: blocks/src/block/icon-list/block.json
 msgctxt "block keyword"
 msgid "icon"
-msgstr ""
+msgstr "icon"
 
 #: blocks/src/block/icon-list/block.json
 #: blocks/src/block/info-list/block.json
@@ -17186,13 +17186,13 @@ msgstr ""
 #: blocks/src/block/popular-list/block.json
 msgctxt "block keyword"
 msgid "list"
-msgstr ""
+msgstr "list"
 
 #: blocks/src/block/info-box/block.json
 #: blocks/src/block/info-list/block.json
 msgctxt "block keyword"
 msgid "info"
-msgstr ""
+msgstr "info"
 
 #: blocks/src/block/login-user-only/block.json
 msgctxt "block title"
@@ -17232,42 +17232,42 @@ msgstr "membro"
 #: blocks/src/block/navicard/block.json
 msgctxt "block keyword"
 msgid "navi"
-msgstr ""
+msgstr "navi"
 
 #: blocks/src/block/navicard/block.json
 msgctxt "block keyword"
 msgid "card"
-msgstr ""
+msgstr "card"
 
 #: blocks/src/block/new-list/block.json
 msgctxt "block keyword"
 msgid "new"
-msgstr ""
+msgstr "new"
 
 #: blocks/src/block/popular-list/block.json
 msgctxt "block keyword"
 msgid "popular"
-msgstr ""
+msgstr "popular"
 
 #: blocks/src/block/profile/block.json
 msgctxt "block keyword"
 msgid "profile"
-msgstr ""
+msgstr "profile"
 
 #: blocks/src/block/profile/block.json
 msgctxt "block keyword"
 msgid "author"
-msgstr ""
+msgstr "author"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "radar"
-msgstr ""
+msgstr "radar"
 
 #: blocks/src/block/radar/block.json
 msgctxt "block keyword"
 msgid "chart"
-msgstr ""
+msgstr "chart"
 
 #: blocks/src/block/rakuten-product-link/block.json
 msgctxt "block title"
@@ -17282,32 +17282,32 @@ msgstr "Pesquise e selecione produtos do Rakuten no editor e insira uma hiperlig
 #: blocks/src/block/ranking/block.json
 msgctxt "block keyword"
 msgid "ranking"
-msgstr ""
+msgstr "ranking"
 
 #: blocks/src/block/search-box/block.json
 msgctxt "block keyword"
 msgid "search"
-msgstr ""
+msgstr "search"
 
 #: blocks/src/block/sticky-box/block.json
 msgctxt "block keyword"
 msgid "sticky"
-msgstr ""
+msgstr "sticky"
 
 #: blocks/src/block/template/block.json
 msgctxt "block keyword"
 msgid "template"
-msgstr ""
+msgstr "template"
 
 #: blocks/src/block/timeline/block.json
 msgctxt "block keyword"
 msgid "timeline"
-msgstr ""
+msgstr "timeline"
 
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "toggle"
-msgstr ""
+msgstr "toggle"
 
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
@@ -17318,16 +17318,16 @@ msgstr "acordeão"
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "micro"
-msgstr ""
+msgstr "micro"
 
 #: blocks/src/micro/micro-balloon/block.json
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "copy"
-msgstr ""
+msgstr "copy"
 
 #: blocks/src/micro/micro-text/block.json
 msgctxt "block keyword"
 msgid "text"
-msgstr ""
+msgstr "text"
 
