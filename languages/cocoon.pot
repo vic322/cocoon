@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-13T01:53:40+00:00\n"
+"POT-Creation-Date: 2026-07-13T20:54:27+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -3088,7 +3088,7 @@ msgstr ""
 #: lib/widgets/mobile-text.php:73
 #: lib/widgets/navi-entries.php:101
 #: lib/widgets/pc-text.php:72
-#: lib/widgets/recent-comments.php:131
+#: lib/widgets/recent-comments.php:113
 #: lib/widgets/recommended-cards.php:87
 #: lib/widgets/sns-follow-buttons.php:56
 #: lib/widgets/toc.php:83
@@ -11943,59 +11943,59 @@ msgstr ""
 msgid "記事を公開してもよろしいですか？"
 msgstr ""
 
-#: lib/utils.php:2520
+#: lib/utils.php:2523
 msgid "Cocoon："
 msgstr ""
 
-#: lib/utils.php:2521
+#: lib/utils.php:2524
 msgid "「ホームページの表示」が「固定ページ」になっていますが、表示するページが選択されていません。このままでは設定が正常に反映されない場合があります。"
 msgstr ""
 
-#: lib/utils.php:2523
+#: lib/utils.php:2526
 msgid "表示設定を開く"
 msgstr ""
 
-#: lib/utils.php:2647
+#: lib/utils.php:2650
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2655
+#: lib/utils.php:2658
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2663
+#: lib/utils.php:2666
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2671
+#: lib/utils.php:2674
 #, php-format
 msgid "%s週間"
 msgid_plural "%s週間"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2679
+#: lib/utils.php:2682
 #, php-format
 msgid "%sヶ月"
 msgid_plural "%sヶ月"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2690
+#: lib/utils.php:2693
 #, php-format
 msgid "%s年"
 msgstr ""
 
-#: lib/utils.php:2692
+#: lib/utils.php:2695
 #, php-format
 msgid "%s年%sヶ月"
 msgstr ""
@@ -12738,8 +12738,8 @@ msgid "PV数を表示する"
 msgstr ""
 
 #: lib/widgets/recent-comments.php:19
-#: lib/widgets/recent-comments.php:117
-#: lib/widgets/recent-comments.php:123
+#: lib/widgets/recent-comments.php:99
+#: lib/widgets/recent-comments.php:105
 msgid "最近のコメント"
 msgstr ""
 
@@ -12747,23 +12747,23 @@ msgstr ""
 msgid "最近投稿されたコメントを表示するウィジェットです。"
 msgstr ""
 
-#: lib/widgets/recent-comments.php:94
+#: lib/widgets/recent-comments.php:76
 msgid "コメントなし"
 msgstr ""
 
-#: lib/widgets/recent-comments.php:138
+#: lib/widgets/recent-comments.php:120
 msgid "表示するコメント数"
 msgstr ""
 
-#: lib/widgets/recent-comments.php:145
+#: lib/widgets/recent-comments.php:127
 msgid "コメント文字数"
 msgstr ""
 
-#: lib/widgets/recent-comments.php:152
+#: lib/widgets/recent-comments.php:134
 msgid "管理者の除外"
 msgstr ""
 
-#: lib/widgets/recent-comments.php:154
+#: lib/widgets/recent-comments.php:136
 msgid "管理者のコメントを表示しない"
 msgstr ""
 
