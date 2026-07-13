@@ -9,8 +9,10 @@ GitHub Actions ワークフローの解説である。開発関連（PHPUnit 等
 | `sync-upstream.yml` | **フォークのみ**（`automation` ブランチ） | upstream 同期 + POT 再生成（l10n関連） |
 | `l10n-build-pr.yml` | **フォークのみ**（`automation` ブランチ） | 翻訳コンパイル + 還元PR（l10n関連） |
 | `pot_generator.yml` | 本体 | POT 再生成（本体 PR #371 で push トリガー化） |
-| `po_to_mo.yml` / `po_to_json.yml` | 本体 | 旧・手動翻訳コンパイル（l10n-build-pr に統合済み） |
 | `phpunit.yml` | 本体 | ユニットテスト |
+
+旧・手動翻訳コンパイルの `po_to_mo.yml` / `po_to_json.yml` は l10n-build-pr に統合されたため
+削除した（本体は PR #373）。
 
 ## l10n関連（翻訳自動化パイプライン）
 
