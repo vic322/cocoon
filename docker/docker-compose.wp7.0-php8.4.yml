@@ -1,0 +1,111 @@
+services:
+  # 権限修正用初期化コンテナ
+  init-permissions-70-php84:
+    image: wordpress:7.0-php8.4-apache
+    user: "root"
+    command: |
+      sh -c "
+      chown -R www-data:www-data /var/www/html/wp-content/uploads &&
+      chmod -R 755 /var/www/html/wp-content/uploads &&
+      mkdir -p /var/www/html/wp-content/uploads/cocoon-resources/css-cache &&
+      chown -R www-data:www-data /var/www/html/wp-content/uploads/cocoon-resources &&
+      chmod -R 755 /var/www/html/wp-content/uploads/cocoon-resources
+      "
+    volumes:
+      - uploads_70_php84:/var/www/html/wp-content/uploads
+    networks:
+      cocoon-70-php84-network:
+        ipv4_address: 192.168.110.5
+
+  # WordPress 7.0 + PHP 8.4 サービス
+  wordpress-7-0-php84:
+    image: wordpress:7.0-php8.4-apache
+    container_name: cocoon-wordpress-7-0-php84
+    restart: unless-stopped
+    user: "33:33"  # www-data user
+    ports:
+      - "8090:80"
+    environment:
+      WORDPRESS_DB_HOST: mysql-7-0-php84:3306
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME:-wordpress_70_php84}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER:-wordpress}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wordpress}
+      WORDPRESS_TABLE_PREFIX: ${WORDPRESS_TABLE_PREFIX:-wp_}
+      WORDPRESS_DEBUG: ${WORDPRESS_DEBUG:-true}
+      # Apache設定
+      APACHE_RUN_USER: www-data
+      APACHE_RUN_GROUP: www-data
+    volumes:
+      # Cocoonテーマを WordPress テーマディレクトリにマウント
+      - ..:/var/www/html/wp-content/themes/cocoon
+      # WordPress データの永続化
+      - wordpress_70_php84_data:/var/www/html
+      # アップロードディレクトリ（書き込み権限が必要）
+      - uploads_70_php84:/var/www/html/wp-content/uploads
+    depends_on:
+      mysql-7-0-php84:
+        condition: service_healthy
+      init-permissions-70-php84:
+        condition: service_completed_successfully
+    networks:
+      cocoon-70-php84-network:
+        ipv4_address: 192.168.110.10
+
+  # MySQL データベース (WordPress 7.0 + PHP 8.4用)
+  mysql-7-0-php84:
+    image: mysql:8.0
+    container_name: cocoon-mysql-7-0-php84
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${WORDPRESS_DB_NAME:-wordpress_70_php84}
+      MYSQL_USER: ${WORDPRESS_DB_USER:-wordpress}
+      MYSQL_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wordpress}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+    volumes:
+      - mysql_70_php84_data:/var/lib/mysql
+      # 本番用DBに加えて統合テスト用DB(wordpress_test)を初期化時に作成
+      - ./mysql-init-wp7.0-php8.4:/docker-entrypoint-initdb.d
+    ports:
+      - "3090:3306"
+    networks:
+      cocoon-70-php84-network:
+        ipv4_address: 192.168.110.20
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "wordpress", "--password=wordpress"]
+      timeout: 20s
+      retries: 10
+
+  # phpMyAdmin (WordPress 7.0 + PHP 8.4用)
+  phpmyadmin-7-0-php84:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: cocoon-phpmyadmin-7-0-php84
+    restart: unless-stopped
+    ports:
+      - "8190:80"
+    environment:
+      PMA_HOST: mysql-7-0-php84
+      PMA_PORT: 3306
+      PMA_USER: ${WORDPRESS_DB_USER:-wordpress}
+      PMA_PASSWORD: ${WORDPRESS_DB_PASSWORD:-wordpress}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-rootpassword}
+    depends_on:
+      - mysql-7-0-php84
+    networks:
+      cocoon-70-php84-network:
+        ipv4_address: 192.168.110.30
+
+volumes:
+  wordpress_70_php84_data:
+    driver: local
+  mysql_70_php84_data:
+    driver: local
+  uploads_70_php84:
+    driver: local
+
+networks:
+  cocoon-70-php84-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 192.168.110.0/24
+          gateway: 192.168.110.1
