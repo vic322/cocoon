@@ -98,8 +98,12 @@ jobs:
           extensions: mbstring, intl, json, mysqli, pdo_mysql
           tools: composer:v2
 
-      - name: Install dependencies
-        run: composer install --prefer-dist --no-progress
+      # 統合レーン専用ツールチェーン（PHPUnit 9.6 + yoast/phpunit-polyfills ^1.1）。
+      # WordPress 7.0 テストスイートは PHPUnit 10 で削除された
+      # parseTestMethodAnnotations() を使うため、テーマ本体の PHPUnit ^11 とは
+      # 分離した composer manifest からインストールする。
+      - name: Install integration test toolchain (PHPUnit 9.6 + polyfills)
+        run: composer install --working-dir=tests/integration-tooling --prefer-dist --no-progress
 
       - name: Install WordPress test suite
         run: |
@@ -153,6 +157,8 @@ jobs:
           define('WP_TESTS_TITLE', 'Test Blog');
           define('WP_PHP_BINARY', 'php');
           define('WPLANG', '');
+          // 統合ツールチェーンの polyfills を WP テストスイートに明示（読込順に依存しない）
+          define('WP_TESTS_PHPUNIT_POLYFILLS_PATH', '$GITHUB_WORKSPACE/tests/integration-tooling/vendor/yoast/phpunit-polyfills');
           EOF
 
           # テーマをWordPressにシンボリックリンク
@@ -164,4 +170,4 @@ jobs:
       - name: Run integration tests
         env:
           WP_TESTS_DIR: /tmp/wordpress-tests-lib
-        run: vendor/bin/phpunit --testsuite integration --colors=always
+        run: tests/integration-tooling/vendor/bin/phpunit -c phpunit-integration.xml.dist --colors=always
