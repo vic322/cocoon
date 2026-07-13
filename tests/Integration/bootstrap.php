@@ -48,8 +48,30 @@ if (!$_tests_dir) {
     exit(1);
 }
 
-// Composer オートローダー
-require_once dirname(__DIR__, 2) . '/vendor/autoload.php';
+// Composer オートローダー（統合レーン専用ツールチェーン: PHPUnit 9.6 + polyfills）
+//
+// ユニットレーンのテーマ vendor は PHPUnit 11 だが、WordPress 7.0 テストスイートは
+// PHPUnit 10 で削除された parseTestMethodAnnotations() を使うため 9.x が必須。
+// ここでテーマ vendor（PHPUnit 11）を読み込むと 9.6 実行系とクラスが混在して fatal に
+// なるため、統合レーンは tests/integration-tooling/vendor（PHPUnit 9.6 + polyfills）を用いる。
+$_tooling_autoload = __DIR__ . '/../integration-tooling/vendor/autoload.php';
+if (file_exists($_tooling_autoload)) {
+    require_once $_tooling_autoload;
+}
+
+// テスト用クラス（Cocoon\Tests\ => tests/）の PSR-4 オートローダー。
+// テーマ本体の関数は WordPress がテーマ切り替え時に読み込むため、ここでは扱わない。
+spl_autoload_register(function ($class) {
+    $prefix = 'Cocoon\\Tests\\';
+    if (strncmp($class, $prefix, strlen($prefix)) !== 0) {
+        return;
+    }
+    $rel  = substr($class, strlen($prefix));
+    $file = dirname(__DIR__) . '/' . str_replace('\\', '/', $rel) . '.php';
+    if (is_file($file)) {
+        require $file;
+    }
+});
 
 // WordPress テストスイートの関数群を読み込み（tests_add_filter 等を定義）
 // これを先に読み込まないと、下の tests_add_filter() が未定義になる。
