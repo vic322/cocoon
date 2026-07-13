@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-08T05:28:17+00:00\n"
-"PO-Revision-Date: 2026-07-08 05:37\n"
+"POT-Creation-Date: 2026-07-13T01:53:40+00:00\n"
+"PO-Revision-Date: 2026-07-13 03:05\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -55,12 +55,12 @@ msgstr "This content is displayed for logged-in users only."
 #: blocks/src/init.php:292
 #: lib/page-settings/apis-forms.php:59
 msgid "Creators API"
-msgstr ""
+msgstr "Creators API"
 
 #: blocks/src/init.php:298
 #: lib/page-settings/apis-forms.php:35
 msgid "PA-API"
-msgstr ""
+msgstr "PA-API"
 
 #: blocks/src/init.php:340
 msgid "楽天商品検索API"
@@ -117,7 +117,7 @@ msgstr "Required fields are marked %s"
 #: comments.php:81
 #, php-format
 msgid "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s\">Log out?</a>"
-msgstr ""
+msgstr "Logged in as %1$s. <a href=\"%2$s\">Edit your profile</a>. <a href=\"%3$s\">Log out?</a>"
 
 #: comments.php:86
 msgid "Your email address will not be published."
@@ -136,7 +136,7 @@ msgstr "No keyword specified"
 #: functions.php:203
 #: functions.php:205
 msgid "Archives"
-msgstr ""
+msgstr "Archives"
 
 #: functions.php:557
 #: functions.php:558
@@ -1182,7 +1182,7 @@ msgstr "Surround blog card label"
 #: blocks/src/block/blogcard/edit.js:40
 #: blocks/src/old/blogcard-class/block.js:71
 msgid "関連記事"
-msgstr "Related articles"
+msgstr "Related posts"
 
 #: lib/admin-tinymce-qtag.php:1646
 #: tmp/css-custom.php:962
@@ -1191,7 +1191,7 @@ msgstr "Related articles"
 #: blocks/src/block/blogcard/edit.js:44
 #: blocks/src/old/blogcard-class/block.js:75
 msgid "参考記事"
-msgstr "Reference articles"
+msgstr "Reference posts"
 
 #: lib/admin-tinymce-qtag.php:1652
 #: tmp/css-custom.php:966
@@ -1215,7 +1215,7 @@ msgstr "Reference link"
 #: blocks/src/block/popular-list/index.js:28
 #: blocks/src/old/blogcard-class/block.js:79
 msgid "人気記事"
-msgstr "Popular articles"
+msgstr "Popular posts"
 
 #: lib/admin-tinymce-qtag.php:1664
 #: tmp/css-custom.php:982
@@ -1252,14 +1252,14 @@ msgstr "Official site"
 #: tmp/css-custom.php:1040
 #: blocks/src/block/blogcard/edit.js:80
 msgid "前回の記事"
-msgstr "Previous article"
+msgstr "Previous post"
 
 #: lib/admin-tinymce-qtag.php:1706
 #: tmp/css-custom.php:1002
 #: tmp/css-custom.php:1043
 #: blocks/src/block/blogcard/edit.js:84
 msgid "続きの記事"
-msgstr "Next article"
+msgstr "Next post"
 
 #: lib/admin-tools.php:14
 msgid "商品リンクの追加"
@@ -1287,11 +1287,11 @@ msgstr "PV"
 #: lib/content-tag.php:242
 #: lib/page-settings/editor-forms.php:97
 msgid "アイキャッチ"
-msgstr "Eye-catching image"
+msgstr "Featured image"
 
 #: lib/admin.php:172
 msgid "　題："
-msgstr "Title:"
+msgstr "　Title:"
 
 #: lib/admin.php:180
 msgid "本文："
@@ -1299,7 +1299,7 @@ msgstr "Body:"
 
 #: lib/admin.php:195
 msgid "日："
-msgstr "Day: "
+msgstr "Day:"
 
 #: lib/admin.php:203
 msgid "週："
@@ -1609,7 +1609,7 @@ msgstr "Intersection line"
 #: lib/block-rakuten-product-link.php:60
 #: lib/shortcodes-rakuten.php:101
 msgid "「楽天アプリケーションID」もしくは「楽天アフィリエイトID」が設定されていません。「Cocoon設定」の「API」タブから入力してください。"
-msgstr "\"Rakuten application ID\" or \"Rakuten affiliate ID\" has not been set. Enter it in the \"API\" tab of \"Cocoon settings\"."
+msgstr "\"Rakuten application ID\" or \"Rakuten affiliate ID\" has not been set. Enter it in the \"API\" tab of \"Cocoon Settings\"."
 
 #: lib/block-rakuten-product-link.php:92
 #: lib/block-rakuten-product-link.php:249
@@ -1679,7 +1679,7 @@ msgstr "Edit"
 #: lib/seo.php:596
 #, php-format
 msgid "「%s」の記事一覧です。"
-msgstr "Articles of \"%s\"."
+msgstr "Posts of \"%s\"."
 
 #: lib/content-category.php:224
 #: lib/content-tag.php:197
@@ -1734,7 +1734,7 @@ msgstr "Input for SEO-friendly title"
 #: lib/content-tag.php:229
 #: lib/custom-fields/seo-field.php:136
 msgid "検索エンジンに表示させたいタイトルを入力してください。記事のタイトルより、こちらに入力したテキストが優先的にタイトルタグ(&lt;title&gt;)に挿入されます。"
-msgstr "Enter the title you want to display on search engines. The text you enter here is given priority over the title of the article for the title tag (&lt;title&gt;)."
+msgstr "Enter the title you want to display on search engines. The text you enter here is given priority over the title of the post for the title tag (&lt;title&gt;)."
 
 #: lib/content-category.php:257
 #: lib/content-tag.php:233
@@ -1749,7 +1749,7 @@ msgstr "Enter the main content to be displayed on the tag page."
 #: lib/content-category.php:271
 #: lib/content-tag.php:247
 msgid "タイトル下に表示されるアイキャッチ画像を選択してください。"
-msgstr "Select an eye-catching image that will appear below the title."
+msgstr "Select an featured image that will appear below the title."
 
 #: lib/content-category.php:275
 #: lib/content-tag.php:251
@@ -1807,7 +1807,7 @@ msgstr "Sets a meta tag so that this page will not be indexed by search engines.
 
 #: lib/content-category.php:302
 msgid "こちらの設定を無効にしていても、Cocoon設定の「SEO」タブにある｢カテゴリーページをnoindexとする」設定を有効にしている場合はそちらが優先されます。"
-msgstr "Even if this setting is disabled, \"Set category pages to noindex\" setting in the \"SEO\" tab of the Cocoon settings will take priority over this setting."
+msgstr "Even if this setting is disabled, \"Set category pages to noindex\" setting in the \"SEO\" tab of the Cocoon Settings will take priority over this setting."
 
 #: lib/content-category.php:395
 msgid "カテゴリーとしてウィジェットやラベル等で表示される名前です。"
@@ -1839,7 +1839,7 @@ msgstr "Enter a description for the tag page. The text entered here will be used
 
 #: lib/content-tag.php:278
 msgid "こちらの設定を無効にしていても、Cocoon設定の「SEO」タブにある｢タグページをnoindexとする」設定を有効にしている場合はそちらが優先されます。"
-msgstr "Even if this setting is disabled, \"Set tag page to noindex\" setting in the \"SEO\" tab of the Cocoon settings will take priority over this setting."
+msgstr "Even if this setting is disabled, \"Set tag page to noindex\" setting in the \"SEO\" tab of the Cocoon Settings will take priority over this setting."
 
 #: lib/content-tag.php:278
 msgid "※カスタム投稿のカテゴリーなったとしても公開ページはタグとして認識されます。"
@@ -1893,7 +1893,7 @@ msgstr "Exclude PR notations"
 
 #: lib/custom-fields/ad-field.php:38
 msgid "Cocoon設定で「PR表記」を有効にしていたとしても、この除外オプションを有効にすれば非表示になります。"
-msgstr "Even if \"PR Notation\" is enabled in Cocoon settings, it will be hidden if this exclusion option is enabled."
+msgstr "Even if \"PR Notation\" is enabled in Cocoon Settings, it will be hidden if this exclusion option is enabled."
 
 #: lib/custom-fields/amp-field.php:19
 #: lib/custom-fields/amp-field.php:20
@@ -1943,19 +1943,19 @@ msgstr "Other"
 
 #: lib/custom-fields/other-field.php:32
 msgid "アーカイブに出力しない"
-msgstr "Don’t output to archive"
+msgstr "Don't output to archive"
 
 #: lib/custom-fields/other-field.php:33
 msgid "チェックを入れると、この記事はインデックスページ等のアーカイブに表示されなくなります。"
-msgstr "When selected, this article will not be displayed in the archives like index pages"
+msgstr "When selected, this post will not be displayed in the archives like index pages."
 
 #: lib/custom-fields/other-field.php:36
 msgid "フィードに出力しない"
-msgstr "Don’t output to Feed"
+msgstr "Don't output to Feed"
 
 #: lib/custom-fields/other-field.php:37
 msgid "チェックを入れると、この記事はRSS・Atomのフィードに出力されなくなります。"
-msgstr "When selected, this article will not be outputted to RSS/Atom feed"
+msgstr "When selected, this post will not be outputted to RSS/Atom feed."
 
 #: lib/custom-fields/page-field.php:18
 #: lib/custom-fields/page-field.php:19
@@ -2002,15 +2002,15 @@ msgstr "Select your preferred category on this page."
 
 #: lib/custom-fields/page-field.php:58
 msgid "優先カテゴリーは、アイキャッチやパンくずリストに適用されます。"
-msgstr "Prioritized categories is applied to eye-catching and breadcrumb list."
+msgstr "Prioritized categories is applied to featured image and breadcrumb list."
 
 #: lib/custom-fields/page-field.php:59
 msgid "カテゴリー選択直後はすぐにセレクトボックスに反映されません。"
-msgstr "Category selection not be reflected in the Select Box immediately"
+msgstr "Category selection not be reflected in the Select Box immediately."
 
 #: lib/custom-fields/page-field.php:60
 msgid "一度ページを更新してください。"
-msgstr "Refresh your page"
+msgstr "Refresh your page."
 
 #: lib/custom-fields/page-field.php:68
 msgid "1カラム（フルワイド）"
@@ -2050,7 +2050,7 @@ msgstr "Hide title"
 
 #: lib/custom-fields/page-field.php:80
 msgid "このページに記事タイトルを表示するかを切り替えます。"
-msgstr "Toggle display of the article title on this page."
+msgstr "Toggle display of the post title on this page."
 
 #: lib/custom-fields/page-field.php:83
 msgid "読む時間を表示しない"
@@ -2058,7 +2058,7 @@ msgstr "Don't show read time"
 
 #: lib/custom-fields/page-field.php:84
 msgid "このページに「記事を読む時間」を表示するかを切り替えます。"
-msgstr "Toggle display of the article read time on this page."
+msgstr "Toggle display of the post read time on this page."
 
 #: lib/custom-fields/page-field.php:87
 msgid "目次を表示しない"
@@ -2173,23 +2173,23 @@ msgstr "Enter an SEO title here."
 
 #: lib/custom-fields/seo-field.php:136
 msgid "一般的に日本語の場合は、32文字以内が最適とされています。（※ページやインデックスの見出し部分には「記事のタイトル」が利用されます）"
-msgstr "(*\"Article title\" is used for the headings of pages and indexes)"
+msgstr "(*\"Post title\" is used for the headings of pages and indexes)"
 
 #: lib/custom-fields/seo-field.php:146
 msgid "記事の説明文を入力してください。"
-msgstr "Enter a description for the article."
+msgstr "Enter a description for the post."
 
 #: lib/custom-fields/seo-field.php:147
 msgid "記事の説明を入力してください。日本語では、およそ120文字前後の入力をおすすめします。スマートフォンではそのうちの約50文字が表示されます。こちらに入力したメタディスクリプションはブログカードのスニペット（抜粋文部分）にも利用されます。こちらに入力しない場合は、「抜粋」に入力したものがメタディスクリプションとして挿入されます。"
-msgstr "Enter a description for the article. The meta description you enter here will also be used as a snippet for blog cards. If left blank, the text entered for \"Excerpt\" is used as the meta description."
+msgstr "Enter a description for the post. The meta description you enter here will also be used as a snippet for blog cards. If left blank, the text entered for \"Excerpt\" is used as the meta description."
 
 #: lib/custom-fields/seo-field.php:151
 msgid "記事の関連キーワードを半角カンマ区切りで入力してください。"
-msgstr "Enter meta keywords related to the article, separated by commas."
+msgstr "Enter meta keywords related to the post, separated by commas."
 
 #: lib/custom-fields/seo-field.php:152
 msgid "記事に関連するキーワードを,（カンマ）区切りで入力してください。入力しない場合は、カテゴリー名などから自動で設定されます。"
-msgstr "Enter keywords related to the article, separated by commas. If left blank, keywords will be set automatically from the category name, etc."
+msgstr "Enter keywords related to the post, separated by commas. If left blank, keywords will be set automatically from the category name, etc."
 
 #: lib/custom-fields/seo-field.php:159
 msgid "リンクをフォローしない（nofollow）"
@@ -2275,7 +2275,7 @@ msgstr "Day"
 
 #: lib/eyecatch.php:49
 msgid "Auto Draft"
-msgstr "自動下書き"
+msgstr "Auto Draft"
 
 #: lib/eyecatch.php:445
 #: skins/skin-made-in-heaven/lib/panel-editor.php:161
@@ -2409,7 +2409,7 @@ msgstr "Extended color F"
 
 #: lib/gutenberg.php:232
 msgid "ハイライト表示しない"
-msgstr "Don’t display highlight"
+msgstr "Don't display highlight"
 
 #: lib/gutenberg.php:236
 msgid "プレーンテキスト"
@@ -2590,7 +2590,7 @@ msgstr "Maximum"
 
 #: lib/html-forms.php:541
 msgid "※-1で全てのH2見出し手前に広告を挿入"
-msgstr "Insert ads in front of all H2 headlines with -1"
+msgstr "Insert ads in front of all H2 headings with -1"
 
 #: lib/html-forms.php:571
 msgid "入力済"
@@ -2739,12 +2739,12 @@ msgstr "No custom post types currently exist."
 
 #: lib/html-forms.php:1061
 msgid "人気記事は見つかりませんでした。"
-msgstr "Popular articles were not found."
+msgstr "Popular posts were not found."
 
 #: lib/html-forms.php:1301
 #: lib/html-forms.php:1840
 msgid "記事は見つかりませんでした。"
-msgstr "No articles found."
+msgstr "No posts found."
 
 #. translators: %s: author's display name
 #: lib/html-forms.php:1425
@@ -2929,7 +2929,7 @@ msgstr "Enable access summary"
 
 #: lib/page-access/access-forms.php:31
 msgid "有効にすることで「人気記事」ウィジェット等が利用できるようになります。簡易的なWordPress Popular Postsプラグインを実装しているようなものなのでレンタルサーバーから負荷が高いといわれたら無効にしてください。"
-msgstr "When enabled, the summary can be used in the \"Popular articles\" widget, etc. It works as if a simple WordPress Popular Posts plugin has been implemented, so disable it if you are notified of a high load from your rental server."
+msgstr "When enabled, the summary can be used in the \"Popular posts\" widget, etc. It works as if a simple WordPress Popular Posts plugin has been implemented, so disable it if you are notified of a high load from your rental server."
 
 #: lib/page-access/access-forms.php:39
 #: lib/page-settings/sns-follow-forms.php:233
@@ -3180,14 +3180,14 @@ msgstr "Click the \"New\" link to create template text."
 #: lib/page-item-ranking/list.php:60
 #: lib/page-speech-balloon/list.php:73
 msgid "&laquo;"
-msgstr ""
+msgstr "&laquo;"
 
 #: lib/page-affiliate-tag/list.php:55
 #: lib/page-func-text/list.php:55
 #: lib/page-item-ranking/list.php:61
 #: lib/page-speech-balloon/list.php:74
 msgid "&raquo;"
-msgstr ""
+msgstr "&raquo;"
 
 #: lib/page-affiliate-tag/list.php:74
 #: lib/page-func-text/list.php:74
@@ -3304,7 +3304,7 @@ msgstr "Restore"
 
 #: lib/page-backup/backup-forms.php:42
 msgid "このファイルをアップロード: "
-msgstr "Upload this file to:"
+msgstr "Upload this file to: "
 
 #: lib/page-backup/backup-forms.php:44
 msgid "設定の復元"
@@ -3348,15 +3348,15 @@ msgstr "Delete social media count caches."
 
 #: lib/page-cache/cache-forms.php:51
 msgid "人気記事ウィジェット"
-msgstr "Popular articles widgets"
+msgstr "Popular posts widgets"
 
 #: lib/page-cache/cache-forms.php:54
 msgid "人気記事ウィジェットキャッシュの削除"
-msgstr "Delete popular articles widget cache"
+msgstr "Delete popular posts widget cache"
 
 #: lib/page-cache/cache-forms.php:56
 msgid "人気記事ウィジェットのランキング結果キャッシュを削除します。"
-msgstr "Delete the ranking result cache of the popular articles widget."
+msgstr "Delete the ranking result cache of the popular posts widget."
 
 #: lib/page-cache/cache-forms.php:64
 #: lib/page-settings/image-forms.php:217
@@ -3439,7 +3439,7 @@ msgstr "WordPress customization notes sample"
 
 #: lib/page-func-text/func-text-func.php:41
 msgid "WordPressのfunctions.phpを編集する前は、編集前に必ずバックアップを取って保存してください。もし編集後、エラーが出るようでしたら、バックアップファイルを元に復元してください。 "
-msgstr "Before editing WordPress functions.php, be sure to save a backup. If an error is output after editing, use the backup file to restore."
+msgstr "Before editing WordPress functions.php, be sure to save a backup. If an error is output after editing, use the backup file to restore. "
 
 #: lib/page-func-text/posts-delete.php:18
 msgid "テキストが削除されました。"
@@ -3734,7 +3734,7 @@ msgstr "404 page title"
 #: lib/page-settings/404-forms.php:55
 #: lib/page-settings/404-forms.php:69
 msgid "例："
-msgstr ""
+msgstr "Example:"
 
 #: lib/page-settings/404-forms.php:56
 msgid "404ページに表示するタイトルを入力します。"
@@ -3971,7 +3971,7 @@ msgstr "Child theme name:"
 
 #: lib/page-settings/about-forms.php:174
 msgid "style.cssサイズ："
-msgstr "style.css size："
+msgstr "style.css size:"
 
 #: lib/page-settings/about-forms.php:174
 #: lib/page-settings/about-forms.php:180
@@ -3980,7 +3980,7 @@ msgstr "Bytes"
 
 #: lib/page-settings/about-forms.php:180
 msgid "functions.phpサイズ："
-msgstr "functions.php Size："
+msgstr "functions.php Size:"
 
 #: lib/page-settings/about-forms.php:188
 msgid "Gutenberg："
@@ -4109,7 +4109,7 @@ msgstr "Dashboard message"
 
 #: lib/page-settings/admin-forms.php:49
 msgid "WordPress管理画面上部に表示されるメッセージに関する設定です。"
-msgstr "Settings related to the message displayed at the top of the WordPress admin page. "
+msgstr "Settings related to the message displayed at the top of the WordPress admin screen."
 
 #: lib/page-settings/admin-forms.php:56
 msgid "メッセージ表示"
@@ -4121,7 +4121,7 @@ msgstr "Display dashboard message"
 
 #: lib/page-settings/admin-forms.php:63
 msgid "管理画面上部のメッセージを表示するかどうか。"
-msgstr "Set whether to display the message at the top of the admin page. "
+msgstr "Set whether to display the message at the top of the admin screen."
 
 #: lib/page-settings/admin-forms.php:63
 msgid "新型コロナウイルスに関する情報は、WHOの終息宣言が出るか、それに近い状態になるまで表示します（今回のウイルスの性質的に完全に終息できるものかもわからないので）。"
@@ -4141,7 +4141,7 @@ msgstr "Display columns"
 
 #: lib/page-settings/admin-forms.php:93
 msgid "投稿・固定ページ記事一覧テーブルのカラム操作。"
-msgstr "Column operation of post and page article list tables."
+msgstr "Column operation of post and page post list tables."
 
 #: lib/page-settings/admin-forms.php:99
 msgid "投稿者を表示する"
@@ -4179,11 +4179,11 @@ msgstr "Display PV"
 
 #: lib/page-settings/admin-forms.php:121
 msgid "（※投稿・固定ページ一覧が重い場合は無効にしてください）"
-msgstr "(* Disable if the post/fixed page list is slow)"
+msgstr "(* Disable if the post/page list is slow)"
 
 #: lib/page-settings/admin-forms.php:124
 msgid "アイキャッチを表示する"
-msgstr "Display eye-catching image"
+msgstr "Display featured image"
 
 #: lib/page-settings/admin-forms.php:127
 msgid "メモの内容を表示する"
@@ -4266,7 +4266,7 @@ msgstr "Display Dashboard Link"
 
 #: lib/page-settings/admin-forms.php:201
 msgid "WordPressのダッシュボードに移動するためのリンクです。"
-msgstr "Link to go to your Wordpress dashboard"
+msgstr "Link to go to your WordPress dashboard."
 
 #: lib/page-settings/admin-forms.php:203
 msgid "投稿編集リンクを表示する"
@@ -4390,7 +4390,7 @@ msgstr "Display Responsinator check"
 
 #: lib/page-settings/admin-forms.php:285
 msgid "<a href=\"http://www.responsinator.com/\" target=\"_blank\" rel=\"noopener\">Responsinator</a>チェック用リンクの表示。"
-msgstr "Displays the check link of the <a href=\"https://www.responsinator.com/\" target=\"_blank\" rel=\"noopener\">Responsinator</a>"
+msgstr "Displays the check link of the <a href=\"https://www.responsinator.com/\" target=\"_blank\" rel=\"noopener\">Responsinator</a>."
 
 #: lib/page-settings/admin-forms.php:287
 msgid "Sizzyチェックを表示する"
@@ -4537,11 +4537,11 @@ msgstr "Set AdSense width to maximum width of mobile device."
 
 #: lib/page-settings/ads-forms.php:106
 msgid "AdSenseタグの「data-full-width-responsive」を「true」にします。"
-msgstr "Set ‘data-full-width-responsive’ tag on AdSense to true"
+msgstr "Set 'data-full-width-responsive' tag on AdSense to true."
 
 #: lib/page-settings/ads-forms.php:106
 msgid "この機能が有効な場合、AdSenseの仕様で\"horizontal\",\"vertical\"広告をモバイルで表示した際は\"rectangle\"として表示されます。"
-msgstr "When this function is enabled, “horizontal” and “vertical” ads will be displayed as “rectangle” when displayed on mobile according to the AdSense specifications"
+msgstr "When this function is enabled, \"horizontal\" and \"vertical\" ads will be displayed as \"rectangle\" when displayed on mobile according to the AdSense specifications."
 
 #: lib/page-settings/ads-forms.php:106
 msgid "意図通りのサイズで表示する場合は機能を無効にしてください。"
@@ -4617,7 +4617,7 @@ msgstr "Below social media button (bottom part of content)"
 
 #: lib/page-settings/ads-forms.php:218
 msgid "関連記事下（投稿ページのみ）"
-msgstr "Below related articles (post page only)"
+msgstr "Below related posts (post page only)"
 
 #: lib/page-settings/ads-forms.php:228
 msgid "それぞれのページで広告を表示する位置を設定します。"
@@ -4686,11 +4686,11 @@ msgstr "Insert \"PR notation\" in the location set in the \"Auto Insert Area\" o
 
 #: lib/page-settings/ads-forms.php:300
 msgid "全ての固定ページ"
-msgstr "All fixed pages"
+msgstr "All pages"
 
 #: lib/page-settings/ads-forms.php:301
 msgid "全固定ページで「自動挿入エリア」で設定した場所に「PR表記」を挿入します。"
-msgstr "Insert \"PR notation\" in the location set in the \"Auto Insert Area\" on all fixed pages."
+msgstr "Insert \"PR notation\" in the location set in the \"Auto Insert Area\" on all pages."
 
 #: lib/page-settings/ads-forms.php:303
 msgid "全てのカテゴリーページ"
@@ -4734,7 +4734,7 @@ msgstr "(Large)"
 
 #: lib/page-settings/ads-forms.php:323
 msgid "記事本文の上部に「PR表記」を挿入します。"
-msgstr "Insert a \"PR notation\" at the top of the article body."
+msgstr "Insert a \"PR notation\" at the top of the post body."
 
 #: lib/page-settings/ads-forms.php:331
 msgid "表示テキスト"
@@ -4754,11 +4754,11 @@ msgstr "Text (Large)"
 
 #: lib/page-settings/ads-forms.php:345
 msgid "記事本文上に表示される「PR表記」の文言を入力してください。"
-msgstr "Enter the text for the \"PR notation\" that will appear at the top of the article body."
+msgstr "Enter the text for the \"PR notation\" that will appear at the top of the post body."
 
 #: lib/page-settings/ads-forms.php:353
 msgid "除外記事ID"
-msgstr "Excluded article ID"
+msgstr "Excluded post ID"
 
 #: lib/page-settings/ads-forms.php:357
 #: lib/page-settings/ads-forms.php:384
@@ -4768,7 +4768,7 @@ msgstr "Example: 111, 222, 3333"
 
 #: lib/page-settings/ads-forms.php:358
 msgid "「PR表記」を非表示にする投稿・固定ページのIDを,（カンマ）区切りで指定してください。"
-msgstr "Specify the IDs of the posts and fixed pages for which you want to hide \"PR notation\" by separating them with , (comma)."
+msgstr "Specify the IDs of the posts and pages for which you want to hide \"PR notation\" by separating them with , (comma)."
 
 #: lib/page-settings/ads-forms.php:366
 #: lib/page-settings/index-forms.php:242
@@ -4843,7 +4843,7 @@ msgstr "This is for setting pages or categories for which you do not want to dis
 
 #: lib/page-settings/ads-forms.php:443
 msgid "広告除外記事ID"
-msgstr "Ad exclusion article IDs"
+msgstr "Ad exclusion post IDs"
 
 #: lib/page-settings/ads-forms.php:448
 msgid "広告を非表示にする投稿・固定ページのIDを,（カンマ）区切りで指定してください。"
@@ -4973,19 +4973,19 @@ msgstr "Pretendard"
 
 #: lib/page-settings/all-forms.php:78
 msgid "Microsoft JhengHei"
-msgstr ""
+msgstr "Microsoft JhengHei"
 
 #: lib/page-settings/all-forms.php:78
 msgid "（繁體中文）"
-msgstr "（Traditional Chinese）"
+msgstr "(Traditional Chinese)"
 
 #: lib/page-settings/all-forms.php:79
 msgid "Noto Sans TC"
-msgstr ""
+msgstr "Noto Sans TC"
 
 #: lib/page-settings/all-forms.php:79
 msgid "（繁體中文WEBフォント）"
-msgstr "（Traditional Chinese Web Font）"
+msgstr "(Traditional Chinese Web Font)"
 
 #: lib/page-settings/all-forms.php:81
 msgid "指定なし"
@@ -5315,7 +5315,7 @@ msgstr "Enable inline styles"
 
 #: lib/page-settings/amp-forms.php:72
 msgid "本文中のインラインスタイルを有効にします（無効推奨）。有効にすると、本文内でもインラインのstyle属性でスタイリングできます。ただし、AMPエラーの原因になったり、AMPのサイズ制限（75000バイト）を超えやすくなるため有効は推奨はしません。"
-msgstr "Enables inline styles in the body (recommended to disable). When enabled, you can style with the inline style attribute even in the body. However, we do not recommend enabling it as it may cause AMP errors and easily exceed the AMP size limit (75000 bytes). "
+msgstr "Enables inline styles in the body (recommended to disable). When enabled, you can style with the inline style attribute even in the body. However, we do not recommend enabling it as it may cause AMP errors and easily exceed the AMP size limit (75000 bytes)."
 
 #: lib/page-settings/amp-forms.php:80
 msgid "サイズ制限対応"
@@ -5327,7 +5327,7 @@ msgstr "Enable skin styles"
 
 #: lib/page-settings/amp-forms.php:85
 msgid "凝ったスタイルのスキンを利用していると、AMPのCSSサイズ上限（75000バイト）を超えてしまう可能性があります。スキンを適用したことにより、AMPエラーが続出した場合は、AMPページでスキンを適用しないことにより、CSSのサイズを減らします。"
-msgstr "Using complicated skins can exceed the AMP CSS size limit (75,000 bytes). If you get a series of AMP errors after applying the skin, reduce the size of the CSS by not applying the skin on the AMP page. "
+msgstr "Using complicated skins can exceed the AMP CSS size limit (75,000 bytes). If you get a series of AMP errors after applying the skin, reduce the size of the CSS by not applying the skin on the AMP page."
 
 #: lib/page-settings/amp-forms.php:87
 msgid "子テーマのスタイルを有効にする"
@@ -5335,7 +5335,7 @@ msgstr "Enable child theme styles"
 
 #: lib/page-settings/amp-forms.php:88
 msgid "子テーマのstyle.cssで凝ったカスタマイズをしていると、AMPのCSSサイズ上限（75000バイト）を超えてしまう可能性があります。子テーマのCSSカスタマイズにより、AMPエラーが続出した場合は、AMPページで「子テーマCSS」を適用しないことにより、CSSのサイズを減らします。"
-msgstr "If you are customizing the style.css of the child theme with complicated designs, you may exceed the AMP’s CSS size limit (75000 bytes). If the child theme’s CSS customization causes a series of AMP errors, reduce the CSS size by not applying the “child theme CSS” on the AMP page. "
+msgstr "If you are customizing the style.css of the child theme with complicated designs, you may exceed the AMP's CSS size limit (75000 bytes). If the child theme's CSS customization causes a series of AMP errors, reduce the CSS size by not applying the \"child theme CSS\" on the AMP page."
 
 #: lib/page-settings/amp-forms.php:97
 msgid "AMPバリデーター"
@@ -5824,7 +5824,7 @@ msgstr "Do you want to display the Mercari keyword search button?"
 
 #: lib/page-settings/apis-forms.php:259
 msgid "メルカリの検索ボタンに表示するテキストを入力してください。"
-msgstr "Enter the text you want to appear on the Mercari search button. "
+msgstr "Enter the text you want to appear on the Mercari search button."
 
 #: lib/page-settings/apis-forms.php:272
 #: lib/page-settings/apis-funcs.php:313
@@ -5837,7 +5837,7 @@ msgstr "DMM Affiliate ID"
 
 #: lib/page-settings/apis-forms.php:282
 msgid "DMMアフィリエイトの「アフィリエイトID」をを取得してください。"
-msgstr "Please obtain the “Affiliate ID” of the DMM affiliate."
+msgstr "Please obtain the \"Affiliate ID\" of the DMM affiliate."
 
 #: lib/page-settings/apis-forms.php:287
 msgid "DMM検索ボタンを表示する"
@@ -5849,7 +5849,7 @@ msgstr "Do you want to display the DMM keyword search button?"
 
 #: lib/page-settings/apis-forms.php:291
 msgid "DMMの検索ボタンに表示するテキストを入力してください。"
-msgstr "Enter the text you want to appear on the DMM search button. "
+msgstr "Enter the text you want to appear on the DMM search button."
 
 #: lib/page-settings/apis-forms.php:303
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:181
@@ -6131,7 +6131,7 @@ msgstr "Display text message area"
 
 #: lib/page-settings/appeal-forms.php:104
 msgid "この設定を無効にすると「タイトル」や「メッセージ」、「ボタン」は表示されず背景画像のみが表示されます。"
-msgstr "If this setting is disabled, the “Title”, “Message” and “Button” will not be displayed and only the background image will be displayed."
+msgstr "If this setting is disabled, the \"Title\", \"Message\" and \"Button\" will not be displayed and only the background image will be displayed."
 
 #: lib/page-settings/appeal-forms.php:116
 msgid "アピールエリアタイトル"
@@ -6219,7 +6219,7 @@ msgstr "Blog card-related help"
 
 #: lib/page-settings/blogcard-help.php:15
 msgid "ブログカードに関する記事です。"
-msgstr "An article related to the blog card."
+msgstr "An post related to the blog card."
 
 #: lib/page-settings/blogcard-help.php:18
 msgid "内部ブログカードの利用方法"
@@ -6369,7 +6369,7 @@ msgstr "Displays URLs of external sites in the text and URL links as a blog card
 
 #: lib/page-settings/blogcard-out-forms.php:57
 msgid "コメント内の外部リンクブログカードの場合rel=\"nofollow\"が入ります。"
-msgstr "If it is an external link blog card within the comments, rel=“nofollow” is added"
+msgstr "If it is an external link blog card within the comments, rel=\"nofollow\" is added."
 
 #: lib/page-settings/blogcard-out-forms.php:107
 msgid "ブログカードクリック時に新規タブを開きます。「外部リンク」が設定されている場合は、そちらが優先されます。"
@@ -6481,7 +6481,7 @@ msgstr "What you see"
 
 #: lib/page-settings/carousel-forms.php:63
 msgid "人気記事、カテゴリー、タグの順に優先され、いずれか一つが表示されます。"
-msgstr "Priority is given in the order of popular articles, categories, and tags, with one of them displayed."
+msgstr "Priority is given in the order of popular posts, categories, and tags, with one of them displayed."
 
 #: lib/page-settings/carousel-forms.php:68
 #: lib/widgets/popular-entries.php:201
@@ -6512,11 +6512,11 @@ msgstr "All times"
 
 #: lib/page-settings/carousel-forms.php:75
 msgid "で集計した人気記事を含める"
-msgstr "Include popular articles aggregated in"
+msgstr "Include popular posts aggregated in"
 
 #: lib/page-settings/carousel-forms.php:76
 msgid "人気記事を選択すると、人気記事のみが優先して表示されます。"
-msgstr "If popular articles are selected, only popular articles will be displayed with priority."
+msgstr "If popular posts are selected, only popular posts will be displayed with priority."
 
 #: lib/page-settings/carousel-forms.php:78
 #: lib/page-settings/single-forms.php:129
@@ -6531,11 +6531,11 @@ msgstr "Category"
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "カテゴリーを選択すると、カテゴリーに関連付けられた記事のみが表示されます。"
-msgstr "If a category is selected, only articles associated with that category will be displayed."
+msgstr "If a category is selected, only posts associated with that category will be displayed."
 
 #: lib/page-settings/carousel-forms.php:80
 msgid "（※カテゴリー関連記事を表示させたい場合は、人気記事を選択しないでください）"
-msgstr "(*If you want to display category-related articles, do not select popular articles.)"
+msgstr "(*If you want to display category-related posts, do not select popular posts.)"
 
 #: lib/page-settings/carousel-forms.php:82
 #: lib/page-settings/editor-forms.php:83
@@ -6551,11 +6551,11 @@ msgstr "Tag"
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "タグを選択すると、タグに関連付けられた記事のみが表示されます。"
-msgstr "If a tag is selected, only articles associated with that tag will be displayed."
+msgstr "If a tag is selected, only posts associated with that tag will be displayed."
 
 #: lib/page-settings/carousel-forms.php:84
 msgid "（※タグ関連記事を表示させたい場合は、人気記事・カテゴリーを選択しないでください）"
-msgstr "(*If you want to display tag-related articles, do not select popular articles or categories.)"
+msgstr "(*If you want to display tag-related posts, do not select popular posts or categories.)"
 
 #: lib/page-settings/carousel-forms.php:92
 msgid "カルーセルの並び替え"
@@ -6868,7 +6868,7 @@ msgstr "Comment input field display"
 
 #: lib/page-settings/comment-forms.php:73
 msgid "ボタン切り換え動作。"
-msgstr "Button switch operation"
+msgstr "Button switch operation."
 
 #: lib/page-settings/comment-forms.php:79
 msgid "常に表示する"
@@ -7167,7 +7167,7 @@ msgstr "Display author"
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿・固定ページの「投稿日・更新日・投稿者名」を表示するかどうか。"
-msgstr "Display posted date, update date, and author name of a post/fixed page or not."
+msgstr "Display posted date, update date, and author name of a post/page or not."
 
 #: lib/page-settings/content-forms.php:358
 msgid "投稿日・更新日が同じ日付の場合は投稿日のみが表示されます。"
@@ -7187,7 +7187,7 @@ msgstr "Read time"
 
 #: lib/page-settings/content-forms.php:370
 msgid "記事を読む時間の目安を表示する"
-msgstr "Display the estimated reading time for articles."
+msgstr "Display the estimated reading time for posts."
 
 #: lib/page-settings/content-forms.php:371
 msgid "本文を読むのに必要な所要時間を表示します。時間はあくまで目安です。"
@@ -7207,7 +7207,7 @@ msgstr "Donation benefits"
 
 #: lib/page-settings/donation-forms.php:32
 msgid "取得した「<a href=\"https://wp-cocoon.com/donation-privilege/\" target=\"_blank\" rel=\"noopener noreferrer\">寄付コード</a>」を入力してください。"
-msgstr "Please enter the obtained \"<a href=\"https://wp-cocoon.com/donation-privilege/\" target=\"_blank\" rel=\"noopener noreferrer\"> donation code </a>\". "
+msgstr "Please enter the obtained \"<a href=\"https://wp-cocoon.com/donation-privilege/\" target=\"_blank\" rel=\"noopener noreferrer\"> donation code </a>\"."
 
 #: lib/page-settings/donation-forms.php:35
 msgid "現在は以下の特典機能が利用できます。"
@@ -7223,7 +7223,7 @@ msgstr "FAQ block (rich snippet compatible)"
 
 #: lib/page-settings/donation-forms.php:38
 msgid "（<a href=\"https://wp-cocoon.com/faq-block/\" target=\"_blank\" rel=\"noopener noreferrer\">詳細</a>）"
-msgstr "（<a href=\"https://wp-cocoon.com/faq-block/\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>）"
+msgstr "(<a href=\"https://wp-cocoon.com/faq-block/\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>)"
 
 #: lib/page-settings/donation-forms.php:39
 msgid "HTML挿入ボタン（※ショートコード）"
@@ -7231,7 +7231,7 @@ msgstr "HTML insert button (*short code)"
 
 #: lib/page-settings/donation-forms.php:39
 msgid "（<a href=\"https://wp-cocoon.com/html-insert-tool-button/\" target=\"_blank\" rel=\"noopener noreferrer\">詳細</a>）"
-msgstr "（<a href=\"https://wp-cocoon.com/html-insert-tool-button/\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>）"
+msgstr "(<a href=\"https://wp-cocoon.com/html-insert-tool-button/\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>)"
 
 #: lib/page-settings/donation-forms.php:40
 msgid "更新日表示ショートコード"
@@ -7239,15 +7239,15 @@ msgstr "Update Date Display short code"
 
 #: lib/page-settings/donation-forms.php:40
 msgid "（<a href=\"https://wp-cocoon.com/updated-shortcode\" target=\"_blank\" rel=\"noopener noreferrer\">詳細</a>）"
-msgstr "（<a href=\"https://wp-cocoon.com/updated-shortcode\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>）"
+msgstr "(<a href=\"https://wp-cocoon.com/updated-shortcode\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>)"
 
 #: lib/page-settings/donation-forms.php:41
 msgid "ウィジェットの「表示設定」の「カスタム投稿タイプ」機能"
-msgstr "“Custom post type” function of “Display settings” of the widget"
+msgstr "\"Custom post type\" function of \"Display settings\" of the widget"
 
 #: lib/page-settings/donation-forms.php:41
 msgid "（<a href=\"https://wp-cocoon.com/custom-post-type-for-widget-display-settings\" target=\"_blank\" rel=\"noopener noreferrer\">詳細</a>）"
-msgstr "（<a href=\"https://wp-cocoon.com/custom-post-type-for-widget-display-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>）"
+msgstr "(<a href=\"https://wp-cocoon.com/custom-post-type-for-widget-display-settings\" target=\"_blank\" rel=\"noopener noreferrer\">Details</a>)"
 
 #: lib/page-settings/donation-forms.php:44
 msgid "特典機能を入手する場合は<a href=\"https://wp-cocoon.com/donation-privilege/\" target=\"_blank\" rel=\"noopener noreferrer\">こちら</a>。"
@@ -7355,15 +7355,15 @@ msgstr "Display \"Furigana (JA)\" button"
 
 #: lib/page-settings/editor-forms.php:144
 msgid "Cocoonの「ルビ」ボタン表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
-msgstr "Toggle the “Furigana” button display of Cocoon. If you are using the Furigana function of the plug-in and an error occurs, disable it."
+msgstr "Toggle the \"Furigana\" button display of Cocoon. If you are using the Furigana function of the plug-in and an error occurs, disable it."
 
 #: lib/page-settings/editor-forms.php:148
 msgid "「書式のクリア」ボタンを表示する"
-msgstr "Display “Clear format” button"
+msgstr "Display \"Clear format\" button"
 
 #: lib/page-settings/editor-forms.php:149
 msgid "Cocoonの「書式のクリア」表示を切り替えます。プラグインのルビ機能を利用していてエラーが出る場合は無効にしてください。"
-msgstr "Toggles the “Clear Format” display of Cocoon. If you are using the Furigana function of the plug-in and an error occurs, disable it. "
+msgstr "Toggles the \"Clear Format\" display of Cocoon. If you are using the Furigana function of the plug-in and an error occurs, disable it."
 
 #: lib/page-settings/editor-forms.php:157
 msgid "スタイルドロップダウン"
@@ -7475,7 +7475,7 @@ msgstr "Issue a confirmation alert before page publication"
 
 #: lib/page-settings/editor-forms.php:258
 msgid "記事を投稿する前に確認ダイアログを表示します。※旧エディター用の設定"
-msgstr "Displays a confirmation dialog box before an article is submitted."
+msgstr "Displays a confirmation dialog box before an post is submitted."
 
 #: lib/page-settings/footer-forms.php:13
 msgid "フッター設定"
@@ -7634,7 +7634,7 @@ msgstr "Fix header"
 
 #: lib/page-settings/header-forms.php:64
 msgid "ページをスクロールしても、ヘッダーが追従してきます。こちらはパソコン環境のみの動作になります。IEでは動作しません。"
-msgstr "The menu will follow even when you scroll the page. Only works on computers, and non IE browsers"
+msgstr "The menu will follow even when you scroll the page. Only works on computers, and non IE browsers."
 
 #: lib/page-settings/header-forms.php:72
 msgid "ヘッダー固定・モバイルロゴ"
@@ -7650,7 +7650,7 @@ msgstr "Specifies the header height in pixels. In mobile environments, the mobil
 
 #: lib/page-settings/header-forms.php:91
 msgid "※「ヘッダーレイアウト」が「センターロゴ」の時のみに適用されます。"
-msgstr "*Applied only when \"Header layout\" is \"Center logo\""
+msgstr "*Applied only when \"Header layout\" is \"Center logo\"."
 
 #: lib/page-settings/header-forms.php:99
 msgid "高さ（モバイル）"
@@ -7679,7 +7679,7 @@ msgstr "Width:"
 
 #: lib/page-settings/header-forms.php:130
 msgid " × "
-msgstr "×"
+msgstr " × "
 
 #: lib/page-settings/header-forms.php:131
 msgid "高さ："
@@ -7791,11 +7791,11 @@ msgstr "The image settings for the post/page/category/tag body text parts."
 
 #: lib/page-settings/image-forms.php:62
 msgid "アイキャッチの表示"
-msgstr "Eye-catching display"
+msgstr "Featured image display"
 
 #: lib/page-settings/image-forms.php:66
 msgid "本文上にアイキャッチを表示する"
-msgstr "Display eye-catching images above the body text"
+msgstr "Display featured images above the body text"
 
 #: lib/page-settings/image-forms.php:67
 msgid "本文エリアトップトップにアイキャッチを表示します。"
@@ -7803,11 +7803,11 @@ msgstr "Display the featured image at the top of the main content area."
 
 #: lib/page-settings/image-forms.php:71
 msgid "アイキャッチラベルを表示する"
-msgstr "Display eye-catching labels"
+msgstr "Display featured image labels"
 
 #: lib/page-settings/image-forms.php:72
 msgid "本文エリアトップのアイキャッチに表示されるカテゴリーラベルの表示切り替えです。"
-msgstr "Toggle display of the category label displayed for eye-catching images on content aria top."
+msgstr "Toggle display of the category label displayed for featured images on content aria top."
 
 #: lib/page-settings/image-forms.php:72
 msgid "（※投稿・固定・カテゴリーページのみ）"
@@ -7815,35 +7815,35 @@ msgstr "(*Posts, pages, and category pages only)"
 
 #: lib/page-settings/image-forms.php:74
 msgid "アイキャッチを中央寄せする"
-msgstr "Centering of eye-catching image"
+msgstr "Centering of featured image"
 
 #: lib/page-settings/image-forms.php:75
 msgid "本文エリアトップに表示されるアイキャッチをカラムの中央に表示します。"
-msgstr "Displays eye-catching images in content aria top in the center of the column."
+msgstr "Displays featured images in content aria top in the center of the column."
 
 #: lib/page-settings/image-forms.php:77
 msgid "アイキャッチをカラム幅に引き伸ばす"
-msgstr "Stretch eye-catching image to the column width"
+msgstr "Stretch featured image to the column width"
 
 #: lib/page-settings/image-forms.php:78
 msgid "アイキャッチ画像に小さな画像を使っていても、強制的にカラム幅に拡大して表示します。"
-msgstr "Even if you use a small image as an eye-catching image, it is forcibly enlarged to the column width."
+msgstr "Even if you use a small image as an featured image, it is forcibly enlarged to the column width."
 
 #: lib/page-settings/image-forms.php:80
 msgid "アイキャッチにキャプションがある場合は表示する"
-msgstr "Display a caption for an eye-catching image"
+msgstr "Display a caption for an featured image"
 
 #: lib/page-settings/image-forms.php:81
 msgid "アイキャッチ画像にキャプションが設定してある場合、表示するかどうか。"
-msgstr "If a caption has been set for an eye-catching image, do you want to display it?"
+msgstr "If a caption has been set for an featured image, do you want to display it?"
 
 #: lib/page-settings/image-forms.php:90
 msgid "アイキャッチの自動設定"
-msgstr "Eye-catching image automatic setting"
+msgstr "Featured image automatic setting"
 
 #: lib/page-settings/image-forms.php:95
 msgid "アイキャッチ自動設定を有効にする"
-msgstr "Enable automatic setting of an eye-catching image"
+msgstr "Enable automatic setting of an featured image"
 
 #: lib/page-settings/image-forms.php:95
 msgid "（※投稿・固定ページのみ）"
@@ -7995,7 +7995,7 @@ msgstr "Index cards"
 
 #: lib/page-settings/image-forms.php:212
 msgid "新着記事ウィジェットのサムネイル。"
-msgstr "The thumbnail of a new article widget."
+msgstr "The thumbnail of a new post widget."
 
 #: lib/page-settings/image-forms.php:212
 #: lib/widgets/new-entries.php:19
@@ -8007,15 +8007,15 @@ msgstr "The thumbnail of a new article widget."
 #: tmp/list-tab-index.php:38
 #: blocks/src/block/new-list/index.js:28
 msgid "新着記事"
-msgstr "New articles"
+msgstr "New posts"
 
 #: lib/page-settings/image-forms.php:213
 msgid "人気記事ウィジェットのサムネイル。"
-msgstr "The thumbnail of the popular articles widget."
+msgstr "The thumbnail of the popular posts widget."
 
 #: lib/page-settings/image-forms.php:214
 msgid "関連記事のエントリーカードのサムネイル。"
-msgstr "The thumbnail of the related articles entry card."
+msgstr "The thumbnail of the related posts entry card."
 
 #: lib/page-settings/image-forms.php:215
 msgid "カルーセルカードのサムネイル。"
@@ -8052,7 +8052,7 @@ msgstr "NO IMAGE settings"
 
 #: lib/page-settings/image-forms.php:229
 msgid "アイキャッチの存在しない投稿のサムネイル画像設定です。"
-msgstr "The thumbnail image settings for posts without an eye-catching image."
+msgstr "The thumbnail image settings for posts without an featured image."
 
 #: lib/page-settings/image-forms.php:237
 msgid "NO IMAGE画像"
@@ -8060,7 +8060,7 @@ msgstr "NO IMAGE image"
 
 #: lib/page-settings/image-forms.php:242
 msgid "アイキャッチが存在しない投稿・固定ページのサムネイルに利用される画像ファイルを指定してください。"
-msgstr "Specifies an image file to display in the thumbnail of posts/pages that do not have an eye-catching image."
+msgstr "Specifies an image file to display in the thumbnail of posts/pages that do not have an featured image."
 
 #: lib/page-settings/index-forms.php:13
 msgid "リスト設定"
@@ -8132,11 +8132,11 @@ msgstr "Categories"
 
 #: lib/page-settings/index-forms.php:70
 msgid "通常の記事インデックスの他に、カテゴリーの記事をタブ化して表示します。"
-msgstr "In addition to the normal article index, the articles in the category are tabbed and displayed."
+msgstr "In addition to the normal post index, the posts in the category are tabbed and displayed."
 
 #: lib/page-settings/index-forms.php:70
 msgid "「タブ一覧」の際は、3つまで有効。4つ目以降は無視されます。"
-msgstr "Up to 3 are valid for “Tab list”. The fourth and subsequent ones will be ignored."
+msgstr "Up to 3 are valid for \"Tab list\". The fourth and subsequent ones will be ignored."
 
 #: lib/page-settings/index-forms.php:75
 msgid "カテゴリー順の変更"
@@ -8212,7 +8212,7 @@ msgstr "Number of new entry cards displayed"
 
 #: lib/page-settings/index-forms.php:108
 msgid "フロントページタイプを「カテゴリーごと」にした際に表示される新着エントリーカード数を設定します。"
-msgstr "Set the number of new entry cards displayed when the front page type is set to “By category”."
+msgstr "Set the number of new entry cards displayed when the front page type is set to \"By category\"."
 
 #: lib/page-settings/index-forms.php:111
 msgid "カテゴリーエントリーカード表示数"
@@ -8224,7 +8224,7 @@ msgstr "Set the number of entry cards to be displayed for each category in the i
 
 #: lib/page-settings/index-forms.php:116
 msgid "「カテゴリーごと」表示でカード表示数を変更する場合はこちら"
-msgstr "Click here to change the number of cards displayed in “By Category” display"
+msgstr "Click here to change the number of cards displayed in \"By Category\" display"
 
 #: lib/page-settings/index-forms.php:124
 msgid "並び順"
@@ -8309,7 +8309,7 @@ msgstr "Abbreviation string"
 #: lib/page-settings/index-forms.php:202
 #: lib/page-settings/index-funcs.php:208
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: lib/page-settings/index-forms.php:203
 msgid "「自動生成抜粋文字数」を自動抜粋文が超えたときに表示する省略を表す文字を入力してください。"
@@ -8342,7 +8342,7 @@ msgstr "Display post related information in entry cards of index pages or not."
 
 #: lib/page-settings/index-forms.php:247
 msgid "アーカイブ（インデックスリスト・新着関連記事ウィジェット等）に表示させたくないカテゴリーを選択してください。"
-msgstr "Select the category you do not want to be displayed in the archive (index list, new article widget, etc.). "
+msgstr "Select the category you do not want to be displayed in the archive (index list, new post widget, etc.)."
 
 #: lib/page-settings/mobile-buttons-forms.php:13
 #: skins/skin-grayish-topfull/functions.php:1747
@@ -8541,7 +8541,7 @@ msgstr "OGP settings"
 
 #: lib/page-settings/ogp-forms.php:16
 msgid "OGPとは「Open Graph protocol」の略称です。 FacebookやXなどのSNSでシェアされた際に、そのページのタイトル・URL・概要・アイキャッチ画像（サムネイル）を意図した通りに正しく表示させる仕組みです。"
-msgstr "OGP is an abbreviation for \"Open Graph protocol. It is a mechanism to correctly display the title, URL, summary, and eye-catching image (thumbnail) of a page as intended when it is shared on social networking services such as Facebook and X."
+msgstr "OGP is an abbreviation for \"Open Graph protocol. It is a mechanism to correctly display the title, URL, summary, and featured image (thumbnail) of a page as intended when it is shared on social networking services such as Facebook and X."
 
 #: lib/page-settings/ogp-forms.php:24
 msgid "OGPの有効化"
@@ -8613,7 +8613,7 @@ msgstr "The settings for images to be displayed in the OGP and Twitter Cards on 
 
 #: lib/page-settings/ogp-forms.php:116
 msgid "フロントページが固定ページに設定してある場合は、固定ページのアイキャッチが優先されます。"
-msgstr "If the front page is set to a fixed page, the fixed page eye-catcher takes precedence."
+msgstr "If the front page is set to a page, the page featured imageer takes precedence."
 
 #: lib/page-settings/ogp-forms.php:124
 msgid "画像のアップロード"
@@ -8731,12 +8731,12 @@ msgstr "Set the breadcrumb display position for pages."
 #: lib/page-settings/page-forms.php:71
 #: lib/page-settings/single-forms.php:444
 msgid "記事タイトル"
-msgstr "Article title"
+msgstr "Post title"
 
 #: lib/page-settings/page-forms.php:75
 #: lib/page-settings/single-forms.php:448
 msgid "パンくずリストに記事タイトルを含める"
-msgstr "Include the article title in breadcrumbs"
+msgstr "Include the post title in breadcrumbs"
 
 #: lib/page-settings/page-forms.php:76
 msgid "固定ページのパンくずリストに対して、表示されているページのタイトルを含めるか切り替えます。"
@@ -8892,7 +8892,7 @@ msgstr "Recommended card settings"
 
 #: lib/page-settings/recommended-forms.php:16
 msgid "おすすめしたい記事やカテゴリーの画像リンクをヘッダー下の目立つ部分に表示させます。"
-msgstr "Display the image links for articles and categories you want to recommend in the prominent part below the header."
+msgstr "Display the image links for posts and categories you want to recommend in the prominent part below the header."
 
 #: lib/page-settings/recommended-forms.php:34
 msgid "おすすめカードの表示"
@@ -9004,7 +9004,7 @@ msgstr "A canonical tag is inserted in posts/pages by default in WordPress."
 
 #: lib/page-settings/seo-forms.php:31
 msgid "この機能を有効にするとトップページやカテゴリーページ等にもcanonicalタグが挿入されます。"
-msgstr "When this feature is enabled, a canonical tag is also inserted in the home page, category pages, etc."
+msgstr "When this feature is enabled, a canonical tag is also inserted in the front page, category pages, etc."
 
 #: lib/page-settings/seo-forms.php:34
 msgid "分割ページにrel=\"next\"/\"prev\"タグを追加する"
@@ -9028,7 +9028,7 @@ msgstr "Set 2nd and later category pages to noindex"
 
 #: lib/page-settings/seo-forms.php:44
 msgid "カテゴリーページのトップページ以外はnoindex設定にします。"
-msgstr "Set category pages except the homepage to noindex."
+msgstr "Set category pages except the front page to noindex."
 
 #: lib/page-settings/seo-forms.php:49
 msgid "タグページをnoindexとする"
@@ -9044,7 +9044,7 @@ msgstr "Set 2nd and later tag pages to noindex"
 
 #: lib/page-settings/seo-forms.php:56
 msgid "タグページのトップページ以外はnoindex設定にします。"
-msgstr "Set tag pages except the homepage to noindex."
+msgstr "Set tag pages except the front page to noindex."
 
 #: lib/page-settings/seo-forms.php:60
 msgid "その他のアーカイブページをnoindexとする"
@@ -9175,7 +9175,7 @@ msgstr "Select the date format to display. The way it transmitted to search engi
 
 #: lib/page-settings/seo-forms.php:161
 msgid "この「SEO」での「表示する日付」設定では、「投稿日」か「更新日」いずれかを検索エンジンに伝えたいか出力するHTMLを制御します。"
-msgstr "In this \"SEO\" \"Display Date\" setting, you control the HTML output to inform search engines of either the \"Published Date\" or the \"Updated Date.\""
+msgstr "In this \"SEO\" \"Display Date\" setting, you control the HTML output to inform search engines of either the \"Published Date\" or the \"Updated Date.\"."
 
 #: lib/page-settings/seo-forms.php:161
 msgid "「投稿日・更新日を表示」を選択した場合は、「更新日」が優先して検索エンジンに伝えられます。"
@@ -9235,23 +9235,23 @@ msgstr "Sets the display of categories and tags."
 
 #: lib/page-settings/single-forms.php:83
 msgid "関連記事設定"
-msgstr "Related articles settings"
+msgstr "Related posts settings"
 
 #: lib/page-settings/single-forms.php:86
 msgid "関連記事の表示に関する設定です。"
-msgstr "The settings related to display of related articles."
+msgstr "The settings related to display of related posts."
 
 #: lib/page-settings/single-forms.php:103
 msgid "デモの関連記事はランダムです。"
-msgstr "The related articles demo is random."
+msgstr "The related posts demo is random."
 
 #: lib/page-settings/single-forms.php:115
 msgid "関連記事を表示する"
-msgstr "Display related articles"
+msgstr "Display related posts"
 
 #: lib/page-settings/single-forms.php:116
 msgid "投稿ページの関連記事を表示するか。"
-msgstr "Do you want to display related articles of post pages?"
+msgstr "Do you want to display related posts of post pages?"
 
 #: lib/page-settings/single-forms.php:124
 msgid "関連性"
@@ -9259,11 +9259,11 @@ msgstr "Relationship"
 
 #: lib/page-settings/single-forms.php:133
 msgid "関連記事にカテゴリーを関連づけるかタグを関連づけるか。タグに関連付けて、タグがない場合はカテゴリー関連記事が表示されます。逆もしかり。"
-msgstr "Do you want to associate categories or tags with related articles? If there are tags associated but no tags, category-related articles will be displayed, and vice versa."
+msgstr "Do you want to associate categories or tags with related posts? If there are tags associated but no tags, category-related posts will be displayed, and vice versa."
 
 #: lib/page-settings/single-forms.php:141
 msgid "関連記事見出し"
-msgstr "Related articles heading"
+msgstr "Related posts heading"
 
 #: lib/page-settings/single-forms.php:145
 #: lib/shortcodes.php:1197
@@ -9283,7 +9283,7 @@ msgstr "Heading"
 
 #: lib/page-settings/single-forms.php:146
 msgid "関連記事の見出しを入力してください。"
-msgstr "Enter a heading for related articles."
+msgstr "Enter a heading for related posts."
 
 #: lib/page-settings/single-forms.php:147
 msgid "サブ見出し"
@@ -9291,7 +9291,7 @@ msgstr "Subheading"
 
 #: lib/page-settings/single-forms.php:148
 msgid "関連記事の補助となる見出しを入力してください。"
-msgstr "Enter a subheading for related articles."
+msgstr "Enter a subheading for related posts."
 
 #: lib/page-settings/single-forms.php:156
 #: lib/page-settings/single-forms.php:314
@@ -9319,7 +9319,7 @@ msgstr "Vertical card 4-column (recommended display count: 4, 8, 12,...)"
 
 #: lib/page-settings/single-forms.php:167
 msgid "関連記事の表示タイプを選択します。"
-msgstr "Select the display type of the related articles."
+msgstr "Select the display type of the related posts."
 
 #: lib/page-settings/single-forms.php:167
 msgid "「ミニカード」を選択した際は、スニペット（説明文等）は非表示になります。"
@@ -9332,7 +9332,7 @@ msgstr "Display count"
 
 #: lib/page-settings/single-forms.php:180
 msgid "関連記事で表示する投稿数の設定です。（最小：2、最大：30）"
-msgstr "The post count setting to be displayed for related articles. (minimum: 2, maximum: 30)"
+msgstr "The post count setting to be displayed for related posts. (minimum: 2, maximum: 30)"
 
 #: lib/page-settings/single-forms.php:188
 msgid "取得期間"
@@ -9381,7 +9381,7 @@ msgstr "3 years"
 
 #: lib/page-settings/single-forms.php:206
 msgid "関連記事を取得する期間を選択することで新鮮な記事を表示しやすくします。ニュースサイト等で、新しい記事が並んで欲しい時に設定します。頻回にサイトを更新していない場合は利用しないことをおすすめします。"
-msgstr "Selecting a period for getting related articles makes it easier to display fresh articles. Set this item when you want to see new articles lined up on a news site, etc. If you do not update your site frequently, we recommend that you do not use this item."
+msgstr "Selecting a period for getting related posts makes it easier to display fresh posts. Set this item when you want to see new posts lined up on a news site, etc. If you do not update your site frequently, we recommend that you do not use this item."
 
 #: lib/page-settings/single-forms.php:227
 msgid "最大自動生成抜粋文字数"
@@ -9389,7 +9389,7 @@ msgstr "Maximum character count for automatically generated excerpts"
 
 #: lib/page-settings/single-forms.php:232
 msgid "「関連記事エントリーカード」で、「本文から自動生成される抜粋文」を表示する場合の最大文字数を設定します。※投稿編集画面の抜粋文ではありません。（最小：1、最大：500）"
-msgstr "Sets the maximum number of characters when displaying \"Auto-generated from the text excerpt\" in \"Related article entry cards\". *This is not excerpt text of the post editing screen. (minimum: 1, maximum: 500)"
+msgstr "Sets the maximum number of characters when displaying \"Auto-generated from the text excerpt\" in \"Related post entry cards\". *This is not excerpt text of the post editing screen. (minimum: 1, maximum: 500)"
 
 #: lib/page-settings/single-forms.php:259
 msgid "投稿の関連記事のエントリーカードに投稿関連情報を表示するかどうか。"
@@ -9425,11 +9425,11 @@ msgstr "Display position"
 
 #: lib/page-settings/single-forms.php:337
 msgid "関連記事上"
-msgstr "Above related articles"
+msgstr "Above related posts"
 
 #: lib/page-settings/single-forms.php:338
 msgid "関連記事下（デフォルト）"
-msgstr "Below related articles (default)"
+msgstr "Below related posts (default)"
 
 #: lib/page-settings/single-forms.php:339
 msgid "コメント下"
@@ -9591,7 +9591,7 @@ msgstr "Enter a message for prompting visitors to follow."
 
 #: lib/page-settings/sns-follow-forms.php:57
 msgid "には、投稿者のそれぞれの表示名が入ります。"
-msgstr "The display name of each contributor is entered in"
+msgstr "The display name of each contributor is entered in."
 
 #: lib/page-settings/sns-follow-forms.php:65
 msgid "SNSサービスのURL"
@@ -9654,14 +9654,14 @@ msgstr "Facebook"
 #: lib/page-settings/sns-share-forms-top.php:70
 #: tmp/sns-share-buttons.php:37
 msgid "Threads"
-msgstr ""
+msgstr "Threads"
 
 #: lib/page-settings/sns-follow-forms.php:78
 #: lib/page-settings/sns-share-forms-bottom.php:86
 #: lib/page-settings/sns-share-forms-top.php:73
 #: tmp/sns-share-buttons.php:41
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: lib/page-settings/sns-follow-forms.php:79
 msgid "Google+"
@@ -9690,7 +9690,7 @@ msgstr "YouTube"
 
 #: lib/page-settings/sns-follow-forms.php:84
 msgid "TikTok"
-msgstr ""
+msgstr "TikTok"
 
 #: lib/page-settings/sns-follow-forms.php:85
 #: lib/page-settings/sns-share-forms-bottom.php:104
@@ -9705,7 +9705,7 @@ msgstr "note"
 
 #: lib/page-settings/sns-follow-forms.php:87
 msgid "SoundCloud"
-msgstr ""
+msgstr "SoundCloud"
 
 #: lib/page-settings/sns-follow-forms.php:88
 msgid "Flickr"
@@ -9910,7 +9910,7 @@ msgstr "Bottom share button settings"
 
 #: lib/page-settings/sns-share-forms-bottom.php:13
 msgid "ボトムシェアボタンの表示に関する設定です。"
-msgstr "The setting related to display of bottom share buttons"
+msgstr "The setting related to display of bottom share buttons."
 
 #: lib/page-settings/sns-share-forms-bottom.php:36
 msgid "ボトムシェアボタンの表示"
@@ -10063,7 +10063,7 @@ msgstr "Top share button settings"
 
 #: lib/page-settings/sns-share-forms-top.php:13
 msgid "トップシェアボタンの表示に関する設定です。"
-msgstr "The setting related to display of top share buttons"
+msgstr "The setting related to display of top share buttons."
 
 #: lib/page-settings/sns-share-forms-top.php:36
 msgid "トップシェアボタンの表示"
@@ -10364,7 +10364,7 @@ msgstr "Whether to output the meta description tag in the head tag of the page o
 
 #: lib/page-settings/title-forms.php:289
 msgid "カテゴリー・タグページのページのheadタグ内に、メタキーワードタグを出力するか。※SEO的にはほとんど意味のない設定だと思います。"
-msgstr "Whether to output the meta keyword tag in the head tag of the page of the category tag page. * Almost meaningless for SEO. "
+msgstr "Whether to output the meta keyword tag in the head tag of the page of the category tag page. * Almost meaningless for SEO."
 
 #: lib/page-settings/title-forms.php:302
 msgid "タイトル共通設定"
@@ -10392,7 +10392,7 @@ msgstr "Separator"
 
 #: lib/page-settings/title-forms.php:333
 msgid " | （パイプ）"
-msgstr "| (pipe)"
+msgstr " | (pipe)"
 
 #: lib/page-settings/title-forms.php:334
 msgid " - （ハイフン）"
@@ -10404,11 +10404,11 @@ msgstr "Set a character that will be used to delimit titles."
 
 #: lib/page-settings/title-funcs.php:22
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: lib/page-settings/title-funcs.php:25
 msgid "|"
-msgstr ""
+msgstr "|"
 
 #: lib/page-settings/toc-forms.php:13
 msgid "目次設定"
@@ -10420,7 +10420,7 @@ msgstr "Table of contents settings similar to those of plugins for table of cont
 
 #: lib/page-settings/toc-forms.php:44
 msgid "デモの記事はランダムです。H2見出しがない本文には目次は表示されません。"
-msgstr "The demo articles are random. The table of contents will not be displayed for body text without a H2 heading."
+msgstr "The demo posts are random. The table of contents will not be displayed for body text without a H2 heading."
 
 #: lib/page-settings/toc-forms.php:52
 msgid "目次の表示"
@@ -10669,7 +10669,7 @@ msgstr "The settings have been saved."
 
 #: lib/page-settings/_top-page.php:157
 msgid "Cocoonの設定全般についてはマニュアルを参照してください。"
-msgstr "See the manual for details on the Cocoon settings in general."
+msgstr "See the manual for details on the Cocoon Settings in general."
 
 #: lib/page-settings/_top-page.php:158
 msgid "テーマ利用マニュアル"
@@ -10936,7 +10936,7 @@ msgstr "If you change the settings after using \"Speech balloon block\" in the b
 
 #: lib/page-speech-balloon/list.php:12
 msgid "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当けんとうがつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。"
-msgstr "I am a cat. As yet I have no name. I’ve no idea where I was born. All I remember is that I was miaowing in a dampish dark place."
+msgstr "I am a cat. As yet I have no name. I've no idea where I was born. All I remember is that I was miaowing in a dampish dark place."
 
 #: lib/page-speech-balloon/list.php:13
 msgid "雨ニモマケズ 風ニモマケズ 雪ニモ夏ノ暑サニモマケヌ 丈夫ナカラダヲモチ 慾ハナク 決シテ瞋ラズ ツモシヅカニワラッテヰル"
@@ -10968,7 +10968,7 @@ msgstr "It is said that heaven does not create one man above or below another ma
 
 #: lib/page-speech-balloon/list.php:20
 msgid "「おい地獄さ行えぐんだで！」　二人はデッキの手すりに寄りかかって、蝸牛が背のびをしたように延びて、海を抱かかえ込んでいる函館の街を見ていた。"
-msgstr "\"Oi! We’re off to Hell!\". The two fishermen leaned over the deck’s guardrail, craning like snails stretching out of their shells to view the ocean-hugging town of Hakodate."
+msgstr "\"Oi! We're off to Hell!\". The two fishermen leaned over the deck's guardrail, craning like snails stretching out of their shells to view the ocean-hugging town of Hakodate."
 
 #: lib/page-speech-balloon/list.php:21
 msgid "私がウスウスと眼を覚ました時、こうした蜜蜂の唸るような音は、まだ、その弾力の深い余韻を、私の耳の穴の中にハッキリと引き残していた。"
@@ -11196,7 +11196,7 @@ msgstr "However, it does not support WordPress standard Lazy Load exclusion."
 
 #: lib/page-speed-up/speed-up-forms.php:143
 msgid "今後のWordPressの動向次第では、CocoonのLazy Load機能は廃止するかもしれません。"
-msgstr "Depending on future WordPress trends, Cocoon’s Lazy Load feature may be discontinued"
+msgstr "Depending on future WordPress trends, Cocoon's Lazy Load feature may be discontinued."
 
 #: lib/page-speed-up/speed-up-forms.php:152
 msgid "Googleフォント"
@@ -11308,59 +11308,59 @@ msgstr "This is a search results page."
 
 #: lib/settings-preview.php:178
 msgid "ページが見つかりませんでした"
-msgstr ""
+msgstr "Page not found"
 
 #: lib/settings-preview.php:203
 msgid "サンプル記事タイトル"
-msgstr ""
+msgstr "Sample post title"
 
 #: lib/settings-preview.php:205
 msgid "これはテーマ設定の見え方を確認するためのサンプル本文です。文字サイズ・行間・配色などの設定がどのように反映されるかをプレビューできます。"
-msgstr ""
+msgstr "This is sample body text for previewing your theme settings. You can preview how settings such as font size, line height, and colors are applied."
 
 #: lib/settings-preview.php:207
 msgid "見出し2のサンプル"
-msgstr ""
+msgstr "Heading 2 sample"
 
 #: lib/settings-preview.php:208
 msgid "見出し2の装飾（背景色・ボーダー・キーカラー）がここに反映されます。本文の段落スタイルもあわせて確認できます。"
-msgstr ""
+msgstr "Heading 2 decorations (background color, border, and key color) are reflected here. You can also check the body paragraph style."
 
 #: lib/settings-preview.php:210
 msgid "見出し3のサンプル"
-msgstr ""
+msgstr "Heading 3 sample"
 
 #: lib/settings-preview.php:211
 msgid "見出し3の装飾を確認するためのサンプルテキストです。"
-msgstr ""
+msgstr "This is sample text for checking the Heading 3 decorations."
 
 #: lib/settings-preview.php:214
 msgid "これは引用ブロックのサンプルです。引用の装飾を確認できます。"
-msgstr ""
+msgstr "This is a sample blockquote. You can check the quote styling."
 
 #: lib/settings-preview.php:218
 msgid "リスト項目のサンプル1"
-msgstr ""
+msgstr "List item sample 1"
 
 #: lib/settings-preview.php:219
 msgid "リスト項目のサンプル2"
-msgstr ""
+msgstr "List item sample 2"
 
 #: lib/settings-preview.php:220
 msgid "リスト項目のサンプル3"
-msgstr ""
+msgstr "List item sample 3"
 
 #: lib/settings-preview.php:223
 msgid "リンクの色を確認するための"
-msgstr ""
+msgstr "This is a "
 
 #: lib/settings-preview.php:223
 msgid "サンプルリンク"
-msgstr ""
+msgstr "sample link"
 
 #: lib/settings-preview.php:223
 msgid "です。"
-msgstr ""
+msgstr " for checking the link color."
 
 #: lib/settings.php:404
 #: tmp/navi.php:9
@@ -11483,7 +11483,7 @@ msgstr "Failed to retrieve item."
 
 #: lib/shortcodes-amazon.php:565
 msgid "このエラーメッセージは\"サイト管理者のみ\"に表示されています。"
-msgstr "This error message is displayed in \"Site administrators only\""
+msgstr "This error message is displayed in \"Site administrators only\"."
 
 #: lib/shortcodes-amazon.php:1069
 msgid "Amazon商品取得エラー"
@@ -11581,7 +11581,7 @@ msgstr "Cannot retrieve RSS feed"
 
 #: lib/shortcodes.php:1044
 msgid "updatedショートコードは投稿・固定ページ以外では利用できません。"
-msgstr "updated short codes can only be used on posts and fixed pages."
+msgstr "updated short codes can only be used on posts and pages."
 
 #: lib/shortcodes.php:1168
 msgid "保存エラー"
@@ -11589,11 +11589,11 @@ msgstr "Save error"
 
 #: lib/shortcodes.php:1186
 msgid "エラー："
-msgstr "Error: "
+msgstr "Error:"
 
 #: lib/shortcodes.php:1260
 msgid "A,B,C,D,E"
-msgstr ""
+msgstr "A,B,C,D,E"
 
 #: lib/shortcodes.php:1372
 msgid "総計"
@@ -11621,11 +11621,11 @@ msgstr "Facebook URL"
 
 #: lib/sns-follow.php:140
 msgid "Threads URL"
-msgstr ""
+msgstr "Threads URL"
 
 #: lib/sns-follow.php:141
 msgid "Reddit URL"
-msgstr ""
+msgstr "Reddit URL"
 
 #: lib/sns-follow.php:143
 msgid "はてなブックマーク URL"
@@ -11817,12 +11817,12 @@ msgstr "Ads [ad]"
 #: lib/tinymce/shortcodes.php:67
 #: blocks/src/toolbutton/dropdown-shortcodes.js:119
 msgid "新着記事一覧"
-msgstr "List of new articles"
+msgstr "List of new posts"
 
 #: lib/tinymce/shortcodes.php:77
 #: blocks/src/toolbutton/dropdown-shortcodes.js:126
 msgid "人気記事一覧"
-msgstr "List of popular articles"
+msgstr "List of popular posts"
 
 #: lib/tinymce/shortcodes.php:83
 #: lib/widgets/box-menus.php:80
@@ -11967,21 +11967,21 @@ msgstr "Open Reading Settings"
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s min"
-msgstr[1] "%s min"
+msgstr[1] "%s mins"
 
 #: lib/utils.php:2655
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s hour"
-msgstr[1] "%s hour"
+msgstr[1] "%s hours"
 
 #: lib/utils.php:2663
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s day"
-msgstr[1] "%s day"
+msgstr[1] "%s days"
 
 #: lib/utils.php:2671
 #, php-format
@@ -11994,7 +11994,7 @@ msgstr[1] "%s weeks"
 #, php-format
 msgid "%sヶ月"
 msgid_plural "%sヶ月"
-msgstr[0] "%s months"
+msgstr[0] "%s month"
 msgstr[1] "%s months"
 
 #: lib/utils.php:2690
@@ -12090,19 +12090,19 @@ msgstr "Widgets are displayed below the social media buttons at the very bottom 
 
 #: lib/widget-areas.php:178
 msgid "投稿関連記事上"
-msgstr "Related Articles"
+msgstr "Related Posts"
 
 #: lib/widget-areas.php:180
 msgid "関連記事の上に表示されるウィジェット。"
-msgstr "Widget displayed above related articles."
+msgstr "Widget displayed above related posts."
 
 #: lib/widget-areas.php:194
 msgid "投稿関連記事下"
-msgstr "Below related articles in a post"
+msgstr "Below related posts in a post"
 
 #: lib/widget-areas.php:196
 msgid "関連記事の下（広告を表示している場合はその下）に表示されるウィジェット。"
-msgstr "Widgets are displayed below related articles (if ads are displayed, the widgets will be displayed below the ads)."
+msgstr "Widgets are displayed below related posts (if ads are displayed, the widgets will be displayed below the ads)."
 
 #: lib/widget-areas.php:210
 msgid "投稿コメント上"
@@ -12276,7 +12276,7 @@ msgstr "Ad format (valid only when the AdSense code is entered)"
 
 #: lib/widgets/author-box.php:20
 msgid "記事を書いた著者のプロフィール情報を表示するウィジェットです。"
-msgstr "This is a widget to display the profile of the author of the article."
+msgstr "This is a widget to display the profile of the author of the post."
 
 #: lib/widgets/author-box.php:75
 #: blocks/src/block/blogcard/deprecated.js:49
@@ -12292,7 +12292,7 @@ msgstr "Label"
 
 #: lib/widgets/author-box.php:77
 msgid "例：この記事を書いた人"
-msgstr "Example: The person who wrote this article"
+msgstr "Example: The person who wrote this post"
 
 #: lib/widgets/author-box.php:82
 #: blocks/src/block/profile/edit.js:93
@@ -12457,11 +12457,11 @@ msgstr "Facebook balloon"
 
 #: lib/widgets/fb-like-balloon.php:23
 msgid "投稿・個別ページのアイキャッチを利用したFacebookページへの「フォロー」ボタンを表示するウィジェットです。"
-msgstr "This widget is for displaying the \"Follow\" button on a Facebook page with the eye-catching image of a post/individual page."
+msgstr "This widget is for displaying the \"Follow\" button on a Facebook page with the featured image of a post/individual page."
 
 #: lib/widgets/fb-like-balloon.php:79
 msgid "この記事が気に入ったら最新ニュース情報を、<br><span class=\"bold-red\">フォロー</span>してチェックしよう！"
-msgstr "If you liked this article, <br><span class=\"bold-red\">Follow</span> the latest news!"
+msgstr "If you liked this post, <br><span class=\"bold-red\">Follow</span> the latest news!"
 
 #: lib/widgets/fb-like-balloon.php:87
 #: lib/widgets/fb-like-box.php:123
@@ -12483,13 +12483,13 @@ msgstr "Facebook box"
 
 #: lib/widgets/fb-like-box.php:22
 msgid "「この記事が気に入ったらフォローしよう」ウィジェットです。"
-msgstr "This is the \"If you liked this article, Follow it!\" widget."
+msgstr "This is the \"If you liked this post, Follow it!\" widget."
 
 #: lib/widgets/fb-like-box.php:31
 #: lib/widgets/fb-like-box.php:109
 #: lib/widgets/fb-like-box.php:111
 msgid "この記事が気に入ったら<br>フォローしよう"
-msgstr "If you liked this article,<br>Follow it!"
+msgstr "If you liked this post,<br>Follow it!"
 
 #: lib/widgets/fb-like-box.php:32
 #: lib/widgets/fb-like-box.php:118
@@ -12524,7 +12524,7 @@ msgstr "LINE ID (@ is not required)"
 
 #: lib/widgets/info-list.php:20
 msgid "最近書かれた記事のタイトルリストを表示します。"
-msgstr "Displays the list of recently written article titles."
+msgstr "Displays the list of recently written post titles."
 
 #: lib/widgets/info-list.php:122
 msgid "新着情報のタイトル"
@@ -12532,7 +12532,7 @@ msgstr "New articles title"
 
 #: lib/widgets/info-list.php:129
 msgid "キャプション（枠線内表示）"
-msgstr "Caption (Displayed inside the frame)"
+msgstr "Caption (Displayed inside the border)"
 
 #: lib/widgets/info-list.php:136
 #: lib/widgets/new-entries.php:185
@@ -12653,23 +12653,23 @@ msgstr "Display arrow"
 
 #: lib/widgets/new-entries.php:20
 msgid "新着記事リストをサムネイルつきで表示するウィジェットです。"
-msgstr "This is a widget for displaying a list of new articles with thumbnails."
+msgstr "This is a widget for displaying a list of new posts with thumbnails."
 
 #: lib/widgets/new-entries.php:169
 msgid "全ての新着記事（全ページで表示）"
-msgstr "All new articles (displayed on all pages)"
+msgstr "All new posts (displayed on all pages)"
 
 #: lib/widgets/new-entries.php:170
 msgid "カテゴリー別新着記事（投稿・カテゴリーで表示）"
-msgstr "New articles by category (displayed on posts and categories)"
+msgstr "New posts by category (displayed on posts and categories)"
 
 #: lib/widgets/new-entries.php:178
 msgid "新着記事のタイトル"
-msgstr "New articles title"
+msgstr "New posts title"
 
 #: lib/widgets/new-entries.php:220
 msgid "「固定表示」記事を表示する"
-msgstr "Display \"Fixed display\" articles"
+msgstr "Display \"Fixed display\" posts"
 
 #: lib/widgets/new-entries.php:232
 #: lib/widgets/popular-entries.php:244
@@ -12716,19 +12716,19 @@ msgstr "This is a text widget for display on PCs only. It is displayed on screen
 
 #: lib/widgets/popular-entries.php:22
 msgid "人気記事リストをサムネイルつきで表示するウィジェットです。"
-msgstr "This is a widget for displaying a list of popular articles with thumbnails."
+msgstr "This is a widget for displaying a list of popular posts with thumbnails."
 
 #: lib/widgets/popular-entries.php:169
 msgid "全ての人気記事（全ページで表示）"
-msgstr "All popular articles (displayed on all pages)"
+msgstr "All popular posts (displayed on all pages)"
 
 #: lib/widgets/popular-entries.php:170
 msgid "カテゴリー別人気記事（投稿・カテゴリーで表示）"
-msgstr "Popular articles by category (displayed on posts and categories)"
+msgstr "Popular posts by category (displayed on posts and categories)"
 
 #: lib/widgets/popular-entries.php:175
 msgid "人気記事のタイトル"
-msgstr "Popular articles title"
+msgstr "Popular posts title"
 
 #: lib/widgets/popular-entries.php:198
 msgid "集計期間"
@@ -12780,11 +12780,11 @@ msgstr "This is a widget for displaying the recommended card list."
 
 #: lib/widgets/related-entries.php:20
 msgid "関連記事リストをサムネイルつきで表示するウィジェットです。投稿ページのみ表示されます。"
-msgstr "This is a widget to display a list of related articles with thumbnails. It is displayed on posts only."
+msgstr "This is a widget to display a list of related posts with thumbnails. It is displayed on posts only."
 
 #: lib/widgets/related-entries.php:168
 msgid "関連記事のタイトル"
-msgstr "Related articles title"
+msgstr "Related posts title"
 
 #: lib/widgets/related-entries.php:191
 msgid "関連付け"
@@ -12806,11 +12806,11 @@ msgstr "This is a widget for displaying table of contents links."
 
 #: lib/widgets/toc.php:100
 msgid "Cocoon設定「目次」タブの「目次表示の深さ」で表示されていないものは表示できません。"
-msgstr "Cocoon Settings You cannot display anything that is not displayed in “Table of Contents Display Depth” on the “Table of Contents” tab."
+msgstr "Cocoon Settings You cannot display anything that is not displayed in \"Table of Contents Display Depth\" on the \"Table of Contents\" tab."
 
 #: lib/widgets/toc.php:100
 msgid "例：Cocoon設定で「h2見出しまで」と設定されている場合、このウィジェットで「h3見出し」以降を表示することはできません。"
-msgstr "Example: If “up to h2 heading” is set in Cocoon settings, this widget cannot display “h3 heading” and beyond."
+msgstr "Example: If \"up to h2 heading\" is set in Cocoon Settings, this widget cannot display \"h3 heading\" and beyond."
 
 #: lib/_defins.php:342
 #: blocks/src/block/faq/edit.js:127
@@ -12825,7 +12825,7 @@ msgstr "PR"
 
 #: lib/_defins.php:346
 msgid "記事内に広告が含まれています。"
-msgstr "This article contains advertisements."
+msgstr "This post contains advertisements."
 
 #: lib/_defins.php:351
 #: lib/_defins.php:366
@@ -12861,7 +12861,7 @@ msgstr "Double rectangle"
 #: lib/_defins.php:356
 #: lib/_defins.php:382
 msgid "記事内広告"
-msgstr "In-article ad"
+msgstr "In-post ad"
 
 #: lib/_defins.php:368
 msgid "レクタングル"
@@ -13091,7 +13091,7 @@ msgstr "If not set, the color will be simply lighter."
 
 #: skins/raku-color-changing/functions.php:252
 msgid "記事内のタイトル<br><small>（選択した4色を順に適用する）</small>"
-msgstr "Titles in the article<br><small>(Apply 4 colors in order)</small>"
+msgstr "Titles in the post<br><small>(Apply 4 colors in order)</small>"
 
 #: skins/raku-color-changing/functions.php:257
 #: skins/raku-color-changing/functions.php:279
@@ -13113,7 +13113,7 @@ msgstr "[Opacity (Color of the line to the left of the H3 title)]"
 
 #: skins/raku-color-changing/functions.php:268
 msgid " H3タイトルの左側の線だけ色が濃い方が綺麗なため、個別に設定できます。"
-msgstr "Left side of the H3 title can be set individually, as it looks well to have a darker color."
+msgstr " Left side of the H3 title can be set individually, as it looks well to have a darker color."
 
 #: skins/raku-color-changing/functions.php:274
 msgid "サイドバー内のタイトル<br><small>（選択した4色を順に適用する）</small>"
@@ -13145,7 +13145,7 @@ msgstr "You can select the English font to be used for the logo text, global nav
 
 #: skins/skin-grayish-topfull/functions.php:240
 msgid "※固定ページや投稿のコンテンツは除く。「設定なし」にするとCocoon設定 > 全体設定 > サイトフォント の設定を継承します。"
-msgstr "*Excluding fixed pages and post content. If set to “No Settings”, Cocoon inherits the settings in Cocoon Settings > General Settings > Site Font."
+msgstr "*Excluding pages and post content. If set to \"No Settings\", Cocoon inherits the settings in Cocoon Settings > General Settings > Site Font."
 
 #: skins/skin-grayish-topfull/functions.php:247
 #: skins/skin-grayish-topfull/functions.php:249
@@ -13213,7 +13213,7 @@ msgstr "Main accent the brightest blue"
 
 #: skins/skin-grayish-topfull/functions.php:453
 msgid "サイトロゴテキストや各テキストリンクのホバー時の色、<br>フロントページのNewPostの色、<br>カテゴリタイトル下線、<br>サイドバー・ウィジェット見出し下線の色、<br>フッター内アクセント線の色を変更。"
-msgstr "Changed the color of the site logo text and each text link when hovering, the color of the New Post on the front page, the underline of the category title, the color of the underline of the sidebar widget heading, and the color of the accent line in the footer."
+msgstr "Changed the color of the site logo text and each text link when hovering,<br>the color of the New Post on the front page,<br>the underline of the category title,<br>the color of the underline of the sidebar widget heading,<br>and the color of the accent line in the footer."
 
 #: skins/skin-grayish-topfull/functions.php:470
 msgid "メイン 薄い青色"
@@ -13221,7 +13221,7 @@ msgstr "Main Light blue"
 
 #: skins/skin-grayish-topfull/functions.php:471
 msgid "グローバルナビの3階層目の背景色、<br>フロントページのView Moreボタン、次のページへボタン、タグクラウドのホバー時背景色。"
-msgstr "The background color of the third level of the global navigation, the View More button on the front page, the Next page button, and the hover background color of the tag cloud."
+msgstr "The background color of the third level of the global navigation,<br>the View More button on the front page, the Next page button, and the hover background color of the tag cloud."
 
 #: skins/skin-grayish-topfull/functions.php:488
 msgid "メイン 一番薄い青"
@@ -13229,7 +13229,7 @@ msgstr "Main the lightest blue"
 
 #: skins/skin-grayish-topfull/functions.php:489
 msgid "フロントページカテゴリー２つ目の背景色、<br>目次・記事下のSNSボタン背景のストライプの青系、<br>一覧ページのページネーションボタン背景色。"
-msgstr "Background color for the second front page category, blue stripes for the social networking button backgrounds under the table of contents and articles, and the pagination button background color on the list page."
+msgstr "Background color for the second front page category,<br>blue stripes for the social networking button backgrounds under the table of contents and posts,<br>and the pagination button background color on the list page."
 
 #: skins/skin-grayish-topfull/functions.php:506
 msgid "サブ 濃い青"
@@ -13245,7 +13245,7 @@ msgstr "Sub more dark blue"
 
 #: skins/skin-grayish-topfull/functions.php:525
 msgid "カテゴリーラベル背景色・記事内タグの枠線とアイコンの色。"
-msgstr "Category label background color, border of tags in articles and color of icons."
+msgstr "Category label background color, border of tags in posts and color of icons."
 
 #: skins/skin-grayish-topfull/functions.php:668
 msgid "フロントページ設定：ヘッダー"
@@ -13283,7 +13283,7 @@ msgstr "PC: Background color of global navigation"
 
 #: skins/skin-grayish-topfull/functions.php:712
 msgid "グローバルナビの背景色。"
-msgstr "Global navigation background color"
+msgstr "Global navigation background color."
 
 #: skins/skin-grayish-topfull/functions.php:730
 msgid "【PC】グローバルナビ背景色の不透明度調整"
@@ -13301,7 +13301,7 @@ msgstr "The larger the value, the darker the background color."
 #: skins/skin-grayish-topfull/functions.php:1790
 #: skins/skin-grayish-topfull/functions.php:1888
 msgid "（背景色なし)"
-msgstr "（No background color)"
+msgstr "(No background color)"
 
 #: skins/skin-grayish-topfull/functions.php:746
 #: skins/skin-grayish-topfull/functions.php:1491
@@ -13381,11 +13381,11 @@ msgstr "Display Facebook follow button"
 
 #: skins/skin-grayish-topfull/functions.php:855
 msgid "Threads フォローボタンを表示"
-msgstr ""
+msgstr "Show Threads follow button"
 
 #: skins/skin-grayish-topfull/functions.php:859
 msgid "Reddit フォローボタンを表示"
-msgstr ""
+msgstr "Show Reddit follow button"
 
 #: skins/skin-grayish-topfull/functions.php:863
 msgid "はてブ フォローボタンを表示"
@@ -13475,7 +13475,7 @@ msgstr "New Post"
 
 #: skins/skin-grayish-topfull/functions.php:1208
 msgid "【フロントページ】\"New Post\"を変更"
-msgstr "[Front Page] Change “New Post”"
+msgstr "[Front Page] Change \"New Post\""
 
 #: skins/skin-grayish-topfull/functions.php:1209
 msgid "New Postを別のテキストに変更できます。"
@@ -13488,22 +13488,22 @@ msgstr "It is displayed when you select Cocoon Settings > Index > By Category."
 
 #: skins/skin-grayish-topfull/functions.php:1210
 msgid "※空欄の場合は\"New Post\"が表示されます。"
-msgstr "If left blank, “New Post” will be displayed."
+msgstr "If left blank, \"New Post\" will be displayed."
 
 #: skins/skin-grayish-topfull/functions.php:1220
 #: skins/skin-grayish-topfull/functions.php:1343
 #: skins/skin-grayish-topfull/functions.php:1344
 #: skins/skin-grayish-topfull/functions.php:1346
 msgid "最新の記事"
-msgstr "Latest Articles"
+msgstr "Latest Posts"
 
 #: skins/skin-grayish-topfull/functions.php:1228
 msgid "【フロントページ】\"最新の記事\"を変更"
-msgstr "[Front Page] Change “Latest Articles”"
+msgstr "[Front Page] Change \"Latest Posts\""
 
 #: skins/skin-grayish-topfull/functions.php:1229
 msgid "\"最新の記事\"を別のテキストに変更できます。"
-msgstr "“Latest Articles” can be changed to another text."
+msgstr "\"Latest Posts\" can be changed to another text."
 
 #: skins/skin-grayish-topfull/functions.php:1229
 #: skins/skin-grayish-topfull/functions.php:1269
@@ -13512,19 +13512,19 @@ msgstr "It is displayed when you select Cocoon Settings>Index>Tab List or By Cat
 
 #: skins/skin-grayish-topfull/functions.php:1230
 msgid "※空欄の場合は\"最新の記事\"が表示されます。"
-msgstr "If the field is left blank, “Latest Articles” will be displayed."
+msgstr "If the field is left blank, \"Latest Posts\" will be displayed."
 
 #: skins/skin-grayish-topfull/functions.php:1248
 msgid "【フロントページ】\"Category\"を変更"
-msgstr "[Top page] Change “Category”"
+msgstr "[front page] Change \"Category\""
 
 #: skins/skin-grayish-topfull/functions.php:1249
 msgid "Categoryを別のテキストに変更できます。"
-msgstr "“Category” can be changed to another text."
+msgstr "\"Category\" can be changed to another text."
 
 #: skins/skin-grayish-topfull/functions.php:1250
 msgid "※空欄の場合は\"Category\"が表示されます。"
-msgstr "If the field is left blank, “Category” will be displayed."
+msgstr "If the field is left blank, \"Category\" will be displayed."
 
 #: skins/skin-grayish-topfull/functions.php:1260
 #: skins/skin-grayish-topfull/functions.php:1389
@@ -13535,7 +13535,7 @@ msgstr "View More"
 
 #: skins/skin-grayish-topfull/functions.php:1268
 msgid "【フロントページ】View Moreボタン \"View More\"を変更"
-msgstr "[Front page] Change More button “View More”"
+msgstr "[Front page] Change More button \"View More\""
 
 #: skins/skin-grayish-topfull/functions.php:1269
 msgid "\"View More\"を別のテキストに変更できます。"
@@ -13543,7 +13543,7 @@ msgstr "\"View More\" can be changed to another text."
 
 #: skins/skin-grayish-topfull/functions.php:1270
 msgid "※空欄の場合は\"View More\"が表示されます。"
-msgstr "If the field is left blank, “View More” will be displayed."
+msgstr "If the field is left blank, \"View More\" will be displayed."
 
 #: skins/skin-grayish-topfull/functions.php:1280
 #: skins/skin-grayish-topfull/functions.php:1402
@@ -13554,7 +13554,7 @@ msgstr "Next"
 
 #: skins/skin-grayish-topfull/functions.php:1288
 msgid "【フロントページ・各一覧ページ】Nextボタン \"Next\"を変更"
-msgstr "[Front page and each list page] Changed Next button “Next\""
+msgstr "[Front page and each list page] Changed Next button \"Next\""
 
 #: skins/skin-grayish-topfull/functions.php:1289
 msgid "\"Next\"を別のテキストに変更できます。"
@@ -13562,7 +13562,7 @@ msgstr "\"Next\" can be changed to another text."
 
 #: skins/skin-grayish-topfull/functions.php:1289
 msgid "※空欄の場合は\"Next\"が表示されます。"
-msgstr "If the field is left blank, “Next” will be displayed."
+msgstr "If the field is left blank, \"Next\" will be displayed."
 
 #: skins/skin-grayish-topfull/functions.php:1299
 #: skins/skin-grayish-topfull/functions.php:1595
@@ -13573,7 +13573,7 @@ msgstr "Home"
 
 #: skins/skin-grayish-topfull/functions.php:1307
 msgid "【投稿・固定ページ】パンくずリスト \"Home\"を変更"
-msgstr "[Post & Page] Change breadcrumbs list “Home”"
+msgstr "[Post & Page] Change breadcrumbs list \"Home\""
 
 #: skins/skin-grayish-topfull/functions.php:1308
 msgid "\"Home\"を別のテキストに変更できます。"
@@ -13581,7 +13581,7 @@ msgstr "\"Home\" can be changed to another text."
 
 #: skins/skin-grayish-topfull/functions.php:1308
 msgid "※空欄の場合は\"Home\"が表示されます。"
-msgstr "If the field is left blank, “Home” will be displayed."
+msgstr "If the field is left blank, \"Home\" will be displayed."
 
 #: skins/skin-grayish-topfull/functions.php:1420
 msgid "フロントページ以外の設定:ヘッダー"
@@ -13938,7 +13938,7 @@ msgstr "Follow on Threads"
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:135
 #: tmp/sns-follow-buttons.php:57
 msgid "Redditをフォロー"
-msgstr ""
+msgstr "Follow on Reddit"
 
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:147
 #: tmp/sns-follow-buttons.php:61
@@ -14304,7 +14304,7 @@ msgstr "Extension type"
 
 #: skins/skin-made-in-heaven/lib/panel-main.php:47
 msgid "「新着記事」表示"
-msgstr "\"New Articles\" display"
+msgstr "\"New Posts\" display"
 
 #: skins/skin-made-in-heaven/lib/panel-main.php:48
 msgid "カテゴリーごと（2、3カラム）縦型カード"
@@ -14443,15 +14443,15 @@ msgstr "Change front page title"
 
 #: skins/skin-made-in-heaven/lib/panel-option.php:71
 msgid "新着・更新された記事です"
-msgstr "Newly updated articles"
+msgstr "Newly updated posts"
 
 #: skins/skin-made-in-heaven/lib/panel-option.php:73
 msgid "本日読まれている記事です"
-msgstr "Articles read today"
+msgstr "Posts read today"
 
 #: skins/skin-made-in-heaven/lib/panel-option.php:75
 msgid "カテゴリーから記事を探す"
-msgstr "Find articles by category"
+msgstr "Find posts by category"
 
 #: skins/skin-made-in-heaven/lib/panel-option.php:83
 msgid "コメントアイコン選択・表示"
@@ -14587,11 +14587,11 @@ msgstr "Recommended"
 
 #: skins/skin-made-in-heaven/tmp/list-category-columns.php:30
 msgid "更新記事"
-msgstr "Updated articles"
+msgstr "Updated posts"
 
 #: skins/skin-made-in-heaven/tmp/list-category-columns.php:48
 msgid "本日読まれている記事"
-msgstr "Articles read today"
+msgstr "Posts read today"
 
 #. Template Name of the theme
 msgid "bbPress - Create Topic"
@@ -14695,7 +14695,7 @@ msgstr "*This message is displayed for logged-in users only."
 
 #: tmp/body-top.php:19
 msgid "コンテンツへスキップ"
-msgstr ""
+msgstr "Skip to content"
 
 #: tmp/button-go-to-top.php:11
 msgid "トップへ戻る"
@@ -14703,12 +14703,12 @@ msgstr "Back to top"
 
 #: tmp/carousel.php:43
 msgid "おすすめ記事カルーセル"
-msgstr ""
+msgstr "Recommended posts carousel"
 
 #: tmp/content.php:96
 #, php-format
 msgid "この記事は<span class=\"bold\">約%s分</span>で読めます。"
-msgstr "This article can be read in <span class=\"bold\">about %s</span> minutes."
+msgstr "This post can be read in <span class=\"bold\">about %s</span> minutes."
 
 #: tmp/css-custom.php:954
 msgid "ラベルなし"
@@ -14739,7 +14739,7 @@ msgstr "Font preview"
 
 #: tmp/font-preview.php:23
 msgid "吾輩は猫である。名前はまだ無い。どこで生れたかとんと見当がつかぬ。何でも薄暗いじめじめした所でニャーニャー泣いていた事だけは記憶している。吾輩はここで初めて人間というものを見た。"
-msgstr "I am a cat. As yet I have no name. I’ve no idea where I was born. All I remember is that I was miaowing in a dampish dark place when, for the first time, I saw a human being."
+msgstr "I am a cat. As yet I have no name. I've no idea where I was born. All I remember is that I was miaowing in a dampish dark place when, for the first time, I saw a human being."
 
 #: tmp/font-preview.php:26
 msgid "現在の太さ："
@@ -14771,7 +14771,7 @@ msgstr "Posts could not be found."
 
 #: tmp/list-not-found-posts.php:14
 msgid "NOT FOUND"
-msgstr ""
+msgstr "NOT FOUND"
 
 #: tmp/mobile-share-button.php:22
 msgid "シェア"
@@ -14783,7 +14783,7 @@ msgstr "To the table of contents"
 
 #: tmp/related-list.php:21
 msgid "関連記事は見つかりませんでした。"
-msgstr "Could not find related articles."
+msgstr "Could not find related posts."
 
 #: tmp/sns-follow-buttons.php:29
 msgid "著者サイト"
@@ -14835,7 +14835,7 @@ msgstr "Share on Threads"
 
 #: tmp/sns-share-buttons.php:41
 msgid "Redditでシェア"
-msgstr ""
+msgstr "Share on Reddit"
 
 #: tmp/sns-share-buttons.php:45
 msgid "はてブでブックマーク"
@@ -14879,27 +14879,27 @@ msgstr "Comment"
 
 #: blocks/src/block-extension/group-link.js:76
 msgid "リンク編集"
-msgstr ""
+msgstr "Edit link"
 
 #: blocks/src/block-extension/group-link.js:76
 msgid "リンク追加"
-msgstr ""
+msgstr "Add link"
 
 #: blocks/src/block-extension/group-link.js:93
 msgid "リンクURL"
-msgstr ""
+msgstr "Link URL"
 
 #: blocks/src/block-extension/group-link.js:97
 msgid "設定するとグループブロック全体がリンク化されます。"
-msgstr ""
+msgstr "When set, the entire group block becomes a link."
 
 #: blocks/src/block-extension/group-link.js:134
 msgid "適用"
-msgstr ""
+msgstr "Apply"
 
 #: blocks/src/block-extension/group-link.js:148
 msgid "リンク解除"
-msgstr ""
+msgstr "Remove link"
 
 #: blocks/src/block-extension/style-extension/border01.js:46
 msgid "実線"
@@ -15040,7 +15040,7 @@ msgstr "clear margin"
 
 #: blocks/src/block-extension/style-extension/margin.js:109
 msgid "※WordPress標準のマージンボトム設定よりこちらが優先されます。"
-msgstr ""
+msgstr "Note: This takes precedence over the WordPress default bottom margin setting."
 
 #: blocks/src/block-extension/style-extension/style01.js:46
 msgid "薄背景"
@@ -15359,230 +15359,230 @@ msgstr "Display Ads."
 #: blocks/src/block/amazon-product-link/components/ProductPreview.js:23
 #: blocks/src/block/rakuten-product-link/components/ProductPreview.js:23
 msgid "プレビューを生成中…"
-msgstr ""
+msgstr "Generating preview…"
 
 #: blocks/src/block/amazon-product-link/components/ProductPreview.js:41
 #: blocks/src/block/rakuten-product-link/components/ProductPreview.js:41
 msgid "商品を選択してください"
-msgstr ""
+msgstr "Please select a product"
 
 #: blocks/src/block/amazon-product-link/components/SearchModal.js:65
 #: blocks/src/block/rakuten-product-link/components/SearchModal.js:75
 msgid "検索に失敗しました。"
-msgstr ""
+msgstr "Search failed."
 
 #: blocks/src/block/amazon-product-link/components/SearchModal.js:97
 msgid "Amazon商品を検索"
-msgstr ""
+msgstr "Search Amazon products"
 
 #: blocks/src/block/amazon-product-link/components/SearchModal.js:114
 #: blocks/src/block/rakuten-product-link/components/SearchModal.js:124
 msgid "キーワードを入力…"
-msgstr ""
+msgstr "Enter keyword…"
 
 #: blocks/src/block/amazon-product-link/components/SearchModal.js:163
 #: blocks/src/block/rakuten-product-link/components/SearchModal.js:173
 msgid "検索結果がありません。"
-msgstr ""
+msgstr "No search results found."
 
 #: blocks/src/block/amazon-product-link/components/SearchModal.js:177
 #: blocks/src/block/rakuten-product-link/components/SearchModal.js:187
 msgid "※ 検索結果の価格は参考値です。実際の価格は販売ページでご確認ください。"
-msgstr ""
+msgstr "Note: Prices in search results are for reference only. Please check the actual price on the product page."
 
 #: blocks/src/block/amazon-product-link/components/SearchResults.js:28
 #: blocks/src/block/rakuten-product-link/components/SearchResults.js:28
 msgid "件の結果"
-msgstr ""
+msgstr " results"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:48
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:47
 msgid "画像サイズ"
-msgstr ""
+msgstr "Image size"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:51
 msgid "小（75px）"
-msgstr ""
+msgstr "Small (75px)"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:52
 msgid "中（160px）"
-msgstr ""
+msgstr "Medium (160px)"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:53
 msgid "大（500px）"
-msgstr ""
+msgstr "Large (500px)"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:63
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:61
 msgid "通常"
-msgstr ""
+msgstr "Normal"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:65
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:63
 msgid "テキストのみ"
-msgstr ""
+msgstr "Text only"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:72
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:70
 msgid "価格を表示"
-msgstr ""
+msgstr "Show price"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:77
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:76
 msgid "説明文を表示"
-msgstr ""
+msgstr "Show description"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:82
 msgid "レビューリンクを表示"
-msgstr ""
+msgstr "Show review link"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:88
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:81
 msgid "枠線を表示"
-msgstr ""
+msgstr "Show border"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:93
 msgid "Amazonロゴを表示"
-msgstr ""
+msgstr "Show Amazon logo"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:98
 msgid "カタログ画像を表示"
-msgstr ""
+msgstr "Show catalog image"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:106
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:94
 msgid "カスタムコンテンツ"
-msgstr ""
+msgstr "Custom content"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:110
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:98
 msgid "カスタムタイトル"
-msgstr ""
+msgstr "Custom title"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:113
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:101
 msgid "空欄の場合はAPIから取得したタイトルを使用"
-msgstr ""
+msgstr "If empty, the title fetched from the API is used"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:127
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:115
 msgid "カスタム説明文"
-msgstr ""
+msgstr "Custom description"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:133
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:121
 msgid "「説明文を表示」がOFFのため、カスタム説明文は表示されません"
-msgstr ""
+msgstr "Custom description will not be shown because \"Show Description\" is OFF"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:137
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:125
 msgid "空欄の場合はAPIから取得した説明文を使用"
-msgstr ""
+msgstr "If empty, the description fetched from the API is used"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:142
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:130
 msgid "検索キーワード"
-msgstr ""
+msgstr "Search keywords"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:145
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:133
 msgid "ボタンの検索リンクで使用。空欄の場合はタイトルを使用"
-msgstr ""
+msgstr "Used for button search links. If empty, use title"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:154
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:159
 msgid "ストアボタン"
-msgstr ""
+msgstr "Store buttons"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:158
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:163
 msgid "Amazonボタン"
-msgstr ""
+msgstr "Amazon button"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:163
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:168
 msgid "楽天ボタン"
-msgstr ""
+msgstr "Rakuten button"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:168
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:173
 msgid "Yahooボタン"
-msgstr ""
+msgstr "Yahoo button"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:173
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:178
 msgid "メルカリボタン"
-msgstr ""
+msgstr "Mercari button"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:197
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:202
 msgid "Cocoon設定でもしもアフィリエイトのID（Amazon / 楽天 / Yahoo）が1つも設定されていないため、この機能は利用できません。"
-msgstr ""
+msgstr "This feature cannot be used because no Moshimo Affiliate IDs (Amazon / Rakuten / Yahoo) have been configured in Cocoon Settings."
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:205
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:210
 msgid "リンクをもしもアフィリエイト経由にする"
-msgstr ""
+msgstr "Route links through Moshimo Affiliate"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:225
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:230
 msgid "※ もしもアフィリエイト経由の場合は、Cocoon設定で各ストアのもしもIDが設定されている必要があります。"
-msgstr ""
+msgstr "※ When using Moshimo Affiliate, the Moshimo ID for each store must be configured in Cocoon Settings."
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:236
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:241
 msgid "カスタムボタン"
-msgstr ""
+msgstr "Custom buttons"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:241
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:246
 msgid "ボタン1 テキスト"
-msgstr ""
+msgstr "Button 1 Text"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:246
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:251
 msgid "ボタン1 URL"
-msgstr ""
+msgstr "Button 1 URL"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:253
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:258
 msgid "ボタン2 テキスト"
-msgstr ""
+msgstr "Button 2 Text"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:258
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:263
 msgid "ボタン2 URL"
-msgstr ""
+msgstr "Button 2 URL"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:265
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:270
 msgid "ボタン3 テキスト"
-msgstr ""
+msgstr "Button 3 Text"
 
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:270
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:275
 msgid "ボタン3 URL"
-msgstr ""
+msgstr "Button 3 URL"
 
 #: blocks/src/block/amazon-product-link/edit.js:247
 #: blocks/src/block/rakuten-product-link/edit.js:238
 msgid "商品を検索して選択してください。"
-msgstr ""
+msgstr "Please search and select a product."
 
 #: blocks/src/block/amazon-product-link/edit.js:250
 #: blocks/src/block/rakuten-product-link/edit.js:241
 msgid "商品を検索"
-msgstr ""
+msgstr "Search products"
 
 #: blocks/src/block/amazon-product-link/edit.js:291
 #: blocks/src/block/rakuten-product-link/edit.js:285
 msgid "プレビュー更新"
-msgstr ""
+msgstr "Update preview"
 
 #: blocks/src/block/amazon-product-link/edit.js:298
 #: blocks/src/block/rakuten-product-link/edit.js:292
 msgid "商品を変更"
-msgstr ""
+msgstr "Change product"
 
 #: blocks/src/block/amazon-product-link/index.js:76
 msgid "Amazon商品をエディタ内で検索・選択し、静的な商品リンクを挿入します。"
@@ -15734,28 +15734,28 @@ msgstr "Create a standard link button."
 
 #: blocks/src/block/campaign/edit.js:56
 msgid "期間設定"
-msgstr ""
+msgstr "Period settings"
 
 #: blocks/src/block/campaign/edit.js:59
 msgid "開始日時 (from)"
-msgstr ""
+msgstr "Start date/time (from)"
 
 #: blocks/src/block/campaign/edit.js:72
 #: blocks/src/block/campaign/edit.js:109
 msgid "日時を選択"
-msgstr ""
+msgstr "Select date/time"
 
 #: blocks/src/block/campaign/edit.js:96
 msgid "終了日時 (to)"
-msgstr ""
+msgstr "End date/time (to)"
 
 #: blocks/src/block/campaign/edit.js:148
 msgid "現在は表示期間内です"
-msgstr ""
+msgstr "Currently within the display period"
 
 #: blocks/src/block/campaign/edit.js:149
 msgid "現在は表示期間外です"
-msgstr ""
+msgstr "Currently outside the display period"
 
 #: blocks/src/block/campaign/index.js:22
 msgid "キャンペーン"
@@ -15763,7 +15763,7 @@ msgstr "campaign"
 
 #: blocks/src/block/campaign/index.js:24
 msgid "指定した期間中のみコンテンツを表示するブロックです。開始日時と終了日時を設定できます。"
-msgstr ""
+msgstr "A block that displays content only during a specified period. You can set the start and end date/time."
 
 #: blocks/src/block/comparison-box/index.js:21
 msgid "比較ボックス"
@@ -15775,11 +15775,11 @@ msgstr "This is a decoration for comparison of two products (service)."
 
 #: blocks/src/block/comparison-box/items/block.js:32
 msgid "比較ボックスの左。"
-msgstr "Left of Comparison Box"
+msgstr "Left of Comparison Box."
 
 #: blocks/src/block/comparison-box/items/block.js:58
 msgid "比較ボックスの右。"
-msgstr "Right of Comparison Box"
+msgstr "Right of Comparison Box."
 
 #: blocks/src/block/cta/edit.js:46
 msgid "CTA見出し"
@@ -15791,7 +15791,7 @@ msgstr "Enter a message."
 
 #: blocks/src/block/cta/edit.js:50
 msgid "この記事を読む"
-msgstr "Read this article"
+msgstr "Read this post"
 
 #: blocks/src/block/cta/edit.js:78
 #: blocks/src/block/info-list/edit.js:99
@@ -15925,7 +15925,7 @@ msgstr "Specifiy categories by id to display separated by commas"
 
 #: blocks/src/block/info-list/edit.js:103
 msgid "キャプション(枠線内表示)"
-msgstr "Caption (Displayed inside the frame)"
+msgstr "Caption (Displayed inside the border)"
 
 #: blocks/src/block/info-list/edit.js:150
 #: blocks/src/block/new-list/edit.js:267
@@ -15945,11 +15945,11 @@ msgstr "Displays the list of new information."
 
 #: blocks/src/block/login-user-only/edit.js:36
 msgid "未ログインユーザーに表示するメッセージ"
-msgstr ""
+msgstr "Message shown to logged-out users"
 
 #: blocks/src/block/login-user-only/edit.js:39
 msgid "ログインしていないユーザーに対して、ここのメッセージが表示されます。"
-msgstr ""
+msgstr "This message is shown to users who are not logged in."
 
 #: blocks/src/block/login-user-only/edit.js:62
 msgid "ログインユーザー限定"
@@ -15988,7 +15988,7 @@ msgstr "Include contents of child categories"
 #: blocks/src/block/new-list/edit.js:135
 #: blocks/src/block/popular-list/edit.js:207
 msgid "表示する記事の数"
-msgstr "Number of articles to display"
+msgstr "Number of posts to display"
 
 #: blocks/src/block/new-list/edit.js:179
 msgid "表示順"
@@ -16041,7 +16041,7 @@ msgstr "Author"
 
 #: blocks/src/block/new-list/index.js:30
 msgid "新着記事の一覧を表示します。"
-msgstr "Display the list of new articles."
+msgstr "Display the list of new posts."
 
 #: blocks/src/block/popular-list/edit.js:116
 msgid "除外するカテゴリーをカンマ区切りで指定"
@@ -16073,7 +16073,7 @@ msgstr "Exclude Articles (ID)"
 
 #: blocks/src/block/popular-list/index.js:30
 msgid "人気記事の一覧を表示します。"
-msgstr "Display the list of popular articles."
+msgstr "Display the list of popular posts."
 
 #: blocks/src/block/profile/edit.js:54
 msgid "選択できるユーザーがありません。"
@@ -16190,44 +16190,44 @@ msgstr "For displaying ratings or ability values."
 
 #: blocks/src/block/rakuten-product-link/components/SearchModal.js:107
 msgid "楽天商品を検索"
-msgstr ""
+msgstr "Search Rakuten products"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:50
 msgid "小（64px）"
-msgstr ""
+msgstr "Small (64px)"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:51
 msgid "中（128px）"
-msgstr ""
+msgstr "Medium (128px)"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:86
 msgid "楽天ロゴを表示"
-msgstr ""
+msgstr "Show Rakuten logo"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:141
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:143
 msgid "購入タイプ"
-msgstr ""
+msgstr "Purchase type"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:146
 msgid "通常購入"
-msgstr ""
+msgstr "One-time purchase"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:147
 msgid "定期購入"
-msgstr ""
+msgstr "Subscription purchase"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:148
 msgid "頒布会購入"
-msgstr ""
+msgstr "Subscription box (Hanpukai) purchase"
 
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:153
 msgid "商品検索時のフィルタリングに使用されます"
-msgstr ""
+msgstr "Used to filter product search results"
 
 #: blocks/src/block/rakuten-product-link/edit.js:277
 msgid "商品コード:"
-msgstr ""
+msgstr "Product Code:"
 
 #: blocks/src/block/rakuten-product-link/index.js:76
 msgid "楽天商品をエディタ内で検索・選択し、静的な商品リンクを挿入します。"
@@ -16264,7 +16264,7 @@ msgstr "Search guide"
 
 #: blocks/src/block/search-box/index.js:28
 msgid "訪問者に検索を促すためのボックスです。検索をクリックすることで検索結果へ跳びます（※AMPページ以外）。"
-msgstr "This box is used to encourage visitors to search. Jump to the search results by clicking on “search” (*Works except the AMP page)."
+msgstr "This box is used to encourage visitors to search. Jump to the search results by clicking on \"search\" (*Works except the AMP page)."
 
 #: blocks/src/block/sticky-box/index.js:37
 msgid "付箋風ボックス"
@@ -16602,7 +16602,7 @@ msgstr "fab-android"
 
 #: blocks/src/helpers.js:476
 msgid "fab-wordpress"
-msgstr "fab-wordpress"
+msgstr "fab-WordPress"
 
 #: blocks/src/helpers.js:483
 msgid "fab-caret-right"
@@ -16910,27 +16910,27 @@ msgstr "Background Icon"
 
 #: blocks/src/toolbutton/background-icons.js:86
 msgid "◎"
-msgstr ""
+msgstr "◎"
 
 #: blocks/src/toolbutton/background-icons.js:92
 msgid "○"
-msgstr ""
+msgstr "○"
 
 #: blocks/src/toolbutton/background-icons.js:98
 msgid "△"
-msgstr ""
+msgstr "△"
 
 #: blocks/src/toolbutton/background-icons.js:101
 msgid "×"
-msgstr ""
+msgstr "×"
 
 #: blocks/src/toolbutton/background-icons.js:102
 msgid "✓"
-msgstr ""
+msgstr "✓"
 
 #: blocks/src/toolbutton/background-icons.js:106
 msgid "？"
-msgstr ""
+msgstr "?"
 
 #: blocks/src/toolbutton/bold.js:15
 msgid "太字（boldクラス指定）"
@@ -17012,16 +17012,16 @@ msgstr "Generic short codes"
 
 #: blocks/src/toolbutton/html.js:112
 msgid "HTMLを入力してください。"
-msgstr "Insert HTML"
+msgstr "Insert HTML."
 
 #: blocks/src/toolbutton/html.js:122
 msgid "挿入するHTMLコードを入力します。[html]...[/html] ショートコードとして埋め込まれます。"
-msgstr ""
+msgstr "Enter the HTML code to insert. It is embedded as an [html]...[/html] shortcode."
 
 #: blocks/src/toolbutton/html.js:129
 #: blocks/src/toolbutton/ruby.js:232
 msgid "キャンセル"
-msgstr ""
+msgstr "Cancel"
 
 #: blocks/src/toolbutton/ruby.js:33
 msgid "ふりがな（ルビ）キャラクター"
@@ -17029,11 +17029,11 @@ msgstr "Characters with furigana (JA)"
 
 #: blocks/src/toolbutton/ruby.js:216
 msgid "ふりがな（ルビ）を入力してください。"
-msgstr "Enter furigana (JA)"
+msgstr "Enter furigana (JA)."
 
 #: blocks/src/toolbutton/ruby.js:225
 msgid "選択した文字の上に表示する読み仮名を入力します。空欄の場合は選択文字がそのまま使われます。"
-msgstr ""
+msgstr "Enter the reading shown above the selected text. If empty, the selected text is used as is."
 
 #: blocks/src/toolbutton/strike.js:15
 msgid "打ち消し線（訂正）"
@@ -17142,12 +17142,12 @@ msgstr "campaign"
 #: blocks/src/block/campaign/block.json
 msgctxt "block description"
 msgid "指定した期間中のみコンテンツを表示するブロックです。開始日時と終了日時を設定できます。"
-msgstr ""
+msgstr "A block that displays content only during a specified period. You can set the start and end date/time."
 
 #: blocks/src/block/campaign/block.json
 msgctxt "block keyword"
 msgid "campaign"
-msgstr ""
+msgstr "campaign"
 
 #: blocks/src/block/campaign/block.json
 msgctxt "block keyword"
@@ -17207,22 +17207,22 @@ msgstr "Displays content only to logged-in users"
 #: blocks/src/block/login-user-only/block.json
 msgctxt "block keyword"
 msgid "login"
-msgstr ""
+msgstr "login"
 
 #: blocks/src/block/login-user-only/block.json
 msgctxt "block keyword"
 msgid "user"
-msgstr ""
+msgstr "user"
 
 #: blocks/src/block/login-user-only/block.json
 msgctxt "block keyword"
 msgid "only"
-msgstr ""
+msgstr "only"
 
 #: blocks/src/block/login-user-only/block.json
 msgctxt "block keyword"
 msgid "member"
-msgstr ""
+msgstr "member"
 
 #: blocks/src/block/login-user-only/block.json
 msgctxt "block keyword"
@@ -17312,7 +17312,7 @@ msgstr "toggle"
 #: blocks/src/block/toggle-box/block.json
 msgctxt "block keyword"
 msgid "accordion"
-msgstr ""
+msgstr "accordion"
 
 #: blocks/src/micro/micro-balloon/block.json
 #: blocks/src/micro/micro-text/block.json
