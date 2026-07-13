@@ -15,7 +15,7 @@
  *    vendor/bin/phpunit --testsuite integration
  *
  * ローカル環境でのセットアップ:
- * - Docker を使用する場合は docker/docker-compose.test.yml を参照
+ * - Docker を使用する場合は docker/docker-compose.wp7.0-php8.4.yml を参照
  * - GitHub Actions では自動的にセットアップされます
  */
 
@@ -43,13 +43,17 @@ if (!$_tests_dir) {
     echo "WP_TESTS_DIR 環境変数を設定するか、WordPress テストスイートをインストールしてください。\n\n";
     echo "セットアップ方法:\n";
     echo "  1. GitHub Actions: .github/workflows/phpunit.yml に設定済み\n";
-    echo "  2. ローカル: bin/install-wp-tests.sh を使用\n";
+    echo "  2. ローカル: docker/docker-compose.wp7.0-php8.4.yml を使用\n";
     echo "  3. 手動: export WP_TESTS_DIR=/path/to/wordpress-develop/tests/phpunit\n";
     exit(1);
 }
 
 // Composer オートローダー
 require_once dirname(__DIR__, 2) . '/vendor/autoload.php';
+
+// WordPress テストスイートの関数群を読み込み（tests_add_filter 等を定義）
+// これを先に読み込まないと、下の tests_add_filter() が未定義になる。
+require_once $_tests_dir . '/includes/functions.php';
 
 // テーマ読み込み関数を WordPress のテストブートストラップ前に登録
 $_theme_dir = dirname(__DIR__, 2);
