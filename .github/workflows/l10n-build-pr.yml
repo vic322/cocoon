@@ -107,9 +107,10 @@ jobs:
             exit 0
           fi
 
-          EXISTING=$(gh pr list -R "$UPSTREAM_REPO" \
-            --head "vic322:$RELEASE_BRANCH" --state open \
-            --json number --jq '.[0].number // empty')
+          # gh pr list --head はクロスリポジトリの head (owner:branch) を検出できないため
+          # REST API で照会する
+          EXISTING=$(gh api "repos/$UPSTREAM_REPO/pulls?head=vic322:$RELEASE_BRANCH&state=open" \
+            --jq '.[0].number // empty')
 
           if [ -n "$EXISTING" ]; then
             echo "::notice::既存PR #$EXISTING を更新しました（force push により自動反映）"
