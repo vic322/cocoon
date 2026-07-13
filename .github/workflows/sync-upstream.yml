@@ -1,0 +1,61 @@
+name: Sync fork with upstream
+# フォーク自動化(1/2): upstream (xserver-inc/cocoon) の master を
+# フォークの master / translation_master (Crowdin監視ブランチ) に同期する。
+# このワークフローはデフォルトブランチ (automation) 上でのみ管理する。
+on:
+  schedule:
+    - cron: '0 20 * * *' # 毎日 05:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Fetch upstream
+        run: |
+          git remote add upstream https://github.com/xserver-inc/cocoon.git
+          git fetch upstream master
+
+      - name: Fast-forward master (pure mirror)
+        run: |
+          # master はミラー運用のため ff できない場合は失敗させる（手動解決）
+          git merge --ff-only upstream/master
+          git push origin master
+
+      - name: Regenerate POT on translation_master
+        run: |
+          # translation_master を upstream/master に揃えた上で POT を再生成する。
+          # upstream 側で POT が最新なら差分ゼロ＝コミットされず純粋ミラーになる。
+          git checkout -B translation_master upstream/master
+
+          curl -sO https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+          chmod +x wp-cli.phar
+
+          php ./wp-cli.phar i18n make-pot . languages/cocoon.pot \
+            --domain=cocoon \
+            --include="blocks/src/*,lib/*,tmp/*,skins/*,templates/*,*.php" \
+            --skip-audit --ignore-domain
+          rm wp-cli.phar
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add languages/cocoon.pot
+          if ! git diff --cached --quiet; then
+            git commit -m "POT Regenerated"
+          fi
+
+          # 過去の運用で force-update 前提の履歴のため force push
+          git push --force origin translation_master

@@ -1,0 +1,124 @@
+name: Build translations and PR to upstream
+# フォーク自動化(2/2): Crowdin が l10n_translation_master に push した翻訳(.po)を
+# upstream/master ベースの l10n-release ブランチに取り込み、.mo / .l10n.php /
+# blocks-js.json をコンパイルして xserver-inc/cocoon への還元PRを作成・更新する。
+# PR作成には Secrets: UPSTREAM_PR_TOKEN (vic322 の fine-grained PAT) が必要。
+on:
+  schedule:
+    - cron: '15 */6 * * *' # 6時間ごと
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: l10n-build-pr
+  cancel-in-progress: false
+
+env:
+  UPSTREAM_REPO: xserver-inc/cocoon
+  L10N_BRANCH: l10n_translation_master
+  RELEASE_BRANCH: l10n-release
+
+jobs:
+  build-and-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check Crowdin l10n branch exists
+        id: l10n
+        run: |
+          if git ls-remote --exit-code --heads origin "$L10N_BRANCH" > /dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::$L10N_BRANCH が存在しないためスキップします"
+          fi
+
+      - name: Prepare release branch (upstream/master + Crowdin .po)
+        if: steps.l10n.outputs.exists == 'true'
+        run: |
+          git remote add upstream "https://github.com/$UPSTREAM_REPO.git"
+          git fetch upstream master
+          git fetch origin "$L10N_BRANCH"
+
+          # upstream/master を起点に、Crowdin の最新 .po だけを上書きする。
+          # l10n ブランチ自体を PR にしないのは、Crowdin 側のマージ履歴や
+          # 古いソース状態を持ち込まないため。
+          git checkout -B "$RELEASE_BRANCH" upstream/master
+          git checkout "origin/$L10N_BRANCH" -- 'languages/*.po'
+
+      - uses: actions/setup-node@v4
+        if: steps.l10n.outputs.exists == 'true'
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Compile translations (.mo / .l10n.php / blocks-js.json)
+        if: steps.l10n.outputs.exists == 'true'
+        run: |
+          npm ci
+
+          mkdir -p vendor/bin
+          curl -s -o vendor/bin/wp-cli.phar \
+            https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+          chmod +x vendor/bin/wp-cli.phar
+
+          npm run compile-all
+
+      - name: Commit and push release branch
+        if: steps.l10n.outputs.exists == 'true'
+        id: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add languages/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::upstream/master と翻訳差分なし。PR不要です"
+          else
+            git commit -m "i18n: Crowdin翻訳の取り込みと全形式コンパイル"
+            git push --force origin "$RELEASE_BRANCH"
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create PR to upstream (if none open)
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.UPSTREAM_PR_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::warning::Secrets UPSTREAM_PR_TOKEN が未設定のためPR作成をスキップしました。手動でPRを作成するか、PATを登録してください"
+            exit 0
+          fi
+
+          EXISTING=$(gh pr list -R "$UPSTREAM_REPO" \
+            --head "vic322:$RELEASE_BRANCH" --state open \
+            --json number --jq '.[0].number // empty')
+
+          if [ -n "$EXISTING" ]; then
+            echo "::notice::既存PR #$EXISTING を更新しました（force push により自動反映）"
+            exit 0
+          fi
+
+          gh pr create -R "$UPSTREAM_REPO" \
+            --base master \
+            --head "vic322:$RELEASE_BRANCH" \
+            --title "i18n: Crowdin翻訳の取り込み（自動生成）" \
+            --body "$(cat <<'EOF'
+## 概要
+Crowdin で更新された翻訳（.po）を取り込み、全形式（.mo / .l10n.php / cocoon-*-cocoon-blocks-js.json）をコンパイルした自動生成PRです。
+
+- 生成元: vic322/cocoon の `l10n_translation_master`（Crowdin GitHubインテグレーション）
+- 起点: このPR作成時点の xserver-inc/cocoon master
+- Crowdin側で翻訳が更新されると、このPRのブランチは自動的に更新されます
+
+## レビュー観点
+- 翻訳内容の妥当性（特に msgctxt 付きエントリと %s 等の書式指定子の保持）
+- 差分は `languages/` 配下のみであること
+EOF
+)"
