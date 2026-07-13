@@ -90,6 +90,17 @@ jobs:
         if: steps.commit.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.UPSTREAM_PR_TOKEN }}
+          PR_BODY: |
+            ## 概要
+            Crowdin で更新された翻訳（.po）を取り込み、全形式（.mo / .l10n.php / cocoon-*-cocoon-blocks-js.json）をコンパイルした自動生成PRです。
+
+            - 生成元: vic322/cocoon の `l10n_translation_master`（Crowdin GitHubインテグレーション）
+            - 起点: このPR作成時点の xserver-inc/cocoon master
+            - Crowdin側で翻訳が更新されると、このPRのブランチは自動的に更新されます
+
+            ## レビュー観点
+            - 翻訳内容の妥当性（特に msgctxt 付きエントリと %s 等の書式指定子の保持）
+            - 差分は `languages/` 配下のみであること
         run: |
           if [ -z "$GH_TOKEN" ]; then
             echo "::warning::Secrets UPSTREAM_PR_TOKEN が未設定のためPR作成をスキップしました。手動でPRを作成するか、PATを登録してください"
@@ -109,16 +120,4 @@ jobs:
             --base master \
             --head "vic322:$RELEASE_BRANCH" \
             --title "i18n: Crowdin翻訳の取り込み（自動生成）" \
-            --body "$(cat <<'EOF'
-## 概要
-Crowdin で更新された翻訳（.po）を取り込み、全形式（.mo / .l10n.php / cocoon-*-cocoon-blocks-js.json）をコンパイルした自動生成PRです。
-
-- 生成元: vic322/cocoon の `l10n_translation_master`（Crowdin GitHubインテグレーション）
-- 起点: このPR作成時点の xserver-inc/cocoon master
-- Crowdin側で翻訳が更新されると、このPRのブランチは自動的に更新されます
-
-## レビュー観点
-- 翻訳内容の妥当性（特に msgctxt 付きエントリと %s 等の書式指定子の保持）
-- 差分は `languages/` 配下のみであること
-EOF
-)"
+            --body "$PR_BODY"
