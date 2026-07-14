@@ -1,0 +1,40 @@
+name: Block Regression
+
+# Gutenberg ブロックの JS レーン回帰テスト。
+# phpunit.yml（PHP unit/integration）ではカバーされない、ブロックの
+# JavaScript 側（block.json + edit/save のパース・シリアライズ健全性）を
+# WordPress コア流の fixture ラウンドトリップで検証する。
+
+on:
+  push:
+    branches: [ master, main, develop ]
+  pull_request:
+    branches: [ master, main, develop ]
+
+jobs:
+  js-fixtures:
+    name: Block JS fixtures (Node ${{ matrix.node-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['22']
+    defaults:
+      run:
+        working-directory: blocks
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: npm
+          cache-dependency-path: blocks/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run block fixture tests
+        run: npm run test:unit
