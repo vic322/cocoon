@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: 2026-07-17T20:50:06+00:00\n"
-"PO-Revision-Date: 2026-07-17 20:52\n"
+"PO-Revision-Date: 2026-07-17 21:54\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -3366,7 +3366,7 @@ msgstr "Tipo"
 #: lib/page-access/analytics/dashboard-page.php:428
 #: lib/page-access/analytics/render-func.php:22
 msgid "著者"
-msgstr ""
+msgstr "Autor"
 
 #: lib/page-access/analytics/dashboard-page.php:332
 msgid "公開日"
