@@ -29,9 +29,12 @@ claudedocs
 # Composer
 vendor/
 composer.lock
+# 統合テスト用ツールチェーンは再現性のため lock を追跡する
+!tests/integration-tooling/composer.lock
 
 # PHPUnit
 .phpunit.cache/
+.phpunit.result.cache
 tests/coverage/
 configs/
 

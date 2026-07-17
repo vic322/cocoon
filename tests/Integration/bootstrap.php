@@ -15,7 +15,7 @@
  *    vendor/bin/phpunit --testsuite integration
  *
  * ローカル環境でのセットアップ:
- * - Docker を使用する場合は docker/docker-compose.test.yml を参照
+ * - Docker を使用する場合は docker/docker-compose.wp7.0-php8.4.yml を参照
  * - GitHub Actions では自動的にセットアップされます
  */
 
@@ -43,13 +43,39 @@ if (!$_tests_dir) {
     echo "WP_TESTS_DIR 環境変数を設定するか、WordPress テストスイートをインストールしてください。\n\n";
     echo "セットアップ方法:\n";
     echo "  1. GitHub Actions: .github/workflows/phpunit.yml に設定済み\n";
-    echo "  2. ローカル: bin/install-wp-tests.sh を使用\n";
+    echo "  2. ローカル: docker/docker-compose.wp7.0-php8.4.yml を使用\n";
     echo "  3. 手動: export WP_TESTS_DIR=/path/to/wordpress-develop/tests/phpunit\n";
     exit(1);
 }
 
-// Composer オートローダー
-require_once dirname(__DIR__, 2) . '/vendor/autoload.php';
+// Composer オートローダー（統合レーン専用ツールチェーン: PHPUnit 9.6 + polyfills）
+//
+// ユニットレーンのテーマ vendor は PHPUnit 11 だが、WordPress 7.0 テストスイートは
+// PHPUnit 10 で削除された parseTestMethodAnnotations() を使うため 9.x が必須。
+// ここでテーマ vendor（PHPUnit 11）を読み込むと 9.6 実行系とクラスが混在して fatal に
+// なるため、統合レーンは tests/integration-tooling/vendor（PHPUnit 9.6 + polyfills）を用いる。
+$_tooling_autoload = __DIR__ . '/../integration-tooling/vendor/autoload.php';
+if (file_exists($_tooling_autoload)) {
+    require_once $_tooling_autoload;
+}
+
+// テスト用クラス（Cocoon\Tests\ => tests/）の PSR-4 オートローダー。
+// テーマ本体の関数は WordPress がテーマ切り替え時に読み込むため、ここでは扱わない。
+spl_autoload_register(function ($class) {
+    $prefix = 'Cocoon\\Tests\\';
+    if (strncmp($class, $prefix, strlen($prefix)) !== 0) {
+        return;
+    }
+    $rel  = substr($class, strlen($prefix));
+    $file = dirname(__DIR__) . '/' . str_replace('\\', '/', $rel) . '.php';
+    if (is_file($file)) {
+        require $file;
+    }
+});
+
+// WordPress テストスイートの関数群を読み込み（tests_add_filter 等を定義）
+// これを先に読み込まないと、下の tests_add_filter() が未定義になる。
+require_once $_tests_dir . '/includes/functions.php';
 
 // テーマ読み込み関数を WordPress のテストブートストラップ前に登録
 $_theme_dir = dirname(__DIR__, 2);

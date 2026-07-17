@@ -1,0 +1,127 @@
+<!-- wp:cocoon-blocks/radar -->
+<div class="wp-block-cocoon-blocks-radar block-box wp-block radar-chart-block"><canvas id="" width="400" height="400"></canvas><script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var ctx = document.getElementById('').getContext('2d');
+
+    var renderChart = function() {
+      if (ctx.chart) {
+        ctx.chart.destroy();
+      }
+
+      ctx.chart = new Chart(ctx, {
+        type: 'radar',
+        data: {
+          labels: ["A ( 4 )","B ( 4 )","C ( 4 )","D ( 4 )","E ( 4 )"],
+          datasets: [{
+            label: '',
+            data: [4,4,4,4,4],
+            backgroundColor: 'rgba(44, 169, 225, 0.2)',
+            borderColor: 'rgba(44, 169, 225, 0.9)',
+            borderWidth: 1,
+          }]
+        },
+        options: {
+          layout: {
+            padding: {
+              top: 30,    // 上の余白
+              bottom: 30, // 下の余白
+              left: 30,   // 左の余白
+              right: 30,  // 右の余白
+            },
+          },
+          scales: {
+            r: {
+              angleLines: {
+                display: false,
+                color: 'rgba(221, 221, 221, 0.5)', // アングルライン線の色
+              },
+              min: 0,
+              max: 5,
+              ticks: {
+                stepSize: 1,
+                font: {
+                  size: 11,
+                  weight: 400,
+                },
+                color: '#666666',
+                backdropColor: 'transparent', // 目盛の背景色を透明に
+              },
+              pointLabels: {
+                font: {
+                  size: 11,
+                  weight: 400,
+                },
+                color: '#666666',
+              },
+              grid: {
+                color: 'rgba(221, 221, 221, 0.5)', // グリッド線の色
+              }
+            },
+          },
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            title: {
+              display: false,
+              text: '',
+              font: {
+                size: 13,
+                weight: 500,
+              },
+              color: '#666666',
+            },
+            legend: {
+              display: false,
+              labels: {
+                font: {
+                  size: 11,
+                  weight: 400,
+                },
+                color: '#666666',
+              },
+            },
+            totalPlugin: true // 合計表示プラグインを有効化
+          },
+        },
+        plugins: [
+          {
+            id: 'totalPlugin',
+            afterDatasetsDraw(chart, args, options) {
+              if (true) {
+                const { ctx, chartArea: { top, left, right, bottom } } = chart;
+                const centerX = (left + right) / 2;
+                const centerY = (top + bottom + 0) / 2;
+                const total = '総計: 20';
+
+                ctx.save();
+                ctx.font = '11px';
+                ctx.fillStyle = '#666666';
+                ctx.textAlign = 'center';
+                ctx.textBaseline = 'middle';
+                ctx.fillText(total, centerX, centerY);
+                ctx.restore();
+              }
+            }
+          },
+          {
+            id: 'customCanvasBackgroundColor',
+            beforeDraw: (chart) => {
+              const ctx = chart.ctx;
+              const canvas = chart.canvas;
+              ctx.save();
+              ctx.globalCompositeOperation = 'destination-over'; // 背景色を他の要素の背後に描画
+              ctx.fillStyle = '#ffffff'; // キャンバスの背景色を設定
+              ctx.fillRect(0, 0, canvas.width, canvas.height); // キャンバス全体に背景色を塗る
+              ctx.restore();
+            }
+          }
+        ]
+      });
+    };
+
+    renderChart();
+
+    window.addEventListener('resize', renderChart);
+  });
+  </script></div>
+<!-- /wp:cocoon-blocks/radar -->

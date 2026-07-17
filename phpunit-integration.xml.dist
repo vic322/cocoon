@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    WordPress 統合テスト専用の PHPUnit 設定（PHPUnit 9.6 スキーマ）。
+
+    ユニットテスト用の phpunit.xml（PHPUnit 11 / Brain\Monkey, bootstrap=tests/bootstrap.php）
+    とは完全に分離している。統合レーンは WordPress 7.0 テストスイートを実行するため
+    PHPUnit 9.x + yoast/phpunit-polyfills ^1.1 を使い、bootstrap も WP_UnitTestCase を
+    ロードする tests/Integration/bootstrap.php を用いる。
+
+    実行:
+      tests/integration-tooling/vendor/bin/phpunit -c phpunit-integration.xml.dist
+    （WP_TESTS_DIR 環境変数で WordPress テストスイートのパスを指定すること）
+-->
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="tests/integration-tooling/vendor/phpunit/phpunit/phpunit.xsd"
+         bootstrap="tests/Integration/bootstrap.php"
+         colors="true"
+         convertDeprecationsToExceptions="false"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="false"
+         convertWarningsToExceptions="false"
+         beStrictAboutTestsThatDoNotTestAnything="false"
+         failOnRisky="false"
+         failOnWarning="false"
+         cacheResultFile=".phpunit.cache/integration.result">
+
+    <testsuites>
+        <testsuite name="integration">
+            <directory>tests/Integration</directory>
+        </testsuite>
+    </testsuites>
+
+</phpunit>
