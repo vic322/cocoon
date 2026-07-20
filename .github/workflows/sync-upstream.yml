@@ -22,6 +22,10 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
+          # 既定の GITHUB_TOKEN は .github/workflows/ 配下を push できないため、
+          # workflow スコープ付き PAT を使う。checkout が origin の認証情報を
+          # 永続化するので後続の master / translation_master への push にも効く。
+          token: ${{ secrets.SYNC_PAT }}
 
       - name: Fetch upstream
         run: |
