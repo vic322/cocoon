@@ -4,8 +4,7 @@ name: Build translations and PR to upstream
 # blocks-js.json をコンパイルして xserver-inc/cocoon への還元PRを作成・更新する。
 # PR作成には Secrets: UPSTREAM_PR_TOKEN (vic322 の fine-grained PAT) が必要。
 on:
-  schedule:
-    - cron: '15 */6 * * *' # 6時間ごと
+  # 本家(upstream)への還元PRは手動運用。schedule は付けず workflow_dispatch のみ。
   workflow_dispatch:
 
 permissions:
@@ -27,6 +26,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # l10n-release は upstream/master 由来でワークフローファイルを含むため、
+          # フォークへの push には workflow スコープ付き PAT が要る（GITHUB_TOKEN 不可）。
+          token: ${{ secrets.SYNC_PAT }}
 
       - name: Check Crowdin l10n branch exists
         id: l10n
