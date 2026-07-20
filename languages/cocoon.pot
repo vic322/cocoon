@@ -2,14 +2,14 @@
 # This file is distributed under the GNU General Public License.
 msgid ""
 msgstr ""
-"Project-Id-Version: Cocoon 2.9.3.10\n"
+"Project-Id-Version: Cocoon 2.9.3.12\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/cocoon\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-18T20:41:41+00:00\n"
+"POT-Creation-Date: 2026-07-20T13:14:21+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -719,7 +719,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:561
 #: lib/admin-tinymce-qtag.php:1694
-#: lib/page-access/analytics/dashboard-page.php:559
+#: lib/page-access/analytics/dashboard-page.php:623
 #: tmp/css-custom.php:994
 #: tmp/css-custom.php:1037
 #: blocks/src/block/blogcard/deprecated.js:95
@@ -2267,8 +2267,8 @@ msgstr ""
 #: lib/page-access/access-func.php:754
 #: lib/page-access/analytics/dashboard-page.php:164
 #: lib/page-access/analytics/enqueue-func.php:71
-#: lib/page-access/analytics/render-func.php:406
-#: lib/page-access/analytics/render-func.php:447
+#: lib/page-access/analytics/render-func.php:423
+#: lib/page-access/analytics/render-func.php:464
 msgid "月"
 msgstr ""
 
@@ -2280,7 +2280,7 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:162
 #: lib/page-access/analytics/enqueue-func.php:70
 #: lib/page-access/analytics/enqueue-func.php:110
-#: lib/page-access/analytics/render-func.php:406
+#: lib/page-access/analytics/render-func.php:423
 #: lib/page-settings/apis-forms.php:337
 msgid "日"
 msgstr ""
@@ -2649,7 +2649,7 @@ msgid "フロントページのみ"
 msgstr ""
 
 #: lib/html-forms.php:803
-#: lib/page-settings/sns-follow-forms.php:115
+#: lib/page-settings/sns-follow-forms.php:97
 #: lib/page-settings/sns-share-forms-bottom.php:130
 #: lib/page-settings/sns-share-forms-top.php:117
 #: lib/page-settings/_top-page.php:197
@@ -2659,7 +2659,7 @@ msgstr ""
 
 #: lib/html-forms.php:804
 #: lib/page-settings/about-forms.php:82
-#: lib/page-settings/sns-follow-forms.php:118
+#: lib/page-settings/sns-follow-forms.php:100
 #: lib/page-settings/sns-share-forms-bottom.php:133
 #: lib/page-settings/sns-share-forms-top.php:120
 #: lib/page-settings/toc-forms.php:78
@@ -2947,14 +2947,14 @@ msgid "有効にすることで「人気記事」ウィジェット等が利用�
 msgstr ""
 
 #: lib/page-access/access-forms.php:39
-#: lib/page-settings/sns-follow-forms.php:233
+#: lib/page-settings/sns-follow-forms.php:215
 #: lib/page-settings/sns-share-forms.php:154
 #: lib/page-speed-up/speed-up-forms.php:25
 msgid "キャッシュの有効化"
 msgstr ""
 
 #: lib/page-access/access-forms.php:43
-#: lib/page-settings/sns-follow-forms.php:237
+#: lib/page-settings/sns-follow-forms.php:219
 #: lib/page-settings/sns-share-forms.php:158
 #: lib/page-speed-up/speed-up-forms.php:29
 msgid "キャッシュを有効にする"
@@ -2965,7 +2965,7 @@ msgid "アクセス統計情報の取得は多少なりともサーバーに負�
 msgstr ""
 
 #: lib/page-access/access-forms.php:52
-#: lib/page-settings/sns-follow-forms.php:246
+#: lib/page-settings/sns-follow-forms.php:228
 #: lib/page-settings/sns-share-forms.php:167
 msgid "キャッシュ間隔"
 msgstr ""
@@ -3010,7 +3010,7 @@ msgstr ""
 
 #: lib/page-access/access-forms.php:65
 #: lib/page-access/analytics/settings-forms.php:63
-#: lib/page-settings/sns-follow-forms.php:251
+#: lib/page-settings/sns-follow-forms.php:233
 #: lib/page-settings/sns-share-forms.php:177
 msgid "6時間"
 msgstr ""
@@ -3020,19 +3020,19 @@ msgid "9時間"
 msgstr ""
 
 #: lib/page-access/access-forms.php:67
-#: lib/page-settings/sns-follow-forms.php:252
+#: lib/page-settings/sns-follow-forms.php:234
 #: lib/page-settings/sns-share-forms.php:180
 msgid "12時間"
 msgstr ""
 
 #: lib/page-access/access-forms.php:68
-#: lib/page-settings/sns-follow-forms.php:253
+#: lib/page-settings/sns-follow-forms.php:235
 msgid "18時間"
 msgstr ""
 
 #: lib/page-access/access-forms.php:69
 #: lib/page-access/analytics/settings-forms.php:64
-#: lib/page-settings/sns-follow-forms.php:254
+#: lib/page-settings/sns-follow-forms.php:236
 #: lib/page-settings/sns-share-forms.php:183
 msgid "24時間"
 msgstr ""
@@ -3075,8 +3075,8 @@ msgstr ""
 
 #: lib/page-access/access-func.php:775
 #: lib/page-access/analytics/dashboard-page.php:137
-#: lib/page-access/analytics/render-func.php:69
-#: lib/page-access/analytics/render-func.php:129
+#: lib/page-access/analytics/render-func.php:70
+#: lib/page-access/analytics/render-func.php:135
 #: lib/page-access/analytics/settings-forms.php:76
 msgid "今日"
 msgstr ""
@@ -3094,14 +3094,13 @@ msgid "30日間"
 msgstr ""
 
 #: lib/page-access/access-func.php:778
-#: lib/page-access/analytics/dashboard-page.php:499
 #: lib/page-settings/single-forms.php:199
 #: blocks/src/block/popular-list/edit.js:178
 msgid "3ヶ月"
 msgstr ""
 
 #: lib/page-access/access-func.php:779
-#: lib/page-access/analytics/dashboard-page.php:501
+#: lib/page-access/analytics/dashboard-page.php:556
 #: lib/page-settings/single-forms.php:201
 #: blocks/src/block/popular-list/edit.js:186
 msgid "1年"
@@ -3109,8 +3108,9 @@ msgstr ""
 
 #: lib/page-access/access-func.php:780
 #: lib/page-access/analytics/dashboard-page.php:145
-#: lib/page-access/analytics/dashboard-page.php:502
-#: lib/page-access/analytics/render-func.php:77
+#: lib/page-access/analytics/dashboard-page.php:529
+#: lib/page-access/analytics/dashboard-page.php:557
+#: lib/page-access/analytics/render-func.php:78
 #: lib/page-access/analytics/settings-forms.php:81
 #: lib/page-settings/carousel-forms.php:72
 #: lib/page-settings/single-forms.php:193
@@ -3142,10 +3142,10 @@ msgstr ""
 msgid "日数"
 msgstr ""
 
-#: lib/page-access/analytics/ajax-func.php:51
-#: lib/page-access/analytics/ajax-func.php:90
-#: lib/page-access/analytics/dashboard-page.php:446
-#: lib/page-access/analytics/dashboard-page.php:466
+#: lib/page-access/analytics/ajax-func.php:63
+#: lib/page-access/analytics/ajax-func.php:102
+#: lib/page-access/analytics/dashboard-page.php:489
+#: lib/page-access/analytics/dashboard-page.php:509
 msgid "不明"
 msgstr ""
 
@@ -3162,44 +3162,47 @@ msgid "アクセスカレンダー（直近52週）"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:138
-#: lib/page-access/analytics/render-func.php:70
-#: lib/page-access/analytics/render-func.php:130
+#: lib/page-access/analytics/render-func.php:71
+#: lib/page-access/analytics/render-func.php:136
 msgid "昨日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:139
-#: lib/page-access/analytics/render-func.php:71
-#: lib/page-access/analytics/render-func.php:131
+#: lib/page-access/analytics/dashboard-page.php:525
+#: lib/page-access/analytics/render-func.php:72
+#: lib/page-access/analytics/render-func.php:137
 #: lib/page-access/analytics/settings-forms.php:77
 msgid "直近7日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:140
-#: lib/page-access/analytics/render-func.php:72
+#: lib/page-access/analytics/dashboard-page.php:526
+#: lib/page-access/analytics/render-func.php:73
 #: lib/page-access/analytics/settings-forms.php:78
 msgid "直近30日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:141
-#: lib/page-access/analytics/render-func.php:73
+#: lib/page-access/analytics/dashboard-page.php:527
+#: lib/page-access/analytics/render-func.php:74
 #: lib/page-access/analytics/settings-forms.php:79
 msgid "直近90日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:142
-#: lib/page-access/analytics/render-func.php:74
-#: lib/page-access/analytics/render-func.php:132
+#: lib/page-access/analytics/render-func.php:75
+#: lib/page-access/analytics/render-func.php:138
 #: lib/page-access/analytics/settings-forms.php:80
 msgid "今月"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:143
-#: lib/page-access/analytics/render-func.php:75
+#: lib/page-access/analytics/render-func.php:76
 msgid "先月"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:144
-#: lib/page-access/analytics/render-func.php:76
+#: lib/page-access/analytics/render-func.php:77
 msgid "年初来"
 msgstr ""
 
@@ -3257,57 +3260,57 @@ msgid "タイル配置を既定に戻す"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:245
-#: lib/page-access/analytics/dashboard-page.php:291
+#: lib/page-access/analytics/dashboard-page.php:292
 msgid "投稿タイプ:"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:248
-#: lib/page-access/analytics/dashboard-page.php:318
+#: lib/page-access/analytics/dashboard-page.php:319
 msgid "絞り込み"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:295
+#: lib/page-access/analytics/dashboard-page.php:296
 msgid "著者:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:296
+#: lib/page-access/analytics/dashboard-page.php:297
 msgid "名前で検索..."
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:301
+#: lib/page-access/analytics/dashboard-page.php:302
 msgid "カテゴリー:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:302
+#: lib/page-access/analytics/dashboard-page.php:303
 msgid "カテゴリー名で検索..."
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:306
+#: lib/page-access/analytics/dashboard-page.php:307
 msgid "最小PV:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:309
+#: lib/page-access/analytics/dashboard-page.php:310
 msgid "最大PV:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:312
+#: lib/page-access/analytics/dashboard-page.php:313
 msgid "並び:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:314
+#: lib/page-access/analytics/dashboard-page.php:315
 msgid "PV降順"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:315
+#: lib/page-access/analytics/dashboard-page.php:316
 msgid "PV昇順（低PV）"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:337
+#: lib/page-access/analytics/dashboard-page.php:348
 #, php-format
 msgid "全 %s 件"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:339
+#: lib/page-access/analytics/dashboard-page.php:352
 #: lib/page-affiliate-tag/form.php:30
 #: lib/page-func-text/form.php:30
 #: lib/page-item-ranking/form.php:80
@@ -3338,7 +3341,7 @@ msgstr ""
 msgid "タイトル"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:339
+#: lib/page-access/analytics/dashboard-page.php:352
 #: blocks/src/block/icon-box/deprecated.js:80
 #: blocks/src/block/icon-box/edit.js:27
 #: blocks/src/block/info-box/deprecated.js:79
@@ -3355,144 +3358,163 @@ msgstr ""
 msgid "タイプ"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:339
-#: lib/page-access/analytics/dashboard-page.php:440
+#: lib/page-access/analytics/dashboard-page.php:352
+#: lib/page-access/analytics/dashboard-page.php:483
 #: lib/page-access/analytics/render-func.php:48
 msgid "著者"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:339
+#: lib/page-access/analytics/dashboard-page.php:352
 msgid "公開日"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:342
+#: lib/page-access/analytics/dashboard-page.php:355
 msgid "無題"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:392
+#: lib/page-access/analytics/dashboard-page.php:428
 msgid "タクソノミー:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:399
+#: lib/page-access/analytics/dashboard-page.php:435
 #: blocks/src/block-extension/group-link.js:134
 msgid "適用"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:410
+#: lib/page-access/analytics/dashboard-page.php:449
 #, php-format
 msgid "%s 別PV ランキング"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:412
+#: lib/page-access/analytics/dashboard-page.php:453
 msgid "名称"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:424
+#: lib/page-access/analytics/dashboard-page.php:465
 msgid "上位10分布"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:438
+#: lib/page-access/analytics/dashboard-page.php:479
 msgid "著者別集計"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:440
+#: lib/page-access/analytics/dashboard-page.php:483
 msgid "記事数"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:440
-#: lib/page-access/analytics/render-func.php:133
+#: lib/page-access/analytics/dashboard-page.php:483
+#: lib/page-access/analytics/render-func.php:139
 msgid "総PV"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:440
+#: lib/page-access/analytics/dashboard-page.php:483
 msgid "平均PV/記事"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:451
+#: lib/page-access/analytics/dashboard-page.php:494
 msgid "著者別PV（上位10）"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:479
+#: lib/page-access/analytics/dashboard-page.php:523
+msgid "集計期間:"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:528
+msgid "直近1年"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:533
 msgid "記事タイトルで検索..."
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:494
+#: lib/page-access/analytics/dashboard-page.php:548
 msgid "記事を選択してください"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:500
-#: lib/page-settings/single-forms.php:200
-msgid "6ヶ月"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:503
-#: lib/page-access/analytics/render-func.php:78
-msgid "カスタム"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:517
-msgid "左側のリストから記事を選択すると、公開後のアクセス推移グラフが表示されます。"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:531
-msgid "エクスポート機能は無効化されています。"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:539
-msgid "対象"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:541
-msgid "日次PV推移"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:542
-msgid "人気記事ランキング"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:543
-msgid "記事別全量"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:544
-msgid "著者別"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:547
-msgid "形式"
-msgstr ""
-
 #: lib/page-access/analytics/dashboard-page.php:553
-msgid "期間"
+msgid "7日"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:554
+msgid "30日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:555
-#: lib/page-access/analytics/render-func.php:93
+msgid "90日"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:558
+#: lib/page-access/analytics/render-func.php:79
+msgid "カスタム"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:571
+msgid "リスト期間に合わせる"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:581
+msgid "左側のリストから記事を選択すると、公開後のアクセス推移グラフが表示されます。"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:595
+msgid "エクスポート機能は無効化されています。"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:603
+msgid "対象"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:605
+msgid "日次PV推移"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:606
+msgid "人気記事ランキング"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:607
+msgid "記事別全量"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:608
+msgid "著者別"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:611
+msgid "形式"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:617
+msgid "期間"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:619
+#: lib/page-access/analytics/render-func.php:99
 msgid "〜"
 msgstr ""
 
 #: lib/page-access/analytics/enqueue-func.php:72
-#: lib/page-access/analytics/render-func.php:406
+#: lib/page-access/analytics/render-func.php:423
 msgid "火"
 msgstr ""
 
 #: lib/page-access/analytics/enqueue-func.php:73
-#: lib/page-access/analytics/render-func.php:407
+#: lib/page-access/analytics/render-func.php:424
 msgid "水"
 msgstr ""
 
 #: lib/page-access/analytics/enqueue-func.php:74
-#: lib/page-access/analytics/render-func.php:407
+#: lib/page-access/analytics/render-func.php:424
 msgid "木"
 msgstr ""
 
 #: lib/page-access/analytics/enqueue-func.php:75
-#: lib/page-access/analytics/render-func.php:407
+#: lib/page-access/analytics/render-func.php:424
 msgid "金"
 msgstr ""
 
 #: lib/page-access/analytics/enqueue-func.php:76
-#: lib/page-access/analytics/render-func.php:407
+#: lib/page-access/analytics/render-func.php:424
 msgid "土"
 msgstr ""
 
@@ -3520,6 +3542,22 @@ msgstr ""
 msgid "選択した期間のアクセスデータがありません。"
 msgstr ""
 
+#: lib/page-access/analytics/enqueue-func.php:119
+msgid "表示期間の合計"
+msgstr ""
+
+#: lib/page-access/analytics/enqueue-func.php:120
+msgid "リスト期間の合計"
+msgstr ""
+
+#: lib/page-access/analytics/enqueue-func.php:121
+msgid "累計"
+msgstr ""
+
+#: lib/page-access/analytics/enqueue-func.php:122
+msgid "グラフはリストと異なる期間を表示中"
+msgstr ""
+
 #: lib/page-access/analytics/export-func.php:19
 msgid "エクスポート機能が無効です。"
 msgstr ""
@@ -3541,8 +3579,8 @@ msgid "カテゴリー/タグ"
 msgstr ""
 
 #: lib/page-access/analytics/render-func.php:49
-#: lib/page-access/analytics/render-func.php:241
-#: lib/page-access/analytics/render-func.php:357
+#: lib/page-access/analytics/render-func.php:247
+#: lib/page-access/analytics/render-func.php:374
 msgid "ライフサイクル"
 msgstr ""
 
@@ -3559,13 +3597,13 @@ msgstr ""
 msgid "設定"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:84
+#: lib/page-access/analytics/render-func.php:90
 msgid "期間:"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:96
-#: lib/page-access/analytics/render-func.php:239
-#: lib/page-access/analytics/render-func.php:355
+#: lib/page-access/analytics/render-func.php:102
+#: lib/page-access/analytics/render-func.php:245
+#: lib/page-access/analytics/render-func.php:372
 #: lib/page-settings/page-forms.php:23
 #: lib/page-settings/single-forms.php:111
 #: lib/page-settings/single-forms.php:301
@@ -3573,29 +3611,29 @@ msgstr ""
 msgid "表示"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:129
+#: lib/page-access/analytics/render-func.php:135
 msgid "昨日比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:131
+#: lib/page-access/analytics/render-func.php:137
 msgid "前週比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:132
+#: lib/page-access/analytics/render-func.php:138
 msgid "前月比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:174
+#: lib/page-access/analytics/render-func.php:180
 msgid "データがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:195
-#: lib/page-access/analytics/render-func.php:309
+#: lib/page-access/analytics/render-func.php:201
+#: lib/page-access/analytics/render-func.php:326
 msgid "削除済み"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:240
-#: lib/page-access/analytics/render-func.php:356
+#: lib/page-access/analytics/render-func.php:246
+#: lib/page-access/analytics/render-func.php:373
 #: lib/page-affiliate-tag/list.php:87
 #: lib/page-func-text/list.php:87
 #: lib/page-item-ranking/list.php:101
@@ -3604,47 +3642,47 @@ msgstr ""
 msgid "編集"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:248
+#: lib/page-access/analytics/render-func.php:254
 msgid "期間全体の総PVに占めるこの記事の割合"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:250
+#: lib/page-access/analytics/render-func.php:256
 #: tmp/mobile-share-button.php:22
 msgid "シェア"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:268
+#: lib/page-access/analytics/render-func.php:284
 #: lib/page-cache/cache-forms.php:25
 msgid "すべて"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:282
+#: lib/page-access/analytics/render-func.php:299
 msgid "指定した期間のアクセスデータがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:293
+#: lib/page-access/analytics/render-func.php:310
 msgid "急上昇中の記事はありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:344
+#: lib/page-access/analytics/render-func.php:361
 #, php-format
 msgid "直近%1$d日 %2$s PV / 前%1$d日 %3$s PV"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:365
+#: lib/page-access/analytics/render-func.php:382
 msgid "新登場"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:374
+#: lib/page-access/analytics/render-func.php:391
 #, php-format
 msgid "\\u76f4\\u8fd1%1$d\\u65e5\\u306ePV\\u3068\\u305d\\u306e\\u524d%1$d\\u65e5\\u306ePV\\u306e\\u6bd4\\u8f03"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:480
+#: lib/page-access/analytics/render-func.php:497
 msgid "少ない"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:484
+#: lib/page-access/analytics/render-func.php:501
 msgid "多い"
 msgstr ""
 
@@ -7138,7 +7176,7 @@ msgstr ""
 #: lib/page-settings/carousel-forms.php:78
 #: lib/page-settings/single-forms.php:129
 #: lib/page-settings/single-forms.php:350
-#: lib/page-settings/sns-follow-forms.php:121
+#: lib/page-settings/sns-follow-forms.php:103
 #: lib/page-settings/sns-share-forms-bottom.php:136
 #: lib/page-settings/sns-share-forms-top.php:123
 #: lib/shortcodes.php:534
@@ -7157,7 +7195,7 @@ msgstr ""
 #: lib/page-settings/carousel-forms.php:82
 #: lib/page-settings/editor-forms.php:83
 #: lib/page-settings/single-forms.php:130
-#: lib/page-settings/sns-follow-forms.php:124
+#: lib/page-settings/sns-follow-forms.php:106
 #: lib/page-settings/sns-share-forms-bottom.php:139
 #: lib/page-settings/sns-share-forms-top.php:126
 #: lib/tinymce/html-tags.php:48
@@ -9967,6 +10005,10 @@ msgstr ""
 msgid "2ヶ月"
 msgstr ""
 
+#: lib/page-settings/single-forms.php:200
+msgid "6ヶ月"
+msgstr ""
+
 #: lib/page-settings/single-forms.php:202
 msgid "2年"
 msgstr ""
@@ -10202,7 +10244,7 @@ msgid "以下のアカウントURLを設定する場合は、プロフィール�
 msgstr ""
 
 #: lib/page-settings/sns-follow-forms.php:69
-#: lib/page-settings/sns-follow-forms.php:97
+#: lib/page-settings/sns-follow-forms.php:79
 #: lib/widgets/author-box.php:88
 msgid "あなたのプロフィール"
 msgstr ""
@@ -10211,288 +10253,160 @@ msgstr ""
 msgid "ウェブサイト"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:72
-#: lib/page-settings/sns-share-forms-bottom.php:68
-#: lib/page-settings/sns-share-forms-top.php:55
-msgid "X（旧Twitter）"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:73
-#: lib/page-settings/sns-share-forms-bottom.php:71
-#: lib/page-settings/sns-share-forms-top.php:58
-#: tmp/sns-share-buttons.php:21
-msgid "Mastodon"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:74
-#: lib/page-settings/sns-share-forms-bottom.php:74
-#: lib/page-settings/sns-share-forms-top.php:61
-#: tmp/sns-share-buttons.php:25
-msgid "Bluesky"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:75
-#: lib/page-settings/sns-share-forms-bottom.php:77
-#: lib/page-settings/sns-share-forms-top.php:64
-#: tmp/sns-share-buttons.php:29
-msgid "Misskey"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:76
-#: lib/page-settings/sns-share-forms-bottom.php:80
-#: lib/page-settings/sns-share-forms-top.php:67
-#: tmp/sns-share-buttons.php:33
-msgid "Facebook"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:77
-#: lib/page-settings/sns-share-forms-bottom.php:83
-#: lib/page-settings/sns-share-forms-top.php:70
-#: tmp/sns-share-buttons.php:37
-msgid "Threads"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:78
-#: lib/page-settings/sns-share-forms-bottom.php:86
-#: lib/page-settings/sns-share-forms-top.php:73
-#: tmp/sns-share-buttons.php:41
-msgid "Reddit"
-msgstr ""
-
 #: lib/page-settings/sns-follow-forms.php:79
-msgid "Google+"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:80
-#: lib/page-settings/sns-share-forms-bottom.php:89
-#: lib/page-settings/sns-share-forms-top.php:76
-msgid "はてなブックマーク"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:81
-msgid "Instagram"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:82
-#: lib/page-settings/sns-share-forms-bottom.php:101
-#: lib/page-settings/sns-share-forms-top.php:88
-#: tmp/sns-share-buttons.php:57
-msgid "Pinterest"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:83
-msgid "YouTube"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:84
-msgid "TikTok"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:85
-#: lib/page-settings/sns-share-forms-bottom.php:104
-#: lib/page-settings/sns-share-forms-top.php:91
-#: tmp/sns-share-buttons.php:61
-msgid "LinkedIn"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:86
-msgid "note"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:87
-msgid "SoundCloud"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:88
-msgid "Flickr"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:89
-#: lib/page-settings/sns-share-forms-bottom.php:98
-#: lib/page-settings/sns-share-forms-top.php:85
-msgid "LINE@"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:90
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
-#: tmp/sns-follow-buttons.php:105
-msgid "Amazon欲しい物リスト"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:91
-msgid "Twitch"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:92
-msgid "楽天ROOM"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:93
-msgid "Slack"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:94
-msgid "GitHub"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:95
-msgid "CodePen"
-msgstr ""
-
-#: lib/page-settings/sns-follow-forms.php:97
 msgid "から設定"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:98
+#: lib/page-settings/sns-follow-forms.php:80
 msgid "現ログインユーザーのSNSフォローページを設定します。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:106
+#: lib/page-settings/sns-follow-forms.php:88
 #: lib/page-settings/sns-share-forms-bottom.php:121
 #: lib/page-settings/sns-share-forms-top.php:108
 #: lib/page-settings/toc-forms.php:72
 msgid "表示ページ"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:109
+#: lib/page-settings/sns-follow-forms.php:91
 msgid "フォローボタンを表示するページの切り替え。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:112
+#: lib/page-settings/sns-follow-forms.php:94
 #: lib/page-settings/sns-share-forms-bottom.php:127
 #: lib/page-settings/sns-share-forms-top.php:114
 msgid "フロントページ"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:112
+#: lib/page-settings/sns-follow-forms.php:94
 #: lib/page-settings/sns-share-forms-bottom.php:127
 #: lib/page-settings/sns-share-forms-top.php:114
 msgid "（インデックスページ）"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:127
+#: lib/page-settings/sns-follow-forms.php:109
 msgid "フォローボタンを表示するページを選択してください。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:134
+#: lib/page-settings/sns-follow-forms.php:116
 msgid "feedlyの表示"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:138
+#: lib/page-settings/sns-follow-forms.php:120
 msgid "feedlyフォローボタンを表示する"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:139
+#: lib/page-settings/sns-follow-forms.php:121
 msgid "feedlyフォローボタンを表示します。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:147
+#: lib/page-settings/sns-follow-forms.php:129
 msgid "RSSの表示"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:151
+#: lib/page-settings/sns-follow-forms.php:133
 msgid "RSS購読ボタンを表示する"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:152
+#: lib/page-settings/sns-follow-forms.php:134
 msgid "RSS購読用のボタンを表示します。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:161
+#: lib/page-settings/sns-follow-forms.php:143
 #: lib/page-settings/sns-share-forms-bottom.php:150
 #: lib/page-settings/sns-share-forms-top.php:137
 msgid "ボタンカラー"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:166
+#: lib/page-settings/sns-follow-forms.php:148
 #: lib/page-settings/sns-share-forms-bottom.php:155
 #: lib/page-settings/sns-share-forms-top.php:142
 #: skins/skin-made-in-heaven/lib/panel-visual.php:110
 msgid "モノクロ"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:167
+#: lib/page-settings/sns-follow-forms.php:149
 #: lib/page-settings/sns-share-forms-bottom.php:156
 #: lib/page-settings/sns-share-forms-top.php:143
 msgid "ブランドカラー"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:168
+#: lib/page-settings/sns-follow-forms.php:150
 #: lib/page-settings/sns-share-forms-bottom.php:157
 #: lib/page-settings/sns-share-forms-top.php:144
 msgid "ブランドカラー（白抜き）"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:171
+#: lib/page-settings/sns-follow-forms.php:153
 msgid "シェアボタンの配色を選択してください。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:179
+#: lib/page-settings/sns-follow-forms.php:161
 msgid "デフォルトユーザー"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:184
+#: lib/page-settings/sns-follow-forms.php:166
 msgid "投稿・固定ページ以外でフォローボタンを表示するユーザーを選択してください。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:192
+#: lib/page-settings/sns-follow-forms.php:174
 msgid "フォロー数の表示"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:196
+#: lib/page-settings/sns-follow-forms.php:178
 msgid "フォロー数を表示する"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:197
+#: lib/page-settings/sns-follow-forms.php:179
 msgid "本文下やウィジェットなどのフォロー数表示を切り替えます。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:205
+#: lib/page-settings/sns-follow-forms.php:187
 msgid "feedly購読者数"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:210
+#: lib/page-settings/sns-follow-forms.php:192
 msgid "feedlyは購読者情報がエラーで取得できない場合があります。その際には、こちらで設定された購読者数が表示されます。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:224
+#: lib/page-settings/sns-follow-forms.php:206
 #: lib/page-settings/sns-share-forms.php:145
 msgid "キャッシュ設定"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:226
+#: lib/page-settings/sns-follow-forms.php:208
 msgid "フォロー数取得時のキャッシュ利用設定です。キャッシュを利用するとページ表示スピードを多少なりともあげることができます。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:238
+#: lib/page-settings/sns-follow-forms.php:220
 #: lib/page-settings/sns-share-forms.php:159
 msgid "SNSシェア数をキャッシュ化することでページ表示スピードの短縮化を図ります。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:255
+#: lib/page-settings/sns-follow-forms.php:237
 #: lib/page-settings/sns-share-forms.php:184
 msgid "2日間"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:256
+#: lib/page-settings/sns-follow-forms.php:238
 #: lib/page-settings/sns-share-forms.php:185
 msgid "3日間"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:259
+#: lib/page-settings/sns-follow-forms.php:241
 #: lib/page-settings/sns-share-forms.php:188
 msgid "キャッシュの取得間隔を設定します。間隔が狭いほど更新は増えますがサーバー負担は増えます（主に相手サーバー）。"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:268
+#: lib/page-settings/sns-follow-forms.php:250
 msgid "別スキームフォロー数"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:273
+#: lib/page-settings/sns-follow-forms.php:255
 msgid "別スキームのSNSフォロー数をキャッシュする"
 msgstr ""
 
-#: lib/page-settings/sns-follow-forms.php:274
+#: lib/page-settings/sns-follow-forms.php:256
 msgid "httpsサイトであれば、httpサイトの頃のシェア数を取得するかどうか（httpの場合はhttps）。相手サーバーへ倍の負荷をかけるのと取得に時間がかかるので、キャッシュが有効でないと利用できない仕様です。"
 msgstr ""
 
@@ -10542,6 +10456,60 @@ msgstr ""
 msgid "個々のシェアボタンの表示切り替え。"
 msgstr ""
 
+#: lib/page-settings/sns-share-forms-bottom.php:68
+#: lib/page-settings/sns-share-forms-top.php:55
+#: lib/sns-follow.php:135
+msgid "X（旧Twitter）"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:71
+#: lib/page-settings/sns-share-forms-top.php:58
+#: lib/sns-follow.php:136
+#: tmp/sns-share-buttons.php:21
+msgid "Mastodon"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:74
+#: lib/page-settings/sns-share-forms-top.php:61
+#: lib/sns-follow.php:137
+#: tmp/sns-share-buttons.php:25
+msgid "Bluesky"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:77
+#: lib/page-settings/sns-share-forms-top.php:64
+#: lib/sns-follow.php:138
+#: tmp/sns-share-buttons.php:29
+msgid "Misskey"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:80
+#: lib/page-settings/sns-share-forms-top.php:67
+#: lib/sns-follow.php:139
+#: tmp/sns-share-buttons.php:33
+msgid "Facebook"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:83
+#: lib/page-settings/sns-share-forms-top.php:70
+#: lib/sns-follow.php:140
+#: tmp/sns-share-buttons.php:37
+msgid "Threads"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:86
+#: lib/page-settings/sns-share-forms-top.php:73
+#: lib/sns-follow.php:141
+#: tmp/sns-share-buttons.php:41
+msgid "Reddit"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:89
+#: lib/page-settings/sns-share-forms-top.php:76
+#: lib/sns-follow.php:143
+msgid "はてなブックマーク"
+msgstr ""
+
 #: lib/page-settings/sns-share-forms-bottom.php:92
 #: lib/page-settings/sns-share-forms-top.php:79
 msgid "Google"
@@ -10551,6 +10519,26 @@ msgstr ""
 #: lib/page-settings/sns-share-forms-top.php:82
 #: tmp/sns-share-buttons.php:49
 msgid "Pocket"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:98
+#: lib/page-settings/sns-share-forms-top.php:85
+#: lib/sns-follow.php:152
+msgid "LINE@"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:101
+#: lib/page-settings/sns-share-forms-top.php:88
+#: lib/sns-follow.php:145
+#: tmp/sns-share-buttons.php:57
+msgid "Pinterest"
+msgstr ""
+
+#: lib/page-settings/sns-share-forms-bottom.php:104
+#: lib/page-settings/sns-share-forms-top.php:91
+#: lib/sns-follow.php:148
+#: tmp/sns-share-buttons.php:61
+msgid "LinkedIn"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:107
@@ -11902,59 +11890,59 @@ msgstr ""
 msgid "検索結果ページです。"
 msgstr ""
 
-#: lib/settings-preview.php:178
+#: lib/settings-preview.php:181
 msgid "ページが見つかりませんでした"
 msgstr ""
 
-#: lib/settings-preview.php:203
+#: lib/settings-preview.php:206
 msgid "サンプル記事タイトル"
 msgstr ""
 
-#: lib/settings-preview.php:205
+#: lib/settings-preview.php:208
 msgid "これはテーマ設定の見え方を確認するためのサンプル本文です。文字サイズ・行間・配色などの設定がどのように反映されるかをプレビューできます。"
 msgstr ""
 
-#: lib/settings-preview.php:207
+#: lib/settings-preview.php:210
 msgid "見出し2のサンプル"
 msgstr ""
 
-#: lib/settings-preview.php:208
+#: lib/settings-preview.php:211
 msgid "見出し2の装飾（背景色・ボーダー・キーカラー）がここに反映されます。本文の段落スタイルもあわせて確認できます。"
 msgstr ""
 
-#: lib/settings-preview.php:210
+#: lib/settings-preview.php:213
 msgid "見出し3のサンプル"
 msgstr ""
 
-#: lib/settings-preview.php:211
+#: lib/settings-preview.php:214
 msgid "見出し3の装飾を確認するためのサンプルテキストです。"
 msgstr ""
 
-#: lib/settings-preview.php:214
+#: lib/settings-preview.php:217
 msgid "これは引用ブロックのサンプルです。引用の装飾を確認できます。"
 msgstr ""
 
-#: lib/settings-preview.php:218
+#: lib/settings-preview.php:221
 msgid "リスト項目のサンプル1"
 msgstr ""
 
-#: lib/settings-preview.php:219
+#: lib/settings-preview.php:222
 msgid "リスト項目のサンプル2"
 msgstr ""
 
-#: lib/settings-preview.php:220
+#: lib/settings-preview.php:223
 msgid "リスト項目のサンプル3"
 msgstr ""
 
-#: lib/settings-preview.php:223
+#: lib/settings-preview.php:226
 msgid "リンクの色を確認するための"
 msgstr ""
 
-#: lib/settings-preview.php:223
+#: lib/settings-preview.php:226
 msgid "サンプルリンク"
 msgstr ""
 
-#: lib/settings-preview.php:223
+#: lib/settings-preview.php:226
 msgid "です。"
 msgstr ""
 
@@ -12195,96 +12183,60 @@ msgstr ""
 msgid "総計"
 msgstr ""
 
-#: lib/sns-follow.php:135
-msgid "X（旧Twitter） URL"
-msgstr ""
-
-#: lib/sns-follow.php:136
-msgid "Mastodon URL"
-msgstr ""
-
-#: lib/sns-follow.php:137
-msgid "Bluesky URL"
-msgstr ""
-
-#: lib/sns-follow.php:138
-msgid "Misskey URL"
-msgstr ""
-
-#: lib/sns-follow.php:139
-msgid "Facebook URL"
-msgstr ""
-
-#: lib/sns-follow.php:140
-msgid "Threads URL"
-msgstr ""
-
-#: lib/sns-follow.php:141
-msgid "Reddit URL"
-msgstr ""
-
-#: lib/sns-follow.php:143
-msgid "はてなブックマーク URL"
-msgstr ""
-
 #: lib/sns-follow.php:144
-msgid "Instagram URL"
-msgstr ""
-
-#: lib/sns-follow.php:145
-msgid "Pinterest URL"
+msgid "Instagram"
 msgstr ""
 
 #: lib/sns-follow.php:146
-msgid "YouTube URL"
+msgid "YouTube"
 msgstr ""
 
 #: lib/sns-follow.php:147
-msgid "TikTok URL"
-msgstr ""
-
-#: lib/sns-follow.php:148
-msgid "LinkedIn URL"
+msgid "TikTok"
 msgstr ""
 
 #: lib/sns-follow.php:149
-msgid "note URL"
+msgid "note"
 msgstr ""
 
 #: lib/sns-follow.php:150
-msgid "SoundCloud URL"
+msgid "SoundCloud"
 msgstr ""
 
 #: lib/sns-follow.php:151
-msgid "Flickr URL"
-msgstr ""
-
-#: lib/sns-follow.php:152
-msgid "LINE@ URL"
+msgid "Flickr"
 msgstr ""
 
 #: lib/sns-follow.php:153
-msgid "Amazon欲しい物リスト URL"
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
+#: tmp/sns-follow-buttons.php:105
+msgid "Amazon欲しい物リスト"
 msgstr ""
 
 #: lib/sns-follow.php:154
-msgid "Twitch URL"
+msgid "Twitch"
 msgstr ""
 
 #: lib/sns-follow.php:155
-msgid "楽天 ROOM URL"
+msgid "楽天ROOM"
 msgstr ""
 
 #: lib/sns-follow.php:156
-msgid "Slack URL"
+msgid "Slack"
 msgstr ""
 
 #: lib/sns-follow.php:157
-msgid "GitHub URL"
+msgid "GitHub"
 msgstr ""
 
 #: lib/sns-follow.php:158
-msgid "CodePen URL"
+msgid "CodePen"
+msgstr ""
+
+#. translators: %s: SNSサービス名
+#: lib/sns-follow.php:170
+#, php-format
+msgid "%s URL"
 msgstr ""
 
 #: lib/sns.php:17
