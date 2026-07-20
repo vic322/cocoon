@@ -1,0 +1,90 @@
+name: Check translation diff (dry-run)
+# フォーク自動化(補助): Crowdin の翻訳(.po)を upstream/master に取り込んで
+# コンパイルした場合に、還元PRとして出る差分があるかだけを確認する手動アクション。
+# push も PR作成も行わない読み取り専用のドライラン。判定結果は Job Summary に出す。
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: l10n-check-diff
+  cancel-in-progress: true
+
+env:
+  L10N_BRANCH: l10n_translation_master
+
+jobs:
+  check-diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check Crowdin l10n branch exists
+        id: l10n
+        run: |
+          if git ls-remote --exit-code --heads origin "$L10N_BRANCH" > /dev/null; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::$L10N_BRANCH が存在しないためスキップします"
+            echo "### ⏭️ \`$L10N_BRANCH\` が存在しないためスキップ" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Prepare tree (upstream/master + Crowdin .po)
+        if: steps.l10n.outputs.exists == 'true'
+        run: |
+          git remote add upstream "https://github.com/xserver-inc/cocoon.git"
+          git fetch upstream master
+          git fetch origin "$L10N_BRANCH"
+
+          # 還元PRと同じ組み立て: upstream/master を起点に Crowdin の .po だけを上書きする。
+          # HEAD が upstream/master になるので、以降の diff はそのまま「PRに出る差分」になる。
+          git checkout -B _diff_check upstream/master
+          git checkout "origin/$L10N_BRANCH" -- 'languages/*.po'
+
+      - uses: actions/setup-node@v4
+        if: steps.l10n.outputs.exists == 'true'
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Compile translations (.mo / .l10n.php / blocks-js.json)
+        if: steps.l10n.outputs.exists == 'true'
+        run: |
+          npm ci
+
+          mkdir -p vendor/bin
+          curl -s -o vendor/bin/wp-cli.phar \
+            https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+          chmod +x vendor/bin/wp-cli.phar
+
+          npm run compile-all
+
+      - name: Report diff vs upstream/master
+        if: steps.l10n.outputs.exists == 'true'
+        run: |
+          # 還元PRと同じく languages/ のみを対象に、upstream/master (=HEAD) との差分を見る
+          git add languages/
+          if git diff --cached --quiet; then
+            {
+              echo "## ✅ 差分なし"
+              echo ""
+              echo "upstream/master と翻訳差分はありません。還元PRは不要です。"
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::notice::差分なし — 還元PR不要"
+          else
+            {
+              echo "## 📝 差分あり"
+              echo ""
+              echo "\`Build translations and PR to upstream\` を実行すると、この差分でPRが作成/更新されます。"
+              echo ""
+              echo '```'
+              git diff --cached --stat
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            echo "::notice::差分あり — 還元PR候補"
+          fi
