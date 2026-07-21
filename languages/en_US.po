@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-20T13:14:21+00:00\n"
-"PO-Revision-Date: 2026-07-20 13:27\n"
+"POT-Creation-Date: 2026-07-21T21:03:14+00:00\n"
+"PO-Revision-Date: 2026-07-21 21:16\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -10465,55 +10465,55 @@ msgstr "Toggle display of individual share buttons."
 
 #: lib/page-settings/sns-share-forms-bottom.php:68
 #: lib/page-settings/sns-share-forms-top.php:55
-#: lib/sns-follow.php:135
+#: lib/sns-follow.php:139
 msgid "X（旧Twitter）"
 msgstr "X (formerly Twitter)"
 
 #: lib/page-settings/sns-share-forms-bottom.php:71
 #: lib/page-settings/sns-share-forms-top.php:58
-#: lib/sns-follow.php:136
+#: lib/sns-follow.php:145
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodon"
 msgstr "Mastodon"
 
 #: lib/page-settings/sns-share-forms-bottom.php:74
 #: lib/page-settings/sns-share-forms-top.php:61
-#: lib/sns-follow.php:137
+#: lib/sns-follow.php:151
 #: tmp/sns-share-buttons.php:25
 msgid "Bluesky"
 msgstr "Bluesky"
 
 #: lib/page-settings/sns-share-forms-bottom.php:77
 #: lib/page-settings/sns-share-forms-top.php:64
-#: lib/sns-follow.php:138
+#: lib/sns-follow.php:157
 #: tmp/sns-share-buttons.php:29
 msgid "Misskey"
 msgstr "Misskey"
 
 #: lib/page-settings/sns-share-forms-bottom.php:80
 #: lib/page-settings/sns-share-forms-top.php:67
-#: lib/sns-follow.php:139
+#: lib/sns-follow.php:163
 #: tmp/sns-share-buttons.php:33
 msgid "Facebook"
 msgstr "Facebook"
 
 #: lib/page-settings/sns-share-forms-bottom.php:83
 #: lib/page-settings/sns-share-forms-top.php:70
-#: lib/sns-follow.php:140
+#: lib/sns-follow.php:169
 #: tmp/sns-share-buttons.php:37
 msgid "Threads"
 msgstr "Threads"
 
 #: lib/page-settings/sns-share-forms-bottom.php:86
 #: lib/page-settings/sns-share-forms-top.php:73
-#: lib/sns-follow.php:141
+#: lib/sns-follow.php:175
 #: tmp/sns-share-buttons.php:41
 msgid "Reddit"
 msgstr "Reddit"
 
 #: lib/page-settings/sns-share-forms-bottom.php:89
 #: lib/page-settings/sns-share-forms-top.php:76
-#: lib/sns-follow.php:143
+#: lib/sns-follow.php:181
 msgid "はてなブックマーク"
 msgstr "Hatena bookmark"
 
@@ -10530,20 +10530,20 @@ msgstr "Pocket"
 
 #: lib/page-settings/sns-share-forms-bottom.php:98
 #: lib/page-settings/sns-share-forms-top.php:85
-#: lib/sns-follow.php:152
+#: lib/sns-follow.php:235
 msgid "LINE@"
 msgstr "LINE@"
 
 #: lib/page-settings/sns-share-forms-bottom.php:101
 #: lib/page-settings/sns-share-forms-top.php:88
-#: lib/sns-follow.php:145
+#: lib/sns-follow.php:229
 #: tmp/sns-share-buttons.php:57
 msgid "Pinterest"
 msgstr "Pinterest"
 
 #: lib/page-settings/sns-share-forms-bottom.php:104
 #: lib/page-settings/sns-share-forms-top.php:91
-#: lib/sns-follow.php:148
+#: lib/sns-follow.php:205
 #: tmp/sns-share-buttons.php:61
 msgid "LinkedIn"
 msgstr "LinkedIn"
@@ -12190,58 +12190,173 @@ msgstr "A,B,C,D,E"
 msgid "総計"
 msgstr "Total"
 
-#: lib/sns-follow.php:144
+#: lib/sns-follow.php:140
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:59
+msgid "Xをフォロー"
+msgstr "Follow X"
+
+#: lib/sns-follow.php:146
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:71
+msgid "Mastodonをフォロー"
+msgstr "Follow Mastodon"
+
+#: lib/sns-follow.php:152
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:84
+msgid "Blueskyをフォロー"
+msgstr "Follow Bluesky"
+
+#: lib/sns-follow.php:158
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:97
+msgid "Misskeyをフォロー"
+msgstr "Follow Misskey"
+
+#: lib/sns-follow.php:164
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:110
+msgid "Facebookをフォロー"
+msgstr "Follow Facebook"
+
+#: lib/sns-follow.php:170
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:123
+msgid "Threadsをフォロー"
+msgstr "Follow on Threads"
+
+#: lib/sns-follow.php:176
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:135
+msgid "Redditをフォロー"
+msgstr "Follow on Reddit"
+
+#: lib/sns-follow.php:182
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:147
+msgid "はてブをフォロー"
+msgstr "Follow Hatena Bookmark"
+
+#: lib/sns-follow.php:187
 msgid "Instagram"
 msgstr "Instagram"
 
-#: lib/sns-follow.php:146
+#: lib/sns-follow.php:188
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:160
+msgid "Instagramをフォロー"
+msgstr "Follow Instagram"
+
+#: lib/sns-follow.php:193
 msgid "YouTube"
 msgstr "YouTube"
 
-#: lib/sns-follow.php:147
+#: lib/sns-follow.php:194
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:186
+msgid "YouTubeをフォロー"
+msgstr "Follow YouTube"
+
+#: lib/sns-follow.php:199
 msgid "TikTok"
 msgstr "TikTok"
 
-#: lib/sns-follow.php:149
+#: lib/sns-follow.php:200
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:316
+msgid "TikTokをフォロー"
+msgstr "Follow TikTok"
+
+#: lib/sns-follow.php:206
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:199
+msgid "LinkedInをフォロー"
+msgstr "Follow LinkedIn"
+
+#: lib/sns-follow.php:211
 msgid "note"
 msgstr "note"
 
-#: lib/sns-follow.php:150
+#: lib/sns-follow.php:212
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
+msgid "noteをフォロー"
+msgstr "Follow note"
+
+#: lib/sns-follow.php:217
 msgid "SoundCloud"
 msgstr "SoundCloud"
 
-#: lib/sns-follow.php:151
+#: lib/sns-follow.php:218
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:329
+msgid "SoundCloudをフォロー"
+msgstr "Follow SoundCloud"
+
+#: lib/sns-follow.php:223
 msgid "Flickr"
 msgstr "Flickr"
 
-#: lib/sns-follow.php:153
+#: lib/sns-follow.php:224
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:225
+msgid "Flickrをフォロー"
+msgstr "Follow Flickr"
+
+#: lib/sns-follow.php:230
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:173
+msgid "Pinterestをフォロー"
+msgstr "Follow Pinterest"
+
+#: lib/sns-follow.php:236
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:342
+msgid "LINE@をフォロー"
+msgstr "Follow LINE@"
+
+#: lib/sns-follow.php:241
+#: lib/sns-follow.php:242
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
-#: tmp/sns-follow-buttons.php:105
 msgid "Amazon欲しい物リスト"
 msgstr "Amazon Wishlist"
 
-#: lib/sns-follow.php:154
+#: lib/sns-follow.php:245
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
+msgid "Amazonほしい物リストをチェック"
+msgstr "Check Amazon Wishlist"
+
+#: lib/sns-follow.php:248
 msgid "Twitch"
 msgstr "Twitch"
 
-#: lib/sns-follow.php:155
+#: lib/sns-follow.php:249
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:251
+msgid "Twitchをフォロー"
+msgstr "Follow Twitch"
+
+#: lib/sns-follow.php:254
 msgid "楽天ROOM"
 msgstr "Rakuten Room"
 
-#: lib/sns-follow.php:156
+#: lib/sns-follow.php:255
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:264
+msgid "楽天ROOMをフォロー"
+msgstr "Follow Rakuten Room"
+
+#: lib/sns-follow.php:260
 msgid "Slack"
 msgstr "Slack"
 
-#: lib/sns-follow.php:157
+#: lib/sns-follow.php:261
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:277
+msgid "Slackをフォロー"
+msgstr "Follow Slack"
+
+#: lib/sns-follow.php:266
 msgid "GitHub"
 msgstr "GitHub"
 
-#: lib/sns-follow.php:158
+#: lib/sns-follow.php:267
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:290
+msgid "GitHubをフォロー"
+msgstr "Follow GitHub"
+
+#: lib/sns-follow.php:272
 msgid "CodePen"
 msgstr "CodePen"
 
+#: lib/sns-follow.php:273
+#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:303
+msgid "CodePenをフォロー"
+msgstr "Follow CodePen"
+
 #. translators: %s: SNSサービス名
-#: lib/sns-follow.php:170
+#: lib/sns-follow.php:289
 #, php-format
 msgid "%s URL"
 msgstr ""
@@ -14453,121 +14568,6 @@ msgstr "Close search form"
 msgid "検索フォームを開く"
 msgstr "Open search form"
 
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:59
-#: tmp/sns-follow-buttons.php:33
-msgid "Xをフォロー"
-msgstr "Follow X"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:71
-#: tmp/sns-follow-buttons.php:37
-msgid "Mastodonをフォロー"
-msgstr "Follow Mastodon"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:84
-#: tmp/sns-follow-buttons.php:41
-msgid "Blueskyをフォロー"
-msgstr "Follow Bluesky"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:97
-#: tmp/sns-follow-buttons.php:45
-msgid "Misskeyをフォロー"
-msgstr "Follow Misskey"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:110
-#: tmp/sns-follow-buttons.php:49
-msgid "Facebookをフォロー"
-msgstr "Follow Facebook"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:123
-#: tmp/sns-follow-buttons.php:53
-msgid "Threadsをフォロー"
-msgstr "Follow on Threads"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:135
-#: tmp/sns-follow-buttons.php:57
-msgid "Redditをフォロー"
-msgstr "Follow on Reddit"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:147
-#: tmp/sns-follow-buttons.php:61
-msgid "はてブをフォロー"
-msgstr "Follow Hatena Bookmark"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:160
-#: tmp/sns-follow-buttons.php:69
-msgid "Instagramをフォロー"
-msgstr "Follow Instagram"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:173
-#: tmp/sns-follow-buttons.php:97
-msgid "Pinterestをフォロー"
-msgstr "Follow Pinterest"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:186
-#: tmp/sns-follow-buttons.php:73
-msgid "YouTubeをフォロー"
-msgstr "Follow YouTube"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:199
-#: tmp/sns-follow-buttons.php:81
-msgid "LinkedInをフォロー"
-msgstr "Follow LinkedIn"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
-#: tmp/sns-follow-buttons.php:85
-msgid "noteをフォロー"
-msgstr "Follow note"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:225
-#: tmp/sns-follow-buttons.php:93
-msgid "Flickrをフォロー"
-msgstr "Follow Flickr"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
-#: tmp/sns-follow-buttons.php:105
-msgid "Amazonほしい物リストをチェック"
-msgstr "Check Amazon Wishlist"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:251
-#: tmp/sns-follow-buttons.php:109
-msgid "Twitchをフォロー"
-msgstr "Follow Twitch"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:264
-#: tmp/sns-follow-buttons.php:113
-msgid "楽天ROOMをフォロー"
-msgstr "Follow Rakuten Room"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:277
-#: tmp/sns-follow-buttons.php:117
-msgid "Slackをフォロー"
-msgstr "Follow Slack"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:290
-#: tmp/sns-follow-buttons.php:121
-msgid "GitHubをフォロー"
-msgstr "Follow GitHub"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:303
-#: tmp/sns-follow-buttons.php:125
-msgid "CodePenをフォロー"
-msgstr "Follow CodePen"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:316
-#: tmp/sns-follow-buttons.php:77
-msgid "TikTokをフォロー"
-msgstr "Follow TikTok"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:329
-#: tmp/sns-follow-buttons.php:89
-msgid "SoundCloudをフォロー"
-msgstr "Follow SoundCloud"
-
-#: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:342
-#: tmp/sns-follow-buttons.php:101
-msgid "LINE@をフォロー"
-msgstr "Follow LINE@"
-
 #: skins/skin-made-in-heaven/lib/hook-cocoon.php:28
 #, php-format
 msgid "%s件ヒット"
@@ -15337,15 +15337,11 @@ msgstr "Author website"
 msgid "著作サイトをチェック"
 msgstr "Check out author site"
 
-#: tmp/sns-follow-buttons.php:65
-msgid "Google＋をフォロー"
-msgstr "Follow Google+"
-
-#: tmp/sns-follow-buttons.php:129
+#: tmp/sns-follow-buttons.php:48
 msgid "feedlyで更新情報を購読"
 msgstr "Subscribe to feedly"
 
-#: tmp/sns-follow-buttons.php:133
+#: tmp/sns-follow-buttons.php:52
 msgid "RSSで更新情報を購読"
 msgstr "Subscribe updates by RSS"
 
