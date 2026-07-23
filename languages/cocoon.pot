@@ -9,6 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-23T20:58:20+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -668,6 +669,8 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:321
 #: lib/admin-tinymce-qtag.php:1676
+#: tmp/css-custom.php:978
+#: tmp/css-custom.php:1025
 #: blocks/src/block-extension/style-extension/style01.js:58
 #: blocks/src/block-extension/style-extension/style02.js:58
 #: blocks/src/block/blogcard/deprecated.js:83
@@ -698,6 +701,8 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:471
 #: lib/admin-tinymce-qtag.php:1682
+#: tmp/css-custom.php:974
+#: tmp/css-custom.php:1022
 #: blocks/src/block/blogcard/deprecated.js:87
 #: blocks/src/block/blogcard/edit.js:68
 #: blocks/src/block/tab-box/edit.js:91
@@ -715,6 +720,8 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:561
 #: lib/admin-tinymce-qtag.php:1694
 #: lib/page-access/analytics/dashboard-page.php:623
+#: tmp/css-custom.php:994
+#: tmp/css-custom.php:1037
 #: blocks/src/block/blogcard/deprecated.js:95
 #: blocks/src/block/blogcard/edit.js:76
 #: blocks/src/block/tab-box/edit.js:103
@@ -1163,6 +1170,8 @@ msgstr ""
 #: lib/widgets/related-entries.php:19
 #: lib/widgets/related-entries.php:137
 #: lib/widgets/related-entries.php:147
+#: tmp/css-custom.php:958
+#: tmp/css-custom.php:1010
 #: blocks/src/block/blogcard/deprecated.js:59
 #: blocks/src/block/blogcard/edit.js:40
 #: blocks/src/old/blogcard-class/block.js:71
@@ -1170,6 +1179,8 @@ msgid "関連記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1646
+#: tmp/css-custom.php:962
+#: tmp/css-custom.php:1013
 #: blocks/src/block/blogcard/deprecated.js:63
 #: blocks/src/block/blogcard/edit.js:44
 #: blocks/src/old/blogcard-class/block.js:75
@@ -1177,6 +1188,8 @@ msgid "参考記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1652
+#: tmp/css-custom.php:966
+#: tmp/css-custom.php:1016
 #: blocks/src/block/blogcard/deprecated.js:67
 #: blocks/src/block/blogcard/edit.js:48
 msgid "参考リンク"
@@ -1189,6 +1202,8 @@ msgstr ""
 #: lib/widgets/popular-entries.php:137
 #: lib/widgets/popular-entries.php:151
 #: skins/skin-made-in-heaven/lib/panel-option.php:72
+#: tmp/css-custom.php:970
+#: tmp/css-custom.php:1019
 #: blocks/src/block/blogcard/deprecated.js:71
 #: blocks/src/block/blogcard/edit.js:52
 #: blocks/src/block/popular-list/index.js:28
@@ -1197,6 +1212,8 @@ msgid "人気記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1664
+#: tmp/css-custom.php:982
+#: tmp/css-custom.php:1028
 #: blocks/src/block/blogcard/deprecated.js:75
 #: blocks/src/block/blogcard/edit.js:56
 #: blocks/src/old/blogcard-class/block.js:83
@@ -1206,6 +1223,9 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:1670
 #: lib/shortcodes.php:1201
 #: lib/widgets/cta-box.php:34
+#: skins/skin-made-in-heaven/tmp/css-custom.php:12
+#: tmp/css-custom.php:986
+#: tmp/css-custom.php:1031
 #: blocks/src/block/blogcard/deprecated.js:79
 #: blocks/src/block/blogcard/edit.js:60
 #: blocks/src/old/blogcard-class/block.js:87
@@ -1213,6 +1233,8 @@ msgid "詳細はこちら"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1688
+#: tmp/css-custom.php:990
+#: tmp/css-custom.php:1034
 #: blocks/src/block/blogcard/deprecated.js:91
 #: blocks/src/block/blogcard/edit.js:72
 #: blocks/src/old/blogcard-class/block.js:99
@@ -1220,11 +1242,15 @@ msgid "公式サイト"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1700
+#: tmp/css-custom.php:998
+#: tmp/css-custom.php:1040
 #: blocks/src/block/blogcard/edit.js:80
 msgid "前回の記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1706
+#: tmp/css-custom.php:1002
+#: tmp/css-custom.php:1043
 #: blocks/src/block/blogcard/edit.js:84
 msgid "続きの記事"
 msgstr ""
@@ -2751,18 +2777,22 @@ msgid "おすすめ"
 msgstr ""
 
 #: lib/html-forms.php:1704
+#: skins/skin-made-in-heaven/tmp/css-custom.php:17
 msgid "新着"
 msgstr ""
 
 #: lib/html-forms.php:1707
+#: skins/skin-made-in-heaven/tmp/css-custom.php:18
 msgid "注目"
 msgstr ""
 
 #: lib/html-forms.php:1710
+#: skins/skin-made-in-heaven/tmp/css-custom.php:19
 msgid "必見"
 msgstr ""
 
 #: lib/html-forms.php:1713
+#: skins/skin-made-in-heaven/tmp/css-custom.php:20
 msgid "お得"
 msgstr ""
 
@@ -10428,55 +10458,55 @@ msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:68
 #: lib/page-settings/sns-share-forms-top.php:55
-#: lib/sns-follow.php:139
+#: lib/sns-follow.php:141
 msgid "X（旧Twitter）"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:71
 #: lib/page-settings/sns-share-forms-top.php:58
-#: lib/sns-follow.php:145
+#: lib/sns-follow.php:147
 #: tmp/sns-share-buttons.php:21
 msgid "Mastodon"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:74
 #: lib/page-settings/sns-share-forms-top.php:61
-#: lib/sns-follow.php:151
+#: lib/sns-follow.php:153
 #: tmp/sns-share-buttons.php:25
 msgid "Bluesky"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:77
 #: lib/page-settings/sns-share-forms-top.php:64
-#: lib/sns-follow.php:157
+#: lib/sns-follow.php:159
 #: tmp/sns-share-buttons.php:29
 msgid "Misskey"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:80
 #: lib/page-settings/sns-share-forms-top.php:67
-#: lib/sns-follow.php:163
+#: lib/sns-follow.php:165
 #: tmp/sns-share-buttons.php:33
 msgid "Facebook"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:83
 #: lib/page-settings/sns-share-forms-top.php:70
-#: lib/sns-follow.php:169
+#: lib/sns-follow.php:171
 #: tmp/sns-share-buttons.php:37
 msgid "Threads"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:86
 #: lib/page-settings/sns-share-forms-top.php:73
-#: lib/sns-follow.php:175
+#: lib/sns-follow.php:177
 #: tmp/sns-share-buttons.php:41
 msgid "Reddit"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:89
 #: lib/page-settings/sns-share-forms-top.php:76
-#: lib/sns-follow.php:181
+#: lib/sns-follow.php:183
 msgid "はてなブックマーク"
 msgstr ""
 
@@ -10493,20 +10523,20 @@ msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:98
 #: lib/page-settings/sns-share-forms-top.php:85
-#: lib/sns-follow.php:235
+#: lib/sns-follow.php:237
 msgid "LINE@"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:101
 #: lib/page-settings/sns-share-forms-top.php:88
-#: lib/sns-follow.php:229
+#: lib/sns-follow.php:231
 #: tmp/sns-share-buttons.php:57
 msgid "Pinterest"
 msgstr ""
 
 #: lib/page-settings/sns-share-forms-bottom.php:104
 #: lib/page-settings/sns-share-forms-top.php:91
-#: lib/sns-follow.php:205
+#: lib/sns-follow.php:207
 #: tmp/sns-share-buttons.php:61
 msgid "LinkedIn"
 msgstr ""
@@ -11048,6 +11078,7 @@ msgstr ""
 
 #: lib/page-settings/toc-forms.php:115
 #: lib/page-settings/toc-funcs.php:78
+#: tmp/css-custom.php:581
 msgid "開く"
 msgstr ""
 
@@ -11058,6 +11089,7 @@ msgstr ""
 #: lib/page-settings/toc-forms.php:119
 #: lib/page-settings/toc-funcs.php:86
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-mobile-search-button.php:23
+#: tmp/css-custom.php:597
 msgid "閉じる"
 msgstr ""
 
@@ -12151,173 +12183,173 @@ msgstr ""
 msgid "総計"
 msgstr ""
 
-#: lib/sns-follow.php:140
+#: lib/sns-follow.php:142
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:59
 msgid "Xをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:146
+#: lib/sns-follow.php:148
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:71
 msgid "Mastodonをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:152
+#: lib/sns-follow.php:154
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:84
 msgid "Blueskyをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:158
+#: lib/sns-follow.php:160
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:97
 msgid "Misskeyをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:164
+#: lib/sns-follow.php:166
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:110
 msgid "Facebookをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:170
+#: lib/sns-follow.php:172
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:123
 msgid "Threadsをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:176
+#: lib/sns-follow.php:178
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:135
 msgid "Redditをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:182
+#: lib/sns-follow.php:184
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:147
 msgid "はてブをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:187
+#: lib/sns-follow.php:189
 msgid "Instagram"
 msgstr ""
 
-#: lib/sns-follow.php:188
+#: lib/sns-follow.php:190
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:160
 msgid "Instagramをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:193
+#: lib/sns-follow.php:195
 msgid "YouTube"
 msgstr ""
 
-#: lib/sns-follow.php:194
+#: lib/sns-follow.php:196
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:186
 msgid "YouTubeをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:199
+#: lib/sns-follow.php:201
 msgid "TikTok"
 msgstr ""
 
-#: lib/sns-follow.php:200
+#: lib/sns-follow.php:202
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:316
 msgid "TikTokをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:206
+#: lib/sns-follow.php:208
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:199
 msgid "LinkedInをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:211
+#: lib/sns-follow.php:213
 msgid "note"
 msgstr ""
 
-#: lib/sns-follow.php:212
+#: lib/sns-follow.php:214
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:212
 msgid "noteをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:217
+#: lib/sns-follow.php:219
 msgid "SoundCloud"
 msgstr ""
 
-#: lib/sns-follow.php:218
+#: lib/sns-follow.php:220
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:329
 msgid "SoundCloudをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:223
+#: lib/sns-follow.php:225
 msgid "Flickr"
 msgstr ""
 
-#: lib/sns-follow.php:224
+#: lib/sns-follow.php:226
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:225
 msgid "Flickrをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:230
+#: lib/sns-follow.php:232
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:173
 msgid "Pinterestをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:236
+#: lib/sns-follow.php:238
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:342
 msgid "LINE@をフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:241
-#: lib/sns-follow.php:242
+#: lib/sns-follow.php:243
+#: lib/sns-follow.php:244
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
 msgid "Amazon欲しい物リスト"
 msgstr ""
 
-#: lib/sns-follow.php:245
+#: lib/sns-follow.php:247
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:238
 msgid "Amazonほしい物リストをチェック"
 msgstr ""
 
-#: lib/sns-follow.php:248
+#: lib/sns-follow.php:250
 msgid "Twitch"
 msgstr ""
 
-#: lib/sns-follow.php:249
+#: lib/sns-follow.php:251
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:251
 msgid "Twitchをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:254
+#: lib/sns-follow.php:256
 msgid "楽天ROOM"
 msgstr ""
 
-#: lib/sns-follow.php:255
+#: lib/sns-follow.php:257
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:264
 msgid "楽天ROOMをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:260
+#: lib/sns-follow.php:262
 msgid "Slack"
 msgstr ""
 
-#: lib/sns-follow.php:261
+#: lib/sns-follow.php:263
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:277
 msgid "Slackをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:266
+#: lib/sns-follow.php:268
 msgid "GitHub"
 msgstr ""
 
-#: lib/sns-follow.php:267
+#: lib/sns-follow.php:269
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:290
 msgid "GitHubをフォロー"
 msgstr ""
 
-#: lib/sns-follow.php:272
+#: lib/sns-follow.php:274
 msgid "CodePen"
 msgstr ""
 
-#: lib/sns-follow.php:273
+#: lib/sns-follow.php:275
 #: skins/skin-grayish-topfull/tmp-grayish/cstm-sns-follow-buttons.php:303
 msgid "CodePenをフォロー"
 msgstr ""
 
 #. translators: %s: SNSサービス名
-#: lib/sns-follow.php:289
+#: lib/sns-follow.php:294
 #, php-format
 msgid "%s URL"
 msgstr ""
@@ -15078,6 +15110,22 @@ msgstr ""
 msgid "不透明度（opacity値%d～%d%%）"
 msgstr ""
 
+#: skins/skin-made-in-heaven/tmp/css-custom.php:13
+msgid "過去の投稿"
+msgstr ""
+
+#: skins/skin-made-in-heaven/tmp/css-custom.php:14
+msgid "新しい投稿"
+msgstr ""
+
+#: skins/skin-made-in-heaven/tmp/css-custom.php:15
+msgid "スクロールできます→"
+msgstr ""
+
+#: skins/skin-made-in-heaven/tmp/css-custom.php:16
+msgid "お勧め"
+msgstr ""
+
 #: skins/skin-made-in-heaven/tmp/list-category-columns.php:30
 msgid "更新記事"
 msgstr ""
@@ -15201,6 +15249,10 @@ msgstr ""
 #: tmp/content.php:96
 #, php-format
 msgid "この記事は<span class=\"bold\">約%s分</span>で読めます。"
+msgstr ""
+
+#: tmp/css-custom.php:954
+msgid "ラベルなし"
 msgstr ""
 
 #: tmp/date-tags.php:18
@@ -17498,14 +17550,6 @@ msgstr ""
 
 #: blocks/src/toolbutton/strike.js:15
 msgid "打ち消し線（訂正）"
-msgstr ""
-
-#: js/blogcard-editor.js:37
-msgid "ブログカード（埋め込み）"
-msgstr ""
-
-#: js/blogcard-editor.js:86
-msgid "URLが設定されていません"
 msgstr ""
 
 #: blocks/src/block-universal/caption-box/block.json
