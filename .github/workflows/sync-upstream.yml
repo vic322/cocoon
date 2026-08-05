@@ -32,11 +32,25 @@ jobs:
           git remote add upstream https://github.com/xserver-inc/cocoon.git
           git fetch upstream master
 
-      - name: Fast-forward master (pure mirror)
+      - name: Mirror master to upstream
         run: |
-          # master はミラー運用のため ff できない場合は失敗させる（手動解決）
-          git merge --ff-only upstream/master
-          git push origin master
+          # master は純粋ミラーなので upstream/master へ強制的に揃える。
+          # PAT による push は fork 内のワークフローを起動するため、master に
+          # 同梱された upstream 側 CI が POT や翻訳フォールバックをこのブランチへ
+          # commit し、ff-only が「分岐」で失敗して同期が止まっていた。
+          # upstream に無いコミットはその副産物なので破棄し、内容をログに残す。
+          DISCARDED=$(git log --oneline upstream/master..HEAD)
+          if [ -n "$DISCARDED" ]; then
+            {
+              echo "### master から破棄したコミット"
+              echo '```'
+              echo "$DISCARDED"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+          git reset --hard upstream/master
+          git push --force origin master
 
       - name: Regenerate POT on translation_master
         run: |
