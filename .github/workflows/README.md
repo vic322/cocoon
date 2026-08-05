@@ -8,11 +8,23 @@ GitHub Actions ワークフローの解説である。開発関連（PHPUnit 等
 |---|---|---|
 | `sync-upstream.yml` | **フォークのみ**（`automation` ブランチ） | upstream 同期 + POT 再生成（l10n関連） |
 | `l10n-build-pr.yml` | **フォークのみ**（`automation` ブランチ） | 翻訳コンパイル + 還元PR（l10n関連） |
-| `pot_generator.yml` | 本体 | POT 再生成（本体 PR #371 で push トリガー化） |
+| `l10n-check-diff.yml` | **フォークのみ**（`automation` ブランチ） | 還元PR差分の読み取り専用ドライラン |
+| `pot_generator.yml` | 本体 | POT 再生成（本体 PR #371 で push トリガー化）。**フォークでは無効化** |
+| `apply-translation-fallbacks.yml` | 本体 | 空欄 msgstr の辞書フォールバック。**フォークでは無効化** |
 | `phpunit.yml` | 本体 | ユニットテスト |
 
 旧・手動翻訳コンパイルの `po_to_mo.yml` / `po_to_json.yml` は l10n-build-pr に統合されたため
 削除した（本体は PR #373）。
+
+### フォークで本体側ワークフローを無効化している理由
+
+`master` は本体のミラーなので、本体の `.github/workflows/` もそのまま入ってくる。
+`pot_generator.yml` と `apply-translation-fallbacks.yml` は `master` への push で起動し
+`master` に commit & push するため、フォークで放置すると同期の直後に起動して
+`master` を upstream から分岐させてしまう（`languages/` を書き戻すのは本体の役割であり、
+フォークでは `translation_master` 側で POT を再生成するので不要）。
+そのためフォークの Actions 設定でこの 2 本を Disable している（`gh workflow disable`）。
+本体が新しい push トリガーのワークフローを追加した場合は同様に無効化する。
 
 ## l10n関連（翻訳自動化パイプライン）
 
@@ -31,7 +43,7 @@ GitHub Actions ワークフローの解説である。開発関連（PHPUnit 等
                │ sync-upstream.yml（毎日 05:00 JST）
                ▼
 ┌─ vic322/cocoon（フォーク）────────────────────────────────┐
-│  master              = upstream の純粋ミラー（ff-only）     │
+│  master              = upstream の純粋ミラー（force）       │
 │  translation_master  = upstream ミラー + POT再生成（force） │
 │         │  ← Crowdin GitHub インテグレーションが監視        │
 │         ▼                                                  │
@@ -52,7 +64,7 @@ GitHub Actions ワークフローの解説である。開発関連（PHPUnit 等
 | ブランチ | 役割 | 直接コミット |
 |---|---|---|
 | `automation` | デフォルトブランチ。自動化ワークフローの実行元 | 可（ワークフロー変更のみ） |
-| `master` | upstream の純粋ミラー | 禁止（ff できなくなり同期が停止する） |
+| `master` | upstream の純粋ミラー。毎日 force 更新される | 禁止（次回同期で消える） |
 | `translation_master` | Crowdin が監視するソースブランチ。毎日 force 更新される | 禁止（次回同期で消える） |
 | `l10n_translation_master` | Crowdin が翻訳を push するサービスブランチ | 禁止（Crowdin 管理） |
 | `l10n-release` | 還元PR用。ワークフローが force push で再生成する | 禁止（自動生成） |
@@ -61,11 +73,12 @@ GitHub Actions ワークフローの解説である。開発関連（PHPUnit 等
 
 #### sync-upstream.yml（毎日 05:00 JST / 手動実行可）
 
-1. upstream/master をフォークの `master` に ff-only で反映する。ff 不可の場合は失敗する（手動解決が必要）
+1. フォークの `master` を upstream/master に force で揃える。upstream に無いコミットは
+   破棄し、内容を Job Summary に出力する
 2. `translation_master` を upstream/master に force で揃え、その上で POT を再生成する。
    本体側の POT が最新であれば差分ゼロとなりコミットは発生しない
 
-#### l10n-build-pr.yml（6時間ごと / 手動実行可）
+#### l10n-build-pr.yml（手動実行のみ）
 
 1. `l10n_translation_master` の存在を確認する（なければスキップ）
 2. upstream/master を起点に `l10n-release` を作り直し、Crowdin の `languages/*.po` のみを上書きする
@@ -76,7 +89,9 @@ GitHub Actions ワークフローの解説である。開発関連（PHPUnit 等
 
 | 項目 | 場所 | 内容 |
 |---|---|---|
+| `SYNC_PAT` | フォークの Actions Secrets | フォークへの push 用 PAT（`workflow` スコープ必須）。既定の `GITHUB_TOKEN` では本体由来の `.github/workflows/` を push できない |
 | `UPSTREAM_PR_TOKEN` | フォークの Actions Secrets | 還元PR作成用 PAT（classic / `public_repo` スコープ）。未設定の場合、PR作成のみ警告スキップされる |
+| `pot_generator` / `apply-translation-fallbacks` | フォークの Actions ワークフロー一覧 | Disable にしておく（上記「フォークで本体側ワークフローを無効化している理由」） |
 | Crowdin 自動同期 | Crowdin プロジェクト設定 | GitHub インテグレーションの対象ブランチ `translation_master`、ソース検知・翻訳 push の自動同期を有効化 |
 
 ### Crowdin が自動作成する「New Crowdin updates」PR について
