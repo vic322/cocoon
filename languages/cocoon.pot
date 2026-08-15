@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-11T20:38:05+00:00\n"
+"POT-Creation-Date: 2026-08-14T20:26:27+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -672,8 +672,8 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:327
 #: lib/admin-tinymce-qtag.php:1682
 #: lib/utils.php:1037
-#: tmp/css-custom.php:978
-#: tmp/css-custom.php:1025
+#: tmp/css-custom.php:979
+#: tmp/css-custom.php:1026
 #: blocks/src/block-extension/style-extension/style01.js:58
 #: blocks/src/block-extension/style-extension/style02.js:58
 #: blocks/src/block/blogcard/deprecated.js:83
@@ -705,8 +705,8 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:477
 #: lib/admin-tinymce-qtag.php:1688
 #: lib/utils.php:1036
-#: tmp/css-custom.php:974
-#: tmp/css-custom.php:1022
+#: tmp/css-custom.php:975
+#: tmp/css-custom.php:1023
 #: blocks/src/block/blogcard/deprecated.js:87
 #: blocks/src/block/blogcard/edit.js:68
 #: blocks/src/block/tab-box/edit.js:91
@@ -725,8 +725,8 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:1700
 #: lib/page-access/analytics/dashboard-page.php:644
 #: lib/utils.php:1041
-#: tmp/css-custom.php:994
-#: tmp/css-custom.php:1037
+#: tmp/css-custom.php:995
+#: tmp/css-custom.php:1038
 #: blocks/src/block/blogcard/deprecated.js:95
 #: blocks/src/block/blogcard/edit.js:76
 #: blocks/src/block/tab-box/edit.js:103
@@ -1178,8 +1178,8 @@ msgstr ""
 #: lib/widgets/related-entries.php:19
 #: lib/widgets/related-entries.php:137
 #: lib/widgets/related-entries.php:147
-#: tmp/css-custom.php:958
-#: tmp/css-custom.php:1010
+#: tmp/css-custom.php:959
+#: tmp/css-custom.php:1011
 #: blocks/src/block/blogcard/deprecated.js:59
 #: blocks/src/block/blogcard/edit.js:40
 #: blocks/src/old/blogcard-class/block.js:71
@@ -1188,8 +1188,8 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1652
 #: lib/utils.php:1033
-#: tmp/css-custom.php:962
-#: tmp/css-custom.php:1013
+#: tmp/css-custom.php:963
+#: tmp/css-custom.php:1014
 #: blocks/src/block/blogcard/deprecated.js:63
 #: blocks/src/block/blogcard/edit.js:44
 #: blocks/src/old/blogcard-class/block.js:75
@@ -1198,8 +1198,8 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1658
 #: lib/utils.php:1034
-#: tmp/css-custom.php:966
-#: tmp/css-custom.php:1016
+#: tmp/css-custom.php:967
+#: tmp/css-custom.php:1017
 #: blocks/src/block/blogcard/deprecated.js:67
 #: blocks/src/block/blogcard/edit.js:48
 msgid "参考リンク"
@@ -1213,8 +1213,8 @@ msgstr ""
 #: lib/widgets/popular-entries.php:137
 #: lib/widgets/popular-entries.php:151
 #: skins/skin-made-in-heaven/lib/panel-option.php:72
-#: tmp/css-custom.php:970
-#: tmp/css-custom.php:1019
+#: tmp/css-custom.php:971
+#: tmp/css-custom.php:1020
 #: blocks/src/block/blogcard/deprecated.js:71
 #: blocks/src/block/blogcard/edit.js:52
 #: blocks/src/block/popular-list/index.js:28
@@ -1224,8 +1224,8 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1670
 #: lib/utils.php:1038
-#: tmp/css-custom.php:982
-#: tmp/css-custom.php:1028
+#: tmp/css-custom.php:983
+#: tmp/css-custom.php:1029
 #: blocks/src/block/blogcard/deprecated.js:75
 #: blocks/src/block/blogcard/edit.js:56
 #: blocks/src/old/blogcard-class/block.js:83
@@ -1237,8 +1237,8 @@ msgstr ""
 #: lib/utils.php:1039
 #: lib/widgets/cta-box.php:34
 #: skins/skin-made-in-heaven/tmp/css-custom.php:12
-#: tmp/css-custom.php:986
-#: tmp/css-custom.php:1031
+#: tmp/css-custom.php:987
+#: tmp/css-custom.php:1032
 #: blocks/src/block/blogcard/deprecated.js:79
 #: blocks/src/block/blogcard/edit.js:60
 #: blocks/src/old/blogcard-class/block.js:87
@@ -1247,8 +1247,8 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1694
 #: lib/utils.php:1040
-#: tmp/css-custom.php:990
-#: tmp/css-custom.php:1034
+#: tmp/css-custom.php:991
+#: tmp/css-custom.php:1035
 #: blocks/src/block/blogcard/deprecated.js:91
 #: blocks/src/block/blogcard/edit.js:72
 #: blocks/src/old/blogcard-class/block.js:99
@@ -1257,16 +1257,16 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1706
 #: lib/utils.php:1042
-#: tmp/css-custom.php:998
-#: tmp/css-custom.php:1040
+#: tmp/css-custom.php:999
+#: tmp/css-custom.php:1041
 #: blocks/src/block/blogcard/edit.js:80
 msgid "前回の記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1712
 #: lib/utils.php:1043
-#: tmp/css-custom.php:1002
-#: tmp/css-custom.php:1043
+#: tmp/css-custom.php:1003
+#: tmp/css-custom.php:1044
 #: blocks/src/block/blogcard/edit.js:84
 msgid "続きの記事"
 msgstr ""
@@ -2802,7 +2802,7 @@ msgid "人気記事は見つかりませんでした。"
 msgstr ""
 
 #: lib/html-forms.php:1301
-#: lib/html-forms.php:1840
+#: lib/html-forms.php:1843
 msgid "記事は見つかりませんでした。"
 msgstr ""
 
@@ -13442,7 +13442,7 @@ msgid "記事を公開してもよろしいですか？"
 msgstr ""
 
 #: lib/utils.php:1031
-#: tmp/css-custom.php:954
+#: tmp/css-custom.php:955
 msgid "ラベルなし"
 msgstr ""
 
