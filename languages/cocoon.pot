@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-15T20:17:15+00:00\n"
+"POT-Creation-Date: 2026-08-18T20:18:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -133,8 +133,8 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
-#: functions.php:557
-#: functions.php:558
+#: functions.php:562
+#: functions.php:563
 #: lib/admin.php:419
 msgid "パターン一覧"
 msgstr ""
@@ -2801,50 +2801,50 @@ msgstr ""
 msgid "人気記事は見つかりませんでした。"
 msgstr ""
 
-#: lib/html-forms.php:1301
-#: lib/html-forms.php:1843
+#: lib/html-forms.php:1309
+#: lib/html-forms.php:1851
 msgid "記事は見つかりませんでした。"
 msgstr ""
 
 #. translators: %s: author's display name
-#: lib/html-forms.php:1425
+#: lib/html-forms.php:1433
 #, php-format
 msgid "Posts by %s"
 msgstr ""
 
-#: lib/html-forms.php:1429
+#: lib/html-forms.php:1437
 msgid "NO USER"
 msgstr ""
 
-#: lib/html-forms.php:1468
+#: lib/html-forms.php:1476
 msgid "管理者用エラーメッセージ"
 msgstr ""
 
-#: lib/html-forms.php:1701
+#: lib/html-forms.php:1709
 msgid "おすすめ"
 msgstr ""
 
-#: lib/html-forms.php:1704
+#: lib/html-forms.php:1712
 #: skins/skin-made-in-heaven/tmp/css-custom.php:17
 msgid "新着"
 msgstr ""
 
-#: lib/html-forms.php:1707
+#: lib/html-forms.php:1715
 #: skins/skin-made-in-heaven/tmp/css-custom.php:18
 msgid "注目"
 msgstr ""
 
-#: lib/html-forms.php:1710
+#: lib/html-forms.php:1718
 #: skins/skin-made-in-heaven/tmp/css-custom.php:19
 msgid "必見"
 msgstr ""
 
-#: lib/html-forms.php:1713
+#: lib/html-forms.php:1721
 #: skins/skin-made-in-heaven/tmp/css-custom.php:20
 msgid "お得"
 msgstr ""
 
-#: lib/html-forms.php:1756
+#: lib/html-forms.php:1764
 #: lib/shortcodes.php:1071
 #: lib/widgets/info-list.php:19
 #: lib/widgets/info-list.php:96
@@ -13535,21 +13535,21 @@ msgstr[1] ""
 msgid "%1$s%2$s"
 msgstr ""
 
-#: lib/utils.php:4338
+#: lib/utils.php:4408
 msgid "<div class=\"blank-box bb-red\">誹謗中傷は予告なく削除します</div>"
 msgstr ""
 
-#: lib/utils.php:4339
+#: lib/utils.php:4409
 #: skins/skin-demo-php/functions.php:45
 msgid "スキンから入力したタイトル"
 msgstr ""
 
-#: lib/utils.php:4340
+#: lib/utils.php:4410
 #: skins/skin-demo-php/functions.php:46
 msgid "スキンから入力したアピールエリアメッセージです。"
 msgstr ""
 
-#: lib/utils.php:4341
+#: lib/utils.php:4411
 #: skins/skin-demo-php/functions.php:47
 msgid "スキンボタンキャプション"
 msgstr ""
@@ -14217,7 +14217,7 @@ msgid "新着記事のタイトル"
 msgstr ""
 
 #: lib/widgets/new-entries.php:220
-msgid "「固定表示」記事を表示する"
+msgid "「固定表示」記事を先頭に表示する"
 msgstr ""
 
 #: lib/widgets/new-entries.php:232
