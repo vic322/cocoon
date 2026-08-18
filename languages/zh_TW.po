@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-05T04:36:55+00:00\n"
-"PO-Revision-Date: 2026-08-05 06:06\n"
+"POT-Creation-Date: 2026-08-18T20:18:04+00:00\n"
+"PO-Revision-Date: 2026-08-18 20:33\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -140,8 +140,8 @@ msgstr "未指定關鍵字"
 msgid "Archives"
 msgstr "彙整"
 
-#: functions.php:557
-#: functions.php:558
+#: functions.php:562
+#: functions.php:563
 #: lib/admin.php:419
 msgid "パターン一覧"
 msgstr "模式列表"
@@ -679,8 +679,8 @@ msgstr "方框 (標籤)"
 #: lib/admin-tinymce-qtag.php:327
 #: lib/admin-tinymce-qtag.php:1682
 #: lib/utils.php:1037
-#: tmp/css-custom.php:978
-#: tmp/css-custom.php:1025
+#: tmp/css-custom.php:979
+#: tmp/css-custom.php:1026
 #: blocks/src/block-extension/style-extension/style01.js:58
 #: blocks/src/block-extension/style-extension/style02.js:58
 #: blocks/src/block/blogcard/deprecated.js:83
@@ -712,8 +712,8 @@ msgstr "提示"
 #: lib/admin-tinymce-qtag.php:477
 #: lib/admin-tinymce-qtag.php:1688
 #: lib/utils.php:1036
-#: tmp/css-custom.php:974
-#: tmp/css-custom.php:1022
+#: tmp/css-custom.php:975
+#: tmp/css-custom.php:1023
 #: blocks/src/block/blogcard/deprecated.js:87
 #: blocks/src/block/blogcard/edit.js:68
 #: blocks/src/block/tab-box/edit.js:91
@@ -730,10 +730,10 @@ msgstr "書籤"
 
 #: lib/admin-tinymce-qtag.php:567
 #: lib/admin-tinymce-qtag.php:1700
-#: lib/page-access/analytics/dashboard-page.php:630
+#: lib/page-access/analytics/dashboard-page.php:644
 #: lib/utils.php:1041
-#: tmp/css-custom.php:994
-#: tmp/css-custom.php:1037
+#: tmp/css-custom.php:995
+#: tmp/css-custom.php:1038
 #: blocks/src/block/blogcard/deprecated.js:95
 #: blocks/src/block/blogcard/edit.js:76
 #: blocks/src/block/tab-box/edit.js:103
@@ -1185,8 +1185,8 @@ msgstr "圍繞部落格卡片標籤"
 #: lib/widgets/related-entries.php:19
 #: lib/widgets/related-entries.php:137
 #: lib/widgets/related-entries.php:147
-#: tmp/css-custom.php:958
-#: tmp/css-custom.php:1010
+#: tmp/css-custom.php:959
+#: tmp/css-custom.php:1011
 #: blocks/src/block/blogcard/deprecated.js:59
 #: blocks/src/block/blogcard/edit.js:40
 #: blocks/src/old/blogcard-class/block.js:71
@@ -1195,8 +1195,8 @@ msgstr "相關文章"
 
 #: lib/admin-tinymce-qtag.php:1652
 #: lib/utils.php:1033
-#: tmp/css-custom.php:962
-#: tmp/css-custom.php:1013
+#: tmp/css-custom.php:963
+#: tmp/css-custom.php:1014
 #: blocks/src/block/blogcard/deprecated.js:63
 #: blocks/src/block/blogcard/edit.js:44
 #: blocks/src/old/blogcard-class/block.js:75
@@ -1205,8 +1205,8 @@ msgstr "參考文章"
 
 #: lib/admin-tinymce-qtag.php:1658
 #: lib/utils.php:1034
-#: tmp/css-custom.php:966
-#: tmp/css-custom.php:1016
+#: tmp/css-custom.php:967
+#: tmp/css-custom.php:1017
 #: blocks/src/block/blogcard/deprecated.js:67
 #: blocks/src/block/blogcard/edit.js:48
 msgid "参考リンク"
@@ -1220,8 +1220,8 @@ msgstr "參考連結"
 #: lib/widgets/popular-entries.php:137
 #: lib/widgets/popular-entries.php:151
 #: skins/skin-made-in-heaven/lib/panel-option.php:72
-#: tmp/css-custom.php:970
-#: tmp/css-custom.php:1019
+#: tmp/css-custom.php:971
+#: tmp/css-custom.php:1020
 #: blocks/src/block/blogcard/deprecated.js:71
 #: blocks/src/block/blogcard/edit.js:52
 #: blocks/src/block/popular-list/index.js:28
@@ -1231,8 +1231,8 @@ msgstr "熱門文章"
 
 #: lib/admin-tinymce-qtag.php:1670
 #: lib/utils.php:1038
-#: tmp/css-custom.php:982
-#: tmp/css-custom.php:1028
+#: tmp/css-custom.php:983
+#: tmp/css-custom.php:1029
 #: blocks/src/block/blogcard/deprecated.js:75
 #: blocks/src/block/blogcard/edit.js:56
 #: blocks/src/old/blogcard-class/block.js:83
@@ -1244,8 +1244,8 @@ msgstr "推薦閱讀"
 #: lib/utils.php:1039
 #: lib/widgets/cta-box.php:34
 #: skins/skin-made-in-heaven/tmp/css-custom.php:12
-#: tmp/css-custom.php:986
-#: tmp/css-custom.php:1031
+#: tmp/css-custom.php:987
+#: tmp/css-custom.php:1032
 #: blocks/src/block/blogcard/deprecated.js:79
 #: blocks/src/block/blogcard/edit.js:60
 #: blocks/src/old/blogcard-class/block.js:87
@@ -1254,8 +1254,8 @@ msgstr "詳細資訊"
 
 #: lib/admin-tinymce-qtag.php:1694
 #: lib/utils.php:1040
-#: tmp/css-custom.php:990
-#: tmp/css-custom.php:1034
+#: tmp/css-custom.php:991
+#: tmp/css-custom.php:1035
 #: blocks/src/block/blogcard/deprecated.js:91
 #: blocks/src/block/blogcard/edit.js:72
 #: blocks/src/old/blogcard-class/block.js:99
@@ -1264,16 +1264,16 @@ msgstr "官方網站"
 
 #: lib/admin-tinymce-qtag.php:1706
 #: lib/utils.php:1042
-#: tmp/css-custom.php:998
-#: tmp/css-custom.php:1040
+#: tmp/css-custom.php:999
+#: tmp/css-custom.php:1041
 #: blocks/src/block/blogcard/edit.js:80
 msgid "前回の記事"
 msgstr "上一篇文章"
 
 #: lib/admin-tinymce-qtag.php:1712
 #: lib/utils.php:1043
-#: tmp/css-custom.php:1002
-#: tmp/css-custom.php:1043
+#: tmp/css-custom.php:1003
+#: tmp/css-custom.php:1044
 #: blocks/src/block/blogcard/edit.js:84
 msgid "続きの記事"
 msgstr "下一篇文章"
@@ -1296,7 +1296,10 @@ msgid "文字数"
 msgstr "字數"
 
 #: lib/admin.php:148
+#: lib/page-access/access-func.php:1027
 #: lib/page-access/analytics/enqueue-func.php:107
+#: lib/page-access/analytics/render-func.php:382
+#: lib/page-access/analytics/render-func.php:619
 msgid "PV"
 msgstr "PV"
 
@@ -1343,7 +1346,7 @@ msgid "管理メニュー"
 msgstr "管理選單"
 
 #: lib/admin.php:410
-#: lib/page-access/analytics/render-func.php:97
+#: lib/page-access/analytics/render-func.php:161
 #: tmp/admin-panel.php:31
 msgid "ダッシュボード"
 msgstr "儀表板"
@@ -1961,9 +1964,9 @@ msgstr "如果這篇文章有任何需要記錄的備註，請在此輸入。"
 
 #: lib/custom-fields/other-field.php:17
 #: lib/custom-fields/other-field.php:19
-#: lib/page-access/analytics/dashboard-page.php:85
-#: lib/page-access/analytics/dashboard-page.php:98
-#: lib/page-access/analytics/dashboard-page.php:110
+#: lib/page-access/analytics/dashboard-page.php:96
+#: lib/page-access/analytics/dashboard-page.php:109
+#: lib/page-access/analytics/dashboard-page.php:121
 #: lib/page-settings/_top-page.php:276
 msgid "その他"
 msgstr "其他"
@@ -2297,7 +2300,7 @@ msgstr "年"
 
 #: lib/custom-fields/update-field.php:92
 #: lib/page-access/access-func.php:778
-#: lib/page-access/analytics/dashboard-page.php:171
+#: lib/page-access/analytics/dashboard-page.php:185
 #: lib/page-access/analytics/enqueue-func.php:71
 msgid "月"
 msgstr "月"
@@ -2305,9 +2308,9 @@ msgstr "月"
 #: lib/custom-fields/update-field.php:102
 #: lib/custom-fields/update-field.php:104
 #: lib/page-access/access-func.php:776
-#: lib/page-access/access-func.php:900
-#: lib/page-access/access-func.php:904
-#: lib/page-access/analytics/dashboard-page.php:169
+#: lib/page-access/access-func.php:906
+#: lib/page-access/access-func.php:910
+#: lib/page-access/analytics/dashboard-page.php:183
 #: lib/page-access/analytics/enqueue-func.php:70
 #: lib/page-access/analytics/enqueue-func.php:110
 #: lib/page-settings/apis-forms.php:337
@@ -2805,50 +2808,50 @@ msgstr "通過WLW編輯"
 msgid "人気記事は見つかりませんでした。"
 msgstr "未找到熱門文章。"
 
-#: lib/html-forms.php:1301
-#: lib/html-forms.php:1840
+#: lib/html-forms.php:1309
+#: lib/html-forms.php:1851
 msgid "記事は見つかりませんでした。"
 msgstr "未找到文章。"
 
 #. translators: %s: author's display name
-#: lib/html-forms.php:1425
+#: lib/html-forms.php:1433
 #, php-format
 msgid "Posts by %s"
 msgstr "由 %s 發布的文章"
 
-#: lib/html-forms.php:1429
+#: lib/html-forms.php:1437
 msgid "NO USER"
 msgstr "無使用者"
 
-#: lib/html-forms.php:1468
+#: lib/html-forms.php:1476
 msgid "管理者用エラーメッセージ"
 msgstr "管理員錯誤訊息"
 
-#: lib/html-forms.php:1701
+#: lib/html-forms.php:1709
 msgid "おすすめ"
 msgstr "推薦"
 
-#: lib/html-forms.php:1704
+#: lib/html-forms.php:1712
 #: skins/skin-made-in-heaven/tmp/css-custom.php:17
 msgid "新着"
 msgstr "新文章"
 
-#: lib/html-forms.php:1707
+#: lib/html-forms.php:1715
 #: skins/skin-made-in-heaven/tmp/css-custom.php:18
 msgid "注目"
 msgstr "精選"
 
-#: lib/html-forms.php:1710
+#: lib/html-forms.php:1718
 #: skins/skin-made-in-heaven/tmp/css-custom.php:19
 msgid "必見"
 msgstr "必看"
 
-#: lib/html-forms.php:1713
+#: lib/html-forms.php:1721
 #: skins/skin-made-in-heaven/tmp/css-custom.php:20
 msgid "お得"
 msgstr "特惠"
 
-#: lib/html-forms.php:1756
+#: lib/html-forms.php:1764
 #: lib/shortcodes.php:1071
 #: lib/widgets/info-list.php:19
 #: lib/widgets/info-list.php:96
@@ -2950,7 +2953,7 @@ msgid "アフィリエイトタグ"
 msgstr "聯盟標籤"
 
 #: lib/original-menu.php:18
-#: lib/page-access/analytics/render-func.php:98
+#: lib/page-access/analytics/render-func.php:162
 #: lib/page-item-ranking/_top-page.php:37
 #: lib/tinymce/item-rankings.php:54
 #: lib/utils.php:1071
@@ -2967,7 +2970,7 @@ msgstr "排名"
 #: lib/original-menu.php:19
 #: lib/page-access/access-forms.php:14
 #: lib/page-access/access-forms.php:26
-#: lib/page-access/analytics/dashboard-page.php:35
+#: lib/page-access/analytics/dashboard-page.php:58
 msgid "アクセス集計"
 msgstr "訪問統計"
 
@@ -3048,7 +3051,7 @@ msgid "20分"
 msgstr "20 分鐘"
 
 #: lib/page-access/access-forms.php:59
-#: lib/page-access/analytics/settings-forms.php:60
+#: lib/page-access/analytics/settings-forms.php:39
 msgid "30分"
 msgstr "30 分鐘"
 
@@ -3057,7 +3060,7 @@ msgid "45分"
 msgstr "45 分鐘"
 
 #: lib/page-access/access-forms.php:61
-#: lib/page-access/analytics/settings-forms.php:61
+#: lib/page-access/analytics/settings-forms.php:40
 #: lib/page-settings/sns-share-forms.php:172
 msgid "1時間"
 msgstr "1 小時"
@@ -3072,13 +3075,13 @@ msgid "2時間"
 msgstr "2 小時"
 
 #: lib/page-access/access-forms.php:64
-#: lib/page-access/analytics/settings-forms.php:62
+#: lib/page-access/analytics/settings-forms.php:41
 #: lib/page-settings/sns-share-forms.php:174
 msgid "3時間"
 msgstr "3 小時"
 
 #: lib/page-access/access-forms.php:65
-#: lib/page-access/analytics/settings-forms.php:63
+#: lib/page-access/analytics/settings-forms.php:42
 #: lib/page-settings/sns-follow-forms.php:233
 #: lib/page-settings/sns-share-forms.php:177
 msgid "6時間"
@@ -3100,7 +3103,7 @@ msgid "18時間"
 msgstr "18 小時"
 
 #: lib/page-access/access-forms.php:69
-#: lib/page-access/analytics/settings-forms.php:64
+#: lib/page-access/analytics/settings-forms.php:43
 #: lib/page-settings/sns-follow-forms.php:236
 #: lib/page-settings/sns-share-forms.php:183
 msgid "24時間"
@@ -3130,61 +3133,61 @@ msgid "アクセス推移 (Cocoon)"
 msgstr ""
 
 #: lib/page-access/access-func.php:702
-#: lib/page-access/analytics/dashboard-page.php:137
-#: lib/page-access/analytics/render-func.php:123
-#: lib/page-access/analytics/render-func.php:188
-#: lib/page-access/analytics/settings-forms.php:76
+#: lib/page-access/analytics/dashboard-page.php:148
+#: lib/page-access/analytics/render-func.php:187
+#: lib/page-access/analytics/render-func.php:264
+#: lib/page-access/analytics/settings-forms.php:55
 msgid "今日"
 msgstr ""
 
 #: lib/page-access/access-func.php:703
-#: lib/page-access/analytics/dashboard-page.php:139
-#: lib/page-access/analytics/dashboard-page.php:532
-#: lib/page-access/analytics/dashboard-page.php:560
-#: lib/page-access/analytics/render-func.php:125
-#: lib/page-access/analytics/render-func.php:190
-#: lib/page-access/analytics/settings-forms.php:77
+#: lib/page-access/analytics/dashboard-page.php:150
+#: lib/page-access/analytics/dashboard-page.php:546
+#: lib/page-access/analytics/dashboard-page.php:574
+#: lib/page-access/analytics/render-func.php:189
+#: lib/page-access/analytics/render-func.php:266
+#: lib/page-access/analytics/settings-forms.php:56
 msgid "直近7日"
 msgstr ""
 
 #: lib/page-access/access-func.php:704
-#: lib/page-access/analytics/dashboard-page.php:140
-#: lib/page-access/analytics/dashboard-page.php:533
-#: lib/page-access/analytics/dashboard-page.php:561
-#: lib/page-access/analytics/render-func.php:126
-#: lib/page-access/analytics/settings-forms.php:78
+#: lib/page-access/analytics/dashboard-page.php:151
+#: lib/page-access/analytics/dashboard-page.php:547
+#: lib/page-access/analytics/dashboard-page.php:575
+#: lib/page-access/analytics/render-func.php:190
+#: lib/page-access/analytics/settings-forms.php:57
 msgid "直近30日"
 msgstr ""
 
 #: lib/page-access/access-func.php:705
-#: lib/page-access/analytics/dashboard-page.php:141
-#: lib/page-access/analytics/dashboard-page.php:534
-#: lib/page-access/analytics/dashboard-page.php:562
-#: lib/page-access/analytics/render-func.php:127
-#: lib/page-access/analytics/settings-forms.php:79
+#: lib/page-access/analytics/dashboard-page.php:152
+#: lib/page-access/analytics/dashboard-page.php:548
+#: lib/page-access/analytics/dashboard-page.php:576
+#: lib/page-access/analytics/render-func.php:191
+#: lib/page-access/analytics/settings-forms.php:58
 msgid "直近90日"
 msgstr ""
 
 #: lib/page-access/access-func.php:706
-#: lib/page-access/analytics/dashboard-page.php:142
-#: lib/page-access/analytics/render-func.php:128
-#: lib/page-access/analytics/render-func.php:191
-#: lib/page-access/analytics/settings-forms.php:80
+#: lib/page-access/analytics/dashboard-page.php:153
+#: lib/page-access/analytics/render-func.php:192
+#: lib/page-access/analytics/render-func.php:267
+#: lib/page-access/analytics/settings-forms.php:59
 msgid "今月"
 msgstr ""
 
 #: lib/page-access/access-func.php:707
-#: lib/page-access/analytics/dashboard-page.php:535
-#: lib/page-access/analytics/dashboard-page.php:563
+#: lib/page-access/analytics/dashboard-page.php:549
+#: lib/page-access/analytics/dashboard-page.php:577
 msgid "直近1年"
 msgstr ""
 
 #: lib/page-access/access-func.php:708
-#: lib/page-access/analytics/dashboard-page.php:145
-#: lib/page-access/analytics/dashboard-page.php:536
-#: lib/page-access/analytics/dashboard-page.php:564
-#: lib/page-access/analytics/render-func.php:131
-#: lib/page-access/analytics/settings-forms.php:81
+#: lib/page-access/analytics/dashboard-page.php:156
+#: lib/page-access/analytics/dashboard-page.php:550
+#: lib/page-access/analytics/dashboard-page.php:578
+#: lib/page-access/analytics/render-func.php:195
+#: lib/page-access/analytics/settings-forms.php:60
 #: lib/page-settings/carousel-forms.php:72
 #: lib/page-settings/single-forms.php:193
 #: lib/widgets/popular-entries.php:205
@@ -3197,7 +3200,7 @@ msgid "(タイトルなし)"
 msgstr ""
 
 #: lib/page-access/access-func.php:777
-#: lib/page-access/analytics/dashboard-page.php:170
+#: lib/page-access/analytics/dashboard-page.php:184
 msgid "週"
 msgstr ""
 
@@ -3206,7 +3209,7 @@ msgid "人気記事 TOP5"
 msgstr ""
 
 #: lib/page-access/access-func.php:830
-#: lib/page-access/access-func.php:959
+#: lib/page-access/access-func.php:991
 msgid "集計データがまだありません。"
 msgstr ""
 
@@ -3218,24 +3221,24 @@ msgstr ""
 msgid "PV数"
 msgstr ""
 
-#: lib/page-access/access-func.php:900
+#: lib/page-access/access-func.php:906
 #: lib/page-access/analytics/enqueue-func.php:112
 msgid "部分週"
 msgstr ""
 
-#: lib/page-access/access-func.php:904
+#: lib/page-access/access-func.php:910
 #: lib/page-access/analytics/enqueue-func.php:111
 msgid "日数"
 msgstr ""
 
 #: lib/page-access/analytics/ajax-func.php:63
 #: lib/page-access/analytics/ajax-func.php:103
-#: lib/page-access/analytics/dashboard-page.php:496
-#: lib/page-access/analytics/dashboard-page.php:516
+#: lib/page-access/analytics/dashboard-page.php:510
+#: lib/page-access/analytics/dashboard-page.php:530
 msgid "不明"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:42
+#: lib/page-access/analytics/dashboard-page.php:45
 msgid "アクセス解析ダッシュボード機能は現在無効化されています。「設定」タブで有効化してください。"
 msgstr ""
 
@@ -3243,137 +3246,140 @@ msgstr ""
 msgid "アクセス集計テーブルが存在しません。先に「集計設定」を開いてテーブルを作成してください。"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:70
+#: lib/page-access/analytics/dashboard-page.php:81
 msgid "アクセスカレンダー（直近52週）"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:138
-#: lib/page-access/analytics/render-func.php:124
-#: lib/page-access/analytics/render-func.php:189
+#: lib/page-access/analytics/dashboard-page.php:149
+#: lib/page-access/analytics/render-func.php:188
+#: lib/page-access/analytics/render-func.php:265
 msgid "昨日"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:143
-#: lib/page-access/analytics/render-func.php:129
+#: lib/page-access/analytics/dashboard-page.php:154
+#: lib/page-access/analytics/render-func.php:193
 msgid "先月"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:144
-#: lib/page-access/analytics/render-func.php:130
+#: lib/page-access/analytics/dashboard-page.php:155
+#: lib/page-access/analytics/render-func.php:194
 msgid "年初来"
 msgstr ""
 
 #. translators: 1: 開始日, 2: 終了日
-#: lib/page-access/analytics/dashboard-page.php:154
+#: lib/page-access/analytics/dashboard-page.php:168
+#: lib/page-access/analytics/enqueue-func.php:123
+#: lib/page-access/analytics/render-func.php:73
+#: lib/page-access/analytics/render-func.php:227
 #, php-format
 msgid "%1$s 〜 %2$s"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:166
+#: lib/page-access/analytics/dashboard-page.php:180
 msgid "PV推移"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:174
+#: lib/page-access/analytics/dashboard-page.php:188
 msgid "PV推移グラフ"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:179
+#: lib/page-access/analytics/dashboard-page.php:193
 msgid "カテゴリー別PV"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:180
+#: lib/page-access/analytics/dashboard-page.php:194
 msgid "カテゴリー別PV構成"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:183
+#: lib/page-access/analytics/dashboard-page.php:197
 msgid "タグ別PV"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:184
+#: lib/page-access/analytics/dashboard-page.php:198
 msgid "タグ別PV構成"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:187
+#: lib/page-access/analytics/dashboard-page.php:201
 msgid "投稿タイプ別PV"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:188
+#: lib/page-access/analytics/dashboard-page.php:202
 msgid "投稿タイプ別PV構成"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:191
+#: lib/page-access/analytics/dashboard-page.php:205
 msgid "人気記事 TOP10"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:195
+#: lib/page-access/analytics/dashboard-page.php:209
 msgid "急上昇記事 TOP10（直近7日）"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:199
-#: lib/page-access/analytics/dashboard-page.php:200
+#: lib/page-access/analytics/dashboard-page.php:213
+#: lib/page-access/analytics/dashboard-page.php:214
 msgid "曜日別PV"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:208
+#: lib/page-access/analytics/dashboard-page.php:222
 msgid "タイトルバーをドラッグしてタイルを並び替えできます。配置はユーザーごとに保存されます。"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:209
+#: lib/page-access/analytics/dashboard-page.php:223
 msgid "タイル配置を既定に戻す"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:252
-#: lib/page-access/analytics/dashboard-page.php:299
+#: lib/page-access/analytics/dashboard-page.php:266
+#: lib/page-access/analytics/dashboard-page.php:313
 msgid "投稿タイプ:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:255
-#: lib/page-access/analytics/dashboard-page.php:326
+#: lib/page-access/analytics/dashboard-page.php:269
+#: lib/page-access/analytics/dashboard-page.php:340
 msgid "絞り込み"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:303
+#: lib/page-access/analytics/dashboard-page.php:317
 msgid "著者:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:304
+#: lib/page-access/analytics/dashboard-page.php:318
 msgid "名前で検索..."
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:309
+#: lib/page-access/analytics/dashboard-page.php:323
 msgid "カテゴリー:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:310
+#: lib/page-access/analytics/dashboard-page.php:324
 msgid "カテゴリー名で検索..."
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:314
+#: lib/page-access/analytics/dashboard-page.php:328
 msgid "最小PV:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:317
+#: lib/page-access/analytics/dashboard-page.php:331
 msgid "最大PV:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:320
+#: lib/page-access/analytics/dashboard-page.php:334
 msgid "並び:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:322
+#: lib/page-access/analytics/dashboard-page.php:336
 msgid "PV降順"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:323
+#: lib/page-access/analytics/dashboard-page.php:337
 msgid "PV昇順（低PV）"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:355
+#: lib/page-access/analytics/dashboard-page.php:369
 #, php-format
 msgid "全 %s 件"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:359
+#: lib/page-access/analytics/dashboard-page.php:373
 #: lib/page-affiliate-tag/form.php:30
 #: lib/page-func-text/form.php:30
 #: lib/page-item-ranking/form.php:80
@@ -3405,7 +3411,7 @@ msgstr ""
 msgid "タイトル"
 msgstr "標題"
 
-#: lib/page-access/analytics/dashboard-page.php:359
+#: lib/page-access/analytics/dashboard-page.php:373
 #: blocks/src/block/icon-box/deprecated.js:80
 #: blocks/src/block/icon-box/edit.js:27
 #: blocks/src/block/info-box/deprecated.js:79
@@ -3422,123 +3428,124 @@ msgstr "標題"
 msgid "タイプ"
 msgstr "類型"
 
-#: lib/page-access/analytics/dashboard-page.php:359
-#: lib/page-access/analytics/dashboard-page.php:490
-#: lib/page-access/analytics/render-func.php:101
+#: lib/page-access/analytics/dashboard-page.php:373
+#: lib/page-access/analytics/dashboard-page.php:504
+#: lib/page-access/analytics/render-func.php:165
 msgid "著者"
 msgstr "作者"
 
-#: lib/page-access/analytics/dashboard-page.php:359
+#: lib/page-access/analytics/dashboard-page.php:373
 msgid "公開日"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:362
+#: lib/page-access/analytics/dashboard-page.php:376
 msgid "無題"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:435
+#: lib/page-access/analytics/dashboard-page.php:449
 msgid "タクソノミー:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:442
+#: lib/page-access/analytics/dashboard-page.php:456
 #: blocks/src/block-extension/group-link.js:134
 msgid "適用"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:456
+#: lib/page-access/analytics/dashboard-page.php:470
 #, php-format
 msgid "%s 別PV ランキング"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:460
+#: lib/page-access/analytics/dashboard-page.php:474
 msgid "名称"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:472
+#: lib/page-access/analytics/dashboard-page.php:486
 msgid "上位10分布"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:486
+#: lib/page-access/analytics/dashboard-page.php:500
 msgid "著者別集計"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:490
+#: lib/page-access/analytics/dashboard-page.php:504
 msgid "記事数"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:490
-#: lib/page-access/analytics/render-func.php:192
+#: lib/page-access/analytics/dashboard-page.php:504
+#: lib/page-access/analytics/render-func.php:268
 msgid "総PV"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:490
+#: lib/page-access/analytics/dashboard-page.php:504
 msgid "平均PV/記事"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:501
+#: lib/page-access/analytics/dashboard-page.php:515
 msgid "著者別PV（上位10）"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:530
+#: lib/page-access/analytics/dashboard-page.php:544
 msgid "集計期間:"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:540
+#: lib/page-access/analytics/dashboard-page.php:554
 msgid "記事タイトルで検索..."
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:555
+#: lib/page-access/analytics/dashboard-page.php:569
 msgid "記事を選択してください"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:565
-#: lib/page-access/analytics/render-func.php:132
+#: lib/page-access/analytics/dashboard-page.php:579
+#: lib/page-access/analytics/render-func.php:196
 msgid "カスタム"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:578
+#: lib/page-access/analytics/dashboard-page.php:584
+#: lib/page-access/analytics/dashboard-page.php:640
+#: lib/page-access/analytics/render-func.php:216
+msgid "〜"
+msgstr ""
+
+#: lib/page-access/analytics/dashboard-page.php:592
 msgid "リスト期間に合わせる"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:588
+#: lib/page-access/analytics/dashboard-page.php:602
 msgid "左側のリストから記事を選択すると、公開後のアクセス推移グラフが表示されます。"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:602
+#: lib/page-access/analytics/dashboard-page.php:616
 msgid "エクスポート機能は無効化されています。"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:610
+#: lib/page-access/analytics/dashboard-page.php:624
 msgid "対象"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:612
+#: lib/page-access/analytics/dashboard-page.php:626
 msgid "日次PV推移"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:613
+#: lib/page-access/analytics/dashboard-page.php:627
 msgid "人気記事ランキング"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:614
+#: lib/page-access/analytics/dashboard-page.php:628
 msgid "記事別全量"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:615
+#: lib/page-access/analytics/dashboard-page.php:629
 msgid "著者別"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:618
+#: lib/page-access/analytics/dashboard-page.php:632
 msgid "形式"
 msgstr ""
 
-#: lib/page-access/analytics/dashboard-page.php:624
+#: lib/page-access/analytics/dashboard-page.php:638
 msgid "期間"
-msgstr ""
-
-#: lib/page-access/analytics/dashboard-page.php:626
-#: lib/page-access/analytics/render-func.php:152
-msgid "〜"
 msgstr ""
 
 #: lib/page-access/analytics/enqueue-func.php:72
@@ -3597,27 +3604,27 @@ msgstr ""
 msgid "累計"
 msgstr ""
 
-#: lib/page-access/analytics/enqueue-func.php:122
+#: lib/page-access/analytics/enqueue-func.php:124
 msgid "グラフはリストと異なる期間を表示中"
 msgstr ""
 
-#: lib/page-access/analytics/enqueue-func.php:123
+#: lib/page-access/analytics/enqueue-func.php:125
 msgid "該当する記事が見つかりませんでした。"
 msgstr ""
 
-#: lib/page-access/analytics/enqueue-func.php:124
+#: lib/page-access/analytics/enqueue-func.php:126
 msgid "読み込み中..."
 msgstr ""
 
-#: lib/page-access/analytics/enqueue-func.php:125
+#: lib/page-access/analytics/enqueue-func.php:127
 msgid "エラーが発生しました"
 msgstr ""
 
-#: lib/page-access/analytics/enqueue-func.php:126
+#: lib/page-access/analytics/enqueue-func.php:128
 msgid "通信エラーが発生しました"
 msgstr ""
 
-#: lib/page-access/analytics/enqueue-func.php:127
+#: lib/page-access/analytics/enqueue-func.php:129
 msgid "一致する項目がありません"
 msgstr ""
 
@@ -3634,30 +3641,30 @@ msgctxt "アクセス解析グラフ軸の短縮日付書式"
 msgid "n/j"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:87
+#: lib/page-access/analytics/render-func.php:151
 msgid "NO IMAGE"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:99
+#: lib/page-access/analytics/render-func.php:163
 msgid "記事別"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:100
+#: lib/page-access/analytics/render-func.php:164
 msgid "カテゴリー/タグ"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:102
-#: lib/page-access/analytics/render-func.php:300
-#: lib/page-access/analytics/render-func.php:427
+#: lib/page-access/analytics/render-func.php:166
+#: lib/page-access/analytics/render-func.php:376
+#: lib/page-access/analytics/render-func.php:503
 msgid "ライフサイクル"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:103
-#: lib/page-access/analytics/settings-forms.php:88
+#: lib/page-access/analytics/render-func.php:167
+#: lib/page-access/analytics/settings-forms.php:67
 msgid "エクスポート"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:104
+#: lib/page-access/analytics/render-func.php:168
 #: lib/_defins.php:348
 #: blocks/src/block/faq/edit.js:127
 #: blocks/src/block/login-user-only/edit.js:34
@@ -3665,13 +3672,13 @@ msgstr ""
 msgid "設定"
 msgstr "設定"
 
-#: lib/page-access/analytics/render-func.php:143
+#: lib/page-access/analytics/render-func.php:207
 msgid "期間:"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:155
-#: lib/page-access/analytics/render-func.php:298
-#: lib/page-access/analytics/render-func.php:425
+#: lib/page-access/analytics/render-func.php:219
+#: lib/page-access/analytics/render-func.php:374
+#: lib/page-access/analytics/render-func.php:501
 #: lib/page-settings/page-forms.php:23
 #: lib/page-settings/single-forms.php:111
 #: lib/page-settings/single-forms.php:301
@@ -3679,29 +3686,29 @@ msgstr ""
 msgid "表示"
 msgstr "顯示"
 
-#: lib/page-access/analytics/render-func.php:188
+#: lib/page-access/analytics/render-func.php:264
 msgid "昨日比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:190
+#: lib/page-access/analytics/render-func.php:266
 msgid "前週比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:191
+#: lib/page-access/analytics/render-func.php:267
 msgid "前月比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:233
+#: lib/page-access/analytics/render-func.php:309
 msgid "データがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:254
-#: lib/page-access/analytics/render-func.php:379
+#: lib/page-access/analytics/render-func.php:330
+#: lib/page-access/analytics/render-func.php:455
 msgid "削除済み"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:299
-#: lib/page-access/analytics/render-func.php:426
+#: lib/page-access/analytics/render-func.php:375
+#: lib/page-access/analytics/render-func.php:502
 #: lib/page-affiliate-tag/list.php:87
 #: lib/page-func-text/list.php:87
 #: lib/page-item-ranking/list.php:101
@@ -3710,124 +3717,124 @@ msgstr ""
 msgid "編集"
 msgstr "編輯"
 
-#: lib/page-access/analytics/render-func.php:307
+#: lib/page-access/analytics/render-func.php:383
 msgid "期間全体の総PVに占めるこの記事の割合"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:309
+#: lib/page-access/analytics/render-func.php:385
 #: tmp/mobile-share-button.php:22
 msgid "シェア"
 msgstr "分享"
 
-#: lib/page-access/analytics/render-func.php:337
+#: lib/page-access/analytics/render-func.php:413
 #: lib/page-cache/cache-forms.php:25
 msgid "すべて"
 msgstr "全部"
 
-#: lib/page-access/analytics/render-func.php:352
+#: lib/page-access/analytics/render-func.php:428
 msgid "指定した期間のアクセスデータがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:363
+#: lib/page-access/analytics/render-func.php:439
 msgid "急上昇中の記事はありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:414
+#: lib/page-access/analytics/render-func.php:490
 #, php-format
 msgid "直近%1$d日 %2$s PV / 前%1$d日 %3$s PV"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:435
+#: lib/page-access/analytics/render-func.php:511
 msgid "新登場"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:444
+#: lib/page-access/analytics/render-func.php:520
 #, php-format
 msgid "直近%1$d日のPVとその前%1$d日のPVの比較"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:554
+#: lib/page-access/analytics/render-func.php:630
 msgid "少ない"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:558
+#: lib/page-access/analytics/render-func.php:634
 msgid "多い"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:24
-msgid "アクセス解析のキャッシュをクリアしました。"
-msgstr ""
-
-#: lib/page-access/analytics/settings-forms.php:29
-#: lib/page-speed-up/_top-page.php:27
-msgid "設定を変更しました。"
-msgstr "設定已更改。"
-
-#: lib/page-access/analytics/settings-forms.php:35
+#: lib/page-access/analytics/settings-forms.php:14
 msgid "テーマ内で独自にアクセス集計を行います。集計結果は「人気記事」ウィジェットや本ダッシュボードで使用されます。"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:42
+#: lib/page-access/analytics/settings-forms.php:21
 msgid "アクセス解析ダッシュボード"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:44
+#: lib/page-access/analytics/settings-forms.php:23
 msgid "集計済みデータを可視化するダッシュボードの設定です。"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:47
+#: lib/page-access/analytics/settings-forms.php:26
 msgid "ダッシュボード機能"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:49
+#: lib/page-access/analytics/settings-forms.php:28
 msgid "アクセス解析ダッシュボードを有効にする"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:50
+#: lib/page-access/analytics/settings-forms.php:29
 msgid "無効にするとダッシュボード系タブは非表示になり、「設定」タブのみ表示されます。"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:54
+#: lib/page-access/analytics/settings-forms.php:33
 msgid "キャッシュTTL（分）"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:58
+#: lib/page-access/analytics/settings-forms.php:37
 msgid "5分"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:59
+#: lib/page-access/analytics/settings-forms.php:38
 msgid "15分"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:67
+#: lib/page-access/analytics/settings-forms.php:46
 msgid "ダッシュボード集計結果のキャッシュ時間。新規アクセス記録時は自動的に無効化されます。"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:72
+#: lib/page-access/analytics/settings-forms.php:51
 msgid "既定の集計期間"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:90
+#: lib/page-access/analytics/settings-forms.php:69
 msgid "CSV/JSONエクスポートを有効にする"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:94
+#: lib/page-access/analytics/settings-forms.php:73
 msgid "キャッシュのクリア"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:97
+#: lib/page-access/analytics/settings-forms.php:77
 msgid "ダッシュボードのキャッシュをクリア"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:99
+#: lib/page-access/analytics/settings-forms.php:79
 msgid "集計結果の transient キャッシュを一括削除します。"
 msgstr ""
 
-#: lib/page-access/analytics/settings-forms.php:109
+#: lib/page-access/analytics/settings-forms.php:89
 #: lib/page-item-ranking/form.php:111
 #: lib/page-speed-up/_top-page.php:51
 msgid "変更を保存"
 msgstr "儲存修改"
+
+#: lib/page-access/analytics/settings-posts.php:28
+msgid "アクセス解析のキャッシュをクリアしました。"
+msgstr ""
+
+#: lib/page-access/analytics/settings-posts.php:39
+#: lib/page-speed-up/_top-page.php:27
+msgid "設定を変更しました。"
+msgstr "設定已更改。"
 
 #: lib/page-affiliate-tag/affiliate-tag-func.php:39
 msgid "アフィリエイトタグサンプル"
@@ -11928,7 +11935,7 @@ msgid "テーマ利用マニュアル"
 msgstr "主題使用手冊"
 
 #: lib/page-settings/_top-page.php:162
-#: lib/page-settings/_top-page.php:502
+#: lib/page-settings/_top-page.php:506
 msgid "変更をまとめて保存"
 msgstr "儲存所有變更"
 
@@ -13442,7 +13449,7 @@ msgid "記事を公開してもよろしいですか？"
 msgstr "您確定要發布文章嗎？"
 
 #: lib/utils.php:1031
-#: tmp/css-custom.php:954
+#: tmp/css-custom.php:955
 msgid "ラベルなし"
 msgstr "無標籤"
 
@@ -13529,21 +13536,21 @@ msgstr[0] "%s 年"
 msgid "%1$s%2$s"
 msgstr ""
 
-#: lib/utils.php:4338
+#: lib/utils.php:4408
 msgid "<div class=\"blank-box bb-red\">誹謗中傷は予告なく削除します</div>"
 msgstr ""
 
-#: lib/utils.php:4339
+#: lib/utils.php:4409
 #: skins/skin-demo-php/functions.php:45
 msgid "スキンから入力したタイトル"
 msgstr ""
 
-#: lib/utils.php:4340
+#: lib/utils.php:4410
 #: skins/skin-demo-php/functions.php:46
 msgid "スキンから入力したアピールエリアメッセージです。"
 msgstr ""
 
-#: lib/utils.php:4341
+#: lib/utils.php:4411
 #: skins/skin-demo-php/functions.php:47
 msgid "スキンボタンキャプション"
 msgstr ""
@@ -14211,8 +14218,8 @@ msgid "新着記事のタイトル"
 msgstr "新文章標題"
 
 #: lib/widgets/new-entries.php:220
-msgid "「固定表示」記事を表示する"
-msgstr "顯示“固定顯示”文章"
+msgid "「固定表示」記事を先頭に表示する"
+msgstr ""
 
 #: lib/widgets/new-entries.php:232
 #: lib/widgets/popular-entries.php:244
