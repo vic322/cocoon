@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-22T20:16:58+00:00\n"
-"PO-Revision-Date: 2026-08-22 20:33\n"
+"POT-Creation-Date: 2026-09-01T22:20:12+00:00\n"
+"PO-Revision-Date: 2026-09-01 22:47\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -48,7 +48,7 @@ msgstr "https://nelog.jp/"
 #: blocks/src/block/login-user-only/index.php:19
 #: lib/shortcodes.php:323
 #: lib/tinymce/shortcodes.php:237
-#: blocks/src/blocks.js:150
+#: blocks/src/blocks.js:141
 #: blocks/src/toolbutton/dropdown-shortcodes.js:254
 #: skins/silk/gutenberg.js:106
 msgid "こちらのコンテンツはログインユーザーのみに表示されます。"
@@ -514,7 +514,7 @@ msgstr "框（白色）"
 #: lib/admin-tinymce-qtag.php:786
 #: lib/admin-tinymce-qtag.php:819
 #: lib/gutenberg.php:110
-#: lib/widgets/cta-box.php:184
+#: lib/widgets/cta-box.php:193
 #: blocks/src/block/cta/edit.js:224
 #: blocks/src/block/sticky-box/deprecated.js:221
 #: blocks/src/block/sticky-box/edit.js:33
@@ -542,7 +542,7 @@ msgstr "灰色"
 #: lib/admin-tinymce-qtag.php:791
 #: lib/admin-tinymce-qtag.php:824
 #: lib/gutenberg.php:80
-#: lib/widgets/cta-box.php:179
+#: lib/widgets/cta-box.php:188
 #: blocks/src/block/cta/edit.js:213
 #: blocks/src/block/sticky-box/deprecated.js:225
 #: blocks/src/block/sticky-box/edit.js:37
@@ -577,7 +577,7 @@ msgstr "黄色"
 #: lib/admin-tinymce-qtag.php:796
 #: lib/admin-tinymce-qtag.php:829
 #: lib/gutenberg.php:20
-#: lib/widgets/cta-box.php:167
+#: lib/widgets/cta-box.php:176
 #: blocks/src/block/cta/edit.js:189
 #: blocks/src/block/sticky-box/deprecated.js:229
 #: blocks/src/block/sticky-box/edit.js:41
@@ -615,7 +615,7 @@ msgstr "红色"
 #: lib/admin-tinymce-qtag.php:801
 #: lib/admin-tinymce-qtag.php:834
 #: lib/gutenberg.php:45
-#: lib/widgets/cta-box.php:172
+#: lib/widgets/cta-box.php:181
 #: blocks/src/block/cta/edit.js:197
 #: blocks/src/block/sticky-box/deprecated.js:233
 #: blocks/src/block/sticky-box/edit.js:45
@@ -653,7 +653,7 @@ msgstr "蓝色"
 #: lib/admin-tinymce-qtag.php:806
 #: lib/admin-tinymce-qtag.php:839
 #: lib/gutenberg.php:65
-#: lib/widgets/cta-box.php:176
+#: lib/widgets/cta-box.php:185
 #: blocks/src/block/cta/edit.js:207
 #: blocks/src/block/sticky-box/deprecated.js:237
 #: blocks/src/block/sticky-box/edit.js:49
@@ -761,7 +761,7 @@ msgstr "框（便签风格）"
 
 #: lib/admin-tinymce-qtag.php:849
 #: lib/gutenberg.php:90
-#: lib/widgets/cta-box.php:181
+#: lib/widgets/cta-box.php:190
 #: blocks/src/block/cta/edit.js:218
 #: blocks/src/old/button-wrap/block.js:143
 #: blocks/src/old/button/block.js:161
@@ -777,7 +777,7 @@ msgstr "红色"
 
 #: lib/admin-tinymce-qtag.php:859
 #: lib/gutenberg.php:25
-#: lib/widgets/cta-box.php:168
+#: lib/widgets/cta-box.php:177
 #: blocks/src/block/cta/edit.js:190
 #: blocks/src/old/button-wrap/block.js:91
 #: blocks/src/old/button/block.js:109
@@ -874,7 +874,7 @@ msgstr "对话框（下）"
 #: lib/page-settings/_top-page.php:242
 #: blocks/src/block/button/deprecated.js:29
 #: blocks/src/block/button/index.js:20
-#: blocks/src/blocks.js:119
+#: blocks/src/blocks.js:110
 #: blocks/src/old/button-1/block.js:43
 #: blocks/src/old/button-1/block.js:52
 #: blocks/src/old/button/block.js:24
@@ -1240,7 +1240,7 @@ msgid "あわせて読みたい"
 msgstr "一起阅读"
 
 #: lib/admin-tinymce-qtag.php:1676
-#: lib/shortcodes.php:1201
+#: lib/shortcodes.php:1242
 #: lib/utils.php:1039
 #: lib/widgets/cta-box.php:34
 #: skins/skin-made-in-heaven/tmp/css-custom.php:12
@@ -1298,8 +1298,8 @@ msgstr "字符数"
 #: lib/admin.php:148
 #: lib/page-access/access-func.php:752
 #: lib/page-access/analytics/enqueue-func.php:107
-#: lib/page-access/analytics/render-func.php:386
-#: lib/page-access/analytics/render-func.php:623
+#: lib/page-access/analytics/render-func.php:408
+#: lib/page-access/analytics/render-func.php:645
 msgid "PV"
 msgstr "页面视图"
 
@@ -1346,7 +1346,7 @@ msgid "管理メニュー"
 msgstr "管理菜单"
 
 #: lib/admin.php:421
-#: lib/page-access/analytics/render-func.php:161
+#: lib/page-access/analytics/render-func.php:187
 #: tmp/admin-panel.php:31
 msgid "ダッシュボード"
 msgstr "仪表盘"
@@ -1382,7 +1382,7 @@ msgstr "小部件"
 #: skins/skin-made-in-heaven/lib/hook-wp.php:665
 #: skins/skin-made-in-heaven/lib/panel-color.php:75
 #: tmp/mobile-navi-button.php:21
-#: blocks/src/block/navicard/edit.js:158
+#: blocks/src/block/navicard/edit.js:163
 msgid "メニュー"
 msgstr "菜单"
 
@@ -2018,12 +2018,12 @@ msgstr "页面设置"
 #: lib/page-settings/comment-forms.php:43
 #: lib/page-settings/single-forms.php:319
 #: lib/page-speech-balloon/form.php:90
-#: lib/settings.php:670
+#: lib/settings.php:678
 #: blocks/src/block-extension/style-extension/border01.js:42
 #: blocks/src/block-extension/style-extension/style01.js:42
 #: blocks/src/block-extension/style-extension/style02.js:42
 #: blocks/src/block/balloon/edit.js:231
-#: blocks/src/block/navicard/edit.js:105
+#: blocks/src/block/navicard/edit.js:110
 #: blocks/src/block/new-list/edit.js:150
 #: blocks/src/block/popular-list/edit.js:230
 #: blocks/src/old/balloon-ex-fix1/block.js:174
@@ -2362,7 +2362,7 @@ msgid "キーカラー"
 msgstr "主色"
 
 #: lib/gutenberg.php:30
-#: lib/widgets/cta-box.php:169
+#: lib/widgets/cta-box.php:178
 #: blocks/src/block/cta/edit.js:191
 #: blocks/src/toolbutton/badge-purple.js:14
 msgid "紫色"
@@ -2393,7 +2393,7 @@ msgid "黄緑色"
 msgstr "黄绿色"
 
 #: lib/gutenberg.php:75
-#: lib/widgets/cta-box.php:178
+#: lib/widgets/cta-box.php:187
 #: blocks/src/block/cta/edit.js:212
 #: blocks/src/old/button-wrap/block.js:131
 #: blocks/src/old/button/block.js:149
@@ -2405,7 +2405,7 @@ msgid "アンバー"
 msgstr "琥珀色"
 
 #: lib/gutenberg.php:95
-#: lib/widgets/cta-box.php:182
+#: lib/widgets/cta-box.php:191
 #: blocks/src/block/cta/edit.js:220
 #: blocks/src/old/button-wrap/block.js:147
 #: blocks/src/old/button/block.js:165
@@ -2413,7 +2413,7 @@ msgid "ディープオレンジ"
 msgstr "深橙色"
 
 #: lib/gutenberg.php:100
-#: lib/widgets/cta-box.php:183
+#: lib/widgets/cta-box.php:192
 #: blocks/src/block/cta/edit.js:223
 #: blocks/src/toolbutton/badge-brown.js:14
 msgid "茶色"
@@ -2949,7 +2949,7 @@ msgstr "对话框"
 #: lib/original-menu.php:16
 #: lib/page-func-text/_top-page.php:37
 #: lib/tinymce/function-texts.php:52
-#: blocks/src/block/template/edit.js:107
+#: blocks/src/block/template/edit.js:111
 #: blocks/src/block/template/index.js:21
 #: blocks/src/toolbutton/dropdown-templates.js:57
 #: blocks/src/toolbutton/dropdown-templates.js:70
@@ -2969,13 +2969,13 @@ msgid "アフィリエイトタグ"
 msgstr "联盟标签"
 
 #: lib/original-menu.php:18
-#: lib/page-access/analytics/render-func.php:162
+#: lib/page-access/analytics/render-func.php:188
 #: lib/page-item-ranking/_top-page.php:37
 #: lib/tinymce/item-rankings.php:54
 #: lib/utils.php:1071
 #: lib/widgets/item-ranking.php:19
 #: lib/widgets/item-ranking.php:72
-#: blocks/src/block/ranking/edit.js:110
+#: blocks/src/block/ranking/edit.js:111
 #: blocks/src/block/ranking/index.js:21
 #: blocks/src/toolbutton/dropdown-rankings.js:58
 #: blocks/src/toolbutton/dropdown-rankings.js:71
@@ -3213,15 +3213,15 @@ msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:148
 #: lib/page-access/analytics/query-func.php:189
-#: lib/page-access/analytics/render-func.php:191
-#: lib/page-access/analytics/render-func.php:268
+#: lib/page-access/analytics/render-func.php:213
+#: lib/page-access/analytics/render-func.php:290
 #: lib/page-access/analytics/settings-forms.php:55
 msgid "今日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:149
-#: lib/page-access/analytics/render-func.php:192
-#: lib/page-access/analytics/render-func.php:269
+#: lib/page-access/analytics/render-func.php:214
+#: lib/page-access/analytics/render-func.php:291
 msgid "昨日"
 msgstr ""
 
@@ -3229,8 +3229,8 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:546
 #: lib/page-access/analytics/dashboard-page.php:574
 #: lib/page-access/analytics/query-func.php:190
-#: lib/page-access/analytics/render-func.php:193
-#: lib/page-access/analytics/render-func.php:270
+#: lib/page-access/analytics/render-func.php:215
+#: lib/page-access/analytics/render-func.php:292
 #: lib/page-access/analytics/settings-forms.php:56
 msgid "直近7日"
 msgstr ""
@@ -3239,7 +3239,7 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:547
 #: lib/page-access/analytics/dashboard-page.php:575
 #: lib/page-access/analytics/query-func.php:191
-#: lib/page-access/analytics/render-func.php:194
+#: lib/page-access/analytics/render-func.php:216
 #: lib/page-access/analytics/settings-forms.php:57
 msgid "直近30日"
 msgstr ""
@@ -3248,26 +3248,26 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:548
 #: lib/page-access/analytics/dashboard-page.php:576
 #: lib/page-access/analytics/query-func.php:192
-#: lib/page-access/analytics/render-func.php:195
+#: lib/page-access/analytics/render-func.php:217
 #: lib/page-access/analytics/settings-forms.php:58
 msgid "直近90日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:153
 #: lib/page-access/analytics/query-func.php:193
-#: lib/page-access/analytics/render-func.php:196
-#: lib/page-access/analytics/render-func.php:271
+#: lib/page-access/analytics/render-func.php:218
+#: lib/page-access/analytics/render-func.php:293
 #: lib/page-access/analytics/settings-forms.php:59
 msgid "今月"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:154
-#: lib/page-access/analytics/render-func.php:197
+#: lib/page-access/analytics/render-func.php:219
 msgid "先月"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:155
-#: lib/page-access/analytics/render-func.php:198
+#: lib/page-access/analytics/render-func.php:220
 msgid "年初来"
 msgstr ""
 
@@ -3275,7 +3275,7 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:550
 #: lib/page-access/analytics/dashboard-page.php:578
 #: lib/page-access/analytics/query-func.php:195
-#: lib/page-access/analytics/render-func.php:199
+#: lib/page-access/analytics/render-func.php:221
 #: lib/page-access/analytics/settings-forms.php:60
 #: lib/page-settings/carousel-forms.php:72
 #: lib/page-settings/single-forms.php:193
@@ -3288,7 +3288,7 @@ msgstr "所有期间"
 #: lib/page-access/analytics/dashboard-page.php:168
 #: lib/page-access/analytics/enqueue-func.php:123
 #: lib/page-access/analytics/render-func.php:73
-#: lib/page-access/analytics/render-func.php:231
+#: lib/page-access/analytics/render-func.php:253
 #, php-format
 msgid "%1$s 〜 %2$s"
 msgstr ""
@@ -3406,7 +3406,7 @@ msgstr ""
 #: lib/page-speech-balloon/form.php:49
 #: lib/widgets/author-box.php:68
 #: lib/widgets/box-menus.php:73
-#: lib/widgets/cta-box.php:101
+#: lib/widgets/cta-box.php:110
 #: lib/widgets/fb-like-balloon.php:69
 #: lib/widgets/fb-like-box.php:99
 #: lib/widgets/item-ranking.php:65
@@ -3425,7 +3425,7 @@ msgstr ""
 #: blocks/src/block/timeline-item/deprecated.js:50
 #: blocks/src/block/timeline-item/edit.js:28
 #: blocks/src/block/timeline/edit.js:188
-#: blocks/src/blocks.js:129
+#: blocks/src/blocks.js:120
 msgid "タイトル"
 msgstr "标题"
 
@@ -3448,7 +3448,7 @@ msgstr "类型"
 
 #: lib/page-access/analytics/dashboard-page.php:373
 #: lib/page-access/analytics/dashboard-page.php:504
-#: lib/page-access/analytics/render-func.php:165
+#: lib/page-access/analytics/render-func.php:191
 msgid "著者"
 msgstr "作者"
 
@@ -3491,7 +3491,7 @@ msgid "記事数"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:504
-#: lib/page-access/analytics/render-func.php:272
+#: lib/page-access/analytics/render-func.php:294
 msgid "総PV"
 msgstr ""
 
@@ -3522,13 +3522,13 @@ msgid "記事を選択してください"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:579
-#: lib/page-access/analytics/render-func.php:200
+#: lib/page-access/analytics/render-func.php:222
 msgid "カスタム"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:584
 #: lib/page-access/analytics/dashboard-page.php:640
-#: lib/page-access/analytics/render-func.php:220
+#: lib/page-access/analytics/render-func.php:242
 msgid "〜"
 msgstr ""
 
@@ -3665,26 +3665,26 @@ msgstr ""
 msgid "NO IMAGE"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:163
+#: lib/page-access/analytics/render-func.php:189
 msgid "記事別"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:164
+#: lib/page-access/analytics/render-func.php:190
 msgid "カテゴリー/タグ"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:166
-#: lib/page-access/analytics/render-func.php:380
-#: lib/page-access/analytics/render-func.php:507
+#: lib/page-access/analytics/render-func.php:192
+#: lib/page-access/analytics/render-func.php:402
+#: lib/page-access/analytics/render-func.php:529
 msgid "ライフサイクル"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:167
+#: lib/page-access/analytics/render-func.php:193
 #: lib/page-access/analytics/settings-forms.php:67
 msgid "エクスポート"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:168
+#: lib/page-access/analytics/render-func.php:194
 #: lib/_defins.php:348
 #: blocks/src/block/faq/edit.js:127
 #: blocks/src/block/login-user-only/edit.js:34
@@ -3692,13 +3692,13 @@ msgstr ""
 msgid "設定"
 msgstr "设置"
 
-#: lib/page-access/analytics/render-func.php:211
+#: lib/page-access/analytics/render-func.php:233
 msgid "期間:"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:223
-#: lib/page-access/analytics/render-func.php:378
-#: lib/page-access/analytics/render-func.php:505
+#: lib/page-access/analytics/render-func.php:245
+#: lib/page-access/analytics/render-func.php:400
+#: lib/page-access/analytics/render-func.php:527
 #: lib/page-settings/page-forms.php:23
 #: lib/page-settings/single-forms.php:111
 #: lib/page-settings/single-forms.php:301
@@ -3706,29 +3706,29 @@ msgstr ""
 msgid "表示"
 msgstr "显示"
 
-#: lib/page-access/analytics/render-func.php:268
+#: lib/page-access/analytics/render-func.php:290
 msgid "昨日比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:270
+#: lib/page-access/analytics/render-func.php:292
 msgid "前週比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:271
+#: lib/page-access/analytics/render-func.php:293
 msgid "前月比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:313
+#: lib/page-access/analytics/render-func.php:335
 msgid "データがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:334
-#: lib/page-access/analytics/render-func.php:459
+#: lib/page-access/analytics/render-func.php:356
+#: lib/page-access/analytics/render-func.php:481
 msgid "削除済み"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:379
-#: lib/page-access/analytics/render-func.php:506
+#: lib/page-access/analytics/render-func.php:401
+#: lib/page-access/analytics/render-func.php:528
 #: lib/page-affiliate-tag/list.php:87
 #: lib/page-func-text/list.php:87
 #: lib/page-item-ranking/list.php:101
@@ -3737,47 +3737,47 @@ msgstr ""
 msgid "編集"
 msgstr "编辑"
 
-#: lib/page-access/analytics/render-func.php:387
+#: lib/page-access/analytics/render-func.php:409
 msgid "期間全体の総PVに占めるこの記事の割合"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:389
+#: lib/page-access/analytics/render-func.php:411
 #: tmp/mobile-share-button.php:22
 msgid "シェア"
 msgstr "分享"
 
-#: lib/page-access/analytics/render-func.php:417
+#: lib/page-access/analytics/render-func.php:439
 #: lib/page-cache/cache-forms.php:25
 msgid "すべて"
 msgstr "全部"
 
-#: lib/page-access/analytics/render-func.php:432
+#: lib/page-access/analytics/render-func.php:454
 msgid "指定した期間のアクセスデータがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:443
+#: lib/page-access/analytics/render-func.php:465
 msgid "急上昇中の記事はありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:494
+#: lib/page-access/analytics/render-func.php:516
 #, php-format
 msgid "直近%1$d日 %2$s PV / 前%1$d日 %3$s PV"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:515
+#: lib/page-access/analytics/render-func.php:537
 msgid "新登場"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:524
+#: lib/page-access/analytics/render-func.php:546
 #, php-format
 msgid "直近%1$d日のPVとその前%1$d日のPVの比較"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:634
+#: lib/page-access/analytics/render-func.php:656
 msgid "少ない"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:638
+#: lib/page-access/analytics/render-func.php:660
 msgid "多い"
 msgstr ""
 
@@ -3802,7 +3802,7 @@ msgid "アクセス解析ダッシュボードを有効にする"
 msgstr ""
 
 #: lib/page-access/analytics/settings-forms.php:29
-msgid "無効にするとダッシュボード系タブは非表示になり、「設定」タブのみ表示されます。"
+msgid "無効にするとダッシュボード系タブはすべて非表示になり、設定フォームだけが表示されます。"
 msgstr ""
 
 #: lib/page-access/analytics/settings-forms.php:33
@@ -6927,7 +6927,7 @@ msgid "アピールエリアのタイトルを入力してください。入力�
 msgstr "请输入宣传区域的标题。如果不输入，将不会显示。"
 
 #: lib/page-settings/appeal-forms.php:125
-#: lib/widgets/cta-box.php:140
+#: lib/widgets/cta-box.php:149
 #: lib/widgets/fb-like-balloon.php:76
 #: lib/widgets/fb-like-box.php:106
 #: blocks/src/block/cta/edit.js:152
@@ -6989,7 +6989,7 @@ msgstr "设置宣传区域按钮链接的打开方式。"
 #: lib/page-settings/appeal-forms.php:181
 #: lib/page-settings/appeal-forms.php:186
 #: lib/page-settings/buttons-forms.php:78
-#: lib/widgets/cta-box.php:162
+#: lib/widgets/cta-box.php:171
 #: blocks/src/block/cta/edit.js:185
 msgid "ボタン色"
 msgstr "按钮颜色"
@@ -9152,12 +9152,12 @@ msgid "ボタンを表示しない"
 msgstr ""
 
 #: lib/page-settings/mobile-buttons-forms.php:45
-#: lib/settings.php:420
+#: lib/settings.php:428
 msgid "ヘッダーモバイルボタン"
 msgstr "头部移动按钮"
 
 #: lib/page-settings/mobile-buttons-forms.php:46
-#: lib/settings.php:422
+#: lib/settings.php:430
 msgid "フッターモバイルボタン"
 msgstr "底部移动按钮"
 
@@ -9691,11 +9691,11 @@ msgid "メニュー選択"
 msgstr "选择菜单"
 
 #: lib/page-settings/recommended-forms.php:61
-#: blocks/src/block/box-menu/edit.js:40
-#: blocks/src/block/navicard/edit.js:43
-#: blocks/src/block/profile/edit.js:32
-#: blocks/src/block/ranking/edit.js:27
-#: blocks/src/block/template/edit.js:27
+#: blocks/src/block/box-menu/edit.js:45
+#: blocks/src/block/navicard/edit.js:48
+#: blocks/src/block/profile/edit.js:37
+#: blocks/src/block/ranking/edit.js:32
+#: blocks/src/block/template/edit.js:32
 msgid "未選択"
 msgstr "未选择"
 
@@ -10050,8 +10050,8 @@ msgid "関連記事見出し"
 msgstr "相关文章标题"
 
 #: lib/page-settings/single-forms.php:145
-#: lib/shortcodes.php:1197
-#: lib/widgets/cta-box.php:108
+#: lib/shortcodes.php:1238
+#: lib/widgets/cta-box.php:117
 #: blocks/src/block-universal/caption-box/deprecated.js:25
 #: blocks/src/block-universal/caption-box/edit.js:20
 #: blocks/src/block-universal/label-box/deprecated.js:25
@@ -10059,9 +10059,9 @@ msgstr "相关文章标题"
 #: blocks/src/block-universal/tab-caption-box/deprecated.js:25
 #: blocks/src/block-universal/tab-caption-box/edit.js:20
 #: blocks/src/block/cta/edit.js:85
-#: blocks/src/blocks.js:135
-#: blocks/src/blocks.js:138
-#: blocks/src/blocks.js:141
+#: blocks/src/blocks.js:126
+#: blocks/src/blocks.js:129
+#: blocks/src/blocks.js:132
 #: blocks/src/old/caption-box/block.js:23
 #: blocks/src/old/label-box/block.js:22
 #: blocks/src/old/tab-caption-box/block.js:23
@@ -10086,7 +10086,7 @@ msgstr "请输入相关文章的辅助标题。"
 #: lib/widgets/new-entries.php:192
 #: lib/widgets/popular-entries.php:189
 #: lib/widgets/related-entries.php:182
-#: blocks/src/block/navicard/edit.js:100
+#: blocks/src/block/navicard/edit.js:105
 #: blocks/src/block/new-list/edit.js:145
 #: blocks/src/block/popular-list/edit.js:225
 msgid "表示タイプ"
@@ -12647,98 +12647,98 @@ msgstr ""
 msgid "です。"
 msgstr ""
 
-#: lib/settings.php:418
+#: lib/settings.php:426
 #: tmp/navi.php:9
 msgid "ヘッダーメニュー"
 msgstr "页头菜单"
 
-#: lib/settings.php:419
+#: lib/settings.php:427
 msgid "ヘッダーモバイルメニュー"
 msgstr "页头移动菜单"
 
-#: lib/settings.php:421
+#: lib/settings.php:429
 #: tmp/navi-footer.php:9
 msgid "フッターメニュー"
 msgstr "页脚菜单"
 
-#: lib/settings.php:423
+#: lib/settings.php:431
 msgid "モバイルスライドインメニュー"
 msgstr "移动端滑入菜单"
 
-#: lib/settings.php:669
+#: lib/settings.php:677
 msgid "通常のカード表示"
 msgstr "常规卡片显示"
 
-#: lib/settings.php:672
+#: lib/settings.php:680
 msgid "カードの上下に破線の区切り線が表示されます。"
 msgstr "卡片的上下将显示虚线分隔线。"
 
-#: lib/settings.php:673
-#: blocks/src/block/navicard/edit.js:110
+#: lib/settings.php:681
+#: blocks/src/block/navicard/edit.js:115
 #: blocks/src/block/new-list/edit.js:155
 #: blocks/src/block/popular-list/edit.js:235
 msgid "カードの上下に区切り線を入れる"
 msgstr "在卡片上下添加分隔线"
 
-#: lib/settings.php:673
-#: blocks/src/block/navicard/edit.js:111
+#: lib/settings.php:681
+#: blocks/src/block/navicard/edit.js:116
 #: blocks/src/block/new-list/edit.js:156
 #: blocks/src/block/popular-list/edit.js:236
 msgid "（縦並び表示のみ）"
 msgstr "（仅限纵向显示）"
 
-#: lib/settings.php:675
+#: lib/settings.php:683
 msgid "カード自体を罫線で囲みます。"
 msgstr "用边框线围绕卡片本身。"
 
-#: lib/settings.php:676
-#: blocks/src/block/navicard/edit.js:115
+#: lib/settings.php:684
+#: blocks/src/block/navicard/edit.js:120
 #: blocks/src/block/new-list/edit.js:160
 #: blocks/src/block/popular-list/edit.js:240
 msgid "カードに枠線を表示する"
 msgstr "在卡片上显示边框"
 
-#: lib/settings.php:678
+#: lib/settings.php:686
 msgid "大きなサムネイル画像の下にタイトルを表示します。"
 msgstr "在大缩略图下显示标题。"
 
-#: lib/settings.php:679
-#: blocks/src/block/navicard/edit.js:119
+#: lib/settings.php:687
+#: blocks/src/block/navicard/edit.js:124
 #: blocks/src/block/new-list/edit.js:164
 #: blocks/src/block/popular-list/edit.js:244
 msgid "大きなサムネイル表示にする"
 msgstr "显示大缩略图"
 
-#: lib/settings.php:681
+#: lib/settings.php:689
 msgid "大きなサムネイル画像の下段にタイトルを重ねます。"
 msgstr "将标题叠加在大缩略图的下方。"
 
-#: lib/settings.php:682
-#: blocks/src/block/navicard/edit.js:123
+#: lib/settings.php:690
+#: blocks/src/block/navicard/edit.js:128
 #: blocks/src/block/new-list/edit.js:168
 #: blocks/src/block/popular-list/edit.js:248
 msgid "大きなサムネイルにタイトルを重ねて表示する"
 msgstr "在大缩略图上叠加标题"
 
-#: lib/settings.php:691
+#: lib/settings.php:699
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:64
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:62
 msgid "画像のみ"
 msgstr "仅图片"
 
-#: lib/settings.php:692
+#: lib/settings.php:700
 msgid "画像中央に白文字タイトル"
 msgstr "图片中央的白色标题"
 
-#: lib/settings.php:693
+#: lib/settings.php:701
 msgid "画像中央にラベルでタイトル"
 msgstr "图片中央的标签标题"
 
-#: lib/settings.php:694
+#: lib/settings.php:702
 msgid "画像下段を黒背景にしタイトルを重ねる"
 msgstr "将图片下部设置为黑色背景并叠加标题"
 
-#: lib/settings.php:706
+#: lib/settings.php:714
 msgid "ニュース"
 msgstr ""
 
@@ -12881,11 +12881,11 @@ msgstr "保存错误"
 msgid "エラー："
 msgstr "错误："
 
-#: lib/shortcodes.php:1260
+#: lib/shortcodes.php:1326
 msgid "A,B,C,D,E"
 msgstr ""
 
-#: lib/shortcodes.php:1372
+#: lib/shortcodes.php:1438
 msgid "総計"
 msgstr "累计"
 
@@ -13232,7 +13232,7 @@ msgstr "在右侧输入的内容"
 #: lib/tinymce/shortcodes.php:106
 #: blocks/src/block/search-box/deprecated.js:16
 #: blocks/src/block/search-box/edit.js:7
-#: blocks/src/blocks.js:122
+#: blocks/src/blocks.js:113
 #: blocks/src/toolbutton/dropdown-shortcodes.js:150
 #: blocks/src/toolbutton/dropdown-shortcodes.js:160
 #: blocks/src/toolbutton/dropdown-shortcodes.js:169
@@ -13853,12 +13853,12 @@ msgstr "这是显示文章作者个人资料信息的组件。"
 #: lib/widgets/author-box.php:75
 #: blocks/src/block/blogcard/deprecated.js:116
 #: blocks/src/block/blogcard/edit.js:30
-#: blocks/src/block/profile/edit.js:87
+#: blocks/src/block/profile/edit.js:92
 #: blocks/src/block/tab-box/edit.js:65
 #: blocks/src/block/timeline-item/deprecated.js:22
 #: blocks/src/block/timeline-item/deprecated.js:42
 #: blocks/src/block/timeline-item/edit.js:20
-#: blocks/src/blocks.js:128
+#: blocks/src/blocks.js:119
 #: blocks/src/old/blogcard-class/block.js:61
 msgid "ラベル"
 msgstr "标签"
@@ -13868,7 +13868,7 @@ msgid "例：この記事を書いた人"
 msgstr "例如：本文作者"
 
 #: lib/widgets/author-box.php:82
-#: blocks/src/block/profile/edit.js:93
+#: blocks/src/block/profile/edit.js:98
 msgid "画像を円形にする"
 msgstr "将图片变为圆形"
 
@@ -13877,7 +13877,7 @@ msgid "※「プロフィール画像・情報」や、「フォローボタン�
 msgstr "※请在个人资料页面更改“个人资料图片和信息”或“关注按钮”。"
 
 #: lib/widgets/box-menus.php:19
-#: blocks/src/block/box-menu/edit.js:107
+#: blocks/src/block/box-menu/edit.js:111
 #: blocks/src/block/box-menu/index.js:38
 msgid "ボックスメニュー"
 msgstr "盒子菜单"
@@ -13903,7 +13903,7 @@ msgid "内容："
 msgstr "内容:"
 
 #: lib/widgets/classic-text.php:65
-#: lib/widgets/cta-box.php:143
+#: lib/widgets/cta-box.php:152
 #: lib/widgets/mobile-text.php:83
 #: lib/widgets/pc-text.php:82
 #: blocks/src/block/cta/edit.js:161
@@ -13919,77 +13919,77 @@ msgstr "CTA"
 msgid "コール・トゥ・アクションで訪問者にとってもらいたい行動を促すウィジェットです。"
 msgstr "这是一个通过号召访客采取行动的组件。"
 
-#: lib/widgets/cta-box.php:115
+#: lib/widgets/cta-box.php:124
 msgid "画像とメッセージのレイアウト（サイドバー・フッター以外）"
 msgstr "图片和消息的布局（不包括侧边栏和页脚）"
 
-#: lib/widgets/cta-box.php:119
+#: lib/widgets/cta-box.php:128
 #: blocks/src/block/cta/edit.js:95
 msgid "画像・メッセージを上下に配置"
 msgstr "图片和消息上下排列"
 
-#: lib/widgets/cta-box.php:120
+#: lib/widgets/cta-box.php:129
 #: blocks/src/block/cta/edit.js:99
 msgid "画像・メッセージを左右に配置"
 msgstr "图片和消息左右排列"
 
-#: lib/widgets/cta-box.php:121
+#: lib/widgets/cta-box.php:130
 #: blocks/src/block/cta/edit.js:103
 msgid "メッセージ・画像を左右に配置"
 msgstr "消息和图片左右排列"
 
-#: lib/widgets/cta-box.php:129
+#: lib/widgets/cta-box.php:138
 msgid "画像（選択ボタンが動作しない場合は再読み込み）"
 msgstr "图片（如果选择按钮不工作，请刷新）"
 
-#: lib/widgets/cta-box.php:148
+#: lib/widgets/cta-box.php:157
 #: blocks/src/block/cta/edit.js:171
 msgid "ボタンテキスト"
 msgstr "按钮文本"
 
-#: lib/widgets/cta-box.php:155
+#: lib/widgets/cta-box.php:164
 #: blocks/src/block/cta/edit.js:179
 msgid "ボタンURL"
 msgstr "按钮URL"
 
-#: lib/widgets/cta-box.php:166
+#: lib/widgets/cta-box.php:175
 #: blocks/src/block/cta/edit.js:188
 #: blocks/src/toolbutton/button-black.js:14
 #: blocks/src/toolbutton/button-white-black.js:14
 msgid "黒色"
 msgstr "黑色"
 
-#: lib/widgets/cta-box.php:170
+#: lib/widgets/cta-box.php:179
 #: blocks/src/block/cta/edit.js:192
 msgid "深紫"
 msgstr "深紫色"
 
-#: lib/widgets/cta-box.php:171
+#: lib/widgets/cta-box.php:180
 #: blocks/src/block/cta/edit.js:194
 msgid "紺色（インディゴ）"
 msgstr "深蓝色（靛蓝）"
 
-#: lib/widgets/cta-box.php:173
+#: lib/widgets/cta-box.php:182
 #: blocks/src/block/cta/edit.js:198
 msgid "水色"
 msgstr "浅蓝色"
 
-#: lib/widgets/cta-box.php:174
+#: lib/widgets/cta-box.php:183
 #: blocks/src/block/cta/edit.js:200
 msgid "明るい青（シアン）"
 msgstr "亮蓝色（青色）"
 
-#: lib/widgets/cta-box.php:175
+#: lib/widgets/cta-box.php:184
 #: blocks/src/block/cta/edit.js:204
 msgid "緑色がかった青（ティール）"
 msgstr "带绿色的蓝色（蓝绿色）"
 
-#: lib/widgets/cta-box.php:177
+#: lib/widgets/cta-box.php:186
 #: blocks/src/block/cta/edit.js:209
 msgid "明るい緑"
 msgstr "亮绿色"
 
-#: lib/widgets/cta-box.php:180
+#: lib/widgets/cta-box.php:189
 #: blocks/src/block/cta/edit.js:215
 msgid "琥珀色（アンバー）"
 msgstr "琥珀色"
@@ -14139,7 +14139,7 @@ msgid "商品・サービスのランキングを表示するウィジェット�
 msgstr "这是显示商品或服务排行榜的组件。"
 
 #: lib/widgets/item-ranking.php:84
-#: blocks/src/block/ranking/edit.js:78
+#: blocks/src/block/ranking/edit.js:77
 msgid "ランキングを選択してください。"
 msgstr "请选择排行榜。"
 
@@ -14192,7 +14192,7 @@ msgstr "这是显示导航卡片列表的组件。"
 #: lib/widgets/new-entries.php:201
 #: lib/widgets/popular-entries.php:213
 #: lib/widgets/related-entries.php:203
-#: blocks/src/block/navicard/edit.js:136
+#: blocks/src/block/navicard/edit.js:141
 #: blocks/src/block/new-list/edit.js:226
 #: blocks/src/block/popular-list/edit.js:261
 msgid "横並び表示にする"
@@ -14209,7 +14209,7 @@ msgstr "（建议与“大缩略图”一起使用）"
 #: lib/widgets/new-entries.php:208
 #: lib/widgets/popular-entries.php:220
 #: lib/widgets/related-entries.php:210
-#: blocks/src/block/navicard/edit.js:144
+#: blocks/src/block/navicard/edit.js:149
 #: blocks/src/block/new-list/edit.js:234
 #: blocks/src/block/popular-list/edit.js:269
 msgid "タイトルを太字にする"
@@ -14219,7 +14219,7 @@ msgstr "将标题加粗"
 #: lib/widgets/new-entries.php:214
 #: lib/widgets/popular-entries.php:238
 #: lib/widgets/related-entries.php:216
-#: blocks/src/block/navicard/edit.js:150
+#: blocks/src/block/navicard/edit.js:155
 #: blocks/src/block/new-list/edit.js:240
 #: blocks/src/block/popular-list/edit.js:291
 msgid "カードに矢印を表示する"
@@ -17703,23 +17703,23 @@ msgstr "显示仅用于包围内容的空白框。"
 msgid "ブログカード表示用の入力ブロックを表示します。URLは複数入力可能です。"
 msgstr "显示用于博客卡片的输入块。可以输入多个URL。"
 
-#: blocks/src/block/box-menu/edit.js:60
+#: blocks/src/block/box-menu/edit.js:65
 msgid "ダッシュボードメニューの「外観」→「メニュー」からボックスメニューを作成してください。"
 msgstr "请在仪表板菜单的“外观”→“菜单”中创建框菜单。"
 
-#: blocks/src/block/box-menu/edit.js:65
+#: blocks/src/block/box-menu/edit.js:70
 msgid "ボックスメニューが登録されていません。"
 msgstr "未注册框菜单。"
 
-#: blocks/src/block/box-menu/edit.js:71
+#: blocks/src/block/box-menu/edit.js:73
 msgid "有効なボックスメニューが登録されていません。"
 msgstr "未注册有效的框菜单。"
 
-#: blocks/src/block/box-menu/edit.js:73
+#: blocks/src/block/box-menu/edit.js:75
 msgid "もしくは登録されているボックスメニューを表示設定にしてください。"
 msgstr "或者请将已注册的框菜单设置为显示。"
 
-#: blocks/src/block/box-menu/edit.js:78
+#: blocks/src/block/box-menu/edit.js:80
 msgid "ボックスメニューを選択してください。"
 msgstr "请选择框菜单。"
 
@@ -17874,7 +17874,7 @@ msgstr "阅读这篇文章"
 
 #: blocks/src/block/cta/edit.js:78
 #: blocks/src/block/info-list/edit.js:99
-#: blocks/src/block/navicard/edit.js:98
+#: blocks/src/block/navicard/edit.js:103
 #: blocks/src/block/new-list/edit.js:133
 #: blocks/src/block/popular-list/edit.js:205
 msgid "基本設定"
@@ -18023,15 +18023,15 @@ msgstr "仅限登录用户"
 msgid "ログインしているユーザーにのみコンテンツを表示します"
 msgstr "仅向已登录的用户显示内容"
 
-#: blocks/src/block/navicard/edit.js:63
+#: blocks/src/block/navicard/edit.js:68
 msgid "ダッシュボードメニューの「外観」→「メニュー」からメニューを作成してください。"
 msgstr "请从仪表盘菜单的“外观”→“菜单”中创建菜单。"
 
-#: blocks/src/block/navicard/edit.js:68
+#: blocks/src/block/navicard/edit.js:73
 msgid "メニューが登録されていません。"
 msgstr "没有注册菜单。"
 
-#: blocks/src/block/navicard/edit.js:70
+#: blocks/src/block/navicard/edit.js:75
 msgid "メニューを選択してください。"
 msgstr "请选择一个菜单。"
 
@@ -18143,15 +18143,15 @@ msgstr "排除文章(ID)"
 msgid "人気記事の一覧を表示します。"
 msgstr "显示热门文章的列表。"
 
-#: blocks/src/block/profile/edit.js:54
+#: blocks/src/block/profile/edit.js:59
 msgid "選択できるユーザーがありません。"
 msgstr "没有可选择的用户。"
 
-#: blocks/src/block/profile/edit.js:56
+#: blocks/src/block/profile/edit.js:61
 msgid "ユーザーを選択してください。"
 msgstr "请选择用户。"
 
-#: blocks/src/block/profile/edit.js:103
+#: blocks/src/block/profile/edit.js:108
 msgid "ユーザー"
 msgstr "用户"
 
@@ -18301,24 +18301,24 @@ msgstr ""
 msgid "楽天商品をエディタ内で検索・選択し、静的な商品リンクを挿入します。"
 msgstr "在编辑器内搜索并选择乐天商品，插入静态商品链接。"
 
-#: blocks/src/block/ranking/edit.js:43
-#: blocks/src/block/template/edit.js:43
+#: blocks/src/block/ranking/edit.js:48
+#: blocks/src/block/template/edit.js:48
 msgid "（リスト非表示）"
 msgstr "（不显示列表）"
 
-#: blocks/src/block/ranking/edit.js:55
+#: blocks/src/block/ranking/edit.js:60
 msgid "ダッシュボードメニューの「Cocoon設定」→「ランキング」からランキングを作成してください。"
 msgstr "请从仪表盘菜单的“Cocoon设置”→“排名”中创建排名。"
 
-#: blocks/src/block/ranking/edit.js:63
+#: blocks/src/block/ranking/edit.js:65
 msgid "ランキングが登録されていません。"
 msgstr "没有注册排名。"
 
-#: blocks/src/block/ranking/edit.js:70
+#: blocks/src/block/ranking/edit.js:69
 msgid "有効なランキングが登録されていません。"
 msgstr "没有注册有效的排名。"
 
-#: blocks/src/block/ranking/edit.js:72
+#: blocks/src/block/ranking/edit.js:71
 msgid "もしくは登録されているランキングを表示設定にしてください。。"
 msgstr "或者请将注册的排名设置为显示。"
 
@@ -18388,23 +18388,23 @@ msgstr "添加标签"
 msgid "表示する内容をタブで切り替えることができるボックスです。"
 msgstr "可通过标签切换显示内容的框。"
 
-#: blocks/src/block/template/edit.js:55
+#: blocks/src/block/template/edit.js:60
 msgid "ダッシュボードメニューの「Cocoon設定」→「テンプレート」からテンプレートを作成してください。"
 msgstr "请从仪表盘菜单的“Cocoon设置”→“模板”中创建模板。"
 
-#: blocks/src/block/template/edit.js:60
+#: blocks/src/block/template/edit.js:65
 msgid "テンプレートが登録されていません。"
 msgstr "没有注册模板。"
 
-#: blocks/src/block/template/edit.js:67
+#: blocks/src/block/template/edit.js:69
 msgid "有効なテンプレートが登録されていません。"
 msgstr "没有注册有效的模板。"
 
-#: blocks/src/block/template/edit.js:69
+#: blocks/src/block/template/edit.js:71
 msgid "もしくは登録されているテンプレートを表示設定にしてください。。"
 msgstr "或者请将注册的模板设置为显示。"
 
-#: blocks/src/block/template/edit.js:75
+#: blocks/src/block/template/edit.js:77
 msgid "テンプレートを選択してください。"
 msgstr "请选择模板。"
 
@@ -18442,27 +18442,27 @@ msgstr "手风琴（切换）"
 msgid "旧トグルボックス。クリックすることでコンテンツ内容の表示を切り替えることができるボックスです。"
 msgstr "旧版切换框。点击即可切换显示内容的框。"
 
-#: blocks/src/blocks.js:125
+#: blocks/src/blocks.js:116
 msgid "タイムラインのタイトル"
 msgstr ""
 
-#: blocks/src/blocks.js:132
+#: blocks/src/blocks.js:123
 msgid "アコーディオン見出し"
 msgstr ""
 
-#: blocks/src/blocks.js:144
+#: blocks/src/blocks.js:135
 #: blocks/src/micro/micro-balloon/deprecated.js:18
 #: blocks/src/old/micro-balloon-1/block.js:20
 #: blocks/src/old/micro-balloon/block.js:20
 msgid "マイクロコピーバルーン"
 msgstr "微型文本气球"
 
-#: blocks/src/blocks.js:147
+#: blocks/src/blocks.js:138
 #: blocks/src/micro/micro-text/deprecated.js:17
 msgid "マイクロコピーテキスト"
 msgstr "微型文本"
 
-#: blocks/src/blocks.js:189
+#: blocks/src/blocks.js:180
 msgid "キャンペーン期間中のみ表示されるコンテンツです。"
 msgstr ""
 
