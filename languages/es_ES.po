@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-08-22T20:16:58+00:00\n"
-"PO-Revision-Date: 2026-08-22 20:33\n"
+"POT-Creation-Date: 2026-09-01T22:20:12+00:00\n"
+"PO-Revision-Date: 2026-09-01 22:47\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -48,7 +48,7 @@ msgstr "https://nelog.jp/"
 #: blocks/src/block/login-user-only/index.php:19
 #: lib/shortcodes.php:323
 #: lib/tinymce/shortcodes.php:237
-#: blocks/src/blocks.js:150
+#: blocks/src/blocks.js:141
 #: blocks/src/toolbutton/dropdown-shortcodes.js:254
 #: skins/silk/gutenberg.js:106
 msgid "こちらのコンテンツはログインユーザーのみに表示されます。"
@@ -514,7 +514,7 @@ msgstr "Caja (contorno)"
 #: lib/admin-tinymce-qtag.php:786
 #: lib/admin-tinymce-qtag.php:819
 #: lib/gutenberg.php:110
-#: lib/widgets/cta-box.php:184
+#: lib/widgets/cta-box.php:193
 #: blocks/src/block/cta/edit.js:224
 #: blocks/src/block/sticky-box/deprecated.js:221
 #: blocks/src/block/sticky-box/edit.js:33
@@ -542,7 +542,7 @@ msgstr "Gris"
 #: lib/admin-tinymce-qtag.php:791
 #: lib/admin-tinymce-qtag.php:824
 #: lib/gutenberg.php:80
-#: lib/widgets/cta-box.php:179
+#: lib/widgets/cta-box.php:188
 #: blocks/src/block/cta/edit.js:213
 #: blocks/src/block/sticky-box/deprecated.js:225
 #: blocks/src/block/sticky-box/edit.js:37
@@ -577,7 +577,7 @@ msgstr "Amarillo"
 #: lib/admin-tinymce-qtag.php:796
 #: lib/admin-tinymce-qtag.php:829
 #: lib/gutenberg.php:20
-#: lib/widgets/cta-box.php:167
+#: lib/widgets/cta-box.php:176
 #: blocks/src/block/cta/edit.js:189
 #: blocks/src/block/sticky-box/deprecated.js:229
 #: blocks/src/block/sticky-box/edit.js:41
@@ -615,7 +615,7 @@ msgstr "Rojo"
 #: lib/admin-tinymce-qtag.php:801
 #: lib/admin-tinymce-qtag.php:834
 #: lib/gutenberg.php:45
-#: lib/widgets/cta-box.php:172
+#: lib/widgets/cta-box.php:181
 #: blocks/src/block/cta/edit.js:197
 #: blocks/src/block/sticky-box/deprecated.js:233
 #: blocks/src/block/sticky-box/edit.js:45
@@ -653,7 +653,7 @@ msgstr "Azul"
 #: lib/admin-tinymce-qtag.php:806
 #: lib/admin-tinymce-qtag.php:839
 #: lib/gutenberg.php:65
-#: lib/widgets/cta-box.php:176
+#: lib/widgets/cta-box.php:185
 #: blocks/src/block/cta/edit.js:207
 #: blocks/src/block/sticky-box/deprecated.js:237
 #: blocks/src/block/sticky-box/edit.js:49
@@ -761,7 +761,7 @@ msgstr "Caja (estilo nota adhesiva)"
 
 #: lib/admin-tinymce-qtag.php:849
 #: lib/gutenberg.php:90
-#: lib/widgets/cta-box.php:181
+#: lib/widgets/cta-box.php:190
 #: blocks/src/block/cta/edit.js:218
 #: blocks/src/old/button-wrap/block.js:143
 #: blocks/src/old/button/block.js:161
@@ -777,7 +777,7 @@ msgstr "Rojo"
 
 #: lib/admin-tinymce-qtag.php:859
 #: lib/gutenberg.php:25
-#: lib/widgets/cta-box.php:168
+#: lib/widgets/cta-box.php:177
 #: blocks/src/block/cta/edit.js:190
 #: blocks/src/old/button-wrap/block.js:91
 #: blocks/src/old/button/block.js:109
@@ -874,7 +874,7 @@ msgstr "Globo de discurso (abajo)"
 #: lib/page-settings/_top-page.php:242
 #: blocks/src/block/button/deprecated.js:29
 #: blocks/src/block/button/index.js:20
-#: blocks/src/blocks.js:119
+#: blocks/src/blocks.js:110
 #: blocks/src/old/button-1/block.js:43
 #: blocks/src/old/button-1/block.js:52
 #: blocks/src/old/button/block.js:24
@@ -1240,7 +1240,7 @@ msgid "あわせて読みたい"
 msgstr "Leer juntos"
 
 #: lib/admin-tinymce-qtag.php:1676
-#: lib/shortcodes.php:1201
+#: lib/shortcodes.php:1242
 #: lib/utils.php:1039
 #: lib/widgets/cta-box.php:34
 #: skins/skin-made-in-heaven/tmp/css-custom.php:12
@@ -1298,8 +1298,8 @@ msgstr "Recuento de caracteres"
 #: lib/admin.php:148
 #: lib/page-access/access-func.php:752
 #: lib/page-access/analytics/enqueue-func.php:107
-#: lib/page-access/analytics/render-func.php:386
-#: lib/page-access/analytics/render-func.php:623
+#: lib/page-access/analytics/render-func.php:408
+#: lib/page-access/analytics/render-func.php:645
 msgid "PV"
 msgstr "PV"
 
@@ -1346,7 +1346,7 @@ msgid "管理メニュー"
 msgstr "Menú de administración"
 
 #: lib/admin.php:421
-#: lib/page-access/analytics/render-func.php:161
+#: lib/page-access/analytics/render-func.php:187
 #: tmp/admin-panel.php:31
 msgid "ダッシュボード"
 msgstr "Tablero"
@@ -1382,7 +1382,7 @@ msgstr "Widgets"
 #: skins/skin-made-in-heaven/lib/hook-wp.php:665
 #: skins/skin-made-in-heaven/lib/panel-color.php:75
 #: tmp/mobile-navi-button.php:21
-#: blocks/src/block/navicard/edit.js:158
+#: blocks/src/block/navicard/edit.js:163
 msgid "メニュー"
 msgstr "Menús"
 
@@ -2018,12 +2018,12 @@ msgstr "Configuración de la página"
 #: lib/page-settings/comment-forms.php:43
 #: lib/page-settings/single-forms.php:319
 #: lib/page-speech-balloon/form.php:90
-#: lib/settings.php:670
+#: lib/settings.php:678
 #: blocks/src/block-extension/style-extension/border01.js:42
 #: blocks/src/block-extension/style-extension/style01.js:42
 #: blocks/src/block-extension/style-extension/style02.js:42
 #: blocks/src/block/balloon/edit.js:231
-#: blocks/src/block/navicard/edit.js:105
+#: blocks/src/block/navicard/edit.js:110
 #: blocks/src/block/new-list/edit.js:150
 #: blocks/src/block/popular-list/edit.js:230
 #: blocks/src/old/balloon-ex-fix1/block.js:174
@@ -2362,7 +2362,7 @@ msgid "キーカラー"
 msgstr "Color clave"
 
 #: lib/gutenberg.php:30
-#: lib/widgets/cta-box.php:169
+#: lib/widgets/cta-box.php:178
 #: blocks/src/block/cta/edit.js:191
 #: blocks/src/toolbutton/badge-purple.js:14
 msgid "紫色"
@@ -2393,7 +2393,7 @@ msgid "黄緑色"
 msgstr "Verde amarillento"
 
 #: lib/gutenberg.php:75
-#: lib/widgets/cta-box.php:178
+#: lib/widgets/cta-box.php:187
 #: blocks/src/block/cta/edit.js:212
 #: blocks/src/old/button-wrap/block.js:131
 #: blocks/src/old/button/block.js:149
@@ -2405,7 +2405,7 @@ msgid "アンバー"
 msgstr "Ámbar"
 
 #: lib/gutenberg.php:95
-#: lib/widgets/cta-box.php:182
+#: lib/widgets/cta-box.php:191
 #: blocks/src/block/cta/edit.js:220
 #: blocks/src/old/button-wrap/block.js:147
 #: blocks/src/old/button/block.js:165
@@ -2413,7 +2413,7 @@ msgid "ディープオレンジ"
 msgstr "Naranja oscuro"
 
 #: lib/gutenberg.php:100
-#: lib/widgets/cta-box.php:183
+#: lib/widgets/cta-box.php:192
 #: blocks/src/block/cta/edit.js:223
 #: blocks/src/toolbutton/badge-brown.js:14
 msgid "茶色"
@@ -2949,7 +2949,7 @@ msgstr "Globo de discurso"
 #: lib/original-menu.php:16
 #: lib/page-func-text/_top-page.php:37
 #: lib/tinymce/function-texts.php:52
-#: blocks/src/block/template/edit.js:107
+#: blocks/src/block/template/edit.js:111
 #: blocks/src/block/template/index.js:21
 #: blocks/src/toolbutton/dropdown-templates.js:57
 #: blocks/src/toolbutton/dropdown-templates.js:70
@@ -2969,13 +2969,13 @@ msgid "アフィリエイトタグ"
 msgstr "Etiqueta de afiliado"
 
 #: lib/original-menu.php:18
-#: lib/page-access/analytics/render-func.php:162
+#: lib/page-access/analytics/render-func.php:188
 #: lib/page-item-ranking/_top-page.php:37
 #: lib/tinymce/item-rankings.php:54
 #: lib/utils.php:1071
 #: lib/widgets/item-ranking.php:19
 #: lib/widgets/item-ranking.php:72
-#: blocks/src/block/ranking/edit.js:110
+#: blocks/src/block/ranking/edit.js:111
 #: blocks/src/block/ranking/index.js:21
 #: blocks/src/toolbutton/dropdown-rankings.js:58
 #: blocks/src/toolbutton/dropdown-rankings.js:71
@@ -3213,15 +3213,15 @@ msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:148
 #: lib/page-access/analytics/query-func.php:189
-#: lib/page-access/analytics/render-func.php:191
-#: lib/page-access/analytics/render-func.php:268
+#: lib/page-access/analytics/render-func.php:213
+#: lib/page-access/analytics/render-func.php:290
 #: lib/page-access/analytics/settings-forms.php:55
 msgid "今日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:149
-#: lib/page-access/analytics/render-func.php:192
-#: lib/page-access/analytics/render-func.php:269
+#: lib/page-access/analytics/render-func.php:214
+#: lib/page-access/analytics/render-func.php:291
 msgid "昨日"
 msgstr ""
 
@@ -3229,8 +3229,8 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:546
 #: lib/page-access/analytics/dashboard-page.php:574
 #: lib/page-access/analytics/query-func.php:190
-#: lib/page-access/analytics/render-func.php:193
-#: lib/page-access/analytics/render-func.php:270
+#: lib/page-access/analytics/render-func.php:215
+#: lib/page-access/analytics/render-func.php:292
 #: lib/page-access/analytics/settings-forms.php:56
 msgid "直近7日"
 msgstr ""
@@ -3239,7 +3239,7 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:547
 #: lib/page-access/analytics/dashboard-page.php:575
 #: lib/page-access/analytics/query-func.php:191
-#: lib/page-access/analytics/render-func.php:194
+#: lib/page-access/analytics/render-func.php:216
 #: lib/page-access/analytics/settings-forms.php:57
 msgid "直近30日"
 msgstr ""
@@ -3248,26 +3248,26 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:548
 #: lib/page-access/analytics/dashboard-page.php:576
 #: lib/page-access/analytics/query-func.php:192
-#: lib/page-access/analytics/render-func.php:195
+#: lib/page-access/analytics/render-func.php:217
 #: lib/page-access/analytics/settings-forms.php:58
 msgid "直近90日"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:153
 #: lib/page-access/analytics/query-func.php:193
-#: lib/page-access/analytics/render-func.php:196
-#: lib/page-access/analytics/render-func.php:271
+#: lib/page-access/analytics/render-func.php:218
+#: lib/page-access/analytics/render-func.php:293
 #: lib/page-access/analytics/settings-forms.php:59
 msgid "今月"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:154
-#: lib/page-access/analytics/render-func.php:197
+#: lib/page-access/analytics/render-func.php:219
 msgid "先月"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:155
-#: lib/page-access/analytics/render-func.php:198
+#: lib/page-access/analytics/render-func.php:220
 msgid "年初来"
 msgstr ""
 
@@ -3275,7 +3275,7 @@ msgstr ""
 #: lib/page-access/analytics/dashboard-page.php:550
 #: lib/page-access/analytics/dashboard-page.php:578
 #: lib/page-access/analytics/query-func.php:195
-#: lib/page-access/analytics/render-func.php:199
+#: lib/page-access/analytics/render-func.php:221
 #: lib/page-access/analytics/settings-forms.php:60
 #: lib/page-settings/carousel-forms.php:72
 #: lib/page-settings/single-forms.php:193
@@ -3288,7 +3288,7 @@ msgstr "Todo el tiempo"
 #: lib/page-access/analytics/dashboard-page.php:168
 #: lib/page-access/analytics/enqueue-func.php:123
 #: lib/page-access/analytics/render-func.php:73
-#: lib/page-access/analytics/render-func.php:231
+#: lib/page-access/analytics/render-func.php:253
 #, php-format
 msgid "%1$s 〜 %2$s"
 msgstr ""
@@ -3406,7 +3406,7 @@ msgstr ""
 #: lib/page-speech-balloon/form.php:49
 #: lib/widgets/author-box.php:68
 #: lib/widgets/box-menus.php:73
-#: lib/widgets/cta-box.php:101
+#: lib/widgets/cta-box.php:110
 #: lib/widgets/fb-like-balloon.php:69
 #: lib/widgets/fb-like-box.php:99
 #: lib/widgets/item-ranking.php:65
@@ -3425,7 +3425,7 @@ msgstr ""
 #: blocks/src/block/timeline-item/deprecated.js:50
 #: blocks/src/block/timeline-item/edit.js:28
 #: blocks/src/block/timeline/edit.js:188
-#: blocks/src/blocks.js:129
+#: blocks/src/blocks.js:120
 msgid "タイトル"
 msgstr "Título"
 
@@ -3448,7 +3448,7 @@ msgstr "Tipo"
 
 #: lib/page-access/analytics/dashboard-page.php:373
 #: lib/page-access/analytics/dashboard-page.php:504
-#: lib/page-access/analytics/render-func.php:165
+#: lib/page-access/analytics/render-func.php:191
 msgid "著者"
 msgstr "Autor"
 
@@ -3491,7 +3491,7 @@ msgid "記事数"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:504
-#: lib/page-access/analytics/render-func.php:272
+#: lib/page-access/analytics/render-func.php:294
 msgid "総PV"
 msgstr ""
 
@@ -3522,13 +3522,13 @@ msgid "記事を選択してください"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:579
-#: lib/page-access/analytics/render-func.php:200
+#: lib/page-access/analytics/render-func.php:222
 msgid "カスタム"
 msgstr ""
 
 #: lib/page-access/analytics/dashboard-page.php:584
 #: lib/page-access/analytics/dashboard-page.php:640
-#: lib/page-access/analytics/render-func.php:220
+#: lib/page-access/analytics/render-func.php:242
 msgid "〜"
 msgstr ""
 
@@ -3665,26 +3665,26 @@ msgstr ""
 msgid "NO IMAGE"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:163
+#: lib/page-access/analytics/render-func.php:189
 msgid "記事別"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:164
+#: lib/page-access/analytics/render-func.php:190
 msgid "カテゴリー/タグ"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:166
-#: lib/page-access/analytics/render-func.php:380
-#: lib/page-access/analytics/render-func.php:507
+#: lib/page-access/analytics/render-func.php:192
+#: lib/page-access/analytics/render-func.php:402
+#: lib/page-access/analytics/render-func.php:529
 msgid "ライフサイクル"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:167
+#: lib/page-access/analytics/render-func.php:193
 #: lib/page-access/analytics/settings-forms.php:67
 msgid "エクスポート"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:168
+#: lib/page-access/analytics/render-func.php:194
 #: lib/_defins.php:348
 #: blocks/src/block/faq/edit.js:127
 #: blocks/src/block/login-user-only/edit.js:34
@@ -3692,13 +3692,13 @@ msgstr ""
 msgid "設定"
 msgstr "Configuración"
 
-#: lib/page-access/analytics/render-func.php:211
+#: lib/page-access/analytics/render-func.php:233
 msgid "期間:"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:223
-#: lib/page-access/analytics/render-func.php:378
-#: lib/page-access/analytics/render-func.php:505
+#: lib/page-access/analytics/render-func.php:245
+#: lib/page-access/analytics/render-func.php:400
+#: lib/page-access/analytics/render-func.php:527
 #: lib/page-settings/page-forms.php:23
 #: lib/page-settings/single-forms.php:111
 #: lib/page-settings/single-forms.php:301
@@ -3706,29 +3706,29 @@ msgstr ""
 msgid "表示"
 msgstr "Visualización"
 
-#: lib/page-access/analytics/render-func.php:268
+#: lib/page-access/analytics/render-func.php:290
 msgid "昨日比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:270
+#: lib/page-access/analytics/render-func.php:292
 msgid "前週比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:271
+#: lib/page-access/analytics/render-func.php:293
 msgid "前月比"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:313
+#: lib/page-access/analytics/render-func.php:335
 msgid "データがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:334
-#: lib/page-access/analytics/render-func.php:459
+#: lib/page-access/analytics/render-func.php:356
+#: lib/page-access/analytics/render-func.php:481
 msgid "削除済み"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:379
-#: lib/page-access/analytics/render-func.php:506
+#: lib/page-access/analytics/render-func.php:401
+#: lib/page-access/analytics/render-func.php:528
 #: lib/page-affiliate-tag/list.php:87
 #: lib/page-func-text/list.php:87
 #: lib/page-item-ranking/list.php:101
@@ -3737,47 +3737,47 @@ msgstr ""
 msgid "編集"
 msgstr "Editar"
 
-#: lib/page-access/analytics/render-func.php:387
+#: lib/page-access/analytics/render-func.php:409
 msgid "期間全体の総PVに占めるこの記事の割合"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:389
+#: lib/page-access/analytics/render-func.php:411
 #: tmp/mobile-share-button.php:22
 msgid "シェア"
 msgstr "Compartir"
 
-#: lib/page-access/analytics/render-func.php:417
+#: lib/page-access/analytics/render-func.php:439
 #: lib/page-cache/cache-forms.php:25
 msgid "すべて"
 msgstr "Todo"
 
-#: lib/page-access/analytics/render-func.php:432
+#: lib/page-access/analytics/render-func.php:454
 msgid "指定した期間のアクセスデータがありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:443
+#: lib/page-access/analytics/render-func.php:465
 msgid "急上昇中の記事はありません。"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:494
+#: lib/page-access/analytics/render-func.php:516
 #, php-format
 msgid "直近%1$d日 %2$s PV / 前%1$d日 %3$s PV"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:515
+#: lib/page-access/analytics/render-func.php:537
 msgid "新登場"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:524
+#: lib/page-access/analytics/render-func.php:546
 #, php-format
 msgid "直近%1$d日のPVとその前%1$d日のPVの比較"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:634
+#: lib/page-access/analytics/render-func.php:656
 msgid "少ない"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:638
+#: lib/page-access/analytics/render-func.php:660
 msgid "多い"
 msgstr ""
 
@@ -3802,7 +3802,7 @@ msgid "アクセス解析ダッシュボードを有効にする"
 msgstr ""
 
 #: lib/page-access/analytics/settings-forms.php:29
-msgid "無効にするとダッシュボード系タブは非表示になり、「設定」タブのみ表示されます。"
+msgid "無効にするとダッシュボード系タブはすべて非表示になり、設定フォームだけが表示されます。"
 msgstr ""
 
 #: lib/page-access/analytics/settings-forms.php:33
@@ -6927,7 +6927,7 @@ msgid "アピールエリアのタイトルを入力してください。入力�
 msgstr "Introduce un título para el área de anuncio. Si se deja en blanco, no se mostrará ningún título."
 
 #: lib/page-settings/appeal-forms.php:125
-#: lib/widgets/cta-box.php:140
+#: lib/widgets/cta-box.php:149
 #: lib/widgets/fb-like-balloon.php:76
 #: lib/widgets/fb-like-box.php:106
 #: blocks/src/block/cta/edit.js:152
@@ -6989,7 +6989,7 @@ msgstr "Configura cómo se abrirán los enlaces del botón en el área de anunci
 #: lib/page-settings/appeal-forms.php:181
 #: lib/page-settings/appeal-forms.php:186
 #: lib/page-settings/buttons-forms.php:78
-#: lib/widgets/cta-box.php:162
+#: lib/widgets/cta-box.php:171
 #: blocks/src/block/cta/edit.js:185
 msgid "ボタン色"
 msgstr "Color del botón"
@@ -9152,12 +9152,12 @@ msgid "ボタンを表示しない"
 msgstr ""
 
 #: lib/page-settings/mobile-buttons-forms.php:45
-#: lib/settings.php:420
+#: lib/settings.php:428
 msgid "ヘッダーモバイルボタン"
 msgstr "Botón móvil del encabezado"
 
 #: lib/page-settings/mobile-buttons-forms.php:46
-#: lib/settings.php:422
+#: lib/settings.php:430
 msgid "フッターモバイルボタン"
 msgstr "Botón móvil del pie de página"
 
@@ -9691,11 +9691,11 @@ msgid "メニュー選択"
 msgstr "Seleccionar menú"
 
 #: lib/page-settings/recommended-forms.php:61
-#: blocks/src/block/box-menu/edit.js:40
-#: blocks/src/block/navicard/edit.js:43
-#: blocks/src/block/profile/edit.js:32
-#: blocks/src/block/ranking/edit.js:27
-#: blocks/src/block/template/edit.js:27
+#: blocks/src/block/box-menu/edit.js:45
+#: blocks/src/block/navicard/edit.js:48
+#: blocks/src/block/profile/edit.js:37
+#: blocks/src/block/ranking/edit.js:32
+#: blocks/src/block/template/edit.js:32
 msgid "未選択"
 msgstr "No seleccionado"
 
@@ -10050,8 +10050,8 @@ msgid "関連記事見出し"
 msgstr "Encabezado de artículos relacionados"
 
 #: lib/page-settings/single-forms.php:145
-#: lib/shortcodes.php:1197
-#: lib/widgets/cta-box.php:108
+#: lib/shortcodes.php:1238
+#: lib/widgets/cta-box.php:117
 #: blocks/src/block-universal/caption-box/deprecated.js:25
 #: blocks/src/block-universal/caption-box/edit.js:20
 #: blocks/src/block-universal/label-box/deprecated.js:25
@@ -10059,9 +10059,9 @@ msgstr "Encabezado de artículos relacionados"
 #: blocks/src/block-universal/tab-caption-box/deprecated.js:25
 #: blocks/src/block-universal/tab-caption-box/edit.js:20
 #: blocks/src/block/cta/edit.js:85
-#: blocks/src/blocks.js:135
-#: blocks/src/blocks.js:138
-#: blocks/src/blocks.js:141
+#: blocks/src/blocks.js:126
+#: blocks/src/blocks.js:129
+#: blocks/src/blocks.js:132
 #: blocks/src/old/caption-box/block.js:23
 #: blocks/src/old/label-box/block.js:22
 #: blocks/src/old/tab-caption-box/block.js:23
@@ -10086,7 +10086,7 @@ msgstr "Ingrese un subencabezado para los artículos relacionados."
 #: lib/widgets/new-entries.php:192
 #: lib/widgets/popular-entries.php:189
 #: lib/widgets/related-entries.php:182
-#: blocks/src/block/navicard/edit.js:100
+#: blocks/src/block/navicard/edit.js:105
 #: blocks/src/block/new-list/edit.js:145
 #: blocks/src/block/popular-list/edit.js:225
 msgid "表示タイプ"
@@ -12647,98 +12647,98 @@ msgstr ""
 msgid "です。"
 msgstr ""
 
-#: lib/settings.php:418
+#: lib/settings.php:426
 #: tmp/navi.php:9
 msgid "ヘッダーメニュー"
 msgstr "Menú de encabezado"
 
-#: lib/settings.php:419
+#: lib/settings.php:427
 msgid "ヘッダーモバイルメニュー"
 msgstr "Menú móvil del encabezado"
 
-#: lib/settings.php:421
+#: lib/settings.php:429
 #: tmp/navi-footer.php:9
 msgid "フッターメニュー"
 msgstr "Menú de pie de página"
 
-#: lib/settings.php:423
+#: lib/settings.php:431
 msgid "モバイルスライドインメニュー"
 msgstr "Menú deslizante móvil"
 
-#: lib/settings.php:669
+#: lib/settings.php:677
 msgid "通常のカード表示"
 msgstr "Visualización de tarjetas normales"
 
-#: lib/settings.php:672
+#: lib/settings.php:680
 msgid "カードの上下に破線の区切り線が表示されます。"
 msgstr "Una línea de separación discontinua se muestra arriba y abajo de la tarjeta."
 
-#: lib/settings.php:673
-#: blocks/src/block/navicard/edit.js:110
+#: lib/settings.php:681
+#: blocks/src/block/navicard/edit.js:115
 #: blocks/src/block/new-list/edit.js:155
 #: blocks/src/block/popular-list/edit.js:235
 msgid "カードの上下に区切り線を入れる"
 msgstr "Agregar una línea de separación en la parte superior e inferior de la tarjeta"
 
-#: lib/settings.php:673
-#: blocks/src/block/navicard/edit.js:111
+#: lib/settings.php:681
+#: blocks/src/block/navicard/edit.js:116
 #: blocks/src/block/new-list/edit.js:156
 #: blocks/src/block/popular-list/edit.js:236
 msgid "（縦並び表示のみ）"
 msgstr "(Solo para visualización vertical)"
 
-#: lib/settings.php:675
+#: lib/settings.php:683
 msgid "カード自体を罫線で囲みます。"
 msgstr "Rodea la tarjeta con un borde."
 
-#: lib/settings.php:676
-#: blocks/src/block/navicard/edit.js:115
+#: lib/settings.php:684
+#: blocks/src/block/navicard/edit.js:120
 #: blocks/src/block/new-list/edit.js:160
 #: blocks/src/block/popular-list/edit.js:240
 msgid "カードに枠線を表示する"
 msgstr "Mostrar bordes en la tarjeta"
 
-#: lib/settings.php:678
+#: lib/settings.php:686
 msgid "大きなサムネイル画像の下にタイトルを表示します。"
 msgstr "El título se muestra debajo de imágenes en miniatura grandes."
 
-#: lib/settings.php:679
-#: blocks/src/block/navicard/edit.js:119
+#: lib/settings.php:687
+#: blocks/src/block/navicard/edit.js:124
 #: blocks/src/block/new-list/edit.js:164
 #: blocks/src/block/popular-list/edit.js:244
 msgid "大きなサムネイル表示にする"
 msgstr "Miniatura grande"
 
-#: lib/settings.php:681
+#: lib/settings.php:689
 msgid "大きなサムネイル画像の下段にタイトルを重ねます。"
 msgstr "El título se coloca superpuesto en la parte inferior de las imágenes en miniatura grandes."
 
-#: lib/settings.php:682
-#: blocks/src/block/navicard/edit.js:123
+#: lib/settings.php:690
+#: blocks/src/block/navicard/edit.js:128
 #: blocks/src/block/new-list/edit.js:168
 #: blocks/src/block/popular-list/edit.js:248
 msgid "大きなサムネイルにタイトルを重ねて表示する"
 msgstr "Superponer el título en la miniatura grande"
 
-#: lib/settings.php:691
+#: lib/settings.php:699
 #: blocks/src/block/amazon-product-link/components/SettingsPanel.js:64
 #: blocks/src/block/rakuten-product-link/components/SettingsPanel.js:62
 msgid "画像のみ"
 msgstr "Solo imágenes"
 
-#: lib/settings.php:692
+#: lib/settings.php:700
 msgid "画像中央に白文字タイトル"
 msgstr "Título en texto blanco en el centro de la imagen"
 
-#: lib/settings.php:693
+#: lib/settings.php:701
 msgid "画像中央にラベルでタイトル"
 msgstr "Título con etiqueta en el centro de la imagen"
 
-#: lib/settings.php:694
+#: lib/settings.php:702
 msgid "画像下段を黒背景にしタイトルを重ねる"
 msgstr "El título se superpone en la parte inferior de la imagen con un fondo negro."
 
-#: lib/settings.php:706
+#: lib/settings.php:714
 msgid "ニュース"
 msgstr ""
 
@@ -12881,11 +12881,11 @@ msgstr "Error al guardar"
 msgid "エラー："
 msgstr "Error: "
 
-#: lib/shortcodes.php:1260
+#: lib/shortcodes.php:1326
 msgid "A,B,C,D,E"
 msgstr ""
 
-#: lib/shortcodes.php:1372
+#: lib/shortcodes.php:1438
 msgid "総計"
 msgstr "Total"
 
@@ -13232,7 +13232,7 @@ msgstr "Contenido a ingresar en el lado derecho"
 #: lib/tinymce/shortcodes.php:106
 #: blocks/src/block/search-box/deprecated.js:16
 #: blocks/src/block/search-box/edit.js:7
-#: blocks/src/blocks.js:122
+#: blocks/src/blocks.js:113
 #: blocks/src/toolbutton/dropdown-shortcodes.js:150
 #: blocks/src/toolbutton/dropdown-shortcodes.js:160
 #: blocks/src/toolbutton/dropdown-shortcodes.js:169
@@ -13859,12 +13859,12 @@ msgstr "Este es un widget para mostrar el perfil del autor del artículo."
 #: lib/widgets/author-box.php:75
 #: blocks/src/block/blogcard/deprecated.js:116
 #: blocks/src/block/blogcard/edit.js:30
-#: blocks/src/block/profile/edit.js:87
+#: blocks/src/block/profile/edit.js:92
 #: blocks/src/block/tab-box/edit.js:65
 #: blocks/src/block/timeline-item/deprecated.js:22
 #: blocks/src/block/timeline-item/deprecated.js:42
 #: blocks/src/block/timeline-item/edit.js:20
-#: blocks/src/blocks.js:128
+#: blocks/src/blocks.js:119
 #: blocks/src/old/blogcard-class/block.js:61
 msgid "ラベル"
 msgstr "Etiqueta"
@@ -13874,7 +13874,7 @@ msgid "例：この記事を書いた人"
 msgstr "Ejemplo: La persona que escribió este artículo"
 
 #: lib/widgets/author-box.php:82
-#: blocks/src/block/profile/edit.js:93
+#: blocks/src/block/profile/edit.js:98
 msgid "画像を円形にする"
 msgstr "Redondear imágenes"
 
@@ -13883,7 +13883,7 @@ msgid "※「プロフィール画像・情報」や、「フォローボタン�
 msgstr "*Cambie configuraciones como \"Información de perfil\" y \"Botón de seguimiento\" en la página de perfil."
 
 #: lib/widgets/box-menus.php:19
-#: blocks/src/block/box-menu/edit.js:107
+#: blocks/src/block/box-menu/edit.js:111
 #: blocks/src/block/box-menu/index.js:38
 msgid "ボックスメニュー"
 msgstr "Menú de caja"
@@ -13909,7 +13909,7 @@ msgid "内容："
 msgstr "Contenido :"
 
 #: lib/widgets/classic-text.php:65
-#: lib/widgets/cta-box.php:143
+#: lib/widgets/cta-box.php:152
 #: lib/widgets/mobile-text.php:83
 #: lib/widgets/pc-text.php:82
 #: blocks/src/block/cta/edit.js:161
@@ -13925,77 +13925,77 @@ msgstr "CTA"
 msgid "コール・トゥ・アクションで訪問者にとってもらいたい行動を促すウィジェットです。"
 msgstr "Un widget que incita al visitante a actuar con una llamada a la acción."
 
-#: lib/widgets/cta-box.php:115
+#: lib/widgets/cta-box.php:124
 msgid "画像とメッセージのレイアウト（サイドバー・フッター以外）"
 msgstr "Diseño de imágenes y mensajes (excepto en la barra lateral y el pie de página)"
 
-#: lib/widgets/cta-box.php:119
+#: lib/widgets/cta-box.php:128
 #: blocks/src/block/cta/edit.js:95
 msgid "画像・メッセージを上下に配置"
 msgstr "Colocar una imagen y un mensaje en la parte superior e inferior"
 
-#: lib/widgets/cta-box.php:120
+#: lib/widgets/cta-box.php:129
 #: blocks/src/block/cta/edit.js:99
 msgid "画像・メッセージを左右に配置"
 msgstr "Colocar una imagen y un mensaje a la izquierda y derecha"
 
-#: lib/widgets/cta-box.php:121
+#: lib/widgets/cta-box.php:130
 #: blocks/src/block/cta/edit.js:103
 msgid "メッセージ・画像を左右に配置"
 msgstr "Colocar un mensaje y una imagen a la izquierda y derecha"
 
-#: lib/widgets/cta-box.php:129
+#: lib/widgets/cta-box.php:138
 msgid "画像（選択ボタンが動作しない場合は再読み込み）"
 msgstr "Imágenes CTA (recargue si el botón de selección no funciona)"
 
-#: lib/widgets/cta-box.php:148
+#: lib/widgets/cta-box.php:157
 #: blocks/src/block/cta/edit.js:171
 msgid "ボタンテキスト"
 msgstr "Texto del botón"
 
-#: lib/widgets/cta-box.php:155
+#: lib/widgets/cta-box.php:164
 #: blocks/src/block/cta/edit.js:179
 msgid "ボタンURL"
 msgstr "URL del botón"
 
-#: lib/widgets/cta-box.php:166
+#: lib/widgets/cta-box.php:175
 #: blocks/src/block/cta/edit.js:188
 #: blocks/src/toolbutton/button-black.js:14
 #: blocks/src/toolbutton/button-white-black.js:14
 msgid "黒色"
 msgstr "Negro"
 
-#: lib/widgets/cta-box.php:170
+#: lib/widgets/cta-box.php:179
 #: blocks/src/block/cta/edit.js:192
 msgid "深紫"
 msgstr "Púrpura oscuro"
 
-#: lib/widgets/cta-box.php:171
+#: lib/widgets/cta-box.php:180
 #: blocks/src/block/cta/edit.js:194
 msgid "紺色（インディゴ）"
 msgstr "Azul marino (índigo)"
 
-#: lib/widgets/cta-box.php:173
+#: lib/widgets/cta-box.php:182
 #: blocks/src/block/cta/edit.js:198
 msgid "水色"
 msgstr "Azul claro"
 
-#: lib/widgets/cta-box.php:174
+#: lib/widgets/cta-box.php:183
 #: blocks/src/block/cta/edit.js:200
 msgid "明るい青（シアン）"
 msgstr "Azul brillante (cian)"
 
-#: lib/widgets/cta-box.php:175
+#: lib/widgets/cta-box.php:184
 #: blocks/src/block/cta/edit.js:204
 msgid "緑色がかった青（ティール）"
 msgstr "Azul verdoso (teal)"
 
-#: lib/widgets/cta-box.php:177
+#: lib/widgets/cta-box.php:186
 #: blocks/src/block/cta/edit.js:209
 msgid "明るい緑"
 msgstr "Verde brillante"
 
-#: lib/widgets/cta-box.php:180
+#: lib/widgets/cta-box.php:189
 #: blocks/src/block/cta/edit.js:215
 msgid "琥珀色（アンバー）"
 msgstr "Ámbar"
@@ -14145,7 +14145,7 @@ msgid "商品・サービスのランキングを表示するウィジェット�
 msgstr "Este es un widget que muestra la clasificación de productos y servicios."
 
 #: lib/widgets/item-ranking.php:84
-#: blocks/src/block/ranking/edit.js:78
+#: blocks/src/block/ranking/edit.js:77
 msgid "ランキングを選択してください。"
 msgstr "Seleccione un ranking."
 
@@ -14198,7 +14198,7 @@ msgstr "Este es un widget para mostrar la lista de tarjetas de navegación."
 #: lib/widgets/new-entries.php:201
 #: lib/widgets/popular-entries.php:213
 #: lib/widgets/related-entries.php:203
-#: blocks/src/block/navicard/edit.js:136
+#: blocks/src/block/navicard/edit.js:141
 #: blocks/src/block/new-list/edit.js:226
 #: blocks/src/block/popular-list/edit.js:261
 msgid "横並び表示にする"
@@ -14215,7 +14215,7 @@ msgstr "(Recomendado con \"Miniatura grande\")"
 #: lib/widgets/new-entries.php:208
 #: lib/widgets/popular-entries.php:220
 #: lib/widgets/related-entries.php:210
-#: blocks/src/block/navicard/edit.js:144
+#: blocks/src/block/navicard/edit.js:149
 #: blocks/src/block/new-list/edit.js:234
 #: blocks/src/block/popular-list/edit.js:269
 msgid "タイトルを太字にする"
@@ -14225,7 +14225,7 @@ msgstr "Resaltar el título en negrita"
 #: lib/widgets/new-entries.php:214
 #: lib/widgets/popular-entries.php:238
 #: lib/widgets/related-entries.php:216
-#: blocks/src/block/navicard/edit.js:150
+#: blocks/src/block/navicard/edit.js:155
 #: blocks/src/block/new-list/edit.js:240
 #: blocks/src/block/popular-list/edit.js:291
 msgid "カードに矢印を表示する"
@@ -17709,23 +17709,23 @@ msgstr "Muestra una caja en blanco que solo sirve para rodear el contenido."
 msgid "ブログカード表示用の入力ブロックを表示します。URLは複数入力可能です。"
 msgstr "Mostrar bloques de entrada para visualizar tarjetas de blog. Puedes ingresar múltiples URL."
 
-#: blocks/src/block/box-menu/edit.js:60
+#: blocks/src/block/box-menu/edit.js:65
 msgid "ダッシュボードメニューの「外観」→「メニュー」からボックスメニューを作成してください。"
 msgstr "Crea un menú desde \"Tablero de mandos\" -> \"Apariencia\" -> \"Menús\"."
 
-#: blocks/src/block/box-menu/edit.js:65
+#: blocks/src/block/box-menu/edit.js:70
 msgid "ボックスメニューが登録されていません。"
 msgstr "El menú de la caja no está registrado."
 
-#: blocks/src/block/box-menu/edit.js:71
+#: blocks/src/block/box-menu/edit.js:73
 msgid "有効なボックスメニューが登録されていません。"
 msgstr "No se ha registrado un menú de caja válido."
 
-#: blocks/src/block/box-menu/edit.js:73
+#: blocks/src/block/box-menu/edit.js:75
 msgid "もしくは登録されているボックスメニューを表示設定にしてください。"
 msgstr "O cambia la configuración de visualización del menú de la caja registrada."
 
-#: blocks/src/block/box-menu/edit.js:78
+#: blocks/src/block/box-menu/edit.js:80
 msgid "ボックスメニューを選択してください。"
 msgstr "Selecciona un menú de caja."
 
@@ -17880,7 +17880,7 @@ msgstr "Leer este artículo"
 
 #: blocks/src/block/cta/edit.js:78
 #: blocks/src/block/info-list/edit.js:99
-#: blocks/src/block/navicard/edit.js:98
+#: blocks/src/block/navicard/edit.js:103
 #: blocks/src/block/new-list/edit.js:133
 #: blocks/src/block/popular-list/edit.js:205
 msgid "基本設定"
@@ -18029,15 +18029,15 @@ msgstr "Solo para usuarios registrados"
 msgid "ログインしているユーザーにのみコンテンツを表示します"
 msgstr "Muestra contenido solo a los usuarios que han iniciado sesión"
 
-#: blocks/src/block/navicard/edit.js:63
+#: blocks/src/block/navicard/edit.js:68
 msgid "ダッシュボードメニューの「外観」→「メニュー」からメニューを作成してください。"
 msgstr "Crea un menú desde \"Tablero de mandos\" -> \"Apariencia\" -> \"Menús\"."
 
-#: blocks/src/block/navicard/edit.js:68
+#: blocks/src/block/navicard/edit.js:73
 msgid "メニューが登録されていません。"
 msgstr "El menú no está registrado."
 
-#: blocks/src/block/navicard/edit.js:70
+#: blocks/src/block/navicard/edit.js:75
 msgid "メニューを選択してください。"
 msgstr "Seleccione un menú."
 
@@ -18149,15 +18149,15 @@ msgstr "Excluir artículos (ID)"
 msgid "人気記事の一覧を表示します。"
 msgstr "Mostrar la lista de artículos populares."
 
-#: blocks/src/block/profile/edit.js:54
+#: blocks/src/block/profile/edit.js:59
 msgid "選択できるユーザーがありません。"
 msgstr "No hay usuarios para seleccionar."
 
-#: blocks/src/block/profile/edit.js:56
+#: blocks/src/block/profile/edit.js:61
 msgid "ユーザーを選択してください。"
 msgstr "Seleccione un usuario."
 
-#: blocks/src/block/profile/edit.js:103
+#: blocks/src/block/profile/edit.js:108
 msgid "ユーザー"
 msgstr "Usuario"
 
@@ -18307,24 +18307,24 @@ msgstr ""
 msgid "楽天商品をエディタ内で検索・選択し、静的な商品リンクを挿入します。"
 msgstr "Busca y selecciona productos de Rakuten en el editor e inserta un enlace de producto estático."
 
-#: blocks/src/block/ranking/edit.js:43
-#: blocks/src/block/template/edit.js:43
+#: blocks/src/block/ranking/edit.js:48
+#: blocks/src/block/template/edit.js:48
 msgid "（リスト非表示）"
 msgstr "(Lista oculta)"
 
-#: blocks/src/block/ranking/edit.js:55
+#: blocks/src/block/ranking/edit.js:60
 msgid "ダッシュボードメニューの「Cocoon設定」→「ランキング」からランキングを作成してください。"
 msgstr "Crea un ranking desde \"Tablero de mandos\" -> \"Configuración de Cocoon\" -> \"Crear ranking\"."
 
-#: blocks/src/block/ranking/edit.js:63
+#: blocks/src/block/ranking/edit.js:65
 msgid "ランキングが登録されていません。"
 msgstr "No se ha registrado el ranking."
 
-#: blocks/src/block/ranking/edit.js:70
+#: blocks/src/block/ranking/edit.js:69
 msgid "有効なランキングが登録されていません。"
 msgstr "No se ha registrado un ranking válido."
 
-#: blocks/src/block/ranking/edit.js:72
+#: blocks/src/block/ranking/edit.js:71
 msgid "もしくは登録されているランキングを表示設定にしてください。。"
 msgstr "O cambia la configuración de visualización del ranking registrado."
 
@@ -18394,23 +18394,23 @@ msgstr "Agregar pestaña"
 msgid "表示する内容をタブで切り替えることができるボックスです。"
 msgstr "Caja que te permite cambiar el contenido mediante pestañas."
 
-#: blocks/src/block/template/edit.js:55
+#: blocks/src/block/template/edit.js:60
 msgid "ダッシュボードメニューの「Cocoon設定」→「テンプレート」からテンプレートを作成してください。"
 msgstr "Crea una plantilla desde \"Tablero de mandos\" -> \"Configuración de Cocoon\" -> \"Plantilla\"."
 
-#: blocks/src/block/template/edit.js:60
+#: blocks/src/block/template/edit.js:65
 msgid "テンプレートが登録されていません。"
 msgstr "No se ha registrado la plantilla."
 
-#: blocks/src/block/template/edit.js:67
+#: blocks/src/block/template/edit.js:69
 msgid "有効なテンプレートが登録されていません。"
 msgstr "No se ha registrado una plantilla válida."
 
-#: blocks/src/block/template/edit.js:69
+#: blocks/src/block/template/edit.js:71
 msgid "もしくは登録されているテンプレートを表示設定にしてください。。"
 msgstr "O cambia la configuración de visualización de la plantilla registrada."
 
-#: blocks/src/block/template/edit.js:75
+#: blocks/src/block/template/edit.js:77
 msgid "テンプレートを選択してください。"
 msgstr "Selecciona una plantilla."
 
@@ -18448,27 +18448,27 @@ msgstr "Acordeón (alternar)"
 msgid "旧トグルボックス。クリックすることでコンテンツ内容の表示を切り替えることができるボックスです。"
 msgstr "Caja de alternancia antigua. Es una caja que te permite cambiar la visualización del contenido al hacer clic."
 
-#: blocks/src/blocks.js:125
+#: blocks/src/blocks.js:116
 msgid "タイムラインのタイトル"
 msgstr ""
 
-#: blocks/src/blocks.js:132
+#: blocks/src/blocks.js:123
 msgid "アコーディオン見出し"
 msgstr ""
 
-#: blocks/src/blocks.js:144
+#: blocks/src/blocks.js:135
 #: blocks/src/micro/micro-balloon/deprecated.js:18
 #: blocks/src/old/micro-balloon-1/block.js:20
 #: blocks/src/old/micro-balloon/block.js:20
 msgid "マイクロコピーバルーン"
 msgstr "Globo de microcopia"
 
-#: blocks/src/blocks.js:147
+#: blocks/src/blocks.js:138
 #: blocks/src/micro/micro-text/deprecated.js:17
 msgid "マイクロコピーテキスト"
 msgstr "Texto de microcopia"
 
-#: blocks/src/blocks.js:189
+#: blocks/src/blocks.js:180
 msgid "キャンペーン期間中のみ表示されるコンテンツです。"
 msgstr ""
 
