@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-01T22:20:12+00:00\n"
-"PO-Revision-Date: 2026-09-01 22:47\n"
+"POT-Creation-Date: 2026-09-03T22:11:37+00:00\n"
+"PO-Revision-Date: 2026-09-03 22:15\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -335,7 +335,7 @@ msgstr "備忘錄"
 #: lib/admin-tinymce-qtag.php:357
 #: lib/block-editor-styles-group.php:50
 #: lib/block-editor-styles-paragraph.php:85
-#: lib/page-settings/_top-page.php:224
+#: lib/page-settings/settings-tabs.php:32
 #: lib/sns-share.php:1015
 #: lib/sns-share.php:1028
 #: lib/_defins.php:419
@@ -871,7 +871,7 @@ msgstr "對話框（下）"
 
 #: lib/admin-tinymce-qtag.php:982
 #: lib/page-settings/editor-forms.php:139
-#: lib/page-settings/_top-page.php:242
+#: lib/page-settings/settings-tabs.php:38
 #: blocks/src/block/button/deprecated.js:29
 #: blocks/src/block/button/index.js:20
 #: blocks/src/blocks.js:110
@@ -1299,7 +1299,7 @@ msgstr "字數"
 #: lib/page-access/access-func.php:752
 #: lib/page-access/analytics/enqueue-func.php:107
 #: lib/page-access/analytics/render-func.php:408
-#: lib/page-access/analytics/render-func.php:645
+#: lib/page-access/analytics/render-func.php:923
 msgid "PV"
 msgstr "PV"
 
@@ -1373,7 +1373,7 @@ msgid "カスタマイズ"
 msgstr "自訂"
 
 #: lib/admin.php:436
-#: lib/page-settings/_top-page.php:264
+#: lib/page-settings/settings-tabs.php:44
 #: skins/skin-made-in-heaven/lib/panel-color.php:68
 msgid "ウィジェット"
 msgstr "小工具"
@@ -1764,7 +1764,7 @@ msgstr "請輸入您希望在搜尋引擎中顯示的標題。這裡輸入的文
 
 #: lib/content-category.php:257
 #: lib/content-tag.php:233
-#: lib/page-settings/_top-page.php:203
+#: lib/page-settings/settings-tabs.php:25
 msgid "本文"
 msgstr "內文"
 
@@ -1914,7 +1914,7 @@ msgstr "無法解析Creators API回應。"
 #: lib/custom-fields/ad-field.php:17
 #: lib/custom-fields/ad-field.php:18
 #: lib/custom-fields/ad-field.php:20
-#: lib/page-settings/_top-page.php:176
+#: lib/page-settings/settings-tabs.php:16
 #: lib/widgets/ad.php:19
 #: blocks/src/block/ad/edit.js:25
 #: blocks/src/block/ad/index.js:21
@@ -1943,7 +1943,7 @@ msgstr "即使在 Cocoon 設定中啟用了「PR 標記」，若啟用了此排�
 #: lib/custom-fields/amp-field.php:20
 #: lib/custom-fields/amp-field.php:22
 #: lib/page-cache/cache-forms.php:79
-#: lib/page-settings/_top-page.php:252
+#: lib/page-settings/settings-tabs.php:41
 msgid "AMP"
 msgstr "AMP"
 
@@ -1984,7 +1984,7 @@ msgstr "如果這篇文章有任何需要記錄的備註，請在此輸入。"
 #: lib/page-access/analytics/dashboard-page.php:96
 #: lib/page-access/analytics/dashboard-page.php:109
 #: lib/page-access/analytics/dashboard-page.php:121
-#: lib/page-settings/_top-page.php:276
+#: lib/page-settings/settings-tabs.php:48
 msgid "その他"
 msgstr "其他"
 
@@ -2210,7 +2210,7 @@ msgstr "輸入 0 到 5 之間的評分。"
 #: lib/custom-fields/seo-field.php:17
 #: lib/custom-fields/seo-field.php:18
 #: lib/custom-fields/seo-field.php:20
-#: lib/page-settings/_top-page.php:182
+#: lib/page-settings/settings-tabs.php:18
 msgid "SEO"
 msgstr "SEO"
 
@@ -2715,21 +2715,21 @@ msgid "フロントページのみ"
 msgstr "僅首頁"
 
 #: lib/html-forms.php:803
+#: lib/page-settings/settings-tabs.php:23
 #: lib/page-settings/sns-follow-forms.php:97
 #: lib/page-settings/sns-share-forms-bottom.php:101
 #: lib/page-settings/sns-share-forms-top.php:88
-#: lib/page-settings/_top-page.php:197
 #: lib/widgets/display-widgets.php:167
 msgid "投稿"
 msgstr "文章"
 
 #: lib/html-forms.php:804
 #: lib/page-settings/about-forms.php:82
+#: lib/page-settings/settings-tabs.php:24
 #: lib/page-settings/sns-follow-forms.php:100
 #: lib/page-settings/sns-share-forms-bottom.php:104
 #: lib/page-settings/sns-share-forms-top.php:91
 #: lib/page-settings/toc-forms.php:78
-#: lib/page-settings/_top-page.php:200
 #: lib/shortcodes.php:517
 #: lib/widgets/display-widgets.php:170
 msgid "固定ページ"
@@ -2756,7 +2756,7 @@ msgid "検索結果一覧"
 msgstr "搜尋結果列表"
 
 #: lib/html-forms.php:810
-#: lib/page-settings/_top-page.php:248
+#: lib/page-settings/settings-tabs.php:40
 #: lib/widget-areas.php:501
 msgid "404ページ"
 msgstr "404 頁面"
@@ -2931,7 +2931,7 @@ msgid "サイドバートップの広告に注意"
 msgstr ""
 
 #: lib/original-menu.php:14
-#: lib/page-settings/_top-page.php:128
+#: lib/page-settings/_top-page.php:135
 msgid "Cocoon 設定"
 msgstr "Cocoon 設定"
 
@@ -3402,7 +3402,7 @@ msgstr ""
 #: lib/page-func-text/form.php:30
 #: lib/page-item-ranking/form.php:80
 #: lib/page-settings/appeal-forms.php:112
-#: lib/page-settings/_top-page.php:179
+#: lib/page-settings/settings-tabs.php:17
 #: lib/page-speech-balloon/form.php:49
 #: lib/widgets/author-box.php:68
 #: lib/widgets/box-menus.php:73
@@ -3773,12 +3773,36 @@ msgstr ""
 msgid "直近%1$d日のPVとその前%1$d日のPVの比較"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:656
-msgid "少ない"
+#: lib/page-access/analytics/render-func.php:924
+msgid "突出日"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:660
-msgid "多い"
+#: lib/page-access/analytics/render-func.php:940
+msgid "色分け基準"
+msgstr ""
+
+#. translators: %s: 最小PV数
+#: lib/page-access/analytics/render-func.php:945
+#, php-format
+msgid "%s PV以上"
+msgstr ""
+
+#. translators: %s: PV数
+#: lib/page-access/analytics/render-func.php:948
+#, php-format
+msgid "%s PV"
+msgstr ""
+
+#. translators: 1: 最小PV数, 2: 最大PV数
+#: lib/page-access/analytics/render-func.php:951
+#, php-format
+msgid "%1$s～%2$s PV"
+msgstr ""
+
+#. translators: %s: 突出日と判定する最小PV数
+#: lib/page-access/analytics/render-func.php:963
+#, php-format
+msgid "突出日（%s PV以上）"
 msgstr ""
 
 #: lib/page-access/analytics/settings-forms.php:14
@@ -4125,7 +4149,7 @@ msgstr "刪除熱門文章小工具的排名結果快取。"
 
 #: lib/page-cache/cache-forms.php:64
 #: lib/page-settings/image-forms.php:217
-#: lib/page-settings/_top-page.php:218
+#: lib/page-settings/settings-tabs.php:30
 #: blocks/src/block/blogcard/index.js:54
 #: blocks/src/old/blogcard-class/block.js:34
 msgid "ブログカード"
@@ -8812,7 +8836,7 @@ msgid "カルーセルカードのサムネイル。"
 msgstr "輪播的縮圖。"
 
 #: lib/page-settings/image-forms.php:215
-#: lib/page-settings/_top-page.php:236
+#: lib/page-settings/settings-tabs.php:36
 msgid "カルーセル"
 msgstr "輪播"
 
@@ -9746,7 +9770,7 @@ msgid "全テーマ設定の内容をリセットします。リセットを行�
 msgstr "重置所有主題設定內容。在重置之前，我們建議您使用備份功能儲存設定，以便可以還原設定。"
 
 #: lib/page-settings/reset-forms.php:25
-#: lib/page-settings/_top-page.php:279
+#: lib/page-settings/settings-tabs.php:49
 msgid "リセット"
 msgstr "重置"
 
@@ -9964,6 +9988,116 @@ msgstr "此「SEO」中的「顯示日期」設定用於控制輸出HTML，告�
 #: lib/page-settings/seo-forms.php:161
 msgid "「投稿日・更新日を表示」を選択した場合は、「更新日」が優先して検索エンジンに伝えられます。"
 msgstr "選擇「顯示發布日期・更新日期」時，「更新日期」將優先傳遞給搜尋引擎。"
+
+#: lib/page-settings/settings-tabs.php:13
+msgid "スキン"
+msgstr "外觀"
+
+#: lib/page-settings/settings-tabs.php:14
+#: skins/skin-made-in-heaven/lib/panel-main.php:34
+msgid "全体"
+msgstr "整體"
+
+#: lib/page-settings/settings-tabs.php:15
+msgid "ヘッダー"
+msgstr "頁首"
+
+#: lib/page-settings/settings-tabs.php:19
+msgid "OGP"
+msgstr "OGP"
+
+#: lib/page-settings/settings-tabs.php:20
+msgid "アクセス解析・認証"
+msgstr "訪問分析與認證"
+
+#: lib/page-settings/settings-tabs.php:21
+#: skins/silk/functions.php:236
+msgid "カラム"
+msgstr "欄位"
+
+#: lib/page-settings/settings-tabs.php:22
+msgid "インデックス"
+msgstr "索引"
+
+#: lib/page-settings/settings-tabs.php:26
+#: lib/page-settings/toc-forms.php:96
+#: lib/page-settings/toc-funcs.php:62
+#: lib/toc.php:98
+#: lib/widgets/toc.php:19
+#: skins/skin-made-in-heaven/lib/hook-cocoon.php:359
+#: skins/skin-made-in-heaven/lib/panel-main.php:69
+msgid "目次"
+msgstr "目錄"
+
+#: lib/page-settings/settings-tabs.php:27
+msgid "SNSシェア"
+msgstr "社交媒體分享"
+
+#: lib/page-settings/settings-tabs.php:28
+msgid "SNSフォロー"
+msgstr "社交媒體追蹤"
+
+#: lib/page-settings/settings-tabs.php:29
+#: skins/skin-made-in-heaven/lib/panel-option.php:87
+#: skins/skin-made-in-heaven/lib/panel-option.php:89
+#: skins/skin-made-in-heaven/lib/panel-visual.php:28
+#: skins/skin-made-in-heaven/lib/panel-visual.php:42
+#: skins/skin-made-in-heaven/lib/panel-visual.php:67
+#: skins/skin-made-in-heaven/lib/panel-visual.php:69
+#: blocks/src/block/cta/edit.js:113
+msgid "画像"
+msgstr "圖片"
+
+#: lib/page-settings/settings-tabs.php:31
+msgid "コード"
+msgstr "代碼"
+
+#: lib/page-settings/settings-tabs.php:33
+msgid "通知"
+msgstr "通知"
+
+#: lib/page-settings/settings-tabs.php:34
+msgid "アピールエリア"
+msgstr "公告區域"
+
+#: lib/page-settings/settings-tabs.php:35
+#: lib/widgets/recommended-cards.php:19
+msgid "おすすめカード"
+msgstr "推薦卡片"
+
+#: lib/page-settings/settings-tabs.php:37
+msgid "フッター"
+msgstr "頁尾"
+
+#: lib/page-settings/settings-tabs.php:39
+#: skins/silk/functions.php:229
+msgid "モバイル"
+msgstr "行動裝置"
+
+#: lib/page-settings/settings-tabs.php:42
+msgid "PWA"
+msgstr "PWA"
+
+#: lib/page-settings/settings-tabs.php:43
+msgid "管理者画面"
+msgstr "管理者畫面"
+
+#: lib/page-settings/settings-tabs.php:45
+msgid "ウィジェットエリア"
+msgstr "小工具區域"
+
+#: lib/page-settings/settings-tabs.php:46
+#: skins/skin-made-in-heaven/lib/panel-editor.php:16
+msgid "エディター"
+msgstr "編輯器"
+
+#: lib/page-settings/settings-tabs.php:47
+msgid "API"
+msgstr "API"
+
+#: lib/page-settings/settings-tabs.php:50
+msgid "テーマ情報"
+msgstr "主題資訊"
 
 #: lib/page-settings/single-forms.php:13
 msgid "カテゴリー・タグ表示設定"
@@ -11745,16 +11879,6 @@ msgstr "可以切換上述頁面的目錄顯示。*如果使用[toc]簡碼顯示
 msgid "目次タイトル"
 msgstr "目錄標題"
 
-#: lib/page-settings/toc-forms.php:96
-#: lib/page-settings/toc-funcs.php:62
-#: lib/page-settings/_top-page.php:206
-#: lib/toc.php:98
-#: lib/widgets/toc.php:19
-#: skins/skin-made-in-heaven/lib/hook-cocoon.php:359
-#: skins/skin-made-in-heaven/lib/panel-main.php:69
-msgid "目次"
-msgstr "目錄"
-
 #: lib/page-settings/toc-forms.php:97
 msgid "目次の上にラベル表示されるタイトルを入力してください。"
 msgstr "請輸入將顯示在目錄上方的標題。"
@@ -11942,126 +12066,26 @@ msgstr "此設定指定不顯示不使用的小工具。"
 msgid "除外ウィジェット"
 msgstr "排除的小工具"
 
-#: lib/page-settings/_top-page.php:138
+#: lib/page-settings/_top-page.php:145
 msgid "設定はリセットされました。"
 msgstr "設定已重置。"
 
-#: lib/page-settings/_top-page.php:143
+#: lib/page-settings/_top-page.php:150
 msgid "設定は保存されました。"
 msgstr "設定已儲存。"
 
-#: lib/page-settings/_top-page.php:157
+#: lib/page-settings/_top-page.php:164
 msgid "Cocoonの設定全般についてはマニュアルを参照してください。"
 msgstr "請參閱手冊以瞭解Cocoon設定的詳細資訊。"
 
-#: lib/page-settings/_top-page.php:158
+#: lib/page-settings/_top-page.php:165
 msgid "テーマ利用マニュアル"
 msgstr "主題使用手冊"
 
-#: lib/page-settings/_top-page.php:162
-#: lib/page-settings/_top-page.php:506
+#: lib/page-settings/_top-page.php:169
+#: lib/page-settings/_top-page.php:202
 msgid "変更をまとめて保存"
 msgstr "儲存所有變更"
-
-#: lib/page-settings/_top-page.php:167
-msgid "スキン"
-msgstr "外觀"
-
-#: lib/page-settings/_top-page.php:170
-#: skins/skin-made-in-heaven/lib/panel-main.php:34
-msgid "全体"
-msgstr "整體"
-
-#: lib/page-settings/_top-page.php:173
-msgid "ヘッダー"
-msgstr "頁首"
-
-#: lib/page-settings/_top-page.php:185
-msgid "OGP"
-msgstr "OGP"
-
-#: lib/page-settings/_top-page.php:188
-msgid "アクセス解析・認証"
-msgstr "訪問分析與認證"
-
-#: lib/page-settings/_top-page.php:191
-#: skins/silk/functions.php:236
-msgid "カラム"
-msgstr "欄位"
-
-#: lib/page-settings/_top-page.php:194
-msgid "インデックス"
-msgstr "索引"
-
-#: lib/page-settings/_top-page.php:209
-msgid "SNSシェア"
-msgstr "社交媒體分享"
-
-#: lib/page-settings/_top-page.php:212
-msgid "SNSフォロー"
-msgstr "社交媒體追蹤"
-
-#: lib/page-settings/_top-page.php:215
-#: skins/skin-made-in-heaven/lib/panel-option.php:87
-#: skins/skin-made-in-heaven/lib/panel-option.php:89
-#: skins/skin-made-in-heaven/lib/panel-visual.php:28
-#: skins/skin-made-in-heaven/lib/panel-visual.php:42
-#: skins/skin-made-in-heaven/lib/panel-visual.php:67
-#: skins/skin-made-in-heaven/lib/panel-visual.php:69
-#: blocks/src/block/cta/edit.js:113
-msgid "画像"
-msgstr "圖片"
-
-#: lib/page-settings/_top-page.php:221
-msgid "コード"
-msgstr "代碼"
-
-#: lib/page-settings/_top-page.php:227
-msgid "通知"
-msgstr "通知"
-
-#: lib/page-settings/_top-page.php:230
-msgid "アピールエリア"
-msgstr "公告區域"
-
-#: lib/page-settings/_top-page.php:233
-#: lib/widgets/recommended-cards.php:19
-msgid "おすすめカード"
-msgstr "推薦卡片"
-
-#: lib/page-settings/_top-page.php:239
-msgid "フッター"
-msgstr "頁尾"
-
-#: lib/page-settings/_top-page.php:245
-#: skins/silk/functions.php:229
-msgid "モバイル"
-msgstr "行動裝置"
-
-#: lib/page-settings/_top-page.php:257
-msgid "PWA"
-msgstr "PWA"
-
-#: lib/page-settings/_top-page.php:261
-msgid "管理者画面"
-msgstr "管理者畫面"
-
-#: lib/page-settings/_top-page.php:267
-msgid "ウィジェットエリア"
-msgstr "小工具區域"
-
-#: lib/page-settings/_top-page.php:270
-#: skins/skin-made-in-heaven/lib/panel-editor.php:16
-msgid "エディター"
-msgstr "編輯器"
-
-#: lib/page-settings/_top-page.php:273
-msgid "API"
-msgstr "API"
-
-#: lib/page-settings/_top-page.php:282
-msgid "テーマ情報"
-msgstr "主題資訊"
 
 #: lib/page-speech-balloon/demo.php:11
 msgid "デモ"
@@ -13560,21 +13584,21 @@ msgstr[0] "%s 年"
 msgid "%1$s%2$s"
 msgstr ""
 
-#: lib/utils.php:4425
+#: lib/utils.php:4426
 msgid "<div class=\"blank-box bb-red\">誹謗中傷は予告なく削除します</div>"
 msgstr ""
 
-#: lib/utils.php:4426
+#: lib/utils.php:4427
 #: skins/skin-demo-php/functions.php:45
 msgid "スキンから入力したタイトル"
 msgstr ""
 
-#: lib/utils.php:4427
+#: lib/utils.php:4428
 #: skins/skin-demo-php/functions.php:46
 msgid "スキンから入力したアピールエリアメッセージです。"
 msgstr ""
 
-#: lib/utils.php:4428
+#: lib/utils.php:4429
 #: skins/skin-demo-php/functions.php:47
 msgid "スキンボタンキャプション"
 msgstr ""
