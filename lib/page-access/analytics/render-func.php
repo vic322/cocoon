@@ -602,7 +602,7 @@ function cocoon_analytics_heatmap_percentile($values, $percentile){
       $percentile = max(0.0, min(1.0, $percentile));
     }
   }
-  // 配列上の小数位置を前後2点で線形補間し、データ数に左右されにくい四分位値にします
+  // 配列上の小数位置を前後2点で線形補間するパーセンタイル値
   $position = (count($numbers) - 1) * $percentile;
   $lower_index = (int) floor($position);
   $upper_index = (int) ceil($position);
@@ -640,7 +640,9 @@ function cocoon_analytics_heatmap_scale($map, $today){
     $q1 = cocoon_analytics_heatmap_percentile($completed_pvs, 0.25);
     $median = cocoon_analytics_heatmap_percentile($completed_pvs, 0.5);
     $q3 = cocoon_analytics_heatmap_percentile($completed_pvs, 0.75);
-    $default_thresholds = array($q1, $median, $q3);
+    $p95 = cocoon_analytics_heatmap_percentile($completed_pvs, 0.95);
+    // 通常日の4色を50・75・95パーセンタイルで分ける境界
+    $default_thresholds = array($median, $q3, $p95);
     $iqr = $q3 - $q1;
     // 各四分位に2日以上入る8日目から、IQRが正の場合だけ突出判定を有効にします
     if ($sample_count >= 8 && $iqr > 0) {
@@ -655,7 +657,7 @@ function cocoon_analytics_heatmap_scale($map, $today){
       }
     }
   } else {
-    // データが少なく四分位が安定しない間は、従来と同じ最大値比率を使います
+    // データが少なくパーセンタイルが安定しない間の従来と同じ最大値比率
     $max_pv = empty($completed_pvs) ? 0 : max($completed_pvs);
     $default_thresholds = array($max_pv * 0.25, $max_pv * 0.5, $max_pv * 0.75);
   }
@@ -785,9 +787,53 @@ function cocoon_analytics_heatmap_is_outlier($pv, $threshold){
 endif;
 
 /**
+ * ヒートマップで使用する色を返す
+ *
+ * @return string[] 色レベルと突出日に対応する16進カラー。
+ */
+if ( !function_exists( 'cocoon_analytics_heatmap_colors' ) ):
+function cocoon_analytics_heatmap_colors(){
+  $default_colors = array(
+    'level_0' => '#ebedf0',
+    'level_1' => '#c6e48b',
+    'level_2' => '#7bc96f',
+    'level_3' => '#239a3b',
+    'level_4' => '#196127',
+    'outlier' => '#033a16',
+  );
+
+  /**
+   * ヒートマップの各色を変更します。
+   *
+   * level_0からlevel_4とoutlierの各キーに、#RGBまたは#RRGGBB形式の色を指定してください。
+   * 未指定のキーや不正な値は、そのキーの既定色へ戻ります。
+   *
+   * @since 2.9.6
+   *
+   * @param string[] $colors ヒートマップの色。
+   */
+  $filtered_colors = apply_filters('cocoon_analytics_heatmap_colors', $default_colors);
+  if (!is_array($filtered_colors)) return $default_colors;
+
+  $colors = $default_colors;
+  foreach (array_keys($default_colors) as $key) {
+    if (!isset($filtered_colors[$key]) || !is_string($filtered_colors[$key])) continue;
+
+    $candidate_color = $filtered_colors[$key];
+    // CSSへの不正な値の混入を防ぐための16進カラー形式の限定
+    if (preg_match('/^#[0-9a-fA-F]{3}(?:[0-9a-fA-F]{3})?$/D', $candidate_color)) {
+      $colors[$key] = $candidate_color;
+    }
+  }
+
+  return $colors;
+}
+endif;
+
+/**
  * 凡例に表示する、実在する色レベルと整数PV範囲を返す
  *
- * 四分位値が重なる場合は空になるレベルを除外し、色と数値範囲の対応を保ちます。
+ * 境界値が重なる場合は空になるレベルを除外し、色と数値範囲の対応を保ちます。
  *
  * @param float[] $thresholds 3つの色分け境界値。
  * @return array 色レベル、最小PV、最大PVの配列。
@@ -876,7 +922,22 @@ function cocoon_analytics_render_heatmap(){
     $cur = strtotime($date . ' +1 day');
   }
 
-  echo '<div class="cocoon-analytics-heatmap">';
+  $colors = cocoon_analytics_heatmap_colors();
+  $color_properties = array(
+    'level_0' => '--cocoon-analytics-heatmap-level-0-color',
+    'level_1' => '--cocoon-analytics-heatmap-level-1-color',
+    'level_2' => '--cocoon-analytics-heatmap-level-2-color',
+    'level_3' => '--cocoon-analytics-heatmap-level-3-color',
+    'level_4' => '--cocoon-analytics-heatmap-level-4-color',
+    'outlier' => '--cocoon-analytics-heatmap-outlier-color',
+  );
+  $color_declarations = array();
+  foreach ($color_properties as $key => $property) {
+    $color_declarations[] = $property . ': ' . $colors[$key];
+  }
+  $color_style = implode('; ', $color_declarations) . ';';
+
+  echo '<div class="cocoon-analytics-heatmap" style="' . esc_attr($color_style) . '">';
   echo '<div class="cocoon-analytics-heatmap-grid">';
   // 曜日ラベル（縦軸）: 月/水/金のみ表示
   echo '<div class="cocoon-analytics-heatmap-days">';
@@ -914,7 +975,7 @@ function cocoon_analytics_render_heatmap(){
       $c = $week_cells[$i];
       $pv = $c['pv'];
       $is_outlier = !$c['future'] && cocoon_analytics_heatmap_is_outlier($pv, $outlier_threshold);
-      // 突出日は専用クラスで通常日より暗い緑の背景色を適用
+      // 突出日は専用クラスで突出日用の背景色を適用
       $level = $is_outlier ? 4 : cocoon_analytics_heatmap_level($pv, $thresholds);
       $cls = 'cocoon-analytics-heatmap-cell is-level-' . $level;
       if ($c['future']) $cls .= ' is-future';

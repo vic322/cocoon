@@ -45,9 +45,9 @@ class AnalyticsHeatmapTest extends TestCase
     }
 
     /**
-     * 完了済みの非ゼロ日だけから線形補間した四分位数を求めることをテスト
+     * 完了済みの非ゼロ日だけから50・75・95パーセンタイルを求めることをテスト
      */
-    public function test_scale_当日と未来日と0PVを除いて四分位数を求める(): void
+    public function test_scale_当日と未来日と0PVを除いて色分け境界を求める(): void
     {
         $map = array(
             '2026-08-27' => 0,
@@ -62,7 +62,7 @@ class AnalyticsHeatmapTest extends TestCase
         $scale = cocoon_analytics_heatmap_scale($map, '2026-09-01');
 
         $this->assertSame(4, $scale['sample_count']);
-        $this->assertEquals(array(175, 250, 325), $scale['thresholds']);
+        $this->assertEquals(array(250, 325, 385), $scale['thresholds']);
         $this->assertNull($scale['outlier_threshold']);
     }
 
@@ -85,12 +85,12 @@ class AnalyticsHeatmapTest extends TestCase
         $scale = cocoon_analytics_heatmap_scale($map, '2026-09-01');
 
         // 従来の境界1675を上回る98パーセンタイル8698（700と10000の間の補間値）
-        $this->assertEquals(array(275, 450, 625), $scale['thresholds']);
+        $this->assertEqualsWithDelta(array(450, 625, 6745), $scale['thresholds'], 0.000001);
         $this->assertEqualsWithDelta(8698, $scale['outlier_threshold'], 0.000001);
         $this->assertSame(1, cocoon_analytics_heatmap_level(100, $scale['thresholds']));
-        $this->assertSame(2, cocoon_analytics_heatmap_level(300, $scale['thresholds']));
-        $this->assertSame(3, cocoon_analytics_heatmap_level(500, $scale['thresholds']));
-        $this->assertSame(4, cocoon_analytics_heatmap_level(700, $scale['thresholds']));
+        $this->assertSame(1, cocoon_analytics_heatmap_level(300, $scale['thresholds']));
+        $this->assertSame(2, cocoon_analytics_heatmap_level(500, $scale['thresholds']));
+        $this->assertSame(3, cocoon_analytics_heatmap_level(700, $scale['thresholds']));
         $this->assertTrue(cocoon_analytics_heatmap_is_outlier(10000, $scale['outlier_threshold']));
     }
 
@@ -117,7 +117,7 @@ class AnalyticsHeatmapTest extends TestCase
         $scale = cocoon_analytics_heatmap_scale($map, '2026-09-01');
 
         $this->assertSame(count($pvs), $scale['sample_count']);
-        $this->assertEquals($expected_thresholds, $scale['thresholds']);
+        $this->assertEqualsWithDelta($expected_thresholds, $scale['thresholds'], 0.000001);
         $this->assertEqualsWithDelta($expected_outlier_threshold, $scale['outlier_threshold'], 0.000001);
         $outlier_pvs = array_values(array_filter($pvs, static function (int $pv) use ($scale): bool {
             return cocoon_analytics_heatmap_is_outlier($pv, $scale['outlier_threshold']);
@@ -133,25 +133,25 @@ class AnalyticsHeatmapTest extends TestCase
         return array(
             'アクセスのある100日のうち突出日を2日に絞る' => array(
                 array_merge($normal_pvs, range(14, 28), array(40, 50, 60, 80, 100)),
-                array(1, 2, 4),
+                array(2, 4, 28.6),
                 60.4,
                 array(80, 100),
             ),
             '上位の同率PVは除きさらに高いピークだけを残す' => array(
                 array_merge($normal_pvs, range(14, 23), array_fill(0, 9, 40), array(200)),
-                array(1, 2, 4),
+                array(2, 4, 40),
                 40.0,
                 array(200),
             ),
             '上位がすべて同率なら無理に突出日を選ばない' => array(
                 array_merge($normal_pvs, range(14, 23), array_fill(0, 10, 40)),
-                array(1, 2, 4),
+                array(2, 4, 40),
                 40.0,
                 array(),
             ),
             '普段のばらつきの基準が高ければ従来の判定を維持する' => array(
                 range(100, 800, 100),
-                array(275, 450, 625),
+                array(450, 625, 765),
                 1675.0,
                 array(),
             ),
@@ -159,9 +159,9 @@ class AnalyticsHeatmapTest extends TestCase
     }
 
     /**
-     * フォーラムで報告された通常500PVと2つの突出日の組み合わせをテスト
+     * フォーラムで報告された通常500PVと2つの高PV日の組み合わせをテスト
      */
-    public function test_scale_フォーラム再現ケースのIQRが0でも突出値で色基準が崩れない(): void
+    public function test_scale_フォーラム再現ケースは95パーセンタイルまで通常色へ反映する(): void
     {
         $map = array();
         // 通常日の分布を再現するため、完了済みの30日へ500PVを設定する
@@ -176,7 +176,7 @@ class AnalyticsHeatmapTest extends TestCase
 
         // 当日の999999PVは除外されるため、完了済みの32日だけが基準になる
         $this->assertSame(32, $scale['sample_count']);
-        $this->assertEquals(array(500, 500, 500), $scale['thresholds']);
+        $this->assertEqualsWithDelta(array(500, 500, 5124.65), $scale['thresholds'], 0.000001);
         $this->assertNull($scale['outlier_threshold']);
         $this->assertSame(1, cocoon_analytics_heatmap_level(500, $scale['thresholds']));
         $this->assertSame(4, cocoon_analytics_heatmap_level(10777, $scale['thresholds']));
@@ -320,7 +320,7 @@ class AnalyticsHeatmapTest extends TestCase
     }
 
     /**
-     * 四分位数が同値でも通常日と増加日を区別できることをテスト
+     * 境界値が同値でも通常日と増加日を区別できることをテスト
      */
     public function test_level_重複する境界でも増加日は最濃色になる(): void
     {
@@ -360,7 +360,7 @@ class AnalyticsHeatmapTest extends TestCase
             array $completed_pvs,
             string $today
         ): array {
-            $this->assertEquals(array(175, 250, 325), $thresholds);
+            $this->assertEquals(array(250, 325, 385), $thresholds);
             $this->assertSame(array(100, 200, 300, 400), $completed_pvs);
             $this->assertSame('2026-09-01', $today);
 
@@ -458,7 +458,7 @@ class AnalyticsHeatmapTest extends TestCase
 
         $scale = cocoon_analytics_heatmap_scale($this->fourDayMap(), '2026-09-01');
 
-        $this->assertEquals(array(175, 250, 325), $scale['thresholds']);
+        $this->assertEquals(array(250, 325, 385), $scale['thresholds']);
     }
 
     public static function invalidThresholdsProvider(): array
@@ -503,6 +503,163 @@ class AnalyticsHeatmapTest extends TestCase
             'PHPの最大浮動小数点数' => array(PHP_FLOAT_MAX),
             '無限大になる数値文字列' => array('1e309'),
         );
+    }
+
+    /**
+     * 色フィルターを使わない場合は従来と同じ6色を返すことをテスト
+     */
+    public function test_colors_既定の6色を返す(): void
+    {
+        $this->assertSame(
+            array(
+                'level_0' => '#ebedf0',
+                'level_1' => '#c6e48b',
+                'level_2' => '#7bc96f',
+                'level_3' => '#239a3b',
+                'level_4' => '#196127',
+                'outlier' => '#033a16',
+            ),
+            cocoon_analytics_heatmap_colors()
+        );
+    }
+
+    /**
+     * 色フィルターで通常5段階と突出日の色を個別に変更できることをテスト
+     */
+    public function test_colors_フィルターで6色を個別に変更できる(): void
+    {
+        $custom_colors = array(
+            'level_0' => '#111',
+            'level_1' => '#222222',
+            'level_2' => '#333',
+            'level_3' => '#444444',
+            'level_4' => '#555',
+            'outlier' => '#666666',
+        );
+        $this->setFilterCallback(
+            'cocoon_analytics_heatmap_colors',
+            function (array $colors) use ($custom_colors): array {
+                $this->assertSame('#ebedf0', $colors['level_0']);
+                $this->assertSame('#033a16', $colors['outlier']);
+
+                return $custom_colors;
+            }
+        );
+
+        $this->assertSame($custom_colors, cocoon_analytics_heatmap_colors());
+    }
+
+    /**
+     * 未指定色を維持し、不正値と未知キーをCSSへ渡さないことをテスト
+     */
+    public function test_colors_部分変更と不正値をキー単位で処理する(): void
+    {
+        $unsafe_color = '#123456";background:url(javascript:alert(1))';
+        $this->setFilterCallback(
+            'cocoon_analytics_heatmap_colors',
+            static function () use ($unsafe_color): array {
+                return array(
+                    'level_0' => '#ABC',
+                    'level_1' => $unsafe_color,
+                    'level_2' => 123456,
+                    'level_3' => '#12345678',
+                    'outlier' => '#654321',
+                    'unknown' => '#000000',
+                );
+            }
+        );
+
+        $this->assertSame(
+            array(
+                'level_0' => '#ABC',
+                'level_1' => '#c6e48b',
+                'level_2' => '#7bc96f',
+                'level_3' => '#239a3b',
+                'level_4' => '#196127',
+                'outlier' => '#654321',
+            ),
+            cocoon_analytics_heatmap_colors()
+        );
+
+        $output = $this->renderHeatmap(array());
+        $this->assertStringNotContainsString($unsafe_color, $output);
+        $this->assertStringNotContainsString('--cocoon-analytics-heatmap-unknown-color', $output);
+    }
+
+    /**
+     * 配列以外の色フィルター値は既定色へ戻すことをテスト
+     */
+    public function test_colors_配列以外のフィルター値は既定色へ戻す(): void
+    {
+        $default_colors = cocoon_analytics_heatmap_colors();
+        foreach (array('invalid', null, false) as $invalid_colors) {
+            $this->setFilterCallback(
+                'cocoon_analytics_heatmap_colors',
+                static function () use ($invalid_colors): mixed {
+                    return $invalid_colors;
+                }
+            );
+
+            $this->assertSame($default_colors, cocoon_analytics_heatmap_colors());
+        }
+    }
+
+    /**
+     * 色フィルターの6色をカレンダーのCSS変数へ出力することをテスト
+     */
+    public function test_render_heatmap_色フィルターを6個のCSS変数へ出力する(): void
+    {
+        $custom_colors = array(
+            'level_0' => '#101010',
+            'level_1' => '#202020',
+            'level_2' => '#303030',
+            'level_3' => '#404040',
+            'level_4' => '#505050',
+            'outlier' => '#606060',
+        );
+        $this->setFilterCallback(
+            'cocoon_analytics_heatmap_colors',
+            static function () use ($custom_colors): array {
+                return $custom_colors;
+            }
+        );
+
+        $output = $this->renderHeatmap(array());
+
+        foreach ($custom_colors as $key => $color) {
+            $property_key = str_replace('_', '-', $key);
+            $this->assertStringContainsString(
+                '--cocoon-analytics-heatmap-' . $property_key . '-color: ' . $color . ';',
+                $output
+            );
+        }
+    }
+
+    /**
+     * スタイルシートの各表示クラスが対応するCSS変数を参照することをテスト
+     */
+    public function test_stylesheet_各色のCSS変数をセルへ割り当てる(): void
+    {
+        $css = file_get_contents(
+            dirname(__DIR__, 2) . '/lib/page-access/analytics/assets/analytics.css'
+        );
+        $this->assertIsString($css);
+
+        $colors = cocoon_analytics_heatmap_colors();
+        foreach ($colors as $key => $color) {
+            $property_key = str_replace('_', '-', $key);
+            $property = '--cocoon-analytics-heatmap-' . $property_key . '-color';
+            $selector = $key === 'outlier'
+                ? '.cocoon-analytics-heatmap-cell.is-outlier'
+                : '.cocoon-analytics-heatmap-cell.is-' . str_replace('_', '-', $key);
+
+            $this->assertStringContainsString($property . ': ' . $color . ';', $css);
+            $this->assertMatchesRegularExpression(
+                '/' . preg_quote($selector, '/') . '\s*\{\s*background:\s*var\('
+                    . preg_quote($property, '/') . '\);\s*\}/',
+                $css
+            );
+        }
     }
 
     /**
@@ -593,7 +750,7 @@ class AnalyticsHeatmapTest extends TestCase
      */
     public function test_render_heatmap_突出日は専用クラスと説明を出力する(): void
     {
-        $today = current_time('Y-m-d');
+        $today = '2026-09-02';
         $past_date = date('Y-m-d', strtotime($today . ' -1 day'));
         $future_date = date('Y-m-d', strtotime($today . ' +1 day'));
 
@@ -610,12 +767,27 @@ class AnalyticsHeatmapTest extends TestCase
             }
         );
 
-        $output = $this->renderHeatmap(
-            array(
-                $past_date => 800,
-                $future_date => 9000,
-            )
-        );
+        // 未来日を含む週の途中へ基準日を固定した描画条件
+        $had_current_time_callback = array_key_exists('test_mock_current_time_callback', $GLOBALS);
+        $previous_current_time_callback = $GLOBALS['test_mock_current_time_callback'] ?? null;
+        $GLOBALS['test_mock_current_time_callback'] = static function (string $type) use ($today): string|int {
+            $timestamp = strtotime($today);
+            return $type === 'timestamp' ? $timestamp : date($type, $timestamp);
+        };
+        try {
+            $output = $this->renderHeatmap(
+                array(
+                    $past_date => 800,
+                    $future_date => 9000,
+                )
+            );
+        } finally {
+            if ($had_current_time_callback) {
+                $GLOBALS['test_mock_current_time_callback'] = $previous_current_time_callback;
+            } else {
+                unset($GLOBALS['test_mock_current_time_callback']);
+            }
+        }
 
         $past_label = $past_date . ' : 800 PV / 突出日';
         $future_label = $future_date . ' : 9,000 PV';
