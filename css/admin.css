@@ -4181,6 +4181,13 @@ body.wp-admin {
   right: 0;
   font-size: 20px;
 }
+.admin-settings .demo .button-block > [class~=btn-l] {
+  display: block;
+}
+.admin-settings .demo .button-block > [class~=btn-l]::after {
+  top: 50%;
+  transform: translateY(-50%);
+}
 .admin-settings .demo .alignleft .btn-l.has-custom-width, .admin-settings .demo .alignleft .ranking-item-link-buttons a.has-custom-width, .admin-settings .demo .ranking-item-link-buttons .alignleft a.has-custom-width,
 .admin-settings .demo .alignleft.btn-wrap-l.has-custom-width a {
   margin-right: auto;
@@ -12881,6 +12888,13 @@ body.wp-admin {
   position: absolute;
   right: 0;
   font-size: 20px;
+}
+.admin-settings .demo .button-block > [class~=btn-l] {
+  display: block;
+}
+.admin-settings .demo .button-block > [class~=btn-l]::after {
+  top: 50%;
+  transform: translateY(-50%);
 }
 .admin-settings .demo .alignleft .btn-l.has-custom-width, .admin-settings .demo .alignleft .ranking-item-link-buttons a.has-custom-width, .admin-settings .demo .ranking-item-link-buttons .alignleft a.has-custom-width,
 .admin-settings .demo .alignleft.btn-wrap-l.has-custom-width a {
@@ -22148,6 +22162,13 @@ select option.fa::before {
   position: absolute;
   right: 0;
   font-size: 20px;
+}
+.components-popover__content .button-block > [class~=btn-l] {
+  display: block;
+}
+.components-popover__content .button-block > [class~=btn-l]::after {
+  top: 50%;
+  transform: translateY(-50%);
 }
 .components-popover__content .alignleft .btn-l.has-custom-width, .components-popover__content .alignleft .admin-settings .demo .ranking-item-link-buttons a.has-custom-width, .admin-settings .demo .ranking-item-link-buttons .components-popover__content .alignleft a.has-custom-width,
 .components-popover__content .alignleft.btn-wrap-l.has-custom-width a {
