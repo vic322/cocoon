@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-03T22:11:37+00:00\n"
+"POT-Creation-Date: 2026-09-06T21:55:16+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -1292,7 +1292,7 @@ msgstr ""
 #: lib/page-access/access-func.php:752
 #: lib/page-access/analytics/enqueue-func.php:107
 #: lib/page-access/analytics/render-func.php:408
-#: lib/page-access/analytics/render-func.php:923
+#: lib/page-access/analytics/render-func.php:984
 msgid "PV"
 msgstr ""
 
@@ -3766,34 +3766,34 @@ msgstr ""
 msgid "直近%1$d日のPVとその前%1$d日のPVの比較"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:924
+#: lib/page-access/analytics/render-func.php:985
 msgid "突出日"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:940
+#: lib/page-access/analytics/render-func.php:1001
 msgid "色分け基準"
 msgstr ""
 
 #. translators: %s: 最小PV数
-#: lib/page-access/analytics/render-func.php:945
+#: lib/page-access/analytics/render-func.php:1006
 #, php-format
 msgid "%s PV以上"
 msgstr ""
 
 #. translators: %s: PV数
-#: lib/page-access/analytics/render-func.php:948
+#: lib/page-access/analytics/render-func.php:1009
 #, php-format
 msgid "%s PV"
 msgstr ""
 
 #. translators: 1: 最小PV数, 2: 最大PV数
-#: lib/page-access/analytics/render-func.php:951
+#: lib/page-access/analytics/render-func.php:1012
 #, php-format
 msgid "%1$s～%2$s PV"
 msgstr ""
 
 #. translators: %s: 突出日と判定する最小PV数
-#: lib/page-access/analytics/render-func.php:963
+#: lib/page-access/analytics/render-func.php:1024
 #, php-format
 msgid "突出日（%s PV以上）"
 msgstr ""
