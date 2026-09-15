@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-03T22:11:37+00:00\n"
-"PO-Revision-Date: 2026-09-03 22:16\n"
+"POT-Creation-Date: 2026-09-15T22:40:25+00:00\n"
+"PO-Revision-Date: 2026-09-15 22:52\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -142,7 +142,7 @@ msgstr "Archives"
 
 #: functions.php:562
 #: functions.php:563
-#: lib/admin.php:430
+#: lib/admin.php:616
 msgid "パターン一覧"
 msgstr "List of patterns."
 
@@ -315,7 +315,7 @@ msgstr "Box (icon)"
 
 #: lib/admin-tinymce-qtag.php:210
 #: lib/admin-tinymce-qtag.php:537
-#: lib/admin.php:150
+#: lib/admin.php:336
 #: lib/block-editor-styles-group.php:42
 #: lib/block-editor-styles-paragraph.php:77
 #: lib/custom-fields/memo-field.php:17
@@ -1282,11 +1282,107 @@ msgstr "Next post"
 msgid "商品リンクの追加"
 msgstr "Add product link"
 
-#: lib/admin.php:146
+#: lib/admin.php:165
+msgid "設定メニューの表示"
+msgstr ""
+
+#: lib/admin.php:166
+msgid "おすすめ表示では、画面の広さに応じて設定メニューを自動で見やすく切り替えます。設定内容には影響しません。"
+msgstr ""
+
+#: lib/admin.php:167
+msgid "おすすめ表示"
+msgstr ""
+
+#: lib/admin.php:168
+msgid "画面の広さに応じて設定メニューを自動で見やすく切り替えます。"
+msgstr ""
+
+#: lib/admin.php:169
+msgid "従来の表示"
+msgstr ""
+
+#: lib/admin.php:170
+msgid "これまでと同じ順番でタブを表示します。"
+msgstr ""
+
+#: lib/admin.php:171
+msgid "表示モードを保存できませんでした。通信状態を確認して、もう一度お試しください。"
+msgstr ""
+
+#: lib/admin.php:172
+msgid "表示モードの保存期限が切れました。ページを再読み込みしてください。"
+msgstr ""
+
+#: lib/admin.php:173
+msgid "表示モードの保存がタイムアウトしました。通信状態を確認して、もう一度お試しください。"
+msgstr ""
+
+#: lib/admin.php:174
+msgid "Cocoon設定項目"
+msgstr ""
+
+#: lib/admin.php:175
+msgid "設定メニュー"
+msgstr ""
+
+#: lib/admin.php:176
+msgid "設定項目"
+msgstr ""
+
+#: lib/admin.php:177
+#: lib/admin.php:178
+msgid "設定項目を検索"
+msgstr ""
+
+#: lib/admin.php:179
+msgid "該当する設定項目がありません。"
+msgstr ""
+
+#: lib/admin.php:180
+#, php-format
+msgid "%d件の設定項目が見つかりました。"
+msgstr ""
+
+#: lib/admin.php:181
+#: lib/custom-fields/other-field.php:17
+#: lib/custom-fields/other-field.php:19
+#: lib/page-access/analytics/dashboard-page.php:96
+#: lib/page-access/analytics/dashboard-page.php:109
+#: lib/page-access/analytics/dashboard-page.php:121
+#: lib/page-settings/settings-tabs.php:48
+msgid "その他"
+msgstr "Other"
+
+#: lib/admin.php:184
+msgid "外観・レイアウト"
+msgstr ""
+
+#: lib/admin.php:195
+msgid "コンテンツ"
+msgstr ""
+
+#: lib/admin.php:210
+msgid "集客・計測"
+msgstr ""
+
+#: lib/admin.php:221
+msgid "パーツ・導線"
+msgstr ""
+
+#: lib/admin.php:234
+msgid "管理・拡張"
+msgstr ""
+
+#: lib/admin.php:245
+msgid "システム・情報"
+msgstr ""
+
+#: lib/admin.php:332
 msgid "ID"
 msgstr "ID"
 
-#: lib/admin.php:147
+#: lib/admin.php:333
 #: lib/custom-fields/seo-field.php:62
 #: lib/custom-fields/seo-field.php:88
 #: lib/custom-fields/seo-field.php:132
@@ -1295,90 +1391,90 @@ msgstr "ID"
 msgid "文字数"
 msgstr "Character count"
 
-#: lib/admin.php:148
+#: lib/admin.php:334
 #: lib/page-access/access-func.php:752
 #: lib/page-access/analytics/enqueue-func.php:107
 #: lib/page-access/analytics/render-func.php:408
-#: lib/page-access/analytics/render-func.php:923
+#: lib/page-access/analytics/render-func.php:984
 msgid "PV"
 msgstr "PV"
 
-#: lib/admin.php:149
+#: lib/admin.php:335
 #: lib/content-category.php:266
 #: lib/content-tag.php:242
 #: lib/page-settings/editor-forms.php:97
 msgid "アイキャッチ"
 msgstr "Featured image"
 
-#: lib/admin.php:184
+#: lib/admin.php:370
 msgid "　題："
 msgstr "　Title:"
 
-#: lib/admin.php:192
+#: lib/admin.php:378
 msgid "本文："
 msgstr "Body:"
 
-#: lib/admin.php:218
+#: lib/admin.php:404
 msgid "日："
 msgstr "Day:"
 
-#: lib/admin.php:226
+#: lib/admin.php:412
 msgid "週："
 msgstr "Week :"
 
-#: lib/admin.php:234
+#: lib/admin.php:420
 msgid "月："
 msgstr "Month :"
 
-#: lib/admin.php:242
+#: lib/admin.php:428
 msgid "全："
 msgstr "All :"
 
-#: lib/admin.php:327
+#: lib/admin.php:513
 #: lib/tinymce/shortcodes.php:48
 #: blocks/src/toolbutton/dropdown-shortcodes.js:312
 msgid "ショートコード"
 msgstr "Short code"
 
-#: lib/admin.php:415
+#: lib/admin.php:601
 #: lib/page-settings/admin-forms.php:24
 msgid "管理メニュー"
 msgstr "Admin menu"
 
-#: lib/admin.php:421
+#: lib/admin.php:607
 #: lib/page-access/analytics/render-func.php:187
 #: tmp/admin-panel.php:31
 msgid "ダッシュボード"
 msgstr "Dashboard"
 
-#: lib/admin.php:422
+#: lib/admin.php:608
 #: lib/shortcodes.php:528
 msgid "投稿一覧"
 msgstr "Posts"
 
-#: lib/admin.php:423
+#: lib/admin.php:609
 msgid "固定ページ一覧"
 msgstr "Pages"
 
-#: lib/admin.php:424
+#: lib/admin.php:610
 msgid "メディア一覧"
 msgstr "Media"
 
-#: lib/admin.php:425
+#: lib/admin.php:611
 msgid "テーマ"
 msgstr "Themes"
 
-#: lib/admin.php:435
+#: lib/admin.php:621
 msgid "カスタマイズ"
 msgstr "Customize"
 
-#: lib/admin.php:436
+#: lib/admin.php:622
 #: lib/page-settings/settings-tabs.php:44
 #: skins/skin-made-in-heaven/lib/panel-color.php:68
 msgid "ウィジェット"
 msgstr "Widgets"
 
-#: lib/admin.php:437
+#: lib/admin.php:623
 #: skins/skin-made-in-heaven/lib/hook-wp.php:665
 #: skins/skin-made-in-heaven/lib/panel-color.php:75
 #: tmp/mobile-navi-button.php:21
@@ -1386,25 +1482,25 @@ msgstr "Widgets"
 msgid "メニュー"
 msgstr "Menus"
 
-#: lib/admin.php:438
+#: lib/admin.php:624
 msgid "テーマの編集"
 msgstr "Theme editor"
 
-#: lib/admin.php:439
+#: lib/admin.php:625
 msgid "プラグイン一覧"
 msgstr "Plugins"
 
-#: lib/admin.php:483
+#: lib/admin.php:669
 msgid "すべてのユーザー"
 msgstr ""
 
-#: lib/admin.php:539
+#: lib/admin.php:725
 #: blocks/src/block/info-list/edit.js:75
 msgid "カテゴリー検索"
 msgstr "Category search"
 
-#: lib/admin.php:599
-#: lib/admin.php:613
+#: lib/admin.php:785
+#: lib/admin.php:799
 msgid "Excerpt"
 msgstr "Excerpt"
 
@@ -1978,15 +2074,6 @@ msgstr "Enter only the JavaScript codes for the changes on this page. The script
 #: lib/custom-fields/memo-field.php:34
 msgid "この投稿に記録しておきたいメモがある場合は記入してください。"
 msgstr "Enter a note if you want to record one for this post."
-
-#: lib/custom-fields/other-field.php:17
-#: lib/custom-fields/other-field.php:19
-#: lib/page-access/analytics/dashboard-page.php:96
-#: lib/page-access/analytics/dashboard-page.php:109
-#: lib/page-access/analytics/dashboard-page.php:121
-#: lib/page-settings/settings-tabs.php:48
-msgid "その他"
-msgstr "Other"
 
 #: lib/custom-fields/other-field.php:32
 msgid "アーカイブに出力しない"
@@ -3773,34 +3860,34 @@ msgstr ""
 msgid "直近%1$d日のPVとその前%1$d日のPVの比較"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:924
+#: lib/page-access/analytics/render-func.php:985
 msgid "突出日"
 msgstr ""
 
-#: lib/page-access/analytics/render-func.php:940
+#: lib/page-access/analytics/render-func.php:1001
 msgid "色分け基準"
 msgstr ""
 
 #. translators: %s: 最小PV数
-#: lib/page-access/analytics/render-func.php:945
+#: lib/page-access/analytics/render-func.php:1006
 #, php-format
 msgid "%s PV以上"
 msgstr ""
 
 #. translators: %s: PV数
-#: lib/page-access/analytics/render-func.php:948
+#: lib/page-access/analytics/render-func.php:1009
 #, php-format
 msgid "%s PV"
 msgstr ""
 
 #. translators: 1: 最小PV数, 2: 最大PV数
-#: lib/page-access/analytics/render-func.php:951
+#: lib/page-access/analytics/render-func.php:1012
 #, php-format
 msgid "%1$s～%2$s PV"
 msgstr ""
 
 #. translators: %s: 突出日と判定する最小PV数
-#: lib/page-access/analytics/render-func.php:963
+#: lib/page-access/analytics/render-func.php:1024
 #, php-format
 msgid "突出日（%s PV以上）"
 msgstr ""
@@ -12083,7 +12170,7 @@ msgid "テーマ利用マニュアル"
 msgstr "Theme usage manual"
 
 #: lib/page-settings/_top-page.php:169
-#: lib/page-settings/_top-page.php:202
+#: lib/page-settings/_top-page.php:228
 msgid "変更をまとめて保存"
 msgstr "Save all changes"
 
