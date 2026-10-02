@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-09-26T22:19:39+00:00\n"
+"POT-Creation-Date: 2026-09-30T23:23:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -674,7 +674,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:338
 #: lib/admin-tinymce-qtag.php:1693
-#: lib/utils.php:1038
+#: lib/utils.php:1054
 #: tmp/css-custom.php:979
 #: tmp/css-custom.php:1026
 #: blocks/src/block-extension/style-extension/style01.js:58
@@ -707,7 +707,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:488
 #: lib/admin-tinymce-qtag.php:1699
-#: lib/utils.php:1037
+#: lib/utils.php:1053
 #: tmp/css-custom.php:975
 #: tmp/css-custom.php:1023
 #: blocks/src/block/blogcard/deprecated.js:154
@@ -728,7 +728,7 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:1711
 #: lib/page-access/analytics/dashboard-page.php:659
 #: lib/page-access/click-analytics/render-func.php:63
-#: lib/utils.php:1042
+#: lib/utils.php:1058
 #: tmp/css-custom.php:995
 #: tmp/css-custom.php:1038
 #: blocks/src/block/blogcard/deprecated.js:162
@@ -1179,7 +1179,7 @@ msgstr ""
 #: lib/page-access/click-analytics/render-func.php:50
 #: lib/page-settings/image-forms.php:214
 #: lib/page-settings/single-funcs.php:76
-#: lib/utils.php:1033
+#: lib/utils.php:1049
 #: lib/widgets/related-entries.php:19
 #: lib/widgets/related-entries.php:137
 #: lib/widgets/related-entries.php:147
@@ -1192,7 +1192,7 @@ msgid "関連記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1663
-#: lib/utils.php:1034
+#: lib/utils.php:1050
 #: tmp/css-custom.php:963
 #: tmp/css-custom.php:1014
 #: blocks/src/block/blogcard/deprecated.js:130
@@ -1202,7 +1202,7 @@ msgid "参考記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1669
-#: lib/utils.php:1035
+#: lib/utils.php:1051
 #: tmp/css-custom.php:967
 #: tmp/css-custom.php:1017
 #: blocks/src/block/blogcard/deprecated.js:134
@@ -1213,7 +1213,7 @@ msgstr ""
 #: lib/admin-tinymce-qtag.php:1675
 #: lib/page-settings/carousel-forms.php:64
 #: lib/page-settings/image-forms.php:213
-#: lib/utils.php:1036
+#: lib/utils.php:1052
 #: lib/widgets/popular-entries.php:21
 #: lib/widgets/popular-entries.php:137
 #: lib/widgets/popular-entries.php:151
@@ -1229,7 +1229,7 @@ msgid "人気記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1681
-#: lib/utils.php:1039
+#: lib/utils.php:1055
 #: tmp/css-custom.php:983
 #: tmp/css-custom.php:1029
 #: blocks/src/block/blogcard/deprecated.js:142
@@ -1240,7 +1240,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1687
 #: lib/shortcodes.php:1242
-#: lib/utils.php:1040
+#: lib/utils.php:1056
 #: lib/widgets/cta-box.php:34
 #: skins/skin-made-in-heaven/tmp/css-custom.php:10
 #: tmp/css-custom.php:987
@@ -1253,7 +1253,7 @@ msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1705
 #: lib/page-access/click-analytics/render-func.php:62
-#: lib/utils.php:1041
+#: lib/utils.php:1057
 #: tmp/css-custom.php:991
 #: tmp/css-custom.php:1035
 #: blocks/src/block/blogcard/deprecated.js:158
@@ -1263,7 +1263,7 @@ msgid "公式サイト"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1717
-#: lib/utils.php:1043
+#: lib/utils.php:1059
 #: tmp/css-custom.php:999
 #: tmp/css-custom.php:1041
 #: blocks/src/block/blogcard/edit.js:80
@@ -1271,7 +1271,7 @@ msgid "前回の記事"
 msgstr ""
 
 #: lib/admin-tinymce-qtag.php:1723
-#: lib/utils.php:1044
+#: lib/utils.php:1060
 #: tmp/css-custom.php:1003
 #: tmp/css-custom.php:1044
 #: blocks/src/block/blogcard/edit.js:84
@@ -3067,7 +3067,7 @@ msgstr ""
 #: lib/page-access/analytics/render-func.php:230
 #: lib/page-item-ranking/_top-page.php:37
 #: lib/tinymce/item-rankings.php:54
-#: lib/utils.php:1072
+#: lib/utils.php:1088
 #: lib/widgets/item-ranking.php:19
 #: lib/widgets/item-ranking.php:72
 #: blocks/src/block/ranking/edit.js:111
@@ -5384,7 +5384,7 @@ msgid "項目の名前です。タグ・ショートコード入力も可能で�
 msgstr ""
 
 #: lib/page-item-ranking/form.php:131
-#: lib/utils.php:1073
+#: lib/utils.php:1089
 msgid "評価："
 msgstr ""
 
@@ -14495,127 +14495,127 @@ msgstr ""
 msgid "キャンペーン期間中のみ表示"
 msgstr ""
 
-#: lib/utils.php:875
+#: lib/utils.php:891
 msgid "スクロールできます"
 msgstr ""
 
-#: lib/utils.php:933
+#: lib/utils.php:949
 msgid "公開"
 msgstr ""
 
-#: lib/utils.php:934
+#: lib/utils.php:950
 msgid "記事を公開してもよろしいですか？"
 msgstr ""
 
-#: lib/utils.php:1032
+#: lib/utils.php:1048
 #: tmp/css-custom.php:955
 msgid "ラベルなし"
 msgstr ""
 
-#: lib/utils.php:1074
+#: lib/utils.php:1090
 msgid "する"
 msgstr ""
 
-#: lib/utils.php:1075
+#: lib/utils.php:1091
 msgid "続きを読む"
 msgstr ""
 
-#: lib/utils.php:1076
+#: lib/utils.php:1092
 msgid "この記事は参考になりましたか？"
 msgstr ""
 
-#: lib/utils.php:1077
+#: lib/utils.php:1093
 msgid "前の記事を読む"
 msgstr ""
 
-#: lib/utils.php:1078
+#: lib/utils.php:1094
 msgid "次の記事を読む"
 msgstr ""
 
-#: lib/utils.php:1079
+#: lib/utils.php:1095
 msgid "この記事は役に立ちましたか？"
 msgstr ""
 
-#: lib/utils.php:1080
+#: lib/utils.php:1096
 msgid "スキン制御"
 msgstr ""
 
-#: lib/utils.php:2630
+#: lib/utils.php:2646
 msgid "Cocoon："
 msgstr ""
 
-#: lib/utils.php:2631
+#: lib/utils.php:2647
 msgid "「ホームページの表示」が「固定ページ」になっていますが、表示するページが選択されていません。このままでは設定が正常に反映されない場合があります。"
 msgstr ""
 
-#: lib/utils.php:2633
+#: lib/utils.php:2649
 msgid "表示設定を開く"
 msgstr ""
 
-#: lib/utils.php:2757
+#: lib/utils.php:2773
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2765
+#: lib/utils.php:2781
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2773
+#: lib/utils.php:2789
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2781
+#: lib/utils.php:2797
 #, php-format
 msgid "%s週間"
 msgid_plural "%s週間"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2789
-#: lib/utils.php:2804
+#: lib/utils.php:2805
+#: lib/utils.php:2820
 #, php-format
 msgid "%sヶ月"
 msgid_plural "%sヶ月"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2800
-#: lib/utils.php:2803
+#: lib/utils.php:2816
+#: lib/utils.php:2819
 #, php-format
 msgid "%s年"
 msgid_plural "%s年"
 msgstr[0] ""
 msgstr[1] ""
 
-#: lib/utils.php:2805
+#: lib/utils.php:2821
 #, php-format
 msgid "%1$s%2$s"
 msgstr ""
 
-#: lib/utils.php:4436
+#: lib/utils.php:4452
 msgid "<div class=\"blank-box bb-red\">誹謗中傷は予告なく削除します</div>"
 msgstr ""
 
-#: lib/utils.php:4437
+#: lib/utils.php:4453
 #: skins/skin-demo-php/functions.php:45
 msgid "スキンから入力したタイトル"
 msgstr ""
 
-#: lib/utils.php:4438
+#: lib/utils.php:4454
 #: skins/skin-demo-php/functions.php:46
 msgid "スキンから入力したアピールエリアメッセージです。"
 msgstr ""
 
-#: lib/utils.php:4439
+#: lib/utils.php:4455
 #: skins/skin-demo-php/functions.php:47
 msgid "スキンボタンキャプション"
 msgstr ""
