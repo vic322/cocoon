@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-06T01:05:14+00:00\n"
+"POT-Creation-Date: 2026-10-14T22:56:36+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -14601,21 +14601,21 @@ msgstr[1] ""
 msgid "%1$s%2$s"
 msgstr ""
 
-#: lib/utils.php:4452
+#: lib/utils.php:4455
 msgid "<div class=\"blank-box bb-red\">誹謗中傷は予告なく削除します</div>"
 msgstr ""
 
-#: lib/utils.php:4453
+#: lib/utils.php:4456
 #: skins/skin-demo-php/functions.php:45
 msgid "スキンから入力したタイトル"
 msgstr ""
 
-#: lib/utils.php:4454
+#: lib/utils.php:4457
 #: skins/skin-demo-php/functions.php:46
 msgid "スキンから入力したアピールエリアメッセージです。"
 msgstr ""
 
-#: lib/utils.php:4455
+#: lib/utils.php:4458
 #: skins/skin-demo-php/functions.php:47
 msgid "スキンボタンキャプション"
 msgstr ""
