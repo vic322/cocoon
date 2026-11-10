@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-11-08T23:23:41+00:00\n"
+"POT-Creation-Date: 2026-11-10T02:30:38+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 
@@ -1756,13 +1756,13 @@ msgid "%s <span class=\"says\">says:</span>"
 msgstr ""
 
 #: lib/comments.php:50
-#: lib/comments.php:119
+#: lib/comments.php:125
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
 #. translators: 1: date, 2: time
 #: lib/comments.php:57
-#: lib/comments.php:106
+#: lib/comments.php:112
 #, php-format
 msgid "%1$s at %2$s"
 msgstr ""
@@ -1780,16 +1780,15 @@ msgstr ""
 msgid "H:i:s"
 msgstr ""
 
-#: lib/comments.php:104
-#, php-format
-msgid "<span class=\"comment-author-label\">名前:</span><cite class=\"fn comment-author\">%s<span class=\"admin\"></span></a></cite><span class=\"comment-author-separator\"> :</span>"
+#: lib/comments.php:107
+msgid "名前:"
 msgstr ""
 
-#: lib/comments.php:106
+#: lib/comments.php:112
 msgid "投稿日："
 msgstr ""
 
-#: lib/comments.php:116
+#: lib/comments.php:122
 msgid "Edit"
 msgstr ""
 
