@@ -9,8 +9,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-25T22:15:02+00:00\n"
-"PO-Revision-Date: 2026-10-25 22:17\n"
+"POT-Creation-Date: 2026-11-10T02:30:38+00:00\n"
+"PO-Revision-Date: 2026-11-10 02:32\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: wp-cocoon\n"
@@ -1246,7 +1246,7 @@ msgid "あわせて読みたい"
 msgstr "Leia junto"
 
 #: lib/admin-tinymce-qtag.php:1687
-#: lib/shortcodes.php:1242
+#: lib/shortcodes.php:1245
 #: lib/utils.php:1070
 #: lib/widgets/cta-box.php:34
 #: skins/skin-made-in-heaven/tmp/css-custom.php:10
@@ -1763,13 +1763,13 @@ msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"Says\">diz:</span>"
 
 #: lib/comments.php:50
-#: lib/comments.php:119
+#: lib/comments.php:125
 msgid "Your comment is awaiting moderation."
 msgstr "Seu comentário está aguardando moderação."
 
 #. translators: 1: date, 2: time
 #: lib/comments.php:57
-#: lib/comments.php:106
+#: lib/comments.php:112
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s às %2$s"
@@ -1787,16 +1787,15 @@ msgstr "j F, Y (D)"
 msgid "H:i:s"
 msgstr "H:i:s"
 
-#: lib/comments.php:104
-#, php-format
-msgid "<span class=\"comment-author-label\">名前:</span><cite class=\"fn comment-author\">%s<span class=\"admin\"></span></a></cite><span class=\"comment-author-separator\"> :</span>"
-msgstr "<span class=\"comment-author-label\">Nome:</span><cite class=\"fn comment-author\">%s<span class=\"admin\"></span></a></cite><span class=\"comment-author-separator\"> :</span>"
+#: lib/comments.php:107
+msgid "名前:"
+msgstr ""
 
-#: lib/comments.php:106
+#: lib/comments.php:112
 msgid "投稿日："
 msgstr "Data de publicação:"
 
-#: lib/comments.php:116
+#: lib/comments.php:122
 msgid "Edit"
 msgstr "Editar"
 
@@ -2928,7 +2927,7 @@ msgid "人気記事は見つかりませんでした。"
 msgstr "Não foram encontrados artigos populares."
 
 #: lib/html-forms.php:1314
-#: lib/html-forms.php:1858
+#: lib/html-forms.php:1860
 msgid "記事は見つかりませんでした。"
 msgstr "Nenhum artigo encontrado."
 
@@ -2946,32 +2945,32 @@ msgstr "NENHUM USUÁRIO"
 msgid "管理者用エラーメッセージ"
 msgstr "Mensagens de erro para o administrador"
 
-#: lib/html-forms.php:1714
+#: lib/html-forms.php:1716
 msgid "おすすめ"
 msgstr "Recomendado"
 
-#: lib/html-forms.php:1717
+#: lib/html-forms.php:1719
 #: skins/skin-made-in-heaven/tmp/css-custom.php:15
 msgid "新着"
 msgstr "Novos posts"
 
-#: lib/html-forms.php:1720
+#: lib/html-forms.php:1722
 #: skins/skin-made-in-heaven/tmp/css-custom.php:16
 msgid "注目"
 msgstr "Destaques"
 
-#: lib/html-forms.php:1723
+#: lib/html-forms.php:1725
 #: skins/skin-made-in-heaven/tmp/css-custom.php:17
 msgid "必見"
 msgstr "Imperdível"
 
-#: lib/html-forms.php:1726
+#: lib/html-forms.php:1728
 #: skins/skin-made-in-heaven/tmp/css-custom.php:18
 msgid "お得"
 msgstr "Grandes ofertas"
 
-#: lib/html-forms.php:1769
-#: lib/shortcodes.php:1071
+#: lib/html-forms.php:1771
+#: lib/shortcodes.php:1074
 #: lib/widgets/info-list.php:19
 #: lib/widgets/info-list.php:96
 #: lib/widgets/info-list.php:105
@@ -3298,16 +3297,16 @@ msgid "アクセス集計の詳細を見る"
 msgstr ""
 
 #: lib/page-access/analytics/ajax-func.php:21
-#: lib/page-access/analytics/map-post-picker.php:106
+#: lib/page-access/analytics/map-post-picker.php:132
 msgid "（無題）"
 msgstr ""
 
-#: lib/page-access/analytics/ajax-func.php:103
+#: lib/page-access/analytics/ajax-func.php:108
 msgid "(タイトルなし)"
 msgstr ""
 
-#: lib/page-access/analytics/ajax-func.php:244
-#: lib/page-access/analytics/ajax-func.php:284
+#: lib/page-access/analytics/ajax-func.php:249
+#: lib/page-access/analytics/ajax-func.php:289
 #: lib/page-access/analytics/dashboard-page.php:520
 #: lib/page-access/analytics/dashboard-page.php:540
 msgid "不明"
@@ -3824,7 +3823,7 @@ msgid "記事を検索中..."
 msgstr ""
 
 #: lib/page-access/analytics/enqueue-func.php:164
-#: lib/page-access/analytics/map-post-picker.php:118
+#: lib/page-access/analytics/map-post-picker.php:144
 msgid "人気記事トップ10"
 msgstr ""
 
@@ -3858,17 +3857,17 @@ msgstr ""
 msgid "対象が不正です。"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:87
+#: lib/page-access/analytics/map-post-picker.php:112
 #: lib/page-access/click-analytics/filter-func.php:8
 msgid "PC"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:87
+#: lib/page-access/analytics/map-post-picker.php:112
 #: lib/page-access/click-analytics/filter-func.php:8
 msgid "タブレット"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:87
+#: lib/page-access/analytics/map-post-picker.php:112
 #: lib/page-access/click-analytics/filter-func.php:8
 #: lib/page-settings/settings-tabs.php:39
 #: skins/silk/functions.php:229
@@ -3876,25 +3875,25 @@ msgid "モバイル"
 msgstr "Móvel"
 
 #. translators: %s: クリックマップの表示端末名
-#: lib/page-access/analytics/map-post-picker.php:94
+#: lib/page-access/analytics/map-post-picker.php:119
 #, php-format
 msgid "%sのクリック記録なし"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:107
+#: lib/page-access/analytics/map-post-picker.php:133
 msgid "アクセスの多い記事から選ぶ"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:110
+#: lib/page-access/analytics/map-post-picker.php:136
 msgid "クリック元記事:"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:116
+#: lib/page-access/analytics/map-post-picker.php:142
 #: lib/page-access/analytics/render-func.php:172
 msgid "記事の選択を解除"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:118
+#: lib/page-access/analytics/map-post-picker.php:144
 #: lib/page-access/click-analytics/render-func.php:125
 #: lib/page-settings/toc-forms.php:119
 #: lib/page-settings/toc-funcs.php:86
@@ -3903,16 +3902,16 @@ msgstr ""
 msgid "閉じる"
 msgstr "Fechar"
 
-#: lib/page-access/analytics/map-post-picker.php:119
-#: lib/page-access/analytics/map-post-picker.php:120
+#: lib/page-access/analytics/map-post-picker.php:145
+#: lib/page-access/analytics/map-post-picker.php:146
 msgid "ほかの記事を検索"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:122
+#: lib/page-access/analytics/map-post-picker.php:148
 msgid "記事候補"
 msgstr ""
 
-#: lib/page-access/analytics/map-post-picker.php:124
+#: lib/page-access/analytics/map-post-picker.php:150
 msgid "再試行"
 msgstr ""
 
@@ -11219,7 +11218,7 @@ msgid "関連記事見出し"
 msgstr "Título dos artigos relacionados"
 
 #: lib/page-settings/single-forms.php:145
-#: lib/shortcodes.php:1238
+#: lib/shortcodes.php:1241
 #: lib/widgets/cta-box.php:117
 #: blocks/src/block-universal/caption-box/deprecated.js:25
 #: blocks/src/block-universal/caption-box/edit.js:20
@@ -13917,27 +13916,27 @@ msgstr "anos"
 msgid "月別アーカイブ"
 msgstr "Arquivo mensal"
 
-#: lib/shortcodes.php:919
+#: lib/shortcodes.php:922
 msgid "RSSフィードを取得できません"
 msgstr "Não é possível obter o feed RSS"
 
-#: lib/shortcodes.php:1044
+#: lib/shortcodes.php:1047
 msgid "updatedショートコードは投稿・固定ページ以外では利用できません。"
 msgstr "O código curto de atualização só pode ser usado em postagens e páginas fixas."
 
-#: lib/shortcodes.php:1168
+#: lib/shortcodes.php:1171
 msgid "保存エラー"
 msgstr "Salvar erro"
 
-#: lib/shortcodes.php:1186
+#: lib/shortcodes.php:1189
 msgid "エラー："
 msgstr "Erro: "
 
-#: lib/shortcodes.php:1326
+#: lib/shortcodes.php:1329
 msgid "A,B,C,D,E"
 msgstr ""
 
-#: lib/shortcodes.php:1438
+#: lib/shortcodes.php:1441
 msgid "総計"
 msgstr "Total"
 
